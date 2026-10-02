@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ses_f2726690cffeQSUtCb9LtfpFLw",
+    "slug": "eager-harbor",
+    "projectID": "global",
+    "directory": "C:\\Users\\demo",
+    "path": "Users/demo",
+    "summary": {"additions": 0, "deletions": 0, "files": 0},
+    "cost": 0,
+    "tokens": {"input": 31526, "output": 211, "reasoning": 411, "cache": {"read": 896, "write": 0}},
+    "title": "process-risk-analysis",
+    "agent": "code",
+    "model": {"id": "glm-5.3", "providerID": "zhipuai-coding-plan", "variant": "default"},
+    "version": "7.6.2",
+    "time": {"created": 1790344533747, "updated": 1790344575663},
+    "permission": [
+      {"permission": "question", "pattern": "*", "action": "deny"},
+      {"permission": "suggest", "pattern": "*", "action": "deny"}
+    ]
+  },
+  {
+    "id": "ses_f2bbab55cffeOJzfhN74BIBYvX",
+    "slug": "jolly-circuit",
+    "projectID": "global",
+    "directory": "H:\\code\\demo-project",
+    "path": "code/demo-project",
+    "parentID": "ses_f2bbcf97effeVKyqXcJ0WdfJc5",
+    "summary": {"additions": 0, "deletions": 0, "files": 0},
+    "cost": 0,
+    "tokens": {"input": 114217, "output": 14730, "reasoning": 21716, "cache": {"read": 8167168, "write": 0}},
+    "title": "explore subagent session",
+    "agent": "explore",
+    "model": {"id": "glm-5.3", "providerID": "zhipuai-coding-plan", "variant": "max"},
+    "version": "7.7.7",
+    "time": {"created": 1790267706019, "updated": 1790268414311}
+  }
+]

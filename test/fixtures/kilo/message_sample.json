@@ -1,0 +1,22 @@
+[
+  {
+    "info": {
+      "id": "msg_0d8d9a087001pZuU0b2jKMme4J",
+      "sessionID": "ses_f2726690cffeQSUtCb9LtfpFLw",
+      "role": "user",
+      "time": {"created": 1790344536199},
+      "summary": {"diffs": []},
+      "agent": "code",
+      "model": {"providerID": "zhipuai-coding-plan", "modelID": "glm-5.3"}
+    },
+    "parts": [
+      {
+        "id": "prt_0d8d9a0ae0010kXJFUv1JkZ8mF",
+        "sessionID": "ses_f2726690cffeQSUtCb9LtfpFLw",
+        "messageID": "msg_0d8d9a087001pZuU0b2jKMme4J",
+        "type": "text",
+        "text": "sample user message"
+      }
+    ]
+  }
+]

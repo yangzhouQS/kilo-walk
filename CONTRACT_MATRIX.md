@@ -41,6 +41,29 @@ CodeWalk follows ADR-023: official OpenCode docs/source are the primary contract
 | Permissions/questions | Official OpenCode docs explicitly list `/session/:id/permissions/:permissionID`; local docs do not describe current question endpoints | CodeWalk uses the documented session-scoped permission reply route first and includes `remember: true` for `always` replies; the existing top-level legacy fallback remains for mixed server generations. Question reply/reject flows remain top-level. | `lib/data/datasources/chat_remote_datasource.dart`, `lib/presentation/widgets/permission_request_card.dart` | High: likely drift or mixed-version compatibility area. | Verify against live `/doc` and upstream source before broader route migrations; keep clearly marked as needs verification. |
 | Advanced official surfaces (`/mcp`, `/lsp`, `/formatter`, `/experimental/tool`, `/file/status`) | Official OpenCode contract in `ai-docs/opencode_server.md` | Not yet consumed or only weakly represented in the UI. | `lib/data/datasources/app_remote_datasource.dart`, `lib/data/datasources/project_remote_datasource.dart`, settings/UI layers | Medium: missed product value if never surfaced; drift if surfaced without capability gating. | Treat as later capability-gated work after contract hardening and core UX cleanup. |
 
+## Kilo Server Compatibility (ADR-049)
+
+The Kilo CLI/TUI embedded server is an OpenCode-family **superset**; see the
+local anchor `ai-docs/kilo_server.md` for the live probe evidence. Per-surface
+status against this matrix:
+
+| Surface | Kilo server status |
+| --- | --- |
+| `prompt_async` lifecycle | Endpoint present; round-trip with server-assigned IDs pending M2 verification |
+| SSE `/event`, `/global/event` | Same `id`/`type`/`properties` envelope observed (`server.connected` sampled); event-type union pending sampling |
+| Session list/detail | Compatible; singular `parentID` already tolerated, string `path` already guarded, additive keys ignored |
+| Session status / actions | All action endpoints present (`share` `diff` `todo` `revert` `unrevert` `init` `summarize` `command` `abort` `fork`) |
+| Config sync | `GET/PATCH /config` present (plus `/config/effective` etc.); ADR-019 busy-deferral path unchanged |
+| Providers/agents/models/commands | Present; `model` as `providerID/modelID` string matches selection sync |
+| Project/file/search/VCS/worktree | All present, including `/file/status` |
+| Permissions/questions | Both generations present (session-scoped reply routes and top-level fallback) |
+| PTY | Present and richer (`/pty/shells`, `connect-token`); handshake verification pending |
+| Kilo-specific supersets | `/kilo/*`, `/kilocode/*`, `/tui/*`, `/api/*`, `/memory/*`, `/mcp/*`, `/network/*`, `/suggestion/*`, `/sync/*` — capability-gate before any use |
+
+Adaptation strategy: **A (direct connection, tolerant parsing)** — no
+datasource fork. Unknown event types must stay safe-ignored per existing
+reducer behavior.
+
 ## Confirmed Safe to Build On
 
 - `prompt_async` plus provider-level SSE remains the correct baseline for CodeWalk.

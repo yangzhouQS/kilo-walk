@@ -3775,3 +3775,30 @@ Fully compliant, not an exception. No endpoint, schema, event, or lifecycle sema
 - `lib/presentation/providers/chat_provider/chat_provider_cache_persistence_ops.dart` — `_scheduleCurrentSessionIdPersist`, ordered per-scope queue.
 - `lib/data/datasources/app_local_datasource_storage_helpers.dart` — oversized regenerable catalog drain.
 - `test/unit/providers/chat_provider_session_ops_test.dart` — switch persistence timing + latest-wins tests.
+
+## ADR-049: Kilo Server Compatibility and Contract Source
+
+Status: accepted (2026-10-03)
+
+### Context
+
+Kilo-Walk needs to connect to the Kilo CLI/TUI embedded HTTP server (loopback 4096 by default, LAN via hostname/port-forward) for LAN conversation sync while keeping Basic Auth. ADR-023 requires a contract anchor plus a documented compatibility decision before behavior work.
+
+### Decision
+
+1. `ai-docs/kilo_server.md` is the local contract anchor for the Kilo server, captured from a live probe (server versions 7.6.x-7.7.x). It records endpoint availability, payload shapes, and open verification items.
+2. Verdict: the Kilo server is an OpenCode-family superset. Every consumed surface in `CONTRACT_MATRIX.md` is present with the same envelope shapes (`info`+`parts` messages, `id`/`type`/`properties` SSE events, singular `parentID` already tolerated, string `path` already guarded). We adopt **Strategy A: direct connection with tolerant parsing**. No datasource fork.
+3. `ServerProfile` gains an advisory `serverKind` (`opencode` default, `kilo`) with tolerant fallback so legacy persisted profiles remain valid. Both kinds share the wire protocol today; the kind drives diagnostics copy and follow-up capability gating only.
+4. Basic Auth is retained unchanged: origin-scoped injection in `DioClient` applies to kilo servers as-is.
+
+### Follow-ups (explicitly deferred)
+
+- Kilo preset entry in the add-server UI (fills `http://<lan-ip>:4096` + hint).
+- Quota module hiding for kilo profiles (currently inert-by-degradation after the OAuth fallback scrub; harmless reads).
+- PTY handshake verification against `/pty/{id}/connect` before enabling the terminal on kilo profiles.
+- Full SSE event-union sampling during M2 verification; unknown types must remain safe-ignored.
+
+### Verification
+
+- `test/unit/domain/server_profile_kilo_test.dart` covers kind serialization, fallback, copyWith, equality, and kilo session payload tolerance.
+- Fixtures captured in `test/fixtures/kilo/` mirror the anchor shapes.
