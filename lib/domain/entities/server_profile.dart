@@ -1,11 +1,14 @@
 import 'package:equatable/equatable.dart';
 
+import 'server_kind.dart';
+
 class ServerProfile extends Equatable {
   factory ServerProfile.fromJson(Map<String, dynamic> json) {
     return ServerProfile(
       id: json['id'] as String? ?? '',
       url: json['url'] as String? ?? '',
       label: json['label'] as String?,
+      serverKind: ServerKind.fromName(json['serverKind'] as String?),
       basicAuthEnabled: json['basicAuthEnabled'] as bool? ?? false,
       basicAuthUsername: json['basicAuthUsername'] as String? ?? '',
       basicAuthPassword: json['basicAuthPassword'] as String? ?? '',
@@ -21,6 +24,7 @@ class ServerProfile extends Equatable {
     required this.id,
     required this.url,
     this.label,
+    this.serverKind = ServerKind.opencode,
     this.basicAuthEnabled = false,
     this.basicAuthUsername = '',
     this.basicAuthPassword = '',
@@ -34,6 +38,9 @@ class ServerProfile extends Equatable {
   final String id;
   final String url;
   final String? label;
+
+  /// OpenCode-family server variant for this profile (ADR-049).
+  final ServerKind serverKind;
   final bool basicAuthEnabled;
   final String basicAuthUsername;
   final String basicAuthPassword;
@@ -51,11 +58,14 @@ class ServerProfile extends Equatable {
     return url;
   }
 
+  bool get isKilo => serverKind == ServerKind.kilo;
+
   Map<String, dynamic> toJson() {
     return <String, dynamic>{
       'id': id,
       'url': url,
       'label': label,
+      'serverKind': serverKind.name,
       'basicAuthEnabled': basicAuthEnabled,
       'basicAuthUsername': basicAuthUsername,
       'basicAuthPassword': basicAuthPassword,
@@ -71,6 +81,7 @@ class ServerProfile extends Equatable {
     String? id,
     String? url,
     String? label,
+    ServerKind? serverKind,
     bool? basicAuthEnabled,
     String? basicAuthUsername,
     String? basicAuthPassword,
@@ -84,6 +95,7 @@ class ServerProfile extends Equatable {
       id: id ?? this.id,
       url: url ?? this.url,
       label: label ?? this.label,
+      serverKind: serverKind ?? this.serverKind,
       basicAuthEnabled: basicAuthEnabled ?? this.basicAuthEnabled,
       basicAuthUsername: basicAuthUsername ?? this.basicAuthUsername,
       basicAuthPassword: basicAuthPassword ?? this.basicAuthPassword,
@@ -101,6 +113,7 @@ class ServerProfile extends Equatable {
     id,
     url,
     label,
+    serverKind,
     basicAuthEnabled,
     basicAuthUsername,
     basicAuthPassword,

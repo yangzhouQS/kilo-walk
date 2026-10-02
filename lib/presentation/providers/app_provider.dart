@@ -17,6 +17,7 @@ import '../../core/tailscale/tailscale_http_adapter.dart';
 import '../../core/tailscale/tailscale_service.dart';
 import '../../data/datasources/app_local_datasource.dart';
 import '../../domain/entities/app_info.dart';
+import '../../domain/entities/server_kind.dart';
 import '../../domain/entities/server_profile.dart';
 import '../../domain/usecases/check_connection.dart';
 import '../../domain/usecases/get_app_info.dart';
@@ -1188,6 +1189,7 @@ class AppProvider extends ChangeNotifier {
   Future<bool> addServerProfile({
     required String url,
     String? label,
+    ServerKind serverKind = ServerKind.opencode,
     bool basicAuthEnabled = false,
     String basicAuthUsername = '',
     String basicAuthPassword = '',
@@ -1234,6 +1236,7 @@ class AppProvider extends ChangeNotifier {
       id: _generateServerId(),
       url: normalized,
       label: label?.trim().isEmpty ?? true ? null : label!.trim(),
+      serverKind: serverKind,
       basicAuthEnabled: oauthEnabled ? false : basicAuthEnabled,
       basicAuthUsername: oauthEnabled ? '' : basicAuthUsername.trim(),
       basicAuthPassword: oauthEnabled ? '' : basicAuthPassword.trim(),
@@ -1269,6 +1272,7 @@ class AppProvider extends ChangeNotifier {
     required String id,
     required String url,
     String? label,
+    ServerKind? serverKind,
     required bool basicAuthEnabled,
     required String basicAuthUsername,
     required String basicAuthPassword,
@@ -1326,6 +1330,7 @@ class AppProvider extends ChangeNotifier {
     final updated = previous.copyWith(
       url: normalized,
       label: label?.trim().isEmpty ?? true ? null : label!.trim(),
+      serverKind: serverKind,
       basicAuthEnabled: oauthEnabled ? false : basicAuthEnabled,
       basicAuthUsername: oauthEnabled ? '' : basicAuthUsername.trim(),
       basicAuthPassword: oauthEnabled ? '' : basicAuthPassword.trim(),
