@@ -385,6 +385,10 @@ extension _ChatPageWorkspaceController on _ChatPageState {
         initialDirectory: defaultDirectory,
         onCloseProject: _closeProjectFromSelector,
         onArchiveProject: _archiveClosedProjectFromSelector,
+        sessionDirectories: context
+            .read<ChatProvider>()
+            .knownSessionDirectories()
+            .toList(growable: false),
         onSearch: (query) async {
           if (appProvider.activeServerId != serverId) return const [];
           final root = _directorySuggestionSearchRoot(query, defaultDirectory);

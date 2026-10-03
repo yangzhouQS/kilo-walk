@@ -725,6 +725,49 @@ extension _ChatPageScaffold on _ChatPageState {
     for (var index = 0; index < openProjects.length; index += 1) {
       final project = openProjects[index];
       final selected = project.id == currentProjectId;
+      if (_isGlobalLikeProject(project)) {
+        // ADR-049: kilo files sessions from non-git working directories
+        // under the global project, so split that bucket into per-directory
+        // groups to keep the sidebar grouping accurate.
+        final split = _splitGlobalSessionsByDirectory(
+          chatProvider: chatProvider,
+          project: project,
+        );
+        if (split.directoryEntries.isNotEmpty) {
+          for (final entry in split.directoryEntries) {
+            children.add(
+              _buildGlobalDirectoryTile(
+                chatProvider: chatProvider,
+                directory: entry.directory,
+                sessions: entry.sessions,
+                latestTime: entry.latestTime,
+                selectedDirectory:
+                    projectProvider.currentDirectory != null &&
+                    areEquivalentFilePaths(
+                      projectProvider.currentDirectory!,
+                      entry.directory,
+                    ),
+                closeOnSelect: closeOnSelect,
+                isMobileLayout: isMobileLayout,
+              ),
+            );
+            children.add(SizedBox(height: isMobileLayout ? 6 : 4));
+          }
+          if (split.restSessions.isNotEmpty) {
+            children.add(
+              _buildProjectGroupTile(
+                chatProvider: chatProvider,
+                project: project,
+                selected: selected,
+                closeOnSelect: closeOnSelect,
+                isMobileLayout: isMobileLayout,
+                sessionsOverride: split.restSessions,
+              ),
+            );
+          }
+          continue;
+        }
+      }
       children.add(
         _buildProjectGroupTile(
           chatProvider: chatProvider,
@@ -1107,15 +1150,145 @@ extension _ChatPageScaffold on _ChatPageState {
     });
   }
 
+  bool _isGlobalLikeProject(Project project) {
+    final path = project.path.trim();
+    return path.isEmpty || path == '/' || path == '-';
+  }
+
+  ({List<({String directory, List<ChatSession> sessions, DateTime latestTime})> directoryEntries, List<ChatSession> restSessions})
+  _splitGlobalSessionsByDirectory({
+    required ChatProvider chatProvider,
+    required Project project,
+  }) {
+    final sessions = chatProvider.visibleSessionsForScopeId(
+      _scopeIdForProject(project),
+    );
+    final byDirectory = <String, List<ChatSession>>{};
+    final latestByDirectory = <String, DateTime>{};
+    final rest = <ChatSession>[];
+    for (final session in sessions) {
+      final directory = session.directory?.trim();
+      if (directory == null || directory.isEmpty) {
+        rest.add(session);
+        continue;
+      }
+      final normalized = normalizeFilePath(directory);
+      byDirectory.putIfAbsent(normalized, () => <ChatSession>[]).add(session);
+      final latest = latestByDirectory[normalized];
+      if (latest == null || session.time.isAfter(latest)) {
+        latestByDirectory[normalized] = session.time;
+      }
+    }
+    if (byDirectory.isEmpty ||
+        (byDirectory.length == 1 && rest.isEmpty)) {
+      return (directoryEntries: const [], restSessions: rest);
+    }
+    final entries =
+        byDirectory.entries
+            .map(
+              (entry) => (
+                directory: entry.key,
+                sessions: entry.value,
+                latestTime: latestByDirectory[entry.key]!,
+              ),
+            )
+            .toList()
+          ..sort((a, b) => b.latestTime.compareTo(a.latestTime));
+    return (directoryEntries: entries, restSessions: rest);
+  }
+
+  Future<void> _switchDirectoryFromSidebar({
+    required String directory,
+    required bool closeOnSelect,
+  }) async {
+    await _switchDirectoryContext(directory);
+    if (!mounted) {
+      return;
+    }
+    _closeDrawerIfNeeded(closeOnSelect: closeOnSelect);
+  }
+
+  Widget _buildGlobalDirectoryTile({
+    required ChatProvider chatProvider,
+    required String directory,
+    required List<ChatSession> sessions,
+    required DateTime latestTime,
+    required bool selectedDirectory,
+    required bool closeOnSelect,
+    required bool isMobileLayout,
+  }) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final selectedForeground = colorScheme.primary;
+    final secondaryForeground = colorScheme.onSurfaceVariant;
+    final displayName = fileBasename(directory);
+    return Material(
+      color: Colors.transparent,
+      borderRadius: BorderRadius.circular(16),
+      child: SidebarSelectionIndicator(
+        selected: selectedDirectory,
+        padding: const EdgeInsetsDirectional.only(start: 3),
+        child: ListTile(
+          key: ValueKey<String>('global_directory_tile_$directory'),
+          dense: _useDenseListTiles(context),
+          visualDensity: isMobileLayout ? VisualDensity.compact : null,
+          contentPadding: EdgeInsets.symmetric(
+            horizontal: isMobileLayout ? 6 : 8,
+          ),
+          leading: Icon(
+            Symbols.folder,
+            size: 20,
+            color: selectedDirectory
+                ? selectedForeground
+                : secondaryForeground,
+          ),
+          title: Text(
+            displayName,
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+              color: selectedDirectory ? selectedForeground : null,
+              fontWeight: selectedDirectory ? FontWeight.w700 : null,
+            ),
+          ),
+          subtitle: Text(
+            directory,
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: secondaryForeground,
+            ),
+          ),
+          selected: selectedDirectory,
+          onTap: () => unawaited(
+            _switchDirectoryFromSidebar(
+              directory: directory,
+              closeOnSelect: closeOnSelect,
+            ),
+          ),
+          trailing: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8),
+            child: Text(
+              '${sessions.length}',
+              style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                color: selectedDirectory
+                    ? selectedForeground
+                    : secondaryForeground,
+                fontWeight: selectedDirectory ? FontWeight.w700 : null,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _buildProjectGroupTile({
     required ChatProvider chatProvider,
     required Project project,
     required bool selected,
     required bool closeOnSelect,
     required bool isMobileLayout,
+    List<ChatSession>? sessionsOverride,
   }) {
     final scopeId = _scopeIdForProject(project);
-    final sessions = chatProvider.visibleSessionsForScopeId(scopeId);
+    final sessions = sessionsOverride ??
+        chatProvider.visibleSessionsForScopeId(scopeId);
     // Show every cached session for the directory when expanded, not just a
     // bounded preview, so the sidebar mirrors the full server-side list.
     final preview = sessions;

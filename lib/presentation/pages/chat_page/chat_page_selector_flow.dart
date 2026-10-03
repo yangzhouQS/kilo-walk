@@ -61,12 +61,19 @@ class _ProjectOpenDialog extends StatefulWidget {
     required this.onSearch,
     required this.onCloseProject,
     required this.onArchiveProject,
+    this.sessionDirectories = const <String>[],
   });
 
   final String initialDirectory;
   final Future<List<FileNode>> Function(String query) onSearch;
   final Future<void> Function(String id) onCloseProject;
   final Future<void> Function(String id) onArchiveProject;
+
+  /// Directories observed on real sessions. Kilo keys `/project` by git
+  /// worktree root, so non-git working directories (ADR-049) only surface
+  /// through the sessions that used them; injecting them keeps those paths
+  /// searchable and selectable here.
+  final List<String> sessionDirectories;
 
   @override
   State<_ProjectOpenDialog> createState() => _ProjectOpenDialogState();
@@ -200,6 +207,28 @@ class _ProjectOpenDialogState extends State<_ProjectOpenDialog> {
                   project: project,
                   open: projects.openProjectIds.contains(project.id),
                 ),
+              );
+            }
+            for (final directory in widget.sessionDirectories) {
+              final normalized = normalizeFilePath(directory);
+              if (normalized.isEmpty || byPath.containsKey(normalized)) {
+                continue;
+              }
+              final matched = [
+                ...projects.openProjects,
+                ...projects.closedProjects,
+              ].where(
+                (project) => areEquivalentFilePaths(project.path, normalized),
+              ).firstOrNull;
+              byPath[normalized] = (
+                node: FileNode(
+                  path: normalized,
+                  name: fileBasename(normalized),
+                  type: FileNodeType.directory,
+                ),
+                project: matched,
+                open: matched != null &&
+                    projects.openProjectIds.contains(matched.id),
               );
             }
             for (final node in _remote) {

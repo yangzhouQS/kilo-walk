@@ -1517,6 +1517,30 @@ class ChatProvider extends ChangeNotifier {
     return recent;
   }
 
+  /// Distinct session directories known across the active scope and cached
+  /// context snapshots. ADR-049: kilo groups sessions by directory when the
+  /// working directory is not a git worktree root, so these directories are
+  /// the authoritative source for directory-based project entries that
+  /// `/project` (worktree-keyed) does not list.
+  Set<String> knownSessionDirectories() {
+    final directories = <String>{};
+    void collect(Iterable<ChatSession> sessions) {
+      for (final session in sessions) {
+        final directory = session.directory?.trim();
+        if (directory == null || directory.isEmpty) {
+          continue;
+        }
+        directories.add(directory);
+      }
+    }
+
+    collect(_sessions);
+    for (final snapshot in _contextSnapshots.values) {
+      collect(snapshot.sessions);
+    }
+    return directories;
+  }
+
   List<ChatSession> visibleSessionsForScopeId(String scopeId) {
     final normalizedScopeId = scopeId.trim();
     if (normalizedScopeId.isEmpty) {
