@@ -1116,7 +1116,9 @@ extension _ChatPageScaffold on _ChatPageState {
   }) {
     final scopeId = _scopeIdForProject(project);
     final sessions = chatProvider.visibleSessionsForScopeId(scopeId);
-    final preview = sessions.take(6).toList(growable: false);
+    // Show every cached session for the directory when expanded, not just a
+    // bounded preview, so the sidebar mirrors the full server-side list.
+    final preview = sessions;
     final hasSnapshot = chatProvider.hasSnapshotForScopeId(scopeId);
     final expanded = _isProjectGroupExpanded(
       projectId: project.id,
@@ -1154,7 +1156,6 @@ extension _ChatPageScaffold on _ChatPageState {
               ),
               title: Text(
                 displayName,
-                overflow: TextOverflow.ellipsis,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                   color: selected ? selectedForeground : null,
                   fontWeight: selected ? FontWeight.w700 : null,
@@ -1162,15 +1163,10 @@ extension _ChatPageScaffold on _ChatPageState {
               ),
               subtitle: subtitle == displayName
                   ? null
-                  : Directionality(
-                      textDirection: TextDirection.rtl,
-                      child: Text(
-                        subtitle,
-                        textAlign: TextAlign.left,
-                        overflow: TextOverflow.ellipsis,
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: secondaryForeground,
-                        ),
+                  : Text(
+                      subtitle,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: secondaryForeground,
                       ),
                     ),
               selected: selected,
