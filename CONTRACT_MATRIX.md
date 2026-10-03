@@ -49,16 +49,16 @@ status against this matrix:
 
 | Surface | Kilo server status |
 | --- | --- |
-| `prompt_async` lifecycle | Endpoint present; round-trip with server-assigned IDs pending M2 verification |
-| SSE `/event`, `/global/event` | Same `id`/`type`/`properties` envelope observed (`server.connected` sampled); event-type union pending sampling |
+| `prompt_async` lifecycle | **Verified live**: parts+nested model shape accepted, 204 empty response, server-assigned assistant IDs, `time.completed` for polling |
+| SSE `/event`, `/global/event` | **Verified live**: same envelope; census includes `sync` (kilo-specific, safe-ignore), `session.turn.open/close`, `session.idle`, `message.part.delta` |
 | Session list/detail | Compatible; singular `parentID` already tolerated, string `path` already guarded, additive keys ignored |
 | Session status / actions | All action endpoints present (`share` `diff` `todo` `revert` `unrevert` `init` `summarize` `command` `abort` `fork`) |
 | Config sync | `GET/PATCH /config` present (plus `/config/effective` etc.); ADR-019 busy-deferral path unchanged |
 | Providers/agents/models/commands | Present; `model` as `providerID/modelID` string matches selection sync |
 | Project/file/search/VCS/worktree | All present, including `/file/status` |
 | Permissions/questions | Both generations present (session-scoped reply routes and top-level fallback) |
-| PTY | Present and richer (`/pty/shells`, `connect-token`); handshake verification pending |
-| Kilo-specific supersets | `/kilo/*`, `/kilocode/*`, `/tui/*`, `/api/*`, `/memory/*`, `/mcp/*`, `/network/*`, `/suggestion/*`, `/sync/*` — capability-gate before any use |
+| PTY | **HTTP surface verified live** (create/resize/delete + model match incl. `pid`, shells listing); WebSocket connect handshake pending in-app test |
+| Kilo-specific supersets | `/kilo/*`, `/kilocode/*`, `/memory/*`, `/mcp/*`, `/network/*`, `/suggestion/*`, `/sync/*` (bus verified via `sync` SSE events); `/tui/*` read-only verified, write commands need an attached TUI control subscriber; `/api/*`, `/remote/*`, `/background-process/*`, `/indexing/*` — capability-gate before any use |
 
 Adaptation strategy: **A (direct connection, tolerant parsing)** — no
 datasource fork. Unknown event types must stay safe-ignored per existing

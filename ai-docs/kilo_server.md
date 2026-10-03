@@ -127,10 +127,61 @@ origin-scoped injection in `DioClient`). Confirm the Kilo server password
 mechanism (env/config) on first LAN rollout; 401 semantics TBD in S1.4 of the
 verification plan.
 
-## Open verification items (before M2 exit)
+## Live round-trip verification (2026-10-03, server 7.6.x, probe session)
 
-1. Full SSE event-type union vs `chat_realtime_model.dart` expectations.
-2. `prompt_async` request/response round-trip with server-assigned IDs.
-3. PTY connect handshake (`/pty/{id}/connect` vs `connect-token`) vs
-   `terminal_remote_datasource.dart` assumptions.
-4. `PATCH /config` busy-state semantics (ADR-019 deferral path).
+### prompt_async — VERIFIED
+
+- Request shape: `parts` array + nested `model {providerID, modelID}` (CodeWalk's
+  `ChatInputModel.toJson` already emits exactly this; `messageID` stays
+  client-only per the established invariant).
+- Response: **`204 No Content` with empty body** — CodeWalk's datasource
+  accepts both 204 and 200, no change needed.
+- Server-assigned IDs confirmed: assistant message `msg_...` created
+  server-side; `time.completed` timestamp present for completion polling.
+
+### SSE event census — VERIFIED
+
+All events share the `{id, type, properties}` envelope. Observed during one
+prompt round-trip (counts in parentheses):
+
+`server.connected` (1), `server.heartbeat` (1), `session.updated` (4),
+`session.status` (4), `session.turn.open` (1), `session.turn.close` (1),
+`session.idle` (1), `session.diff` (2), `message.updated` (6),
+`message.part.updated` (5), `message.part.delta` (1), **`sync` (15)**.
+
+Notes:
+
+- The `sync` event type is kilo-specific and high-volume; it multiplexes the
+  `/sync` event bus into `/event` (payload: `syncEvent {id, type, seq,
+  aggregateID}`). Reducers must keep safe-ignoring it.
+- `session.turn.open/close`, `session.idle`, `message.part.delta` are additive
+  beyond the upstream snapshot; existing tolerant handling applies.
+
+### PTY — VERIFIED (HTTP surface)
+
+- `GET /pty` → `[]` (200); `GET /pty/shells` → powershell/bash/cmd on Windows.
+- `POST /pty {cwd, title, size{rows,cols}}` → 200 `{id, title, command, args,
+  cwd, status:"running", pid}` — field-for-field match with
+  `PtySessionModel.fromJson` (including `pid`).
+- `DELETE /pty/{id}` → 200. Resize via `PUT /pty/{id} {size}` matches the
+  datasource. The WebSocket stream (`GET /pty/{id}/connect`) still needs the
+  in-app S4.1 smoke test.
+
+### /tui remote control — READ-ONLY OK, WRITE NEEDS SUBSCRIBER
+
+- `GET /tui/config` and `GET /tui/keybinds` return full payloads (200).
+- `POST /tui/show-toast` and `POST /tui/select-session` both return 500
+  `UnknownError`: the TUI front-end consumes commands via
+  `GET /tui/control/next` polling and no subscriber was attached to this
+  server instance at probe time. Do not build UI on the write surface until a
+  TUI control subscriber is confirmed (kilo version / mode dependent).
+
+### /sync — schema mapped, bus observed
+
+- `POST /sync/start` (start workspace sync), `POST /sync/steal {sessionID}`
+  (steal session into workspace), `POST /sync/history` / `POST /sync/replay`
+  (event sourcing: `{id, aggregateID, seq, type, data}`).
+- The sync bus is alive: `sync` events flow through `/event` (see census).
+  `steal` semantics = move an actively-running session into the caller's
+  workspace — candidate for the mobile "take over from TUI" action after
+  live-state verification.
