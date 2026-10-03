@@ -390,9 +390,10 @@ class _ChatPageState extends State<ChatPage>
   final Map<String, bool> _projectGroupExpandedById = <String, bool>{};
   /// Sidebar session list presentation: grouped by project/directory or a
   /// flat cross-directory timeline sorted by recency (ADR-049 follow-up).
+  /// Defaults to the timeline view; the persisted preference overrides it.
   static const String _sessionViewModePreferenceKey =
       'sidebar_session_view_mode';
-  String _sessionListViewMode = 'grouped';
+  String _sessionListViewMode = 'timeline';
   bool _sessionViewModeLoaded = false;
   bool _isAppInForeground = true;
   bool _wasChatRouteCurrent = false;
