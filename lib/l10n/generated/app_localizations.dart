@@ -200,1255 +200,1255 @@ abstract class AppLocalizations {
   /// **'Keep one on-device voice model loaded after use for faster repeat recordings. Uses more RAM; the system may release it when memory is low.'**
   String get speechKeepModelInMemoryHint;
 
-  /// CodeWalk UI string — aboutGitHub
+  /// Kilo-Walk UI string — aboutGitHub
   ///
   /// In en, this message translates to:
   /// **'GitHub'**
   String get aboutGitHub;
 
-  /// CodeWalk UI string — appProviderCannotActivateUnhealthy
+  /// Kilo-Walk UI string — appProviderCannotActivateUnhealthy
   ///
   /// In en, this message translates to:
   /// **'Cannot activate an unhealthy server'**
   String get appProviderCannotActivateUnhealthy;
 
-  /// CodeWalk UI string — appProviderDesktopOnly
+  /// Kilo-Walk UI string — appProviderDesktopOnly
   ///
   /// In en, this message translates to:
   /// **'Managed local server is available only on desktop.'**
   String get appProviderDesktopOnly;
 
-  /// CodeWalk UI string — appProviderDetectingCommand
+  /// Kilo-Walk UI string — appProviderDetectingCommand
   ///
   /// In en, this message translates to:
   /// **'Detecting OpenCode command...'**
   String get appProviderDetectingCommand;
 
-  /// CodeWalk UI string — appProviderErrorCannotActivateUnhealthy
+  /// Kilo-Walk UI string — appProviderErrorCannotActivateUnhealthy
   ///
   /// In en, this message translates to:
   /// **'Cannot activate an unhealthy server'**
   String get appProviderErrorCannotActivateUnhealthy;
 
-  /// CodeWalk UI string — appProviderErrorCloudflareOAuthNotSupported
+  /// Kilo-Walk UI string — appProviderErrorCloudflareOAuthNotSupported
   ///
   /// In en, this message translates to:
   /// **'Cloudflare Access OAuth is not supported on this platform'**
   String get appProviderErrorCloudflareOAuthNotSupported;
 
-  /// CodeWalk UI string — appProviderErrorInstallationFailed
+  /// Kilo-Walk UI string — appProviderErrorInstallationFailed
   ///
   /// In en, this message translates to:
   /// **'OpenCode installation failed.'**
   String get appProviderErrorInstallationFailed;
 
-  /// CodeWalk UI string — appProviderErrorInvalidServerUrl
+  /// Kilo-Walk UI string — appProviderErrorInvalidServerUrl
   ///
   /// In en, this message translates to:
   /// **'Invalid server URL'**
   String get appProviderErrorInvalidServerUrl;
 
-  /// CodeWalk UI string — appProviderErrorLocalServerHealthCheckFailed
+  /// Kilo-Walk UI string — appProviderErrorLocalServerHealthCheckFailed
   ///
   /// In en, this message translates to:
   /// **'Local server started but health check did not pass.'**
   String get appProviderErrorLocalServerHealthCheckFailed;
 
-  /// CodeWalk UI string — appProviderErrorManagedDesktopOnly
+  /// Kilo-Walk UI string — appProviderErrorManagedDesktopOnly
   ///
   /// In en, this message translates to:
   /// **'Managed local server is available only on desktop.'**
   String get appProviderErrorManagedDesktopOnly;
 
-  /// CodeWalk UI string — appProviderErrorServerAlreadyExists
+  /// Kilo-Walk UI string — appProviderErrorServerAlreadyExists
   ///
   /// In en, this message translates to:
   /// **'A server with this URL already exists'**
   String get appProviderErrorServerAlreadyExists;
 
-  /// CodeWalk UI string — appProviderErrorServerProfileNotFound
+  /// Kilo-Walk UI string — appProviderErrorServerProfileNotFound
   ///
   /// In en, this message translates to:
   /// **'Server profile not found'**
   String get appProviderErrorServerProfileNotFound;
 
-  /// CodeWalk UI string — appProviderErrorServerUrlRequired
+  /// Kilo-Walk UI string — appProviderErrorServerUrlRequired
   ///
   /// In en, this message translates to:
   /// **'Server URL is required'**
   String get appProviderErrorServerUrlRequired;
 
-  /// CodeWalk UI string — appProviderErrorTailscaleNotSupported
+  /// Kilo-Walk UI string — appProviderErrorTailscaleNotSupported
   ///
   /// In en, this message translates to:
   /// **'Tailscale is not supported on this platform'**
   String get appProviderErrorTailscaleNotSupported;
 
-  /// CodeWalk UI string — appProviderExitedWithCode
+  /// Kilo-Walk UI string — appProviderExitedWithCode
   ///
   /// In en, this message translates to:
   /// **'Local server exited with code {code}.'**
   String appProviderExitedWithCode(int code);
 
-  /// CodeWalk UI string — appProviderFailedToStart
+  /// Kilo-Walk UI string — appProviderFailedToStart
   ///
   /// In en, this message translates to:
   /// **'Failed to start local OpenCode server.'**
   String get appProviderFailedToStart;
 
-  /// CodeWalk UI string — appProviderInstallBinary
+  /// Kilo-Walk UI string — appProviderInstallBinary
   ///
   /// In en, this message translates to:
   /// **'Install Binary'**
   String get appProviderInstallBinary;
 
-  /// CodeWalk UI string — appProviderInstallBunOpenCode
+  /// Kilo-Walk UI string — appProviderInstallBunOpenCode
   ///
   /// In en, this message translates to:
   /// **'Install Bun + OpenCode'**
   String get appProviderInstallBunOpenCode;
 
-  /// CodeWalk UI string — appProviderInstallSucceeded
+  /// Kilo-Walk UI string — appProviderInstallSucceeded
   ///
   /// In en, this message translates to:
   /// **'Installation succeeded.'**
   String get appProviderInstallSucceeded;
 
-  /// CodeWalk UI string — appProviderInstallSucceededWithPath
+  /// Kilo-Walk UI string — appProviderInstallSucceededWithPath
   ///
   /// In en, this message translates to:
   /// **'Installation succeeded. OpenCode command available at {path}.'**
   String appProviderInstallSucceededWithPath(String path);
 
-  /// CodeWalk UI string — appProviderInstallViaBun
+  /// Kilo-Walk UI string — appProviderInstallViaBun
   ///
   /// In en, this message translates to:
   /// **'Install via Bun'**
   String get appProviderInstallViaBun;
 
-  /// CodeWalk UI string — appProviderInstallViaNpm
+  /// Kilo-Walk UI string — appProviderInstallViaNpm
   ///
   /// In en, this message translates to:
   /// **'Install via npm'**
   String get appProviderInstallViaNpm;
 
-  /// CodeWalk UI string — appProviderInstallationFailed
+  /// Kilo-Walk UI string — appProviderInstallationFailed
   ///
   /// In en, this message translates to:
   /// **'OpenCode installation failed.'**
   String get appProviderInstallationFailed;
 
-  /// CodeWalk UI string — appProviderInstalledSuccessfully
+  /// Kilo-Walk UI string — appProviderInstalledSuccessfully
   ///
   /// In en, this message translates to:
   /// **'OpenCode requirements installed successfully.'**
   String get appProviderInstalledSuccessfully;
 
-  /// CodeWalk UI string — appProviderInstallingRequirements
+  /// Kilo-Walk UI string — appProviderInstallingRequirements
   ///
   /// In en, this message translates to:
   /// **'Installing OpenCode requirements...'**
   String get appProviderInstallingRequirements;
 
-  /// CodeWalk UI string — appProviderInvalidServerUrl
+  /// Kilo-Walk UI string — appProviderInvalidServerUrl
   ///
   /// In en, this message translates to:
   /// **'Invalid server URL'**
   String get appProviderInvalidServerUrl;
 
-  /// CodeWalk UI string — appProviderLabelLocalOpenCodeManaged
+  /// Kilo-Walk UI string — appProviderLabelLocalOpenCodeManaged
   ///
   /// In en, this message translates to:
   /// **'Local OpenCode (Managed)'**
   String get appProviderLabelLocalOpenCodeManaged;
 
-  /// CodeWalk UI string — appProviderLabelPrimaryServer
+  /// Kilo-Walk UI string — appProviderLabelPrimaryServer
   ///
   /// In en, this message translates to:
   /// **'Primary server'**
   String get appProviderLabelPrimaryServer;
 
-  /// CodeWalk UI string — appProviderLocalManaged
+  /// Kilo-Walk UI string — appProviderLocalManaged
   ///
   /// In en, this message translates to:
   /// **'Local OpenCode (Managed)'**
   String get appProviderLocalManaged;
 
-  /// CodeWalk UI string — appProviderLocalServerStopped
+  /// Kilo-Walk UI string — appProviderLocalServerStopped
   ///
   /// In en, this message translates to:
   /// **'Local server is stopped.'**
   String get appProviderLocalServerStopped;
 
-  /// CodeWalk UI string — appProviderNotDetectedInstall
+  /// Kilo-Walk UI string — appProviderNotDetectedInstall
   ///
   /// In en, this message translates to:
   /// **'OpenCode command was not detected. Run installation from the wizard.'**
   String get appProviderNotDetectedInstall;
 
-  /// CodeWalk UI string — appProviderNotDetectedRefresh
+  /// Kilo-Walk UI string — appProviderNotDetectedRefresh
   ///
   /// In en, this message translates to:
   /// **'OpenCode command was not detected. If you installed it moments ago, refresh checks or reopen {appName} to reload PATH.'**
   String appProviderNotDetectedRefresh(String appName);
 
-  /// CodeWalk UI string — appProviderOAuthNotSupported
+  /// Kilo-Walk UI string — appProviderOAuthNotSupported
   ///
   /// In en, this message translates to:
   /// **'Cloudflare Access OAuth is not supported on this platform'**
   String get appProviderOAuthNotSupported;
 
-  /// CodeWalk UI string — appProviderOpenCodeDetected
+  /// Kilo-Walk UI string — appProviderOpenCodeDetected
   ///
   /// In en, this message translates to:
   /// **'OpenCode detected'**
   String get appProviderOpenCodeDetected;
 
-  /// CodeWalk UI string — appProviderOpenCodeNotDetected
+  /// Kilo-Walk UI string — appProviderOpenCodeNotDetected
   ///
   /// In en, this message translates to:
   /// **'OpenCode not detected'**
   String get appProviderOpenCodeNotDetected;
 
-  /// CodeWalk UI string — appProviderPrimaryServer
+  /// Kilo-Walk UI string — appProviderPrimaryServer
   ///
   /// In en, this message translates to:
   /// **'Primary server'**
   String get appProviderPrimaryServer;
 
-  /// CodeWalk UI string — appProviderProfileNotFound
+  /// Kilo-Walk UI string — appProviderProfileNotFound
   ///
   /// In en, this message translates to:
   /// **'Server profile not found'**
   String get appProviderProfileNotFound;
 
-  /// CodeWalk UI string — appProviderRunDiagnostics
+  /// Kilo-Walk UI string — appProviderRunDiagnostics
   ///
   /// In en, this message translates to:
   /// **'Run diagnostics to verify local OpenCode requirements.'**
   String get appProviderRunDiagnostics;
 
-  /// CodeWalk UI string — appProviderRunningAt
+  /// Kilo-Walk UI string — appProviderRunningAt
   ///
   /// In en, this message translates to:
   /// **'Running at {url}'**
   String appProviderRunningAt(String url);
 
-  /// CodeWalk UI string — appProviderSetupDetectingOpenCode
+  /// Kilo-Walk UI string — appProviderSetupDetectingOpenCode
   ///
   /// In en, this message translates to:
   /// **'Detecting OpenCode command...'**
   String get appProviderSetupDetectingOpenCode;
 
-  /// CodeWalk UI string — appProviderSetupInstallationSucceeded
+  /// Kilo-Walk UI string — appProviderSetupInstallationSucceeded
   ///
   /// In en, this message translates to:
   /// **'Installation succeeded.'**
   String get appProviderSetupInstallationSucceeded;
 
-  /// CodeWalk UI string — appProviderSetupInstallationSucceededWithPath
+  /// Kilo-Walk UI string — appProviderSetupInstallationSucceededWithPath
   ///
   /// In en, this message translates to:
   /// **'Installation succeeded. OpenCode command available at {path}.'**
   String appProviderSetupInstallationSucceededWithPath(String path);
 
-  /// CodeWalk UI string — appProviderSetupInstallingRequirements
+  /// Kilo-Walk UI string — appProviderSetupInstallingRequirements
   ///
   /// In en, this message translates to:
   /// **'Installing OpenCode requirements...'**
   String get appProviderSetupInstallingRequirements;
 
-  /// CodeWalk UI string — appProviderSetupOpenCodeDetected
+  /// Kilo-Walk UI string — appProviderSetupOpenCodeDetected
   ///
   /// In en, this message translates to:
   /// **'OpenCode detected'**
   String get appProviderSetupOpenCodeDetected;
 
-  /// CodeWalk UI string — appProviderSetupOpenCodeNotDetected
+  /// Kilo-Walk UI string — appProviderSetupOpenCodeNotDetected
   ///
   /// In en, this message translates to:
   /// **'OpenCode not detected'**
   String get appProviderSetupOpenCodeNotDetected;
 
-  /// CodeWalk UI string — appProviderSetupOpenCodeNotDetectedInstall
+  /// Kilo-Walk UI string — appProviderSetupOpenCodeNotDetectedInstall
   ///
   /// In en, this message translates to:
   /// **'OpenCode command was not detected. Run installation from the wizard.'**
   String get appProviderSetupOpenCodeNotDetectedInstall;
 
-  /// CodeWalk UI string — appProviderSetupOpenCodeNotDetectedRefresh
+  /// Kilo-Walk UI string — appProviderSetupOpenCodeNotDetectedRefresh
   ///
   /// In en, this message translates to:
-  /// **'OpenCode command was not detected. If you installed it moments ago, refresh checks or reopen CodeWalk to reload PATH.'**
+  /// **'OpenCode command was not detected. If you installed it moments ago, refresh checks or reopen Kilo-Walk to reload PATH.'**
   String get appProviderSetupOpenCodeNotDetectedRefresh;
 
-  /// CodeWalk UI string — appProviderSetupRequirementsInstalled
+  /// Kilo-Walk UI string — appProviderSetupRequirementsInstalled
   ///
   /// In en, this message translates to:
   /// **'OpenCode requirements installed successfully.'**
   String get appProviderSetupRequirementsInstalled;
 
-  /// CodeWalk UI string — appProviderSetupUsingOpenCodeAt
+  /// Kilo-Walk UI string — appProviderSetupUsingOpenCodeAt
   ///
   /// In en, this message translates to:
   /// **'Using OpenCode command at {path}'**
   String appProviderSetupUsingOpenCodeAt(String path);
 
-  /// CodeWalk UI string — appProviderStartingLocalServer
+  /// Kilo-Walk UI string — appProviderStartingLocalServer
   ///
   /// In en, this message translates to:
   /// **'Starting local server...'**
   String get appProviderStartingLocalServer;
 
-  /// CodeWalk UI string — appProviderStatusLocalServerExitedWithCode
+  /// Kilo-Walk UI string — appProviderStatusLocalServerExitedWithCode
   ///
   /// In en, this message translates to:
   /// **'Local server exited with code {code}.'**
   String appProviderStatusLocalServerExitedWithCode(int code);
 
-  /// CodeWalk UI string — appProviderStatusLocalServerStopped
+  /// Kilo-Walk UI string — appProviderStatusLocalServerStopped
   ///
   /// In en, this message translates to:
   /// **'Local server is stopped.'**
   String get appProviderStatusLocalServerStopped;
 
-  /// CodeWalk UI string — appProviderStatusRunningAt
+  /// Kilo-Walk UI string — appProviderStatusRunningAt
   ///
   /// In en, this message translates to:
   /// **'Running at {url}'**
   String appProviderStatusRunningAt(String url);
 
-  /// CodeWalk UI string — appProviderStatusStartingLocalServer
+  /// Kilo-Walk UI string — appProviderStatusStartingLocalServer
   ///
   /// In en, this message translates to:
   /// **'Starting local server...'**
   String get appProviderStatusStartingLocalServer;
 
-  /// CodeWalk UI string — appProviderStatusStoppingLocalServer
+  /// Kilo-Walk UI string — appProviderStatusStoppingLocalServer
   ///
   /// In en, this message translates to:
   /// **'Stopping local server...'**
   String get appProviderStatusStoppingLocalServer;
 
-  /// CodeWalk UI string — appProviderStoppingLocalServer
+  /// Kilo-Walk UI string — appProviderStoppingLocalServer
   ///
   /// In en, this message translates to:
   /// **'Stopping local server...'**
   String get appProviderStoppingLocalServer;
 
-  /// CodeWalk UI string — appProviderTailscaleNotSupported
+  /// Kilo-Walk UI string — appProviderTailscaleNotSupported
   ///
   /// In en, this message translates to:
   /// **'Tailscale is not supported on this platform'**
   String get appProviderTailscaleNotSupported;
 
-  /// CodeWalk UI string — appProviderUsingCommandAt
+  /// Kilo-Walk UI string — appProviderUsingCommandAt
   ///
   /// In en, this message translates to:
   /// **'Using OpenCode command at {path}'**
   String appProviderUsingCommandAt(String path);
 
-  /// CodeWalk UI string — appShellDownloadingUpdate
+  /// Kilo-Walk UI string — appShellDownloadingUpdate
   ///
   /// In en, this message translates to:
   /// **'Downloading update…'**
   String get appShellDownloadingUpdate;
 
-  /// CodeWalk UI string — appShellInstall
+  /// Kilo-Walk UI string — appShellInstall
   ///
   /// In en, this message translates to:
   /// **'Install'**
   String get appShellInstall;
 
-  /// CodeWalk UI string — appShellInstallFailed
+  /// Kilo-Walk UI string — appShellInstallFailed
   ///
   /// In en, this message translates to:
   /// **'Install failed'**
   String get appShellInstallFailed;
 
-  /// CodeWalk UI string — appShellInstallingUpdate
+  /// Kilo-Walk UI string — appShellInstallingUpdate
   ///
   /// In en, this message translates to:
   /// **'Installing update...'**
   String get appShellInstallingUpdate;
 
-  /// CodeWalk UI string — appShellRestart
+  /// Kilo-Walk UI string — appShellRestart
   ///
   /// In en, this message translates to:
   /// **'Restart'**
   String get appShellRestart;
 
-  /// CodeWalk UI string — appShellUpdateAvailableResult
+  /// Kilo-Walk UI string — appShellUpdateAvailableResult
   ///
   /// In en, this message translates to:
   /// **'Update available: v{latestVersion}'**
   String appShellUpdateAvailableResult(String latestVersion);
 
-  /// CodeWalk UI string — appShellUpdateInstalledRestartApp
+  /// Kilo-Walk UI string — appShellUpdateInstalledRestartApp
   ///
   /// In en, this message translates to:
   /// **'Update installed. Restart the app to apply.'**
   String get appShellUpdateInstalledRestartApp;
 
-  /// CodeWalk UI string — appShellUpdateInstalledRestartRequired
+  /// Kilo-Walk UI string — appShellUpdateInstalledRestartRequired
   ///
   /// In en, this message translates to:
   /// **'Update installed. Restart is required to apply the new version.'**
   String get appShellUpdateInstalledRestartRequired;
 
-  /// CodeWalk UI string — attachmentCouldNotDecode
+  /// Kilo-Walk UI string — attachmentCouldNotDecode
   ///
   /// In en, this message translates to:
   /// **'Attachment data could not be decoded.'**
   String get attachmentCouldNotDecode;
 
-  /// CodeWalk UI string — attachmentCouldNotDownload
+  /// Kilo-Walk UI string — attachmentCouldNotDownload
   ///
   /// In en, this message translates to:
   /// **'Attachment could not be downloaded.'**
   String get attachmentCouldNotDownload;
 
-  /// CodeWalk UI string — attachmentCouldNotSave
+  /// Kilo-Walk UI string — attachmentCouldNotSave
   ///
   /// In en, this message translates to:
   /// **'Attachment could not be saved on this device.'**
   String get attachmentCouldNotSave;
 
-  /// CodeWalk UI string — attachmentDownloadStarted
+  /// Kilo-Walk UI string — attachmentDownloadStarted
   ///
   /// In en, this message translates to:
   /// **'Attachment download started.'**
   String get attachmentDownloadStarted;
 
-  /// CodeWalk UI string — attachmentLocalNotFound
+  /// Kilo-Walk UI string — attachmentLocalNotFound
   ///
   /// In en, this message translates to:
   /// **'Local attachment was not found on this device.'**
   String get attachmentLocalNotFound;
 
-  /// CodeWalk UI string — attachmentNoValidLocation
+  /// Kilo-Walk UI string — attachmentNoValidLocation
   ///
   /// In en, this message translates to:
   /// **'Attachment does not provide a valid location.'**
   String get attachmentNoValidLocation;
 
-  /// CodeWalk UI string — attachmentNotAvailableOnPlatform
+  /// Kilo-Walk UI string — attachmentNotAvailableOnPlatform
   ///
   /// In en, this message translates to:
   /// **'Attachment actions are not available on this platform.'**
   String get attachmentNotAvailableOnPlatform;
 
-  /// CodeWalk UI string — attachmentPathEmpty
+  /// Kilo-Walk UI string — attachmentPathEmpty
   ///
   /// In en, this message translates to:
   /// **'Attachment path is empty.'**
   String get attachmentPathEmpty;
 
-  /// CodeWalk UI string — attachmentPayloadEmpty
+  /// Kilo-Walk UI string — attachmentPayloadEmpty
   ///
   /// In en, this message translates to:
   /// **'Attachment payload is empty.'**
   String get attachmentPayloadEmpty;
 
-  /// CodeWalk UI string — attachmentSaveCanceled
+  /// Kilo-Walk UI string — attachmentSaveCanceled
   ///
   /// In en, this message translates to:
   /// **'Save canceled.'**
   String get attachmentSaveCanceled;
 
-  /// CodeWalk UI string — attachmentSavedAndOpened
+  /// Kilo-Walk UI string — attachmentSavedAndOpened
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {path} and opened.'**
   String attachmentSavedAndOpened(String path);
 
-  /// CodeWalk UI string — attachmentSavedPath
+  /// Kilo-Walk UI string — attachmentSavedPath
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {path}.'**
   String attachmentSavedPath(String path);
 
-  /// CodeWalk UI string — attachmentSavedTo
+  /// Kilo-Walk UI string — attachmentSavedTo
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {path}.'**
   String attachmentSavedTo(String path);
 
-  /// CodeWalk UI string — attachmentUnableToOpenLink
+  /// Kilo-Walk UI string — attachmentUnableToOpenLink
   ///
   /// In en, this message translates to:
   /// **'Unable to open the attachment link.'**
   String get attachmentUnableToOpenLink;
 
-  /// CodeWalk UI string — attachmentUnableToOpenLocal
+  /// Kilo-Walk UI string — attachmentUnableToOpenLocal
   ///
   /// In en, this message translates to:
   /// **'Unable to open the local attachment.'**
   String get attachmentUnableToOpenLocal;
 
-  /// CodeWalk UI string — behaviorAdvancedPermissionRule
+  /// Kilo-Walk UI string — behaviorAdvancedPermissionRule
   ///
   /// In en, this message translates to:
   /// **'Advanced permission rule editing stays out of Settings for now and is deferred to later parity work.'**
   String get behaviorAdvancedPermissionRule;
 
-  /// CodeWalk UI string — behaviorAutomatic
+  /// Kilo-Walk UI string — behaviorAutomatic
   ///
   /// In en, this message translates to:
   /// **'Automatic'**
   String get behaviorAutomatic;
 
-  /// CodeWalk UI string — behaviorAutomaticFallback
+  /// Kilo-Walk UI string — behaviorAutomaticFallback
   ///
   /// In en, this message translates to:
   /// **'Automatic fallback'**
   String get behaviorAutomaticFallback;
 
-  /// CodeWalk UI string — behaviorCellularDataSaver
+  /// Kilo-Walk UI string — behaviorCellularDataSaver
   ///
   /// In en, this message translates to:
   /// **'Cellular data saver'**
   String get behaviorCellularDataSaver;
 
-  /// CodeWalk UI string — behaviorCellularDataSaverActive
+  /// Kilo-Walk UI string — behaviorCellularDataSaverActive
   ///
   /// In en, this message translates to:
   /// **'Cellular data saver is active.'**
   String get behaviorCellularDataSaverActive;
 
-  /// CodeWalk UI string — behaviorChatLevelShare
+  /// Kilo-Walk UI string — behaviorChatLevelShare
   ///
   /// In en, this message translates to:
   /// **'Use the chat-level share action to publish one session now. This setting only changes OpenCode’s default sharing policy.'**
   String get behaviorChatLevelShare;
 
-  /// CodeWalk UI string — behaviorCodeWalkReleaseChecks
+  /// Kilo-Walk UI string — behaviorKilo-WalkReleaseChecks
   ///
   /// In en, this message translates to:
-  /// **'Use About for CodeWalk release checks. This setting only mirrors the official OpenCode `autoupdate` config.'**
+  /// **'Use About for Kilo-Walk release checks. This setting only mirrors the official OpenCode `autoupdate` config.'**
   String get behaviorCodeWalkReleaseChecks;
 
-  /// CodeWalk UI string — behaviorControlsOfficialGlobal
+  /// Kilo-Walk UI string — behaviorControlsOfficialGlobal
   ///
   /// In en, this message translates to:
   /// **'Controls the official global `share` config, not the share button for an individual chat.'**
   String get behaviorControlsOfficialGlobal;
 
-  /// CodeWalk UI string — behaviorControlsUpstreamOpenCode
+  /// Kilo-Walk UI string — behaviorControlsUpstreamOpenCode
   ///
   /// In en, this message translates to:
-  /// **'Controls upstream OpenCode runtime updates, not CodeWalk app update checks.'**
+  /// **'Controls upstream OpenCode runtime updates, not Kilo-Walk app update checks.'**
   String get behaviorControlsUpstreamOpenCode;
 
-  /// CodeWalk UI string — behaviorCustomDisplayName
+  /// Kilo-Walk UI string — behaviorCustomDisplayName
   ///
   /// In en, this message translates to:
   /// **'Custom display name shown in conversations instead of the system username.'**
   String get behaviorCustomDisplayName;
 
-  /// CodeWalk UI string — behaviorCutsAutomaticMobile
+  /// Kilo-Walk UI string — behaviorCutsAutomaticMobile
   ///
   /// In en, this message translates to:
   /// **'Cuts automatic mobile-data usage by stopping background downloads and throttling automatic foreground refreshes to one burst every {inSeconds} seconds.'**
   String behaviorCutsAutomaticMobile(int inSeconds);
 
-  /// CodeWalk UI string — behaviorDataSaverActive
+  /// Kilo-Walk UI string — behaviorDataSaverActive
   ///
   /// In en, this message translates to:
   /// **'Active now on mobile data.'**
   String get behaviorDataSaverActive;
 
-  /// CodeWalk UI string — behaviorDataSaverAggressive
+  /// Kilo-Walk UI string — behaviorDataSaverAggressive
   ///
   /// In en, this message translates to:
   /// **'Aggressive'**
   String get behaviorDataSaverAggressive;
 
-  /// CodeWalk UI string — behaviorDataSaverAggressiveDescription
+  /// Kilo-Walk UI string — behaviorDataSaverAggressiveDescription
   ///
   /// In en, this message translates to:
   /// **'Low-bandwidth mode: only the visible workspace stream stays live, global updates are paused, and automatic refreshes are stretched.'**
   String get behaviorDataSaverAggressiveDescription;
 
-  /// CodeWalk UI string — behaviorDataSaverCellularOnly
+  /// Kilo-Walk UI string — behaviorDataSaverCellularOnly
   ///
   /// In en, this message translates to:
   /// **'Only applies when the connection is cellular/mobile.'**
   String get behaviorDataSaverCellularOnly;
 
-  /// CodeWalk UI string — behaviorDataSaverOff
+  /// Kilo-Walk UI string — behaviorDataSaverOff
   ///
   /// In en, this message translates to:
   /// **'Off'**
   String get behaviorDataSaverOff;
 
-  /// CodeWalk UI string — behaviorDataSaverOffHint
+  /// Kilo-Walk UI string — behaviorDataSaverOffHint
   ///
   /// In en, this message translates to:
   /// **'Full realtime and automatic refreshes are enabled.'**
   String get behaviorDataSaverOffHint;
 
-  /// CodeWalk UI string — behaviorDataSaverStandard
+  /// Kilo-Walk UI string — behaviorDataSaverStandard
   ///
   /// In en, this message translates to:
   /// **'Standard'**
   String get behaviorDataSaverStandard;
 
-  /// CodeWalk UI string — behaviorDataSaverWaiting
+  /// Kilo-Walk UI string — behaviorDataSaverWaiting
   ///
   /// In en, this message translates to:
   /// **'Waiting for the next mobile-data sync window.'**
   String get behaviorDataSaverWaiting;
 
-  /// CodeWalk UI string — behaviorDisabled
+  /// Kilo-Walk UI string — behaviorDisabled
   ///
   /// In en, this message translates to:
   /// **'Disabled'**
   String get behaviorDisabled;
 
-  /// CodeWalk UI string — behaviorLightweightTasksLike
+  /// Kilo-Walk UI string — behaviorLightweightTasksLike
   ///
   /// In en, this message translates to:
   /// **'Used for lightweight tasks like title generation.'**
   String get behaviorLightweightTasksLike;
 
-  /// CodeWalk UI string — behaviorManual
+  /// Kilo-Walk UI string — behaviorManual
   ///
   /// In en, this message translates to:
   /// **'Manual'**
   String get behaviorManual;
 
-  /// CodeWalk UI string — behaviorNotify
+  /// Kilo-Walk UI string — behaviorNotify
   ///
   /// In en, this message translates to:
   /// **'Notify only'**
   String get behaviorNotify;
 
-  /// CodeWalk UI string — behaviorOfficialOpenCodePermission
+  /// Kilo-Walk UI string — behaviorOfficialOpenCodePermission
   ///
   /// In en, this message translates to:
-  /// **'Official OpenCode permission policy is configured in `opencode.json` with allow/ask/deny rules per tool. CodeWalk keeps the official permission-request cards and adds one approved ADR-023 exception: the composer auto-approve toggle replies with `Always` and `remember: true` unconditionally to create durable session-scoped grants, and keeps the same thread-scoped continuity path active in the Android background worker.'**
+  /// **'Official OpenCode permission policy is configured in `opencode.json` with allow/ask/deny rules per tool. Kilo-Walk keeps the official permission-request cards and adds one approved ADR-023 exception: the composer auto-approve toggle replies with `Always` and `remember: true` unconditionally to create durable session-scoped grants, and keeps the same thread-scoped continuity path active in the Android background worker.'**
   String get behaviorOfficialOpenCodePermission;
 
-  /// CodeWalk UI string — behaviorOpenCodeBackedDefaults
+  /// Kilo-Walk UI string — behaviorOpenCodeBackedDefaults
   ///
   /// In en, this message translates to:
   /// **'OpenCode-backed defaults'**
   String get behaviorOpenCodeBackedDefaults;
 
-  /// CodeWalk UI string — behaviorPermissionHandlingProvenance
+  /// Kilo-Walk UI string — behaviorPermissionHandlingProvenance
   ///
   /// In en, this message translates to:
   /// **'Permission handling provenance'**
   String get behaviorPermissionHandlingProvenance;
 
-  /// CodeWalk UI string — behaviorPermissionsVariantReasoning
+  /// Kilo-Walk UI string — behaviorPermissionsVariantReasoning
   ///
   /// In en, this message translates to:
   /// **'Permissions and variant/reasoning parity stay separate until their UI can preserve advanced config safely.'**
   String get behaviorPermissionsVariantReasoning;
 
-  /// CodeWalk UI string — behaviorPrimaryAgentAgent
+  /// Kilo-Walk UI string — behaviorPrimaryAgentAgent
   ///
   /// In en, this message translates to:
   /// **'Primary agent used when no agent is explicitly chosen.'**
   String get behaviorPrimaryAgentAgent;
 
-  /// CodeWalk UI string — behaviorRefreshDefaults
+  /// Kilo-Walk UI string — behaviorRefreshDefaults
   ///
   /// In en, this message translates to:
   /// **'Refresh defaults'**
   String get behaviorRefreshDefaults;
 
-  /// CodeWalk UI string — behaviorSharedAcrossOpenCode
+  /// Kilo-Walk UI string — behaviorSharedAcrossOpenCode
   ///
   /// In en, this message translates to:
   /// **'Shared across OpenCode clients through config.'**
   String get behaviorSharedAcrossOpenCode;
 
-  /// CodeWalk UI string — behaviorTheseValuesWrite
+  /// Kilo-Walk UI string — behaviorTheseValuesWrite
   ///
   /// In en, this message translates to:
   /// **'These values write to `/config` on the active server and match official OpenCode shared config.'**
   String get behaviorTheseValuesWrite;
 
-  /// CodeWalk UI string — cannedAddTitle
+  /// Kilo-Walk UI string — cannedAddTitle
   ///
   /// In en, this message translates to:
   /// **'Add canned answer'**
   String get cannedAddTitle;
 
-  /// CodeWalk UI string — cannedAppendAtCursor
+  /// Kilo-Walk UI string — cannedAppendAtCursor
   ///
   /// In en, this message translates to:
   /// **'Append at cursor'**
   String get cannedAppendAtCursor;
 
-  /// CodeWalk UI string — cannedAppendAtCursorSubtitle
+  /// Kilo-Walk UI string — cannedAppendAtCursorSubtitle
   ///
   /// In en, this message translates to:
   /// **'Off means replace current composer text'**
   String get cannedAppendAtCursorSubtitle;
 
-  /// CodeWalk UI string — cannedEditTitle
+  /// Kilo-Walk UI string — cannedEditTitle
   ///
   /// In en, this message translates to:
   /// **'Edit canned answer'**
   String get cannedEditTitle;
 
-  /// CodeWalk UI string — cannedNewQuickReply
+  /// Kilo-Walk UI string — cannedNewQuickReply
   ///
   /// In en, this message translates to:
   /// **'New quick reply'**
   String get cannedNewQuickReply;
 
-  /// CodeWalk UI string — cannedNoSuggestions
+  /// Kilo-Walk UI string — cannedNoSuggestions
   ///
   /// In en, this message translates to:
   /// **'No suggestions'**
   String get cannedNoSuggestions;
 
-  /// CodeWalk UI string — cannedOffMeansReplace
+  /// Kilo-Walk UI string — cannedOffMeansReplace
   ///
   /// In en, this message translates to:
   /// **'Off means replace current composer text'**
   String get cannedOffMeansReplace;
 
-  /// CodeWalk UI string — cannedQuickReply
+  /// Kilo-Walk UI string — cannedQuickReply
   ///
   /// In en, this message translates to:
   /// **'New quick reply'**
   String get cannedQuickReply;
 
-  /// CodeWalk UI string — cannedReplace
+  /// Kilo-Walk UI string — cannedReplace
   ///
   /// In en, this message translates to:
   /// **'Replace'**
   String get cannedReplace;
 
-  /// CodeWalk UI string — cannedScopeGlobalSubtitle
+  /// Kilo-Walk UI string — cannedScopeGlobalSubtitle
   ///
   /// In en, this message translates to:
   /// **'Disable for project-only item'**
   String get cannedScopeGlobalSubtitle;
 
-  /// CodeWalk UI string — cannedScopeGlobalUnavailableSubtitle
+  /// Kilo-Walk UI string — cannedScopeGlobalUnavailableSubtitle
   ///
   /// In en, this message translates to:
   /// **'Project-only unavailable in current context'**
   String get cannedScopeGlobalUnavailableSubtitle;
 
-  /// CodeWalk UI string — cannedSendAutomaticallySubtitle
+  /// Kilo-Walk UI string — cannedSendAutomaticallySubtitle
   ///
   /// In en, this message translates to:
   /// **'Send immediately after inserting this quick reply'**
   String get cannedSendAutomaticallySubtitle;
 
-  /// CodeWalk UI string — cannedSendImmediatelyInserting
+  /// Kilo-Walk UI string — cannedSendImmediatelyInserting
   ///
   /// In en, this message translates to:
   /// **'Send immediately after inserting this quick reply'**
   String get cannedSendImmediatelyInserting;
 
-  /// CodeWalk UI string — cannedTextLabel
+  /// Kilo-Walk UI string — cannedTextLabel
   ///
   /// In en, this message translates to:
   /// **'Text'**
   String get cannedTextLabel;
 
-  /// CodeWalk UI string — chatActionNext
+  /// Kilo-Walk UI string — chatActionNext
   ///
   /// In en, this message translates to:
   /// **'Next'**
   String get chatActionNext;
 
-  /// CodeWalk UI string — chatActiveServerUnhealthy
+  /// Kilo-Walk UI string — chatActiveServerUnhealthy
   ///
   /// In en, this message translates to:
   /// **'Active server is unhealthy. Sends will try once and fail fast until recovery.'**
   String get chatActiveServerUnhealthy;
 
-  /// CodeWalk UI string — chatActiveServerUnhealthyLabel
+  /// Kilo-Walk UI string — chatActiveServerUnhealthyLabel
   ///
   /// In en, this message translates to:
   /// **'Active server is unhealthy'**
   String get chatActiveServerUnhealthyLabel;
 
-  /// CodeWalk UI string — chatAddServerToStart
+  /// Kilo-Walk UI string — chatAddServerToStart
   ///
   /// In en, this message translates to:
   /// **'Add a server to start chatting.'**
   String get chatAddServerToStart;
 
-  /// CodeWalk UI string — chatAppBarMoreActions
+  /// Kilo-Walk UI string — chatAppBarMoreActions
   ///
   /// In en, this message translates to:
   /// **'More actions'**
   String get chatAppBarMoreActions;
 
-  /// CodeWalk UI string — chatAppBarPinAction
+  /// Kilo-Walk UI string — chatAppBarPinAction
   ///
   /// In en, this message translates to:
   /// **'Pin to app bar'**
   String get chatAppBarPinAction;
 
-  /// CodeWalk UI string — chatAppBarPinDescription
+  /// Kilo-Walk UI string — chatAppBarPinDescription
   ///
   /// In en, this message translates to:
   /// **'This action will stay visible outside the menu.'**
   String get chatAppBarPinDescription;
 
-  /// CodeWalk UI string — chatAppBarUnpinAction
+  /// Kilo-Walk UI string — chatAppBarUnpinAction
   ///
   /// In en, this message translates to:
   /// **'Unpin from app bar'**
   String get chatAppBarUnpinAction;
 
-  /// CodeWalk UI string — chatAppBarUnpinDescription
+  /// Kilo-Walk UI string — chatAppBarUnpinDescription
   ///
   /// In en, this message translates to:
   /// **'This action will move back into the menu.'**
   String get chatAppBarUnpinDescription;
 
-  /// CodeWalk UI string — chatBadgeConversationError
+  /// Kilo-Walk UI string — chatBadgeConversationError
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" has an error.'**
   String chatBadgeConversationError(String title);
 
-  /// CodeWalk UI string — chatBadgeConversationNeedsInput
+  /// Kilo-Walk UI string — chatBadgeConversationNeedsInput
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" needs your input.'**
   String chatBadgeConversationNeedsInput(String title);
 
-  /// CodeWalk UI string — chatBadgeConversationNewReply
+  /// Kilo-Walk UI string — chatBadgeConversationNewReply
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" has a new reply.'**
   String chatBadgeConversationNewReply(String title);
 
-  /// CodeWalk UI string — chatBadgeDataSaverActive
+  /// Kilo-Walk UI string — chatBadgeDataSaverActive
   ///
   /// In en, this message translates to:
   /// **'Cellular data saver is active.'**
   String get chatBadgeDataSaverActive;
 
-  /// CodeWalk UI string — chatBadgeServerNeedsAttention
+  /// Kilo-Walk UI string — chatBadgeServerNeedsAttention
   ///
   /// In en, this message translates to:
   /// **'Server connection needs attention.'**
   String get chatBadgeServerNeedsAttention;
 
-  /// CodeWalk UI string — chatBadgeSyncing
+  /// Kilo-Walk UI string — chatBadgeSyncing
   ///
   /// In en, this message translates to:
   /// **'Syncing conversations...'**
   String get chatBadgeSyncing;
 
-  /// CodeWalk UI string — chatBlockResponsePendingDescription
+  /// Kilo-Walk UI string — chatBlockResponsePendingDescription
   ///
   /// In en, this message translates to:
   /// **'The answer will appear as a single block when this turn finishes.'**
   String get chatBlockResponsePendingDescription;
 
-  /// CodeWalk UI string — chatBlockResponsePendingTitle
+  /// Kilo-Walk UI string — chatBlockResponsePendingTitle
   ///
   /// In en, this message translates to:
   /// **'Generating response'**
   String get chatBlockResponsePendingTitle;
 
-  /// CodeWalk UI string — chatCachedConversationsYet
+  /// Kilo-Walk UI string — chatCachedConversationsYet
   ///
   /// In en, this message translates to:
   /// **'No cached conversations yet'**
   String get chatCachedConversationsYet;
 
-  /// CodeWalk UI string — chatChangedFilesAvailable
+  /// Kilo-Walk UI string — chatChangedFilesAvailable
   ///
   /// In en, this message translates to:
   /// **'No changed files are available for this session.'**
   String get chatChangedFilesAvailable;
 
-  /// CodeWalk UI string — chatChildrenChatProviderCurrentSessionChildren
+  /// Kilo-Walk UI string — chatChildrenChatProviderCurrentSessionChildren
   ///
   /// In en, this message translates to:
   /// **'Children: {length}'**
   String chatChildrenChatProviderCurrentSessionChildren(int length);
 
-  /// CodeWalk UI string — chatChooseAgent
+  /// Kilo-Walk UI string — chatChooseAgent
   ///
   /// In en, this message translates to:
   /// **'Select agent'**
   String get chatChooseAgent;
 
-  /// CodeWalk UI string — chatChooseDirectory
+  /// Kilo-Walk UI string — chatChooseDirectory
   ///
   /// In en, this message translates to:
   /// **'Choose Directory'**
   String get chatChooseDirectory;
 
-  /// CodeWalk UI string — chatChooseEffort
+  /// Kilo-Walk UI string — chatChooseEffort
   ///
   /// In en, this message translates to:
   /// **'Choose effort'**
   String get chatChooseEffort;
 
-  /// CodeWalk UI string — chatChooseFolderOpen
+  /// Kilo-Walk UI string — chatChooseFolderOpen
   ///
   /// In en, this message translates to:
   /// **'Choose a folder to open as project context.'**
   String get chatChooseFolderOpen;
 
-  /// CodeWalk UI string — chatChooseModel
+  /// Kilo-Walk UI string — chatChooseModel
   ///
   /// In en, this message translates to:
   /// **'Choose model'**
   String get chatChooseModel;
 
-  /// CodeWalk UI string — chatClose
+  /// Kilo-Walk UI string — chatClose
   ///
   /// In en, this message translates to:
   /// **'Close'**
   String get chatClose;
 
-  /// CodeWalk UI string — chatCloseProject
+  /// Kilo-Walk UI string — chatCloseProject
   ///
   /// In en, this message translates to:
   /// **'Close {project}'**
   String chatCloseProject(String project);
 
-  /// CodeWalk UI string — chatCollapseGroup
+  /// Kilo-Walk UI string — chatCollapseGroup
   ///
   /// In en, this message translates to:
   /// **'Collapse group'**
   String get chatCollapseGroup;
 
-  /// CodeWalk UI string — chatCommandDescriptionProject
+  /// Kilo-Walk UI string — chatCommandDescriptionProject
   ///
   /// In en, this message translates to:
   /// **'Project command'**
   String get chatCommandDescriptionProject;
 
-  /// CodeWalk UI string — chatCommandSourceGeneric
+  /// Kilo-Walk UI string — chatCommandSourceGeneric
   ///
   /// In en, this message translates to:
   /// **'command'**
   String get chatCommandSourceGeneric;
 
-  /// CodeWalk UI string — chatCommandSourceProject
+  /// Kilo-Walk UI string — chatCommandSourceProject
   ///
   /// In en, this message translates to:
   /// **'project'**
   String get chatCommandSourceProject;
 
-  /// CodeWalk UI string — chatCompactContext
+  /// Kilo-Walk UI string — chatCompactContext
   ///
   /// In en, this message translates to:
   /// **'Compact Context'**
   String get chatCompactContext;
 
-  /// CodeWalk UI string — chatComposerHintShell
+  /// Kilo-Walk UI string — chatComposerHintShell
   ///
   /// In en, this message translates to:
   /// **'Shell command (Esc to exit)'**
   String get chatComposerHintShell;
 
-  /// CodeWalk UI string — chatComposerPlaceholder
+  /// Kilo-Walk UI string — chatComposerPlaceholder
   ///
   /// In en, this message translates to:
   /// **'Type your needs...'**
   String get chatComposerPlaceholder;
 
-  /// CodeWalk UI string — chatConversation
+  /// Kilo-Walk UI string — chatConversation
   ///
   /// In en, this message translates to:
   /// **'Conversation'**
   String get chatConversation;
 
-  /// CodeWalk UI string — chatConversations
+  /// Kilo-Walk UI string — chatConversations
   ///
   /// In en, this message translates to:
   /// **'Conversations'**
   String get chatConversations;
 
-  /// CodeWalk UI string — chatConversationsPane
+  /// Kilo-Walk UI string — chatConversationsPane
   ///
   /// In en, this message translates to:
   /// **'Conversations'**
   String get chatConversationsPane;
 
-  /// CodeWalk UI string — chatCostLabel
+  /// Kilo-Walk UI string — chatCostLabel
   ///
   /// In en, this message translates to:
   /// **'Cost: \${cost}'**
   String chatCostLabel(double cost);
 
-  /// CodeWalk UI string — chatCouldNotRefreshSession
+  /// Kilo-Walk UI string — chatCouldNotRefreshSession
   ///
   /// In en, this message translates to:
   /// **'Could not refresh this conversation'**
   String get chatCouldNotRefreshSession;
 
-  /// CodeWalk UI string — chatCurrent
+  /// Kilo-Walk UI string — chatCurrent
   ///
   /// In en, this message translates to:
   /// **'Use current'**
   String get chatCurrent;
 
-  /// CodeWalk UI string — chatDescriptionChildren
+  /// Kilo-Walk UI string — chatDescriptionChildren
   ///
   /// In en, this message translates to:
   /// **'Children: {count}'**
   String chatDescriptionChildren(int count);
 
-  /// CodeWalk UI string — chatDescriptionCloseApp
+  /// Kilo-Walk UI string — chatDescriptionCloseApp
   ///
   /// In en, this message translates to:
   /// **'Close app using platform close behavior'**
   String get chatDescriptionCloseApp;
 
-  /// CodeWalk UI string — chatDescriptionCycleModels
+  /// Kilo-Walk UI string — chatDescriptionCycleModels
   ///
   /// In en, this message translates to:
   /// **'Cycle recent models'**
   String get chatDescriptionCycleModels;
 
-  /// CodeWalk UI string — chatDescriptionCycleVariant
+  /// Kilo-Walk UI string — chatDescriptionCycleVariant
   ///
   /// In en, this message translates to:
   /// **'Cycle model variant'**
   String get chatDescriptionCycleVariant;
 
-  /// CodeWalk UI string — chatDescriptionDiffFilesZero
+  /// Kilo-Walk UI string — chatDescriptionDiffFilesZero
   ///
   /// In en, this message translates to:
   /// **'Diff files: 0'**
   String get chatDescriptionDiffFilesZero;
 
-  /// CodeWalk UI string — chatDescriptionFocusInput
+  /// Kilo-Walk UI string — chatDescriptionFocusInput
   ///
   /// In en, this message translates to:
   /// **'Focus message input'**
   String get chatDescriptionFocusInput;
 
-  /// CodeWalk UI string — chatDescriptionFocusOrCloseDrawer
+  /// Kilo-Walk UI string — chatDescriptionFocusOrCloseDrawer
   ///
   /// In en, this message translates to:
   /// **'Focus input (or close drawer when open)'**
   String get chatDescriptionFocusOrCloseDrawer;
 
-  /// CodeWalk UI string — chatDescriptionForceExit
+  /// Kilo-Walk UI string — chatDescriptionForceExit
   ///
   /// In en, this message translates to:
   /// **'Force-exit the app'**
   String get chatDescriptionForceExit;
 
-  /// CodeWalk UI string — chatDescriptionNewConversation
+  /// Kilo-Walk UI string — chatDescriptionNewConversation
   ///
   /// In en, this message translates to:
   /// **'New conversation'**
   String get chatDescriptionNewConversation;
 
-  /// CodeWalk UI string — chatDescriptionNextAgent
+  /// Kilo-Walk UI string — chatDescriptionNextAgent
   ///
   /// In en, this message translates to:
   /// **'Next agent'**
   String get chatDescriptionNextAgent;
 
-  /// CodeWalk UI string — chatDescriptionOpenProjects
+  /// Kilo-Walk UI string — chatDescriptionOpenProjects
   ///
   /// In en, this message translates to:
   /// **'Use this button to open your projects and conversations.'**
   String get chatDescriptionOpenProjects;
 
-  /// CodeWalk UI string — chatDescriptionOpenSettings
+  /// Kilo-Walk UI string — chatDescriptionOpenSettings
   ///
   /// In en, this message translates to:
   /// **'Open settings'**
   String get chatDescriptionOpenSettings;
 
-  /// CodeWalk UI string — chatDescriptionPreviousAgent
+  /// Kilo-Walk UI string — chatDescriptionPreviousAgent
   ///
   /// In en, this message translates to:
   /// **'Previous agent'**
   String get chatDescriptionPreviousAgent;
 
-  /// CodeWalk UI string — chatDescriptionProjectCommand
+  /// Kilo-Walk UI string — chatDescriptionProjectCommand
   ///
   /// In en, this message translates to:
   /// **'Project command'**
   String get chatDescriptionProjectCommand;
 
-  /// CodeWalk UI string — chatDescriptionQuickOpen
+  /// Kilo-Walk UI string — chatDescriptionQuickOpen
   ///
   /// In en, this message translates to:
   /// **'Quick open files'**
   String get chatDescriptionQuickOpen;
 
-  /// CodeWalk UI string — chatDescriptionRefreshData
+  /// Kilo-Walk UI string — chatDescriptionRefreshData
   ///
   /// In en, this message translates to:
   /// **'Refresh chat data'**
   String get chatDescriptionRefreshData;
 
-  /// CodeWalk UI string — chatDescriptionStopResponse
+  /// Kilo-Walk UI string — chatDescriptionStopResponse
   ///
   /// In en, this message translates to:
   /// **'Stop active response (while responding)'**
   String get chatDescriptionStopResponse;
 
-  /// CodeWalk UI string — chatDescriptionSwitchProject
+  /// Kilo-Walk UI string — chatDescriptionSwitchProject
   ///
   /// In en, this message translates to:
   /// **'Use this button to switch project folders and context.'**
   String get chatDescriptionSwitchProject;
 
-  /// CodeWalk UI string — chatDescriptionVoiceInput
+  /// Kilo-Walk UI string — chatDescriptionVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Start or stop voice input'**
   String get chatDescriptionVoiceInput;
 
-  /// CodeWalk UI string — chatDiffFiles
+  /// Kilo-Walk UI string — chatDiffFiles
   ///
   /// In en, this message translates to:
   /// **'Diff files: 0'**
   String get chatDiffFiles;
 
-  /// CodeWalk UI string — chatDisplay
+  /// Kilo-Walk UI string — chatDisplay
   ///
   /// In en, this message translates to:
   /// **'Display'**
   String get chatDisplay;
 
-  /// CodeWalk UI string — chatDisplayToggles
+  /// Kilo-Walk UI string — chatDisplayToggles
   ///
   /// In en, this message translates to:
   /// **'Display toggles'**
   String get chatDisplayToggles;
 
-  /// CodeWalk UI string — chatDoubleESCStop
+  /// Kilo-Walk UI string — chatDoubleESCStop
   ///
   /// In en, this message translates to:
   /// **'Double ESC to stop'**
   String get chatDoubleESCStop;
 
-  /// CodeWalk UI string — chatEffortLockedSubConversation
+  /// Kilo-Walk UI string — chatEffortLockedSubConversation
   ///
   /// In en, this message translates to:
   /// **'Effort locked in sub-conversation'**
   String get chatEffortLockedSubConversation;
 
-  /// CodeWalk UI string — chatExpandGroup
+  /// Kilo-Walk UI string — chatExpandGroup
   ///
   /// In en, this message translates to:
   /// **'Expand group'**
   String get chatExpandGroup;
 
-  /// CodeWalk UI string — chatExportCanceled
+  /// Kilo-Walk UI string — chatExportCanceled
   ///
   /// In en, this message translates to:
   /// **'Session export canceled'**
   String get chatExportCanceled;
 
-  /// CodeWalk UI string — chatFailedToLoadDirectories
+  /// Kilo-Walk UI string — chatFailedToLoadDirectories
   ///
   /// In en, this message translates to:
   /// **'Failed to load directories'**
   String get chatFailedToLoadDirectories;
 
-  /// CodeWalk UI string — chatFailedToLoadFile
+  /// Kilo-Walk UI string — chatFailedToLoadFile
   ///
   /// In en, this message translates to:
   /// **'Failed to load file'**
   String get chatFailedToLoadFile;
 
-  /// CodeWalk UI string — chatFailedToRefreshProviders
+  /// Kilo-Walk UI string — chatFailedToRefreshProviders
   ///
   /// In en, this message translates to:
   /// **'Failed to refresh providers and models'**
   String get chatFailedToRefreshProviders;
 
-  /// CodeWalk UI string — chatFailedToRefreshSubConversations
+  /// Kilo-Walk UI string — chatFailedToRefreshSubConversations
   ///
   /// In en, this message translates to:
   /// **'Failed to refresh sub-conversations. Please try again.'**
   String get chatFailedToRefreshSubConversations;
 
-  /// CodeWalk UI string — chatFailedToStopResponse
+  /// Kilo-Walk UI string — chatFailedToStopResponse
   ///
   /// In en, this message translates to:
   /// **'Failed to stop current response'**
   String get chatFailedToStopResponse;
 
-  /// CodeWalk UI string — chatFileExplorerContents
+  /// Kilo-Walk UI string — chatFileExplorerContents
   ///
   /// In en, this message translates to:
   /// **'Contents'**
   String get chatFileExplorerContents;
 
-  /// CodeWalk UI string — chatFileExplorerNames
+  /// Kilo-Walk UI string — chatFileExplorerNames
   ///
   /// In en, this message translates to:
   /// **'Names'**
   String get chatFileExplorerNames;
 
-  /// CodeWalk UI string — chatFilterActive
+  /// Kilo-Walk UI string — chatFilterActive
   ///
   /// In en, this message translates to:
   /// **'Active'**
   String get chatFilterActive;
 
-  /// CodeWalk UI string — chatFilterAll
+  /// Kilo-Walk UI string — chatFilterAll
   ///
   /// In en, this message translates to:
   /// **'All'**
   String get chatFilterAll;
 
-  /// CodeWalk UI string — chatFilterArchived
+  /// Kilo-Walk UI string — chatFilterArchived
   ///
   /// In en, this message translates to:
   /// **'Archived'**
   String get chatFilterArchived;
 
-  /// CodeWalk UI string — chatFilterDirectories
+  /// Kilo-Walk UI string — chatFilterDirectories
   ///
   /// In en, this message translates to:
   /// **'Filter directories'**
   String get chatFilterDirectories;
 
-  /// CodeWalk UI string — chatFilterSessions
+  /// Kilo-Walk UI string — chatFilterSessions
   ///
   /// In en, this message translates to:
   /// **'Filter sessions'**
   String get chatFilterSessions;
 
-  /// CodeWalk UI string — chatForkFailed
+  /// Kilo-Walk UI string — chatForkFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to fork conversation'**
   String get chatForkFailed;
 
-  /// CodeWalk UI string — chatForked
+  /// Kilo-Walk UI string — chatForked
   ///
   /// In en, this message translates to:
   /// **'Conversation forked'**
   String get chatForked;
 
-  /// CodeWalk UI string — chatGoToFirst
+  /// Kilo-Walk UI string — chatGoToFirst
   ///
   /// In en, this message translates to:
   /// **'Go to first message'**
   String get chatGoToFirst;
 
-  /// CodeWalk UI string — chatGoToLatest
+  /// Kilo-Walk UI string — chatGoToLatest
   ///
   /// In en, this message translates to:
   /// **'Go to latest message'**
   String get chatGoToLatest;
 
-  /// CodeWalk UI string — chatGroupMessageCountMessages
+  /// Kilo-Walk UI string — chatGroupMessageCountMessages
   ///
   /// In en, this message translates to:
   /// **'{messageCount} messages hidden before {compactionLabel} compaction'**
@@ -1457,2203 +1457,2203 @@ abstract class AppLocalizations {
     String messageCount,
   );
 
-  /// CodeWalk UI string — chatHelloAssistant
+  /// Kilo-Walk UI string — chatHelloAssistant
   ///
   /// In en, this message translates to:
   /// **'Hello! I am your AI assistant'**
   String get chatHelloAssistant;
 
-  /// CodeWalk UI string — chatHelp
+  /// Kilo-Walk UI string — chatHelp
   ///
   /// In en, this message translates to:
   /// **'How can I help you?'**
   String get chatHelp;
 
-  /// CodeWalk UI string — chatHelpMessage
+  /// Kilo-Walk UI string — chatHelpMessage
   ///
   /// In en, this message translates to:
   /// **'Use @ for mentions, ! for shell, / for commands'**
   String get chatHelpMessage;
 
-  /// CodeWalk UI string — chatHideConversationsSidebar
+  /// Kilo-Walk UI string — chatHideConversationsSidebar
   ///
   /// In en, this message translates to:
   /// **'Hide Conversations sidebar'**
   String get chatHideConversationsSidebar;
 
-  /// CodeWalk UI string — chatHideUtilitySidebar
+  /// Kilo-Walk UI string — chatHideUtilitySidebar
   ///
   /// In en, this message translates to:
   /// **'Hide Utility sidebar'**
   String get chatHideUtilitySidebar;
 
-  /// CodeWalk UI string — chatHistoryCollapsed
+  /// Kilo-Walk UI string — chatHistoryCollapsed
   ///
   /// In en, this message translates to:
   /// **'Previous history is collapsed'**
   String get chatHistoryCollapsed;
 
-  /// CodeWalk UI string — chatHistoryHideEarlier
+  /// Kilo-Walk UI string — chatHistoryHideEarlier
   ///
   /// In en, this message translates to:
   /// **'Hide earlier messages'**
   String get chatHistoryHideEarlier;
 
-  /// CodeWalk UI string — chatHistoryMessagesHidden
+  /// Kilo-Walk UI string — chatHistoryMessagesHidden
   ///
   /// In en, this message translates to:
   /// **'{count} messages hidden before {label} compaction'**
   String chatHistoryMessagesHidden(int count, String label);
 
-  /// CodeWalk UI string — chatHistoryShowEarlier
+  /// Kilo-Walk UI string — chatHistoryShowEarlier
   ///
   /// In en, this message translates to:
   /// **'Show earlier messages'**
   String get chatHistoryShowEarlier;
 
-  /// CodeWalk UI string — chatKeepWorking
+  /// Kilo-Walk UI string — chatKeepWorking
   ///
   /// In en, this message translates to:
   /// **'Keep working'**
   String get chatKeepWorking;
 
-  /// CodeWalk UI string — chatLargeContentSkipped
+  /// Kilo-Walk UI string — chatLargeContentSkipped
   ///
   /// In en, this message translates to:
   /// **'Large or malformed content was skipped for stability.'**
   String get chatLargeContentSkipped;
 
-  /// CodeWalk UI string — chatLatestToolActivity
+  /// Kilo-Walk UI string — chatLatestToolActivity
   ///
   /// In en, this message translates to:
   /// **'Latest tool activity stays inside this bounded panel to keep the chat viewport stable.'**
   String get chatLatestToolActivity;
 
-  /// CodeWalk UI string — chatLoadMore
+  /// Kilo-Walk UI string — chatLoadMore
   ///
   /// In en, this message translates to:
   /// **'Load more'**
   String get chatLoadMore;
 
-  /// CodeWalk UI string — chatLoadingProjectContext
+  /// Kilo-Walk UI string — chatLoadingProjectContext
   ///
   /// In en, this message translates to:
   /// **'Loading project context...'**
   String get chatLoadingProjectContext;
 
-  /// CodeWalk UI string — chatMainConversationUnavailable
+  /// Kilo-Walk UI string — chatMainConversationUnavailable
   ///
   /// In en, this message translates to:
   /// **'Main conversation is not available yet.'**
   String get chatMainConversationUnavailable;
 
-  /// CodeWalk UI string — chatParentConversationUnavailable
+  /// Kilo-Walk UI string — chatParentConversationUnavailable
   ///
   /// In en, this message translates to:
   /// **'Parent conversation is not available yet.'**
   String get chatParentConversationUnavailable;
 
-  /// CodeWalk UI string — chatMentionAgentSubtitle
+  /// Kilo-Walk UI string — chatMentionAgentSubtitle
   ///
   /// In en, this message translates to:
   /// **'agent'**
   String get chatMentionAgentSubtitle;
 
-  /// CodeWalk UI string — chatMentionFileSubtitle
+  /// Kilo-Walk UI string — chatMentionFileSubtitle
   ///
   /// In en, this message translates to:
   /// **'file'**
   String get chatMentionFileSubtitle;
 
-  /// CodeWalk UI string — chatMentionSymbolSubtitle
+  /// Kilo-Walk UI string — chatMentionSymbolSubtitle
   ///
   /// In en, this message translates to:
   /// **'symbol'**
   String get chatMentionSymbolSubtitle;
 
-  /// CodeWalk UI string — chatMessageAttachedFile
+  /// Kilo-Walk UI string — chatMessageAttachedFile
   ///
   /// In en, this message translates to:
   /// **'Attached file'**
   String get chatMessageAttachedFile;
 
-  /// CodeWalk UI string — chatMessageDetails
+  /// Kilo-Walk UI string — chatMessageDetails
   ///
   /// In en, this message translates to:
   /// **'Details'**
   String get chatMessageDetails;
 
-  /// CodeWalk UI string — chatMessageHide
+  /// Kilo-Walk UI string — chatMessageHide
   ///
   /// In en, this message translates to:
   /// **'Hide'**
   String get chatMessageHide;
 
-  /// CodeWalk UI string — chatMessageLess
+  /// Kilo-Walk UI string — chatMessageLess
   ///
   /// In en, this message translates to:
   /// **'Less'**
   String get chatMessageLess;
 
-  /// CodeWalk UI string — chatMessageMessagePartUnavailable
+  /// Kilo-Walk UI string — chatMessageMessagePartUnavailable
   ///
   /// In en, this message translates to:
   /// **'Message part unavailable'**
   String get chatMessageMessagePartUnavailable;
 
-  /// CodeWalk UI string — chatMessageMetadataAvailable
+  /// Kilo-Walk UI string — chatMessageMetadataAvailable
   ///
   /// In en, this message translates to:
   /// **'No metadata available'**
   String get chatMessageMetadataAvailable;
 
-  /// CodeWalk UI string — chatMessageModelMessageModelId
+  /// Kilo-Walk UI string — chatMessageModelMessageModelId
   ///
   /// In en, this message translates to:
   /// **'Model: {modelId}'**
   String chatMessageModelMessageModelId(String modelId);
 
-  /// CodeWalk UI string — chatMessageMore
+  /// Kilo-Walk UI string — chatMessageMore
   ///
   /// In en, this message translates to:
   /// **'More'**
   String get chatMessageMore;
 
-  /// CodeWalk UI string — chatMessageOpenFile
+  /// Kilo-Walk UI string — chatMessageOpenFile
   ///
   /// In en, this message translates to:
   /// **'Open file'**
   String get chatMessageOpenFile;
 
-  /// CodeWalk UI string — chatMessageProviderMessageProviderId
+  /// Kilo-Walk UI string — chatMessageProviderMessageProviderId
   ///
   /// In en, this message translates to:
   /// **'Provider: {providerId}'**
   String chatMessageProviderMessageProviderId(String providerId);
 
-  /// CodeWalk UI string — chatMessageRewindEdit
+  /// Kilo-Walk UI string — chatMessageRewindEdit
   ///
   /// In en, this message translates to:
   /// **'Rewind and edit from here'**
   String get chatMessageRewindEdit;
 
-  /// CodeWalk UI string — chatMessageRunningTask
+  /// Kilo-Walk UI string — chatMessageRunningTask
   ///
   /// In en, this message translates to:
   /// **'Running task'**
   String get chatMessageRunningTask;
 
-  /// CodeWalk UI string — chatMessageSaveFile
+  /// Kilo-Walk UI string — chatMessageSaveFile
   ///
   /// In en, this message translates to:
   /// **'Save file'**
   String get chatMessageSaveFile;
 
-  /// CodeWalk UI string — chatMessageShow
+  /// Kilo-Walk UI string — chatMessageShow
   ///
   /// In en, this message translates to:
   /// **'Show'**
   String get chatMessageShow;
 
-  /// CodeWalk UI string — chatMessageShowQuestion
+  /// Kilo-Walk UI string — chatMessageShowQuestion
   ///
   /// In en, this message translates to:
   /// **'View question'**
   String get chatMessageShowQuestion;
 
-  /// CodeWalk UI string — chatMessageShowLess
+  /// Kilo-Walk UI string — chatMessageShowLess
   ///
   /// In en, this message translates to:
   /// **'Show less'**
   String get chatMessageShowLess;
 
-  /// CodeWalk UI string — chatMessageShowLessCompact
+  /// Kilo-Walk UI string — chatMessageShowLessCompact
   ///
   /// In en, this message translates to:
   /// **'Less'**
   String get chatMessageShowLessCompact;
 
-  /// CodeWalk UI string — chatMessageShowMore
+  /// Kilo-Walk UI string — chatMessageShowMore
   ///
   /// In en, this message translates to:
   /// **'Show more'**
   String get chatMessageShowMore;
 
-  /// CodeWalk UI string — chatMessageShowMoreCompact
+  /// Kilo-Walk UI string — chatMessageShowMoreCompact
   ///
   /// In en, this message translates to:
   /// **'More'**
   String get chatMessageShowMoreCompact;
 
-  /// CodeWalk UI string — chatMessageThinking
+  /// Kilo-Walk UI string — chatMessageThinking
   ///
   /// In en, this message translates to:
   /// **'Thinking'**
   String get chatMessageThinking;
 
-  /// CodeWalk UI string — chatMessageThinkingProcess
+  /// Kilo-Walk UI string — chatMessageThinkingProcess
   ///
   /// In en, this message translates to:
   /// **'Thinking Process'**
   String get chatMessageThinkingProcess;
 
-  /// CodeWalk UI string — chatMessageToolCall
+  /// Kilo-Walk UI string — chatMessageToolCall
   ///
   /// In en, this message translates to:
   /// **'1 tool call'**
   String get chatMessageToolCall;
 
-  /// CodeWalk UI string — chatMessageToolCalls
+  /// Kilo-Walk UI string — chatMessageToolCalls
   ///
   /// In en, this message translates to:
   /// **'{count} tool calls'**
   String chatMessageToolCalls(int count);
 
-  /// CodeWalk UI string — chatMessageToolCommand
+  /// Kilo-Walk UI string — chatMessageToolCommand
   ///
   /// In en, this message translates to:
   /// **'Command'**
   String get chatMessageToolCommand;
 
-  /// CodeWalk UI string — chatMessageToolCommandTruncated
+  /// Kilo-Walk UI string — chatMessageToolCommandTruncated
   ///
   /// In en, this message translates to:
   /// **'Command preview truncated for stability.'**
   String get chatMessageToolCommandTruncated;
 
-  /// CodeWalk UI string — chatMessageToolDiffOmitted
+  /// Kilo-Walk UI string — chatMessageToolDiffOmitted
   ///
   /// In en, this message translates to:
   /// **'Diff preview omitted: edit payload is too large to render safely on mobile.'**
   String get chatMessageToolDiffOmitted;
 
-  /// CodeWalk UI string — chatMessageToolInput
+  /// Kilo-Walk UI string — chatMessageToolInput
   ///
   /// In en, this message translates to:
   /// **'Input'**
   String get chatMessageToolInput;
 
-  /// CodeWalk UI string — chatMessageToolInputTruncated
+  /// Kilo-Walk UI string — chatMessageToolInputTruncated
   ///
   /// In en, this message translates to:
   /// **'Input preview truncated for stability.'**
   String get chatMessageToolInputTruncated;
 
-  /// CodeWalk UI string — chatMessageToolOutputTruncated
+  /// Kilo-Walk UI string — chatMessageToolOutputTruncated
   ///
   /// In en, this message translates to:
   /// **'Large tool output preview truncated for app stability.'**
   String get chatMessageToolOutputTruncated;
 
-  /// CodeWalk UI string — chatMessageToolQueuedCount
+  /// Kilo-Walk UI string — chatMessageToolQueuedCount
   ///
   /// In en, this message translates to:
   /// **'{count} queued'**
   String chatMessageToolQueuedCount(int count);
 
-  /// CodeWalk UI string — chatMessageToolRunningCount
+  /// Kilo-Walk UI string — chatMessageToolRunningCount
   ///
   /// In en, this message translates to:
   /// **'{count} running'**
   String chatMessageToolRunningCount(int count);
 
-  /// CodeWalk UI string — chatMessageToolStatusInProgress
+  /// Kilo-Walk UI string — chatMessageToolStatusInProgress
   ///
   /// In en, this message translates to:
   /// **'In progress'**
   String get chatMessageToolStatusInProgress;
 
-  /// CodeWalk UI string — chatMessageToolStatusNeedsAttention
+  /// Kilo-Walk UI string — chatMessageToolStatusNeedsAttention
   ///
   /// In en, this message translates to:
   /// **'Needs attention'**
   String get chatMessageToolStatusNeedsAttention;
 
-  /// CodeWalk UI string — chatMessageToolStatusQueued
+  /// Kilo-Walk UI string — chatMessageToolStatusQueued
   ///
   /// In en, this message translates to:
   /// **'Queued'**
   String get chatMessageToolStatusQueued;
 
-  /// CodeWalk UI string — chatMessageYou
+  /// Kilo-Walk UI string — chatMessageYou
   ///
   /// In en, this message translates to:
   /// **'You'**
   String get chatMessageYou;
 
-  /// CodeWalk UI string — chatModelLockedSubConversation
+  /// Kilo-Walk UI string — chatModelLockedSubConversation
   ///
   /// In en, this message translates to:
   /// **'Model locked in sub-conversation'**
   String get chatModelLockedSubConversation;
 
-  /// CodeWalk UI string — chatNewChat
+  /// Kilo-Walk UI string — chatNewChat
   ///
   /// In en, this message translates to:
   /// **'New Chat'**
   String get chatNewChat;
 
-  /// CodeWalk UI string — chatNewChatTourDescription
+  /// Kilo-Walk UI string — chatNewChatTourDescription
   ///
   /// In en, this message translates to:
   /// **'Start a new conversation here.'**
   String get chatNewChatTourDescription;
 
-  /// CodeWalk UI string — chatNewChatTourTitle
+  /// Kilo-Walk UI string — chatNewChatTourTitle
   ///
   /// In en, this message translates to:
   /// **'New chat'**
   String get chatNewChatTourTitle;
 
-  /// CodeWalk UI string — chatNoConversationsInProject
+  /// Kilo-Walk UI string — chatNoConversationsInProject
   ///
   /// In en, this message translates to:
   /// **'No conversations in this project.'**
   String get chatNoConversationsInProject;
 
-  /// CodeWalk UI string — chatNoServerYet
+  /// Kilo-Walk UI string — chatNoServerYet
   ///
   /// In en, this message translates to:
   /// **'No server configured yet'**
   String get chatNoServerYet;
 
-  /// CodeWalk UI string — chatNoSessionSelected
+  /// Kilo-Walk UI string — chatNoSessionSelected
   ///
   /// In en, this message translates to:
   /// **'Select or create a conversation to start chatting'**
   String get chatNoSessionSelected;
 
-  /// CodeWalk UI string — chatNoSubConversationFound
+  /// Kilo-Walk UI string — chatNoSubConversationFound
   ///
   /// In en, this message translates to:
   /// **'No sub-conversation found for this task.'**
   String get chatNoSubConversationFound;
 
-  /// CodeWalk UI string — chatOpenFiles
+  /// Kilo-Walk UI string — chatOpenFiles
   ///
   /// In en, this message translates to:
   /// **'Open Files'**
   String get chatOpenFiles;
 
-  /// CodeWalk UI string — chatOpenProject
+  /// Kilo-Walk UI string — chatOpenProject
   ///
   /// In en, this message translates to:
   /// **'Open project'**
   String get chatOpenProject;
 
-  /// CodeWalk UI string — chatOpenProjectFolder
+  /// Kilo-Walk UI string — chatOpenProjectFolder
   ///
   /// In en, this message translates to:
   /// **'Open project folder...'**
   String get chatOpenProjectFolder;
 
-  /// CodeWalk UI string — chatOpenProjectToLoad
+  /// Kilo-Walk UI string — chatOpenProjectToLoad
   ///
   /// In en, this message translates to:
   /// **'Open project to load conversations.'**
   String get chatOpenProjectToLoad;
 
-  /// CodeWalk UI string — chatOpenSidebar
+  /// Kilo-Walk UI string — chatOpenSidebar
   ///
   /// In en, this message translates to:
   /// **'Open sidebar'**
   String get chatOpenSidebar;
 
-  /// CodeWalk UI string — chatPageStatusAutomaticCompactionExplanation
+  /// Kilo-Walk UI string — chatPageStatusAutomaticCompactionExplanation
   ///
   /// In en, this message translates to:
   /// **'Automatic compaction happens as context usage grows.'**
   String get chatPageStatusAutomaticCompactionExplanation;
 
-  /// CodeWalk UI string — chatPageStatusCompactNow
+  /// Kilo-Walk UI string — chatPageStatusCompactNow
   ///
   /// In en, this message translates to:
   /// **'Compact now'**
   String get chatPageStatusCompactNow;
 
-  /// CodeWalk UI string — chatPageStatusCompacting
+  /// Kilo-Walk UI string — chatPageStatusCompacting
   ///
   /// In en, this message translates to:
   /// **'Compacting...'**
   String get chatPageStatusCompacting;
 
-  /// CodeWalk UI string — chatPageStatusCompactingContextNow
+  /// Kilo-Walk UI string — chatPageStatusCompactingContextNow
   ///
   /// In en, this message translates to:
   /// **'Compacting context now...'**
   String get chatPageStatusCompactingContextNow;
 
-  /// CodeWalk UI string — chatPageStatusContextCompacted
+  /// Kilo-Walk UI string — chatPageStatusContextCompacted
   ///
   /// In en, this message translates to:
   /// **'Context compacted'**
   String get chatPageStatusContextCompacted;
 
-  /// CodeWalk UI string — chatPageStatusContextUsage
+  /// Kilo-Walk UI string — chatPageStatusContextUsage
   ///
   /// In en, this message translates to:
   /// **'Context usage'**
   String get chatPageStatusContextUsage;
 
-  /// CodeWalk UI string — chatPageStatusCost
+  /// Kilo-Walk UI string — chatPageStatusCost
   ///
   /// In en, this message translates to:
   /// **'Cost'**
   String get chatPageStatusCost;
 
-  /// CodeWalk UI string — chatPageStatusFailedToCompactContext
+  /// Kilo-Walk UI string — chatPageStatusFailedToCompactContext
   ///
   /// In en, this message translates to:
   /// **'Failed to compact context'**
   String get chatPageStatusFailedToCompactContext;
 
-  /// CodeWalk UI string — chatPageStatusLimit
+  /// Kilo-Walk UI string — chatPageStatusLimit
   ///
   /// In en, this message translates to:
   /// **'Limit'**
   String get chatPageStatusLimit;
 
-  /// CodeWalk UI string — chatPageStatusManageServers
+  /// Kilo-Walk UI string — chatPageStatusManageServers
   ///
   /// In en, this message translates to:
   /// **'Manage Servers'**
   String get chatPageStatusManageServers;
 
-  /// CodeWalk UI string — chatPageStatusSaver
+  /// Kilo-Walk UI string — chatPageStatusSaver
   ///
   /// In en, this message translates to:
   /// **'Saver'**
   String get chatPageStatusSaver;
 
-  /// CodeWalk UI string — chatPageStatusServer
+  /// Kilo-Walk UI string — chatPageStatusServer
   ///
   /// In en, this message translates to:
   /// **'Server'**
   String get chatPageStatusServer;
 
-  /// CodeWalk UI string — chatPageStatusSwitchServer
+  /// Kilo-Walk UI string — chatPageStatusSwitchServer
   ///
   /// In en, this message translates to:
   /// **'Switch Server'**
   String get chatPageStatusSwitchServer;
 
-  /// CodeWalk UI string — chatPageStatusTokens
+  /// Kilo-Walk UI string — chatPageStatusTokens
   ///
   /// In en, this message translates to:
   /// **'Tokens'**
   String get chatPageStatusTokens;
 
-  /// CodeWalk UI string — chatPageStatusUsage
+  /// Kilo-Walk UI string — chatPageStatusUsage
   ///
   /// In en, this message translates to:
   /// **'Usage'**
   String get chatPageStatusUsage;
 
-  /// CodeWalk UI string — chatPageStatusUsagePercent
+  /// Kilo-Walk UI string — chatPageStatusUsagePercent
   ///
   /// In en, this message translates to:
   /// **'{usagePercent}'**
   String chatPageStatusUsagePercent(int usagePercent);
 
-  /// CodeWalk UI string — chatPermissionAutoApproveOff
+  /// Kilo-Walk UI string — chatPermissionAutoApproveOff
   ///
   /// In en, this message translates to:
   /// **'Permission auto-approve is off'**
   String get chatPermissionAutoApproveOff;
 
-  /// CodeWalk UI string — chatPermissionAutoApproveOn
+  /// Kilo-Walk UI string — chatPermissionAutoApproveOn
   ///
   /// In en, this message translates to:
   /// **'Permission auto-approve is on'**
   String get chatPermissionAutoApproveOn;
 
-  /// CodeWalk UI string — chatProjectContext
+  /// Kilo-Walk UI string — chatProjectContext
   ///
   /// In en, this message translates to:
   /// **'Project Context'**
   String get chatProjectContext;
 
-  /// CodeWalk UI string — chatProjectContext2
+  /// Kilo-Walk UI string — chatProjectContext2
   ///
   /// In en, this message translates to:
   /// **'Project context'**
   String get chatProjectContext2;
 
-  /// CodeWalk UI string — chatRealtimeGlobalEvent
+  /// Kilo-Walk UI string — chatRealtimeGlobalEvent
   ///
   /// In en, this message translates to:
   /// **'global event'**
   String get chatRealtimeGlobalEvent;
 
-  /// CodeWalk UI string — chatRealtimeGlobalEventReason
+  /// Kilo-Walk UI string — chatRealtimeGlobalEventReason
   ///
   /// In en, this message translates to:
   /// **'global event ({reason})'**
   String chatRealtimeGlobalEventReason(String reason);
 
-  /// CodeWalk UI string — chatRealtimeGlobalEventStale
+  /// Kilo-Walk UI string — chatRealtimeGlobalEventStale
   ///
   /// In en, this message translates to:
   /// **'global event (stale generation)'**
   String get chatRealtimeGlobalEventStale;
 
-  /// CodeWalk UI string — chatRealtimeMessageStreamReason
+  /// Kilo-Walk UI string — chatRealtimeMessageStreamReason
   ///
   /// In en, this message translates to:
   /// **'message stream ({reason})'**
   String chatRealtimeMessageStreamReason(String reason);
 
-  /// CodeWalk UI string — chatRealtimeRealtimeEvent
+  /// Kilo-Walk UI string — chatRealtimeRealtimeEvent
   ///
   /// In en, this message translates to:
   /// **'realtime event'**
   String get chatRealtimeRealtimeEvent;
 
-  /// CodeWalk UI string — chatRealtimeRealtimeEventReason
+  /// Kilo-Walk UI string — chatRealtimeRealtimeEventReason
   ///
   /// In en, this message translates to:
   /// **'realtime event ({reason})'**
   String chatRealtimeRealtimeEventReason(String reason);
 
-  /// CodeWalk UI string — chatRealtimeRealtimeEventStale
+  /// Kilo-Walk UI string — chatRealtimeRealtimeEventStale
   ///
   /// In en, this message translates to:
   /// **'realtime event (stale generation)'**
   String get chatRealtimeRealtimeEventStale;
 
-  /// CodeWalk UI string — chatRealtimeReconnectingServerTry
+  /// Kilo-Walk UI string — chatRealtimeReconnectingServerTry
   ///
   /// In en, this message translates to:
   /// **'Reconnecting to the server. Try again in a moment.'**
   String get chatRealtimeReconnectingServerTry;
 
-  /// CodeWalk UI string — chatReasoning
+  /// Kilo-Walk UI string — chatReasoning
   ///
   /// In en, this message translates to:
   /// **'Reasoning...'**
   String get chatReasoning;
 
-  /// CodeWalk UI string — chatRecentSessions
+  /// Kilo-Walk UI string — chatRecentSessions
   ///
   /// In en, this message translates to:
   /// **'Recent sessions'**
   String get chatRecentSessions;
 
-  /// CodeWalk UI string — chatRecentSessionsToggle
+  /// Kilo-Walk UI string — chatRecentSessionsToggle
   ///
   /// In en, this message translates to:
   /// **'Recent sessions'**
   String get chatRecentSessionsToggle;
 
-  /// CodeWalk UI string — chatRedoLastTurn
+  /// Kilo-Walk UI string — chatRedoLastTurn
   ///
   /// In en, this message translates to:
   /// **'Redo last undone turn'**
   String get chatRedoLastTurn;
 
-  /// CodeWalk UI string — chatRedoNothing
+  /// Kilo-Walk UI string — chatRedoNothing
   ///
   /// In en, this message translates to:
   /// **'Nothing to redo in this session'**
   String get chatRedoNothing;
 
-  /// CodeWalk UI string — chatRefresh
+  /// Kilo-Walk UI string — chatRefresh
   ///
   /// In en, this message translates to:
   /// **'Refresh'**
   String get chatRefresh;
 
-  /// CodeWalk UI string — chatRefreshConversation
+  /// Kilo-Walk UI string — chatRefreshConversation
   ///
   /// In en, this message translates to:
   /// **'Could not refresh this conversation'**
   String get chatRefreshConversation;
 
-  /// CodeWalk UI string — chatRefreshProjects
+  /// Kilo-Walk UI string — chatRefreshProjects
   ///
   /// In en, this message translates to:
   /// **'Refresh projects'**
   String get chatRefreshProjects;
 
-  /// CodeWalk UI string — chatRefreshSessionDetails
+  /// Kilo-Walk UI string — chatRefreshSessionDetails
   ///
   /// In en, this message translates to:
   /// **'Refresh session details'**
   String get chatRefreshSessionDetails;
 
-  /// CodeWalk UI string — chatRemoveDisplayNameHistory
+  /// Kilo-Walk UI string — chatRemoveDisplayNameHistory
   ///
   /// In en, this message translates to:
   /// **'Remove {displayName} from history'**
   String chatRemoveDisplayNameHistory(String displayName);
 
-  /// CodeWalk UI string — chatRetry
+  /// Kilo-Walk UI string — chatRetry
   ///
   /// In en, this message translates to:
   /// **'Retry'**
   String get chatRetry;
 
-  /// CodeWalk UI string — chatRetry2
+  /// Kilo-Walk UI string — chatRetry2
   ///
   /// In en, this message translates to:
   /// **'Retry'**
   String get chatRetry2;
 
-  /// CodeWalk UI string — chatRetryRefresh
+  /// Kilo-Walk UI string — chatRetryRefresh
   ///
   /// In en, this message translates to:
   /// **'Retry refresh'**
   String get chatRetryRefresh;
 
-  /// CodeWalk UI string — chatRetryingModelRequest
+  /// Kilo-Walk UI string — chatRetryingModelRequest
   ///
   /// In en, this message translates to:
   /// **'Retrying model request...'**
   String get chatRetryingModelRequest;
 
-  /// CodeWalk UI string — chatReturnToMainConversation
+  /// Kilo-Walk UI string — chatReturnToMainConversation
   ///
   /// In en, this message translates to:
   /// **'Return to main conversation'**
   String get chatReturnToMainConversation;
 
-  /// CodeWalk UI string — chatReturnToParentConversation
+  /// Kilo-Walk UI string — chatReturnToParentConversation
   ///
   /// In en, this message translates to:
   /// **'Return to parent conversation'**
   String get chatReturnToParentConversation;
 
-  /// CodeWalk UI string — chatReviewChanges
+  /// Kilo-Walk UI string — chatReviewChanges
   ///
   /// In en, this message translates to:
   /// **'Review changes'**
   String get chatReviewChanges;
 
-  /// CodeWalk UI string — chatSearchConversations
+  /// Kilo-Walk UI string — chatSearchConversations
   ///
   /// In en, this message translates to:
   /// **'Search conversations'**
   String get chatSearchConversations;
 
-  /// CodeWalk UI string — chatSearchNextResult
+  /// Kilo-Walk UI string — chatSearchNextResult
   ///
   /// In en, this message translates to:
   /// **'Next result'**
   String get chatSearchNextResult;
 
-  /// CodeWalk UI string — chatSearchNoResults
+  /// Kilo-Walk UI string — chatSearchNoResults
   ///
   /// In en, this message translates to:
   /// **'No results'**
   String get chatSearchNoResults;
 
-  /// CodeWalk UI string — chatSearchPreviousResult
+  /// Kilo-Walk UI string — chatSearchPreviousResult
   ///
   /// In en, this message translates to:
   /// **'Previous result'**
   String get chatSearchPreviousResult;
 
-  /// CodeWalk UI string — chatSearchResultCount
+  /// Kilo-Walk UI string — chatSearchResultCount
   ///
   /// In en, this message translates to:
   /// **'Message {current} of {total}'**
   String chatSearchResultCount(int current, int total);
 
-  /// CodeWalk UI string — chatSearchTimeline
+  /// Kilo-Walk UI string — chatSearchTimeline
   ///
   /// In en, this message translates to:
   /// **'Search timeline'**
   String get chatSearchTimeline;
 
-  /// CodeWalk UI string — chatSelectDirectory
+  /// Kilo-Walk UI string — chatSelectDirectory
   ///
   /// In en, this message translates to:
   /// **'Select directory'**
   String get chatSelectDirectory;
 
-  /// CodeWalk UI string — chatSelectOrCreate
+  /// Kilo-Walk UI string — chatSelectOrCreate
   ///
   /// In en, this message translates to:
   /// **'Select or create a conversation to start chatting'**
   String get chatSelectOrCreate;
 
-  /// CodeWalk UI string — chatSelectProjectBelow
+  /// Kilo-Walk UI string — chatSelectProjectBelow
   ///
   /// In en, this message translates to:
   /// **'Select a project below.'**
   String get chatSelectProjectBelow;
 
-  /// CodeWalk UI string — chatServerSelectedModel
+  /// Kilo-Walk UI string — chatServerSelectedModel
   ///
   /// In en, this message translates to:
   /// **'Server-selected model'**
   String get chatServerSelectedModel;
 
-  /// CodeWalk UI string — chatSessionActions
+  /// Kilo-Walk UI string — chatSessionActions
   ///
   /// In en, this message translates to:
   /// **'Session actions'**
   String get chatSessionActions;
 
-  /// CodeWalk UI string — chatSessionChatSessionSession
+  /// Kilo-Walk UI string — chatSessionChatSessionSession
   ///
   /// In en, this message translates to:
   /// **'Chat session: {title}'**
   String chatSessionChatSessionSession(String title);
 
-  /// CodeWalk UI string — chatSessionConversationNextAction
+  /// Kilo-Walk UI string — chatSessionConversationNextAction
   ///
   /// In en, this message translates to:
   /// **'Conversation {nextAction}'**
   String chatSessionConversationNextAction(String nextAction);
 
-  /// CodeWalk UI string — chatSessionConversations
+  /// Kilo-Walk UI string — chatSessionConversations
   ///
   /// In en, this message translates to:
   /// **'No conversations'**
   String get chatSessionConversations;
 
-  /// CodeWalk UI string — chatSessionCreateConversationStart
+  /// Kilo-Walk UI string — chatSessionCreateConversationStart
   ///
   /// In en, this message translates to:
   /// **'Create a new conversation to start chatting'**
   String get chatSessionCreateConversationStart;
 
-  /// CodeWalk UI string — chatSessionTabsToggle
+  /// Kilo-Walk UI string — chatSessionTabsToggle
   ///
   /// In en, this message translates to:
   /// **'Session tabs'**
   String get chatSessionTabsToggle;
 
-  /// CodeWalk UI string — chatSessionsLength
+  /// Kilo-Walk UI string — chatSessionsLength
   ///
   /// In en, this message translates to:
   /// **'{length}'**
   String chatSessionsLength(int length);
 
-  /// CodeWalk UI string — chatSetUpServer
+  /// Kilo-Walk UI string — chatSetUpServer
   ///
   /// In en, this message translates to:
   /// **'Set up server'**
   String get chatSetUpServer;
 
-  /// CodeWalk UI string — chatSettings
+  /// Kilo-Walk UI string — chatSettings
   ///
   /// In en, this message translates to:
   /// **'Settings'**
   String get chatSettings;
 
-  /// CodeWalk UI string — chatShortcutsCloseApp
+  /// Kilo-Walk UI string — chatShortcutsCloseApp
   ///
   /// In en, this message translates to:
   /// **'Close app using platform close behavior'**
   String get chatShortcutsCloseApp;
 
-  /// CodeWalk UI string — chatShortcutsCycleModels
+  /// Kilo-Walk UI string — chatShortcutsCycleModels
   ///
   /// In en, this message translates to:
   /// **'Cycle recent models'**
   String get chatShortcutsCycleModels;
 
-  /// CodeWalk UI string — chatShortcutsCycleVariant
+  /// Kilo-Walk UI string — chatShortcutsCycleVariant
   ///
   /// In en, this message translates to:
   /// **'Cycle model variant'**
   String get chatShortcutsCycleVariant;
 
-  /// CodeWalk UI string — chatShortcutsFocusInput
+  /// Kilo-Walk UI string — chatShortcutsFocusInput
   ///
   /// In en, this message translates to:
   /// **'Focus message input'**
   String get chatShortcutsFocusInput;
 
-  /// CodeWalk UI string — chatShortcutsFocusInputCloseDrawer
+  /// Kilo-Walk UI string — chatShortcutsFocusInputCloseDrawer
   ///
   /// In en, this message translates to:
   /// **'Focus input (or close drawer when open)'**
   String get chatShortcutsFocusInputCloseDrawer;
 
-  /// CodeWalk UI string — chatShortcutsForceExit
+  /// Kilo-Walk UI string — chatShortcutsForceExit
   ///
   /// In en, this message translates to:
   /// **'Force-exit the app'**
   String get chatShortcutsForceExit;
 
-  /// CodeWalk UI string — chatShortcutsNewConversation
+  /// Kilo-Walk UI string — chatShortcutsNewConversation
   ///
   /// In en, this message translates to:
   /// **'New conversation'**
   String get chatShortcutsNewConversation;
 
-  /// CodeWalk UI string — chatShortcutsNextAgent
+  /// Kilo-Walk UI string — chatShortcutsNextAgent
   ///
   /// In en, this message translates to:
   /// **'Next agent'**
   String get chatShortcutsNextAgent;
 
-  /// CodeWalk UI string — chatShortcutsOpenSettings
+  /// Kilo-Walk UI string — chatShortcutsOpenSettings
   ///
   /// In en, this message translates to:
   /// **'Open settings'**
   String get chatShortcutsOpenSettings;
 
-  /// CodeWalk UI string — chatShortcutsPreviousAgent
+  /// Kilo-Walk UI string — chatShortcutsPreviousAgent
   ///
   /// In en, this message translates to:
   /// **'Previous agent'**
   String get chatShortcutsPreviousAgent;
 
-  /// CodeWalk UI string — chatShortcutsQuickOpen
+  /// Kilo-Walk UI string — chatShortcutsQuickOpen
   ///
   /// In en, this message translates to:
   /// **'Quick open files'**
   String get chatShortcutsQuickOpen;
 
-  /// CodeWalk UI string — chatShortcutsRefreshChat
+  /// Kilo-Walk UI string — chatShortcutsRefreshChat
   ///
   /// In en, this message translates to:
   /// **'Refresh chat data'**
   String get chatShortcutsRefreshChat;
 
-  /// CodeWalk UI string — chatShortcutsStartStopVoice
+  /// Kilo-Walk UI string — chatShortcutsStartStopVoice
   ///
   /// In en, this message translates to:
   /// **'Start or stop voice input'**
   String get chatShortcutsStartStopVoice;
 
-  /// CodeWalk UI string — chatShortcutsStopResponse
+  /// Kilo-Walk UI string — chatShortcutsStopResponse
   ///
   /// In en, this message translates to:
   /// **'Stop active response (while responding)'**
   String get chatShortcutsStopResponse;
 
-  /// CodeWalk UI string — chatSidebarAccess
+  /// Kilo-Walk UI string — chatSidebarAccess
   ///
   /// In en, this message translates to:
   /// **'Sidebar access'**
   String get chatSidebarAccess;
 
-  /// CodeWalk UI string — chatSortMostRecent
+  /// Kilo-Walk UI string — chatSortMostRecent
   ///
   /// In en, this message translates to:
   /// **'Most Recent'**
   String get chatSortMostRecent;
 
-  /// CodeWalk UI string — chatSortOldest
+  /// Kilo-Walk UI string — chatSortOldest
   ///
   /// In en, this message translates to:
   /// **'Oldest'**
   String get chatSortOldest;
 
-  /// CodeWalk UI string — chatSortRecent
+  /// Kilo-Walk UI string — chatSortRecent
   ///
   /// In en, this message translates to:
   /// **'Recent'**
   String get chatSortRecent;
 
-  /// CodeWalk UI string — chatSortSessions
+  /// Kilo-Walk UI string — chatSortSessions
   ///
   /// In en, this message translates to:
   /// **'Sort sessions'**
   String get chatSortSessions;
 
-  /// CodeWalk UI string — chatSortTitle
+  /// Kilo-Walk UI string — chatSortTitle
   ///
   /// In en, this message translates to:
   /// **'Title'**
   String get chatSortTitle;
 
-  /// CodeWalk UI string — chatStartVoiceInput
+  /// Kilo-Walk UI string — chatStartVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Start voice input'**
   String get chatStartVoiceInput;
 
-  /// CodeWalk UI string — chatStartingVoiceInput
+  /// Kilo-Walk UI string — chatStartingVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Starting voice input'**
   String get chatStartingVoiceInput;
 
-  /// CodeWalk UI string — chatStatusBusy
+  /// Kilo-Walk UI string — chatStatusBusy
   ///
   /// In en, this message translates to:
   /// **'Status: Busy'**
   String get chatStatusBusy;
 
-  /// CodeWalk UI string — chatStatusPatching
+  /// Kilo-Walk UI string — chatStatusPatching
   ///
   /// In en, this message translates to:
   /// **'Patching'**
   String get chatStatusPatching;
 
-  /// CodeWalk UI string — chatStatusPatchingMultipleFiles
+  /// Kilo-Walk UI string — chatStatusPatchingMultipleFiles
   ///
   /// In en, this message translates to:
   /// **'Patching {count} files'**
   String chatStatusPatchingMultipleFiles(int count);
 
-  /// CodeWalk UI string — chatStatusPatchingOneFile
+  /// Kilo-Walk UI string — chatStatusPatchingOneFile
   ///
   /// In en, this message translates to:
   /// **'Patching 1 file'**
   String get chatStatusPatchingOneFile;
 
-  /// CodeWalk UI string — chatStatusRetry
+  /// Kilo-Walk UI string — chatStatusRetry
   ///
   /// In en, this message translates to:
   /// **'Status: Retry'**
   String get chatStatusRetry;
 
-  /// CodeWalk UI string — chatStatusRetryCount
+  /// Kilo-Walk UI string — chatStatusRetryCount
   ///
   /// In en, this message translates to:
   /// **'Status: Retry #{count}'**
   String chatStatusRetryCount(int count);
 
-  /// CodeWalk UI string — chatStatusSubsession
+  /// Kilo-Walk UI string — chatStatusSubsession
   ///
   /// In en, this message translates to:
   /// **'Subsession'**
   String get chatStatusSubsession;
 
-  /// CodeWalk UI string — chatStatusThinking
+  /// Kilo-Walk UI string — chatStatusThinking
   ///
   /// In en, this message translates to:
   /// **'Thinking...'**
   String get chatStatusThinking;
 
-  /// CodeWalk UI string — chatStopVoiceInput
+  /// Kilo-Walk UI string — chatStopVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Stop voice input'**
   String get chatStopVoiceInput;
 
-  /// CodeWalk UI string — chatSyncLabel
+  /// Kilo-Walk UI string — chatSyncLabel
   ///
   /// In en, this message translates to:
   /// **'Sync: {label}'**
   String chatSyncLabel(String label);
 
-  /// CodeWalk UI string — chatTasks
+  /// Kilo-Walk UI string — chatTasks
   ///
   /// In en, this message translates to:
   /// **'Tasks'**
   String get chatTasks;
 
-  /// CodeWalk UI string — chatTasksAvailableSession
+  /// Kilo-Walk UI string — chatTasksAvailableSession
   ///
   /// In en, this message translates to:
   /// **'No tasks are available for this session.'**
   String get chatTasksAvailableSession;
 
-  /// CodeWalk UI string — chatTipAcceptanceCriteria
+  /// Kilo-Walk UI string — chatTipAcceptanceCriteria
   ///
   /// In en, this message translates to:
   /// **'Tip: Add acceptance criteria for larger changes'**
   String get chatTipAcceptanceCriteria;
 
-  /// CodeWalk UI string — chatTipAskForPlan
+  /// Kilo-Walk UI string — chatTipAskForPlan
   ///
   /// In en, this message translates to:
   /// **'Tip: Ask for a plan first on large tasks'**
   String get chatTipAskForPlan;
 
-  /// CodeWalk UI string — chatTipBeSpecific
+  /// Kilo-Walk UI string — chatTipBeSpecific
   ///
   /// In en, this message translates to:
   /// **'Tip: Be specific — shorter prompts get faster answers'**
   String get chatTipBeSpecific;
 
-  /// CodeWalk UI string — chatTipBreakTasks
+  /// Kilo-Walk UI string — chatTipBreakTasks
   ///
   /// In en, this message translates to:
   /// **'Tip: Break large tasks into smaller prompts'**
   String get chatTipBreakTasks;
 
-  /// CodeWalk UI string — chatTipCompareOptions
+  /// Kilo-Walk UI string — chatTipCompareOptions
   ///
   /// In en, this message translates to:
   /// **'Tip: Ask for alternatives when tradeoffs are unclear'**
   String get chatTipCompareOptions;
 
-  /// CodeWalk UI string — chatTipContextKnob
+  /// Kilo-Walk UI string — chatTipContextKnob
   ///
   /// In en, this message translates to:
   /// **'Tip: Tap the context knob to see usage details'**
   String get chatTipContextKnob;
 
-  /// CodeWalk UI string — chatTipDefineVerification
+  /// Kilo-Walk UI string — chatTipDefineVerification
   ///
   /// In en, this message translates to:
   /// **'Tip: Say which tests or checks should pass'**
   String get chatTipDefineVerification;
 
-  /// CodeWalk UI string — chatTipLongPressSend
+  /// Kilo-Walk UI string — chatTipLongPressSend
   ///
   /// In en, this message translates to:
   /// **'Tip: Long-press Send to insert a newline'**
   String get chatTipLongPressSend;
 
-  /// CodeWalk UI string — chatTipMentionFiles
+  /// Kilo-Walk UI string — chatTipMentionFiles
   ///
   /// In en, this message translates to:
   /// **'Tip: Use @ to mention files in your prompt'**
   String get chatTipMentionFiles;
 
-  /// CodeWalk UI string — chatTipNameRelevantFiles
+  /// Kilo-Walk UI string — chatTipNameRelevantFiles
   ///
   /// In en, this message translates to:
   /// **'Tip: Name relevant files, screens, or commands'**
   String get chatTipNameRelevantFiles;
 
-  /// CodeWalk UI string — chatTipProvideContext
+  /// Kilo-Walk UI string — chatTipProvideContext
   ///
   /// In en, this message translates to:
   /// **'Tip: Provide context — paste error messages and logs'**
   String get chatTipProvideContext;
 
-  /// CodeWalk UI string — chatTipRenameConversation
+  /// Kilo-Walk UI string — chatTipRenameConversation
   ///
   /// In en, this message translates to:
   /// **'Tip: Tap the title to rename a conversation'**
   String get chatTipRenameConversation;
 
-  /// CodeWalk UI string — chatTipRequestDocs
+  /// Kilo-Walk UI string — chatTipRequestDocs
   ///
   /// In en, this message translates to:
   /// **'Tip: Ask for docs updates when behavior changes'**
   String get chatTipRequestDocs;
 
-  /// CodeWalk UI string — chatTipShareAttempts
+  /// Kilo-Walk UI string — chatTipShareAttempts
   ///
   /// In en, this message translates to:
   /// **'Tip: Share what you tried and the exact error'**
   String get chatTipShareAttempts;
 
-  /// CodeWalk UI string — chatTipShellCommands
+  /// Kilo-Walk UI string — chatTipShellCommands
   ///
   /// In en, this message translates to:
   /// **'Tip: Use ! at the start to run shell commands'**
   String get chatTipShellCommands;
 
-  /// CodeWalk UI string — chatTipSlashCommands
+  /// Kilo-Walk UI string — chatTipSlashCommands
   ///
   /// In en, this message translates to:
   /// **'Tip: Use / to access slash commands'**
   String get chatTipSlashCommands;
 
-  /// CodeWalk UI string — chatTipStartWithGoal
+  /// Kilo-Walk UI string — chatTipStartWithGoal
   ///
   /// In en, this message translates to:
   /// **'Tip: Start with the end goal'**
   String get chatTipStartWithGoal;
 
-  /// CodeWalk UI string — chatTipStateConstraints
+  /// Kilo-Walk UI string — chatTipStateConstraints
   ///
   /// In en, this message translates to:
   /// **'Tip: State constraints the agent must preserve'**
   String get chatTipStateConstraints;
 
-  /// CodeWalk UI string — chatTipStepByStep
+  /// Kilo-Walk UI string — chatTipStepByStep
   ///
   /// In en, this message translates to:
   /// **'Tip: Ask for step-by-step when debugging complex issues'**
   String get chatTipStepByStep;
 
-  /// CodeWalk UI string — chatTipUseFocusedAgents
+  /// Kilo-Walk UI string — chatTipUseFocusedAgents
   ///
   /// In en, this message translates to:
   /// **'Tip: Pick a focused agent for plan, review, or build'**
   String get chatTipUseFocusedAgents;
 
-  /// CodeWalk UI string — chatToggleSidebars
+  /// Kilo-Walk UI string — chatToggleSidebars
   ///
   /// In en, this message translates to:
   /// **'Toggle sidebars'**
   String get chatToggleSidebars;
 
-  /// CodeWalk UI string — chatTokensLabel
+  /// Kilo-Walk UI string — chatTokensLabel
   ///
   /// In en, this message translates to:
   /// **'Tokens: {total}'**
   String chatTokensLabel(int total);
 
-  /// CodeWalk UI string — chatTourProjectsConversations
+  /// Kilo-Walk UI string — chatTourProjectsConversations
   ///
   /// In en, this message translates to:
   /// **'Use this button to open your projects and conversations.'**
   String get chatTourProjectsConversations;
 
-  /// CodeWalk UI string — chatTourSidebarProjectTools
+  /// Kilo-Walk UI string — chatTourSidebarProjectTools
   ///
   /// In en, this message translates to:
   /// **'Use this menu to show the conversations sidebar and project tools.'**
   String get chatTourSidebarProjectTools;
 
-  /// CodeWalk UI string — chatTourSwitchFolders
+  /// Kilo-Walk UI string — chatTourSwitchFolders
   ///
   /// In en, this message translates to:
   /// **'Use this button to switch project folders and context.'**
   String get chatTourSwitchFolders;
 
-  /// CodeWalk UI string — chatUndoLastTurn
+  /// Kilo-Walk UI string — chatUndoLastTurn
   ///
   /// In en, this message translates to:
   /// **'Undo last turn'**
   String get chatUndoLastTurn;
 
-  /// CodeWalk UI string — chatUndoNothing
+  /// Kilo-Walk UI string — chatUndoNothing
   ///
   /// In en, this message translates to:
   /// **'Nothing to undo in this session'**
   String get chatUndoNothing;
 
-  /// CodeWalk UI string — chatUseCurrent
+  /// Kilo-Walk UI string — chatUseCurrent
   ///
   /// In en, this message translates to:
   /// **'Use current'**
   String get chatUseCurrent;
 
-  /// CodeWalk UI string — chatWaitingForNetworkConnection
+  /// Kilo-Walk UI string — chatWaitingForNetworkConnection
   ///
   /// In en, this message translates to:
   /// **'Waiting for network connection...'**
   String get chatWaitingForNetworkConnection;
 
-  /// CodeWalk UI string — chatWelcomeMessage
+  /// Kilo-Walk UI string — chatWelcomeMessage
   ///
   /// In en, this message translates to:
   /// **'Hello! I am your AI assistant.'**
   String get chatWelcomeMessage;
 
-  /// CodeWalk UI string — chatWelcomeSubmessage
+  /// Kilo-Walk UI string — chatWelcomeSubmessage
   ///
   /// In en, this message translates to:
   /// **'How can I help you today?'**
   String get chatWelcomeSubmessage;
 
-  /// CodeWalk UI string — chatWorkBoundedPanelExplanation
+  /// Kilo-Walk UI string — chatWorkBoundedPanelExplanation
   ///
   /// In en, this message translates to:
   /// **'Latest tool activity stays inside this bounded panel to keep the chat viewport stable.'**
   String get chatWorkBoundedPanelExplanation;
 
-  /// CodeWalk UI string — chatWorkExpand
+  /// Kilo-Walk UI string — chatWorkExpand
   ///
   /// In en, this message translates to:
   /// **'Expand'**
   String get chatWorkExpand;
 
-  /// CodeWalk UI string — chatWorkHide
+  /// Kilo-Walk UI string — chatWorkHide
   ///
   /// In en, this message translates to:
   /// **'Hide'**
   String get chatWorkHide;
 
-  /// CodeWalk UI string — chatWorkMessageOne
+  /// Kilo-Walk UI string — chatWorkMessageOne
   ///
   /// In en, this message translates to:
   /// **'1 work message'**
   String get chatWorkMessageOne;
 
-  /// CodeWalk UI string — chatWorkMessagesMultiple
+  /// Kilo-Walk UI string — chatWorkMessagesMultiple
   ///
   /// In en, this message translates to:
   /// **'{count} work messages'**
   String chatWorkMessagesMultiple(int count);
 
-  /// CodeWalk UI string — chatWorkShow
+  /// Kilo-Walk UI string — chatWorkShow
   ///
   /// In en, this message translates to:
   /// **'Show'**
   String get chatWorkShow;
 
-  /// CodeWalk UI string — commonCancel
+  /// Kilo-Walk UI string — commonCancel
   ///
   /// In en, this message translates to:
   /// **'Cancel'**
   String get commonCancel;
 
-  /// CodeWalk UI string — commonCopiedToClipboard
+  /// Kilo-Walk UI string — commonCopiedToClipboard
   ///
   /// In en, this message translates to:
   /// **'Copied to clipboard'**
   String get commonCopiedToClipboard;
 
-  /// CodeWalk UI string — commonDelete
+  /// Kilo-Walk UI string — commonDelete
   ///
   /// In en, this message translates to:
   /// **'Delete'**
   String get commonDelete;
 
-  /// CodeWalk UI string — commonFile
+  /// Kilo-Walk UI string — commonFile
   ///
   /// In en, this message translates to:
   /// **'File'**
   String get commonFile;
 
-  /// CodeWalk UI string — commonReset
+  /// Kilo-Walk UI string — commonReset
   ///
   /// In en, this message translates to:
   /// **'Reset'**
   String get commonReset;
 
-  /// CodeWalk UI string — commonSave
+  /// Kilo-Walk UI string — commonSave
   ///
   /// In en, this message translates to:
   /// **'Save'**
   String get commonSave;
 
-  /// CodeWalk UI string — compactionAutomatic
+  /// Kilo-Walk UI string — compactionAutomatic
   ///
   /// In en, this message translates to:
   /// **'automatic'**
   String get compactionAutomatic;
 
-  /// CodeWalk UI string — compactionManual
+  /// Kilo-Walk UI string — compactionManual
   ///
   /// In en, this message translates to:
   /// **'manual'**
   String get compactionManual;
 
-  /// CodeWalk UI string — composerAddAttachment
+  /// Kilo-Walk UI string — composerAddAttachment
   ///
   /// In en, this message translates to:
   /// **'Add attachment'**
   String get composerAddAttachment;
 
-  /// CodeWalk UI string — composerAttachFiles
+  /// Kilo-Walk UI string — composerAttachFiles
   ///
   /// In en, this message translates to:
   /// **'Attach'**
   String get composerAttachFiles;
 
-  /// CodeWalk UI string — composerCannedAppendAtCursor
+  /// Kilo-Walk UI string — composerCannedAppendAtCursor
   ///
   /// In en, this message translates to:
   /// **'Append at cursor'**
   String get composerCannedAppendAtCursor;
 
-  /// CodeWalk UI string — composerCannedLabel
+  /// Kilo-Walk UI string — composerCannedLabel
   ///
   /// In en, this message translates to:
   /// **'Label (optional)'**
   String get composerCannedLabel;
 
-  /// CodeWalk UI string — composerCannedNoReplies
+  /// Kilo-Walk UI string — composerCannedNoReplies
   ///
   /// In en, this message translates to:
   /// **'No quick replies yet.'**
   String get composerCannedNoReplies;
 
-  /// CodeWalk UI string — composerCannedReplace
+  /// Kilo-Walk UI string — composerCannedReplace
   ///
   /// In en, this message translates to:
   /// **'Replace'**
   String get composerCannedReplace;
 
-  /// CodeWalk UI string — composerCannedSave
+  /// Kilo-Walk UI string — composerCannedSave
   ///
   /// In en, this message translates to:
   /// **'Save'**
   String get composerCannedSave;
 
-  /// CodeWalk UI string — composerCannedScopeGlobal
+  /// Kilo-Walk UI string — composerCannedScopeGlobal
   ///
   /// In en, this message translates to:
   /// **'Global'**
   String get composerCannedScopeGlobal;
 
-  /// CodeWalk UI string — composerCannedScopeProject
+  /// Kilo-Walk UI string — composerCannedScopeProject
   ///
   /// In en, this message translates to:
   /// **'Project-only'**
   String get composerCannedScopeProject;
 
-  /// CodeWalk UI string — composerCannedSendAutomatically
+  /// Kilo-Walk UI string — composerCannedSendAutomatically
   ///
   /// In en, this message translates to:
   /// **'Send automatically'**
   String get composerCannedSendAutomatically;
 
-  /// CodeWalk UI string — composerCannedText
+  /// Kilo-Walk UI string — composerCannedText
   ///
   /// In en, this message translates to:
   /// **'Text'**
   String get composerCannedText;
 
-  /// CodeWalk UI string — composerChatInput
+  /// Kilo-Walk UI string — composerChatInput
   ///
   /// In en, this message translates to:
   /// **'Chat input'**
   String get composerChatInput;
 
-  /// CodeWalk UI string — composerDeleteAction
+  /// Kilo-Walk UI string — composerDeleteAction
   ///
   /// In en, this message translates to:
   /// **'Delete'**
   String get composerDeleteAction;
 
-  /// CodeWalk UI string — composerDropHint
+  /// Kilo-Walk UI string — composerDropHint
   ///
   /// In en, this message translates to:
   /// **'Drop images or PDFs to attach'**
   String get composerDropHint;
 
-  /// CodeWalk UI string — composerPastedImageName
+  /// Kilo-Walk UI string — composerPastedImageName
   ///
   /// In en, this message translates to:
   /// **'Pasted image'**
   String get composerPastedImageName;
 
-  /// CodeWalk UI string — composerEdit
+  /// Kilo-Walk UI string — composerEdit
   ///
   /// In en, this message translates to:
   /// **'Edit'**
   String get composerEdit;
 
-  /// CodeWalk UI string — composerExtras
+  /// Kilo-Walk UI string — composerExtras
   ///
   /// In en, this message translates to:
   /// **'Extras'**
   String get composerExtras;
 
-  /// CodeWalk UI string — composerExtrasHide
+  /// Kilo-Walk UI string — composerExtrasHide
   ///
   /// In en, this message translates to:
   /// **'Hide extras'**
   String get composerExtrasHide;
 
-  /// CodeWalk UI string — composerNewQuickReply
+  /// Kilo-Walk UI string — composerNewQuickReply
   ///
   /// In en, this message translates to:
   /// **'New quick reply'**
   String get composerNewQuickReply;
 
-  /// CodeWalk UI string — composerSelectImages
+  /// Kilo-Walk UI string — composerSelectImages
   ///
   /// In en, this message translates to:
   /// **'Select Images'**
   String get composerSelectImages;
 
-  /// CodeWalk UI string — composerSelectPdf
+  /// Kilo-Walk UI string — composerSelectPdf
   ///
   /// In en, this message translates to:
   /// **'Select PDF'**
   String get composerSelectPdf;
 
-  /// CodeWalk UI string — composerSend
+  /// Kilo-Walk UI string — composerSend
   ///
   /// In en, this message translates to:
   /// **'Send'**
   String get composerSend;
 
-  /// CodeWalk UI string — composerShellMode
+  /// Kilo-Walk UI string — composerShellMode
   ///
   /// In en, this message translates to:
   /// **'Shell mode'**
   String get composerShellMode;
 
-  /// CodeWalk UI string — desktopWindowClose
+  /// Kilo-Walk UI string — desktopWindowClose
   ///
   /// In en, this message translates to:
   /// **'Close'**
   String get desktopWindowClose;
 
-  /// CodeWalk UI string — desktopWindowMaximize
+  /// Kilo-Walk UI string — desktopWindowMaximize
   ///
   /// In en, this message translates to:
   /// **'Maximize'**
   String get desktopWindowMaximize;
 
-  /// CodeWalk UI string — desktopWindowMinimize
+  /// Kilo-Walk UI string — desktopWindowMinimize
   ///
   /// In en, this message translates to:
   /// **'Minimize'**
   String get desktopWindowMinimize;
 
-  /// CodeWalk UI string — desktopWindowRestore
+  /// Kilo-Walk UI string — desktopWindowRestore
   ///
   /// In en, this message translates to:
   /// **'Restore'**
   String get desktopWindowRestore;
 
-  /// CodeWalk UI string — dialogDownload
+  /// Kilo-Walk UI string — dialogDownload
   ///
   /// In en, this message translates to:
   /// **'Download'**
   String get dialogDownload;
 
-  /// CodeWalk UI string — dialogLanguage
+  /// Kilo-Walk UI string — dialogLanguage
   ///
   /// In en, this message translates to:
   /// **'Language'**
   String get dialogLanguage;
 
-  /// CodeWalk UI string — dialogMoonshineModelSize
+  /// Kilo-Walk UI string — dialogMoonshineModelSize
   ///
   /// In en, this message translates to:
   /// **'Model size'**
   String get dialogMoonshineModelSize;
 
-  /// CodeWalk UI string — dialogMoonshineVoiceSetup
+  /// Kilo-Walk UI string — dialogMoonshineVoiceSetup
   ///
   /// In en, this message translates to:
   /// **'Moonshine Voice Setup'**
   String get dialogMoonshineVoiceSetup;
 
-  /// CodeWalk UI string — dialogParakeetModel
+  /// Kilo-Walk UI string — dialogParakeetModel
   ///
   /// In en, this message translates to:
   /// **'Parakeet model'**
   String get dialogParakeetModel;
 
-  /// CodeWalk UI string — dialogParakeetVoiceSetup
+  /// Kilo-Walk UI string — dialogParakeetVoiceSetup
   ///
   /// In en, this message translates to:
   /// **'Parakeet Voice Setup'**
   String get dialogParakeetVoiceSetup;
 
-  /// CodeWalk UI string — dialogSenseVoiceModel
+  /// Kilo-Walk UI string — dialogSenseVoiceModel
   ///
   /// In en, this message translates to:
   /// **'SenseVoice model'**
   String get dialogSenseVoiceModel;
 
-  /// CodeWalk UI string — dialogSenseVoiceSetup
+  /// Kilo-Walk UI string — dialogSenseVoiceSetup
   ///
   /// In en, this message translates to:
   /// **'SenseVoice Setup'**
   String get dialogSenseVoiceSetup;
 
-  /// CodeWalk UI string — dialogVoiceInputSetup
+  /// Kilo-Walk UI string — dialogVoiceInputSetup
   ///
   /// In en, this message translates to:
   /// **'Voice Input Setup'**
   String get dialogVoiceInputSetup;
 
-  /// CodeWalk UI string — errorAnErrorOccurred
+  /// Kilo-Walk UI string — errorAnErrorOccurred
   ///
   /// In en, this message translates to:
   /// **'An error occurred'**
   String get errorAnErrorOccurred;
 
-  /// CodeWalk UI string — errorAuthRequired
+  /// Kilo-Walk UI string — errorAuthRequired
   ///
   /// In en, this message translates to:
   /// **'Authentication required'**
   String get errorAuthRequired;
 
-  /// CodeWalk UI string — errorAuthRequiredDesc
+  /// Kilo-Walk UI string — errorAuthRequiredDesc
   ///
   /// In en, this message translates to:
   /// **'Authentication failed. Reconnect the provider and try again.'**
   String get errorAuthRequiredDesc;
 
-  /// CodeWalk UI string — errorConnectionFailed
+  /// Kilo-Walk UI string — errorConnectionFailed
   ///
   /// In en, this message translates to:
   /// **'Connection failed'**
   String get errorConnectionFailed;
 
-  /// CodeWalk UI string — errorConnectionFailedDesc
+  /// Kilo-Walk UI string — errorConnectionFailedDesc
   ///
   /// In en, this message translates to:
   /// **'Unable to reach the server. Check connection and server status.'**
   String get errorConnectionFailedDesc;
 
-  /// CodeWalk UI string — errorFormatAuthenticationFailedReconnect
+  /// Kilo-Walk UI string — errorFormatAuthenticationFailedReconnect
   ///
   /// In en, this message translates to:
   /// **'Authentication failed. Reconnect the provider and try again.'**
   String get errorFormatAuthenticationFailedReconnect;
 
-  /// CodeWalk UI string — errorFormatProviderTemporarilyUnavailable
+  /// Kilo-Walk UI string — errorFormatProviderTemporarilyUnavailable
   ///
   /// In en, this message translates to:
   /// **'Provider temporarily unavailable. Try again shortly.'**
   String get errorFormatProviderTemporarilyUnavailable;
 
-  /// CodeWalk UI string — errorFormatQuotaExceededCheck
+  /// Kilo-Walk UI string — errorFormatQuotaExceededCheck
   ///
   /// In en, this message translates to:
   /// **'Quota exceeded. Check your provider plan or billing.'**
   String get errorFormatQuotaExceededCheck;
 
-  /// CodeWalk UI string — errorFormatRateLimitExceeded
+  /// Kilo-Walk UI string — errorFormatRateLimitExceeded
   ///
   /// In en, this message translates to:
   /// **'Rate limit exceeded. Wait a moment and try again.'**
   String get errorFormatRateLimitExceeded;
 
-  /// CodeWalk UI string — errorFormatServerErrorPlease
+  /// Kilo-Walk UI string — errorFormatServerErrorPlease
   ///
   /// In en, this message translates to:
   /// **'Server error. Please try again.'**
   String get errorFormatServerErrorPlease;
 
-  /// CodeWalk UI string — errorFormatServiceTemporarilyUnavailable
+  /// Kilo-Walk UI string — errorFormatServiceTemporarilyUnavailable
   ///
   /// In en, this message translates to:
   /// **'Service temporarily unavailable. The server may be starting up — please try again shortly.'**
   String get errorFormatServiceTemporarilyUnavailable;
 
-  /// CodeWalk UI string — errorFormatUnableReachServer
+  /// Kilo-Walk UI string — errorFormatUnableReachServer
   ///
   /// In en, this message translates to:
   /// **'Unable to reach the server. Check connection and server status.'**
   String get errorFormatUnableReachServer;
 
-  /// CodeWalk UI string — errorProviderUnavailable
+  /// Kilo-Walk UI string — errorProviderUnavailable
   ///
   /// In en, this message translates to:
   /// **'Provider unavailable'**
   String get errorProviderUnavailable;
 
-  /// CodeWalk UI string — errorProviderUnavailableDesc
+  /// Kilo-Walk UI string — errorProviderUnavailableDesc
   ///
   /// In en, this message translates to:
   /// **'Provider temporarily unavailable. Try again shortly.'**
   String get errorProviderUnavailableDesc;
 
-  /// CodeWalk UI string — errorQuotaExceeded
+  /// Kilo-Walk UI string — errorQuotaExceeded
   ///
   /// In en, this message translates to:
   /// **'Quota exceeded'**
   String get errorQuotaExceeded;
 
-  /// CodeWalk UI string — errorQuotaExceededDesc
+  /// Kilo-Walk UI string — errorQuotaExceededDesc
   ///
   /// In en, this message translates to:
   /// **'Quota exceeded. Check your provider plan or billing.'**
   String get errorQuotaExceededDesc;
 
-  /// CodeWalk UI string — errorRateLimitExceeded
+  /// Kilo-Walk UI string — errorRateLimitExceeded
   ///
   /// In en, this message translates to:
   /// **'Rate limit exceeded'**
   String get errorRateLimitExceeded;
 
-  /// CodeWalk UI string — errorRateLimitExceededDesc
+  /// Kilo-Walk UI string — errorRateLimitExceededDesc
   ///
   /// In en, this message translates to:
   /// **'Rate limit exceeded. Wait a moment and try again.'**
   String get errorRateLimitExceededDesc;
 
-  /// CodeWalk UI string — errorServerError
+  /// Kilo-Walk UI string — errorServerError
   ///
   /// In en, this message translates to:
   /// **'Server error'**
   String get errorServerError;
 
-  /// CodeWalk UI string — errorServerErrorDesc
+  /// Kilo-Walk UI string — errorServerErrorDesc
   ///
   /// In en, this message translates to:
   /// **'Server error. Please try again.'**
   String get errorServerErrorDesc;
 
-  /// CodeWalk UI string — errorServiceUnavailable
+  /// Kilo-Walk UI string — errorServiceUnavailable
   ///
   /// In en, this message translates to:
   /// **'Service unavailable'**
   String get errorServiceUnavailable;
 
-  /// CodeWalk UI string — errorServiceUnavailableDesc
+  /// Kilo-Walk UI string — errorServiceUnavailableDesc
   ///
   /// In en, this message translates to:
   /// **'Service temporarily unavailable. The server may be starting up — please try again shortly.'**
   String get errorServiceUnavailableDesc;
 
-  /// CodeWalk UI string — fileActionAttachmentDataDecoded
+  /// Kilo-Walk UI string — fileActionAttachmentDataDecoded
   ///
   /// In en, this message translates to:
   /// **'Attachment data could not be decoded.'**
   String get fileActionAttachmentDataDecoded;
 
-  /// CodeWalk UI string — fileActionAttachmentPathEmpty
+  /// Kilo-Walk UI string — fileActionAttachmentPathEmpty
   ///
   /// In en, this message translates to:
   /// **'Attachment path is empty.'**
   String get fileActionAttachmentPathEmpty;
 
-  /// CodeWalk UI string — fileActionAttachmentPayloadEmpty
+  /// Kilo-Walk UI string — fileActionAttachmentPayloadEmpty
   ///
   /// In en, this message translates to:
   /// **'Attachment payload is empty.'**
   String get fileActionAttachmentPayloadEmpty;
 
-  /// CodeWalk UI string — fileActionAttachmentProvideValid
+  /// Kilo-Walk UI string — fileActionAttachmentProvideValid
   ///
   /// In en, this message translates to:
   /// **'Attachment does not provide a valid location.'**
   String get fileActionAttachmentProvideValid;
 
-  /// CodeWalk UI string — fileActionAttachmentSavedDevice
+  /// Kilo-Walk UI string — fileActionAttachmentSavedDevice
   ///
   /// In en, this message translates to:
   /// **'Attachment could not be saved on this device.'**
   String get fileActionAttachmentSavedDevice;
 
-  /// CodeWalk UI string — fileActionAttachmentSavedOutputFile
+  /// Kilo-Walk UI string — fileActionAttachmentSavedOutputFile
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {path} and opened.'**
   String fileActionAttachmentSavedOutputFile(String path);
 
-  /// CodeWalk UI string — fileActionAttachmentSavedOutputFile2
+  /// Kilo-Walk UI string — fileActionAttachmentSavedOutputFile2
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {path}.'**
   String fileActionAttachmentSavedOutputFile2(String path);
 
-  /// CodeWalk UI string — fileActionAttachmentSavedSavedPath
+  /// Kilo-Walk UI string — fileActionAttachmentSavedSavedPath
   ///
   /// In en, this message translates to:
   /// **'Attachment saved to {savedPath}.'**
   String fileActionAttachmentSavedSavedPath(String savedPath);
 
-  /// CodeWalk UI string — fileActionLocalAttachmentFound
+  /// Kilo-Walk UI string — fileActionLocalAttachmentFound
   ///
   /// In en, this message translates to:
   /// **'Local attachment was not found on this device.'**
   String get fileActionLocalAttachmentFound;
 
-  /// CodeWalk UI string — fileActionSaveCanceled
+  /// Kilo-Walk UI string — fileActionSaveCanceled
   ///
   /// In en, this message translates to:
   /// **'Save canceled.'**
   String get fileActionSaveCanceled;
 
-  /// CodeWalk UI string — fileActionUnableOpenLocal
+  /// Kilo-Walk UI string — fileActionUnableOpenLocal
   ///
   /// In en, this message translates to:
   /// **'Unable to open the local attachment.'**
   String get fileActionUnableOpenLocal;
 
-  /// CodeWalk UI string — filesAddChat
+  /// Kilo-Walk UI string — filesAddChat
   ///
   /// In en, this message translates to:
   /// **'Add to chat'**
   String get filesAddChat;
 
-  /// CodeWalk UI string — filesAutosave
+  /// Kilo-Walk UI string — filesAutosave
   ///
   /// In en, this message translates to:
   /// **'Autosave'**
   String get filesAutosave;
 
-  /// CodeWalk UI string — filesAutosaveOn
+  /// Kilo-Walk UI string — filesAutosaveOn
   ///
   /// In en, this message translates to:
   /// **'Autosave on'**
   String get filesAutosaveOn;
 
-  /// CodeWalk UI string — filesAutosaveOff
+  /// Kilo-Walk UI string — filesAutosaveOff
   ///
   /// In en, this message translates to:
   /// **'Autosave off'**
   String get filesAutosaveOff;
 
-  /// CodeWalk UI string — filesRedo
+  /// Kilo-Walk UI string — filesRedo
   ///
   /// In en, this message translates to:
   /// **'Redo'**
   String get filesRedo;
 
-  /// CodeWalk UI string — filesUndo
+  /// Kilo-Walk UI string — filesUndo
   ///
   /// In en, this message translates to:
   /// **'Undo'**
   String get filesUndo;
 
-  /// CodeWalk UI string — filesBinaryFilePreview
+  /// Kilo-Walk UI string — filesBinaryFilePreview
   ///
   /// In en, this message translates to:
   /// **'Binary file preview is not available.'**
   String get filesBinaryFilePreview;
 
-  /// CodeWalk UI string — filesClear
+  /// Kilo-Walk UI string — filesClear
   ///
   /// In en, this message translates to:
   /// **'Clear'**
   String get filesClear;
 
-  /// CodeWalk UI string — filesContents
+  /// Kilo-Walk UI string — filesContents
   ///
   /// In en, this message translates to:
   /// **'Contents'**
   String get filesContents;
 
-  /// CodeWalk UI string — filesDuplicate
+  /// Kilo-Walk UI string — filesDuplicate
   ///
   /// In en, this message translates to:
   /// **'Duplicate'**
   String get filesDuplicate;
 
-  /// CodeWalk UI string — filesDuplicated
+  /// Kilo-Walk UI string — filesDuplicated
   ///
   /// In en, this message translates to:
   /// **'File duplicated'**
   String get filesDuplicated;
 
-  /// CodeWalk UI string — filesFileEmpty
+  /// Kilo-Walk UI string — filesFileEmpty
   ///
   /// In en, this message translates to:
   /// **'File is empty.'**
   String get filesFileEmpty;
 
-  /// CodeWalk UI string — filesAlreadyExists
+  /// Kilo-Walk UI string — filesAlreadyExists
   ///
   /// In en, this message translates to:
   /// **'A file or folder with that name already exists.'**
   String get filesAlreadyExists;
 
-  /// CodeWalk UI string — filesCopyPath
+  /// Kilo-Walk UI string — filesCopyPath
   ///
   /// In en, this message translates to:
   /// **'Copy path'**
   String get filesCopyPath;
 
-  /// CodeWalk UI string — filesCreateFileTitle
+  /// Kilo-Walk UI string — filesCreateFileTitle
   ///
   /// In en, this message translates to:
   /// **'Create file'**
   String get filesCreateFileTitle;
 
-  /// CodeWalk UI string — filesCreateFolderTitle
+  /// Kilo-Walk UI string — filesCreateFolderTitle
   ///
   /// In en, this message translates to:
   /// **'Create folder'**
   String get filesCreateFolderTitle;
 
-  /// CodeWalk UI string — filesDelete
+  /// Kilo-Walk UI string — filesDelete
   ///
   /// In en, this message translates to:
   /// **'Delete'**
   String get filesDelete;
 
-  /// CodeWalk UI string — filesDeleteConfirm
+  /// Kilo-Walk UI string — filesDeleteConfirm
   ///
   /// In en, this message translates to:
   /// **'Delete {name}? This cannot be undone. Folders and their contents will be deleted.'**
   String filesDeleteConfirm(String name);
 
-  /// CodeWalk UI string — filesDeleteTitle
+  /// Kilo-Walk UI string — filesDeleteTitle
   ///
   /// In en, this message translates to:
   /// **'Delete {name}'**
   String filesDeleteTitle(String name);
 
-  /// CodeWalk UI string — filesFilesFound
+  /// Kilo-Walk UI string — filesFilesFound
   ///
   /// In en, this message translates to:
   /// **'No files found'**
   String get filesFilesFound;
 
-  /// CodeWalk UI string — filesFileCreated
+  /// Kilo-Walk UI string — filesFileCreated
   ///
   /// In en, this message translates to:
   /// **'File created.'**
   String get filesFileCreated;
 
-  /// CodeWalk UI string — filesFolderCreated
+  /// Kilo-Walk UI string — filesFolderCreated
   ///
   /// In en, this message translates to:
   /// **'Folder created.'**
   String get filesFolderCreated;
 
-  /// CodeWalk UI string — filesHideSidebar
+  /// Kilo-Walk UI string — filesHideSidebar
   ///
   /// In en, this message translates to:
   /// **'Hide Files sidebar'**
   String get filesHideSidebar;
 
-  /// CodeWalk UI string — filesInvalidName
+  /// Kilo-Walk UI string — filesInvalidName
   ///
   /// In en, this message translates to:
   /// **'Enter a valid name without path separators.'**
   String get filesInvalidName;
 
-  /// CodeWalk UI string — filesNameHint
+  /// Kilo-Walk UI string — filesNameHint
   ///
   /// In en, this message translates to:
   /// **'Name'**
   String get filesNameHint;
 
-  /// CodeWalk UI string — filesNew
+  /// Kilo-Walk UI string — filesNew
   ///
   /// In en, this message translates to:
   /// **'New'**
   String get filesNew;
 
-  /// CodeWalk UI string — filesNewFile
+  /// Kilo-Walk UI string — filesNewFile
   ///
   /// In en, this message translates to:
   /// **'New file'**
   String get filesNewFile;
 
-  /// CodeWalk UI string — filesNewFolder
+  /// Kilo-Walk UI string — filesNewFolder
   ///
   /// In en, this message translates to:
   /// **'New folder'**
   String get filesNewFolder;
 
-  /// CodeWalk UI string — filesNames
+  /// Kilo-Walk UI string — filesNames
   ///
   /// In en, this message translates to:
   /// **'Names'**
   String get filesNames;
 
-  /// CodeWalk UI string — filesQuickOpen
+  /// Kilo-Walk UI string — filesQuickOpen
   ///
   /// In en, this message translates to:
   /// **'Quick Open'**
   String get filesQuickOpen;
 
-  /// CodeWalk UI string — filesQuickOpenFile
+  /// Kilo-Walk UI string — filesQuickOpenFile
   ///
   /// In en, this message translates to:
   /// **'Quick Open File'**
   String get filesQuickOpenFile;
 
-  /// CodeWalk UI string — filesOperationFailed
+  /// Kilo-Walk UI string — filesOperationFailed
   ///
   /// In en, this message translates to:
   /// **'File operation failed.'**
   String get filesOperationFailed;
 
-  /// CodeWalk UI string — filesOperationUnavailable
+  /// Kilo-Walk UI string — filesOperationUnavailable
   ///
   /// In en, this message translates to:
   /// **'File operations are not available for this server.'**
   String get filesOperationUnavailable;
 
-  /// CodeWalk UI string — filesOutsideRoot
+  /// Kilo-Walk UI string — filesOutsideRoot
   ///
   /// In en, this message translates to:
   /// **'The path is outside the project root.'**
   String get filesOutsideRoot;
 
-  /// CodeWalk UI string — filesPathCopied
+  /// Kilo-Walk UI string — filesPathCopied
   ///
   /// In en, this message translates to:
   /// **'Path copied.'**
   String get filesPathCopied;
 
-  /// CodeWalk UI string — filesPathMissing
+  /// Kilo-Walk UI string — filesPathMissing
   ///
   /// In en, this message translates to:
   /// **'Path does not exist.'**
   String get filesPathMissing;
 
-  /// CodeWalk UI string — filesPermissionDenied
+  /// Kilo-Walk UI string — filesPermissionDenied
   ///
   /// In en, this message translates to:
   /// **'Permission denied.'**
   String get filesPermissionDenied;
 
-  /// CodeWalk UI string — filesRefresh
+  /// Kilo-Walk UI string — filesRefresh
   ///
   /// In en, this message translates to:
   /// **'Refresh files'**
   String get filesRefresh;
 
-  /// CodeWalk UI string — filesRename
+  /// Kilo-Walk UI string — filesRename
   ///
   /// In en, this message translates to:
   /// **'Rename'**
   String get filesRename;
 
-  /// CodeWalk UI string — filesRenameTitle
+  /// Kilo-Walk UI string — filesRenameTitle
   ///
   /// In en, this message translates to:
   /// **'Rename {name}'**
   String filesRenameTitle(String name);
 
-  /// CodeWalk UI string — filesRenamed
+  /// Kilo-Walk UI string — filesRenamed
   ///
   /// In en, this message translates to:
   /// **'Renamed.'**
   String get filesRenamed;
 
-  /// CodeWalk UI string — filesRootDeleteBlocked
+  /// Kilo-Walk UI string — filesRootDeleteBlocked
   ///
   /// In en, this message translates to:
   /// **'The project root cannot be deleted.'**
   String get filesRootDeleteBlocked;
 
-  /// CodeWalk UI string — filesSearchHint
+  /// Kilo-Walk UI string — filesSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search files by name or path'**
   String get filesSearchHint;
 
-  /// CodeWalk UI string — filesDeleted
+  /// Kilo-Walk UI string — filesDeleted
   ///
   /// In en, this message translates to:
   /// **'Deleted.'**
   String get filesDeleted;
 
-  /// CodeWalk UI string — filesTitle
+  /// Kilo-Walk UI string — filesTitle
   ///
   /// In en, this message translates to:
   /// **'Files'**
   String get filesTitle;
 
-  /// CodeWalk UI string — forwardAction
+  /// Kilo-Walk UI string — forwardAction
   ///
   /// In en, this message translates to:
   /// **'Forward'**
   String get forwardAction;
 
-  /// CodeWalk UI string — forwardAllFailed
+  /// Kilo-Walk UI string — forwardAllFailed
   ///
   /// In en, this message translates to:
   /// **'Could not forward to any session'**
   String get forwardAllFailed;
 
-  /// CodeWalk UI string — forwardCancel
+  /// Kilo-Walk UI string — forwardCancel
   ///
   /// In en, this message translates to:
   /// **'Cancel'**
   String get forwardCancel;
 
-  /// CodeWalk UI string — forwardDialogSubtitle
+  /// Kilo-Walk UI string — forwardDialogSubtitle
   ///
   /// In en, this message translates to:
   /// **'Select one or more conversations'**
   String get forwardDialogSubtitle;
 
-  /// CodeWalk UI string — forwardDialogTitle
+  /// Kilo-Walk UI string — forwardDialogTitle
   ///
   /// In en, this message translates to:
   /// **'Forward to…'**
   String get forwardDialogTitle;
 
-  /// CodeWalk UI string — forwardLoading
+  /// Kilo-Walk UI string — forwardLoading
   ///
   /// In en, this message translates to:
   /// **'Loading sessions…'**
   String get forwardLoading;
 
-  /// CodeWalk UI string — forwardNoOpenProjects
+  /// Kilo-Walk UI string — forwardNoOpenProjects
   ///
   /// In en, this message translates to:
   /// **'No open projects with sessions'**
   String get forwardNoOpenProjects;
 
-  /// CodeWalk UI string — forwardNoProviderModel
+  /// Kilo-Walk UI string — forwardNoProviderModel
   ///
   /// In en, this message translates to:
   /// **'Select a provider and model before forwarding'**
   String get forwardNoProviderModel;
 
-  /// CodeWalk UI string — forwardNoSessions
+  /// Kilo-Walk UI string — forwardNoSessions
   ///
   /// In en, this message translates to:
   /// **'No recent sessions'**
   String get forwardNoSessions;
 
-  /// CodeWalk UI string — forwardPartial
+  /// Kilo-Walk UI string — forwardPartial
   ///
   /// In en, this message translates to:
   /// **'Forwarded to {success} of {total}'**
   String forwardPartial(int success, int total);
 
-  /// CodeWalk UI string — forwardProvenanceLabel
+  /// Kilo-Walk UI string — forwardProvenanceLabel
   ///
   /// In en, this message translates to:
   /// **'Forwarded from: {origin}'**
   String forwardProvenanceLabel(String origin);
 
-  /// CodeWalk UI string — forwardRetry
+  /// Kilo-Walk UI string — forwardRetry
   ///
   /// In en, this message translates to:
   /// **'Retry'**
   String get forwardRetry;
 
-  /// CodeWalk UI string — forwardSearchHint
+  /// Kilo-Walk UI string — forwardSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search'**
   String get forwardSearchHint;
 
-  /// CodeWalk UI string — forwardSelectedCount
+  /// Kilo-Walk UI string — forwardSelectedCount
   ///
   /// In en, this message translates to:
   /// **'{count} selected'**
   String forwardSelectedCount(int count);
 
-  /// CodeWalk UI string — forwardSend
+  /// Kilo-Walk UI string — forwardSend
   ///
   /// In en, this message translates to:
   /// **'Forward'**
   String get forwardSend;
 
-  /// CodeWalk UI string — forwardServerOffline
+  /// Kilo-Walk UI string — forwardServerOffline
   ///
   /// In en, this message translates to:
   /// **'Server offline'**
   String get forwardServerOffline;
 
-  /// CodeWalk UI string — forwardShortcutHint
+  /// Kilo-Walk UI string — forwardShortcutHint
   ///
   /// In en, this message translates to:
   /// **'Ctrl+Shift+F'**
   String get forwardShortcutHint;
 
-  /// CodeWalk UI string — forwardSuccess
+  /// Kilo-Walk UI string — forwardSuccess
   ///
   /// In en, this message translates to:
   /// **'Forwarded to {count} sessions'**
   String forwardSuccess(int count);
 
-  /// CodeWalk UI string — forwardUndo
+  /// Kilo-Walk UI string — forwardUndo
   ///
   /// In en, this message translates to:
   /// **'Undo'**
   String get forwardUndo;
 
-  /// CodeWalk UI string — forwardUndoFailed
+  /// Kilo-Walk UI string — forwardUndoFailed
   ///
   /// In en, this message translates to:
   /// **'Could not undo the forward'**
   String get forwardUndoFailed;
 
-  /// CodeWalk UI string — logsAppLogs
+  /// Kilo-Walk UI string — logsAppLogs
   ///
   /// In en, this message translates to:
   /// **'App Logs'**
   String get logsAppLogs;
 
-  /// CodeWalk UI string — logsClear
+  /// Kilo-Walk UI string — logsClear
   ///
   /// In en, this message translates to:
   /// **'Clear logs'**
   String get logsClear;
 
-  /// CodeWalk UI string — logsCloseSearch
+  /// Kilo-Walk UI string — logsCloseSearch
   ///
   /// In en, this message translates to:
   /// **'Close search'**
   String get logsCloseSearch;
 
-  /// CodeWalk UI string — logsCopyFiltered
+  /// Kilo-Walk UI string — logsCopyFiltered
   ///
   /// In en, this message translates to:
   /// **'Copy filtered logs'**
   String get logsCopyFiltered;
 
-  /// CodeWalk UI string — logsEnableLogging
+  /// Kilo-Walk UI string — logsEnableLogging
   ///
   /// In en, this message translates to:
   /// **'Enable app logging'**
   String get logsEnableLogging;
 
-  /// CodeWalk UI string — logsEnableLoggingAction
+  /// Kilo-Walk UI string — logsEnableLoggingAction
   ///
   /// In en, this message translates to:
   /// **'Enable logging'**
   String get logsEnableLoggingAction;
 
-  /// CodeWalk UI string — logsEnableLoggingDescription
+  /// Kilo-Walk UI string — logsEnableLoggingDescription
   ///
   /// In en, this message translates to:
   /// **'Collect in-memory diagnostic logs. Keep this off unless you are troubleshooting.'**
   String get logsEnableLoggingDescription;
 
-  /// CodeWalk UI string — logsEntryContext
+  /// Kilo-Walk UI string — logsEntryContext
   ///
   /// In en, this message translates to:
   /// **'Context'**
   String get logsEntryContext;
 
-  /// CodeWalk UI string — logsEntryTags
+  /// Kilo-Walk UI string — logsEntryTags
   ///
   /// In en, this message translates to:
   /// **'Tags'**
   String get logsEntryTags;
 
-  /// CodeWalk UI string — logsFilterAll
+  /// Kilo-Walk UI string — logsFilterAll
   ///
   /// In en, this message translates to:
   /// **'All'**
   String get logsFilterAll;
 
-  /// CodeWalk UI string — logsFilterByTag
+  /// Kilo-Walk UI string — logsFilterByTag
   ///
   /// In en, this message translates to:
   /// **'Tag'**
   String get logsFilterByTag;
 
-  /// CodeWalk UI string — logsLevel
+  /// Kilo-Walk UI string — logsLevel
   ///
   /// In en, this message translates to:
   /// **'Level'**
   String get logsLevel;
 
-  /// CodeWalk UI string — logsLoggingDisabledDescription
+  /// Kilo-Walk UI string — logsLoggingDisabledDescription
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk is not collecting detailed app logs. Enable logging only when you need diagnostics.'**
+  /// **'Kilo-Walk is not collecting detailed app logs. Enable logging only when you need diagnostics.'**
   String get logsLoggingDisabledDescription;
 
-  /// CodeWalk UI string — logsLoggingDisabledTitle
+  /// Kilo-Walk UI string — logsLoggingDisabledTitle
   ///
   /// In en, this message translates to:
   /// **'Logging is disabled'**
   String get logsLoggingDisabledTitle;
 
-  /// CodeWalk UI string — logsMeasurePerformance
+  /// Kilo-Walk UI string — logsMeasurePerformance
   ///
   /// In en, this message translates to:
   /// **'Measure performance'**
   String get logsMeasurePerformance;
 
-  /// CodeWalk UI string — logsMeasurePerformanceDescription
+  /// Kilo-Walk UI string — logsMeasurePerformanceDescription
   ///
   /// In en, this message translates to:
   /// **'Capture timing logs for expensive app operations. Leave off unless you are diagnosing lag.'**
   String get logsMeasurePerformanceDescription;
 
-  /// CodeWalk UI string — logsNoLogsYet
+  /// Kilo-Walk UI string — logsNoLogsYet
   ///
   /// In en, this message translates to:
   /// **'No logs captured yet.'**
   String get logsNoLogsYet;
 
-  /// CodeWalk UI string — logsNoMatchingLogs
+  /// Kilo-Walk UI string — logsNoMatchingLogs
   ///
   /// In en, this message translates to:
   /// **'No logs match the current filters.'**
   String get logsNoMatchingLogs;
 
-  /// CodeWalk UI string — logsNoPerformanceData
+  /// Kilo-Walk UI string — logsNoPerformanceData
   ///
   /// In en, this message translates to:
   /// **'No performance logs match the current filters.'**
   String get logsNoPerformanceData;
 
-  /// CodeWalk UI string — logsNoTaskData
+  /// Kilo-Walk UI string — logsNoTaskData
   ///
   /// In en, this message translates to:
   /// **'No tasks match the current filters.'**
   String get logsNoTaskData;
 
-  /// CodeWalk UI string — logsPerformanceDuration
+  /// Kilo-Walk UI string — logsPerformanceDuration
   ///
   /// In en, this message translates to:
   /// **'{elapsedMs} ms'**
   String logsPerformanceDuration(int elapsedMs);
 
-  /// CodeWalk UI string — logsPerformanceFilter
+  /// Kilo-Walk UI string — logsPerformanceFilter
   ///
   /// In en, this message translates to:
   /// **'Performance'**
   String get logsPerformanceFilter;
 
-  /// CodeWalk UI string — logsPerformanceTileTitle
+  /// Kilo-Walk UI string — logsPerformanceTileTitle
   ///
   /// In en, this message translates to:
   /// **'PERFORMANCE {operation} | {elapsedMs} ms | {status}'**
@@ -3663,1441 +3663,1441 @@ abstract class AppLocalizations {
     String status,
   );
 
-  /// CodeWalk UI string — logsSearch
+  /// Kilo-Walk UI string — logsSearch
   ///
   /// In en, this message translates to:
   /// **'Search logs'**
   String get logsSearch;
 
-  /// CodeWalk UI string — logsShowingOrderedLength
+  /// Kilo-Walk UI string — logsShowingOrderedLength
   ///
   /// In en, this message translates to:
   /// **'Showing {length} of {length2} entries'**
   String logsShowingOrderedLength(int length, int length2);
 
-  /// CodeWalk UI string — logsSlowestPerformance
+  /// Kilo-Walk UI string — logsSlowestPerformance
   ///
   /// In en, this message translates to:
   /// **'Slowest performance logs'**
   String get logsSlowestPerformance;
 
-  /// CodeWalk UI string — logsSlowestTasks
+  /// Kilo-Walk UI string — logsSlowestTasks
   ///
   /// In en, this message translates to:
   /// **'Slowest tasks'**
   String get logsSlowestTasks;
 
-  /// CodeWalk UI string — logsTagCustomHint
+  /// Kilo-Walk UI string — logsTagCustomHint
   ///
   /// In en, this message translates to:
   /// **'Tag name (for example: task:select_session)'**
   String get logsTagCustomHint;
 
-  /// CodeWalk UI string — logsTagCustomAction
+  /// Kilo-Walk UI string — logsTagCustomAction
   ///
   /// In en, this message translates to:
   /// **'Custom...'**
   String get logsTagCustomAction;
 
-  /// CodeWalk UI string — logsTaskDuration
+  /// Kilo-Walk UI string — logsTaskDuration
   ///
   /// In en, this message translates to:
   /// **'{operation} — {elapsedMs} ms'**
   String logsTaskDuration(int elapsedMs, String operation);
 
-  /// CodeWalk UI string — logsTaskStatusCanceled
+  /// Kilo-Walk UI string — logsTaskStatusCanceled
   ///
   /// In en, this message translates to:
   /// **'canceled'**
   String get logsTaskStatusCanceled;
 
-  /// CodeWalk UI string — logsTaskStatusError
+  /// Kilo-Walk UI string — logsTaskStatusError
   ///
   /// In en, this message translates to:
   /// **'error'**
   String get logsTaskStatusError;
 
-  /// CodeWalk UI string — logsTaskStatusOk
+  /// Kilo-Walk UI string — logsTaskStatusOk
   ///
   /// In en, this message translates to:
   /// **'ok'**
   String get logsTaskStatusOk;
 
-  /// CodeWalk UI string — logsTimeRange
+  /// Kilo-Walk UI string — logsTimeRange
   ///
   /// In en, this message translates to:
   /// **'Time range'**
   String get logsTimeRange;
 
-  /// CodeWalk UI string — mathExpressionLabel
+  /// Kilo-Walk UI string — mathExpressionLabel
   ///
   /// In en, this message translates to:
   /// **'Math'**
   String get mathExpressionLabel;
 
-  /// CodeWalk UI string — mermaidCopySourceTooltip
+  /// Kilo-Walk UI string — mermaidCopySourceTooltip
   ///
   /// In en, this message translates to:
   /// **'Copy source'**
   String get mermaidCopySourceTooltip;
 
-  /// CodeWalk UI string — mermaidDiagramLabel
+  /// Kilo-Walk UI string — mermaidDiagramLabel
   ///
   /// In en, this message translates to:
   /// **'Mermaid Diagram'**
   String get mermaidDiagramLabel;
 
-  /// CodeWalk UI string — modelAuto
+  /// Kilo-Walk UI string — modelAuto
   ///
   /// In en, this message translates to:
   /// **'Auto'**
   String get modelAuto;
 
-  /// CodeWalk UI string — modelChooseAgent
+  /// Kilo-Walk UI string — modelChooseAgent
   ///
   /// In en, this message translates to:
   /// **'Choose agent'**
   String get modelChooseAgent;
 
-  /// CodeWalk UI string — modelFavorites
+  /// Kilo-Walk UI string — modelFavorites
   ///
   /// In en, this message translates to:
   /// **'Favorites'**
   String get modelFavorites;
 
-  /// CodeWalk UI string — modelFree
+  /// Kilo-Walk UI string — modelFree
   ///
   /// In en, this message translates to:
   /// **'Free'**
   String get modelFree;
 
-  /// CodeWalk UI string — modelLabelBaseEnglish
+  /// Kilo-Walk UI string — modelLabelBaseEnglish
   ///
   /// In en, this message translates to:
   /// **'Base (English)'**
   String get modelLabelBaseEnglish;
 
-  /// CodeWalk UI string — modelLabelParakeet
+  /// Kilo-Walk UI string — modelLabelParakeet
   ///
   /// In en, this message translates to:
   /// **'Parakeet V3 (25 European languages)'**
   String get modelLabelParakeet;
 
-  /// CodeWalk UI string — modelLabelSenseVoice
+  /// Kilo-Walk UI string — modelLabelSenseVoice
   ///
   /// In en, this message translates to:
   /// **'SenseVoice (zh/en/ja/ko/yue)'**
   String get modelLabelSenseVoice;
 
-  /// CodeWalk UI string — modelLabelTinyEnglish
+  /// Kilo-Walk UI string — modelLabelTinyEnglish
   ///
   /// In en, this message translates to:
   /// **'Tiny (English)'**
   String get modelLabelTinyEnglish;
 
-  /// CodeWalk UI string — modelLoadingModels
+  /// Kilo-Walk UI string — modelLoadingModels
   ///
   /// In en, this message translates to:
   /// **'Loading models'**
   String get modelLoadingModels;
 
-  /// CodeWalk UI string — modelModelsFound
+  /// Kilo-Walk UI string — modelModelsFound
   ///
   /// In en, this message translates to:
   /// **'No models found'**
   String get modelModelsFound;
 
-  /// CodeWalk UI string — modelRetryModels
+  /// Kilo-Walk UI string — modelRetryModels
   ///
   /// In en, this message translates to:
   /// **'Retry models'**
   String get modelRetryModels;
 
-  /// CodeWalk UI string — modelSearchHint
+  /// Kilo-Walk UI string — modelSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search model or provider'**
   String get modelSearchHint;
 
-  /// CodeWalk UI string — msgBatterySettingsFailed
+  /// Kilo-Walk UI string — msgBatterySettingsFailed
   ///
   /// In en, this message translates to:
   /// **'Could not open Android battery optimization settings.'**
   String get msgBatterySettingsFailed;
 
-  /// CodeWalk UI string — msgBatterySettingsOpened
+  /// Kilo-Walk UI string — msgBatterySettingsOpened
   ///
   /// In en, this message translates to:
-  /// **'Android battery settings opened. Allow unrestricted battery for CodeWalk.'**
+  /// **'Android battery settings opened. Allow unrestricted battery for Kilo-Walk.'**
   String get msgBatterySettingsOpened;
 
-  /// CodeWalk UI string — msgClearUsernameNeedsConfigEdit
+  /// Kilo-Walk UI string — msgClearUsernameNeedsConfigEdit
   ///
   /// In en, this message translates to:
   /// **'Clearing the OpenCode conversation username still requires editing config outside the app.'**
   String get msgClearUsernameNeedsConfigEdit;
 
-  /// CodeWalk UI string — msgCommandCopied
+  /// Kilo-Walk UI string — msgCommandCopied
   ///
   /// In en, this message translates to:
   /// **'Command copied'**
   String get msgCommandCopied;
 
-  /// CodeWalk UI string — msgCopiedToClipboard
+  /// Kilo-Walk UI string — msgCopiedToClipboard
   ///
   /// In en, this message translates to:
   /// **'Copied to clipboard'**
   String get msgCopiedToClipboard;
 
-  /// CodeWalk UI string — msgEnterUsernameToSave
+  /// Kilo-Walk UI string — msgEnterUsernameToSave
   ///
   /// In en, this message translates to:
   /// **'Enter a username to save a custom OpenCode conversation name.'**
   String get msgEnterUsernameToSave;
 
-  /// CodeWalk UI string — msgFailedToSendMessage
+  /// Kilo-Walk UI string — msgFailedToSendMessage
   ///
   /// In en, this message translates to:
   /// **'Failed to send message. Draft kept for retry.'**
   String get msgFailedToSendMessage;
 
-  /// CodeWalk UI string — msgFailedToStartVoiceInput
+  /// Kilo-Walk UI string — msgFailedToStartVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Failed to start voice input'**
   String get msgFailedToStartVoiceInput;
 
-  /// CodeWalk UI string — msgFilePathNotFound
+  /// Kilo-Walk UI string — msgFilePathNotFound
   ///
   /// In en, this message translates to:
   /// **'File not found: {path}'**
   String msgFilePathNotFound(String path);
 
-  /// CodeWalk UI string — msgFilteredLogsCopied
+  /// Kilo-Walk UI string — msgFilteredLogsCopied
   ///
   /// In en, this message translates to:
   /// **'Filtered logs copied to clipboard'**
   String get msgFilteredLogsCopied;
 
-  /// CodeWalk UI string — msgInfoAgent
+  /// Kilo-Walk UI string — msgInfoAgent
   ///
   /// In en, this message translates to:
   /// **'Agent'**
   String get msgInfoAgent;
 
-  /// CodeWalk UI string — msgInfoCompaction
+  /// Kilo-Walk UI string — msgInfoCompaction
   ///
   /// In en, this message translates to:
   /// **'Compaction'**
   String get msgInfoCompaction;
 
-  /// CodeWalk UI string — msgInfoCost
+  /// Kilo-Walk UI string — msgInfoCost
   ///
   /// In en, this message translates to:
   /// **'Cost: \${cost}'**
   String msgInfoCost(String cost);
 
-  /// CodeWalk UI string — msgInfoMessageInfo
+  /// Kilo-Walk UI string — msgInfoMessageInfo
   ///
   /// In en, this message translates to:
   /// **'Message Info'**
   String get msgInfoMessageInfo;
 
-  /// CodeWalk UI string — msgInfoModel
+  /// Kilo-Walk UI string — msgInfoModel
   ///
   /// In en, this message translates to:
   /// **'Model: {modelId}'**
   String msgInfoModel(String modelId);
 
-  /// CodeWalk UI string — msgInfoNoMetadata
+  /// Kilo-Walk UI string — msgInfoNoMetadata
   ///
   /// In en, this message translates to:
   /// **'No metadata available'**
   String get msgInfoNoMetadata;
 
-  /// CodeWalk UI string — msgInfoPartDescriptionModel
+  /// Kilo-Walk UI string — msgInfoPartDescriptionModel
   ///
   /// In en, this message translates to:
   /// **'{description}{model}'**
   String msgInfoPartDescriptionModel(String description, String model);
 
-  /// CodeWalk UI string — msgInfoPatch
+  /// Kilo-Walk UI string — msgInfoPatch
   ///
   /// In en, this message translates to:
   /// **'Patch'**
   String get msgInfoPatch;
 
-  /// CodeWalk UI string — msgInfoProvider
+  /// Kilo-Walk UI string — msgInfoProvider
   ///
   /// In en, this message translates to:
   /// **'Provider: {providerId}'**
   String msgInfoProvider(String providerId);
 
-  /// CodeWalk UI string — msgInfoRetry
+  /// Kilo-Walk UI string — msgInfoRetry
   ///
   /// In en, this message translates to:
   /// **'Retry'**
   String get msgInfoRetry;
 
-  /// CodeWalk UI string — msgInfoSnapshot
+  /// Kilo-Walk UI string — msgInfoSnapshot
   ///
   /// In en, this message translates to:
   /// **'Snapshot'**
   String get msgInfoSnapshot;
 
-  /// CodeWalk UI string — msgInfoSubtaskPartAgent
+  /// Kilo-Walk UI string — msgInfoSubtaskPartAgent
   ///
   /// In en, this message translates to:
   /// **'Subtask ({agent})'**
   String msgInfoSubtaskPartAgent(String agent);
 
-  /// CodeWalk UI string — msgInfoTokens
+  /// Kilo-Walk UI string — msgInfoTokens
   ///
   /// In en, this message translates to:
   /// **'Tokens: {total}'**
   String msgInfoTokens(int total);
 
-  /// CodeWalk UI string — msgInfoUndoThisTurn
+  /// Kilo-Walk UI string — msgInfoUndoThisTurn
   ///
   /// In en, this message translates to:
   /// **'Undo this turn'**
   String get msgInfoUndoThisTurn;
 
-  /// CodeWalk UI string — msgInfoView
+  /// Kilo-Walk UI string — msgInfoView
   ///
   /// In en, this message translates to:
   /// **'View'**
   String get msgInfoView;
 
-  /// CodeWalk UI string — msgNoSystemSoundsFound
+  /// Kilo-Walk UI string — msgNoSystemSoundsFound
   ///
   /// In en, this message translates to:
   /// **'No system sound was found on this device.'**
   String get msgNoSystemSoundsFound;
 
-  /// CodeWalk UI string — msgNoValidFilesSelected
+  /// Kilo-Walk UI string — msgNoValidFilesSelected
   ///
   /// In en, this message translates to:
   /// **'No valid files were selected'**
   String get msgNoValidFilesSelected;
 
-  /// CodeWalk UI string — msgSomeSelectedFilesNotAttached
+  /// Kilo-Walk UI string — msgSomeSelectedFilesNotAttached
   ///
   /// In en, this message translates to:
   /// **'Some selected files could not be attached.'**
   String get msgSomeSelectedFilesNotAttached;
 
-  /// CodeWalk UI string — msgReadAloud
+  /// Kilo-Walk UI string — msgReadAloud
   ///
   /// In en, this message translates to:
   /// **'Read aloud'**
   String get msgReadAloud;
 
-  /// CodeWalk UI string — msgReadAloudNotAvailable
+  /// Kilo-Walk UI string — msgReadAloudNotAvailable
   ///
   /// In en, this message translates to:
   /// **'Text-to-speech is not available on this device.'**
   String get msgReadAloudNotAvailable;
 
-  /// CodeWalk UI string — msgSetupDebugCopied
+  /// Kilo-Walk UI string — msgSetupDebugCopied
   ///
   /// In en, this message translates to:
   /// **'OpenCode setup debug copied to clipboard'**
   String get msgSetupDebugCopied;
 
-  /// CodeWalk UI string — msgShareAsImage
+  /// Kilo-Walk UI string — msgShareAsImage
   ///
   /// In en, this message translates to:
   /// **'Share as image'**
   String get msgShareAsImage;
 
-  /// CodeWalk UI string — msgShareAsImageFailed
+  /// Kilo-Walk UI string — msgShareAsImageFailed
   ///
   /// In en, this message translates to:
   /// **'Could not share message as image.'**
   String get msgShareAsImageFailed;
 
-  /// CodeWalk UI string — msgShareAsImageSubject
+  /// Kilo-Walk UI string — msgShareAsImageSubject
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk message'**
+  /// **'Kilo-Walk message'**
   String get msgShareAsImageSubject;
 
-  /// CodeWalk UI string — msgShareAsImageTooTall
+  /// Kilo-Walk UI string — msgShareAsImageTooTall
   ///
   /// In en, this message translates to:
   /// **'Message is too long to share as an image.'**
   String get msgShareAsImageTooTall;
 
-  /// CodeWalk UI string — msgStopReadAloud
+  /// Kilo-Walk UI string — msgStopReadAloud
   ///
   /// In en, this message translates to:
   /// **'Stop reading'**
   String get msgStopReadAloud;
 
-  /// CodeWalk UI string — msgPauseReadAloud
+  /// Kilo-Walk UI string — msgPauseReadAloud
   ///
   /// In en, this message translates to:
   /// **'Pause reading'**
   String get msgPauseReadAloud;
 
-  /// CodeWalk UI string — msgResumeReadAloud
+  /// Kilo-Walk UI string — msgResumeReadAloud
   ///
   /// In en, this message translates to:
   /// **'Resume reading'**
   String get msgResumeReadAloud;
 
-  /// CodeWalk UI string — msgSystemSoundPickerUnavailable
+  /// Kilo-Walk UI string — msgSystemSoundPickerUnavailable
   ///
   /// In en, this message translates to:
   /// **'System sound picker is not available on this platform.'**
   String get msgSystemSoundPickerUnavailable;
 
-  /// CodeWalk UI string — msgUpdatedButRefreshFailed
+  /// Kilo-Walk UI string — msgUpdatedButRefreshFailed
   ///
   /// In en, this message translates to:
   /// **'Updated the server setting, but could not refresh chat providers.'**
   String get msgUpdatedButRefreshFailed;
 
-  /// CodeWalk UI string — msgVoiceInputUnavailable
+  /// Kilo-Walk UI string — msgVoiceInputUnavailable
   ///
   /// In en, this message translates to:
   /// **'Voice input is unavailable on this device'**
   String get msgVoiceInputUnavailable;
 
-  /// CodeWalk UI string — notifAndroidBatteryOptimization
+  /// Kilo-Walk UI string — notifAndroidBatteryOptimization
   ///
   /// In en, this message translates to:
   /// **'Android battery optimization'**
   String get notifAndroidBatteryOptimization;
 
-  /// CodeWalk UI string — notifConversationUpdates
+  /// Kilo-Walk UI string — notifConversationUpdates
   ///
   /// In en, this message translates to:
   /// **'Conversation updates'**
   String get notifConversationUpdates;
 
-  /// CodeWalk UI string — notifNotificationsArriveReopening
+  /// Kilo-Walk UI string — notifNotificationsArriveReopening
   ///
   /// In en, this message translates to:
-  /// **'If notifications only arrive when reopening the app, allow CodeWalk to run without optimization on this device.'**
+  /// **'If notifications only arrive when reopening the app, allow Kilo-Walk to run without optimization on this device.'**
   String get notifNotificationsArriveReopening;
 
-  /// CodeWalk UI string — notifResponseRunningKeep
+  /// Kilo-Walk UI string — notifResponseRunningKeep
   ///
   /// In en, this message translates to:
   /// **'When a response is running, keep realtime active briefly after you leave the app.'**
   String get notifResponseRunningKeep;
 
-  /// CodeWalk UI string — notifSelectedSoundLabel
+  /// Kilo-Walk UI string — notifSelectedSoundLabel
   ///
   /// In en, this message translates to:
   /// **'Selected: {soundLabel}'**
   String notifSelectedSoundLabel(String soundLabel);
 
-  /// CodeWalk UI string — notificationAgentFinished
+  /// Kilo-Walk UI string — notificationAgentFinished
   ///
   /// In en, this message translates to:
   /// **'Agent finished the current response.'**
   String get notificationAgentFinished;
 
-  /// CodeWalk UI string — notificationConversationUpdates
+  /// Kilo-Walk UI string — notificationConversationUpdates
   ///
   /// In en, this message translates to:
   /// **'Conversation updates'**
   String get notificationConversationUpdates;
 
-  /// CodeWalk UI string — notificationOpenToClear
+  /// Kilo-Walk UI string — notificationOpenToClear
   ///
   /// In en, this message translates to:
   /// **'Open this conversation to clear related notifications.'**
   String get notificationOpenToClear;
 
-  /// CodeWalk UI string — notificationSession
+  /// Kilo-Walk UI string — notificationSession
   ///
   /// In en, this message translates to:
   /// **'Session'**
   String get notificationSession;
 
-  /// CodeWalk UI string — notificationSoundLoadFailed
+  /// Kilo-Walk UI string — notificationSoundLoadFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to load Android system sounds'**
   String get notificationSoundLoadFailed;
 
-  /// CodeWalk UI string — onboardingAIGeneratedTitles
+  /// Kilo-Walk UI string — onboardingAIGeneratedTitles
   ///
   /// In en, this message translates to:
   /// **'AI generated titles'**
   String get onboardingAIGeneratedTitles;
 
-  /// CodeWalk UI string — onboardingAddServerLater
+  /// Kilo-Walk UI string — onboardingAddServerLater
   ///
   /// In en, this message translates to:
   /// **'You can add a server later in Settings > Servers.'**
   String get onboardingAddServerLater;
 
-  /// CodeWalk UI string — onboardingAddedButHealthCheckFailed
+  /// Kilo-Walk UI string — onboardingAddedButHealthCheckFailed
   ///
   /// In en, this message translates to:
   /// **'Server added but health check failed. It may still be starting up.'**
   String get onboardingAddedButHealthCheckFailed;
 
-  /// CodeWalk UI string — onboardingAlmostInstallOpenCode
+  /// Kilo-Walk UI string — onboardingAlmostInstallOpenCode
   ///
   /// In en, this message translates to:
-  /// **'You are almost there. Install OpenCode first, then connect CodeWalk to the server URL.'**
+  /// **'You are almost there. Install OpenCode first, then connect Kilo-Walk to the server URL.'**
   String get onboardingAlmostInstallOpenCode;
 
-  /// CodeWalk UI string — onboardingAppProviderLocalSetupLogsLength
+  /// Kilo-Walk UI string — onboardingAppProviderLocalSetupLogsLength
   ///
   /// In en, this message translates to:
   /// **'{length} setup log lines and {length2} setup events are available in the separate setup debug screen.'**
   String onboardingAppProviderLocalSetupLogsLength(int length, int length2);
 
-  /// CodeWalk UI string — onboardingAuthenticate
+  /// Kilo-Walk UI string — onboardingAuthenticate
   ///
   /// In en, this message translates to:
   /// **'Authenticate'**
   String get onboardingAuthenticate;
 
-  /// CodeWalk UI string — onboardingAvailable
+  /// Kilo-Walk UI string — onboardingAvailable
   ///
   /// In en, this message translates to:
   /// **'available'**
   String get onboardingAvailable;
 
-  /// CodeWalk UI string — onboardingAvailableOnlyDesktop
+  /// Kilo-Walk UI string — onboardingAvailableOnlyDesktop
   ///
   /// In en, this message translates to:
   /// **'Available only on desktop (Linux/macOS/Windows).'**
   String get onboardingAvailableOnlyDesktop;
 
-  /// CodeWalk UI string — onboardingBasicAuthTip
+  /// Kilo-Walk UI string — onboardingBasicAuthTip
   ///
   /// In en, this message translates to:
   /// **'Enable Basic Auth only if your OpenCode server is password-protected.'**
   String get onboardingBasicAuthTip;
 
-  /// CodeWalk UI string — onboardingChooseAnotherPath
+  /// Kilo-Walk UI string — onboardingChooseAnotherPath
   ///
   /// In en, this message translates to:
   /// **'Choose another path'**
   String get onboardingChooseAnotherPath;
 
-  /// CodeWalk UI string — onboardingChooseHowToSetup
+  /// Kilo-Walk UI string — onboardingChooseHowToSetup
   ///
   /// In en, this message translates to:
   /// **'Choose how to set up your server'**
   String get onboardingChooseHowToSetup;
 
-  /// CodeWalk UI string — onboardingClear
+  /// Kilo-Walk UI string — onboardingClear
   ///
   /// In en, this message translates to:
   /// **'Clear'**
   String get onboardingClear;
 
-  /// CodeWalk UI string — onboardingCloudflareAuthFailed
+  /// Kilo-Walk UI string — onboardingCloudflareAuthFailed
   ///
   /// In en, this message translates to:
   /// **'Cloudflare Access authentication failed.'**
   String get onboardingCloudflareAuthFailed;
 
-  /// CodeWalk UI string — onboardingCodeWalkAppOpenCode
+  /// Kilo-Walk UI string — onboardingKilo-WalkAppOpenCode
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk is the app. OpenCode is the engine it connects to.'**
+  /// **'Kilo-Walk is the app. OpenCode is the engine it connects to.'**
   String get onboardingCodeWalkAppOpenCode;
 
-  /// CodeWalk UI string — onboardingConnectRunningServer
+  /// Kilo-Walk UI string — onboardingConnectRunningServer
   ///
   /// In en, this message translates to:
   /// **'Connect to a running server'**
   String get onboardingConnectRunningServer;
 
-  /// CodeWalk UI string — onboardingConnectionIssue
+  /// Kilo-Walk UI string — onboardingConnectionIssue
   ///
   /// In en, this message translates to:
   /// **'Connection issue'**
   String get onboardingConnectionIssue;
 
-  /// CodeWalk UI string — onboardingConnectionSaved
+  /// Kilo-Walk UI string — onboardingConnectionSaved
   ///
   /// In en, this message translates to:
   /// **'Server connection saved successfully.'**
   String get onboardingConnectionSaved;
 
-  /// CodeWalk UI string — onboardingConnectionTips
+  /// Kilo-Walk UI string — onboardingConnectionTips
   ///
   /// In en, this message translates to:
   /// **'Connection tips'**
   String get onboardingConnectionTips;
 
-  /// CodeWalk UI string — onboardingConnectionUpdated
+  /// Kilo-Walk UI string — onboardingConnectionUpdated
   ///
   /// In en, this message translates to:
   /// **'Server connection updated successfully.'**
   String get onboardingConnectionUpdated;
 
-  /// CodeWalk UI string — onboardingContinue
+  /// Kilo-Walk UI string — onboardingContinue
   ///
   /// In en, this message translates to:
   /// **'Continue'**
   String get onboardingContinue;
 
-  /// CodeWalk UI string — onboardingContinueServerURL
+  /// Kilo-Walk UI string — onboardingContinueServerURL
   ///
   /// In en, this message translates to:
   /// **'Continue to server URL'**
   String get onboardingContinueServerURL;
 
-  /// CodeWalk UI string — onboardingCopyLoginURL
+  /// Kilo-Walk UI string — onboardingCopyLoginURL
   ///
   /// In en, this message translates to:
   /// **'Copy login URL'**
   String get onboardingCopyLoginURL;
 
-  /// CodeWalk UI string — onboardingCouldNotVerify
+  /// Kilo-Walk UI string — onboardingCouldNotVerify
   ///
   /// In en, this message translates to:
   /// **'Could not verify the server connection.'**
   String get onboardingCouldNotVerify;
 
-  /// CodeWalk UI string — onboardingDefaultURLEmulator
+  /// Kilo-Walk UI string — onboardingDefaultURLEmulator
   ///
   /// In en, this message translates to:
   /// **'Default URL, emulator loopback, auth, and debug help.'**
   String get onboardingDefaultURLEmulator;
 
-  /// CodeWalk UI string — onboardingDesktopOnlyDiagnose
+  /// Kilo-Walk UI string — onboardingDesktopOnlyDiagnose
   ///
   /// In en, this message translates to:
   /// **'Desktop only: {appName} can diagnose, install, and run OpenCode for you.'**
   String onboardingDesktopOnlyDiagnose(String appName);
 
-  /// CodeWalk UI string — onboardingDetailedSetupEvents
+  /// Kilo-Walk UI string — onboardingDetailedSetupEvents
   ///
   /// In en, this message translates to:
   /// **'Detailed setup events were captured for troubleshooting.'**
   String get onboardingDetailedSetupEvents;
 
-  /// CodeWalk UI string — onboardingDonShowAgain
+  /// Kilo-Walk UI string — onboardingDonShowAgain
   ///
   /// In en, this message translates to:
   /// **'Don\'\'t show again'**
   String get onboardingDonShowAgain;
 
-  /// CodeWalk UI string — onboardingDone
+  /// Kilo-Walk UI string — onboardingDone
   ///
   /// In en, this message translates to:
   /// **'Done'**
   String get onboardingDone;
 
-  /// CodeWalk UI string — onboardingEditServer
+  /// Kilo-Walk UI string — onboardingEditServer
   ///
   /// In en, this message translates to:
   /// **'Edit server'**
   String get onboardingEditServer;
 
-  /// CodeWalk UI string — onboardingEditServerConnection
+  /// Kilo-Walk UI string — onboardingEditServerConnection
   ///
   /// In en, this message translates to:
   /// **'Edit server connection'**
   String get onboardingEditServerConnection;
 
-  /// CodeWalk UI string — onboardingEmulatorRemap
+  /// Kilo-Walk UI string — onboardingEmulatorRemap
   ///
   /// In en, this message translates to:
   /// **'On Android emulator, localhost and 127.0.0.1 are remapped to 10.0.2.2 automatically.'**
   String get onboardingEmulatorRemap;
 
-  /// CodeWalk UI string — onboardingEnterServerUrl
+  /// Kilo-Walk UI string — onboardingEnterServerUrl
   ///
   /// In en, this message translates to:
   /// **'Enter a server URL'**
   String get onboardingEnterServerUrl;
 
-  /// CodeWalk UI string — onboardingExisting
+  /// Kilo-Walk UI string — onboardingExisting
   ///
   /// In en, this message translates to:
   /// **'Use Existing'**
   String get onboardingExisting;
 
-  /// CodeWalk UI string — onboardingExplainInstallOpenCode
+  /// Kilo-Walk UI string — onboardingExplainInstallOpenCode
   ///
   /// In en, this message translates to:
-  /// **'Explain how to install OpenCode, start the server, and then connect from CodeWalk.'**
+  /// **'Explain how to install OpenCode, start the server, and then connect from Kilo-Walk.'**
   String get onboardingExplainInstallOpenCode;
 
-  /// CodeWalk UI string — onboardingFailed
+  /// Kilo-Walk UI string — onboardingFailed
   ///
   /// In en, this message translates to:
   /// **'Failed'**
   String get onboardingFailed;
 
-  /// CodeWalk UI string — onboardingGoodOptionDesktop
+  /// Kilo-Walk UI string — onboardingGoodOptionDesktop
   ///
   /// In en, this message translates to:
   /// **'Good first option on desktop'**
   String get onboardingGoodOptionDesktop;
 
-  /// CodeWalk UI string — onboardingHealthCheckFailedMayBeStarting
+  /// Kilo-Walk UI string — onboardingHealthCheckFailedMayBeStarting
   ///
   /// In en, this message translates to:
   /// **'Server health check failed. It may still be starting up.'**
   String get onboardingHealthCheckFailedMayBeStarting;
 
-  /// CodeWalk UI string — onboardingInstallBinary
+  /// Kilo-Walk UI string — onboardingInstallBinary
   ///
   /// In en, this message translates to:
   /// **'Install Binary'**
   String get onboardingInstallBinary;
 
-  /// CodeWalk UI string — onboardingInstallBun
+  /// Kilo-Walk UI string — onboardingInstallBun
   ///
   /// In en, this message translates to:
   /// **'Install via Bun'**
   String get onboardingInstallBun;
 
-  /// CodeWalk UI string — onboardingInstallBunOpenCode
+  /// Kilo-Walk UI string — onboardingInstallBunOpenCode
   ///
   /// In en, this message translates to:
   /// **'Install Bun + OpenCode'**
   String get onboardingInstallBunOpenCode;
 
-  /// CodeWalk UI string — onboardingInstallNpm
+  /// Kilo-Walk UI string — onboardingInstallNpm
   ///
   /// In en, this message translates to:
   /// **'Install via npm'**
   String get onboardingInstallNpm;
 
-  /// CodeWalk UI string — onboardingInstallRunOpenCode
+  /// Kilo-Walk UI string — onboardingInstallRunOpenCode
   ///
   /// In en, this message translates to:
-  /// **'Install and run OpenCode directly from CodeWalk on desktop.'**
+  /// **'Install and run OpenCode directly from Kilo-Walk on desktop.'**
   String get onboardingInstallRunOpenCode;
 
-  /// CodeWalk UI string — onboardingInvalidUrl
+  /// Kilo-Walk UI string — onboardingInvalidUrl
   ///
   /// In en, this message translates to:
   /// **'Invalid URL'**
   String get onboardingInvalidUrl;
 
-  /// CodeWalk UI string — onboardingLabel
+  /// Kilo-Walk UI string — onboardingLabel
   ///
   /// In en, this message translates to:
   /// **'Label (optional)'**
   String get onboardingLabel;
 
-  /// CodeWalk UI string — onboardingLabelHint
+  /// Kilo-Walk UI string — onboardingLabelHint
   ///
   /// In en, this message translates to:
   /// **'My server'**
   String get onboardingLabelHint;
 
-  /// CodeWalk UI string — onboardingLatestOutputAppProvider
+  /// Kilo-Walk UI string — onboardingLatestOutputAppProvider
   ///
   /// In en, this message translates to:
   /// **'Latest output: {localServerLastOutput}'**
   String onboardingLatestOutputAppProvider(String localServerLastOutput);
 
-  /// CodeWalk UI string — onboardingLetCodeWalkSet
+  /// Kilo-Walk UI string — onboardingLetKilo-WalkSet
   ///
   /// In en, this message translates to:
-  /// **'Let CodeWalk set it up locally'**
+  /// **'Let Kilo-Walk set it up locally'**
   String get onboardingLetCodeWalkSet;
 
-  /// CodeWalk UI string — onboardingLocalServerSetup
+  /// Kilo-Walk UI string — onboardingLocalServerSetup
   ///
   /// In en, this message translates to:
   /// **'Local server setup'**
   String get onboardingLocalServerSetup;
 
-  /// CodeWalk UI string — onboardingManagedLocalServer
+  /// Kilo-Walk UI string — onboardingManagedLocalServer
   ///
   /// In en, this message translates to:
   /// **'Managed local server'**
   String get onboardingManagedLocalServer;
 
-  /// CodeWalk UI string — onboardingManagedLocalServer2
+  /// Kilo-Walk UI string — onboardingManagedLocalServer2
   ///
   /// In en, this message translates to:
   /// **'Managed local server mode is available only on desktop builds (Linux/macOS/Windows).'**
   String get onboardingManagedLocalServer2;
 
-  /// CodeWalk UI string — onboardingNeedsOpenCodeServer
+  /// Kilo-Walk UI string — onboardingNeedsOpenCodeServer
   ///
   /// In en, this message translates to:
   /// **'{appName} needs an OpenCode server before it can help with your code.'**
   String onboardingNeedsOpenCodeServer(String appName);
 
-  /// CodeWalk UI string — onboardingNotAvailable
+  /// Kilo-Walk UI string — onboardingNotAvailable
   ///
   /// In en, this message translates to:
   /// **'not available'**
   String get onboardingNotAvailable;
 
-  /// CodeWalk UI string — onboardingNotWritable
+  /// Kilo-Walk UI string — onboardingNotWritable
   ///
   /// In en, this message translates to:
   /// **'not writable'**
   String get onboardingNotWritable;
 
-  /// CodeWalk UI string — onboardingOpenCode
+  /// Kilo-Walk UI string — onboardingOpenCode
   ///
   /// In en, this message translates to:
   /// **'What is OpenCode?'**
   String get onboardingOpenCode;
 
-  /// CodeWalk UI string — onboardingOpenCodeRunningDevice
+  /// Kilo-Walk UI string — onboardingOpenCodeRunningDevice
   ///
   /// In en, this message translates to:
   /// **'I already have OpenCode running on this device or somewhere on my network.'**
   String get onboardingOpenCodeRunningDevice;
 
-  /// CodeWalk UI string — onboardingOpenCodeRunsLocally
+  /// Kilo-Walk UI string — onboardingOpenCodeRunsLocally
   ///
   /// In en, this message translates to:
-  /// **'OpenCode runs locally or on a server and powers the AI coding features inside CodeWalk. If OpenCode is already running, connect to it. If not, pick one of the guided setup paths below.'**
+  /// **'OpenCode runs locally or on a server and powers the AI coding features inside Kilo-Walk. If OpenCode is already running, connect to it. If not, pick one of the guided setup paths below.'**
   String get onboardingOpenCodeRunsLocally;
 
-  /// CodeWalk UI string — onboardingOpenTailscaleLogin
+  /// Kilo-Walk UI string — onboardingOpenTailscaleLogin
   ///
   /// In en, this message translates to:
   /// **'Could not open Tailscale login URL.'**
   String get onboardingOpenTailscaleLogin;
 
-  /// CodeWalk UI string — onboardingPassword
+  /// Kilo-Walk UI string — onboardingPassword
   ///
   /// In en, this message translates to:
   /// **'Password'**
   String get onboardingPassword;
 
-  /// CodeWalk UI string — onboardingPasswordRequired
+  /// Kilo-Walk UI string — onboardingPasswordRequired
   ///
   /// In en, this message translates to:
   /// **'Enter password'**
   String get onboardingPasswordRequired;
 
-  /// CodeWalk UI string — onboardingPickSetupPath
+  /// Kilo-Walk UI string — onboardingPickSetupPath
   ///
   /// In en, this message translates to:
   /// **'Pick the setup path that matches your current OpenCode setup.'**
   String get onboardingPickSetupPath;
 
-  /// CodeWalk UI string — onboardingPreconditionDirectoryNotWritable
+  /// Kilo-Walk UI string — onboardingPreconditionDirectoryNotWritable
   ///
   /// In en, this message translates to:
   /// **'Install directory is not writable. Check user permissions.'**
   String get onboardingPreconditionDirectoryNotWritable;
 
-  /// CodeWalk UI string — onboardingPreconditionInstallViaBunRecommendation
+  /// Kilo-Walk UI string — onboardingPreconditionInstallViaBunRecommendation
   ///
   /// In en, this message translates to:
   /// **'Install via Bun is recommended by OpenCode maintainers.'**
   String get onboardingPreconditionInstallViaBunRecommendation;
 
-  /// CodeWalk UI string — onboardingPreconditionNetworkFailed
+  /// Kilo-Walk UI string — onboardingPreconditionNetworkFailed
   ///
   /// In en, this message translates to:
   /// **'Network access failed. Check connectivity before installing OpenCode.'**
   String get onboardingPreconditionNetworkFailed;
 
-  /// CodeWalk UI string — onboardingPreconditionNoRuntimeDetected
+  /// Kilo-Walk UI string — onboardingPreconditionNoRuntimeDetected
   ///
   /// In en, this message translates to:
   /// **'No runtime detected. Install OpenCode binary directly or bootstrap Bun first.'**
   String get onboardingPreconditionNoRuntimeDetected;
 
-  /// CodeWalk UI string — onboardingPreconditionNodeNpmAvailable
+  /// Kilo-Walk UI string — onboardingPreconditionNodeNpmAvailable
   ///
   /// In en, this message translates to:
   /// **'Node + npm are available. Install OpenCode via npm or install Bun for the recommended flow.'**
   String get onboardingPreconditionNodeNpmAvailable;
 
-  /// CodeWalk UI string — onboardingPreconditionOpenCodeAlreadyAvailable
+  /// Kilo-Walk UI string — onboardingPreconditionOpenCodeAlreadyAvailable
   ///
   /// In en, this message translates to:
   /// **'OpenCode is already available. You can use the detected command immediately.'**
   String get onboardingPreconditionOpenCodeAlreadyAvailable;
 
-  /// CodeWalk UI string — onboardingPreconditionWindowsPathLagHint
+  /// Kilo-Walk UI string — onboardingPreconditionWindowsPathLagHint
   ///
   /// In en, this message translates to:
   /// **' On Windows, refresh checks after install because PATH updates may lag in already-open apps.'**
   String get onboardingPreconditionWindowsPathLagHint;
 
-  /// CodeWalk UI string — onboardingPreconditionWindowsWslRecommendation
+  /// Kilo-Walk UI string — onboardingPreconditionWindowsWslRecommendation
   ///
   /// In en, this message translates to:
   /// **'Windows build detected. WSL is recommended by OpenCode docs, but npm install can be used as fallback.'**
   String get onboardingPreconditionWindowsWslRecommendation;
 
-  /// CodeWalk UI string — onboardingReachable
+  /// Kilo-Walk UI string — onboardingReachable
   ///
   /// In en, this message translates to:
   /// **'reachable'**
   String get onboardingReachable;
 
-  /// CodeWalk UI string — onboardingReady
+  /// Kilo-Walk UI string — onboardingReady
   ///
   /// In en, this message translates to:
   /// **'Ready'**
   String get onboardingReady;
 
-  /// CodeWalk UI string — onboardingRecommendedOrderTry
+  /// Kilo-Walk UI string — onboardingRecommendedOrderTry
   ///
   /// In en, this message translates to:
-  /// **'Recommended order: try Install Bun + OpenCode if you want CodeWalk to bootstrap everything for you. Use Existing if OpenCode is already installed.'**
+  /// **'Recommended order: try Install Bun + OpenCode if you want Kilo-Walk to bootstrap everything for you. Use Existing if OpenCode is already installed.'**
   String get onboardingRecommendedOrderTry;
 
-  /// CodeWalk UI string — onboardingRefreshChecks
+  /// Kilo-Walk UI string — onboardingRefreshChecks
   ///
   /// In en, this message translates to:
   /// **'Refresh Checks'**
   String get onboardingRefreshChecks;
 
-  /// CodeWalk UI string — onboardingRunDiagnosticsToVerify
+  /// Kilo-Walk UI string — onboardingRunDiagnosticsToVerify
   ///
   /// In en, this message translates to:
   /// **'Run diagnostics to verify local OpenCode requirements.'**
   String get onboardingRunDiagnosticsToVerify;
 
-  /// CodeWalk UI string — onboardingSaveAndTest
+  /// Kilo-Walk UI string — onboardingSaveAndTest
   ///
   /// In en, this message translates to:
   /// **'Save and test'**
   String get onboardingSaveAndTest;
 
-  /// CodeWalk UI string — onboardingServerConnectedReady
+  /// Kilo-Walk UI string — onboardingServerConnectedReady
   ///
   /// In en, this message translates to:
   /// **'Your server is connected and ready to use.'**
   String get onboardingServerConnectedReady;
 
-  /// CodeWalk UI string — onboardingServerConnection
+  /// Kilo-Walk UI string — onboardingServerConnection
   ///
   /// In en, this message translates to:
   /// **'Server connection'**
   String get onboardingServerConnection;
 
-  /// CodeWalk UI string — onboardingServerSettingsSaved
+  /// Kilo-Walk UI string — onboardingServerSettingsSaved
   ///
   /// In en, this message translates to:
   /// **'Your server settings were saved and health checks were refreshed.'**
   String get onboardingServerSettingsSaved;
 
-  /// CodeWalk UI string — onboardingServerSetup
+  /// Kilo-Walk UI string — onboardingServerSetup
   ///
   /// In en, this message translates to:
   /// **'Server setup'**
   String get onboardingServerSetup;
 
-  /// CodeWalk UI string — onboardingServerUpdated
+  /// Kilo-Walk UI string — onboardingServerUpdated
   ///
   /// In en, this message translates to:
   /// **'Server updated'**
   String get onboardingServerUpdated;
 
-  /// CodeWalk UI string — onboardingServerUrl
+  /// Kilo-Walk UI string — onboardingServerUrl
   ///
   /// In en, this message translates to:
   /// **'Server URL'**
   String get onboardingServerUrl;
 
-  /// CodeWalk UI string — onboardingSetup
+  /// Kilo-Walk UI string — onboardingSetup
   ///
   /// In en, this message translates to:
   /// **'Setup'**
   String get onboardingSetup;
 
-  /// CodeWalk UI string — onboardingSetupWizard
+  /// Kilo-Walk UI string — onboardingSetupWizard
   ///
   /// In en, this message translates to:
   /// **'Setup wizard'**
   String get onboardingSetupWizard;
 
-  /// CodeWalk UI string — onboardingShowSetupSteps
+  /// Kilo-Walk UI string — onboardingShowSetupSteps
   ///
   /// In en, this message translates to:
   /// **'Show me the setup steps'**
   String get onboardingShowSetupSteps;
 
-  /// CodeWalk UI string — onboardingShowSetupSteps2
+  /// Kilo-Walk UI string — onboardingShowSetupSteps2
   ///
   /// In en, this message translates to:
   /// **'Show setup steps'**
   String get onboardingShowSetupSteps2;
 
-  /// CodeWalk UI string — onboardingSkip
+  /// Kilo-Walk UI string — onboardingSkip
   ///
   /// In en, this message translates to:
   /// **'Skip for now'**
   String get onboardingSkip;
 
-  /// CodeWalk UI string — onboardingSkipSetup
+  /// Kilo-Walk UI string — onboardingSkipSetup
   ///
   /// In en, this message translates to:
   /// **'Skip setup?'**
   String get onboardingSkipSetup;
 
-  /// CodeWalk UI string — onboardingStart
+  /// Kilo-Walk UI string — onboardingStart
   ///
   /// In en, this message translates to:
   /// **'Start'**
   String get onboardingStart;
 
-  /// CodeWalk UI string — onboardingStartUsing
+  /// Kilo-Walk UI string — onboardingStartUsing
   ///
   /// In en, this message translates to:
   /// **'Start using {appName}'**
   String onboardingStartUsing(String appName);
 
-  /// CodeWalk UI string — onboardingStarting
+  /// Kilo-Walk UI string — onboardingStarting
   ///
   /// In en, this message translates to:
   /// **'Starting'**
   String get onboardingStarting;
 
-  /// CodeWalk UI string — onboardingStop
+  /// Kilo-Walk UI string — onboardingStop
   ///
   /// In en, this message translates to:
   /// **'Stop'**
   String get onboardingStop;
 
-  /// CodeWalk UI string — onboardingStopped
+  /// Kilo-Walk UI string — onboardingStopped
   ///
   /// In en, this message translates to:
   /// **'Stopped'**
   String get onboardingStopped;
 
-  /// CodeWalk UI string — onboardingStopping
+  /// Kilo-Walk UI string — onboardingStopping
   ///
   /// In en, this message translates to:
   /// **'Stopping'**
   String get onboardingStopping;
 
-  /// CodeWalk UI string — onboardingSuggestedUrl
+  /// Kilo-Walk UI string — onboardingSuggestedUrl
   ///
   /// In en, this message translates to:
   /// **'Suggested local OpenCode server URL: {url}'**
   String onboardingSuggestedUrl(String url);
 
-  /// CodeWalk UI string — onboardingTailscaleAdminApproval
+  /// Kilo-Walk UI string — onboardingTailscaleAdminApproval
   ///
   /// In en, this message translates to:
   /// **'Tailscale admin approval required'**
   String get onboardingTailscaleAdminApproval;
 
-  /// CodeWalk UI string — onboardingTailscaleAuthAfterSave
+  /// Kilo-Walk UI string — onboardingTailscaleAuthAfterSave
   ///
   /// In en, this message translates to:
   /// **'Tailscale will authenticate after saving'**
   String get onboardingTailscaleAuthAfterSave;
 
-  /// CodeWalk UI string — onboardingTailscaleAuthAfterSaveTest
+  /// Kilo-Walk UI string — onboardingTailscaleAuthAfterSaveTest
   ///
   /// In en, this message translates to:
   /// **'After you save and test this server, {appName} will open Tailscale login if this device is not authenticated yet.'**
   String onboardingTailscaleAuthAfterSaveTest(String appName);
 
-  /// CodeWalk UI string — onboardingTailscaleConnected
+  /// Kilo-Walk UI string — onboardingTailscaleConnected
   ///
   /// In en, this message translates to:
   /// **'Tailscale connected'**
   String get onboardingTailscaleConnected;
 
-  /// CodeWalk UI string — onboardingTailscaleConnecting
+  /// Kilo-Walk UI string — onboardingTailscaleConnecting
   ///
   /// In en, this message translates to:
   /// **'Tailscale connecting'**
   String get onboardingTailscaleConnecting;
 
-  /// CodeWalk UI string — onboardingTailscaleConnectionFailed
+  /// Kilo-Walk UI string — onboardingTailscaleConnectionFailed
   ///
   /// In en, this message translates to:
   /// **'Tailscale connection failed'**
   String get onboardingTailscaleConnectionFailed;
 
-  /// CodeWalk UI string — onboardingTailscaleLoginRequired
+  /// Kilo-Walk UI string — onboardingTailscaleLoginRequired
   ///
   /// In en, this message translates to:
   /// **'Tailscale login required'**
   String get onboardingTailscaleLoginRequired;
 
-  /// CodeWalk UI string — onboardingTailscaleOpenLoginUrl
+  /// Kilo-Walk UI string — onboardingTailscaleOpenLoginUrl
   ///
   /// In en, this message translates to:
   /// **'Open the login URL to add this device to your tailnet. If the browser did not open, copy the URL below.'**
   String get onboardingTailscaleOpenLoginUrl;
 
-  /// CodeWalk UI string — onboardingTailscaleUnsupported
+  /// Kilo-Walk UI string — onboardingTailscaleUnsupported
   ///
   /// In en, this message translates to:
   /// **'Tailscale unsupported'**
   String get onboardingTailscaleUnsupported;
 
-  /// CodeWalk UI string — onboardingTestConnection
+  /// Kilo-Walk UI string — onboardingTestConnection
   ///
   /// In en, this message translates to:
   /// **'Test connection'**
   String get onboardingTestConnection;
 
-  /// CodeWalk UI string — onboardingTesting
+  /// Kilo-Walk UI string — onboardingTesting
   ///
   /// In en, this message translates to:
   /// **'Testing...'**
   String get onboardingTesting;
 
-  /// CodeWalk UI string — onboardingUnreachable
+  /// Kilo-Walk UI string — onboardingUnreachable
   ///
   /// In en, this message translates to:
   /// **'unreachable'**
   String get onboardingUnreachable;
 
-  /// CodeWalk UI string — onboardingUseBasicAuth
+  /// Kilo-Walk UI string — onboardingUseBasicAuth
   ///
   /// In en, this message translates to:
   /// **'Use Basic Auth'**
   String get onboardingUseBasicAuth;
 
-  /// CodeWalk UI string — onboardingUsername
+  /// Kilo-Walk UI string — onboardingUsername
   ///
   /// In en, this message translates to:
   /// **'Username'**
   String get onboardingUsername;
 
-  /// CodeWalk UI string — onboardingUsernameRequired
+  /// Kilo-Walk UI string — onboardingUsernameRequired
   ///
   /// In en, this message translates to:
   /// **'Enter username'**
   String get onboardingUsernameRequired;
 
-  /// CodeWalk UI string — onboardingUsesServerTitle
+  /// Kilo-Walk UI string — onboardingUsesServerTitle
   ///
   /// In en, this message translates to:
   /// **'Uses your server\'\'s title agent to name conversations'**
   String get onboardingUsesServerTitle;
 
-  /// CodeWalk UI string — onboardingUsingDetectedCommand
+  /// Kilo-Walk UI string — onboardingUsingDetectedCommand
   ///
   /// In en, this message translates to:
   /// **'Using detected OpenCode command.'**
   String get onboardingUsingDetectedCommand;
 
-  /// CodeWalk UI string — onboardingViewSetupDebug
+  /// Kilo-Walk UI string — onboardingViewSetupDebug
   ///
   /// In en, this message translates to:
   /// **'View setup debug'**
   String get onboardingViewSetupDebug;
 
-  /// CodeWalk UI string — onboardingWelcomeTo
+  /// Kilo-Walk UI string — onboardingWelcomeTo
   ///
   /// In en, this message translates to:
   /// **'Welcome to {appName}'**
   String onboardingWelcomeTo(String appName);
 
-  /// CodeWalk UI string — onboardingWindowsTipInstalling
+  /// Kilo-Walk UI string — onboardingWindowsTipInstalling
   ///
   /// In en, this message translates to:
-  /// **'Windows tip: after installing, click Refresh Checks. If detection still fails, reopen CodeWalk to reload PATH changes.'**
+  /// **'Windows tip: after installing, click Refresh Checks. If detection still fails, reopen Kilo-Walk to reload PATH changes.'**
   String get onboardingWindowsTipInstalling;
 
-  /// CodeWalk UI string — onboardingWritable
+  /// Kilo-Walk UI string — onboardingWritable
   ///
   /// In en, this message translates to:
   /// **'writable'**
   String get onboardingWritable;
 
-  /// CodeWalk UI string — onboardingYoureAllSet
+  /// Kilo-Walk UI string — onboardingYoureAllSet
   ///
   /// In en, this message translates to:
   /// **'You\'\'re all set!'**
   String get onboardingYoureAllSet;
 
-  /// CodeWalk UI string — permissionAllowOnce
+  /// Kilo-Walk UI string — permissionAllowOnce
   ///
   /// In en, this message translates to:
   /// **'Allow Once'**
   String get permissionAllowOnce;
 
-  /// CodeWalk UI string — permissionAlways
+  /// Kilo-Walk UI string — permissionAlways
   ///
   /// In en, this message translates to:
   /// **'Always'**
   String get permissionAlways;
 
-  /// CodeWalk UI string — permissionBack
+  /// Kilo-Walk UI string — permissionBack
   ///
   /// In en, this message translates to:
   /// **'Back'**
   String get permissionBack;
 
-  /// CodeWalk UI string — permissionConfirmReject
+  /// Kilo-Walk UI string — permissionConfirmReject
   ///
   /// In en, this message translates to:
   /// **'Confirm Reject'**
   String get permissionConfirmReject;
 
-  /// CodeWalk UI string — permissionReject
+  /// Kilo-Walk UI string — permissionReject
   ///
   /// In en, this message translates to:
   /// **'Reject'**
   String get permissionReject;
 
-  /// CodeWalk UI string — permissionReopen
+  /// Kilo-Walk UI string — permissionReopen
   ///
   /// In en, this message translates to:
   /// **'Reopen'**
   String get permissionReopen;
 
-  /// CodeWalk UI string — questionAnswerSelected
+  /// Kilo-Walk UI string — questionAnswerSelected
   ///
   /// In en, this message translates to:
   /// **'No answer selected.'**
   String get questionAnswerSelected;
 
-  /// CodeWalk UI string — questionCommaSeparatedValues
+  /// Kilo-Walk UI string — questionCommaSeparatedValues
   ///
   /// In en, this message translates to:
   /// **'Comma-separated values'**
   String get questionCommaSeparatedValues;
 
-  /// CodeWalk UI string — questionQuestionGroupMarked
+  /// Kilo-Walk UI string — questionQuestionGroupMarked
   ///
   /// In en, this message translates to:
   /// **'Question group marked as rejected. You can keep chatting and reopen this group anytime before confirming.'**
   String get questionQuestionGroupMarked;
 
-  /// CodeWalk UI string — questionQuestionRequest
+  /// Kilo-Walk UI string — questionQuestionRequest
   ///
   /// In en, this message translates to:
   /// **'Question request'**
   String get questionQuestionRequest;
 
-  /// CodeWalk UI string — questionQuestionsProvidedSubmit
+  /// Kilo-Walk UI string — questionQuestionsProvidedSubmit
   ///
   /// In en, this message translates to:
   /// **'No questions provided. You can submit an empty response.'**
   String get questionQuestionsProvidedSubmit;
 
-  /// CodeWalk UI string — questionReviewAnswersSubmitting
+  /// Kilo-Walk UI string — questionReviewAnswersSubmitting
   ///
   /// In en, this message translates to:
   /// **'Review your answers before submitting.'**
   String get questionReviewAnswersSubmitting;
 
-  /// CodeWalk UI string — quotaAuthCookie
+  /// Kilo-Walk UI string — quotaAuthCookie
   ///
   /// In en, this message translates to:
   /// **'Auth cookie'**
   String get quotaAuthCookie;
 
-  /// CodeWalk UI string — quotaConnect
+  /// Kilo-Walk UI string — quotaConnect
   ///
   /// In en, this message translates to:
   /// **'Connect'**
   String get quotaConnect;
 
-  /// CodeWalk UI string — quotaForget
+  /// Kilo-Walk UI string — quotaForget
   ///
   /// In en, this message translates to:
   /// **'Forget'**
   String get quotaForget;
 
-  /// CodeWalk UI string — quotaOpenCodeGoConnectDescription
+  /// Kilo-Walk UI string — quotaOpenCodeGoConnectDescription
   ///
   /// In en, this message translates to:
   /// **'Connect the usage dashboard to show rolling, weekly, and monthly limits.'**
   String get quotaOpenCodeGoConnectDescription;
 
-  /// CodeWalk UI string — quotaOpenCodeGoDetected
+  /// Kilo-Walk UI string — quotaOpenCodeGoDetected
   ///
   /// In en, this message translates to:
   /// **'OpenCode Go detected'**
   String get quotaOpenCodeGoDetected;
 
-  /// CodeWalk UI string — quotaOpenCodeGoNeedsReconnect
+  /// Kilo-Walk UI string — quotaOpenCodeGoNeedsReconnect
   ///
   /// In en, this message translates to:
   /// **'OpenCode Go needs reconnect'**
   String get quotaOpenCodeGoNeedsReconnect;
 
-  /// CodeWalk UI string — quotaOpenCodeGoReconnectDescription
+  /// Kilo-Walk UI string — quotaOpenCodeGoReconnectDescription
   ///
   /// In en, this message translates to:
   /// **'Refresh the dashboard credentials to restore usage bars.'**
   String get quotaOpenCodeGoReconnectDescription;
 
-  /// CodeWalk UI string — quotaOpenCodeGoUsage
+  /// Kilo-Walk UI string — quotaOpenCodeGoUsage
   ///
   /// In en, this message translates to:
   /// **'OpenCode Go usage'**
   String get quotaOpenCodeGoUsage;
 
-  /// CodeWalk UI string — quotaOpenDashboard
+  /// Kilo-Walk UI string — quotaOpenDashboard
   ///
   /// In en, this message translates to:
   /// **'Open OpenCode dashboard'**
   String get quotaOpenDashboard;
 
-  /// CodeWalk UI string — quotaPaceExplanation
+  /// Kilo-Walk UI string — quotaPaceExplanation
   ///
   /// In en, this message translates to:
   /// **'Pace predicts total usage by the end of the current limit window based on the current rate.'**
   String get quotaPaceExplanation;
 
-  /// CodeWalk UI string — quotaPacePercent
+  /// Kilo-Walk UI string — quotaPacePercent
   ///
   /// In en, this message translates to:
   /// **'Pace {percent}%'**
   String quotaPacePercent(String percent);
 
-  /// CodeWalk UI string — quotaRateLimits
+  /// Kilo-Walk UI string — quotaRateLimits
   ///
   /// In en, this message translates to:
   /// **'Rate limits'**
   String get quotaRateLimits;
 
-  /// CodeWalk UI string — quotaReconnect
+  /// Kilo-Walk UI string — quotaReconnect
   ///
   /// In en, this message translates to:
   /// **'Reconnect'**
   String get quotaReconnect;
 
-  /// CodeWalk UI string — quotaRefreshing
+  /// Kilo-Walk UI string — quotaRefreshing
   ///
   /// In en, this message translates to:
   /// **'Refreshing...'**
   String get quotaRefreshing;
 
-  /// CodeWalk UI string — quotaResetsIn
+  /// Kilo-Walk UI string — quotaResetsIn
   ///
   /// In en, this message translates to:
   /// **'Resets in {time}'**
   String quotaResetsIn(String time);
 
-  /// CodeWalk UI string — quotaSaving
+  /// Kilo-Walk UI string — quotaSaving
   ///
   /// In en, this message translates to:
   /// **'Saving...'**
   String get quotaSaving;
 
-  /// CodeWalk UI string — quotaWorkspaceId
+  /// Kilo-Walk UI string — quotaWorkspaceId
   ///
   /// In en, this message translates to:
   /// **'Workspace ID'**
   String get quotaWorkspaceId;
 
-  /// CodeWalk UI string — serverClearOAuth
+  /// Kilo-Walk UI string — serverClearOAuth
   ///
   /// In en, this message translates to:
   /// **'Clear OAuth'**
   String get serverClearOAuth;
 
-  /// CodeWalk UI string — serverConnectionAttention
+  /// Kilo-Walk UI string — serverConnectionAttention
   ///
   /// In en, this message translates to:
   /// **'Server connection needs attention.'**
   String get serverConnectionAttention;
 
-  /// CodeWalk UI string — serverHealthHealthy
+  /// Kilo-Walk UI string — serverHealthHealthy
   ///
   /// In en, this message translates to:
   /// **'Healthy'**
   String get serverHealthHealthy;
 
-  /// CodeWalk UI string — serverHealthUnhealthy
+  /// Kilo-Walk UI string — serverHealthUnhealthy
   ///
   /// In en, this message translates to:
   /// **'Unhealthy'**
   String get serverHealthUnhealthy;
 
-  /// CodeWalk UI string — serverHealthUnknown
+  /// Kilo-Walk UI string — serverHealthUnknown
   ///
   /// In en, this message translates to:
   /// **'Unknown'**
   String get serverHealthUnknown;
 
-  /// CodeWalk UI string — serverOAuthAuthFailed
+  /// Kilo-Walk UI string — serverOAuthAuthFailed
   ///
   /// In en, this message translates to:
   /// **'OAuth authentication failed'**
   String get serverOAuthAuthFailed;
 
-  /// CodeWalk UI string — serverOAuthChip
+  /// Kilo-Walk UI string — serverOAuthChip
   ///
   /// In en, this message translates to:
   /// **'OAuth'**
   String get serverOAuthChip;
 
-  /// CodeWalk UI string — serverOAuthNotSupported
+  /// Kilo-Walk UI string — serverOAuthNotSupported
   ///
   /// In en, this message translates to:
   /// **'Cloudflare Access OAuth is not supported on this platform'**
   String get serverOAuthNotSupported;
 
-  /// CodeWalk UI string — serverReauthenticate
+  /// Kilo-Walk UI string — serverReauthenticate
   ///
   /// In en, this message translates to:
   /// **'Re-authenticate'**
   String get serverReauthenticate;
 
-  /// CodeWalk UI string — serverTailscaleChip
+  /// Kilo-Walk UI string — serverTailscaleChip
   ///
   /// In en, this message translates to:
   /// **'Tailscale'**
   String get serverTailscaleChip;
 
-  /// CodeWalk UI string — serversActive
+  /// Kilo-Walk UI string — serversActive
   ///
   /// In en, this message translates to:
   /// **'Active'**
   String get serversActive;
 
-  /// CodeWalk UI string — serversActiveServer
+  /// Kilo-Walk UI string — serversActiveServer
   ///
   /// In en, this message translates to:
   /// **'Active Server'**
   String get serversActiveServer;
 
-  /// CodeWalk UI string — serversAddLeastOpenCode
+  /// Kilo-Walk UI string — serversAddLeastOpenCode
   ///
   /// In en, this message translates to:
   /// **'Add at least one OpenCode server to start using the app.'**
   String get serversAddLeastOpenCode;
 
-  /// CodeWalk UI string — serversAddServer
+  /// Kilo-Walk UI string — serversAddServer
   ///
   /// In en, this message translates to:
   /// **'Add Server'**
   String get serversAddServer;
 
-  /// CodeWalk UI string — serversCancel
+  /// Kilo-Walk UI string — serversCancel
   ///
   /// In en, this message translates to:
   /// **'Cancel'**
   String get serversCancel;
 
-  /// CodeWalk UI string — serversCannotActivateUnhealthy
+  /// Kilo-Walk UI string — serversCannotActivateUnhealthy
   ///
   /// In en, this message translates to:
   /// **'Cannot activate an unhealthy server'**
   String get serversCannotActivateUnhealthy;
 
-  /// CodeWalk UI string — serversCheckHealth
+  /// Kilo-Walk UI string — serversCheckHealth
   ///
   /// In en, this message translates to:
   /// **'Check Health'**
   String get serversCheckHealth;
 
-  /// CodeWalk UI string — serversClearDefault
+  /// Kilo-Walk UI string — serversClearDefault
   ///
   /// In en, this message translates to:
   /// **'Clear Default'**
   String get serversClearDefault;
 
-  /// CodeWalk UI string — serversCommandAppProviderLocalServerCommandPath
+  /// Kilo-Walk UI string — serversCommandAppProviderLocalServerCommandPath
   ///
   /// In en, this message translates to:
   /// **'Command: {localServerCommandPath}'**
@@ -5105,769 +5105,769 @@ abstract class AppLocalizations {
     String localServerCommandPath,
   );
 
-  /// CodeWalk UI string — serversCopy
+  /// Kilo-Walk UI string — serversCopy
   ///
   /// In en, this message translates to:
   /// **'Copy'**
   String get serversCopy;
 
-  /// CodeWalk UI string — serversDefault
+  /// Kilo-Walk UI string — serversDefault
   ///
   /// In en, this message translates to:
   /// **'Default'**
   String get serversDefault;
 
-  /// CodeWalk UI string — serversDelete
+  /// Kilo-Walk UI string — serversDelete
   ///
   /// In en, this message translates to:
   /// **'Delete'**
   String get serversDelete;
 
-  /// CodeWalk UI string — serversDeleteServer
+  /// Kilo-Walk UI string — serversDeleteServer
   ///
   /// In en, this message translates to:
   /// **'Delete server'**
   String get serversDeleteServer;
 
-  /// CodeWalk UI string — serversDesktopModeExplanation
+  /// Kilo-Walk UI string — serversDesktopModeExplanation
   ///
   /// In en, this message translates to:
-  /// **'Desktop mode can launch and manage `opencode serve` directly from CodeWalk.'**
+  /// **'Desktop mode can launch and manage `opencode serve` directly from Kilo-Walk.'**
   String get serversDesktopModeExplanation;
 
-  /// CodeWalk UI string — serversEdit
+  /// Kilo-Walk UI string — serversEdit
   ///
   /// In en, this message translates to:
   /// **'Edit'**
   String get serversEdit;
 
-  /// CodeWalk UI string — serversLocalOpenCodeServer
+  /// Kilo-Walk UI string — serversLocalOpenCodeServer
   ///
   /// In en, this message translates to:
   /// **'Local OpenCode Server'**
   String get serversLocalOpenCodeServer;
 
-  /// CodeWalk UI string — serversManagedModeAvailable
+  /// Kilo-Walk UI string — serversManagedModeAvailable
   ///
   /// In en, this message translates to:
   /// **'This managed mode is available only on desktop builds (Linux/macOS/Windows).'**
   String get serversManagedModeAvailable;
 
-  /// CodeWalk UI string — serversNoServersFound
+  /// Kilo-Walk UI string — serversNoServersFound
   ///
   /// In en, this message translates to:
   /// **'No servers found'**
   String get serversNoServersFound;
 
-  /// CodeWalk UI string — serversRefreshHealth
+  /// Kilo-Walk UI string — serversRefreshHealth
   ///
   /// In en, this message translates to:
   /// **'Refresh Health'**
   String get serversRefreshHealth;
 
-  /// CodeWalk UI string — serversRemoveProfileDisplayName
+  /// Kilo-Walk UI string — serversRemoveProfileDisplayName
   ///
   /// In en, this message translates to:
   /// **'Remove \"{displayName}\"?'**
   String serversRemoveProfileDisplayName(String displayName);
 
-  /// CodeWalk UI string — serversSearchActiveHint
+  /// Kilo-Walk UI string — serversSearchActiveHint
   ///
   /// In en, this message translates to:
   /// **'Search active server'**
   String get serversSearchActiveHint;
 
-  /// CodeWalk UI string — serversServersConfigured
+  /// Kilo-Walk UI string — serversServersConfigured
   ///
   /// In en, this message translates to:
   /// **'No servers configured'**
   String get serversServersConfigured;
 
-  /// CodeWalk UI string — serversSetActive
+  /// Kilo-Walk UI string — serversSetActive
   ///
   /// In en, this message translates to:
   /// **'Set Active'**
   String get serversSetActive;
 
-  /// CodeWalk UI string — serversSetDefault
+  /// Kilo-Walk UI string — serversSetDefault
   ///
   /// In en, this message translates to:
   /// **'Set Default'**
   String get serversSetDefault;
 
-  /// CodeWalk UI string — serversSetupDebug
+  /// Kilo-Walk UI string — serversSetupDebug
   ///
   /// In en, this message translates to:
   /// **'Setup Debug'**
   String get serversSetupDebug;
 
-  /// CodeWalk UI string — serversSetupWizard
+  /// Kilo-Walk UI string — serversSetupWizard
   ///
   /// In en, this message translates to:
   /// **'Setup Wizard'**
   String get serversSetupWizard;
 
-  /// CodeWalk UI string — serversTailscaleAdminApprovalRequired
+  /// Kilo-Walk UI string — serversTailscaleAdminApprovalRequired
   ///
   /// In en, this message translates to:
   /// **'Tailscale admin approval required'**
   String get serversTailscaleAdminApprovalRequired;
 
-  /// CodeWalk UI string — serversTailscaleAuthRequired
+  /// Kilo-Walk UI string — serversTailscaleAuthRequired
   ///
   /// In en, this message translates to:
   /// **'Tailscale authentication required'**
   String get serversTailscaleAuthRequired;
 
-  /// CodeWalk UI string — serversTailscaleConnectExplanation
+  /// Kilo-Walk UI string — serversTailscaleConnectExplanation
   ///
   /// In en, this message translates to:
   /// **'Tailscale will connect when this active profile is used.'**
   String get serversTailscaleConnectExplanation;
 
-  /// CodeWalk UI string — serversTailscaleConnected
+  /// Kilo-Walk UI string — serversTailscaleConnected
   ///
   /// In en, this message translates to:
   /// **'Tailscale connected'**
   String get serversTailscaleConnected;
 
-  /// CodeWalk UI string — serversTailscaleConnecting
+  /// Kilo-Walk UI string — serversTailscaleConnecting
   ///
   /// In en, this message translates to:
   /// **'Tailscale connecting'**
   String get serversTailscaleConnecting;
 
-  /// CodeWalk UI string — serversTailscaleConnectionFailed
+  /// Kilo-Walk UI string — serversTailscaleConnectionFailed
   ///
   /// In en, this message translates to:
   /// **'Tailscale connection failed'**
   String get serversTailscaleConnectionFailed;
 
-  /// CodeWalk UI string — serversTailscaleDisconnected
+  /// Kilo-Walk UI string — serversTailscaleDisconnected
   ///
   /// In en, this message translates to:
   /// **'Tailscale disconnected'**
   String get serversTailscaleDisconnected;
 
-  /// CodeWalk UI string — serversTailscaleLoginExplanation
+  /// Kilo-Walk UI string — serversTailscaleLoginExplanation
   ///
   /// In en, this message translates to:
   /// **'Open the Tailscale login URL to add this device to your tailnet.'**
   String get serversTailscaleLoginExplanation;
 
-  /// CodeWalk UI string — serversTailscaleLogout
+  /// Kilo-Walk UI string — serversTailscaleLogout
   ///
   /// In en, this message translates to:
   /// **'Log out'**
   String get serversTailscaleLogout;
 
-  /// CodeWalk UI string — serversTailscaleLogoutConfirmMessage
+  /// Kilo-Walk UI string — serversTailscaleLogoutConfirmMessage
   ///
   /// In en, this message translates to:
   /// **'This device will leave the tailnet. You can log in again at any time.'**
   String get serversTailscaleLogoutConfirmMessage;
 
-  /// CodeWalk UI string — serversTailscaleLogoutConfirmTitle
+  /// Kilo-Walk UI string — serversTailscaleLogoutConfirmTitle
   ///
   /// In en, this message translates to:
   /// **'Log out of Tailscale?'**
   String get serversTailscaleLogoutConfirmTitle;
 
-  /// CodeWalk UI string — serversTailscaleReconnect
+  /// Kilo-Walk UI string — serversTailscaleReconnect
   ///
   /// In en, this message translates to:
   /// **'Reconnect'**
   String get serversTailscaleReconnect;
 
-  /// CodeWalk UI string — serversTailscaleTrafficExplanation
+  /// Kilo-Walk UI string — serversTailscaleTrafficExplanation
   ///
   /// In en, this message translates to:
   /// **'OpenCode traffic for this active profile is routed through Tailscale.'**
   String get serversTailscaleTrafficExplanation;
 
-  /// CodeWalk UI string — serversTailscaleUnsupported
+  /// Kilo-Walk UI string — serversTailscaleUnsupported
   ///
   /// In en, this message translates to:
   /// **'Tailscale unsupported'**
   String get serversTailscaleUnsupported;
 
-  /// CodeWalk UI string — serversUnhealthyActivateError
+  /// Kilo-Walk UI string — serversUnhealthyActivateError
   ///
   /// In en, this message translates to:
   /// **'This server is unhealthy. Use check health or edit settings before activating.'**
   String get serversUnhealthyActivateError;
 
-  /// CodeWalk UI string — sessionActionArchived
+  /// Kilo-Walk UI string — sessionActionArchived
   ///
   /// In en, this message translates to:
   /// **'archived'**
   String get sessionActionArchived;
 
-  /// CodeWalk UI string — sessionActionDeleted
+  /// Kilo-Walk UI string — sessionActionDeleted
   ///
   /// In en, this message translates to:
   /// **'deleted'**
   String get sessionActionDeleted;
 
-  /// CodeWalk UI string — sessionActionForked
+  /// Kilo-Walk UI string — sessionActionForked
   ///
   /// In en, this message translates to:
   /// **'forked'**
   String get sessionActionForked;
 
-  /// CodeWalk UI string — sessionActionPinned
+  /// Kilo-Walk UI string — sessionActionPinned
   ///
   /// In en, this message translates to:
   /// **'pinned'**
   String get sessionActionPinned;
 
-  /// CodeWalk UI string — sessionActionUnarchived
+  /// Kilo-Walk UI string — sessionActionUnarchived
   ///
   /// In en, this message translates to:
   /// **'unarchived'**
   String get sessionActionUnarchived;
 
-  /// CodeWalk UI string — sessionActionUnpinned
+  /// Kilo-Walk UI string — sessionActionUnpinned
   ///
   /// In en, this message translates to:
   /// **'unpinned'**
   String get sessionActionUnpinned;
 
-  /// CodeWalk UI string — sessionArchive
+  /// Kilo-Walk UI string — sessionArchive
   ///
   /// In en, this message translates to:
   /// **'Archive'**
   String get sessionArchive;
 
-  /// CodeWalk UI string — sessionCancelRename
+  /// Kilo-Walk UI string — sessionCancelRename
   ///
   /// In en, this message translates to:
   /// **'Cancel rename'**
   String get sessionCancelRename;
 
-  /// CodeWalk UI string — sessionChildrenCount
+  /// Kilo-Walk UI string — sessionChildrenCount
   ///
   /// In en, this message translates to:
   /// **'Children: {count}'**
   String sessionChildrenCount(int count);
 
-  /// CodeWalk UI string — sessionCompactContext
+  /// Kilo-Walk UI string — sessionCompactContext
   ///
   /// In en, this message translates to:
   /// **'Compact context'**
   String get sessionCompactContext;
 
-  /// CodeWalk UI string — sessionCopyLink
+  /// Kilo-Walk UI string — sessionCopyLink
   ///
   /// In en, this message translates to:
   /// **'Copy Link'**
   String get sessionCopyLink;
 
-  /// CodeWalk UI string — sessionDelete
+  /// Kilo-Walk UI string — sessionDelete
   ///
   /// In en, this message translates to:
   /// **'Delete'**
   String get sessionDelete;
 
-  /// CodeWalk UI string — sessionDeleteConfirm
+  /// Kilo-Walk UI string — sessionDeleteConfirm
   ///
   /// In en, this message translates to:
   /// **'Are you sure you want to delete the conversation \"{title}\"? This action cannot be undone.'**
   String sessionDeleteConfirm(String title);
 
-  /// CodeWalk UI string — sessionDeleteTitle
+  /// Kilo-Walk UI string — sessionDeleteTitle
   ///
   /// In en, this message translates to:
   /// **'Delete Conversation'**
   String get sessionDeleteTitle;
 
-  /// CodeWalk UI string — sessionDiffChangedFile
+  /// Kilo-Walk UI string — sessionDiffChangedFile
   ///
   /// In en, this message translates to:
   /// **'Changed file'**
   String get sessionDiffChangedFile;
 
-  /// CodeWalk UI string — sessionDiffContentNotCaptured
+  /// Kilo-Walk UI string — sessionDiffContentNotCaptured
   ///
   /// In en, this message translates to:
   /// **'File content not captured by the server'**
   String get sessionDiffContentNotCaptured;
 
-  /// CodeWalk UI string — sessionDiffFilesChanged
+  /// Kilo-Walk UI string — sessionDiffFilesChanged
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 file changed} other{{count} files changed}}'**
   String sessionDiffFilesChanged(int count);
 
-  /// CodeWalk UI string — sessionDiffFilesCount
+  /// Kilo-Walk UI string — sessionDiffFilesCount
   ///
   /// In en, this message translates to:
   /// **'Diff files: {count}'**
   String sessionDiffFilesCount(int count);
 
-  /// CodeWalk UI string — sessionDiffLinesAddedRemoved
+  /// Kilo-Walk UI string — sessionDiffLinesAddedRemoved
   ///
   /// In en, this message translates to:
   /// **'+{added} lines added -{removed} lines removed'**
   String sessionDiffLinesAddedRemoved(int added, int removed);
 
-  /// CodeWalk UI string — sessionDiffLinesCollapsed
+  /// Kilo-Walk UI string — sessionDiffLinesCollapsed
   ///
   /// In en, this message translates to:
   /// **'{count} lines collapsed — tap to expand'**
   String sessionDiffLinesCollapsed(int count);
 
-  /// CodeWalk UI string — sessionDiffLoading
+  /// Kilo-Walk UI string — sessionDiffLoading
   ///
   /// In en, this message translates to:
   /// **'Loading changed files…'**
   String get sessionDiffLoading;
 
-  /// CodeWalk UI string — sessionDiffReview
+  /// Kilo-Walk UI string — sessionDiffReview
   ///
   /// In en, this message translates to:
   /// **'Review changes'**
   String get sessionDiffReview;
 
-  /// CodeWalk UI string — sessionDiffSplit
+  /// Kilo-Walk UI string — sessionDiffSplit
   ///
   /// In en, this message translates to:
   /// **'Split'**
   String get sessionDiffSplit;
 
-  /// CodeWalk UI string — sessionDiffSummary
+  /// Kilo-Walk UI string — sessionDiffSummary
   ///
   /// In en, this message translates to:
   /// **'Summary'**
   String get sessionDiffSummary;
 
-  /// CodeWalk UI string — sessionDiffUnified
+  /// Kilo-Walk UI string — sessionDiffUnified
   ///
   /// In en, this message translates to:
   /// **'Unified'**
   String get sessionDiffUnified;
 
-  /// CodeWalk UI string — sessionExportAssistant
+  /// Kilo-Walk UI string — sessionExportAssistant
   ///
   /// In en, this message translates to:
   /// **'Assistant'**
   String get sessionExportAssistant;
 
-  /// CodeWalk UI string — sessionExportCanceled
+  /// Kilo-Walk UI string — sessionExportCanceled
   ///
   /// In en, this message translates to:
   /// **'Session export canceled'**
   String get sessionExportCanceled;
 
-  /// CodeWalk UI string — sessionExportDebugJson
+  /// Kilo-Walk UI string — sessionExportDebugJson
   ///
   /// In en, this message translates to:
   /// **'Export debug JSON'**
   String get sessionExportDebugJson;
 
-  /// CodeWalk UI string — sessionExportDebugJsonErrorClipboard
+  /// Kilo-Walk UI string — sessionExportDebugJsonErrorClipboard
   ///
   /// In en, this message translates to:
   /// **'Could not save file; debug JSON copied to clipboard'**
   String get sessionExportDebugJsonErrorClipboard;
 
-  /// CodeWalk UI string — sessionExportDebugJsonSaved
+  /// Kilo-Walk UI string — sessionExportDebugJsonSaved
   ///
   /// In en, this message translates to:
   /// **'Debug JSON export saved'**
   String get sessionExportDebugJsonSaved;
 
-  /// CodeWalk UI string — sessionExportDebugJsonTitle
+  /// Kilo-Walk UI string — sessionExportDebugJsonTitle
   ///
   /// In en, this message translates to:
   /// **'Export session as debug JSON'**
   String get sessionExportDebugJsonTitle;
 
-  /// CodeWalk UI string — sessionExportError
+  /// Kilo-Walk UI string — sessionExportError
   ///
   /// In en, this message translates to:
   /// **'Error:'**
   String get sessionExportError;
 
-  /// CodeWalk UI string — sessionExportInput
+  /// Kilo-Walk UI string — sessionExportInput
   ///
   /// In en, this message translates to:
   /// **'Input:'**
   String get sessionExportInput;
 
-  /// CodeWalk UI string — sessionExportMarkdown
+  /// Kilo-Walk UI string — sessionExportMarkdown
   ///
   /// In en, this message translates to:
   /// **'Export Markdown'**
   String get sessionExportMarkdown;
 
-  /// CodeWalk UI string — sessionExportMarkdownErrorClipboard
+  /// Kilo-Walk UI string — sessionExportMarkdownErrorClipboard
   ///
   /// In en, this message translates to:
   /// **'Could not save file; Markdown copied to clipboard'**
   String get sessionExportMarkdownErrorClipboard;
 
-  /// CodeWalk UI string — sessionExportMarkdownSaved
+  /// Kilo-Walk UI string — sessionExportMarkdownSaved
   ///
   /// In en, this message translates to:
   /// **'Markdown export saved'**
   String get sessionExportMarkdownSaved;
 
-  /// CodeWalk UI string — sessionExportMarkdownTitle
+  /// Kilo-Walk UI string — sessionExportMarkdownTitle
   ///
   /// In en, this message translates to:
   /// **'Export session as Markdown'**
   String get sessionExportMarkdownTitle;
 
-  /// CodeWalk UI string — sessionExportOutput
+  /// Kilo-Walk UI string — sessionExportOutput
   ///
   /// In en, this message translates to:
   /// **'Output:'**
   String get sessionExportOutput;
 
-  /// CodeWalk UI string — sessionExportUntitled
+  /// Kilo-Walk UI string — sessionExportUntitled
   ///
   /// In en, this message translates to:
   /// **'Untitled session'**
   String get sessionExportUntitled;
 
-  /// CodeWalk UI string — sessionExportUser
+  /// Kilo-Walk UI string — sessionExportUser
   ///
   /// In en, this message translates to:
   /// **'User'**
   String get sessionExportUser;
 
-  /// CodeWalk UI string — sessionFailedRename
+  /// Kilo-Walk UI string — sessionFailedRename
   ///
   /// In en, this message translates to:
   /// **'Failed to rename conversation'**
   String get sessionFailedRename;
 
-  /// CodeWalk UI string — sessionFailedUpdateArchive
+  /// Kilo-Walk UI string — sessionFailedUpdateArchive
   ///
   /// In en, this message translates to:
   /// **'Failed to update archive state'**
   String get sessionFailedUpdateArchive;
 
-  /// CodeWalk UI string — sessionFailedUpdateSharing
+  /// Kilo-Walk UI string — sessionFailedUpdateSharing
   ///
   /// In en, this message translates to:
   /// **'Failed to update sharing state'**
   String get sessionFailedUpdateSharing;
 
-  /// CodeWalk UI string — sessionFork
+  /// Kilo-Walk UI string — sessionFork
   ///
   /// In en, this message translates to:
   /// **'Fork'**
   String get sessionFork;
 
-  /// CodeWalk UI string — sessionForkFailed
+  /// Kilo-Walk UI string — sessionForkFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to fork conversation'**
   String get sessionForkFailed;
 
-  /// CodeWalk UI string — sessionForked
+  /// Kilo-Walk UI string — sessionForked
   ///
   /// In en, this message translates to:
   /// **'Conversation forked'**
   String get sessionForked;
 
-  /// CodeWalk UI string — sessionHasError
+  /// Kilo-Walk UI string — sessionHasError
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" has an error.'**
   String sessionHasError(String title);
 
-  /// CodeWalk UI string — sessionHasNewReply
+  /// Kilo-Walk UI string — sessionHasNewReply
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" has a new reply.'**
   String sessionHasNewReply(String title);
 
-  /// CodeWalk UI string — sessionKeyboardShortcuts
+  /// Kilo-Walk UI string — sessionKeyboardShortcuts
   ///
   /// In en, this message translates to:
   /// **'Keyboard shortcuts'**
   String get sessionKeyboardShortcuts;
 
-  /// CodeWalk UI string — sessionNeedsInput
+  /// Kilo-Walk UI string — sessionNeedsInput
   ///
   /// In en, this message translates to:
   /// **'\"{title}\" needs your input.'**
   String sessionNeedsInput(String title);
 
-  /// CodeWalk UI string — sessionNoCachedConversations
+  /// Kilo-Walk UI string — sessionNoCachedConversations
   ///
   /// In en, this message translates to:
   /// **'No cached conversations yet'**
   String get sessionNoCachedConversations;
 
-  /// CodeWalk UI string — sessionNoConversationsInProject
+  /// Kilo-Walk UI string — sessionNoConversationsInProject
   ///
   /// In en, this message translates to:
   /// **'No conversations in this project.'**
   String get sessionNoConversationsInProject;
 
-  /// CodeWalk UI string — sessionNotAvailable
+  /// Kilo-Walk UI string — sessionNotAvailable
   ///
   /// In en, this message translates to:
   /// **'Conversation is not available for this project yet'**
   String get sessionNotAvailable;
 
-  /// CodeWalk UI string — sessionOpenProjectToLoad
+  /// Kilo-Walk UI string — sessionOpenProjectToLoad
   ///
   /// In en, this message translates to:
   /// **'Open project to load conversations.'**
   String get sessionOpenProjectToLoad;
 
-  /// CodeWalk UI string — sessionPin
+  /// Kilo-Walk UI string — sessionPin
   ///
   /// In en, this message translates to:
   /// **'Pin'**
   String get sessionPin;
 
-  /// CodeWalk UI string — sessionRename
+  /// Kilo-Walk UI string — sessionRename
   ///
   /// In en, this message translates to:
   /// **'Rename'**
   String get sessionRename;
 
-  /// CodeWalk UI string — sessionRenameHint
+  /// Kilo-Walk UI string — sessionRenameHint
   ///
   /// In en, this message translates to:
   /// **'Enter new conversation name'**
   String get sessionRenameHint;
 
-  /// CodeWalk UI string — sessionRenameTitle
+  /// Kilo-Walk UI string — sessionRenameTitle
   ///
   /// In en, this message translates to:
   /// **'Rename Conversation'**
   String get sessionRenameTitle;
 
-  /// CodeWalk UI string — sessionSaveTitle
+  /// Kilo-Walk UI string — sessionSaveTitle
   ///
   /// In en, this message translates to:
   /// **'Save title'**
   String get sessionSaveTitle;
 
-  /// CodeWalk UI string — sessionShare
+  /// Kilo-Walk UI string — sessionShare
   ///
   /// In en, this message translates to:
   /// **'Share session'**
   String get sessionShare;
 
-  /// CodeWalk UI string — sessionShareAction
+  /// Kilo-Walk UI string — sessionShareAction
   ///
   /// In en, this message translates to:
   /// **'Share'**
   String get sessionShareAction;
 
-  /// CodeWalk UI string — sessionShareLinkCopied
+  /// Kilo-Walk UI string — sessionShareLinkCopied
   ///
   /// In en, this message translates to:
   /// **'Share link copied'**
   String get sessionShareLinkCopied;
 
-  /// CodeWalk UI string — sessionShareLinkUnavailable
+  /// Kilo-Walk UI string — sessionShareLinkUnavailable
   ///
   /// In en, this message translates to:
   /// **'Share link unavailable for this session'**
   String get sessionShareLinkUnavailable;
 
-  /// CodeWalk UI string — sessionShared
+  /// Kilo-Walk UI string — sessionShared
   ///
   /// In en, this message translates to:
   /// **'Conversation shared'**
   String get sessionShared;
 
-  /// CodeWalk UI string — sessionSyncing
+  /// Kilo-Walk UI string — sessionSyncing
   ///
   /// In en, this message translates to:
   /// **'Syncing conversations...'**
   String get sessionSyncing;
 
-  /// CodeWalk UI string — sessionTitleHint
+  /// Kilo-Walk UI string — sessionTitleHint
   ///
   /// In en, this message translates to:
   /// **'Conversation title'**
   String get sessionTitleHint;
 
-  /// CodeWalk UI string — sessionUnarchive
+  /// Kilo-Walk UI string — sessionUnarchive
   ///
   /// In en, this message translates to:
   /// **'Unarchive'**
   String get sessionUnarchive;
 
-  /// CodeWalk UI string — sessionUnpin
+  /// Kilo-Walk UI string — sessionUnpin
   ///
   /// In en, this message translates to:
   /// **'Unpin'**
   String get sessionUnpin;
 
-  /// CodeWalk UI string — sessionUnshare
+  /// Kilo-Walk UI string — sessionUnshare
   ///
   /// In en, this message translates to:
   /// **'Unshare session'**
   String get sessionUnshare;
 
-  /// CodeWalk UI string — sessionUnshareAction
+  /// Kilo-Walk UI string — sessionUnshareAction
   ///
   /// In en, this message translates to:
   /// **'Unshare'**
   String get sessionUnshareAction;
 
-  /// CodeWalk UI string — sessionUnshared
+  /// Kilo-Walk UI string — sessionUnshared
   ///
   /// In en, this message translates to:
   /// **'Conversation unshared'**
   String get sessionUnshared;
 
-  /// CodeWalk UI string — sessionViewTasks
+  /// Kilo-Walk UI string — sessionViewTasks
   ///
   /// In en, this message translates to:
   /// **'View tasks'**
   String get sessionViewTasks;
 
-  /// CodeWalk UI string — settingsAboutCheckForUpdates
+  /// Kilo-Walk UI string — settingsAboutCheckForUpdates
   ///
   /// In en, this message translates to:
   /// **'Check for updates'**
   String get settingsAboutCheckForUpdates;
 
-  /// CodeWalk UI string — settingsAboutCheckOnOpen
+  /// Kilo-Walk UI string — settingsAboutCheckOnOpen
   ///
   /// In en, this message translates to:
   /// **'Check for updates on open'**
   String get settingsAboutCheckOnOpen;
 
-  /// CodeWalk UI string — settingsAboutCheckOnOpenDescription
+  /// Kilo-Walk UI string — settingsAboutCheckOnOpenDescription
   ///
   /// In en, this message translates to:
   /// **'Automatically check when the app starts'**
   String get settingsAboutCheckOnOpenDescription;
 
-  /// CodeWalk UI string — settingsAboutChecking
+  /// Kilo-Walk UI string — settingsAboutChecking
   ///
   /// In en, this message translates to:
   /// **'Checking...'**
   String get settingsAboutChecking;
 
-  /// CodeWalk UI string — settingsAboutDescription
+  /// Kilo-Walk UI string — settingsAboutDescription
   ///
   /// In en, this message translates to:
   /// **'Version, updates, help, and app data'**
   String get settingsAboutDescription;
 
-  /// CodeWalk UI string — settingsAboutDismiss
+  /// Kilo-Walk UI string — settingsAboutDismiss
   ///
   /// In en, this message translates to:
   /// **'Dismiss'**
   String get settingsAboutDismiss;
 
-  /// CodeWalk UI string — settingsAboutDownloading
+  /// Kilo-Walk UI string — settingsAboutDownloading
   ///
   /// In en, this message translates to:
   /// **'Downloading... {percent}%'**
   String settingsAboutDownloading(String percent);
 
-  /// CodeWalk UI string — settingsAboutEraseAllData
+  /// Kilo-Walk UI string — settingsAboutEraseAllData
   ///
   /// In en, this message translates to:
   /// **'Erase all data and restart'**
   String get settingsAboutEraseAllData;
 
-  /// CodeWalk UI string — settingsAboutInstallUpdate
+  /// Kilo-Walk UI string — settingsAboutInstallUpdate
   ///
   /// In en, this message translates to:
   /// **'Install update'**
   String get settingsAboutInstallUpdate;
 
-  /// CodeWalk UI string — settingsAboutInstalling
+  /// Kilo-Walk UI string — settingsAboutInstalling
   ///
   /// In en, this message translates to:
   /// **'Installing...'**
   String get settingsAboutInstalling;
 
-  /// CodeWalk UI string — settingsAboutLatestVersion
+  /// Kilo-Walk UI string — settingsAboutLatestVersion
   ///
   /// In en, this message translates to:
   /// **'v{version} is the latest version'**
   String settingsAboutLatestVersion(String version);
 
-  /// CodeWalk UI string — settingsAboutLoading
+  /// Kilo-Walk UI string — settingsAboutLoading
   ///
   /// In en, this message translates to:
   /// **'Loading...'**
   String get settingsAboutLoading;
 
-  /// CodeWalk UI string — settingsAboutReplayChatTour
+  /// Kilo-Walk UI string — settingsAboutReplayChatTour
   ///
   /// In en, this message translates to:
   /// **'Replay chat tour'**
   String get settingsAboutReplayChatTour;
 
-  /// CodeWalk UI string — settingsAboutReplayChatTourDescription
+  /// Kilo-Walk UI string — settingsAboutReplayChatTourDescription
   ///
   /// In en, this message translates to:
   /// **'Close settings and show the guided chat walkthrough'**
   String get settingsAboutReplayChatTourDescription;
 
-  /// CodeWalk UI string — settingsAboutResetApp
+  /// Kilo-Walk UI string — settingsAboutResetApp
   ///
   /// In en, this message translates to:
   /// **'Reset app'**
   String get settingsAboutResetApp;
 
-  /// CodeWalk UI string — settingsAboutResetAppQuestion
+  /// Kilo-Walk UI string — settingsAboutResetAppQuestion
   ///
   /// In en, this message translates to:
   /// **'Reset app?'**
   String get settingsAboutResetAppQuestion;
 
-  /// CodeWalk UI string — settingsAboutResetAppWarning
+  /// Kilo-Walk UI string — settingsAboutResetAppWarning
   ///
   /// In en, this message translates to:
   /// **'This will erase all servers, settings, and cached data. This action cannot be undone.'**
   String get settingsAboutResetAppWarning;
 
-  /// CodeWalk UI string — settingsAboutRetryInstall
+  /// Kilo-Walk UI string — settingsAboutRetryInstall
   ///
   /// In en, this message translates to:
   /// **'Retry install'**
   String get settingsAboutRetryInstall;
 
-  /// CodeWalk UI string — settingsAboutTapToCheck
+  /// Kilo-Walk UI string — settingsAboutTapToCheck
   ///
   /// In en, this message translates to:
   /// **'Tap to check for new versions'**
   String get settingsAboutTapToCheck;
 
-  /// CodeWalk UI string — settingsAboutTitle
+  /// Kilo-Walk UI string — settingsAboutTitle
   ///
   /// In en, this message translates to:
   /// **'About'**
   String get settingsAboutTitle;
 
-  /// CodeWalk UI string — settingsAboutUpToDate
+  /// Kilo-Walk UI string — settingsAboutUpToDate
   ///
   /// In en, this message translates to:
   /// **'You\'\'re up to date'**
   String get settingsAboutUpToDate;
 
-  /// CodeWalk UI string — settingsAboutUpdateAvailable
+  /// Kilo-Walk UI string — settingsAboutUpdateAvailable
   ///
   /// In en, this message translates to:
   /// **'Update available: v{version}'**
   String settingsAboutUpdateAvailable(String version);
 
-  /// CodeWalk UI string — settingsAboutUpdateInstalled
+  /// Kilo-Walk UI string — settingsAboutUpdateInstalled
   ///
   /// In en, this message translates to:
   /// **'Update installed. Restart the app to apply.'**
   String get settingsAboutUpdateInstalled;
 
-  /// CodeWalk UI string — settingsAboutUpdateVersionSummary
+  /// Kilo-Walk UI string — settingsAboutUpdateVersionSummary
   ///
   /// In en, this message translates to:
   /// **'Current: {installedVersion}; available: v{latestVersion}'**
@@ -5876,3001 +5876,3001 @@ abstract class AppLocalizations {
     String latestVersion,
   );
 
-  /// CodeWalk UI string — settingsAboutVersion
+  /// Kilo-Walk UI string — settingsAboutVersion
   ///
   /// In en, this message translates to:
   /// **'Version'**
   String get settingsAboutVersion;
 
-  /// CodeWalk UI string — settingsAboutVersionBuild
+  /// Kilo-Walk UI string — settingsAboutVersionBuild
   ///
   /// In en, this message translates to:
   /// **'{version} (build {buildNumber})'**
   String settingsAboutVersionBuild(String buildNumber, String version);
 
-  /// CodeWalk UI string — settingsAppearanceAmoledDark
+  /// Kilo-Walk UI string — settingsAppearanceAmoledDark
   ///
   /// In en, this message translates to:
   /// **'AMOLED dark mode'**
   String get settingsAppearanceAmoledDark;
 
-  /// CodeWalk UI string — settingsAppearanceAmoledDarkActive
+  /// Kilo-Walk UI string — settingsAppearanceAmoledDarkActive
   ///
   /// In en, this message translates to:
   /// **'Use pure black surfaces while dark mode is active.'**
   String get settingsAppearanceAmoledDarkActive;
 
-  /// CodeWalk UI string — settingsAppearanceAmoledDarkInactive
+  /// Kilo-Walk UI string — settingsAppearanceAmoledDarkInactive
   ///
   /// In en, this message translates to:
   /// **'Switch to dark mode to enable AMOLED surfaces.'**
   String get settingsAppearanceAmoledDarkInactive;
 
-  /// CodeWalk UI string — settingsAppearanceBrandColor
+  /// Kilo-Walk UI string — settingsAppearanceBrandColor
   ///
   /// In en, this message translates to:
   /// **'Brand color'**
   String get settingsAppearanceBrandColor;
 
-  /// CodeWalk UI string — settingsAppearanceBrandColorDynamicBlocked
+  /// Kilo-Walk UI string — settingsAppearanceBrandColorDynamicBlocked
   ///
   /// In en, this message translates to:
   /// **'Disable wallpaper colors to pick a brand color.'**
   String get settingsAppearanceBrandColorDynamicBlocked;
 
-  /// CodeWalk UI string — settingsAppearanceBrandColorNormal
+  /// Kilo-Walk UI string — settingsAppearanceBrandColorNormal
   ///
   /// In en, this message translates to:
   /// **'Pick a seed color for the app palette.'**
   String get settingsAppearanceBrandColorNormal;
 
-  /// CodeWalk UI string — settingsAppearanceBrandColorPresetBlocked
+  /// Kilo-Walk UI string — settingsAppearanceBrandColorPresetBlocked
   ///
   /// In en, this message translates to:
-  /// **'Switch to CodeWalk Classic to pick a brand color.'**
+  /// **'Switch to Kilo-Walk Classic to pick a brand color.'**
   String get settingsAppearanceBrandColorPresetBlocked;
 
-  /// CodeWalk UI string — settingsAppearanceChatFontScale
+  /// Kilo-Walk UI string — settingsAppearanceChatFontScale
   ///
   /// In en, this message translates to:
   /// **'Conversation text size'**
   String get settingsAppearanceChatFontScale;
 
-  /// CodeWalk UI string — settingsAppearanceChatFontScaleDescription
+  /// Kilo-Walk UI string — settingsAppearanceChatFontScaleDescription
   ///
   /// In en, this message translates to:
   /// **'Scale the chat message and composer text on top of the system text size.'**
   String get settingsAppearanceChatFontScaleDescription;
 
-  /// CodeWalk UI string — settingsAppearanceCodeWalkClassic
+  /// Kilo-Walk UI string — settingsAppearanceKilo-WalkClassic
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk Classic'**
+  /// **'Kilo-Walk Classic'**
   String get settingsAppearanceCodeWalkClassic;
 
-  /// CodeWalk UI string — settingsAppearanceComposerTips
+  /// Kilo-Walk UI string — settingsAppearanceComposerTips
   ///
   /// In en, this message translates to:
   /// **'Composer tips'**
   String get settingsAppearanceComposerTips;
 
-  /// CodeWalk UI string — settingsAppearanceComposerTipsDescription
+  /// Kilo-Walk UI string — settingsAppearanceComposerTipsDescription
   ///
   /// In en, this message translates to:
   /// **'Show or hide rotating tips while the assistant is reasoning.'**
   String get settingsAppearanceComposerTipsDescription;
 
-  /// CodeWalk UI string — settingsAppearanceContrast
+  /// Kilo-Walk UI string — settingsAppearanceContrast
   ///
   /// In en, this message translates to:
   /// **'Contrast'**
   String get settingsAppearanceContrast;
 
-  /// CodeWalk UI string — settingsAppearanceContrastDynamicBlocked
+  /// Kilo-Walk UI string — settingsAppearanceContrastDynamicBlocked
   ///
   /// In en, this message translates to:
   /// **'Disable wallpaper colors to adjust contrast.'**
   String get settingsAppearanceContrastDynamicBlocked;
 
-  /// CodeWalk UI string — settingsAppearanceContrastHigh
+  /// Kilo-Walk UI string — settingsAppearanceContrastHigh
   ///
   /// In en, this message translates to:
   /// **'High'**
   String get settingsAppearanceContrastHigh;
 
-  /// CodeWalk UI string — settingsAppearanceContrastNormal
+  /// Kilo-Walk UI string — settingsAppearanceContrastNormal
   ///
   /// In en, this message translates to:
   /// **'Adjust the contrast level of the color scheme.'**
   String get settingsAppearanceContrastNormal;
 
-  /// CodeWalk UI string — settingsAppearanceContrastPresetBlocked
+  /// Kilo-Walk UI string — settingsAppearanceContrastPresetBlocked
   ///
   /// In en, this message translates to:
-  /// **'Switch to CodeWalk Classic to adjust contrast.'**
+  /// **'Switch to Kilo-Walk Classic to adjust contrast.'**
   String get settingsAppearanceContrastPresetBlocked;
 
-  /// CodeWalk UI string — settingsAppearanceContrastReduced
+  /// Kilo-Walk UI string — settingsAppearanceContrastReduced
   ///
   /// In en, this message translates to:
   /// **'Reduced'**
   String get settingsAppearanceContrastReduced;
 
-  /// CodeWalk UI string — settingsAppearanceDark
+  /// Kilo-Walk UI string — settingsAppearanceDark
   ///
   /// In en, this message translates to:
   /// **'Dark'**
   String get settingsAppearanceDark;
 
-  /// CodeWalk UI string — settingsAppearanceDensity
+  /// Kilo-Walk UI string — settingsAppearanceDensity
   ///
   /// In en, this message translates to:
   /// **'Density'**
   String get settingsAppearanceDensity;
 
-  /// CodeWalk UI string — settingsAppearanceDensityDense
+  /// Kilo-Walk UI string — settingsAppearanceDensityDense
   ///
   /// In en, this message translates to:
   /// **'Dense'**
   String get settingsAppearanceDensityDense;
 
-  /// CodeWalk UI string — settingsAppearanceDensityDescription
+  /// Kilo-Walk UI string — settingsAppearanceDensityDescription
   ///
   /// In en, this message translates to:
   /// **'Apply spacing and component density across the app.'**
   String get settingsAppearanceDensityDescription;
 
-  /// CodeWalk UI string — settingsAppearanceDensityExtraDense
+  /// Kilo-Walk UI string — settingsAppearanceDensityExtraDense
   ///
   /// In en, this message translates to:
   /// **'Extra Dense'**
   String get settingsAppearanceDensityExtraDense;
 
-  /// CodeWalk UI string — settingsAppearanceDensityExtraSpacious
+  /// Kilo-Walk UI string — settingsAppearanceDensityExtraSpacious
   ///
   /// In en, this message translates to:
   /// **'Extra Spacious'**
   String get settingsAppearanceDensityExtraSpacious;
 
-  /// CodeWalk UI string — settingsAppearanceDensityNormal
+  /// Kilo-Walk UI string — settingsAppearanceDensityNormal
   ///
   /// In en, this message translates to:
   /// **'Normal'**
   String get settingsAppearanceDensityNormal;
 
-  /// CodeWalk UI string — settingsAppearanceDensitySpacious
+  /// Kilo-Walk UI string — settingsAppearanceDensitySpacious
   ///
   /// In en, this message translates to:
   /// **'Spacious'**
   String get settingsAppearanceDensitySpacious;
 
-  /// CodeWalk UI string — settingsAppearanceDescription
+  /// Kilo-Walk UI string — settingsAppearanceDescription
   ///
   /// In en, this message translates to:
   /// **'Choose themes, colors, text size, and chat display'**
   String get settingsAppearanceDescription;
 
-  /// CodeWalk UI string — settingsAppearanceFontSize
+  /// Kilo-Walk UI string — settingsAppearanceFontSize
   ///
   /// In en, this message translates to:
   /// **'Text size'**
   String get settingsAppearanceFontSize;
 
-  /// CodeWalk UI string — settingsAppearanceFontSizeDescription
+  /// Kilo-Walk UI string — settingsAppearanceFontSizeDescription
   ///
   /// In en, this message translates to:
   /// **'Adjust the size of system text, conversation text, and terminal text.'**
   String get settingsAppearanceFontSizeDescription;
 
-  /// CodeWalk UI string — settingsAppearanceLight
+  /// Kilo-Walk UI string — settingsAppearanceLight
   ///
   /// In en, this message translates to:
   /// **'Light'**
   String get settingsAppearanceLight;
 
-  /// CodeWalk UI string — settingsAppearanceMathRendering
+  /// Kilo-Walk UI string — settingsAppearanceMathRendering
   ///
   /// In en, this message translates to:
   /// **'Math rendering'**
   String get settingsAppearanceMathRendering;
 
-  /// CodeWalk UI string — settingsAppearanceMathRenderingDescription
+  /// Kilo-Walk UI string — settingsAppearanceMathRenderingDescription
   ///
   /// In en, this message translates to:
   /// **'Render LaTeX math expressions (\$…\$ and \$\$…\$\$) as typeset equations in chat messages.'**
   String get settingsAppearanceMathRenderingDescription;
 
-  /// CodeWalk UI string — settingsAppearanceNoPresets
+  /// Kilo-Walk UI string — settingsAppearanceNoPresets
   ///
   /// In en, this message translates to:
   /// **'No preset palettes found'**
   String get settingsAppearanceNoPresets;
 
-  /// CodeWalk UI string — settingsAppearanceOpenCodePresets
+  /// Kilo-Walk UI string — settingsAppearanceOpenCodePresets
   ///
   /// In en, this message translates to:
   /// **'OpenCode Presets'**
   String get settingsAppearanceOpenCodePresets;
 
-  /// CodeWalk UI string — settingsAppearancePresetHelper
+  /// Kilo-Walk UI string — settingsAppearancePresetHelper
   ///
   /// In en, this message translates to:
   /// **'Mirrors the official OpenCode Web built-in theme list.'**
   String get settingsAppearancePresetHelper;
 
-  /// CodeWalk UI string — settingsAppearancePresetNote
+  /// Kilo-Walk UI string — settingsAppearancePresetNote
   ///
   /// In en, this message translates to:
   /// **'Theme colors now follow the official OpenCode Web registry and drive markdown/code surfaces too.'**
   String get settingsAppearancePresetNote;
 
-  /// CodeWalk UI string — settingsAppearancePresetPalette
+  /// Kilo-Walk UI string — settingsAppearancePresetPalette
   ///
   /// In en, this message translates to:
   /// **'Preset palette'**
   String get settingsAppearancePresetPalette;
 
-  /// CodeWalk UI string — settingsAppearanceSearchPreset
+  /// Kilo-Walk UI string — settingsAppearanceSearchPreset
   ///
   /// In en, this message translates to:
   /// **'Search preset palette'**
   String get settingsAppearanceSearchPreset;
 
-  /// CodeWalk UI string — settingsAppearanceSectionDescription
+  /// Kilo-Walk UI string — settingsAppearanceSectionDescription
   ///
   /// In en, this message translates to:
   /// **'Tune visual density and message surfaces for your workflow.'**
   String get settingsAppearanceSectionDescription;
 
-  /// CodeWalk UI string — settingsAppearanceSectionTitle
+  /// Kilo-Walk UI string — settingsAppearanceSectionTitle
   ///
   /// In en, this message translates to:
   /// **'Appearance'**
   String get settingsAppearanceSectionTitle;
 
-  /// CodeWalk UI string — settingsAppearanceSystem
+  /// Kilo-Walk UI string — settingsAppearanceSystem
   ///
   /// In en, this message translates to:
   /// **'System'**
   String get settingsAppearanceSystem;
 
-  /// CodeWalk UI string — settingsAppearanceSystemFontScale
+  /// Kilo-Walk UI string — settingsAppearanceSystemFontScale
   ///
   /// In en, this message translates to:
   /// **'System text size'**
   String get settingsAppearanceSystemFontScale;
 
-  /// CodeWalk UI string — settingsAppearanceSystemFontScaleDescription
+  /// Kilo-Walk UI string — settingsAppearanceSystemFontScaleDescription
   ///
   /// In en, this message translates to:
   /// **'Scale all text in the app shell, including menus, dialogs, and sidebars.'**
   String get settingsAppearanceSystemFontScaleDescription;
 
-  /// CodeWalk UI string — settingsAppearanceTaskList
+  /// Kilo-Walk UI string — settingsAppearanceTaskList
   ///
   /// In en, this message translates to:
   /// **'Task list'**
   String get settingsAppearanceTaskList;
 
-  /// CodeWalk UI string — settingsAppearanceTaskListDescription
+  /// Kilo-Walk UI string — settingsAppearanceTaskListDescription
   ///
   /// In en, this message translates to:
   /// **'Show or hide the session task list widget.'**
   String get settingsAppearanceTaskListDescription;
 
-  /// CodeWalk UI string — settingsAppearanceTerminalFontSize
+  /// Kilo-Walk UI string — settingsAppearanceTerminalFontSize
   ///
   /// In en, this message translates to:
   /// **'Terminal text size'**
   String get settingsAppearanceTerminalFontSize;
 
-  /// CodeWalk UI string — settingsAppearanceTerminalFontSizeDescription
+  /// Kilo-Walk UI string — settingsAppearanceTerminalFontSizeDescription
   ///
   /// In en, this message translates to:
   /// **'Resize the embedded terminal font. Applies immediately to running sessions.'**
   String get settingsAppearanceTerminalFontSizeDescription;
 
-  /// CodeWalk UI string — settingsAppearanceTheme
+  /// Kilo-Walk UI string — settingsAppearanceTheme
   ///
   /// In en, this message translates to:
   /// **'Theme'**
   String get settingsAppearanceTheme;
 
-  /// CodeWalk UI string — settingsAppearanceThemeDescription
+  /// Kilo-Walk UI string — settingsAppearanceThemeDescription
   ///
   /// In en, this message translates to:
-  /// **'Choose light, dark, or system mode, then keep the CodeWalk classic palette or switch to an OpenCode preset.'**
+  /// **'Choose light, dark, or system mode, then keep the Kilo-Walk classic palette or switch to an OpenCode preset.'**
   String get settingsAppearanceThemeDescription;
 
-  /// CodeWalk UI string — settingsAppearanceVisualStyle
+  /// Kilo-Walk UI string — settingsAppearanceVisualStyle
   ///
   /// In en, this message translates to:
   /// **'Visual style'**
   String get settingsAppearanceVisualStyle;
 
-  /// CodeWalk UI string — settingsAppearanceVisualStyleDescription
+  /// Kilo-Walk UI string — settingsAppearanceVisualStyleDescription
   ///
   /// In en, this message translates to:
   /// **'Choose Classic or softer Refined surfaces.'**
   String get settingsAppearanceVisualStyleDescription;
 
-  /// CodeWalk UI string — settingsAppearanceVisualStyleClassic
+  /// Kilo-Walk UI string — settingsAppearanceVisualStyleClassic
   ///
   /// In en, this message translates to:
   /// **'Classic'**
   String get settingsAppearanceVisualStyleClassic;
 
-  /// CodeWalk UI string — settingsAppearanceVisualStyleRefined
+  /// Kilo-Walk UI string — settingsAppearanceVisualStyleRefined
   ///
   /// In en, this message translates to:
   /// **'Refined'**
   String get settingsAppearanceVisualStyleRefined;
 
-  /// CodeWalk UI string — settingsAppearanceThinkingBubbles
+  /// Kilo-Walk UI string — settingsAppearanceThinkingBubbles
   ///
   /// In en, this message translates to:
   /// **'Thinking bubbles'**
   String get settingsAppearanceThinkingBubbles;
 
-  /// CodeWalk UI string — settingsAppearanceThinkingBubblesDescription
+  /// Kilo-Walk UI string — settingsAppearanceThinkingBubblesDescription
   ///
   /// In en, this message translates to:
   /// **'Show or hide reasoning blocks in assistant messages.'**
   String get settingsAppearanceThinkingBubblesDescription;
 
-  /// CodeWalk UI string — settingsAppearanceTitle
+  /// Kilo-Walk UI string — settingsAppearanceTitle
   ///
   /// In en, this message translates to:
   /// **'Appearance'**
   String get settingsAppearanceTitle;
 
-  /// CodeWalk UI string — settingsAppearanceToolCallBubbles
+  /// Kilo-Walk UI string — settingsAppearanceToolCallBubbles
   ///
   /// In en, this message translates to:
   /// **'Tool call bubbles'**
   String get settingsAppearanceToolCallBubbles;
 
-  /// CodeWalk UI string — settingsAppearanceToolCallBubblesDescription
+  /// Kilo-Walk UI string — settingsAppearanceToolCallBubblesDescription
   ///
   /// In en, this message translates to:
   /// **'Show or hide tool execution cards in assistant messages.'**
   String get settingsAppearanceToolCallBubblesDescription;
 
-  /// CodeWalk UI string — settingsAppearanceWallpaperColors
+  /// Kilo-Walk UI string — settingsAppearanceWallpaperColors
   ///
   /// In en, this message translates to:
   /// **'Use wallpaper colors'**
   String get settingsAppearanceWallpaperColors;
 
-  /// CodeWalk UI string — settingsAppearanceWallpaperNormal
+  /// Kilo-Walk UI string — settingsAppearanceWallpaperNormal
   ///
   /// In en, this message translates to:
   /// **'Extract color scheme from your device wallpaper.'**
   String get settingsAppearanceWallpaperNormal;
 
-  /// CodeWalk UI string — settingsAppearanceWallpaperPresetBlocked
+  /// Kilo-Walk UI string — settingsAppearanceWallpaperPresetBlocked
   ///
   /// In en, this message translates to:
-  /// **'Switch to CodeWalk Classic to use wallpaper colors.'**
+  /// **'Switch to Kilo-Walk Classic to use wallpaper colors.'**
   String get settingsAppearanceWallpaperPresetBlocked;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChrome
+  /// Kilo-Walk UI string — settingsAppearanceWindowChrome
   ///
   /// In en, this message translates to:
   /// **'Window tabs'**
   String get settingsAppearanceWindowChrome;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChromeDescription
+  /// Kilo-Walk UI string — settingsAppearanceWindowChromeDescription
   ///
   /// In en, this message translates to:
   /// **'Choose how session tabs and the window title bar are combined on desktop.'**
   String get settingsAppearanceWindowChromeDescription;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChromeIntegrated
+  /// Kilo-Walk UI string — settingsAppearanceWindowChromeIntegrated
   ///
   /// In en, this message translates to:
   /// **'Integrated tabs'**
   String get settingsAppearanceWindowChromeIntegrated;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChromeIntegratedDescription
+  /// Kilo-Walk UI string — settingsAppearanceWindowChromeIntegratedDescription
   ///
   /// In en, this message translates to:
   /// **'Tabs sit at the top of the window and the system title bar is hidden.'**
   String get settingsAppearanceWindowChromeIntegratedDescription;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChromeSystem
+  /// Kilo-Walk UI string — settingsAppearanceWindowChromeSystem
   ///
   /// In en, this message translates to:
   /// **'System decoration'**
   String get settingsAppearanceWindowChromeSystem;
 
-  /// CodeWalk UI string — settingsAppearanceWindowChromeSystemDescription
+  /// Kilo-Walk UI string — settingsAppearanceWindowChromeSystemDescription
   ///
   /// In en, this message translates to:
   /// **'Keep the native title bar and show tabs below the app bar.'**
   String get settingsAppearanceWindowChromeSystemDescription;
 
-  /// CodeWalk UI string — settingsBack
+  /// Kilo-Walk UI string — settingsBack
   ///
   /// In en, this message translates to:
   /// **'Back'**
   String get settingsBack;
 
-  /// CodeWalk UI string — settingsBehaviorAutoupdateCaveat
+  /// Kilo-Walk UI string — settingsBehaviorAutoupdateCaveat
   ///
   /// In en, this message translates to:
-  /// **'Use About for CodeWalk release checks. This setting only mirrors the official OpenCode `autoupdate` config.'**
+  /// **'Use About for Kilo-Walk release checks. This setting only mirrors the official OpenCode `autoupdate` config.'**
   String get settingsBehaviorAutoupdateCaveat;
 
-  /// CodeWalk UI string — settingsBehaviorAutoupdateHelp
+  /// Kilo-Walk UI string — settingsBehaviorAutoupdateHelp
   ///
   /// In en, this message translates to:
-  /// **'Controls upstream OpenCode runtime updates, not CodeWalk app update checks.'**
+  /// **'Controls upstream OpenCode runtime updates, not Kilo-Walk app update checks.'**
   String get settingsBehaviorAutoupdateHelp;
 
-  /// CodeWalk UI string — settingsBehaviorCellularDataSaver
+  /// Kilo-Walk UI string — settingsBehaviorCellularDataSaver
   ///
   /// In en, this message translates to:
   /// **'Cellular data saver'**
   String get settingsBehaviorCellularDataSaver;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderMode
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderMode
   ///
   /// In en, this message translates to:
   /// **'Chat render mode'**
   String get settingsBehaviorChatRenderMode;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderModeBlock
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderModeBlock
   ///
   /// In en, this message translates to:
   /// **'Block'**
   String get settingsBehaviorChatRenderModeBlock;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderModeBlockDescription
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderModeBlockDescription
   ///
   /// In en, this message translates to:
   /// **'Hide live assistant text, reasoning, and tool cards until the current turn can be shown as one block.'**
   String get settingsBehaviorChatRenderModeBlockDescription;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderModeDescription
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderModeDescription
   ///
   /// In en, this message translates to:
   /// **'Choose whether assistant responses appear as they stream or reveal after the current turn settles.'**
   String get settingsBehaviorChatRenderModeDescription;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderModeLive
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderModeLive
   ///
   /// In en, this message translates to:
   /// **'Live'**
   String get settingsBehaviorChatRenderModeLive;
 
-  /// CodeWalk UI string — settingsBehaviorChatRenderModeLiveDescription
+  /// Kilo-Walk UI string — settingsBehaviorChatRenderModeLiveDescription
   ///
   /// In en, this message translates to:
   /// **'Show assistant text, reasoning, and tool activity as OpenCode streams events.'**
   String get settingsBehaviorChatRenderModeLiveDescription;
 
-  /// CodeWalk UI string — settingsBehaviorComposerSpellCheck
+  /// Kilo-Walk UI string — settingsBehaviorComposerSpellCheck
   ///
   /// In en, this message translates to:
   /// **'Composer spell check'**
   String get settingsBehaviorComposerSpellCheck;
 
-  /// CodeWalk UI string — settingsBehaviorComposerSpellCheckDescription
+  /// Kilo-Walk UI string — settingsBehaviorComposerSpellCheckDescription
   ///
   /// In en, this message translates to:
   /// **'Use native platform spell check, suggestions, and autocorrect in the chat composer.'**
   String get settingsBehaviorComposerSpellCheckDescription;
 
-  /// CodeWalk UI string — settingsBehaviorConfigDeferred
+  /// Kilo-Walk UI string — settingsBehaviorConfigDeferred
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk will apply this OpenCode setting after the current response finishes.'**
+  /// **'Kilo-Walk will apply this OpenCode setting after the current response finishes.'**
   String get settingsBehaviorConfigDeferred;
 
-  /// CodeWalk UI string — settingsBehaviorConfigUpdateFailed
+  /// Kilo-Walk UI string — settingsBehaviorConfigUpdateFailed
   ///
   /// In en, this message translates to:
   /// **'Could not update the OpenCode {field}.'**
   String settingsBehaviorConfigUpdateFailed(String field);
 
-  /// CodeWalk UI string — settingsBehaviorConversationUsername
+  /// Kilo-Walk UI string — settingsBehaviorConversationUsername
   ///
   /// In en, this message translates to:
   /// **'Conversation username'**
   String get settingsBehaviorConversationUsername;
 
-  /// CodeWalk UI string — settingsBehaviorConversationUsernameHelp
+  /// Kilo-Walk UI string — settingsBehaviorConversationUsernameHelp
   ///
   /// In en, this message translates to:
   /// **'Custom display name shown in conversations instead of the system username.'**
   String get settingsBehaviorConversationUsernameHelp;
 
-  /// CodeWalk UI string — settingsBehaviorDataSaverActive
+  /// Kilo-Walk UI string — settingsBehaviorDataSaverActive
   ///
   /// In en, this message translates to:
   /// **'Active now on mobile data.'**
   String get settingsBehaviorDataSaverActive;
 
-  /// CodeWalk UI string — settingsBehaviorDataSaverCellularOnly
+  /// Kilo-Walk UI string — settingsBehaviorDataSaverCellularOnly
   ///
   /// In en, this message translates to:
   /// **'Only applies when the connection is cellular/mobile.'**
   String get settingsBehaviorDataSaverCellularOnly;
 
-  /// CodeWalk UI string — settingsBehaviorDataSaverDescription
+  /// Kilo-Walk UI string — settingsBehaviorDataSaverDescription
   ///
   /// In en, this message translates to:
   /// **'Cuts automatic mobile-data usage by stopping background downloads and throttling automatic foreground refreshes.'**
   String get settingsBehaviorDataSaverDescription;
 
-  /// CodeWalk UI string — settingsBehaviorDataSaverWaiting
+  /// Kilo-Walk UI string — settingsBehaviorDataSaverWaiting
   ///
   /// In en, this message translates to:
   /// **'Waiting for the next mobile-data sync window.'**
   String get settingsBehaviorDataSaverWaiting;
 
-  /// CodeWalk UI string — settingsBehaviorDefaultAgent
+  /// Kilo-Walk UI string — settingsBehaviorDefaultAgent
   ///
   /// In en, this message translates to:
   /// **'Default agent'**
   String get settingsBehaviorDefaultAgent;
 
-  /// CodeWalk UI string — settingsBehaviorDefaultAgentHelp
+  /// Kilo-Walk UI string — settingsBehaviorDefaultAgentHelp
   ///
   /// In en, this message translates to:
   /// **'Primary agent used when no agent is explicitly chosen.'**
   String get settingsBehaviorDefaultAgentHelp;
 
-  /// CodeWalk UI string — settingsBehaviorDefaultModel
+  /// Kilo-Walk UI string — settingsBehaviorDefaultModel
   ///
   /// In en, this message translates to:
   /// **'Default model'**
   String get settingsBehaviorDefaultModel;
 
-  /// CodeWalk UI string — settingsBehaviorDefaultModelHelp
+  /// Kilo-Walk UI string — settingsBehaviorDefaultModelHelp
   ///
   /// In en, this message translates to:
   /// **'Shared across OpenCode clients through config.'**
   String get settingsBehaviorDefaultModelHelp;
 
-  /// CodeWalk UI string — settingsBehaviorDescription
+  /// Kilo-Walk UI string — settingsBehaviorDescription
   ///
   /// In en, this message translates to:
   /// **'Control language, chat behavior, data use, and OpenCode defaults'**
   String get settingsBehaviorDescription;
 
-  /// CodeWalk UI string — settingsBehaviorEnableDataSaver
+  /// Kilo-Walk UI string — settingsBehaviorEnableDataSaver
   ///
   /// In en, this message translates to:
   /// **'Enable cellular data saver'**
   String get settingsBehaviorEnableDataSaver;
 
-  /// CodeWalk UI string — settingsBehaviorMultiDeviceSync
+  /// Kilo-Walk UI string — settingsBehaviorMultiDeviceSync
   ///
   /// In en, this message translates to:
   /// **'Enable experimental multi-device sync'**
   String get settingsBehaviorMultiDeviceSync;
 
-  /// CodeWalk UI string — settingsBehaviorMultiDeviceSyncDescription
+  /// Kilo-Walk UI string — settingsBehaviorMultiDeviceSyncDescription
   ///
   /// In en, this message translates to:
   /// **'Sync composer selection (agent/model/variant) with the active server config.'**
   String get settingsBehaviorMultiDeviceSyncDescription;
 
-  /// CodeWalk UI string — settingsBehaviorMultiDeviceSyncWarning
+  /// Kilo-Walk UI string — settingsBehaviorMultiDeviceSyncWarning
   ///
   /// In en, this message translates to:
   /// **'Can abort ongoing sessions when working in more than one session at the same time.'**
   String get settingsBehaviorMultiDeviceSyncWarning;
 
-  /// CodeWalk UI string — settingsBehaviorNoAgents
+  /// Kilo-Walk UI string — settingsBehaviorNoAgents
   ///
   /// In en, this message translates to:
   /// **'No agents found'**
   String get settingsBehaviorNoAgents;
 
-  /// CodeWalk UI string — settingsBehaviorNoModels
+  /// Kilo-Walk UI string — settingsBehaviorNoModels
   ///
   /// In en, this message translates to:
   /// **'No models found'**
   String get settingsBehaviorNoModels;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeAutoupdate
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeAutoupdate
   ///
   /// In en, this message translates to:
   /// **'OpenCode auto-update'**
   String get settingsBehaviorOpenCodeAutoupdate;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeDefaults
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeDefaults
   ///
   /// In en, this message translates to:
   /// **'OpenCode-backed defaults'**
   String get settingsBehaviorOpenCodeDefaults;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeDefaultsDescription
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsDescription
   ///
   /// In en, this message translates to:
   /// **'These values write to `/config` on the active server and match official OpenCode shared config.'**
   String get settingsBehaviorOpenCodeDefaultsDescription;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeSnapshots
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeSnapshots
   ///
   /// In en, this message translates to:
   /// **'OpenCode snapshots'**
   String get settingsBehaviorOpenCodeSnapshots;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeSnapshotsDescription
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeSnapshotsDescription
   ///
   /// In en, this message translates to:
   /// **'Keep upstream git-backed snapshots enabled for undo/redo and recovery history.'**
   String get settingsBehaviorOpenCodeSnapshotsDescription;
 
-  /// CodeWalk UI string — settingsBehaviorPermissionDeferred
+  /// Kilo-Walk UI string — settingsBehaviorPermissionDeferred
   ///
   /// In en, this message translates to:
   /// **'Advanced permission rule editing stays out of Settings for now and is deferred to later parity work.'**
   String get settingsBehaviorPermissionDeferred;
 
-  /// CodeWalk UI string — settingsBehaviorPermissionProvenance
+  /// Kilo-Walk UI string — settingsBehaviorPermissionProvenance
   ///
   /// In en, this message translates to:
   /// **'Permission handling provenance'**
   String get settingsBehaviorPermissionProvenance;
 
-  /// CodeWalk UI string — settingsBehaviorPermissionProvenanceDescription
+  /// Kilo-Walk UI string — settingsBehaviorPermissionProvenanceDescription
   ///
   /// In en, this message translates to:
-  /// **'Official OpenCode permission policy is configured in `opencode.json` with allow/ask/deny rules per tool. CodeWalk keeps the official permission-request cards and adds one approved ADR-023 exception: the composer auto-approve toggle replies with `Always` and `remember: true` unconditionally to create durable session-scoped grants, and keeps the same thread-scoped continuity path active in the Android background worker.'**
+  /// **'Official OpenCode permission policy is configured in `opencode.json` with allow/ask/deny rules per tool. Kilo-Walk keeps the official permission-request cards and adds one approved ADR-023 exception: the composer auto-approve toggle replies with `Always` and `remember: true` unconditionally to create durable session-scoped grants, and keeps the same thread-scoped continuity path active in the Android background worker.'**
   String get settingsBehaviorPermissionProvenanceDescription;
 
-  /// CodeWalk UI string — settingsBehaviorRefreshDefaults
+  /// Kilo-Walk UI string — settingsBehaviorRefreshDefaults
   ///
   /// In en, this message translates to:
   /// **'Refresh defaults'**
   String get settingsBehaviorRefreshDefaults;
 
-  /// CodeWalk UI string — settingsBehaviorSaveUsername
+  /// Kilo-Walk UI string — settingsBehaviorSaveUsername
   ///
   /// In en, this message translates to:
   /// **'Save username'**
   String get settingsBehaviorSaveUsername;
 
-  /// CodeWalk UI string — settingsBehaviorSearchAutoupdate
+  /// Kilo-Walk UI string — settingsBehaviorSearchAutoupdate
   ///
   /// In en, this message translates to:
   /// **'Search auto-update mode'**
   String get settingsBehaviorSearchAutoupdate;
 
-  /// CodeWalk UI string — settingsBehaviorSearchDefaultAgent
+  /// Kilo-Walk UI string — settingsBehaviorSearchDefaultAgent
   ///
   /// In en, this message translates to:
   /// **'Search default agent'**
   String get settingsBehaviorSearchDefaultAgent;
 
-  /// CodeWalk UI string — settingsBehaviorSearchDefaultModel
+  /// Kilo-Walk UI string — settingsBehaviorSearchDefaultModel
   ///
   /// In en, this message translates to:
   /// **'Search default model'**
   String get settingsBehaviorSearchDefaultModel;
 
-  /// CodeWalk UI string — settingsBehaviorSearchShareMode
+  /// Kilo-Walk UI string — settingsBehaviorSearchShareMode
   ///
   /// In en, this message translates to:
   /// **'Search sharing mode'**
   String get settingsBehaviorSearchShareMode;
 
-  /// CodeWalk UI string — settingsBehaviorSearchSmallModel
+  /// Kilo-Walk UI string — settingsBehaviorSearchSmallModel
   ///
   /// In en, this message translates to:
   /// **'Search small model'**
   String get settingsBehaviorSearchSmallModel;
 
-  /// CodeWalk UI string — settingsBehaviorShareMode
+  /// Kilo-Walk UI string — settingsBehaviorShareMode
   ///
   /// In en, this message translates to:
   /// **'OpenCode sharing default'**
   String get settingsBehaviorShareMode;
 
-  /// CodeWalk UI string — settingsBehaviorShareModeCaveat
+  /// Kilo-Walk UI string — settingsBehaviorShareModeCaveat
   ///
   /// In en, this message translates to:
   /// **'Use the chat-level share action to publish one session now. This setting only changes OpenCode\'\'s default sharing policy.'**
   String get settingsBehaviorShareModeCaveat;
 
-  /// CodeWalk UI string — settingsBehaviorShareModeHelp
+  /// Kilo-Walk UI string — settingsBehaviorShareModeHelp
   ///
   /// In en, this message translates to:
   /// **'Controls the official global `share` config, not the share button for an individual chat.'**
   String get settingsBehaviorShareModeHelp;
 
-  /// CodeWalk UI string — settingsBehaviorSmallModel
+  /// Kilo-Walk UI string — settingsBehaviorSmallModel
   ///
   /// In en, this message translates to:
   /// **'Small model'**
   String get settingsBehaviorSmallModel;
 
-  /// CodeWalk UI string — settingsBehaviorSmallModelAutoFallback
+  /// Kilo-Walk UI string — settingsBehaviorSmallModelAutoFallback
   ///
   /// In en, this message translates to:
   /// **'Automatic fallback'**
   String get settingsBehaviorSmallModelAutoFallback;
 
-  /// CodeWalk UI string — settingsBehaviorSmallModelFallbackActive
+  /// Kilo-Walk UI string — settingsBehaviorSmallModelFallbackActive
   ///
   /// In en, this message translates to:
   /// **'OpenCode automatic fallback is active because `small_model` is unset.'**
   String get settingsBehaviorSmallModelFallbackActive;
 
-  /// CodeWalk UI string — settingsBehaviorSmallModelHelp
+  /// Kilo-Walk UI string — settingsBehaviorSmallModelHelp
   ///
   /// In en, this message translates to:
   /// **'Used for lightweight tasks like title generation.'**
   String get settingsBehaviorSmallModelHelp;
 
-  /// CodeWalk UI string — settingsBehaviorSmallModelResetCaveat
+  /// Kilo-Walk UI string — settingsBehaviorSmallModelResetCaveat
   ///
   /// In en, this message translates to:
   /// **'Resetting `small_model` back to automatic fallback still requires editing config outside the app because `/config` patch updates cannot remove keys.'**
   String get settingsBehaviorSmallModelResetCaveat;
 
-  /// CodeWalk UI string — settingsBehaviorSnapshotCaveat
+  /// Kilo-Walk UI string — settingsBehaviorSnapshotCaveat
   ///
   /// In en, this message translates to:
-  /// **'This controls OpenCode snapshot storage and undo/redo support, not CodeWalk local cache snapshots.'**
+  /// **'This controls OpenCode snapshot storage and undo/redo support, not Kilo-Walk local cache snapshots.'**
   String get settingsBehaviorSnapshotCaveat;
 
-  /// CodeWalk UI string — settingsBehaviorTitle
+  /// Kilo-Walk UI string — settingsBehaviorTitle
   ///
   /// In en, this message translates to:
   /// **'Behavior'**
   String get settingsBehaviorTitle;
 
-  /// CodeWalk UI string — settingsBehaviorUsernameFallback
+  /// Kilo-Walk UI string — settingsBehaviorUsernameFallback
   ///
   /// In en, this message translates to:
   /// **'OpenCode uses the system username because `username` is unset.'**
   String get settingsBehaviorUsernameFallback;
 
-  /// CodeWalk UI string — settingsBehaviorUsernamePatchCaveat
+  /// Kilo-Walk UI string — settingsBehaviorUsernamePatchCaveat
   ///
   /// In en, this message translates to:
   /// **'Resetting `username` back to the system default still requires editing config outside the app because `/config` patch updates cannot remove keys.'**
   String get settingsBehaviorUsernamePatchCaveat;
 
-  /// CodeWalk UI string — settingsConfigRefreshFailed
+  /// Kilo-Walk UI string — settingsConfigRefreshFailed
   ///
   /// In en, this message translates to:
   /// **'Updated the server setting, but could not refresh chat providers.'**
   String get settingsConfigRefreshFailed;
 
-  /// CodeWalk UI string — settingsConfigUpdateDeferred
+  /// Kilo-Walk UI string — settingsConfigUpdateDeferred
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk will apply this OpenCode setting after the current response finishes.'**
+  /// **'Kilo-Walk will apply this OpenCode setting after the current response finishes.'**
   String get settingsConfigUpdateDeferred;
 
-  /// CodeWalk UI string — settingsConversationUsername
+  /// Kilo-Walk UI string — settingsConversationUsername
   ///
   /// In en, this message translates to:
   /// **'Conversation username'**
   String get settingsConversationUsername;
 
-  /// CodeWalk UI string — settingsDefaultAgent
+  /// Kilo-Walk UI string — settingsDefaultAgent
   ///
   /// In en, this message translates to:
   /// **'Default agent'**
   String get settingsDefaultAgent;
 
-  /// CodeWalk UI string — settingsDefaultModel
+  /// Kilo-Walk UI string — settingsDefaultModel
   ///
   /// In en, this message translates to:
   /// **'Default model'**
   String get settingsDefaultModel;
 
-  /// CodeWalk UI string — settingsLanguageDescription
+  /// Kilo-Walk UI string — settingsLanguageDescription
   ///
   /// In en, this message translates to:
-  /// **'Choose the language used by CodeWalk. System default follows your device language.'**
+  /// **'Choose the language used by Kilo-Walk. System default follows your device language.'**
   String get settingsLanguageDescription;
 
-  /// CodeWalk UI string — settingsLanguageEmptyText
+  /// Kilo-Walk UI string — settingsLanguageEmptyText
   ///
   /// In en, this message translates to:
   /// **'No languages found'**
   String get settingsLanguageEmptyText;
 
-  /// CodeWalk UI string — settingsLanguageFieldHelper
+  /// Kilo-Walk UI string — settingsLanguageFieldHelper
   ///
   /// In en, this message translates to:
   /// **'Applies immediately and persists across restarts.'**
   String get settingsLanguageFieldHelper;
 
-  /// CodeWalk UI string — settingsLanguageFieldLabel
+  /// Kilo-Walk UI string — settingsLanguageFieldLabel
   ///
   /// In en, this message translates to:
   /// **'App language'**
   String get settingsLanguageFieldLabel;
 
-  /// CodeWalk UI string — settingsLanguageSearchHint
+  /// Kilo-Walk UI string — settingsLanguageSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search languages'**
   String get settingsLanguageSearchHint;
 
-  /// CodeWalk UI string — settingsLanguageSystemDefault
+  /// Kilo-Walk UI string — settingsLanguageSystemDefault
   ///
   /// In en, this message translates to:
   /// **'System default'**
   String get settingsLanguageSystemDefault;
 
-  /// CodeWalk UI string — settingsLanguageTitle
+  /// Kilo-Walk UI string — settingsLanguageTitle
   ///
   /// In en, this message translates to:
   /// **'Language'**
   String get settingsLanguageTitle;
 
-  /// CodeWalk UI string — settingsLogsDescription
+  /// Kilo-Walk UI string — settingsLogsDescription
   ///
   /// In en, this message translates to:
   /// **'Review app diagnostics and troubleshooting details'**
   String get settingsLogsDescription;
 
-  /// CodeWalk UI string — settingsLogsTitle
+  /// Kilo-Walk UI string — settingsLogsTitle
   ///
   /// In en, this message translates to:
   /// **'Logs'**
   String get settingsLogsTitle;
 
-  /// CodeWalk UI string — settingsNoAgentsFound
+  /// Kilo-Walk UI string — settingsNoAgentsFound
   ///
   /// In en, this message translates to:
   /// **'No agents found'**
   String get settingsNoAgentsFound;
 
-  /// CodeWalk UI string — settingsNotificationsAgentSubtitle
+  /// Kilo-Walk UI string — settingsNotificationsAgentSubtitle
   ///
   /// In en, this message translates to:
   /// **'When a response finishes'**
   String get settingsNotificationsAgentSubtitle;
 
-  /// CodeWalk UI string — settingsNotificationsAgentUpdates
+  /// Kilo-Walk UI string — settingsNotificationsAgentUpdates
   ///
   /// In en, this message translates to:
   /// **'Agent updates'**
   String get settingsNotificationsAgentUpdates;
 
-  /// CodeWalk UI string — settingsNotificationsAnotherConversation
+  /// Kilo-Walk UI string — settingsNotificationsAnotherConversation
   ///
   /// In en, this message translates to:
   /// **'Another conversation'**
   String get settingsNotificationsAnotherConversation;
 
-  /// CodeWalk UI string — settingsNotificationsAppInBackground
+  /// Kilo-Walk UI string — settingsNotificationsAppInBackground
   ///
   /// In en, this message translates to:
   /// **'App in background'**
   String get settingsNotificationsAppInBackground;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundAlerts
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundAlerts
   ///
   /// In en, this message translates to:
   /// **'Android background alerts'**
   String get settingsNotificationsBackgroundAlerts;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundBehavior
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundBehavior
   ///
   /// In en, this message translates to:
   /// **'Background behavior'**
   String get settingsNotificationsBackgroundBehavior;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundBehaviorDescription
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundBehaviorDescription
   ///
   /// In en, this message translates to:
-  /// **'Choose how CodeWalk behaves after the app leaves the foreground.'**
+  /// **'Choose how Kilo-Walk behaves after the app leaves the foreground.'**
   String get settingsNotificationsBackgroundBehaviorDescription;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundDescription
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundDescription
   ///
   /// In en, this message translates to:
   /// **'Use low-data background monitoring for response completions, permission requests, questions, and errors while the app is not on screen.'**
   String get settingsNotificationsBackgroundDescription;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundToggle
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundToggle
   ///
   /// In en, this message translates to:
   /// **'Background alerts on Android'**
   String get settingsNotificationsBackgroundToggle;
 
-  /// CodeWalk UI string — settingsNotificationsBackgroundToggleDescription
+  /// Kilo-Walk UI string — settingsNotificationsBackgroundToggleDescription
   ///
   /// In en, this message translates to:
   /// **'Turn off all Android background checks and hide the persistent monitor notification.'**
   String get settingsNotificationsBackgroundToggleDescription;
 
-  /// CodeWalk UI string — settingsNotificationsBatteryDescription
+  /// Kilo-Walk UI string — settingsNotificationsBatteryDescription
   ///
   /// In en, this message translates to:
-  /// **'If notifications only arrive when reopening the app, allow CodeWalk to run without optimization on this device.'**
+  /// **'If notifications only arrive when reopening the app, allow Kilo-Walk to run without optimization on this device.'**
   String get settingsNotificationsBatteryDescription;
 
-  /// CodeWalk UI string — settingsNotificationsBatteryDisabled
+  /// Kilo-Walk UI string — settingsNotificationsBatteryDisabled
   ///
   /// In en, this message translates to:
-  /// **'Battery optimization is disabled for CodeWalk.'**
+  /// **'Battery optimization is disabled for Kilo-Walk.'**
   String get settingsNotificationsBatteryDisabled;
 
-  /// CodeWalk UI string — settingsNotificationsBatteryEnabled
+  /// Kilo-Walk UI string — settingsNotificationsBatteryEnabled
   ///
   /// In en, this message translates to:
   /// **'Battery optimization is enabled. Some devices may delay background alerts.'**
   String get settingsNotificationsBatteryEnabled;
 
-  /// CodeWalk UI string — settingsNotificationsBatteryOptimization
+  /// Kilo-Walk UI string — settingsNotificationsBatteryOptimization
   ///
   /// In en, this message translates to:
   /// **'Android battery optimization'**
   String get settingsNotificationsBatteryOptimization;
 
-  /// CodeWalk UI string — settingsNotificationsBatteryUnknown
+  /// Kilo-Walk UI string — settingsNotificationsBatteryUnknown
   ///
   /// In en, this message translates to:
   /// **'Could not read battery optimization status yet.'**
   String get settingsNotificationsBatteryUnknown;
 
-  /// CodeWalk UI string — settingsNotificationsChooseAudioFile
+  /// Kilo-Walk UI string — settingsNotificationsChooseAudioFile
   ///
   /// In en, this message translates to:
   /// **'Choose audio file'**
   String get settingsNotificationsChooseAudioFile;
 
-  /// CodeWalk UI string — settingsNotificationsChooseSystemSound
+  /// Kilo-Walk UI string — settingsNotificationsChooseSystemSound
   ///
   /// In en, this message translates to:
   /// **'Choose system sound'**
   String get settingsNotificationsChooseSystemSound;
 
-  /// CodeWalk UI string — settingsNotificationsCloseToTray
+  /// Kilo-Walk UI string — settingsNotificationsCloseToTray
   ///
   /// In en, this message translates to:
   /// **'Close to tray'**
   String get settingsNotificationsCloseToTray;
 
-  /// CodeWalk UI string — settingsNotificationsCloseToTrayDescription
+  /// Kilo-Walk UI string — settingsNotificationsCloseToTrayDescription
   ///
   /// In en, this message translates to:
   /// **'Hide window and keep running in system tray.'**
   String get settingsNotificationsCloseToTrayDescription;
 
-  /// CodeWalk UI string — settingsNotificationsDescription
+  /// Kilo-Walk UI string — settingsNotificationsDescription
   ///
   /// In en, this message translates to:
   /// **'Choose which events alert you and how'**
   String get settingsNotificationsDescription;
 
-  /// CodeWalk UI string — settingsNotificationsDisableOptimization
+  /// Kilo-Walk UI string — settingsNotificationsDisableOptimization
   ///
   /// In en, this message translates to:
   /// **'Disable optimization'**
   String get settingsNotificationsDisableOptimization;
 
-  /// CodeWalk UI string — settingsNotificationsErrors
+  /// Kilo-Walk UI string — settingsNotificationsErrors
   ///
   /// In en, this message translates to:
   /// **'Errors'**
   String get settingsNotificationsErrors;
 
-  /// CodeWalk UI string — settingsNotificationsErrorsSubtitle
+  /// Kilo-Walk UI string — settingsNotificationsErrorsSubtitle
   ///
   /// In en, this message translates to:
   /// **'When a session reports a failure'**
   String get settingsNotificationsErrorsSubtitle;
 
-  /// CodeWalk UI string — settingsNotificationsJustClose
+  /// Kilo-Walk UI string — settingsNotificationsJustClose
   ///
   /// In en, this message translates to:
   /// **'Just close'**
   String get settingsNotificationsJustClose;
 
-  /// CodeWalk UI string — settingsNotificationsJustCloseDescription
+  /// Kilo-Walk UI string — settingsNotificationsJustCloseDescription
   ///
   /// In en, this message translates to:
   /// **'Exit the application completely.'**
   String get settingsNotificationsJustCloseDescription;
 
-  /// CodeWalk UI string — settingsNotificationsKeepLive
+  /// Kilo-Walk UI string — settingsNotificationsKeepLive
   ///
   /// In en, this message translates to:
   /// **'Keep alerts live for 3 min'**
   String get settingsNotificationsKeepLive;
 
-  /// CodeWalk UI string — settingsNotificationsKeepLiveDescription
+  /// Kilo-Walk UI string — settingsNotificationsKeepLiveDescription
   ///
   /// In en, this message translates to:
   /// **'When a response is already running, keep realtime active briefly after leaving the app.'**
   String get settingsNotificationsKeepLiveDescription;
 
-  /// CodeWalk UI string — settingsNotificationsLocal
+  /// Kilo-Walk UI string — settingsNotificationsLocal
   ///
   /// In en, this message translates to:
   /// **'Local'**
   String get settingsNotificationsLocal;
 
-  /// CodeWalk UI string — settingsNotificationsMinimizeWhenClose
+  /// Kilo-Walk UI string — settingsNotificationsMinimizeWhenClose
   ///
   /// In en, this message translates to:
   /// **'Minimize when close'**
   String get settingsNotificationsMinimizeWhenClose;
 
-  /// CodeWalk UI string — settingsNotificationsMinimizeWhenCloseDescription
+  /// Kilo-Walk UI string — settingsNotificationsMinimizeWhenCloseDescription
   ///
   /// In en, this message translates to:
   /// **'Minimize to taskbar/dock and keep running.'**
   String get settingsNotificationsMinimizeWhenCloseDescription;
 
-  /// CodeWalk UI string — settingsNotificationsNoCondition
+  /// Kilo-Walk UI string — settingsNotificationsNoCondition
   ///
   /// In en, this message translates to:
   /// **'If no condition is selected, alerts are allowed in any context.'**
   String get settingsNotificationsNoCondition;
 
-  /// CodeWalk UI string — settingsNotificationsNotify
+  /// Kilo-Walk UI string — settingsNotificationsNotify
   ///
   /// In en, this message translates to:
   /// **'Notify'**
   String get settingsNotificationsNotify;
 
-  /// CodeWalk UI string — settingsNotificationsNotifyOnlyWhen
+  /// Kilo-Walk UI string — settingsNotificationsNotifyOnlyWhen
   ///
   /// In en, this message translates to:
   /// **'Notify only when'**
   String get settingsNotificationsNotifyOnlyWhen;
 
-  /// CodeWalk UI string — settingsNotificationsOpenBatterySettings
+  /// Kilo-Walk UI string — settingsNotificationsOpenBatterySettings
   ///
   /// In en, this message translates to:
   /// **'Open battery settings'**
   String get settingsNotificationsOpenBatterySettings;
 
-  /// CodeWalk UI string — settingsNotificationsPermissions
+  /// Kilo-Walk UI string — settingsNotificationsPermissions
   ///
   /// In en, this message translates to:
   /// **'Permissions and questions'**
   String get settingsNotificationsPermissions;
 
-  /// CodeWalk UI string — settingsNotificationsPermissionsSubtitle
+  /// Kilo-Walk UI string — settingsNotificationsPermissionsSubtitle
   ///
   /// In en, this message translates to:
   /// **'When tools request your input'**
   String get settingsNotificationsPermissionsSubtitle;
 
-  /// CodeWalk UI string — settingsNotificationsPreview
+  /// Kilo-Walk UI string — settingsNotificationsPreview
   ///
   /// In en, this message translates to:
   /// **'Preview'**
   String get settingsNotificationsPreview;
 
-  /// CodeWalk UI string — settingsNotificationsRefreshStatus
+  /// Kilo-Walk UI string — settingsNotificationsRefreshStatus
   ///
   /// In en, this message translates to:
   /// **'Refresh status'**
   String get settingsNotificationsRefreshStatus;
 
-  /// CodeWalk UI string — settingsNotificationsSearchSoundType
+  /// Kilo-Walk UI string — settingsNotificationsSearchSoundType
   ///
   /// In en, this message translates to:
   /// **'Search sound type'**
   String get settingsNotificationsSearchSoundType;
 
-  /// CodeWalk UI string — settingsNotificationsSectionDescription
+  /// Kilo-Walk UI string — settingsNotificationsSectionDescription
   ///
   /// In en, this message translates to:
   /// **'Control when alerts appear and when they can play sound.'**
   String get settingsNotificationsSectionDescription;
 
-  /// CodeWalk UI string — settingsNotificationsSectionTitle
+  /// Kilo-Walk UI string — settingsNotificationsSectionTitle
   ///
   /// In en, this message translates to:
   /// **'Notifications'**
   String get settingsNotificationsSectionTitle;
 
-  /// CodeWalk UI string — settingsNotificationsSelectedSound
+  /// Kilo-Walk UI string — settingsNotificationsSelectedSound
   ///
   /// In en, this message translates to:
   /// **'Selected: {label}'**
   String settingsNotificationsSelectedSound(String label);
 
-  /// CodeWalk UI string — settingsNotificationsServer
+  /// Kilo-Walk UI string — settingsNotificationsServer
   ///
   /// In en, this message translates to:
   /// **'Server'**
   String get settingsNotificationsServer;
 
-  /// CodeWalk UI string — settingsNotificationsSound
+  /// Kilo-Walk UI string — settingsNotificationsSound
   ///
   /// In en, this message translates to:
   /// **'Sound'**
   String get settingsNotificationsSound;
 
-  /// CodeWalk UI string — settingsNotificationsSoundBuiltInAlert
+  /// Kilo-Walk UI string — settingsNotificationsSoundBuiltInAlert
   ///
   /// In en, this message translates to:
   /// **'Built-in alert'**
   String get settingsNotificationsSoundBuiltInAlert;
 
-  /// CodeWalk UI string — settingsNotificationsSoundBuiltInClick
+  /// Kilo-Walk UI string — settingsNotificationsSoundBuiltInClick
   ///
   /// In en, this message translates to:
   /// **'Built-in click'**
   String get settingsNotificationsSoundBuiltInClick;
 
-  /// CodeWalk UI string — settingsNotificationsSoundOff
+  /// Kilo-Walk UI string — settingsNotificationsSoundOff
   ///
   /// In en, this message translates to:
   /// **'Off'**
   String get settingsNotificationsSoundOff;
 
-  /// CodeWalk UI string — settingsNotificationsSoundOnlyWhen
+  /// Kilo-Walk UI string — settingsNotificationsSoundOnlyWhen
   ///
   /// In en, this message translates to:
   /// **'Sound only when'**
   String get settingsNotificationsSoundOnlyWhen;
 
-  /// CodeWalk UI string — settingsNotificationsSoundPickAudioFile
+  /// Kilo-Walk UI string — settingsNotificationsSoundPickAudioFile
   ///
   /// In en, this message translates to:
   /// **'Pick audio file'**
   String get settingsNotificationsSoundPickAudioFile;
 
-  /// CodeWalk UI string — settingsNotificationsSoundPickFromSystem
+  /// Kilo-Walk UI string — settingsNotificationsSoundPickFromSystem
   ///
   /// In en, this message translates to:
   /// **'Pick from system'**
   String get settingsNotificationsSoundPickFromSystem;
 
-  /// CodeWalk UI string — settingsNotificationsSoundSystemDefault
+  /// Kilo-Walk UI string — settingsNotificationsSoundSystemDefault
   ///
   /// In en, this message translates to:
   /// **'System default'**
   String get settingsNotificationsSoundSystemDefault;
 
-  /// CodeWalk UI string — settingsNotificationsSoundType
+  /// Kilo-Walk UI string — settingsNotificationsSoundType
   ///
   /// In en, this message translates to:
   /// **'Sound type'**
   String get settingsNotificationsSoundType;
 
-  /// CodeWalk UI string — settingsNotificationsSyncInfo
+  /// Kilo-Walk UI string — settingsNotificationsSyncInfo
   ///
   /// In en, this message translates to:
   /// **'Some category on/off toggles are synced from /config on the active server.'**
   String get settingsNotificationsSyncInfo;
 
-  /// CodeWalk UI string — settingsNotificationsSyncInfoLocal
+  /// Kilo-Walk UI string — settingsNotificationsSyncInfoLocal
   ///
   /// In en, this message translates to:
   /// **'Current server does not expose notification toggles in /config; local values are active.'**
   String get settingsNotificationsSyncInfoLocal;
 
-  /// CodeWalk UI string — settingsNotificationsSystemSoundPickerTitle
+  /// Kilo-Walk UI string — settingsNotificationsSystemSoundPickerTitle
   ///
   /// In en, this message translates to:
   /// **'Choose system sound'**
   String get settingsNotificationsSystemSoundPickerTitle;
 
-  /// CodeWalk UI string — settingsNotificationsTitle
+  /// Kilo-Walk UI string — settingsNotificationsTitle
   ///
   /// In en, this message translates to:
   /// **'Notifications'**
   String get settingsNotificationsTitle;
 
-  /// CodeWalk UI string — settingsNotificationsWhenClosing
+  /// Kilo-Walk UI string — settingsNotificationsWhenClosing
   ///
   /// In en, this message translates to:
   /// **'When closing the window'**
   String get settingsNotificationsWhenClosing;
 
-  /// CodeWalk UI string — settingsOpenCodeAutoUpdate
+  /// Kilo-Walk UI string — settingsOpenCodeAutoUpdate
   ///
   /// In en, this message translates to:
   /// **'OpenCode auto-update'**
   String get settingsOpenCodeAutoUpdate;
 
-  /// CodeWalk UI string — settingsOpenCodeSharingDefault
+  /// Kilo-Walk UI string — settingsOpenCodeSharingDefault
   ///
   /// In en, this message translates to:
   /// **'OpenCode sharing default'**
   String get settingsOpenCodeSharingDefault;
 
-  /// CodeWalk UI string — settingsReadAloudEnabled
+  /// Kilo-Walk UI string — settingsReadAloudEnabled
   ///
   /// In en, this message translates to:
   /// **'Read aloud'**
   String get settingsReadAloudEnabled;
 
-  /// CodeWalk UI string — settingsReadAloudEnabledDescription
+  /// Kilo-Walk UI string — settingsReadAloudEnabledDescription
   ///
   /// In en, this message translates to:
   /// **'Show a read-aloud button on assistant messages.'**
   String get settingsReadAloudEnabledDescription;
 
-  /// CodeWalk UI string — settingsReadAloudPitch
+  /// Kilo-Walk UI string — settingsReadAloudPitch
   ///
   /// In en, this message translates to:
   /// **'Pitch'**
   String get settingsReadAloudPitch;
 
-  /// CodeWalk UI string — settingsReadAloudPitchDescription
+  /// Kilo-Walk UI string — settingsReadAloudPitchDescription
   ///
   /// In en, this message translates to:
   /// **'Adjust the voice pitch.'**
   String get settingsReadAloudPitchDescription;
 
-  /// CodeWalk UI string — settingsReadAloudSectionDescription
+  /// Kilo-Walk UI string — settingsReadAloudSectionDescription
   ///
   /// In en, this message translates to:
   /// **'Read assistant responses aloud. Configure speed, pitch, and voice.'**
   String get settingsReadAloudSectionDescription;
 
-  /// CodeWalk UI string — settingsReadAloudSectionTitle
+  /// Kilo-Walk UI string — settingsReadAloudSectionTitle
   ///
   /// In en, this message translates to:
   /// **'Text to speech'**
   String get settingsReadAloudSectionTitle;
 
-  /// CodeWalk UI string — settingsReadAloudSpeed
+  /// Kilo-Walk UI string — settingsReadAloudSpeed
   ///
   /// In en, this message translates to:
   /// **'Speed'**
   String get settingsReadAloudSpeed;
 
-  /// CodeWalk UI string — settingsReadAloudSpeedDescription
+  /// Kilo-Walk UI string — settingsReadAloudSpeedDescription
   ///
   /// In en, this message translates to:
   /// **'Adjust the speaking rate.'**
   String get settingsReadAloudSpeedDescription;
 
-  /// CodeWalk UI string — settingsReadAloudVoice
+  /// Kilo-Walk UI string — settingsReadAloudVoice
   ///
   /// In en, this message translates to:
   /// **'Voice'**
   String get settingsReadAloudVoice;
 
-  /// CodeWalk UI string — settingsReadAloudVoiceHint
+  /// Kilo-Walk UI string — settingsReadAloudVoiceHint
   ///
   /// In en, this message translates to:
   /// **'Select a voice for read-aloud.'**
   String get settingsReadAloudVoiceHint;
 
-  /// CodeWalk UI string — settingsSearchAutoUpdateMode
+  /// Kilo-Walk UI string — settingsSearchAutoUpdateMode
   ///
   /// In en, this message translates to:
   /// **'Search auto-update mode'**
   String get settingsSearchAutoUpdateMode;
 
-  /// CodeWalk UI string — settingsSearchDefaultAgent
+  /// Kilo-Walk UI string — settingsSearchDefaultAgent
   ///
   /// In en, this message translates to:
   /// **'Search default agent'**
   String get settingsSearchDefaultAgent;
 
-  /// CodeWalk UI string — settingsSearchDefaultModel
+  /// Kilo-Walk UI string — settingsSearchDefaultModel
   ///
   /// In en, this message translates to:
   /// **'Search default model'**
   String get settingsSearchDefaultModel;
 
-  /// CodeWalk UI string — settingsSearchSharingMode
+  /// Kilo-Walk UI string — settingsSearchSharingMode
   ///
   /// In en, this message translates to:
   /// **'Search sharing mode'**
   String get settingsSearchSharingMode;
 
-  /// CodeWalk UI string — settingsSearchSmallModel
+  /// Kilo-Walk UI string — settingsSearchSmallModel
   ///
   /// In en, this message translates to:
   /// **'Search small model'**
   String get settingsSearchSmallModel;
 
-  /// CodeWalk UI string — settingsServersActive
+  /// Kilo-Walk UI string — settingsServersActive
   ///
   /// In en, this message translates to:
   /// **'Active'**
   String get settingsServersActive;
 
-  /// CodeWalk UI string — settingsServersChooseActive
+  /// Kilo-Walk UI string — settingsServersChooseActive
   ///
   /// In en, this message translates to:
   /// **'Choose active server'**
   String get settingsServersChooseActive;
 
-  /// CodeWalk UI string — settingsServersDefault
+  /// Kilo-Walk UI string — settingsServersDefault
   ///
   /// In en, this message translates to:
   /// **'Default'**
   String get settingsServersDefault;
 
-  /// CodeWalk UI string — settingsServersDescription
+  /// Kilo-Walk UI string — settingsServersDescription
   ///
   /// In en, this message translates to:
   /// **'Connect to OpenCode and manage your servers'**
   String get settingsServersDescription;
 
-  /// CodeWalk UI string — settingsServersTitle
+  /// Kilo-Walk UI string — settingsServersTitle
   ///
   /// In en, this message translates to:
   /// **'Servers'**
   String get settingsServersTitle;
 
-  /// CodeWalk UI string — settingsSessionAttentionSize
+  /// Kilo-Walk UI string — settingsSessionAttentionSize
   ///
   /// In en, this message translates to:
   /// **'Bubble size'**
   String get settingsSessionAttentionSize;
 
-  /// CodeWalk UI string — settingsSessionAttentionSizeExtraLarge
+  /// Kilo-Walk UI string — settingsSessionAttentionSizeExtraLarge
   ///
   /// In en, this message translates to:
   /// **'Extra large'**
   String get settingsSessionAttentionSizeExtraLarge;
 
-  /// CodeWalk UI string — settingsSessionAttentionSizeExtraSmall
+  /// Kilo-Walk UI string — settingsSessionAttentionSizeExtraSmall
   ///
   /// In en, this message translates to:
   /// **'Extra small'**
   String get settingsSessionAttentionSizeExtraSmall;
 
-  /// CodeWalk UI string — settingsSessionAttentionSizeLarge
+  /// Kilo-Walk UI string — settingsSessionAttentionSizeLarge
   ///
   /// In en, this message translates to:
   /// **'Large'**
   String get settingsSessionAttentionSizeLarge;
 
-  /// CodeWalk UI string — settingsSessionAttentionSizeSmall
+  /// Kilo-Walk UI string — settingsSessionAttentionSizeSmall
   ///
   /// In en, this message translates to:
   /// **'Small'**
   String get settingsSessionAttentionSizeSmall;
 
-  /// CodeWalk UI string — settingsSessionAttentionSizeStandard
+  /// Kilo-Walk UI string — settingsSessionAttentionSizeStandard
   ///
   /// In en, this message translates to:
   /// **'Standard'**
   String get settingsSessionAttentionSizeStandard;
 
-  /// CodeWalk UI string — settingsSetupWizard
+  /// Kilo-Walk UI string — settingsSetupWizard
   ///
   /// In en, this message translates to:
   /// **'Setup Wizard'**
   String get settingsSetupWizard;
 
-  /// CodeWalk UI string — settingsShortcutsDescription
+  /// Kilo-Walk UI string — settingsShortcutsDescription
   ///
   /// In en, this message translates to:
   /// **'Find and customize keyboard shortcuts'**
   String get settingsShortcutsDescription;
 
-  /// CodeWalk UI string — settingsShortcutsEdit
+  /// Kilo-Walk UI string — settingsShortcutsEdit
   ///
   /// In en, this message translates to:
   /// **'Edit shortcut'**
   String get settingsShortcutsEdit;
 
-  /// CodeWalk UI string — settingsShortcutsKeyboard
+  /// Kilo-Walk UI string — settingsShortcutsKeyboard
   ///
   /// In en, this message translates to:
   /// **'Keyboard shortcuts'**
   String get settingsShortcutsKeyboard;
 
-  /// CodeWalk UI string — settingsShortcutsReset
+  /// Kilo-Walk UI string — settingsShortcutsReset
   ///
   /// In en, this message translates to:
   /// **'Reset shortcut'**
   String get settingsShortcutsReset;
 
-  /// CodeWalk UI string — settingsShortcutsSearch
+  /// Kilo-Walk UI string — settingsShortcutsSearch
   ///
   /// In en, this message translates to:
   /// **'Search shortcuts'**
   String get settingsShortcutsSearch;
 
-  /// CodeWalk UI string — settingsShortcutsTitle
+  /// Kilo-Walk UI string — settingsShortcutsTitle
   ///
   /// In en, this message translates to:
   /// **'Shortcuts'**
   String get settingsShortcutsTitle;
 
-  /// CodeWalk UI string — settingsSmallModel
+  /// Kilo-Walk UI string — settingsSmallModel
   ///
   /// In en, this message translates to:
   /// **'Small model'**
   String get settingsSmallModel;
 
-  /// CodeWalk UI string — settingsSmallModelResetExplanation
+  /// Kilo-Walk UI string — settingsSmallModelResetExplanation
   ///
   /// In en, this message translates to:
   /// **'Resetting `small_model` back to automatic fallback still requires editing config outside the app because `/config` patch updates cannot remove keys.'**
   String get settingsSmallModelResetExplanation;
 
-  /// CodeWalk UI string — settingsSmallModelUnsetExplanation
+  /// Kilo-Walk UI string — settingsSmallModelUnsetExplanation
   ///
   /// In en, this message translates to:
   /// **'OpenCode automatic fallback is active because `small_model` is unset.'**
   String get settingsSmallModelUnsetExplanation;
 
-  /// CodeWalk UI string — settingsSoundPickerNotAvailable
+  /// Kilo-Walk UI string — settingsSoundPickerNotAvailable
   ///
   /// In en, this message translates to:
   /// **'System sound picker is not available on this platform.'**
   String get settingsSoundPickerNotAvailable;
 
-  /// CodeWalk UI string — settingsSpeechDescription
+  /// Kilo-Walk UI string — settingsSpeechDescription
   ///
   /// In en, this message translates to:
   /// **'Set up voice input, offline models, and read aloud'**
   String get settingsSpeechDescription;
 
-  /// CodeWalk UI string — settingsSpeechRefreshStatus
+  /// Kilo-Walk UI string — settingsSpeechRefreshStatus
   ///
   /// In en, this message translates to:
   /// **'Refresh status'**
   String get settingsSpeechRefreshStatus;
 
-  /// CodeWalk UI string — settingsSpeechSilenceTimeout
+  /// Kilo-Walk UI string — settingsSpeechSilenceTimeout
   ///
   /// In en, this message translates to:
   /// **'Silence timeout: {value}s'**
   String settingsSpeechSilenceTimeout(String value);
 
-  /// CodeWalk UI string — settingsSpeechTitle
+  /// Kilo-Walk UI string — settingsSpeechTitle
   ///
   /// In en, this message translates to:
   /// **'Speech to text'**
   String get settingsSpeechTitle;
 
-  /// CodeWalk UI string — settingsTitle
+  /// Kilo-Walk UI string — settingsTitle
   ///
   /// In en, this message translates to:
   /// **'Settings'**
   String get settingsTitle;
 
-  /// CodeWalk UI string — settingsGroupAlertTypes
+  /// Kilo-Walk UI string — settingsGroupAlertTypes
   ///
   /// In en, this message translates to:
   /// **'Alert types'**
   String get settingsGroupAlertTypes;
 
-  /// CodeWalk UI string — settingsGroupBackgroundBehavior
+  /// Kilo-Walk UI string — settingsGroupBackgroundBehavior
   ///
   /// In en, this message translates to:
   /// **'Background behavior'**
   String get settingsGroupBackgroundBehavior;
 
-  /// CodeWalk UI string — settingsGroupChatDisplay
+  /// Kilo-Walk UI string — settingsGroupChatDisplay
   ///
   /// In en, this message translates to:
   /// **'Chat display'**
   String get settingsGroupChatDisplay;
 
-  /// CodeWalk UI string — settingsGroupCurrentConnection
+  /// Kilo-Walk UI string — settingsGroupCurrentConnection
   ///
   /// In en, this message translates to:
   /// **'Current connection'**
   String get settingsGroupCurrentConnection;
 
-  /// CodeWalk UI string — settingsGroupDataAndSync
+  /// Kilo-Walk UI string — settingsGroupDataAndSync
   ///
   /// In en, this message translates to:
   /// **'Data and sync'**
   String get settingsGroupDataAndSync;
 
-  /// CodeWalk UI string — settingsGroupDataReset
+  /// Kilo-Walk UI string — settingsGroupDataReset
   ///
   /// In en, this message translates to:
   /// **'Data and reset'**
   String get settingsGroupDataReset;
 
-  /// CodeWalk UI string — settingsGroupDelivery
+  /// Kilo-Walk UI string — settingsGroupDelivery
   ///
   /// In en, this message translates to:
   /// **'Delivery'**
   String get settingsGroupDelivery;
 
-  /// CodeWalk UI string — settingsGroupHelp
+  /// Kilo-Walk UI string — settingsGroupHelp
   ///
   /// In en, this message translates to:
   /// **'Help'**
   String get settingsGroupHelp;
 
-  /// CodeWalk UI string — settingsGroupLanguageAndChat
+  /// Kilo-Walk UI string — settingsGroupLanguageAndChat
   ///
   /// In en, this message translates to:
   /// **'Language and chat'**
   String get settingsGroupLanguageAndChat;
 
-  /// CodeWalk UI string — settingsGroupLayoutAndText
+  /// Kilo-Walk UI string — settingsGroupLayoutAndText
   ///
   /// In en, this message translates to:
   /// **'Layout and text'**
   String get settingsGroupLayoutAndText;
 
-  /// CodeWalk UI string — settingsGroupOfflineModels
+  /// Kilo-Walk UI string — settingsGroupOfflineModels
   ///
   /// In en, this message translates to:
   /// **'Offline models'**
   String get settingsGroupOfflineModels;
 
-  /// CodeWalk UI string — settingsGroupOpenCodeDefaults
+  /// Kilo-Walk UI string — settingsGroupOpenCodeDefaults
   ///
   /// In en, this message translates to:
   /// **'OpenCode defaults'**
   String get settingsGroupOpenCodeDefaults;
 
-  /// CodeWalk UI string — settingsGroupReadAloud
+  /// Kilo-Walk UI string — settingsGroupReadAloud
   ///
   /// In en, this message translates to:
   /// **'Read aloud'**
   String get settingsGroupReadAloud;
 
-  /// CodeWalk UI string — settingsGroupSavedServers
+  /// Kilo-Walk UI string — settingsGroupSavedServers
   ///
   /// In en, this message translates to:
   /// **'Saved servers'**
   String get settingsGroupSavedServers;
 
-  /// CodeWalk UI string — settingsGroupThemeAndColor
+  /// Kilo-Walk UI string — settingsGroupThemeAndColor
   ///
   /// In en, this message translates to:
   /// **'Theme and color'**
   String get settingsGroupThemeAndColor;
 
-  /// CodeWalk UI string — settingsGroupThisDevice
+  /// Kilo-Walk UI string — settingsGroupThisDevice
   ///
   /// In en, this message translates to:
   /// **'This device'**
   String get settingsGroupThisDevice;
 
-  /// CodeWalk UI string — settingsGroupVersionUpdates
+  /// Kilo-Walk UI string — settingsGroupVersionUpdates
   ///
   /// In en, this message translates to:
   /// **'Version and updates'**
   String get settingsGroupVersionUpdates;
 
-  /// CodeWalk UI string — settingsGroupVoiceInput
+  /// Kilo-Walk UI string — settingsGroupVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Voice input'**
   String get settingsGroupVoiceInput;
 
-  /// CodeWalk UI string — settingsNavigationGroupExperience
+  /// Kilo-Walk UI string — settingsNavigationGroupExperience
   ///
   /// In en, this message translates to:
   /// **'Experience'**
   String get settingsNavigationGroupExperience;
 
-  /// CodeWalk UI string — settingsNavigationGroupInput
+  /// Kilo-Walk UI string — settingsNavigationGroupInput
   ///
   /// In en, this message translates to:
   /// **'Input'**
   String get settingsNavigationGroupInput;
 
-  /// CodeWalk UI string — settingsNavigationGroupSetup
+  /// Kilo-Walk UI string — settingsNavigationGroupSetup
   ///
   /// In en, this message translates to:
   /// **'Setup'**
   String get settingsNavigationGroupSetup;
 
-  /// CodeWalk UI string — settingsNavigationGroupSupport
+  /// Kilo-Walk UI string — settingsNavigationGroupSupport
   ///
   /// In en, this message translates to:
   /// **'Help and diagnostics'**
   String get settingsNavigationGroupSupport;
 
-  /// CodeWalk UI string — settingsNavigationNoResults
+  /// Kilo-Walk UI string — settingsNavigationNoResults
   ///
   /// In en, this message translates to:
   /// **'No settings found'**
   String get settingsNavigationNoResults;
 
-  /// CodeWalk UI string — settingsNavigationSearchHint
+  /// Kilo-Walk UI string — settingsNavigationSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search settings'**
   String get settingsNavigationSearchHint;
 
-  /// CodeWalk UI string — settingsUsernameClearHint
+  /// Kilo-Walk UI string — settingsUsernameClearHint
   ///
   /// In en, this message translates to:
   /// **'Clearing the OpenCode conversation username still requires editing config outside the app.'**
   String get settingsUsernameClearHint;
 
-  /// CodeWalk UI string — settingsUsernameEnterHint
+  /// Kilo-Walk UI string — settingsUsernameEnterHint
   ///
   /// In en, this message translates to:
   /// **'Enter a username to save a custom OpenCode conversation name.'**
   String get settingsUsernameEnterHint;
 
-  /// CodeWalk UI string — settingsUsernameResetExplanation
+  /// Kilo-Walk UI string — settingsUsernameResetExplanation
   ///
   /// In en, this message translates to:
   /// **'Resetting `username` back to the system default still requires editing config outside the app because `/config` patch updates cannot remove keys.'**
   String get settingsUsernameResetExplanation;
 
-  /// CodeWalk UI string — settingsUsernameUnsetExplanation
+  /// Kilo-Walk UI string — settingsUsernameUnsetExplanation
   ///
   /// In en, this message translates to:
   /// **'OpenCode uses the system username because `username` is unset.'**
   String get settingsUsernameUnsetExplanation;
 
-  /// CodeWalk UI string — setupDebugBun
+  /// Kilo-Walk UI string — setupDebugBun
   ///
   /// In en, this message translates to:
   /// **'Bun'**
   String get setupDebugBun;
 
-  /// CodeWalk UI string — setupDebugBun2
+  /// Kilo-Walk UI string — setupDebugBun2
   ///
   /// In en, this message translates to:
   /// **'Bun'**
   String get setupDebugBun2;
 
-  /// CodeWalk UI string — setupDebugCapturedSetupDetails
+  /// Kilo-Walk UI string — setupDebugCapturedSetupDetails
   ///
   /// In en, this message translates to:
   /// **'No captured setup details yet'**
   String get setupDebugCapturedSetupDetails;
 
-  /// CodeWalk UI string — setupDebugCapturedSetupLogs
+  /// Kilo-Walk UI string — setupDebugCapturedSetupLogs
   ///
   /// In en, this message translates to:
   /// **'Captured setup logs'**
   String get setupDebugCapturedSetupLogs;
 
-  /// CodeWalk UI string — setupDebugClear
+  /// Kilo-Walk UI string — setupDebugClear
   ///
   /// In en, this message translates to:
   /// **'Clear setup debug'**
   String get setupDebugClear;
 
-  /// CodeWalk UI string — setupDebugClearSetupDebug
+  /// Kilo-Walk UI string — setupDebugClearSetupDebug
   ///
   /// In en, this message translates to:
   /// **'Clear setup debug'**
   String get setupDebugClearSetupDebug;
 
-  /// CodeWalk UI string — setupDebugCodeWalkCaptureEnough
+  /// Kilo-Walk UI string — setupDebugKilo-WalkCaptureEnough
   ///
   /// In en, this message translates to:
-  /// **'If CodeWalk did not capture enough context, check the official OpenCode logs and health endpoints directly:'**
+  /// **'If Kilo-Walk did not capture enough context, check the official OpenCode logs and health endpoints directly:'**
   String get setupDebugCodeWalkCaptureEnough;
 
-  /// CodeWalk UI string — setupDebugCommandPath
+  /// Kilo-Walk UI string — setupDebugCommandPath
   ///
   /// In en, this message translates to:
   /// **'Command path'**
   String get setupDebugCommandPath;
 
-  /// CodeWalk UI string — setupDebugCommandPath2
+  /// Kilo-Walk UI string — setupDebugCommandPath2
   ///
   /// In en, this message translates to:
   /// **'Command path'**
   String get setupDebugCommandPath2;
 
-  /// CodeWalk UI string — setupDebugCopy
+  /// Kilo-Walk UI string — setupDebugCopy
   ///
   /// In en, this message translates to:
   /// **'Copy setup debug'**
   String get setupDebugCopy;
 
-  /// CodeWalk UI string — setupDebugCopySetupDebug
+  /// Kilo-Walk UI string — setupDebugCopySetupDebug
   ///
   /// In en, this message translates to:
   /// **'Copy setup debug'**
   String get setupDebugCopySetupDebug;
 
-  /// CodeWalk UI string — setupDebugCurrentStatus
+  /// Kilo-Walk UI string — setupDebugCurrentStatus
   ///
   /// In en, this message translates to:
   /// **'Current status'**
   String get setupDebugCurrentStatus;
 
-  /// CodeWalk UI string — setupDebugDiagnosticsLoading
+  /// Kilo-Walk UI string — setupDebugDiagnosticsLoading
   ///
   /// In en, this message translates to:
   /// **'Diagnostics are still loading.'**
   String get setupDebugDiagnosticsLoading;
 
-  /// CodeWalk UI string — setupDebugEnvironment
+  /// Kilo-Walk UI string — setupDebugEnvironment
   ///
   /// In en, this message translates to:
   /// **'Environment diagnostics'**
   String get setupDebugEnvironment;
 
-  /// CodeWalk UI string — setupDebugEnvironmentDiagnostics
+  /// Kilo-Walk UI string — setupDebugEnvironmentDiagnostics
   ///
   /// In en, this message translates to:
   /// **'Environment diagnostics'**
   String get setupDebugEnvironmentDiagnostics;
 
-  /// CodeWalk UI string — setupDebugFocusedOpenCodeSetup
+  /// Kilo-Walk UI string — setupDebugFocusedOpenCodeSetup
   ///
   /// In en, this message translates to:
   /// **'Focused on OpenCode setup'**
   String get setupDebugFocusedOpenCodeSetup;
 
-  /// CodeWalk UI string — setupDebugInstallDir
+  /// Kilo-Walk UI string — setupDebugInstallDir
   ///
   /// In en, this message translates to:
   /// **'Install directory'**
   String get setupDebugInstallDir;
 
-  /// CodeWalk UI string — setupDebugInstallDirectory
+  /// Kilo-Walk UI string — setupDebugInstallDirectory
   ///
   /// In en, this message translates to:
   /// **'Install directory'**
   String get setupDebugInstallDirectory;
 
-  /// CodeWalk UI string — setupDebugLatestLocalServer
+  /// Kilo-Walk UI string — setupDebugLatestLocalServer
   ///
   /// In en, this message translates to:
   /// **'Latest local server output'**
   String get setupDebugLatestLocalServer;
 
-  /// CodeWalk UI string — setupDebugLogs
+  /// Kilo-Walk UI string — setupDebugLogs
   ///
   /// In en, this message translates to:
   /// **'Captured setup logs'**
   String get setupDebugLogs;
 
-  /// CodeWalk UI string — setupDebugManual
+  /// Kilo-Walk UI string — setupDebugManual
   ///
   /// In en, this message translates to:
   /// **'Manual troubleshooting'**
   String get setupDebugManual;
 
-  /// CodeWalk UI string — setupDebugManualTroubleshooting
+  /// Kilo-Walk UI string — setupDebugManualTroubleshooting
   ///
   /// In en, this message translates to:
   /// **'Manual troubleshooting'**
   String get setupDebugManualTroubleshooting;
 
-  /// CodeWalk UI string — setupDebugNetwork
+  /// Kilo-Walk UI string — setupDebugNetwork
   ///
   /// In en, this message translates to:
   /// **'Network'**
   String get setupDebugNetwork;
 
-  /// CodeWalk UI string — setupDebugNetwork2
+  /// Kilo-Walk UI string — setupDebugNetwork2
   ///
   /// In en, this message translates to:
   /// **'Network'**
   String get setupDebugNetwork2;
 
-  /// CodeWalk UI string — setupDebugNoDetails
+  /// Kilo-Walk UI string — setupDebugNoDetails
   ///
   /// In en, this message translates to:
   /// **'No captured setup details yet'**
   String get setupDebugNoDetails;
 
-  /// CodeWalk UI string — setupDebugNode
+  /// Kilo-Walk UI string — setupDebugNode
   ///
   /// In en, this message translates to:
   /// **'Node.js'**
   String get setupDebugNode;
 
-  /// CodeWalk UI string — setupDebugNodeJs
+  /// Kilo-Walk UI string — setupDebugNodeJs
   ///
   /// In en, this message translates to:
   /// **'Node.js'**
   String get setupDebugNodeJs;
 
-  /// CodeWalk UI string — setupDebugNpm
+  /// Kilo-Walk UI string — setupDebugNpm
   ///
   /// In en, this message translates to:
   /// **'npm'**
   String get setupDebugNpm;
 
-  /// CodeWalk UI string — setupDebugNpm2
+  /// Kilo-Walk UI string — setupDebugNpm2
   ///
   /// In en, this message translates to:
   /// **'npm'**
   String get setupDebugNpm2;
 
-  /// CodeWalk UI string — setupDebugOpenCode
+  /// Kilo-Walk UI string — setupDebugOpenCode
   ///
   /// In en, this message translates to:
   /// **'OpenCode'**
   String get setupDebugOpenCode;
 
-  /// CodeWalk UI string — setupDebugOpenCode2
+  /// Kilo-Walk UI string — setupDebugOpenCode2
   ///
   /// In en, this message translates to:
   /// **'OpenCode'**
   String get setupDebugOpenCode2;
 
-  /// CodeWalk UI string — setupDebugOpenCodeSetupDebug
+  /// Kilo-Walk UI string — setupDebugOpenCodeSetupDebug
   ///
   /// In en, this message translates to:
   /// **'OpenCode Setup Debug'**
   String get setupDebugOpenCodeSetupDebug;
 
-  /// CodeWalk UI string — setupDebugPlatform
+  /// Kilo-Walk UI string — setupDebugPlatform
   ///
   /// In en, this message translates to:
   /// **'Platform'**
   String get setupDebugPlatform;
 
-  /// CodeWalk UI string — setupDebugPlatform2
+  /// Kilo-Walk UI string — setupDebugPlatform2
   ///
   /// In en, this message translates to:
   /// **'Platform'**
   String get setupDebugPlatform2;
 
-  /// CodeWalk UI string — setupDebugRunDiagnosticsTry
+  /// Kilo-Walk UI string — setupDebugRunDiagnosticsTry
   ///
   /// In en, this message translates to:
   /// **'Run diagnostics, try an installation method, or attempt a setup flow to capture OpenCode-specific troubleshooting details here.'**
   String get setupDebugRunDiagnosticsTry;
 
-  /// CodeWalk UI string — setupDebugScreenCoversOpenCode
+  /// Kilo-Walk UI string — setupDebugScreenCoversOpenCode
   ///
   /// In en, this message translates to:
-  /// **'This screen only covers OpenCode installation, diagnostics, and local setup troubleshooting. Use App Logs for general CodeWalk runtime issues.'**
+  /// **'This screen only covers OpenCode installation, diagnostics, and local setup troubleshooting. Use App Logs for general Kilo-Walk runtime issues.'**
   String get setupDebugScreenCoversOpenCode;
 
-  /// CodeWalk UI string — setupDebugServerOutput
+  /// Kilo-Walk UI string — setupDebugServerOutput
   ///
   /// In en, this message translates to:
   /// **'Latest local server output'**
   String get setupDebugServerOutput;
 
-  /// CodeWalk UI string — setupDebugStatus
+  /// Kilo-Walk UI string — setupDebugStatus
   ///
   /// In en, this message translates to:
   /// **'Current status'**
   String get setupDebugStatus;
 
-  /// CodeWalk UI string — setupDebugTimeEntrySource
+  /// Kilo-Walk UI string — setupDebugTimeEntrySource
   ///
   /// In en, this message translates to:
   /// **'{time} - {source}'**
   String setupDebugTimeEntrySource(String source, String time);
 
-  /// CodeWalk UI string — setupDebugTimeline
+  /// Kilo-Walk UI string — setupDebugTimeline
   ///
   /// In en, this message translates to:
   /// **'Timeline'**
   String get setupDebugTimeline;
 
-  /// CodeWalk UI string — setupDebugTimeline2
+  /// Kilo-Walk UI string — setupDebugTimeline2
   ///
   /// In en, this message translates to:
   /// **'Timeline'**
   String get setupDebugTimeline2;
 
-  /// CodeWalk UI string — setupDebugTitle
+  /// Kilo-Walk UI string — setupDebugTitle
   ///
   /// In en, this message translates to:
   /// **'Focused on OpenCode setup'**
   String get setupDebugTitle;
 
-  /// CodeWalk UI string — setupDebugWSL
+  /// Kilo-Walk UI string — setupDebugWSL
   ///
   /// In en, this message translates to:
   /// **'WSL'**
   String get setupDebugWSL;
 
-  /// CodeWalk UI string — setupDebugWsl
+  /// Kilo-Walk UI string — setupDebugWsl
   ///
   /// In en, this message translates to:
   /// **'WSL'**
   String get setupDebugWsl;
 
-  /// CodeWalk UI string — shortcutCloseApp
+  /// Kilo-Walk UI string — shortcutCloseApp
   ///
   /// In en, this message translates to:
   /// **'Close tab/application'**
   String get shortcutCloseApp;
 
-  /// CodeWalk UI string — shortcutCloseAppDesc
+  /// Kilo-Walk UI string — shortcutCloseAppDesc
   ///
   /// In en, this message translates to:
   /// **'Close the current session tab when available, otherwise close the app using platform behavior'**
   String get shortcutCloseAppDesc;
 
-  /// CodeWalk UI string — shortcutFocusCloseDrawer
+  /// Kilo-Walk UI string — shortcutFocusCloseDrawer
   ///
   /// In en, this message translates to:
   /// **'Focus/close drawer'**
   String get shortcutFocusCloseDrawer;
 
-  /// CodeWalk UI string — shortcutFocusCloseDrawerDesc
+  /// Kilo-Walk UI string — shortcutFocusCloseDrawerDesc
   ///
   /// In en, this message translates to:
   /// **'Focus composer by default, or close drawer when open'**
   String get shortcutFocusCloseDrawerDesc;
 
-  /// CodeWalk UI string — shortcutFocusInput
+  /// Kilo-Walk UI string — shortcutFocusInput
   ///
   /// In en, this message translates to:
   /// **'Focus input'**
   String get shortcutFocusInput;
 
-  /// CodeWalk UI string — shortcutFocusInputDesc
+  /// Kilo-Walk UI string — shortcutFocusInputDesc
   ///
   /// In en, this message translates to:
   /// **'Move focus to the prompt input'**
   String get shortcutFocusInputDesc;
 
-  /// CodeWalk UI string — shortcutGroupApplication
+  /// Kilo-Walk UI string — shortcutGroupApplication
   ///
   /// In en, this message translates to:
   /// **'Application'**
   String get shortcutGroupApplication;
 
-  /// CodeWalk UI string — shortcutGroupGeneral
+  /// Kilo-Walk UI string — shortcutGroupGeneral
   ///
   /// In en, this message translates to:
   /// **'General'**
   String get shortcutGroupGeneral;
 
-  /// CodeWalk UI string — shortcutGroupModelAndAgent
+  /// Kilo-Walk UI string — shortcutGroupModelAndAgent
   ///
   /// In en, this message translates to:
   /// **'Model and agent'**
   String get shortcutGroupModelAndAgent;
 
-  /// CodeWalk UI string — shortcutGroupNavigation
+  /// Kilo-Walk UI string — shortcutGroupNavigation
   ///
   /// In en, this message translates to:
   /// **'Navigation'**
   String get shortcutGroupNavigation;
 
-  /// CodeWalk UI string — shortcutGroupPrompt
+  /// Kilo-Walk UI string — shortcutGroupPrompt
   ///
   /// In en, this message translates to:
   /// **'Prompt'**
   String get shortcutGroupPrompt;
 
-  /// CodeWalk UI string — shortcutGroupSession
+  /// Kilo-Walk UI string — shortcutGroupSession
   ///
   /// In en, this message translates to:
   /// **'Session'**
   String get shortcutGroupSession;
 
-  /// CodeWalk UI string — shortcutNewConversation
+  /// Kilo-Walk UI string — shortcutNewConversation
   ///
   /// In en, this message translates to:
   /// **'New conversation'**
   String get shortcutNewConversation;
 
-  /// CodeWalk UI string — shortcutNewConversationDesc
+  /// Kilo-Walk UI string — shortcutNewConversationDesc
   ///
   /// In en, this message translates to:
   /// **'Create a new chat session'**
   String get shortcutNewConversationDesc;
 
-  /// CodeWalk UI string — shortcutNextAgent
+  /// Kilo-Walk UI string — shortcutNextAgent
   ///
   /// In en, this message translates to:
   /// **'Next agent'**
   String get shortcutNextAgent;
 
-  /// CodeWalk UI string — shortcutNextAgentDesc
+  /// Kilo-Walk UI string — shortcutNextAgentDesc
   ///
   /// In en, this message translates to:
   /// **'Cycle to next available agent'**
   String get shortcutNextAgentDesc;
 
-  /// CodeWalk UI string — shortcutNextRecentModel
+  /// Kilo-Walk UI string — shortcutNextRecentModel
   ///
   /// In en, this message translates to:
   /// **'Next recent model'**
   String get shortcutNextRecentModel;
 
-  /// CodeWalk UI string — shortcutNextRecentModelDesc
+  /// Kilo-Walk UI string — shortcutNextRecentModelDesc
   ///
   /// In en, this message translates to:
   /// **'Cycle through recently used models'**
   String get shortcutNextRecentModelDesc;
 
-  /// CodeWalk UI string — shortcutNextVariant
+  /// Kilo-Walk UI string — shortcutNextVariant
   ///
   /// In en, this message translates to:
   /// **'Next variant'**
   String get shortcutNextVariant;
 
-  /// CodeWalk UI string — shortcutNextVariantDesc
+  /// Kilo-Walk UI string — shortcutNextVariantDesc
   ///
   /// In en, this message translates to:
   /// **'Cycle through available model variants'**
   String get shortcutNextVariantDesc;
 
-  /// CodeWalk UI string — shortcutOpenSettings
+  /// Kilo-Walk UI string — shortcutOpenSettings
   ///
   /// In en, this message translates to:
   /// **'Open settings'**
   String get shortcutOpenSettings;
 
-  /// CodeWalk UI string — shortcutOpenSettingsDesc
+  /// Kilo-Walk UI string — shortcutOpenSettingsDesc
   ///
   /// In en, this message translates to:
   /// **'Open settings page'**
   String get shortcutOpenSettingsDesc;
 
-  /// CodeWalk UI string — shortcutPreviousAgent
+  /// Kilo-Walk UI string — shortcutPreviousAgent
   ///
   /// In en, this message translates to:
   /// **'Previous agent'**
   String get shortcutPreviousAgent;
 
-  /// CodeWalk UI string — shortcutPreviousAgentDesc
+  /// Kilo-Walk UI string — shortcutPreviousAgentDesc
   ///
   /// In en, this message translates to:
   /// **'Cycle to previous available agent'**
   String get shortcutPreviousAgentDesc;
 
-  /// CodeWalk UI string — shortcutQuickOpenFiles
+  /// Kilo-Walk UI string — shortcutQuickOpenFiles
   ///
   /// In en, this message translates to:
   /// **'Quick open files'**
   String get shortcutQuickOpenFiles;
 
-  /// CodeWalk UI string — shortcutQuickOpenFilesDesc
+  /// Kilo-Walk UI string — shortcutQuickOpenFilesDesc
   ///
   /// In en, this message translates to:
   /// **'Open file quick search'**
   String get shortcutQuickOpenFilesDesc;
 
-  /// CodeWalk UI string — shortcutQuitApp
+  /// Kilo-Walk UI string — shortcutQuitApp
   ///
   /// In en, this message translates to:
   /// **'Quit application'**
   String get shortcutQuitApp;
 
-  /// CodeWalk UI string — shortcutQuitAppDesc
+  /// Kilo-Walk UI string — shortcutQuitAppDesc
   ///
   /// In en, this message translates to:
   /// **'Force-exit the app'**
   String get shortcutQuitAppDesc;
 
-  /// CodeWalk UI string — shortcutRefreshData
+  /// Kilo-Walk UI string — shortcutRefreshData
   ///
   /// In en, this message translates to:
   /// **'Refresh data'**
   String get shortcutRefreshData;
 
-  /// CodeWalk UI string — shortcutRefreshDataDesc
+  /// Kilo-Walk UI string — shortcutRefreshDataDesc
   ///
   /// In en, this message translates to:
   /// **'Refresh current chat data'**
   String get shortcutRefreshDataDesc;
 
-  /// CodeWalk UI string — shortcutStopResponse
+  /// Kilo-Walk UI string — shortcutStopResponse
   ///
   /// In en, this message translates to:
   /// **'Stop active response'**
   String get shortcutStopResponse;
 
-  /// CodeWalk UI string — shortcutStopResponseDesc
+  /// Kilo-Walk UI string — shortcutStopResponseDesc
   ///
   /// In en, this message translates to:
   /// **'Stop active response (while responding)'**
   String get shortcutStopResponseDesc;
 
-  /// CodeWalk UI string — shortcutToggleVoiceInput
+  /// Kilo-Walk UI string — shortcutToggleVoiceInput
   ///
   /// In en, this message translates to:
   /// **'Toggle voice input'**
   String get shortcutToggleVoiceInput;
 
-  /// CodeWalk UI string — shortcutToggleVoiceInputDesc
+  /// Kilo-Walk UI string — shortcutToggleVoiceInputDesc
   ///
   /// In en, this message translates to:
   /// **'Start or stop speech-to-text in the composer'**
   String get shortcutToggleVoiceInputDesc;
 
-  /// CodeWalk UI string — shortcutsApply
+  /// Kilo-Walk UI string — shortcutsApply
   ///
   /// In en, this message translates to:
   /// **'Apply'**
   String get shortcutsApply;
 
-  /// CodeWalk UI string — shortcutsConflictConflict
+  /// Kilo-Walk UI string — shortcutsConflictConflict
   ///
   /// In en, this message translates to:
   /// **'Conflict with {conflict}'**
   String shortcutsConflictConflict(String conflict);
 
-  /// CodeWalk UI string — shortcutsKeyboardShortcuts
+  /// Kilo-Walk UI string — shortcutsKeyboardShortcuts
   ///
   /// In en, this message translates to:
   /// **'Keyboard shortcuts'**
   String get shortcutsKeyboardShortcuts;
 
-  /// CodeWalk UI string — shortcutsReset
+  /// Kilo-Walk UI string — shortcutsReset
   ///
   /// In en, this message translates to:
   /// **'Reset all'**
   String get shortcutsReset;
 
-  /// CodeWalk UI string — shortcutsSearchEditBindings
+  /// Kilo-Walk UI string — shortcutsSearchEditBindings
   ///
   /// In en, this message translates to:
   /// **'Search, edit bindings, and resolve conflicts before saving.'**
   String get shortcutsSearchEditBindings;
 
-  /// CodeWalk UI string — shortcutsSetShortcutWidget
+  /// Kilo-Walk UI string — shortcutsSetShortcutWidget
   ///
   /// In en, this message translates to:
   /// **'Set shortcut: {label}'**
   String shortcutsSetShortcutWidget(String label);
 
-  /// CodeWalk UI string — shortcutsTheseBindingsStored
+  /// Kilo-Walk UI string — shortcutsTheseBindingsStored
   ///
   /// In en, this message translates to:
-  /// **'These bindings are stored in CodeWalk for the current app runtime and do not edit OpenCode `tui.json` keybinds.'**
+  /// **'These bindings are stored in Kilo-Walk for the current app runtime and do not edit OpenCode `tui.json` keybinds.'**
   String get shortcutsTheseBindingsStored;
 
-  /// CodeWalk UI string — speechAutoStopSilence
+  /// Kilo-Walk UI string — speechAutoStopSilence
   ///
   /// In en, this message translates to:
   /// **'Auto-stop silence timeout'**
   String get speechAutoStopSilence;
 
-  /// CodeWalk UI string — speechChooseRecognitionEngine
+  /// Kilo-Walk UI string — speechChooseRecognitionEngine
   ///
   /// In en, this message translates to:
   /// **'Choose the recognition engine, silence timeout, and model options.'**
   String get speechChooseRecognitionEngine;
 
-  /// CodeWalk UI string — speechDesktopOnly
+  /// Kilo-Walk UI string — speechDesktopOnly
   ///
   /// In en, this message translates to:
   /// **'{service} is available on desktop only.'**
   String speechDesktopOnly(String service);
 
-  /// CodeWalk UI string — speechDownload
+  /// Kilo-Walk UI string — speechDownload
   ///
   /// In en, this message translates to:
   /// **'Download'**
   String get speechDownload;
 
-  /// CodeWalk UI string — speechEngine
+  /// Kilo-Walk UI string — speechEngine
   ///
   /// In en, this message translates to:
   /// **'Engine'**
   String get speechEngine;
 
-  /// CodeWalk UI string — speechInstalledLanguages
+  /// Kilo-Walk UI string — speechInstalledLanguages
   ///
   /// In en, this message translates to:
   /// **'Installed languages'**
   String get speechInstalledLanguages;
 
-  /// CodeWalk UI string — speechListeningStopsAutomatically
+  /// Kilo-Walk UI string — speechListeningStopsAutomatically
   ///
   /// In en, this message translates to:
   /// **'Listening stops automatically after this many seconds of silence.'**
   String get speechListeningStopsAutomatically;
 
-  /// CodeWalk UI string — speechMicPermissionDisabled
+  /// Kilo-Walk UI string — speechMicPermissionDisabled
   ///
   /// In en, this message translates to:
   /// **'Microphone permission is disabled.'**
   String get speechMicPermissionDisabled;
 
-  /// CodeWalk UI string — speechModelFilesIncomplete
+  /// Kilo-Walk UI string — speechModelFilesIncomplete
   ///
   /// In en, this message translates to:
   /// **'{service} model files are incomplete.'**
   String speechModelFilesIncomplete(String service);
 
-  /// CodeWalk UI string — speechMoonshine
+  /// Kilo-Walk UI string — speechMoonshine
   ///
   /// In en, this message translates to:
   /// **'Moonshine'**
   String get speechMoonshine;
 
-  /// CodeWalk UI string — speechMoonshineModelsDesktop
+  /// Kilo-Walk UI string — speechMoonshineModelsDesktop
   ///
   /// In en, this message translates to:
   /// **'Moonshine models (desktop)'**
   String get speechMoonshineModelsDesktop;
 
-  /// CodeWalk UI string — speechMoonshineStaysDownloadable
+  /// Kilo-Walk UI string — speechMoonshineStaysDownloadable
   ///
   /// In en, this message translates to:
   /// **'Moonshine stays downloadable and out of the app bundle. Pick one model for this desktop device and remove it later if you want the space back.'**
   String get speechMoonshineStaysDownloadable;
 
-  /// CodeWalk UI string — speechNative
+  /// Kilo-Walk UI string — speechNative
   ///
   /// In en, this message translates to:
   /// **'Native'**
   String get speechNative;
 
-  /// CodeWalk UI string — speechNativeSTTDisabled
+  /// Kilo-Walk UI string — speechNativeSTTDisabled
   ///
   /// In en, this message translates to:
   /// **'Native STT is disabled on Linux in this app. Parakeet is the default engine for new installs.'**
   String get speechNativeSTTDisabled;
 
-  /// CodeWalk UI string — speechNativeSTTWorks
+  /// Kilo-Walk UI string — speechNativeSTTWorks
   ///
   /// In en, this message translates to:
-  /// **'On Windows, CodeWalk uses local on-device speech recognition through its WASAPI microphone backend. Native Windows speech recognition is disabled for stability.'**
+  /// **'On Windows, Kilo-Walk uses local on-device speech recognition through its WASAPI microphone backend. Native Windows speech recognition is disabled for stability.'**
   String get speechNativeSTTWorks;
 
-  /// CodeWalk UI string — speechNativeStartsFaster
+  /// Kilo-Walk UI string — speechNativeStartsFaster
   ///
   /// In en, this message translates to:
   /// **'Native starts faster. Sherpa runs fully on-device with heavier setup and deeper model control.'**
   String get speechNativeStartsFaster;
 
-  /// CodeWalk UI string — speechOpenMicrophoneSettings
+  /// Kilo-Walk UI string — speechOpenMicrophoneSettings
   ///
   /// In en, this message translates to:
   /// **'Open microphone settings'**
   String get speechOpenMicrophoneSettings;
 
-  /// CodeWalk UI string — speechOpenSpeechPrivacy
+  /// Kilo-Walk UI string — speechOpenSpeechPrivacy
   ///
   /// In en, this message translates to:
   /// **'Open speech privacy'**
   String get speechOpenSpeechPrivacy;
 
-  /// CodeWalk UI string — speechOpenSpeechSettings
+  /// Kilo-Walk UI string — speechOpenSpeechSettings
   ///
   /// In en, this message translates to:
   /// **'Open speech settings'**
   String get speechOpenSpeechSettings;
 
-  /// CodeWalk UI string — speechNemotron
+  /// Kilo-Walk UI string — speechNemotron
   ///
   /// In en, this message translates to:
   /// **'Nemotron'**
   String get speechNemotron;
 
-  /// CodeWalk UI string — speechNemotronSubtitle
+  /// Kilo-Walk UI string — speechNemotronSubtitle
   ///
   /// In en, this message translates to:
   /// **'Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.'**
   String get speechNemotronSubtitle;
 
-  /// CodeWalk UI string — speechNemotronStaysDownloadable
+  /// Kilo-Walk UI string — speechNemotronStaysDownloadable
   ///
   /// In en, this message translates to:
   /// **'Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.'**
   String get speechNemotronStaysDownloadable;
 
-  /// CodeWalk UI string — speechNemotronDesktopOnlyHint
+  /// Kilo-Walk UI string — speechNemotronDesktopOnlyHint
   ///
   /// In en, this message translates to:
   /// **'Available on desktop only. Uses streaming multilingual recognition.'**
   String get speechNemotronDesktopOnlyHint;
 
-  /// CodeWalk UI string — speechParakeet
+  /// Kilo-Walk UI string — speechParakeet
   ///
   /// In en, this message translates to:
   /// **'Parakeet'**
   String get speechParakeet;
 
-  /// CodeWalk UI string — speechParakeetModelsDesktop
+  /// Kilo-Walk UI string — speechParakeetModelsDesktop
   ///
   /// In en, this message translates to:
   /// **'Parakeet models (desktop)'**
   String get speechParakeetModelsDesktop;
 
-  /// CodeWalk UI string — speechParakeetStaysDownloadable
+  /// Kilo-Walk UI string — speechParakeetStaysDownloadable
   ///
   /// In en, this message translates to:
   /// **'Parakeet stays downloadable and out of the app bundle. It currently exposes one multilingual model optimized for 25 European languages.'**
   String get speechParakeetStaysDownloadable;
 
-  /// CodeWalk UI string — speechPickLanguagePacks
+  /// Kilo-Walk UI string — speechPickLanguagePacks
   ///
   /// In en, this message translates to:
   /// **'Pick language packs and download/remove models for on-device recognition.'**
   String get speechPickLanguagePacks;
 
-  /// CodeWalk UI string — speechRemove
+  /// Kilo-Walk UI string — speechRemove
   ///
   /// In en, this message translates to:
   /// **'Remove'**
   String get speechRemove;
 
-  /// CodeWalk UI string — speechRuntimeFailed
+  /// Kilo-Walk UI string — speechRuntimeFailed
   ///
   /// In en, this message translates to:
   /// **'{service} runtime failed to initialize.'**
   String speechRuntimeFailed(String service);
 
-  /// CodeWalk UI string — speechSelectSherpaAbove
+  /// Kilo-Walk UI string — speechSelectSherpaAbove
   ///
   /// In en, this message translates to:
   /// **'Select Sherpa above to manage language packs and download models.'**
   String get speechSelectSherpaAbove;
 
-  /// CodeWalk UI string — speechSenseVoice
+  /// Kilo-Walk UI string — speechSenseVoice
   ///
   /// In en, this message translates to:
   /// **'SenseVoice'**
   String get speechSenseVoice;
 
-  /// CodeWalk UI string — speechSenseVoiceModelsDesktop
+  /// Kilo-Walk UI string — speechSenseVoiceModelsDesktop
   ///
   /// In en, this message translates to:
   /// **'SenseVoice models (desktop)'**
   String get speechSenseVoiceModelsDesktop;
 
-  /// CodeWalk UI string — speechSenseVoiceStaysDownloadable
+  /// Kilo-Walk UI string — speechSenseVoiceStaysDownloadable
   ///
   /// In en, this message translates to:
   /// **'SenseVoice stays downloadable and out of the app bundle. It is the strongest desktop option here for Chinese, Cantonese, Japanese, Korean, and English.'**
   String get speechSenseVoiceStaysDownloadable;
 
-  /// CodeWalk UI string — speechSherpa
+  /// Kilo-Walk UI string — speechSherpa
   ///
   /// In en, this message translates to:
   /// **'Sherpa'**
   String get speechSherpa;
 
-  /// CodeWalk UI string — speechSherpaModelsLinux
+  /// Kilo-Walk UI string — speechSherpaModelsLinux
   ///
   /// In en, this message translates to:
   /// **'Sherpa models (Linux)'**
   String get speechSherpaModelsLinux;
 
-  /// CodeWalk UI string — speechSpeechText
+  /// Kilo-Walk UI string — speechSpeechText
   ///
   /// In en, this message translates to:
   /// **'Speech to text'**
   String get speechSpeechText;
 
-  /// CodeWalk UI string — speechUnavailableOnPlatform
+  /// Kilo-Walk UI string — speechUnavailableOnPlatform
   ///
   /// In en, this message translates to:
   /// **'{service} speech is unavailable on this platform.'**
   String speechUnavailableOnPlatform(String service);
 
-  /// CodeWalk UI string — speechWindowsSetupHint
+  /// Kilo-Walk UI string — speechWindowsSetupHint
   ///
   /// In en, this message translates to:
-  /// **'Windows voice input uses CodeWalk WASAPI capture with on-device models. Keep microphone access for desktop apps enabled; the buttons below open Windows settings for troubleshooting.'**
+  /// **'Windows voice input uses Kilo-Walk WASAPI capture with on-device models. Keep microphone access for desktop apps enabled; the buttons below open Windows settings for troubleshooting.'**
   String get speechWindowsSetupHint;
 
-  /// CodeWalk UI string — statusConnected
+  /// Kilo-Walk UI string — statusConnected
   ///
   /// In en, this message translates to:
   /// **'Connected'**
   String get statusConnected;
 
-  /// CodeWalk UI string — statusDelayed
+  /// Kilo-Walk UI string — statusDelayed
   ///
   /// In en, this message translates to:
   /// **'Delayed'**
   String get statusDelayed;
 
-  /// CodeWalk UI string — statusFailed
+  /// Kilo-Walk UI string — statusFailed
   ///
   /// In en, this message translates to:
   /// **'Failed'**
   String get statusFailed;
 
-  /// CodeWalk UI string — statusOffline
+  /// Kilo-Walk UI string — statusOffline
   ///
   /// In en, this message translates to:
   /// **'Offline'**
   String get statusOffline;
 
-  /// CodeWalk UI string — statusOnline
+  /// Kilo-Walk UI string — statusOnline
   ///
   /// In en, this message translates to:
   /// **'Online'**
   String get statusOnline;
 
-  /// CodeWalk UI string — statusReconnecting
+  /// Kilo-Walk UI string — statusReconnecting
   ///
   /// In en, this message translates to:
   /// **'Reconnecting'**
   String get statusReconnecting;
 
-  /// CodeWalk UI string — statusStarting
+  /// Kilo-Walk UI string — statusStarting
   ///
   /// In en, this message translates to:
   /// **'Starting'**
   String get statusStarting;
 
-  /// CodeWalk UI string — statusStopped
+  /// Kilo-Walk UI string — statusStopped
   ///
   /// In en, this message translates to:
   /// **'Stopped'**
   String get statusStopped;
 
-  /// CodeWalk UI string — statusStopping
+  /// Kilo-Walk UI string — statusStopping
   ///
   /// In en, this message translates to:
   /// **'Stopping'**
   String get statusStopping;
 
-  /// CodeWalk UI string — statusSyncDelayed
+  /// Kilo-Walk UI string — statusSyncDelayed
   ///
   /// In en, this message translates to:
   /// **'Sync delayed'**
   String get statusSyncDelayed;
 
-  /// CodeWalk UI string — tailscaleNoPeers
+  /// Kilo-Walk UI string — tailscaleNoPeers
   ///
   /// In en, this message translates to:
   /// **'No peers found'**
   String get tailscaleNoPeers;
 
-  /// CodeWalk UI string — tailscaleNotSupportedOnPlatform
+  /// Kilo-Walk UI string — tailscaleNotSupportedOnPlatform
   ///
   /// In en, this message translates to:
   /// **'Tailscale is not supported on this platform.'**
   String get tailscaleNotSupportedOnPlatform;
 
-  /// CodeWalk UI string — tailscaleNotSupportedOnWindows
+  /// Kilo-Walk UI string — tailscaleNotSupportedOnWindows
   ///
   /// In en, this message translates to:
   /// **'Tailscale is not supported on Windows.'**
   String get tailscaleNotSupportedOnWindows;
 
-  /// CodeWalk UI string — tailscalePeerOffline
+  /// Kilo-Walk UI string — tailscalePeerOffline
   ///
   /// In en, this message translates to:
   /// **'offline'**
   String get tailscalePeerOffline;
 
-  /// CodeWalk UI string — tailscaleSelectPeer
+  /// Kilo-Walk UI string — tailscaleSelectPeer
   ///
   /// In en, this message translates to:
   /// **'Select a Tailscale peer'**
   String get tailscaleSelectPeer;
 
-  /// CodeWalk UI string — tailscaleWaitingAdminApproval
+  /// Kilo-Walk UI string — tailscaleWaitingAdminApproval
   ///
   /// In en, this message translates to:
   /// **'This Tailscale node is waiting for admin approval.'**
   String get tailscaleWaitingAdminApproval;
 
-  /// CodeWalk UI string — terminalClose
+  /// Kilo-Walk UI string — terminalClose
   ///
   /// In en, this message translates to:
   /// **'Close terminal'**
   String get terminalClose;
 
-  /// CodeWalk UI string — terminalConnectingTo
+  /// Kilo-Walk UI string — terminalConnectingTo
   ///
   /// In en, this message translates to:
   /// **'Connecting to {serverName} terminal...'**
   String terminalConnectingTo(String serverName);
 
-  /// CodeWalk UI string — terminalConnectionFailed
+  /// Kilo-Walk UI string — terminalConnectionFailed
   ///
   /// In en, this message translates to:
   /// **'Terminal connection failed: {error}'**
   String terminalConnectionFailed(String error);
 
-  /// CodeWalk UI string — terminalDisconnected
+  /// Kilo-Walk UI string — terminalDisconnected
   ///
   /// In en, this message translates to:
   /// **'Terminal disconnected.'**
   String get terminalDisconnected;
 
-  /// CodeWalk UI string — terminalEmbeddedUnavailable
+  /// Kilo-Walk UI string — terminalEmbeddedUnavailable
   ///
   /// In en, this message translates to:
-  /// **'Embedded terminal is not available on this runtime yet. Keep using composer shell mode for one-shot commands or open the terminal from a supported CodeWalk app runtime for {serverName}.'**
+  /// **'Embedded terminal is not available on this runtime yet. Keep using composer shell mode for one-shot commands or open the terminal from a supported Kilo-Walk app runtime for {serverName}.'**
   String terminalEmbeddedUnavailable(String serverName);
 
-  /// CodeWalk UI string — terminalExtraKeyAlt
+  /// Kilo-Walk UI string — terminalExtraKeyAlt
   ///
   /// In en, this message translates to:
   /// **'Alt key'**
   String get terminalExtraKeyAlt;
 
-  /// CodeWalk UI string — terminalExtraKeyArrowDown
+  /// Kilo-Walk UI string — terminalExtraKeyArrowDown
   ///
   /// In en, this message translates to:
   /// **'Down arrow'**
   String get terminalExtraKeyArrowDown;
 
-  /// CodeWalk UI string — terminalExtraKeyArrowLeft
+  /// Kilo-Walk UI string — terminalExtraKeyArrowLeft
   ///
   /// In en, this message translates to:
   /// **'Left arrow'**
   String get terminalExtraKeyArrowLeft;
 
-  /// CodeWalk UI string — terminalExtraKeyArrowRight
+  /// Kilo-Walk UI string — terminalExtraKeyArrowRight
   ///
   /// In en, this message translates to:
   /// **'Right arrow'**
   String get terminalExtraKeyArrowRight;
 
-  /// CodeWalk UI string — terminalExtraKeyArrowUp
+  /// Kilo-Walk UI string — terminalExtraKeyArrowUp
   ///
   /// In en, this message translates to:
   /// **'Up arrow'**
   String get terminalExtraKeyArrowUp;
 
-  /// CodeWalk UI string — terminalExtraKeyControl
+  /// Kilo-Walk UI string — terminalExtraKeyControl
   ///
   /// In en, this message translates to:
   /// **'Control key'**
   String get terminalExtraKeyControl;
 
-  /// CodeWalk UI string — terminalExtraKeyEscape
+  /// Kilo-Walk UI string — terminalExtraKeyEscape
   ///
   /// In en, this message translates to:
   /// **'Escape key'**
   String get terminalExtraKeyEscape;
 
-  /// CodeWalk UI string — terminalExtraKeyTab
+  /// Kilo-Walk UI string — terminalExtraKeyTab
   ///
   /// In en, this message translates to:
   /// **'Tab key'**
   String get terminalExtraKeyTab;
 
-  /// CodeWalk UI string — terminalExtraKeys
+  /// Kilo-Walk UI string — terminalExtraKeys
   ///
   /// In en, this message translates to:
   /// **'Terminal extra keys'**
   String get terminalExtraKeys;
 
-  /// CodeWalk UI string — terminalHide
+  /// Kilo-Walk UI string — terminalHide
   ///
   /// In en, this message translates to:
   /// **'Hide terminal'**
   String get terminalHide;
 
-  /// CodeWalk UI string — terminalMaximize
+  /// Kilo-Walk UI string — terminalMaximize
   ///
   /// In en, this message translates to:
   /// **'Maximize'**
   String get terminalMaximize;
 
-  /// CodeWalk UI string — terminalMinimize
+  /// Kilo-Walk UI string — terminalMinimize
   ///
   /// In en, this message translates to:
   /// **'Minimize terminal'**
   String get terminalMinimize;
 
-  /// CodeWalk UI string — terminalNotAvailableYet
+  /// Kilo-Walk UI string — terminalNotAvailableYet
   ///
   /// In en, this message translates to:
   /// **'Embedded terminal is not available on this runtime yet.'**
   String get terminalNotAvailableYet;
 
-  /// CodeWalk UI string — terminalOpen
+  /// Kilo-Walk UI string — terminalOpen
   ///
   /// In en, this message translates to:
   /// **'Open terminal'**
   String get terminalOpen;
 
-  /// CodeWalk UI string — terminalOpenInfo
+  /// Kilo-Walk UI string — terminalOpenInfo
   ///
   /// In en, this message translates to:
   /// **'Open terminal info'**
   String get terminalOpenInfo;
 
-  /// CodeWalk UI string — terminalOpenProjectFirst
+  /// Kilo-Walk UI string — terminalOpenProjectFirst
   ///
   /// In en, this message translates to:
   /// **'Open a project folder before starting the server terminal.'**
   String get terminalOpenProjectFirst;
 
-  /// CodeWalk UI string — terminalOpenToConnect
+  /// Kilo-Walk UI string — terminalOpenToConnect
   ///
   /// In en, this message translates to:
   /// **'Open Terminal to connect to the server project terminal.'**
   String get terminalOpenToConnect;
 
-  /// CodeWalk UI string — terminalReconnect
+  /// Kilo-Walk UI string — terminalReconnect
   ///
   /// In en, this message translates to:
   /// **'Reconnect terminal'**
   String get terminalReconnect;
 
-  /// CodeWalk UI string — terminalRestoreSize
+  /// Kilo-Walk UI string — terminalRestoreSize
   ///
   /// In en, this message translates to:
   /// **'Restore size'**
   String get terminalRestoreSize;
 
-  /// CodeWalk UI string — terminalSelectServer
+  /// Kilo-Walk UI string — terminalSelectServer
   ///
   /// In en, this message translates to:
   /// **'Select an active server before opening Terminal.'**
   String get terminalSelectServer;
 
-  /// CodeWalk UI string — terminalSessionClosed
+  /// Kilo-Walk UI string — terminalSessionClosed
   ///
   /// In en, this message translates to:
   /// **'Terminal session closed.'**
   String get terminalSessionClosed;
 
-  /// CodeWalk UI string — terminalTerminal
+  /// Kilo-Walk UI string — terminalTerminal
   ///
   /// In en, this message translates to:
   /// **'Terminal'**
   String get terminalTerminal;
 
-  /// CodeWalk UI string — terminalTitle
+  /// Kilo-Walk UI string — terminalTitle
   ///
   /// In en, this message translates to:
   /// **'Terminal'**
   String get terminalTitle;
 
-  /// CodeWalk UI string — terminalTryAgain
+  /// Kilo-Walk UI string — terminalTryAgain
   ///
   /// In en, this message translates to:
   /// **'Try again'**
   String get terminalTryAgain;
 
-  /// CodeWalk UI string — toolAwaitingInput
+  /// Kilo-Walk UI string — toolAwaitingInput
   ///
   /// In en, this message translates to:
   /// **'Awaiting input'**
   String get toolAwaitingInput;
 
-  /// CodeWalk UI string — toolEditing
+  /// Kilo-Walk UI string — toolEditing
   ///
   /// In en, this message translates to:
   /// **'Editing'**
   String get toolEditing;
 
-  /// CodeWalk UI string — toolEditingFiles
+  /// Kilo-Walk UI string — toolEditingFiles
   ///
   /// In en, this message translates to:
   /// **'Editing files'**
   String get toolEditingFiles;
 
-  /// CodeWalk UI string — toolFinding
+  /// Kilo-Walk UI string — toolFinding
   ///
   /// In en, this message translates to:
   /// **'Finding'**
   String get toolFinding;
 
-  /// CodeWalk UI string — toolFindingFiles
+  /// Kilo-Walk UI string — toolFindingFiles
   ///
   /// In en, this message translates to:
   /// **'Finding files'**
   String get toolFindingFiles;
 
-  /// CodeWalk UI string — toolPresentationAwaitingInput
+  /// Kilo-Walk UI string — toolPresentationAwaitingInput
   ///
   /// In en, this message translates to:
   /// **'Awaiting input'**
   String get toolPresentationAwaitingInput;
 
-  /// CodeWalk UI string — toolPresentationEditing
+  /// Kilo-Walk UI string — toolPresentationEditing
   ///
   /// In en, this message translates to:
   /// **'Editing'**
   String get toolPresentationEditing;
 
-  /// CodeWalk UI string — toolPresentationEditingFiles
+  /// Kilo-Walk UI string — toolPresentationEditingFiles
   ///
   /// In en, this message translates to:
   /// **'Editing files'**
   String get toolPresentationEditingFiles;
 
-  /// CodeWalk UI string — toolPresentationFinding
+  /// Kilo-Walk UI string — toolPresentationFinding
   ///
   /// In en, this message translates to:
   /// **'Finding'**
   String get toolPresentationFinding;
 
-  /// CodeWalk UI string — toolPresentationFindingFiles
+  /// Kilo-Walk UI string — toolPresentationFindingFiles
   ///
   /// In en, this message translates to:
   /// **'Finding files'**
   String get toolPresentationFindingFiles;
 
-  /// CodeWalk UI string — toolPresentationReading
+  /// Kilo-Walk UI string — toolPresentationReading
   ///
   /// In en, this message translates to:
   /// **'Reading'**
   String get toolPresentationReading;
 
-  /// CodeWalk UI string — toolPresentationReadingFile
+  /// Kilo-Walk UI string — toolPresentationReadingFile
   ///
   /// In en, this message translates to:
   /// **'Reading file'**
   String get toolPresentationReadingFile;
 
-  /// CodeWalk UI string — toolPresentationRunning
+  /// Kilo-Walk UI string — toolPresentationRunning
   ///
   /// In en, this message translates to:
   /// **'Running'**
   String get toolPresentationRunning;
 
-  /// CodeWalk UI string — toolPresentationRunningCommand
+  /// Kilo-Walk UI string — toolPresentationRunningCommand
   ///
   /// In en, this message translates to:
   /// **'Running command'**
   String get toolPresentationRunningCommand;
 
-  /// CodeWalk UI string — toolPresentationRunningTool
+  /// Kilo-Walk UI string — toolPresentationRunningTool
   ///
   /// In en, this message translates to:
   /// **'Running {toolName}'**
   String toolPresentationRunningTool(String toolName);
 
-  /// CodeWalk UI string — toolPresentationSearching
+  /// Kilo-Walk UI string — toolPresentationSearching
   ///
   /// In en, this message translates to:
   /// **'Searching'**
   String get toolPresentationSearching;
 
-  /// CodeWalk UI string — toolPresentationSearchingCode
+  /// Kilo-Walk UI string — toolPresentationSearchingCode
   ///
   /// In en, this message translates to:
   /// **'Searching code'**
   String get toolPresentationSearchingCode;
 
-  /// CodeWalk UI string — toolPresentationSearchingWeb
+  /// Kilo-Walk UI string — toolPresentationSearchingWeb
   ///
   /// In en, this message translates to:
   /// **'Searching the web'**
   String get toolPresentationSearchingWeb;
 
-  /// CodeWalk UI string — toolPresentationTool
+  /// Kilo-Walk UI string — toolPresentationTool
   ///
   /// In en, this message translates to:
   /// **'Tool'**
   String get toolPresentationTool;
 
-  /// CodeWalk UI string — toolPresentationUpdatingTaskList
+  /// Kilo-Walk UI string — toolPresentationUpdatingTaskList
   ///
   /// In en, this message translates to:
   /// **'Updating task list'**
   String get toolPresentationUpdatingTaskList;
 
-  /// CodeWalk UI string — toolPresentationUpdatingTasks
+  /// Kilo-Walk UI string — toolPresentationUpdatingTasks
   ///
   /// In en, this message translates to:
   /// **'Updating tasks'**
   String get toolPresentationUpdatingTasks;
 
-  /// CodeWalk UI string — toolPresentationWaitingInput
+  /// Kilo-Walk UI string — toolPresentationWaitingInput
   ///
   /// In en, this message translates to:
   /// **'Waiting for your input'**
   String get toolPresentationWaitingInput;
 
-  /// CodeWalk UI string — toolPresentationWriting
+  /// Kilo-Walk UI string — toolPresentationWriting
   ///
   /// In en, this message translates to:
   /// **'Writing'**
   String get toolPresentationWriting;
 
-  /// CodeWalk UI string — toolPresentationWritingFile
+  /// Kilo-Walk UI string — toolPresentationWritingFile
   ///
   /// In en, this message translates to:
   /// **'Writing file'**
   String get toolPresentationWritingFile;
 
-  /// CodeWalk UI string — toolReading
+  /// Kilo-Walk UI string — toolReading
   ///
   /// In en, this message translates to:
   /// **'Reading'**
   String get toolReading;
 
-  /// CodeWalk UI string — toolReadingFile
+  /// Kilo-Walk UI string — toolReadingFile
   ///
   /// In en, this message translates to:
   /// **'Reading file'**
   String get toolReadingFile;
 
-  /// CodeWalk UI string — toolRunning
+  /// Kilo-Walk UI string — toolRunning
   ///
   /// In en, this message translates to:
   /// **'Running'**
   String get toolRunning;
 
-  /// CodeWalk UI string — toolRunningCommand
+  /// Kilo-Walk UI string — toolRunningCommand
   ///
   /// In en, this message translates to:
   /// **'Running command'**
   String get toolRunningCommand;
 
-  /// CodeWalk UI string — toolRunningTask
+  /// Kilo-Walk UI string — toolRunningTask
   ///
   /// In en, this message translates to:
   /// **'Running task'**
   String get toolRunningTask;
 
-  /// CodeWalk UI string — toolSearching
+  /// Kilo-Walk UI string — toolSearching
   ///
   /// In en, this message translates to:
   /// **'Searching'**
   String get toolSearching;
 
-  /// CodeWalk UI string — toolSearchingCode
+  /// Kilo-Walk UI string — toolSearchingCode
   ///
   /// In en, this message translates to:
   /// **'Searching code'**
   String get toolSearchingCode;
 
-  /// CodeWalk UI string — toolSearchingWeb
+  /// Kilo-Walk UI string — toolSearchingWeb
   ///
   /// In en, this message translates to:
   /// **'Searching the web'**
   String get toolSearchingWeb;
 
-  /// CodeWalk UI string — toolUpdatingTaskList
+  /// Kilo-Walk UI string — toolUpdatingTaskList
   ///
   /// In en, this message translates to:
   /// **'Updating task list'**
   String get toolUpdatingTaskList;
 
-  /// CodeWalk UI string — toolUpdatingTasks
+  /// Kilo-Walk UI string — toolUpdatingTasks
   ///
   /// In en, this message translates to:
   /// **'Updating tasks'**
   String get toolUpdatingTasks;
 
-  /// CodeWalk UI string — toolWaitingForInput
+  /// Kilo-Walk UI string — toolWaitingForInput
   ///
   /// In en, this message translates to:
   /// **'Waiting for your input'**
   String get toolWaitingForInput;
 
-  /// CodeWalk UI string — toolWriting
+  /// Kilo-Walk UI string — toolWriting
   ///
   /// In en, this message translates to:
   /// **'Writing'**
   String get toolWriting;
 
-  /// CodeWalk UI string — toolWritingFile
+  /// Kilo-Walk UI string — toolWritingFile
   ///
   /// In en, this message translates to:
   /// **'Writing file'**
   String get toolWritingFile;
 
-  /// CodeWalk UI string — tourBack
+  /// Kilo-Walk UI string — tourBack
   ///
   /// In en, this message translates to:
   /// **'Back'**
   String get tourBack;
 
-  /// CodeWalk UI string — tourSkip
+  /// Kilo-Walk UI string — tourSkip
   ///
   /// In en, this message translates to:
   /// **'Skip'**
   String get tourSkip;
 
-  /// CodeWalk UI string — trayQuit
+  /// Kilo-Walk UI string — trayQuit
   ///
   /// In en, this message translates to:
   /// **'Quit'**
   String get trayQuit;
 
-  /// CodeWalk UI string — trayShow
+  /// Kilo-Walk UI string — trayShow
   ///
   /// In en, this message translates to:
   /// **'Show'**
   String get trayShow;
 
-  /// CodeWalk UI string — useOAuthCloudflareAccess
+  /// Kilo-Walk UI string — useOAuthCloudflareAccess
   ///
   /// In en, this message translates to:
   /// **'Use OAuth (Cloudflare Access)'**
   String get useOAuthCloudflareAccess;
 
-  /// CodeWalk UI string — useOAuthCloudflareAccessSubtitle
+  /// Kilo-Walk UI string — useOAuthCloudflareAccessSubtitle
   ///
   /// In en, this message translates to:
   /// **'Opens a browser for Cloudflare Access Managed OAuth.'**
   String get useOAuthCloudflareAccessSubtitle;
 
-  /// CodeWalk UI string — useOAuthCloudflareAccessUnsupported
+  /// Kilo-Walk UI string — useOAuthCloudflareAccessUnsupported
   ///
   /// In en, this message translates to:
   /// **'Cloudflare Access OAuth is not available on this platform. Use Basic Auth instead.'**
   String get useOAuthCloudflareAccessUnsupported;
 
-  /// CodeWalk UI string — useTailscale
+  /// Kilo-Walk UI string — useTailscale
   ///
   /// In en, this message translates to:
   /// **'Use Tailscale'**
   String get useTailscale;
 
-  /// CodeWalk UI string — useTailscaleSubtitle
+  /// Kilo-Walk UI string — useTailscaleSubtitle
   ///
   /// In en, this message translates to:
   /// **'Routes traffic through the Tailscale network without a system VPN.'**
   String get useTailscaleSubtitle;
 
-  /// CodeWalk UI string — useTailscaleUnsupported
+  /// Kilo-Walk UI string — useTailscaleUnsupported
   ///
   /// In en, this message translates to:
   /// **'Tailscale is not supported on this platform.'**
   String get useTailscaleUnsupported;
 
-  /// CodeWalk UI string — useTailscaleWebOsLevel
+  /// Kilo-Walk UI string — useTailscaleWebOsLevel
   ///
   /// In en, this message translates to:
   /// **'On web, Tailscale works at the OS level — turn it on in the Tailscale app, then add the server URL here.'**
   String get useTailscaleWebOsLevel;
 
-  /// CodeWalk UI string — utilityTitle
+  /// Kilo-Walk UI string — utilityTitle
   ///
   /// In en, this message translates to:
   /// **'Utility'**
   String get utilityTitle;
 
-  /// CodeWalk UI string — workspaceBrowseDirs
+  /// Kilo-Walk UI string — workspaceBrowseDirs
   ///
   /// In en, this message translates to:
   /// **'Browse directories'**
   String get workspaceBrowseDirs;
 
-  /// CodeWalk UI string — workspaceChooseFolderOpen
+  /// Kilo-Walk UI string — workspaceChooseFolderOpen
   ///
   /// In en, this message translates to:
   /// **'Choose any folder to open as project context.'**
   String get workspaceChooseFolderOpen;
 
-  /// CodeWalk UI string — workspaceCloseProject
+  /// Kilo-Walk UI string — workspaceCloseProject
   ///
   /// In en, this message translates to:
   /// **'Close {project}'**
   String workspaceCloseProject(String project);
 
-  /// CodeWalk UI string — workspaceClosedProjects
+  /// Kilo-Walk UI string — workspaceClosedProjects
   ///
   /// In en, this message translates to:
   /// **'Closed projects'**
   String get workspaceClosedProjects;
 
-  /// CodeWalk UI string — workspaceCurrentDirectory
+  /// Kilo-Walk UI string — workspaceCurrentDirectory
   ///
   /// In en, this message translates to:
   /// **'Current directory: {path}'**
   String workspaceCurrentDirectory(String path);
 
-  /// CodeWalk UI string — workspaceFilterDirs
+  /// Kilo-Walk UI string — workspaceFilterDirs
   ///
   /// In en, this message translates to:
   /// **'Filter directories'**
   String get workspaceFilterDirs;
 
-  /// CodeWalk UI string — workspaceOpenFolder
+  /// Kilo-Walk UI string — workspaceOpenFolder
   ///
   /// In en, this message translates to:
   /// **'Open folder'**
   String get workspaceOpenFolder;
 
-  /// CodeWalk UI string — workspaceOpenProjectFolder
+  /// Kilo-Walk UI string — workspaceOpenProjectFolder
   ///
   /// In en, this message translates to:
   /// **'Open project folder'**
   String get workspaceOpenProjectFolder;
 
-  /// CodeWalk UI string — workspaceOpenProjects
+  /// Kilo-Walk UI string — workspaceOpenProjects
   ///
   /// In en, this message translates to:
   /// **'Open projects'**
   String get workspaceOpenProjects;
 
-  /// CodeWalk UI string — workspaceProjectDirectory
+  /// Kilo-Walk UI string — workspaceProjectDirectory
   ///
   /// In en, this message translates to:
   /// **'Project directory'**
   String get workspaceProjectDirectory;
 
-  /// CodeWalk UI string — workspaceProjectHint
+  /// Kilo-Walk UI string — workspaceProjectHint
   ///
   /// In en, this message translates to:
   /// **'/repo/my-project'**
   String get workspaceProjectHint;
 
-  /// CodeWalk UI string — workspaceRemoveFromHistory
+  /// Kilo-Walk UI string — workspaceRemoveFromHistory
   ///
   /// In en, this message translates to:
   /// **'Remove {name} from history'**
@@ -8936,7 +8936,7 @@ abstract class AppLocalizations {
   /// **'When you press Read, response text may be sent to the configured third-party TTS provider.'**
   String get settingsSessionAttentionThirdPartyTtsWarning;
 
-  /// CodeWalk UI string — workspaceSuggestions
+  /// Kilo-Walk UI string — workspaceSuggestions
   ///
   /// In en, this message translates to:
   /// **'Suggestions'**
@@ -9092,847 +9092,847 @@ abstract class AppLocalizations {
   /// **'Tools'**
   String get sessionTabIconPresetTools;
 
-  /// CodeWalk UI string — workspaceNoActiveContext
+  /// Kilo-Walk UI string — workspaceNoActiveContext
   ///
   /// In en, this message translates to:
   /// **'No active context'**
   String get workspaceNoActiveContext;
 
-  /// CodeWalk UI string — settingsAppearanceContrastLow
+  /// Kilo-Walk UI string — settingsAppearanceContrastLow
   ///
   /// In en, this message translates to:
   /// **'Low'**
   String get settingsAppearanceContrastLow;
 
-  /// CodeWalk UI string — settingsAppearanceContrastStandard
+  /// Kilo-Walk UI string — settingsAppearanceContrastStandard
   ///
   /// In en, this message translates to:
   /// **'Standard'**
   String get settingsAppearanceContrastStandard;
 
-  /// CodeWalk UI string — settingsAppearanceContrastMedium
+  /// Kilo-Walk UI string — settingsAppearanceContrastMedium
   ///
   /// In en, this message translates to:
   /// **'Medium'**
   String get settingsAppearanceContrastMedium;
 
-  /// CodeWalk UI string — settingsAppearanceContrastMediumHigh
+  /// Kilo-Walk UI string — settingsAppearanceContrastMediumHigh
   ///
   /// In en, this message translates to:
   /// **'Medium High'**
   String get settingsAppearanceContrastMediumHigh;
 
-  /// CodeWalk UI string — settingsNotificationsSystemSoundsWebUnavailable
+  /// Kilo-Walk UI string — settingsNotificationsSystemSoundsWebUnavailable
   ///
   /// In en, this message translates to:
   /// **'Not available on web.'**
   String get settingsNotificationsSystemSoundsWebUnavailable;
 
-  /// CodeWalk UI string — settingsNotificationsSystemSoundsAndroid
+  /// Kilo-Walk UI string — settingsNotificationsSystemSoundsAndroid
   ///
   /// In en, this message translates to:
   /// **'Android notification sounds from the system.'**
   String get settingsNotificationsSystemSoundsAndroid;
 
-  /// CodeWalk UI string — settingsNotificationsSystemSoundsFreedesktop
+  /// Kilo-Walk UI string — settingsNotificationsSystemSoundsFreedesktop
   ///
   /// In en, this message translates to:
   /// **'Freedesktop sounds from /usr/share/sounds/freedesktop/stereo.'**
   String get settingsNotificationsSystemSoundsFreedesktop;
 
-  /// CodeWalk UI string — settingsNotificationsSystemSoundsPlatform
+  /// Kilo-Walk UI string — settingsNotificationsSystemSoundsPlatform
   ///
   /// In en, this message translates to:
   /// **'Supported where the operating system exposes system sounds.'**
   String get settingsNotificationsSystemSoundsPlatform;
 
-  /// CodeWalk UI string — serversQuickGuideTitle
+  /// Kilo-Walk UI string — serversQuickGuideTitle
   ///
   /// In en, this message translates to:
   /// **'Quick setup'**
   String get serversQuickGuideTitle;
 
-  /// CodeWalk UI string — serversQuickGuideIntro
+  /// Kilo-Walk UI string — serversQuickGuideIntro
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk is the app. OpenCode is the engine that needs to be running before this connection can work.'**
+  /// **'Kilo-Walk is the app. OpenCode is the engine that needs to be running before this connection can work.'**
   String get serversQuickGuideIntro;
 
-  /// CodeWalk UI string — serversQuickGuideStepInstallCli
+  /// Kilo-Walk UI string — serversQuickGuideStepInstallCli
   ///
   /// In en, this message translates to:
   /// **'1. Install OpenCode CLI.'**
   String get serversQuickGuideStepInstallCli;
 
-  /// CodeWalk UI string — serversQuickGuideRunPowerShell
+  /// Kilo-Walk UI string — serversQuickGuideRunPowerShell
   ///
   /// In en, this message translates to:
   /// **'2. Run in PowerShell:'**
   String get serversQuickGuideRunPowerShell;
 
-  /// CodeWalk UI string — serversQuickGuideRunTerminal
+  /// Kilo-Walk UI string — serversQuickGuideRunTerminal
   ///
   /// In en, this message translates to:
   /// **'2. Run in your terminal:'**
   String get serversQuickGuideRunTerminal;
 
-  /// CodeWalk UI string — serversQuickGuideProtectPassword
+  /// Kilo-Walk UI string — serversQuickGuideProtectPassword
   ///
   /// In en, this message translates to:
   /// **'Protect access with password'**
   String get serversQuickGuideProtectPassword;
 
-  /// CodeWalk UI string — serversQuickGuideServerPassword
+  /// Kilo-Walk UI string — serversQuickGuideServerPassword
   ///
   /// In en, this message translates to:
   /// **'Server password'**
   String get serversQuickGuideServerPassword;
 
-  /// CodeWalk UI string — serversQuickGuideInstallOptions
+  /// Kilo-Walk UI string — serversQuickGuideInstallOptions
   ///
   /// In en, this message translates to:
   /// **'Other official install options: install script, npm, bun, pnpm, Homebrew, or a binary from GitHub Releases.'**
   String get serversQuickGuideInstallOptions;
 
-  /// CodeWalk UI string — serversQuickGuideVerifyHint
+  /// Kilo-Walk UI string — serversQuickGuideVerifyHint
   ///
   /// In en, this message translates to:
-  /// **'After starting the server, confirm /global/health or /doc responds before pasting the URL into CodeWalk.'**
+  /// **'After starting the server, confirm /global/health or /doc responds before pasting the URL into Kilo-Walk.'**
   String get serversQuickGuideVerifyHint;
 
-  /// CodeWalk UI string — shortcutsPressKeyCombination
+  /// Kilo-Walk UI string — shortcutsPressKeyCombination
   ///
   /// In en, this message translates to:
   /// **'Press the key combination now'**
   String get shortcutsPressKeyCombination;
 
-  /// CodeWalk UI string — settingsProvenanceOpenCodeBacked
+  /// Kilo-Walk UI string — settingsProvenanceOpenCodeBacked
   ///
   /// In en, this message translates to:
   /// **'OpenCode-backed'**
   String get settingsProvenanceOpenCodeBacked;
 
-  /// CodeWalk UI string — settingsProvenanceCodeWalkLocal
+  /// Kilo-Walk UI string — settingsProvenanceKilo-WalkLocal
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk-local'**
+  /// **'Kilo-Walk-local'**
   String get settingsProvenanceCodeWalkLocal;
 
-  /// CodeWalk UI string — settingsProvenanceCodeWalkException
+  /// Kilo-Walk UI string — settingsProvenanceKilo-WalkException
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk exception'**
+  /// **'Kilo-Walk exception'**
   String get settingsProvenanceCodeWalkException;
 
-  /// CodeWalk UI string — shortcutsErrorInvalid
+  /// Kilo-Walk UI string — shortcutsErrorInvalid
   ///
   /// In en, this message translates to:
   /// **'Invalid shortcut'**
   String get shortcutsErrorInvalid;
 
-  /// CodeWalk UI string — shortcutsErrorUnsupportedKey
+  /// Kilo-Walk UI string — shortcutsErrorUnsupportedKey
   ///
   /// In en, this message translates to:
   /// **'Unsupported shortcut key'**
   String get shortcutsErrorUnsupportedKey;
 
-  /// CodeWalk UI string — shortcutsErrorConflict
+  /// Kilo-Walk UI string — shortcutsErrorConflict
   ///
   /// In en, this message translates to:
   /// **'Conflicts with \"{conflict}\"'**
   String shortcutsErrorConflict(String conflict);
 
-  /// CodeWalk UI string — settingsSessionAttentionStopSaveFailed
+  /// Kilo-Walk UI string — settingsSessionAttentionStopSaveFailed
   ///
   /// In en, this message translates to:
   /// **'Session attention was stopped but the setting could not be saved.'**
   String get settingsSessionAttentionStopSaveFailed;
 
-  /// CodeWalk UI string — settingsSessionAttentionEnableFailed
+  /// Kilo-Walk UI string — settingsSessionAttentionEnableFailed
   ///
   /// In en, this message translates to:
   /// **'Session attention could not be enabled.'**
   String get settingsSessionAttentionEnableFailed;
 
-  /// CodeWalk UI string — settingsSessionAttentionSaveFailedStopped
+  /// Kilo-Walk UI string — settingsSessionAttentionSaveFailedStopped
   ///
   /// In en, this message translates to:
   /// **'Session attention could not be saved and was stopped.'**
   String get settingsSessionAttentionSaveFailedStopped;
 
-  /// CodeWalk UI string — settingsSessionAttentionStillRunning
+  /// Kilo-Walk UI string — settingsSessionAttentionStillRunning
   ///
   /// In en, this message translates to:
   /// **'Session attention is still running. Try stopping it again.'**
   String get settingsSessionAttentionStillRunning;
 
-  /// CodeWalk UI string — settingsSessionAttentionStopFailed
+  /// Kilo-Walk UI string — settingsSessionAttentionStopFailed
   ///
   /// In en, this message translates to:
   /// **'Session attention could not be stopped. Try again.'**
   String get settingsSessionAttentionStopFailed;
 
-  /// CodeWalk UI string — settingsSessionAttentionCapabilityUnavailable
+  /// Kilo-Walk UI string — settingsSessionAttentionCapabilityUnavailable
   ///
   /// In en, this message translates to:
   /// **'Session attention host capability is unavailable.'**
   String get settingsSessionAttentionCapabilityUnavailable;
 
-  /// CodeWalk UI string — settingsServerFallbackProviderName
+  /// Kilo-Walk UI string — settingsServerFallbackProviderName
   ///
   /// In en, this message translates to:
   /// **'Configured on server'**
   String get settingsServerFallbackProviderName;
 
-  /// CodeWalk UI string — composerStopResponse
+  /// Kilo-Walk UI string — composerStopResponse
   ///
   /// In en, this message translates to:
   /// **'Stop response'**
   String get composerStopResponse;
 
-  /// CodeWalk UI string — composerSendMessageWhileResponding
+  /// Kilo-Walk UI string — composerSendMessageWhileResponding
   ///
   /// In en, this message translates to:
   /// **'Send message while response is running'**
   String get composerSendMessageWhileResponding;
 
-  /// CodeWalk UI string — composerSendMessage
+  /// Kilo-Walk UI string — composerSendMessage
   ///
   /// In en, this message translates to:
   /// **'Send message'**
   String get composerSendMessage;
 
-  /// CodeWalk UI string — chatTourComposerDescription
+  /// Kilo-Walk UI string — chatTourComposerDescription
   ///
   /// In en, this message translates to:
   /// **'Type your request here.'**
   String get chatTourComposerDescription;
 
-  /// CodeWalk UI string — chatTourSendDescription
+  /// Kilo-Walk UI string — chatTourSendDescription
   ///
   /// In en, this message translates to:
   /// **'Send your message here.'**
   String get chatTourSendDescription;
 
-  /// CodeWalk UI string — composerAttachmentFallbackName
+  /// Kilo-Walk UI string — composerAttachmentFallbackName
   ///
   /// In en, this message translates to:
   /// **'Attachment'**
   String get composerAttachmentFallbackName;
 
-  /// CodeWalk UI string — composerContextFallbackName
+  /// Kilo-Walk UI string — composerContextFallbackName
   ///
   /// In en, this message translates to:
   /// **'Context'**
   String get composerContextFallbackName;
 
-  /// CodeWalk UI string — searchableDropdownSearchHint
+  /// Kilo-Walk UI string — searchableDropdownSearchHint
   ///
   /// In en, this message translates to:
   /// **'Search'**
   String get searchableDropdownSearchHint;
 
-  /// CodeWalk UI string — searchableDropdownEmptyText
+  /// Kilo-Walk UI string — searchableDropdownEmptyText
   ///
   /// In en, this message translates to:
   /// **'No matches found'**
   String get searchableDropdownEmptyText;
 
-  /// CodeWalk UI string — speechApiKeyStorageUnavailable
+  /// Kilo-Walk UI string — speechApiKeyStorageUnavailable
   ///
   /// In en, this message translates to:
   /// **'Secure TTS API key storage is unavailable.'**
   String get speechApiKeyStorageUnavailable;
 
-  /// CodeWalk UI string — speechApiKeyRemoved
+  /// Kilo-Walk UI string — speechApiKeyRemoved
   ///
   /// In en, this message translates to:
   /// **'API key removed.'**
   String get speechApiKeyRemoved;
 
-  /// CodeWalk UI string — speechApiKeySaved
+  /// Kilo-Walk UI string — speechApiKeySaved
   ///
   /// In en, this message translates to:
   /// **'API key saved securely on this device.'**
   String get speechApiKeySaved;
 
-  /// CodeWalk UI string — speechReadAloudTestText
+  /// Kilo-Walk UI string — speechReadAloudTestText
   ///
   /// In en, this message translates to:
-  /// **'This is a CodeWalk text-to-speech test.'**
+  /// **'This is a Kilo-Walk text-to-speech test.'**
   String get speechReadAloudTestText;
 
-  /// CodeWalk UI string — speechNativeDisabledWindows
+  /// Kilo-Walk UI string — speechNativeDisabledWindows
   ///
   /// In en, this message translates to:
-  /// **'Disabled on Windows for stability. Use Parakeet or another on-device engine through CodeWalk WASAPI capture.'**
+  /// **'Disabled on Windows for stability. Use Parakeet or another on-device engine through Kilo-Walk WASAPI capture.'**
   String get speechNativeDisabledWindows;
 
-  /// CodeWalk UI string — speechNativeUnavailableLinux
+  /// Kilo-Walk UI string — speechNativeUnavailableLinux
   ///
   /// In en, this message translates to:
   /// **'Unavailable on Linux. Use Parakeet for speech input.'**
   String get speechNativeUnavailableLinux;
 
-  /// CodeWalk UI string — speechNotAvailableOnPlatform
+  /// Kilo-Walk UI string — speechNotAvailableOnPlatform
   ///
   /// In en, this message translates to:
   /// **'Not available on this platform.'**
   String get speechNotAvailableOnPlatform;
 
-  /// CodeWalk UI string — speechSherpaUnavailableAndroid
+  /// Kilo-Walk UI string — speechSherpaUnavailableAndroid
   ///
   /// In en, this message translates to:
   /// **'Unavailable on Android builds optimized for small APK size.'**
   String get speechSherpaUnavailableAndroid;
 
-  /// CodeWalk UI string — speechMoonshineDesktopOnlyHint
+  /// Kilo-Walk UI string — speechMoonshineDesktopOnlyHint
   ///
   /// In en, this message translates to:
   /// **'Available on desktop only. Android stays native-only.'**
   String get speechMoonshineDesktopOnlyHint;
 
-  /// CodeWalk UI string — speechParakeetDesktopOnlyHint
+  /// Kilo-Walk UI string — speechParakeetDesktopOnlyHint
   ///
   /// In en, this message translates to:
   /// **'Available on desktop only. Uses offline multilingual recognition.'**
   String get speechParakeetDesktopOnlyHint;
 
-  /// CodeWalk UI string — speechSenseVoiceDesktopOnlyHint
+  /// Kilo-Walk UI string — speechSenseVoiceDesktopOnlyHint
   ///
   /// In en, this message translates to:
   /// **'Available on desktop only. Strongest for Chinese, Cantonese, Japanese, Korean, and English.'**
   String get speechSenseVoiceDesktopOnlyHint;
 
-  /// CodeWalk UI string — speechNativeSubtitle
+  /// Kilo-Walk UI string — speechNativeSubtitle
   ///
   /// In en, this message translates to:
   /// **'Simpler and faster startup.'**
   String get speechNativeSubtitle;
 
-  /// CodeWalk UI string — speechSherpaSubtitle
+  /// Kilo-Walk UI string — speechSherpaSubtitle
   ///
   /// In en, this message translates to:
   /// **'On-device speech recognition with downloadable models.'**
   String get speechSherpaSubtitle;
 
-  /// CodeWalk UI string — speechMoonshineSubtitle
+  /// Kilo-Walk UI string — speechMoonshineSubtitle
   ///
   /// In en, this message translates to:
   /// **'Desktop-only experimental path using sherpa_onnx offline recognition and downloadable models.'**
   String get speechMoonshineSubtitle;
 
-  /// CodeWalk UI string — speechParakeetSubtitle
+  /// Kilo-Walk UI string — speechParakeetSubtitle
   ///
   /// In en, this message translates to:
   /// **'Desktop-only offline NeMo transducer path with one multilingual downloadable model.'**
   String get speechParakeetSubtitle;
 
-  /// CodeWalk UI string — speechSenseVoiceSubtitle
+  /// Kilo-Walk UI string — speechSenseVoiceSubtitle
   ///
   /// In en, this message translates to:
   /// **'Desktop-only offline path tuned for Chinese, Cantonese, Japanese, Korean, and English.'**
   String get speechSenseVoiceSubtitle;
 
-  /// CodeWalk UI string — speechMoonshineModel
+  /// Kilo-Walk UI string — speechMoonshineModel
   ///
   /// In en, this message translates to:
   /// **'Moonshine model'**
   String get speechMoonshineModel;
 
-  /// CodeWalk UI string — speechSherpaLanguage
+  /// Kilo-Walk UI string — speechSherpaLanguage
   ///
   /// In en, this message translates to:
   /// **'Sherpa language'**
   String get speechSherpaLanguage;
 
-  /// CodeWalk UI string — speechSearchSherpaLanguage
+  /// Kilo-Walk UI string — speechSearchSherpaLanguage
   ///
   /// In en, this message translates to:
   /// **'Search Sherpa language'**
   String get speechSearchSherpaLanguage;
 
-  /// CodeWalk UI string — speechNoLanguagePacksFound
+  /// Kilo-Walk UI string — speechNoLanguagePacksFound
   ///
   /// In en, this message translates to:
   /// **'No language packs found'**
   String get speechNoLanguagePacksFound;
 
-  /// CodeWalk UI string — speechTextToSpeechProvider
+  /// Kilo-Walk UI string — speechTextToSpeechProvider
   ///
   /// In en, this message translates to:
   /// **'Text-to-speech provider'**
   String get speechTextToSpeechProvider;
 
-  /// CodeWalk UI string — speechProviderSystemNative
+  /// Kilo-Walk UI string — speechProviderSystemNative
   ///
   /// In en, this message translates to:
   /// **'System / Native'**
   String get speechProviderSystemNative;
 
-  /// CodeWalk UI string — speechProviderEdgeExperimental
+  /// Kilo-Walk UI string — speechProviderEdgeExperimental
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech (experimental)'**
   String get speechProviderEdgeExperimental;
 
-  /// CodeWalk UI string — speechProviderOpenAiCompatible
+  /// Kilo-Walk UI string — speechProviderOpenAiCompatible
   ///
   /// In en, this message translates to:
   /// **'OpenAI-compatible'**
   String get speechProviderOpenAiCompatible;
 
-  /// CodeWalk UI string — speechProviderElevenLabs
+  /// Kilo-Walk UI string — speechProviderElevenLabs
   ///
   /// In en, this message translates to:
   /// **'ElevenLabs'**
   String get speechProviderElevenLabs;
 
-  /// CodeWalk UI string — speechProviderNvidiaNim
+  /// Kilo-Walk UI string — speechProviderNvidiaNim
   ///
   /// In en, this message translates to:
   /// **'NVIDIA NIM'**
   String get speechProviderNvidiaNim;
 
-  /// CodeWalk UI string — speechNimSpeedNotSupported
+  /// Kilo-Walk UI string — speechNimSpeedNotSupported
   ///
   /// In en, this message translates to:
   /// **'Speed is not supported by NVIDIA NIM TTS and is hidden for this provider.'**
   String get speechNimSpeedNotSupported;
 
-  /// CodeWalk UI string — speechRemoteVoice
+  /// Kilo-Walk UI string — speechRemoteVoice
   ///
   /// In en, this message translates to:
   /// **'Voice'**
   String get speechRemoteVoice;
 
-  /// CodeWalk UI string — speechRemoteVoiceUnavailable
+  /// Kilo-Walk UI string — speechRemoteVoiceUnavailable
   ///
   /// In en, this message translates to:
   /// **'The selected voice is no longer available in the provider catalog.'**
   String get speechRemoteVoiceUnavailable;
 
-  /// CodeWalk UI string — speechRemoteVoiceListUnavailable
+  /// Kilo-Walk UI string — speechRemoteVoiceListUnavailable
   ///
   /// In en, this message translates to:
   /// **'Using the default voice. The voice list could not be loaded right now.'**
   String get speechRemoteVoiceListUnavailable;
 
-  /// CodeWalk UI string — speechRemoteVoicesLoaded
+  /// Kilo-Walk UI string — speechRemoteVoicesLoaded
   ///
   /// In en, this message translates to:
   /// **'Loaded from the provider voices.'**
   String get speechRemoteVoicesLoaded;
 
-  /// CodeWalk UI string — speechRemoteModel
+  /// Kilo-Walk UI string — speechRemoteModel
   ///
   /// In en, this message translates to:
   /// **'Model'**
   String get speechRemoteModel;
 
-  /// CodeWalk UI string — speechRemoteModelListUnavailable
+  /// Kilo-Walk UI string — speechRemoteModelListUnavailable
   ///
   /// In en, this message translates to:
   /// **'The model list could not be loaded right now. You can type a custom model below.'**
   String get speechRemoteModelListUnavailable;
 
-  /// CodeWalk UI string — speechRemoteModelsLoaded
+  /// Kilo-Walk UI string — speechRemoteModelsLoaded
   ///
   /// In en, this message translates to:
   /// **'Loaded from the provider models.'**
   String get speechRemoteModelsLoaded;
 
-  /// CodeWalk UI string — speechRemoteModelUnavailable
+  /// Kilo-Walk UI string — speechRemoteModelUnavailable
   ///
   /// In en, this message translates to:
   /// **'The selected model is no longer available in the provider catalog.'**
   String get speechRemoteModelUnavailable;
 
-  /// CodeWalk UI string — speechCustomModel
+  /// Kilo-Walk UI string — speechCustomModel
   ///
   /// In en, this message translates to:
   /// **'Custom model…'**
   String get speechCustomModel;
 
-  /// CodeWalk UI string — speechEdgeExperimentalTitle
+  /// Kilo-Walk UI string — speechEdgeExperimentalTitle
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech is experimental'**
   String get speechEdgeExperimentalTitle;
 
-  /// CodeWalk UI string — speechEdgeExperimentalDescription
+  /// Kilo-Walk UI string — speechEdgeExperimentalDescription
   ///
   /// In en, this message translates to:
   /// **'Uses the unofficial Edge Read Aloud service directly from this device. Message text is sent to Microsoft when you use read aloud, and the service may break if Microsoft changes the private protocol.'**
   String get speechEdgeExperimentalDescription;
 
-  /// CodeWalk UI string — speechEdgeVoice
+  /// Kilo-Walk UI string — speechEdgeVoice
   ///
   /// In en, this message translates to:
   /// **'Edge voice'**
   String get speechEdgeVoice;
 
-  /// CodeWalk UI string — speechEdgeVoiceUnavailable
+  /// Kilo-Walk UI string — speechEdgeVoiceUnavailable
   ///
   /// In en, this message translates to:
   /// **'The selected voice is no longer available. Using the default Edge voice.'**
   String get speechEdgeVoiceUnavailable;
 
-  /// CodeWalk UI string — speechEdgeVoiceListUnavailable
+  /// Kilo-Walk UI string — speechEdgeVoiceListUnavailable
   ///
   /// In en, this message translates to:
   /// **'Using the default Edge voice. Voice list could not be loaded right now.'**
   String get speechEdgeVoiceListUnavailable;
 
-  /// CodeWalk UI string — speechEdgeVoicesLoaded
+  /// Kilo-Walk UI string — speechEdgeVoicesLoaded
   ///
   /// In en, this message translates to:
   /// **'Loaded from Microsoft Edge Speech voices.'**
   String get speechEdgeVoicesLoaded;
 
-  /// CodeWalk UI string — speechCloudTtsPrivacy
+  /// Kilo-Walk UI string — speechCloudTtsPrivacy
   ///
   /// In en, this message translates to:
   /// **'Cloud TTS privacy'**
   String get speechCloudTtsPrivacy;
 
-  /// CodeWalk UI string — speechCloudTtsPrivacyDescription
+  /// Kilo-Walk UI string — speechCloudTtsPrivacyDescription
   ///
   /// In en, this message translates to:
   /// **'Cloud TTS sends the selected assistant message text to the configured provider. API keys are stored in secure storage on this device.'**
   String get speechCloudTtsPrivacyDescription;
 
-  /// CodeWalk UI string — speechBaseUrl
+  /// Kilo-Walk UI string — speechBaseUrl
   ///
   /// In en, this message translates to:
   /// **'Base URL'**
   String get speechBaseUrl;
 
-  /// CodeWalk UI string — speechApiKey
+  /// Kilo-Walk UI string — speechApiKey
   ///
   /// In en, this message translates to:
   /// **'API key'**
   String get speechApiKey;
 
-  /// CodeWalk UI string — speechApiKeySavedHelper
+  /// Kilo-Walk UI string — speechApiKeySavedHelper
   ///
   /// In en, this message translates to:
   /// **'A key is saved. Enter a new value to replace it, or save an empty value to remove it.'**
   String get speechApiKeySavedHelper;
 
-  /// CodeWalk UI string — speechNoApiKeySaved
+  /// Kilo-Walk UI string — speechNoApiKeySaved
   ///
   /// In en, this message translates to:
   /// **'No API key saved.'**
   String get speechNoApiKeySaved;
 
-  /// CodeWalk UI string — speechSaveApiKey
+  /// Kilo-Walk UI string — speechSaveApiKey
   ///
   /// In en, this message translates to:
   /// **'Save API key'**
   String get speechSaveApiKey;
 
-  /// CodeWalk UI string — speechModel
+  /// Kilo-Walk UI string — speechModel
   ///
   /// In en, this message translates to:
   /// **'Model'**
   String get speechModel;
 
-  /// CodeWalk UI string — speechPitchNotSupported
+  /// Kilo-Walk UI string — speechPitchNotSupported
   ///
   /// In en, this message translates to:
   /// **'Pitch is not supported by OpenAI-compatible TTS and is hidden for this provider.'**
   String get speechPitchNotSupported;
 
-  /// CodeWalk UI string — speechPitchHiddenForProvider
+  /// Kilo-Walk UI string — speechPitchHiddenForProvider
   ///
   /// In en, this message translates to:
   /// **'Pitch is not supported by this TTS provider and is hidden.'**
   String get speechPitchHiddenForProvider;
 
-  /// CodeWalk UI string — speechTestVoice
+  /// Kilo-Walk UI string — speechTestVoice
   ///
   /// In en, this message translates to:
   /// **'Test voice'**
   String get speechTestVoice;
 
-  /// CodeWalk UI string — speechReadAloudTestPhraseLabel
+  /// Kilo-Walk UI string — speechReadAloudTestPhraseLabel
   ///
   /// In en, this message translates to:
   /// **'Voice test phrase'**
   String get speechReadAloudTestPhraseLabel;
 
-  /// CodeWalk UI string — speechReadAloudTestPhraseHint
+  /// Kilo-Walk UI string — speechReadAloudTestPhraseHint
   ///
   /// In en, this message translates to:
   /// **'Leave empty to use the default test phrase.'**
   String get speechReadAloudTestPhraseHint;
 
-  /// CodeWalk UI string — dialogMoonshineVoiceSetupDescription
+  /// Kilo-Walk UI string — dialogMoonshineVoiceSetupDescription
   ///
   /// In en, this message translates to:
   /// **'Moonshine runs on-device through sherpa_onnx. Pick a model once and download it only for this desktop device.'**
   String get dialogMoonshineVoiceSetupDescription;
 
-  /// CodeWalk UI string — dialogParakeetVoiceSetupDescription
+  /// Kilo-Walk UI string — dialogParakeetVoiceSetupDescription
   ///
   /// In en, this message translates to:
   /// **'Parakeet runs on-device through sherpa_onnx offline recognition. Download it once for this desktop device to enable multilingual STT.'**
   String get dialogParakeetVoiceSetupDescription;
 
-  /// CodeWalk UI string — dialogSenseVoiceSetupDescription
+  /// Kilo-Walk UI string — dialogSenseVoiceSetupDescription
   ///
   /// In en, this message translates to:
   /// **'SenseVoice runs on-device through sherpa_onnx offline recognition. It is strongest for Chinese, Cantonese, Japanese, Korean, and English.'**
   String get dialogSenseVoiceSetupDescription;
 
-  /// CodeWalk UI string — dialogSherpaVoiceSetupDescription
+  /// Kilo-Walk UI string — dialogSherpaVoiceSetupDescription
   ///
   /// In en, this message translates to:
   /// **'Sherpa voice input requires an on-device speech model. Select your language and download it once (~147 MB).'**
   String get dialogSherpaVoiceSetupDescription;
 
-  /// CodeWalk UI string — speechSilenceSeconds
+  /// Kilo-Walk UI string — speechSilenceSeconds
   ///
   /// In en, this message translates to:
   /// **'{value} seconds'**
   String speechSilenceSeconds(String value);
 
-  /// CodeWalk UI string — speechModelInstalled
+  /// Kilo-Walk UI string — speechModelInstalled
   ///
   /// In en, this message translates to:
   /// **'Model installed ({modelId})'**
   String speechModelInstalled(String modelId);
 
-  /// CodeWalk UI string — speechModelMissing
+  /// Kilo-Walk UI string — speechModelMissing
   ///
   /// In en, this message translates to:
   /// **'Model missing ({modelId})'**
   String speechModelMissing(String modelId);
 
-  /// CodeWalk UI string — speechModelSizeMb
+  /// Kilo-Walk UI string — speechModelSizeMb
   ///
   /// In en, this message translates to:
   /// **'~{sizeMb} MB'**
   String speechModelSizeMb(String sizeMb);
 
-  /// CodeWalk UI string — speechSystemDefaultLanguage
+  /// Kilo-Walk UI string — speechSystemDefaultLanguage
   ///
   /// In en, this message translates to:
   /// **'System default ({language})'**
   String speechSystemDefaultLanguage(String language);
 
-  /// CodeWalk UI string — speechModelListLoadFailed
+  /// Kilo-Walk UI string — speechModelListLoadFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to load {service} model list: {error}'**
   String speechModelListLoadFailed(String error, String service);
 
-  /// CodeWalk UI string — speechDownloadFailed
+  /// Kilo-Walk UI string — speechDownloadFailed
   ///
   /// In en, this message translates to:
   /// **'Download failed: {error}'**
   String speechDownloadFailed(String error);
 
-  /// CodeWalk UI string — speechFailedToRemoveModel
+  /// Kilo-Walk UI string — speechFailedToRemoveModel
   ///
   /// In en, this message translates to:
   /// **'Failed to remove model: {error}'**
   String speechFailedToRemoveModel(String error);
 
-  /// CodeWalk UI string — speechBaseUrlExample
+  /// Kilo-Walk UI string — speechBaseUrlExample
   ///
   /// In en, this message translates to:
   /// **'Example: {url}'**
   String speechBaseUrlExample(String url);
 
-  /// CodeWalk UI string — speechModelDefaultHelper
+  /// Kilo-Walk UI string — speechModelDefaultHelper
   ///
   /// In en, this message translates to:
   /// **'Default: {model}'**
   String speechModelDefaultHelper(String model);
 
-  /// CodeWalk UI string — notificationPermissionOrQuestionNeedsInput
+  /// Kilo-Walk UI string — notificationPermissionOrQuestionNeedsInput
   ///
   /// In en, this message translates to:
   /// **'A tool permission or question needs your input.'**
   String get notificationPermissionOrQuestionNeedsInput;
 
-  /// CodeWalk UI string — notificationPermissionNeedsInput
+  /// Kilo-Walk UI string — notificationPermissionNeedsInput
   ///
   /// In en, this message translates to:
   /// **'A tool permission needs your input.'**
   String get notificationPermissionNeedsInput;
 
-  /// CodeWalk UI string — notificationQuestionNeedsInput
+  /// Kilo-Walk UI string — notificationQuestionNeedsInput
   ///
   /// In en, this message translates to:
   /// **'A tool question needs your input.'**
   String get notificationQuestionNeedsInput;
 
-  /// CodeWalk UI string — notificationSessionError
+  /// Kilo-Walk UI string — notificationSessionError
   ///
   /// In en, this message translates to:
   /// **'A session reported an error.'**
   String get notificationSessionError;
 
-  /// CodeWalk UI string — notificationChannelErrors
+  /// Kilo-Walk UI string — notificationChannelErrors
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk errors'**
+  /// **'Kilo-Walk errors'**
   String get notificationChannelErrors;
 
-  /// CodeWalk UI string — notificationChannelErrorsDescription
+  /// Kilo-Walk UI string — notificationChannelErrorsDescription
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk error alerts'**
+  /// **'Kilo-Walk error alerts'**
   String get notificationChannelErrorsDescription;
 
-  /// CodeWalk UI string — notificationChannelPermissions
+  /// Kilo-Walk UI string — notificationChannelPermissions
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk permissions'**
+  /// **'Kilo-Walk permissions'**
   String get notificationChannelPermissions;
 
-  /// CodeWalk UI string — notificationChannelPermissionsDescription
+  /// Kilo-Walk UI string — notificationChannelPermissionsDescription
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk action required alerts'**
+  /// **'Kilo-Walk action required alerts'**
   String get notificationChannelPermissionsDescription;
 
-  /// CodeWalk UI string — notificationChannelAgent
+  /// Kilo-Walk UI string — notificationChannelAgent
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk agent'**
+  /// **'Kilo-Walk agent'**
   String get notificationChannelAgent;
 
-  /// CodeWalk UI string — notificationChannelAgentDescription
+  /// Kilo-Walk UI string — notificationChannelAgentDescription
   ///
   /// In en, this message translates to:
-  /// **'CodeWalk agent completion alerts'**
+  /// **'Kilo-Walk agent completion alerts'**
   String get notificationChannelAgentDescription;
 
-  /// CodeWalk UI string — notificationActionOpen
+  /// Kilo-Walk UI string — notificationActionOpen
   ///
   /// In en, this message translates to:
   /// **'Open'**
   String get notificationActionOpen;
 
-  /// CodeWalk UI string — foregroundMonitorNotificationBody
+  /// Kilo-Walk UI string — foregroundMonitorNotificationBody
   ///
   /// In en, this message translates to:
   /// **'Reliable background alerts are active'**
   String get foregroundMonitorNotificationBody;
 
-  /// CodeWalk UI string — foregroundMonitorNotificationTitle
+  /// Kilo-Walk UI string — foregroundMonitorNotificationTitle
   ///
   /// In en, this message translates to:
   /// **'Background monitoring active'**
   String get foregroundMonitorNotificationTitle;
 
-  /// CodeWalk UI string — foregroundMonitorNotificationOneSession
+  /// Kilo-Walk UI string — foregroundMonitorNotificationOneSession
   ///
   /// In en, this message translates to:
   /// **'Monitoring one session'**
   String get foregroundMonitorNotificationOneSession;
 
-  /// CodeWalk UI string — foregroundMonitorNotificationSessionCount
+  /// Kilo-Walk UI string — foregroundMonitorNotificationSessionCount
   ///
   /// In en, this message translates to:
   /// **'Monitoring {count} sessions'**
   String foregroundMonitorNotificationSessionCount(int count);
 
-  /// CodeWalk UI string — sessionAttentionSemanticLabel
+  /// Kilo-Walk UI string — sessionAttentionSemanticLabel
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 session needs attention} other{{count} sessions need attention}}'**
   String sessionAttentionSemanticLabel(int count);
 
-  /// CodeWalk UI string — sessionAttentionOverlayPermissionRequired
+  /// Kilo-Walk UI string — sessionAttentionOverlayPermissionRequired
   ///
   /// In en, this message translates to:
   /// **'Display-over-other-apps permission is required.'**
   String get sessionAttentionOverlayPermissionRequired;
 
-  /// CodeWalk UI string — sessionAttentionIosInAppOnly
+  /// Kilo-Walk UI string — sessionAttentionIosInAppOnly
   ///
   /// In en, this message translates to:
-  /// **'Session attention is available only inside CodeWalk.'**
+  /// **'Session attention is available only inside Kilo-Walk.'**
   String get sessionAttentionIosInAppOnly;
 
-  /// CodeWalk UI string — sessionAttentionOverlayPermissionGrantPrompt
+  /// Kilo-Walk UI string — sessionAttentionOverlayPermissionGrantPrompt
   ///
   /// In en, this message translates to:
   /// **'Grant display-over-other-apps permission, then try again.'**
   String get sessionAttentionOverlayPermissionGrantPrompt;
 
-  /// CodeWalk UI string — sessionAttentionAndroidStartFailed
+  /// Kilo-Walk UI string — sessionAttentionAndroidStartFailed
   ///
   /// In en, this message translates to:
   /// **'The Android session attention service could not start.'**
   String get sessionAttentionAndroidStartFailed;
 
-  /// CodeWalk UI string — chatMessageTruncatedChars
+  /// Kilo-Walk UI string — chatMessageTruncatedChars
   ///
   /// In en, this message translates to:
   /// **'[truncated {count} chars] {reason}'**
   String chatMessageTruncatedChars(int count, String reason);
 
-  /// CodeWalk UI string — chatMessageJustNow
+  /// Kilo-Walk UI string — chatMessageJustNow
   ///
   /// In en, this message translates to:
   /// **'Just now'**
   String get chatMessageJustNow;
 
-  /// CodeWalk UI string — chatMessageMinutesAgo
+  /// Kilo-Walk UI string — chatMessageMinutesAgo
   ///
   /// In en, this message translates to:
   /// **'{count}m ago'**
   String chatMessageMinutesAgo(int count);
 
-  /// CodeWalk UI string — chatMessageHoursAgo
+  /// Kilo-Walk UI string — chatMessageHoursAgo
   ///
   /// In en, this message translates to:
   /// **'{count}h ago'**
   String chatMessageHoursAgo(int count);
 
-  /// CodeWalk UI string — chatMessageDaysAgo
+  /// Kilo-Walk UI string — chatMessageDaysAgo
   ///
   /// In en, this message translates to:
   /// **'{count}d ago'**
   String chatMessageDaysAgo(int count);
 
-  /// CodeWalk UI string — chatMessageDateTime
+  /// Kilo-Walk UI string — chatMessageDateTime
   ///
   /// In en, this message translates to:
   /// **'{month}/{day} {hour}:{minute}'**
   String chatMessageDateTime(int day, int hour, int minute, int month);
 
-  /// CodeWalk UI string — chatMessageYourMessage
+  /// Kilo-Walk UI string — chatMessageYourMessage
   ///
   /// In en, this message translates to:
   /// **'Your message'**
   String get chatMessageYourMessage;
 
-  /// CodeWalk UI string — chatMessageAssistantMessage
+  /// Kilo-Walk UI string — chatMessageAssistantMessage
   ///
   /// In en, this message translates to:
   /// **'Assistant message'**
   String get chatMessageAssistantMessage;
 
-  /// CodeWalk UI string — chatMessageStepStarted
+  /// Kilo-Walk UI string — chatMessageStepStarted
   ///
   /// In en, this message translates to:
   /// **'Step started #{step}'**
   String chatMessageStepStarted(int step);
 
-  /// CodeWalk UI string — chatMessageStepStartedWithSnapshot
+  /// Kilo-Walk UI string — chatMessageStepStartedWithSnapshot
   ///
   /// In en, this message translates to:
   /// **'Step started #{step}: {snapshot}'**
   String chatMessageStepStartedWithSnapshot(String snapshot, int step);
 
-  /// CodeWalk UI string — chatMessageStepFinished
+  /// Kilo-Walk UI string — chatMessageStepFinished
   ///
   /// In en, this message translates to:
   /// **'Step finished #{step}: {reason} • tokens {tokens} • \${cost}'**
@@ -9943,1435 +9943,1435 @@ abstract class AppLocalizations {
     int tokens,
   );
 
-  /// CodeWalk UI string — chatMessagePatchCount
+  /// Kilo-Walk UI string — chatMessagePatchCount
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 patch} other{{count} patches}}'**
   String chatMessagePatchCount(int count);
 
-  /// CodeWalk UI string — chatMessageToolRun
+  /// Kilo-Walk UI string — chatMessageToolRun
   ///
   /// In en, this message translates to:
   /// **'Tool run'**
   String get chatMessageToolRun;
 
-  /// CodeWalk UI string — chatMessageToolExecution
+  /// Kilo-Walk UI string — chatMessageToolExecution
   ///
   /// In en, this message translates to:
   /// **'Tool execution'**
   String get chatMessageToolExecution;
 
-  /// CodeWalk UI string — chatMessageToolChainMore
+  /// Kilo-Walk UI string — chatMessageToolChainMore
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{+1 more} other{+{count} more}}'**
   String chatMessageToolChainMore(int count);
 
-  /// CodeWalk UI string — chatMessageToolChainExtraTypes
+  /// Kilo-Walk UI string — chatMessageToolChainExtraTypes
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{+1 type} other{+{count} types}}'**
   String chatMessageToolChainExtraTypes(int count);
 
-  /// CodeWalk UI string — chatMessageToolAttentionCount
+  /// Kilo-Walk UI string — chatMessageToolAttentionCount
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 needs attention} other{{count} need attention}}'**
   String chatMessageToolAttentionCount(int count);
 
-  /// CodeWalk UI string — chatMessageToolDoneCount
+  /// Kilo-Walk UI string — chatMessageToolDoneCount
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 done} other{{count} done}}'**
   String chatMessageToolDoneCount(int count);
 
-  /// CodeWalk UI string — chatMessageToolCallsTitle
+  /// Kilo-Walk UI string — chatMessageToolCallsTitle
   ///
   /// In en, this message translates to:
   /// **'Tool calls'**
   String get chatMessageToolCallsTitle;
 
-  /// CodeWalk UI string — chatMessageDiffPreviewTruncated
+  /// Kilo-Walk UI string — chatMessageDiffPreviewTruncated
   ///
   /// In en, this message translates to:
   /// **'Diff preview truncated for app stability.'**
   String get chatMessageDiffPreviewTruncated;
 
-  /// CodeWalk UI string — chatMessageLargeMessageTruncated
+  /// Kilo-Walk UI string — chatMessageLargeMessageTruncated
   ///
   /// In en, this message translates to:
   /// **'Large message preview truncated for app stability.'**
   String get chatMessageLargeMessageTruncated;
 
-  /// CodeWalk UI string — chatMessageInvalidLinkFormat
+  /// Kilo-Walk UI string — chatMessageInvalidLinkFormat
   ///
   /// In en, this message translates to:
   /// **'Invalid link format'**
   String get chatMessageInvalidLinkFormat;
 
-  /// CodeWalk UI string — chatMessageUnableToOpenLink
+  /// Kilo-Walk UI string — chatMessageUnableToOpenLink
   ///
   /// In en, this message translates to:
   /// **'Unable to open link'**
   String get chatMessageUnableToOpenLink;
 
-  /// CodeWalk UI string — sessionTodoInProgressCompact
+  /// Kilo-Walk UI string — sessionTodoInProgressCompact
   ///
   /// In en, this message translates to:
   /// **'{current}/{total} {content}'**
   String sessionTodoInProgressCompact(int current, int total, String content);
 
-  /// CodeWalk UI string — sessionTodoTaskProgress
+  /// Kilo-Walk UI string — sessionTodoTaskProgress
   ///
   /// In en, this message translates to:
   /// **'Task {index}/{total} {content}'**
   String sessionTodoTaskProgress(String content, int index, int total);
 
-  /// CodeWalk UI string — sessionTodoDoneCompact
+  /// Kilo-Walk UI string — sessionTodoDoneCompact
   ///
   /// In en, this message translates to:
   /// **'{count}/{total} done'**
   String sessionTodoDoneCompact(int count, int total);
 
-  /// CodeWalk UI string — sessionTodoCompletedCount
+  /// Kilo-Walk UI string — sessionTodoCompletedCount
   ///
   /// In en, this message translates to:
   /// **'Tasks {count}/{total} completed'**
   String sessionTodoCompletedCount(int count, int total);
 
-  /// CodeWalk UI string — sessionTodoTasksCount
+  /// Kilo-Walk UI string — sessionTodoTasksCount
   ///
   /// In en, this message translates to:
   /// **'Tasks ({count})'**
   String sessionTodoTasksCount(int count);
 
-  /// CodeWalk UI string — questionStepOfReview
+  /// Kilo-Walk UI string — questionStepOfReview
   ///
   /// In en, this message translates to:
   /// **'Step {current} of {total} - Review'**
   String questionStepOfReview(int current, int total);
 
-  /// CodeWalk UI string — questionStepOfQuestion
+  /// Kilo-Walk UI string — questionStepOfQuestion
   ///
   /// In en, this message translates to:
   /// **'Step {current} of {total} - Question'**
   String questionStepOfQuestion(int current, int total);
 
-  /// CodeWalk UI string — questionCustomAnswer
+  /// Kilo-Walk UI string — questionCustomAnswer
   ///
   /// In en, this message translates to:
   /// **'Custom answer'**
   String get questionCustomAnswer;
 
-  /// CodeWalk UI string — questionSubmitAnswers
+  /// Kilo-Walk UI string — questionSubmitAnswers
   ///
   /// In en, this message translates to:
   /// **'Submit Answers'**
   String get questionSubmitAnswers;
 
-  /// CodeWalk UI string — questionReviewAnswers
+  /// Kilo-Walk UI string — questionReviewAnswers
   ///
   /// In en, this message translates to:
   /// **'Review Answers'**
   String get questionReviewAnswers;
 
-  /// CodeWalk UI string — permissionRequestTitle
+  /// Kilo-Walk UI string — permissionRequestTitle
   ///
   /// In en, this message translates to:
   /// **'Permission request: {permission}'**
   String permissionRequestTitle(String permission);
 
-  /// CodeWalk UI string — sessionTitleCannotBeEmpty
+  /// Kilo-Walk UI string — sessionTitleCannotBeEmpty
   ///
   /// In en, this message translates to:
   /// **'Title cannot be empty'**
   String get sessionTitleCannotBeEmpty;
 
-  /// CodeWalk UI string — filesFailedToLoad
+  /// Kilo-Walk UI string — filesFailedToLoad
   ///
   /// In en, this message translates to:
   /// **'Failed to load files'**
   String get filesFailedToLoad;
 
-  /// CodeWalk UI string — filesFailedToSearch
+  /// Kilo-Walk UI string — filesFailedToSearch
   ///
   /// In en, this message translates to:
   /// **'Failed to search files'**
   String get filesFailedToSearch;
 
-  /// CodeWalk UI string — filesNoOpenFilesHint
+  /// Kilo-Walk UI string — filesNoOpenFilesHint
   ///
   /// In en, this message translates to:
   /// **'No open files yet. Type to search.'**
   String get filesNoOpenFilesHint;
 
-  /// CodeWalk UI string — filesNoContentMatches
+  /// Kilo-Walk UI string — filesNoContentMatches
   ///
   /// In en, this message translates to:
   /// **'No content matches found'**
   String get filesNoContentMatches;
 
-  /// CodeWalk UI string — filesLinesSelectedCount
+  /// Kilo-Walk UI string — filesLinesSelectedCount
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 line selected} other{{count} lines selected}}'**
   String filesLinesSelectedCount(int count);
 
-  /// CodeWalk UI string — filesDraftTooLargeToSave
+  /// Kilo-Walk UI string — filesDraftTooLargeToSave
   ///
   /// In en, this message translates to:
   /// **'Draft is too large to save from the editor.'**
   String get filesDraftTooLargeToSave;
 
-  /// CodeWalk UI string — filesSaveChangesBeforeClose
+  /// Kilo-Walk UI string — filesSaveChangesBeforeClose
   ///
   /// In en, this message translates to:
   /// **'Save changes before closing this file.'**
   String get filesSaveChangesBeforeClose;
 
-  /// CodeWalk UI string — filesSaveChangesBeforePathChange
+  /// Kilo-Walk UI string — filesSaveChangesBeforePathChange
   ///
   /// In en, this message translates to:
   /// **'Save changes before changing this path.'**
   String get filesSaveChangesBeforePathChange;
 
-  /// CodeWalk UI string — filesWaitForSaveBeforePathChange
+  /// Kilo-Walk UI string — filesWaitForSaveBeforePathChange
   ///
   /// In en, this message translates to:
   /// **'Wait for the file save to finish before changing this path.'**
   String get filesWaitForSaveBeforePathChange;
 
-  /// CodeWalk UI string — filesWaitForFileOperation
+  /// Kilo-Walk UI string — filesWaitForFileOperation
   ///
   /// In en, this message translates to:
   /// **'Wait for the file operation to finish.'**
   String get filesWaitForFileOperation;
 
-  /// CodeWalk UI string — filesLargeFileReadOnly
+  /// Kilo-Walk UI string — filesLargeFileReadOnly
   ///
   /// In en, this message translates to:
   /// **'Large files open read-only to keep editing responsive.'**
   String get filesLargeFileReadOnly;
 
-  /// CodeWalk UI string — filesCheckingWriteSupport
+  /// Kilo-Walk UI string — filesCheckingWriteSupport
   ///
   /// In en, this message translates to:
   /// **'Checking file write support...'**
   String get filesCheckingWriteSupport;
 
-  /// CodeWalk UI string — filesActiveProjectRequired
+  /// Kilo-Walk UI string — filesActiveProjectRequired
   ///
   /// In en, this message translates to:
   /// **'File operations require an active project directory.'**
   String get filesActiveProjectRequired;
 
-  /// CodeWalk UI string — filesReloadSkippedUnsavedChanges
+  /// Kilo-Walk UI string — filesReloadSkippedUnsavedChanges
   ///
   /// In en, this message translates to:
   /// **'Unsaved changes; reload skipped.'**
   String get filesReloadSkippedUnsavedChanges;
 
-  /// CodeWalk UI string — filesFailedToLoadContent
+  /// Kilo-Walk UI string — filesFailedToLoadContent
   ///
   /// In en, this message translates to:
   /// **'Failed to load file content'**
   String get filesFailedToLoadContent;
 
-  /// CodeWalk UI string — filesFileSaved
+  /// Kilo-Walk UI string — filesFileSaved
   ///
   /// In en, this message translates to:
   /// **'File saved.'**
   String get filesFileSaved;
 
-  /// CodeWalk UI string — filesParentNotDirectory
+  /// Kilo-Walk UI string — filesParentNotDirectory
   ///
   /// In en, this message translates to:
   /// **'Parent is not a directory.'**
   String get filesParentNotDirectory;
 
-  /// CodeWalk UI string — filesMalformedResponse
+  /// Kilo-Walk UI string — filesMalformedResponse
   ///
   /// In en, this message translates to:
   /// **'File operation returned an invalid response.'**
   String get filesMalformedResponse;
 
-  /// CodeWalk UI string — filesShellCommandDidNotComplete
+  /// Kilo-Walk UI string — filesShellCommandDidNotComplete
   ///
   /// In en, this message translates to:
   /// **'File operation shell command did not complete.'**
   String get filesShellCommandDidNotComplete;
 
-  /// CodeWalk UI string — filesShellCommandNoResult
+  /// Kilo-Walk UI string — filesShellCommandNoResult
   ///
   /// In en, this message translates to:
   /// **'File operation shell command returned no result.'**
   String get filesShellCommandNoResult;
 
-  /// CodeWalk UI string — filesShellCommandTruncated
+  /// Kilo-Walk UI string — filesShellCommandTruncated
   ///
   /// In en, this message translates to:
   /// **'File operation shell command was truncated by the server.'**
   String get filesShellCommandTruncated;
 
-  /// CodeWalk UI string — filesShellCommandSyntaxError
+  /// Kilo-Walk UI string — filesShellCommandSyntaxError
   ///
   /// In en, this message translates to:
   /// **'File operation shell command failed with a syntax error.'**
   String get filesShellCommandSyntaxError;
 
-  /// CodeWalk UI string — filesShellUtilityNotFound
+  /// Kilo-Walk UI string — filesShellUtilityNotFound
   ///
   /// In en, this message translates to:
   /// **'A required shell utility was not found.'**
   String get filesShellUtilityNotFound;
 
-  /// CodeWalk UI string — filesShellCommandFailed
+  /// Kilo-Walk UI string — filesShellCommandFailed
   ///
   /// In en, this message translates to:
   /// **'File operation shell command failed before returning a result.'**
   String get filesShellCommandFailed;
 
-  /// CodeWalk UI string — attachmentSaveTitle
+  /// Kilo-Walk UI string — attachmentSaveTitle
   ///
   /// In en, this message translates to:
   /// **'Save attachment'**
   String get attachmentSaveTitle;
 
-  /// CodeWalk UI string — attachmentBrowserSandboxLocalFile
+  /// Kilo-Walk UI string — attachmentBrowserSandboxLocalFile
   ///
   /// In en, this message translates to:
   /// **'Browser sandbox prevents opening local file:// attachments directly.'**
   String get attachmentBrowserSandboxLocalFile;
 
-  /// CodeWalk UI string — attachmentLocalPathBrowserBlocked
+  /// Kilo-Walk UI string — attachmentLocalPathBrowserBlocked
   ///
   /// In en, this message translates to:
   /// **'This attachment points to a local path that cannot be opened from the browser.'**
   String get attachmentLocalPathBrowserBlocked;
 
-  /// CodeWalk UI string — terminalConnectedTo
+  /// Kilo-Walk UI string — terminalConnectedTo
   ///
   /// In en, this message translates to:
   /// **'Connected to {serverName} in {directory}'**
   String terminalConnectedTo(String directory, String serverName);
 
-  /// CodeWalk UI string — terminalTransportUnavailable
+  /// Kilo-Walk UI string — terminalTransportUnavailable
   ///
   /// In en, this message translates to:
   /// **'Terminal transport is unavailable.'**
   String get terminalTransportUnavailable;
 
-  /// CodeWalk UI string — chatSlashCommandNew
+  /// Kilo-Walk UI string — chatSlashCommandNew
   ///
   /// In en, this message translates to:
   /// **'Create a new chat session'**
   String get chatSlashCommandNew;
 
-  /// CodeWalk UI string — chatSlashCommandModels
+  /// Kilo-Walk UI string — chatSlashCommandModels
   ///
   /// In en, this message translates to:
   /// **'Open model selector'**
   String get chatSlashCommandModels;
 
-  /// CodeWalk UI string — chatSlashCommandSessions
+  /// Kilo-Walk UI string — chatSlashCommandSessions
   ///
   /// In en, this message translates to:
   /// **'Open conversations list'**
   String get chatSlashCommandSessions;
 
-  /// CodeWalk UI string — chatSlashCommandAgent
+  /// Kilo-Walk UI string — chatSlashCommandAgent
   ///
   /// In en, this message translates to:
   /// **'Open agent selector'**
   String get chatSlashCommandAgent;
 
-  /// CodeWalk UI string — chatSlashCommandOpen
+  /// Kilo-Walk UI string — chatSlashCommandOpen
   ///
   /// In en, this message translates to:
   /// **'File open quick action'**
   String get chatSlashCommandOpen;
 
-  /// CodeWalk UI string — chatSlashCommandHelp
+  /// Kilo-Walk UI string — chatSlashCommandHelp
   ///
   /// In en, this message translates to:
   /// **'Show command help'**
   String get chatSlashCommandHelp;
 
-  /// CodeWalk UI string — chatSlashCommandCompact
+  /// Kilo-Walk UI string — chatSlashCommandCompact
   ///
   /// In en, this message translates to:
   /// **'Compact current session context'**
   String get chatSlashCommandCompact;
 
-  /// CodeWalk UI string — chatSlashCommandThinking
+  /// Kilo-Walk UI string — chatSlashCommandThinking
   ///
   /// In en, this message translates to:
   /// **'Toggle thinking bubbles'**
   String get chatSlashCommandThinking;
 
-  /// CodeWalk UI string — chatSlashCommandUndo
+  /// Kilo-Walk UI string — chatSlashCommandUndo
   ///
   /// In en, this message translates to:
   /// **'Undo the last visible user turn'**
   String get chatSlashCommandUndo;
 
-  /// CodeWalk UI string — chatSlashCommandRedo
+  /// Kilo-Walk UI string — chatSlashCommandRedo
   ///
   /// In en, this message translates to:
   /// **'Redo the last undone turn'**
   String get chatSlashCommandRedo;
 
-  /// CodeWalk UI string — chatSessionSubConversationCount
+  /// Kilo-Walk UI string — chatSessionSubConversationCount
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 sub-conversation} other{{count} sub-conversations}}'**
   String chatSessionSubConversationCount(int count);
 
-  /// CodeWalk UI string — chatMessageWeeksAgo
+  /// Kilo-Walk UI string — chatMessageWeeksAgo
   ///
   /// In en, this message translates to:
   /// **'{count}w ago'**
   String chatMessageWeeksAgo(int count);
 
-  /// CodeWalk UI string — chatMessageShortDate
+  /// Kilo-Walk UI string — chatMessageShortDate
   ///
   /// In en, this message translates to:
   /// **'{month}/{day}'**
   String chatMessageShortDate(int day, int month);
 
-  /// CodeWalk UI string — chatProviderErrorLoadSessionStatus
+  /// Kilo-Walk UI string — chatProviderErrorLoadSessionStatus
   ///
   /// In en, this message translates to:
   /// **'Failed to load session status'**
   String get chatProviderErrorLoadSessionStatus;
 
-  /// CodeWalk UI string — chatProviderErrorLoadSessionDetails
+  /// Kilo-Walk UI string — chatProviderErrorLoadSessionDetails
   ///
   /// In en, this message translates to:
   /// **'Some session details could not be loaded'**
   String get chatProviderErrorLoadSessionDetails;
 
-  /// CodeWalk UI string — chatProviderErrorLoadSessionList
+  /// Kilo-Walk UI string — chatProviderErrorLoadSessionList
   ///
   /// In en, this message translates to:
   /// **'Failed to load session list: {error}'**
   String chatProviderErrorLoadSessionList(String error);
 
-  /// CodeWalk UI string — chatProviderErrorCreateSession
+  /// Kilo-Walk UI string — chatProviderErrorCreateSession
   ///
   /// In en, this message translates to:
   /// **'Failed to create session'**
   String get chatProviderErrorCreateSession;
 
-  /// CodeWalk UI string — chatProviderErrorSelectProviderModelBeforeSend
+  /// Kilo-Walk UI string — chatProviderErrorSelectProviderModelBeforeSend
   ///
   /// In en, this message translates to:
   /// **'Select a connected provider or free OpenCode model before sending'**
   String get chatProviderErrorSelectProviderModelBeforeSend;
 
-  /// CodeWalk UI string — chatProviderErrorStartMessageSend
+  /// Kilo-Walk UI string — chatProviderErrorStartMessageSend
   ///
   /// In en, this message translates to:
   /// **'Failed to start message send'**
   String get chatProviderErrorStartMessageSend;
 
-  /// CodeWalk UI string — chatProviderErrorStopUnavailable
+  /// Kilo-Walk UI string — chatProviderErrorStopUnavailable
   ///
   /// In en, this message translates to:
   /// **'Stop is unavailable for the current session'**
   String get chatProviderErrorStopUnavailable;
 
-  /// CodeWalk UI string — chatProviderErrorWaitForResponseFinish
+  /// Kilo-Walk UI string — chatProviderErrorWaitForResponseFinish
   ///
   /// In en, this message translates to:
   /// **'Wait for the current response to finish before compacting'**
   String get chatProviderErrorWaitForResponseFinish;
 
-  /// CodeWalk UI string — chatProviderErrorCompactUnavailable
+  /// Kilo-Walk UI string — chatProviderErrorCompactUnavailable
   ///
   /// In en, this message translates to:
   /// **'Compact context is unavailable for the current session'**
   String get chatProviderErrorCompactUnavailable;
 
-  /// CodeWalk UI string — chatProviderErrorSelectModelBeforeCompact
+  /// Kilo-Walk UI string — chatProviderErrorSelectModelBeforeCompact
   ///
   /// In en, this message translates to:
   /// **'Select a model before compacting context'**
   String get chatProviderErrorSelectModelBeforeCompact;
 
-  /// CodeWalk UI string — chatProviderErrorCompactSessionContext
+  /// Kilo-Walk UI string — chatProviderErrorCompactSessionContext
   ///
   /// In en, this message translates to:
   /// **'Failed to compact session context'**
   String get chatProviderErrorCompactSessionContext;
 
-  /// CodeWalk UI string — chatProviderErrorNetwork
+  /// Kilo-Walk UI string — chatProviderErrorNetwork
   ///
   /// In en, this message translates to:
   /// **'Network connection failed. Please check network settings'**
   String get chatProviderErrorNetwork;
 
-  /// CodeWalk UI string — chatProviderErrorServer
+  /// Kilo-Walk UI string — chatProviderErrorServer
   ///
   /// In en, this message translates to:
   /// **'Server error. Please try again later'**
   String get chatProviderErrorServer;
 
-  /// CodeWalk UI string — chatProviderErrorNotFound
+  /// Kilo-Walk UI string — chatProviderErrorNotFound
   ///
   /// In en, this message translates to:
   /// **'Resource not found'**
   String get chatProviderErrorNotFound;
 
-  /// CodeWalk UI string — chatProviderErrorInvalidInput
+  /// Kilo-Walk UI string — chatProviderErrorInvalidInput
   ///
   /// In en, this message translates to:
   /// **'Invalid input parameters'**
   String get chatProviderErrorInvalidInput;
 
-  /// CodeWalk UI string — chatProviderErrorUnknown
+  /// Kilo-Walk UI string — chatProviderErrorUnknown
   ///
   /// In en, this message translates to:
   /// **'Unknown error. Please try again later'**
   String get chatProviderErrorUnknown;
 
-  /// CodeWalk UI string — chatProviderErrorSessionFallback
+  /// Kilo-Walk UI string — chatProviderErrorSessionFallback
   ///
   /// In en, this message translates to:
   /// **'Session error'**
   String get chatProviderErrorSessionFallback;
 
-  /// CodeWalk UI string — projectProviderErrorNoProjectContext
+  /// Kilo-Walk UI string — projectProviderErrorNoProjectContext
   ///
   /// In en, this message translates to:
   /// **'No project context available from server'**
   String get projectProviderErrorNoProjectContext;
 
-  /// CodeWalk UI string — projectProviderErrorInitializeFailed
+  /// Kilo-Walk UI string — projectProviderErrorInitializeFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to initialize project context: {error}'**
   String projectProviderErrorInitializeFailed(String error);
 
-  /// CodeWalk UI string — projectProviderErrorSwitchProjectNotFound
+  /// Kilo-Walk UI string — projectProviderErrorSwitchProjectNotFound
   ///
   /// In en, this message translates to:
   /// **'Failed to switch project: project not found'**
   String get projectProviderErrorSwitchProjectNotFound;
 
-  /// CodeWalk UI string — projectProviderErrorSwitchDirectoryEmpty
+  /// Kilo-Walk UI string — projectProviderErrorSwitchDirectoryEmpty
   ///
   /// In en, this message translates to:
   /// **'Failed to switch project: directory is empty'**
   String get projectProviderErrorSwitchDirectoryEmpty;
 
-  /// CodeWalk UI string — projectProviderErrorAtLeastOneContext
+  /// Kilo-Walk UI string — projectProviderErrorAtLeastOneContext
   ///
   /// In en, this message translates to:
   /// **'At least one context must remain open'**
   String get projectProviderErrorAtLeastOneContext;
 
-  /// CodeWalk UI string — projectProviderErrorReopenProjectNotFound
+  /// Kilo-Walk UI string — projectProviderErrorReopenProjectNotFound
   ///
   /// In en, this message translates to:
   /// **'Failed to reopen project: project not found'**
   String get projectProviderErrorReopenProjectNotFound;
 
-  /// CodeWalk UI string — projectProviderErrorOnlyClosedArchivable
+  /// Kilo-Walk UI string — projectProviderErrorOnlyClosedArchivable
   ///
   /// In en, this message translates to:
   /// **'Only closed projects can be archived'**
   String get projectProviderErrorOnlyClosedArchivable;
 
-  /// CodeWalk UI string — projectProviderErrorArchiveProjectNotFound
+  /// Kilo-Walk UI string — projectProviderErrorArchiveProjectNotFound
   ///
   /// In en, this message translates to:
   /// **'Failed to archive project: project not found'**
   String get projectProviderErrorArchiveProjectNotFound;
 
-  /// CodeWalk UI string — projectProviderErrorArchiveProjectPathInvalid
+  /// Kilo-Walk UI string — projectProviderErrorArchiveProjectPathInvalid
   ///
   /// In en, this message translates to:
   /// **'Failed to archive project: project path is invalid'**
   String get projectProviderErrorArchiveProjectPathInvalid;
 
-  /// CodeWalk UI string — projectProviderErrorLoadWorkspaces
+  /// Kilo-Walk UI string — projectProviderErrorLoadWorkspaces
   ///
   /// In en, this message translates to:
   /// **'Failed to load workspaces: {error}'**
   String projectProviderErrorLoadWorkspaces(String error);
 
-  /// CodeWalk UI string — projectProviderErrorWorkspaceNameEmpty
+  /// Kilo-Walk UI string — projectProviderErrorWorkspaceNameEmpty
   ///
   /// In en, this message translates to:
   /// **'Workspace name cannot be empty'**
   String get projectProviderErrorWorkspaceNameEmpty;
 
-  /// CodeWalk UI string — projectProviderErrorCreateWorkspace
+  /// Kilo-Walk UI string — projectProviderErrorCreateWorkspace
   ///
   /// In en, this message translates to:
   /// **'Failed to create workspace: {error}'**
   String projectProviderErrorCreateWorkspace(String error);
 
-  /// CodeWalk UI string — projectProviderErrorResetWorkspace
+  /// Kilo-Walk UI string — projectProviderErrorResetWorkspace
   ///
   /// In en, this message translates to:
   /// **'Failed to reset workspace: {error}'**
   String projectProviderErrorResetWorkspace(String error);
 
-  /// CodeWalk UI string — projectProviderErrorDeleteWorkspace
+  /// Kilo-Walk UI string — projectProviderErrorDeleteWorkspace
   ///
   /// In en, this message translates to:
   /// **'Failed to delete workspace: {error}'**
   String projectProviderErrorDeleteWorkspace(String error);
 
-  /// CodeWalk UI string — projectProviderErrorDirectoryEmpty
+  /// Kilo-Walk UI string — projectProviderErrorDirectoryEmpty
   ///
   /// In en, this message translates to:
   /// **'Directory cannot be empty'**
   String get projectProviderErrorDirectoryEmpty;
 
-  /// CodeWalk UI string — projectProviderErrorListDirectories
+  /// Kilo-Walk UI string — projectProviderErrorListDirectories
   ///
   /// In en, this message translates to:
   /// **'Failed to list directories: {error}'**
   String projectProviderErrorListDirectories(String error);
 
-  /// CodeWalk UI string — projectProviderErrorValidateDirectory
+  /// Kilo-Walk UI string — projectProviderErrorValidateDirectory
   ///
   /// In en, this message translates to:
   /// **'Failed to validate directory: {error}'**
   String projectProviderErrorValidateDirectory(String error);
 
-  /// CodeWalk UI string — projectProviderErrorPathEmpty
+  /// Kilo-Walk UI string — projectProviderErrorPathEmpty
   ///
   /// In en, this message translates to:
   /// **'Path cannot be empty'**
   String get projectProviderErrorPathEmpty;
 
-  /// CodeWalk UI string — projectProviderErrorListFiles
+  /// Kilo-Walk UI string — projectProviderErrorListFiles
   ///
   /// In en, this message translates to:
   /// **'Failed to list files: {error}'**
   String projectProviderErrorListFiles(String error);
 
-  /// CodeWalk UI string — projectProviderErrorSearchFiles
+  /// Kilo-Walk UI string — projectProviderErrorSearchFiles
   ///
   /// In en, this message translates to:
   /// **'Failed to search files: {error}'**
   String projectProviderErrorSearchFiles(String error);
 
-  /// CodeWalk UI string — projectProviderErrorContentSearchUnavailable
+  /// Kilo-Walk UI string — projectProviderErrorContentSearchUnavailable
   ///
   /// In en, this message translates to:
   /// **'Content search not available: {error}'**
   String projectProviderErrorContentSearchUnavailable(String error);
 
-  /// CodeWalk UI string — projectProviderErrorSearchSymbols
+  /// Kilo-Walk UI string — projectProviderErrorSearchSymbols
   ///
   /// In en, this message translates to:
   /// **'Failed to search symbols: {error}'**
   String projectProviderErrorSearchSymbols(String error);
 
-  /// CodeWalk UI string — projectProviderErrorReadFile
+  /// Kilo-Walk UI string — projectProviderErrorReadFile
   ///
   /// In en, this message translates to:
   /// **'Failed to read file: {error}'**
   String projectProviderErrorReadFile(String error);
 
-  /// CodeWalk UI string — projectProviderErrorLoadProjectList
+  /// Kilo-Walk UI string — projectProviderErrorLoadProjectList
   ///
   /// In en, this message translates to:
   /// **'Failed to load project list: {error}'**
   String projectProviderErrorLoadProjectList(String error);
 
-  /// CodeWalk UI string — workspaceProjectRemovedFromHistory
+  /// Kilo-Walk UI string — workspaceProjectRemovedFromHistory
   ///
   /// In en, this message translates to:
   /// **'Project removed from history'**
   String get workspaceProjectRemovedFromHistory;
 
-  /// CodeWalk UI string — workspaceProjectContextOpened
+  /// Kilo-Walk UI string — workspaceProjectContextOpened
   ///
   /// In en, this message translates to:
   /// **'Project context opened: {directory}'**
   String workspaceProjectContextOpened(String directory);
 
-  /// CodeWalk UI string — workspaceFailedToOpenProjectContext
+  /// Kilo-Walk UI string — workspaceFailedToOpenProjectContext
   ///
   /// In en, this message translates to:
   /// **'Failed to open project context: {directory}'**
   String workspaceFailedToOpenProjectContext(String directory);
 
-  /// CodeWalk UI string — chatAbortNotice
+  /// Kilo-Walk UI string — chatAbortNotice
   ///
   /// In en, this message translates to:
   /// **'What you want to do different?'**
   String get chatAbortNotice;
 
-  /// CodeWalk UI string — sessionTitleToday
+  /// Kilo-Walk UI string — sessionTitleToday
   ///
   /// In en, this message translates to:
   /// **'Today {time} ({date})'**
   String sessionTitleToday(String date, String time);
 
-  /// CodeWalk UI string — sessionTitleYesterday
+  /// Kilo-Walk UI string — sessionTitleYesterday
   ///
   /// In en, this message translates to:
   /// **'Yesterday {time} ({date})'**
   String sessionTitleYesterday(String date, String time);
 
-  /// CodeWalk UI string — sessionTitleWeekday
+  /// Kilo-Walk UI string — sessionTitleWeekday
   ///
   /// In en, this message translates to:
   /// **'{weekday} {time} ({date})'**
   String sessionTitleWeekday(String date, String time, String weekday);
 
-  /// CodeWalk UI string — sessionTitleDateAndTime
+  /// Kilo-Walk UI string — sessionTitleDateAndTime
   ///
   /// In en, this message translates to:
   /// **'{date} {time}'**
   String sessionTitleDateAndTime(String date, String time);
 
-  /// CodeWalk UI string — sessionWeekdayMon
+  /// Kilo-Walk UI string — sessionWeekdayMon
   ///
   /// In en, this message translates to:
   /// **'Mon'**
   String get sessionWeekdayMon;
 
-  /// CodeWalk UI string — sessionWeekdayTue
+  /// Kilo-Walk UI string — sessionWeekdayTue
   ///
   /// In en, this message translates to:
   /// **'Tue'**
   String get sessionWeekdayTue;
 
-  /// CodeWalk UI string — sessionWeekdayWed
+  /// Kilo-Walk UI string — sessionWeekdayWed
   ///
   /// In en, this message translates to:
   /// **'Wed'**
   String get sessionWeekdayWed;
 
-  /// CodeWalk UI string — sessionWeekdayThu
+  /// Kilo-Walk UI string — sessionWeekdayThu
   ///
   /// In en, this message translates to:
   /// **'Thu'**
   String get sessionWeekdayThu;
 
-  /// CodeWalk UI string — sessionWeekdayFri
+  /// Kilo-Walk UI string — sessionWeekdayFri
   ///
   /// In en, this message translates to:
   /// **'Fri'**
   String get sessionWeekdayFri;
 
-  /// CodeWalk UI string — sessionWeekdaySat
+  /// Kilo-Walk UI string — sessionWeekdaySat
   ///
   /// In en, this message translates to:
   /// **'Sat'**
   String get sessionWeekdaySat;
 
-  /// CodeWalk UI string — sessionWeekdaySun
+  /// Kilo-Walk UI string — sessionWeekdaySun
   ///
   /// In en, this message translates to:
   /// **'Sun'**
   String get sessionWeekdaySun;
 
-  /// CodeWalk UI string — forwardTimeNow
+  /// Kilo-Walk UI string — forwardTimeNow
   ///
   /// In en, this message translates to:
   /// **'now'**
   String get forwardTimeNow;
 
-  /// CodeWalk UI string — forwardTimeMinutes
+  /// Kilo-Walk UI string — forwardTimeMinutes
   ///
   /// In en, this message translates to:
   /// **'{count}m'**
   String forwardTimeMinutes(int count);
 
-  /// CodeWalk UI string — forwardTimeHours
+  /// Kilo-Walk UI string — forwardTimeHours
   ///
   /// In en, this message translates to:
   /// **'{count}h'**
   String forwardTimeHours(int count);
 
-  /// CodeWalk UI string — forwardTimeDays
+  /// Kilo-Walk UI string — forwardTimeDays
   ///
   /// In en, this message translates to:
   /// **'{count}d'**
   String forwardTimeDays(int count);
 
-  /// CodeWalk UI string — forwardTimeWeeks
+  /// Kilo-Walk UI string — forwardTimeWeeks
   ///
   /// In en, this message translates to:
   /// **'{count}w'**
   String forwardTimeWeeks(int count);
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldDefaultModel
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldDefaultModel
   ///
   /// In en, this message translates to:
   /// **'default model'**
   String get settingsBehaviorConfigFieldDefaultModel;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldDefaultAgent
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldDefaultAgent
   ///
   /// In en, this message translates to:
   /// **'default agent'**
   String get settingsBehaviorConfigFieldDefaultAgent;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldSmallModel
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldSmallModel
   ///
   /// In en, this message translates to:
   /// **'small model'**
   String get settingsBehaviorConfigFieldSmallModel;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldAutoUpdateMode
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldAutoUpdateMode
   ///
   /// In en, this message translates to:
   /// **'auto-update mode'**
   String get settingsBehaviorConfigFieldAutoUpdateMode;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldSnapshotSetting
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldSnapshotSetting
   ///
   /// In en, this message translates to:
   /// **'snapshot setting'**
   String get settingsBehaviorConfigFieldSnapshotSetting;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldConversationUsername
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldConversationUsername
   ///
   /// In en, this message translates to:
   /// **'conversation username'**
   String get settingsBehaviorConfigFieldConversationUsername;
 
-  /// CodeWalk UI string — settingsBehaviorConfigFieldSharingDefault
+  /// Kilo-Walk UI string — settingsBehaviorConfigFieldSharingDefault
   ///
   /// In en, this message translates to:
   /// **'sharing default'**
   String get settingsBehaviorConfigFieldSharingDefault;
 
-  /// CodeWalk UI string — speechMicNoInputDevice
+  /// Kilo-Walk UI string — speechMicNoInputDevice
   ///
   /// In en, this message translates to:
   /// **'No microphone input device is available.'**
   String get speechMicNoInputDevice;
 
-  /// CodeWalk UI string — speechLinuxAudioServerUnavailable
+  /// Kilo-Walk UI string — speechLinuxAudioServerUnavailable
   ///
   /// In en, this message translates to:
   /// **'A microphone tool was found, but the Linux audio server could not be reached. Make sure PipeWire or PulseAudio is running.'**
   String get speechLinuxAudioServerUnavailable;
 
-  /// CodeWalk UI string — speechLinuxMicBackendMissing
+  /// Kilo-Walk UI string — speechLinuxMicBackendMissing
   ///
   /// In en, this message translates to:
   /// **'No microphone recording tool was found on this system. Install PulseAudio tools (parecord), PipeWire tools (pw-record) or ALSA utilities (arecord), then try again.'**
   String get speechLinuxMicBackendMissing;
 
-  /// CodeWalk UI string — speechMicDeviceBusy
+  /// Kilo-Walk UI string — speechMicDeviceBusy
   ///
   /// In en, this message translates to:
   /// **'The default microphone is currently in use by another app.'**
   String get speechMicDeviceBusy;
 
-  /// CodeWalk UI string — speechMicUnsupportedFormat
+  /// Kilo-Walk UI string — speechMicUnsupportedFormat
   ///
   /// In en, this message translates to:
   /// **'The default microphone format is not supported.'**
   String get speechMicUnsupportedFormat;
 
-  /// CodeWalk UI string — speechMicSpeechPrivacy
+  /// Kilo-Walk UI string — speechMicSpeechPrivacy
   ///
   /// In en, this message translates to:
   /// **'Windows speech services may be disabled (speech privacy, online speech recognition, or language packs).'**
   String get speechMicSpeechPrivacy;
 
-  /// CodeWalk UI string — speechMicBackendUnavailable
+  /// Kilo-Walk UI string — speechMicBackendUnavailable
   ///
   /// In en, this message translates to:
   /// **'The Windows microphone backend is not available in this build.'**
   String get speechMicBackendUnavailable;
 
-  /// CodeWalk UI string — speechEngineFallbackNotice
+  /// Kilo-Walk UI string — speechEngineFallbackNotice
   ///
   /// In en, this message translates to:
   /// **'Selected STT engine unavailable ({reason}). Using {fallback} instead.'**
   String speechEngineFallbackNotice(String fallback, String reason);
 
-  /// CodeWalk UI string — oauthFlowSecureStorageUnavailable
+  /// Kilo-Walk UI string — oauthFlowSecureStorageUnavailable
   ///
   /// In en, this message translates to:
   /// **'Secure credential storage is unavailable for OAuth.'**
   String get oauthFlowSecureStorageUnavailable;
 
-  /// CodeWalk UI string — oauthFlowUnexpectedError
+  /// Kilo-Walk UI string — oauthFlowUnexpectedError
   ///
   /// In en, this message translates to:
   /// **'OAuth flow failed unexpectedly. Please try again.'**
   String get oauthFlowUnexpectedError;
 
-  /// CodeWalk UI string — oauthFlowNoEndpointsDiscovered
+  /// Kilo-Walk UI string — oauthFlowNoEndpointsDiscovered
   ///
   /// In en, this message translates to:
   /// **'No OAuth endpoints discovered. Enable Managed OAuth in Cloudflare Dashboard → Access → Applications → [this app].'**
   String get oauthFlowNoEndpointsDiscovered;
 
-  /// CodeWalk UI string — oauthFlowTokenResponseMissingAccessToken
+  /// Kilo-Walk UI string — oauthFlowTokenResponseMissingAccessToken
   ///
   /// In en, this message translates to:
   /// **'OAuth token response did not include an access token.'**
   String get oauthFlowTokenResponseMissingAccessToken;
 
-  /// CodeWalk UI string — oauthFlowProfileChanged
+  /// Kilo-Walk UI string — oauthFlowProfileChanged
   ///
   /// In en, this message translates to:
   /// **'The server profile changed before OAuth could finish.'**
   String get oauthFlowProfileChanged;
 
-  /// CodeWalk UI string — oauthFlowMetadataMissingEndpoints
+  /// Kilo-Walk UI string — oauthFlowMetadataMissingEndpoints
   ///
   /// In en, this message translates to:
   /// **'OAuth metadata is missing authorization/token endpoints.'**
   String get oauthFlowMetadataMissingEndpoints;
 
-  /// CodeWalk UI string — oauthFlowCallbackNotCompleted
+  /// Kilo-Walk UI string — oauthFlowCallbackNotCompleted
   ///
   /// In en, this message translates to:
   /// **'Authorization callback was not completed'**
   String get oauthFlowCallbackNotCompleted;
 
-  /// CodeWalk UI string — oauthFlowProviderDeclined
+  /// Kilo-Walk UI string — oauthFlowProviderDeclined
   ///
   /// In en, this message translates to:
   /// **'The authorization server declined the OAuth request. Please try again.'**
   String get oauthFlowProviderDeclined;
 
-  /// CodeWalk UI string — oauthFlowCallbackValidationFailed
+  /// Kilo-Walk UI string — oauthFlowCallbackValidationFailed
   ///
   /// In en, this message translates to:
   /// **'OAuth callback validation failed. Please try again.'**
   String get oauthFlowCallbackValidationFailed;
 
-  /// CodeWalk UI string — oauthFlowCallbackServerStartFailed
+  /// Kilo-Walk UI string — oauthFlowCallbackServerStartFailed
   ///
   /// In en, this message translates to:
   /// **'Local OAuth callback server failed to start.'**
   String get oauthFlowCallbackServerStartFailed;
 
-  /// CodeWalk UI string — oauthFlowSignInCanceled
+  /// Kilo-Walk UI string — oauthFlowSignInCanceled
   ///
   /// In en, this message translates to:
   /// **'OAuth sign-in was canceled.'**
   String get oauthFlowSignInCanceled;
 
-  /// CodeWalk UI string — oauthFlowBrowserOpenFailed
+  /// Kilo-Walk UI string — oauthFlowBrowserOpenFailed
   ///
   /// In en, this message translates to:
   /// **'Could not open the system browser for OAuth sign-in.'**
   String get oauthFlowBrowserOpenFailed;
 
-  /// CodeWalk UI string — oauthFlowCallbackTimeout
+  /// Kilo-Walk UI string — oauthFlowCallbackTimeout
   ///
   /// In en, this message translates to:
   /// **'No authorization callback reached the app within 5 minutes. The browser was expected to redirect to the local callback address after consent. If the browser showed a connection error instead, this device or network blocks loopback redirects.'**
   String get oauthFlowCallbackTimeout;
 
-  /// CodeWalk UI string — oauthFlowTokenExchangeTransientFailure
+  /// Kilo-Walk UI string — oauthFlowTokenExchangeTransientFailure
   ///
   /// In en, this message translates to:
   /// **'Token exchange failed after {maxAttempts} attempts because of a temporary network problem. Please try again.'**
   String oauthFlowTokenExchangeTransientFailure(int maxAttempts);
 
-  /// CodeWalk UI string — oauthFlowTokenExchangeHttpFailure
+  /// Kilo-Walk UI string — oauthFlowTokenExchangeHttpFailure
   ///
   /// In en, this message translates to:
   /// **'Token exchange failed (HTTP {statusCode}). Please try again.'**
   String oauthFlowTokenExchangeHttpFailure(int statusCode);
 
-  /// CodeWalk UI string — oauthFlowTokenExchangeUnexpectedFailure
+  /// Kilo-Walk UI string — oauthFlowTokenExchangeUnexpectedFailure
   ///
   /// In en, this message translates to:
   /// **'Token exchange failed unexpectedly. Please try again.'**
   String get oauthFlowTokenExchangeUnexpectedFailure;
 
-  /// CodeWalk UI string — oauthFlowTokenExchangeIncomplete
+  /// Kilo-Walk UI string — oauthFlowTokenExchangeIncomplete
   ///
   /// In en, this message translates to:
   /// **'Token exchange did not complete after the authorization code was sent. Please start OAuth sign-in again.'**
   String get oauthFlowTokenExchangeIncomplete;
 
-  /// CodeWalk UI string — speechReadAloudFailed
+  /// Kilo-Walk UI string — speechReadAloudFailed
   ///
   /// In en, this message translates to:
   /// **'Text-to-speech failed.'**
   String get speechReadAloudFailed;
 
-  /// CodeWalk UI string — speechReadAloudNoText
+  /// Kilo-Walk UI string — speechReadAloudNoText
   ///
   /// In en, this message translates to:
   /// **'There is no text to read aloud.'**
   String get speechReadAloudNoText;
 
-  /// CodeWalk UI string — speechEdgeTextTooLong
+  /// Kilo-Walk UI string — speechEdgeTextTooLong
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech can read up to 4096 bytes at a time.'**
   String get speechEdgeTextTooLong;
 
-  /// CodeWalk UI string — speechEdgeMalformedAudio
+  /// Kilo-Walk UI string — speechEdgeMalformedAudio
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech returned malformed audio data.'**
   String get speechEdgeMalformedAudio;
 
-  /// CodeWalk UI string — speechEdgeUnsupportedAudio
+  /// Kilo-Walk UI string — speechEdgeUnsupportedAudio
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech returned unsupported audio data.'**
   String get speechEdgeUnsupportedAudio;
 
-  /// CodeWalk UI string — speechEdgeUnsupportedFrame
+  /// Kilo-Walk UI string — speechEdgeUnsupportedFrame
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech returned an unsupported websocket frame.'**
   String get speechEdgeUnsupportedFrame;
 
-  /// CodeWalk UI string — speechEdgeSynthesisInterrupted
+  /// Kilo-Walk UI string — speechEdgeSynthesisInterrupted
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech ended before synthesis completed.'**
   String get speechEdgeSynthesisInterrupted;
 
-  /// CodeWalk UI string — speechEdgeEmptyAudio
+  /// Kilo-Walk UI string — speechEdgeEmptyAudio
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech returned an empty audio response.'**
   String get speechEdgeEmptyAudio;
 
-  /// CodeWalk UI string — speechEdgeTimedOut
+  /// Kilo-Walk UI string — speechEdgeTimedOut
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech timed out.'**
   String get speechEdgeTimedOut;
 
-  /// CodeWalk UI string — speechEdgeUnreachable
+  /// Kilo-Walk UI string — speechEdgeUnreachable
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech could not be reached.'**
   String get speechEdgeUnreachable;
 
-  /// CodeWalk UI string — speechApiKeyMissing
+  /// Kilo-Walk UI string — speechApiKeyMissing
   ///
   /// In en, this message translates to:
   /// **'Add an API key in Settings > Speech to use this TTS provider.'**
   String get speechApiKeyMissing;
 
-  /// CodeWalk UI string — speechProviderEmptyAudio
+  /// Kilo-Walk UI string — speechProviderEmptyAudio
   ///
   /// In en, this message translates to:
   /// **'The TTS provider returned an empty audio response.'**
   String get speechProviderEmptyAudio;
 
-  /// CodeWalk UI string — speechProviderRequestRejected
+  /// Kilo-Walk UI string — speechProviderRequestRejected
   ///
   /// In en, this message translates to:
   /// **'The TTS provider rejected the speech request.'**
   String get speechProviderRequestRejected;
 
-  /// CodeWalk UI string — speechApiKeyRejected
+  /// Kilo-Walk UI string — speechApiKeyRejected
   ///
   /// In en, this message translates to:
   /// **'The TTS API key was rejected by the provider.'**
   String get speechApiKeyRejected;
 
-  /// CodeWalk UI string — speechProviderQuotaRateLimit
+  /// Kilo-Walk UI string — speechProviderQuotaRateLimit
   ///
   /// In en, this message translates to:
   /// **'The TTS provider reported a quota or rate limit.'**
   String get speechProviderQuotaRateLimit;
 
-  /// CodeWalk UI string — speechReadAloudNoVoice
+  /// Kilo-Walk UI string — speechReadAloudNoVoice
   ///
   /// In en, this message translates to:
   /// **'Select a voice for this TTS provider.'**
   String get speechReadAloudNoVoice;
 
-  /// CodeWalk UI string — speechProviderTextTooLong
+  /// Kilo-Walk UI string — speechProviderTextTooLong
   ///
   /// In en, this message translates to:
   /// **'The text is too long for this TTS model.'**
   String get speechProviderTextTooLong;
 
-  /// CodeWalk UI string — speechProviderInvalidAudio
+  /// Kilo-Walk UI string — speechProviderInvalidAudio
   ///
   /// In en, this message translates to:
   /// **'The TTS provider returned unrecognized audio.'**
   String get speechProviderInvalidAudio;
 
-  /// CodeWalk UI string — speechNimBaseUrlRequired
+  /// Kilo-Walk UI string — speechNimBaseUrlRequired
   ///
   /// In en, this message translates to:
   /// **'Enter the NVIDIA NIM deployment base URL in Settings > Speech.'**
   String get speechNimBaseUrlRequired;
 
-  /// CodeWalk UI string — speechProviderTemporarilyUnavailable
+  /// Kilo-Walk UI string — speechProviderTemporarilyUnavailable
   ///
   /// In en, this message translates to:
   /// **'The TTS provider is temporarily unavailable.'**
   String get speechProviderTemporarilyUnavailable;
 
-  /// CodeWalk UI string — speechProviderUnreachable
+  /// Kilo-Walk UI string — speechProviderUnreachable
   ///
   /// In en, this message translates to:
   /// **'The TTS provider could not be reached.'**
   String get speechProviderUnreachable;
 
-  /// CodeWalk UI string — appProviderErrorFailedToStartProcess
+  /// Kilo-Walk UI string — appProviderErrorFailedToStartProcess
   ///
   /// In en, this message translates to:
   /// **'Failed to start {tool} process.'**
   String appProviderErrorFailedToStartProcess(String tool);
 
-  /// CodeWalk UI string — appProviderErrorToolNotAvailable
+  /// Kilo-Walk UI string — appProviderErrorToolNotAvailable
   ///
   /// In en, this message translates to:
   /// **'{tool} is not available. Install {runtime} first.'**
   String appProviderErrorToolNotAvailable(String runtime, String tool);
 
-  /// CodeWalk UI string — appProviderErrorToolInstallFailed
+  /// Kilo-Walk UI string — appProviderErrorToolInstallFailed
   ///
   /// In en, this message translates to:
   /// **'{tool} install failed with exit code {exitCode}.'**
   String appProviderErrorToolInstallFailed(int exitCode, String tool);
 
-  /// CodeWalk UI string — appProviderErrorBunBootstrapFailed
+  /// Kilo-Walk UI string — appProviderErrorBunBootstrapFailed
   ///
   /// In en, this message translates to:
   /// **'Bun bootstrap failed with exit code {exitCode}.'**
   String appProviderErrorBunBootstrapFailed(int exitCode);
 
-  /// CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath
+  /// Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath
   ///
   /// In en, this message translates to:
   /// **'OpenCode installation finished but command was not found in PATH.'**
   String get appProviderErrorInstalledButNotFoundInPath;
 
-  /// CodeWalk UI string — appProviderErrorInstalledButPathNotResolved
+  /// Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved
   ///
   /// In en, this message translates to:
   /// **'OpenCode installation finished but command path could not be resolved.'**
   String get appProviderErrorInstalledButPathNotResolved;
 
-  /// CodeWalk UI string — appProviderErrorConfiguredCommandNotFound
+  /// Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound
   ///
   /// In en, this message translates to:
   /// **'Configured command was not found and {tool} is not in PATH.'**
   String appProviderErrorConfiguredCommandNotFound(String tool);
 
-  /// CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing
+  /// Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing
   ///
   /// In en, this message translates to:
   /// **'Configured command path does not exist.'**
   String get appProviderErrorConfiguredCommandPathMissing;
 
-  /// CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed
+  /// Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed
   ///
   /// In en, this message translates to:
   /// **'Configured command exists but version check failed.'**
   String get appProviderErrorConfiguredCommandVersionCheckFailed;
 
-  /// CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed
+  /// Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed
   ///
   /// In en, this message translates to:
   /// **'Configured command could not be executed.'**
   String get appProviderErrorConfiguredCommandExecutionFailed;
 
-  /// CodeWalk UI string — appProviderWslCheckWindowsOnly
+  /// Kilo-Walk UI string — appProviderWslCheckWindowsOnly
   ///
   /// In en, this message translates to:
   /// **'WSL check only applies to Windows.'**
   String get appProviderWslCheckWindowsOnly;
 
-  /// CodeWalk UI string — appProviderDesktopBuildRequired
+  /// Kilo-Walk UI string — appProviderDesktopBuildRequired
   ///
   /// In en, this message translates to:
   /// **'Use a desktop build to configure a managed local server.'**
   String get appProviderDesktopBuildRequired;
 
-  /// CodeWalk UI string — appProviderKnownInstallationDirectoryDetected
+  /// Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected
   ///
   /// In en, this message translates to:
   /// **'Detected from a known installation directory.'**
   String get appProviderKnownInstallationDirectoryDetected;
 
-  /// CodeWalk UI string — appProviderKnownInstallationPathRefreshHint
+  /// Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint
   ///
   /// In en, this message translates to:
   /// **'Detected from a known installation directory. PATH may need refresh; reopen {appName} if a recent install is not detected yet.'**
   String appProviderKnownInstallationPathRefreshHint(String appName);
 
-  /// CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed
+  /// Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to fetch latest release metadata from GitHub.'**
   String get appProviderErrorReleaseMetadataFetchFailed;
 
-  /// CodeWalk UI string — appProviderErrorReleaseAssetListMissing
+  /// Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing
   ///
   /// In en, this message translates to:
   /// **'Latest release metadata did not include asset list.'**
   String get appProviderErrorReleaseAssetListMissing;
 
-  /// CodeWalk UI string — appProviderErrorNoCompatibleAsset
+  /// Kilo-Walk UI string — appProviderErrorNoCompatibleAsset
   ///
   /// In en, this message translates to:
   /// **'No compatible OpenCode binary asset was found.'**
   String get appProviderErrorNoCompatibleAsset;
 
-  /// CodeWalk UI string — appProviderErrorDownloadAssetFailed
+  /// Kilo-Walk UI string — appProviderErrorDownloadAssetFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to download selected OpenCode asset.'**
   String get appProviderErrorDownloadAssetFailed;
 
-  /// CodeWalk UI string — appProviderErrorChecksumVerificationFailed
+  /// Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed
   ///
   /// In en, this message translates to:
   /// **'Checksum verification failed for downloaded asset.'**
   String get appProviderErrorChecksumVerificationFailed;
 
-  /// CodeWalk UI string — appProviderErrorExtractArchiveFailed
+  /// Kilo-Walk UI string — appProviderErrorExtractArchiveFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to extract OpenCode binary archive.'**
   String get appProviderErrorExtractArchiveFailed;
 
-  /// CodeWalk UI string — appProviderErrorExecutableNotFound
+  /// Kilo-Walk UI string — appProviderErrorExecutableNotFound
   ///
   /// In en, this message translates to:
   /// **'Could not find {tool} executable in extracted files.'**
   String appProviderErrorExecutableNotFound(String tool);
 
-  /// CodeWalk UI string — chatNoResponseFromServer
+  /// Kilo-Walk UI string — chatNoResponseFromServer
   ///
   /// In en, this message translates to:
   /// **'No response from server. Please try again.'**
   String get chatNoResponseFromServer;
 
-  /// CodeWalk UI string — chatNoResponseFromModel
+  /// Kilo-Walk UI string — chatNoResponseFromModel
   ///
   /// In en, this message translates to:
   /// **'No response from model. Please try again.'**
   String get chatNoResponseFromModel;
 
-  /// CodeWalk UI string — speechJobCancelled
+  /// Kilo-Walk UI string — speechJobCancelled
   ///
   /// In en, this message translates to:
   /// **'Speech job was cancelled.'**
   String get speechJobCancelled;
 
-  /// CodeWalk UI string — speechEdgeCancelled
+  /// Kilo-Walk UI string — speechEdgeCancelled
   ///
   /// In en, this message translates to:
   /// **'Microsoft Edge Speech was cancelled.'**
   String get speechEdgeCancelled;
 
-  /// CodeWalk UI string — sessionAttentionKindActive
+  /// Kilo-Walk UI string — sessionAttentionKindActive
   ///
   /// In en, this message translates to:
   /// **'Active'**
   String get sessionAttentionKindActive;
 
-  /// CodeWalk UI string — sessionAttentionKindReceiving
+  /// Kilo-Walk UI string — sessionAttentionKindReceiving
   ///
   /// In en, this message translates to:
   /// **'Receiving'**
   String get sessionAttentionKindReceiving;
 
-  /// CodeWalk UI string — sessionAttentionKindDelayed
+  /// Kilo-Walk UI string — sessionAttentionKindDelayed
   ///
   /// In en, this message translates to:
   /// **'Delayed'**
   String get sessionAttentionKindDelayed;
 
-  /// CodeWalk UI string — sessionAttentionKindCompleted
+  /// Kilo-Walk UI string — sessionAttentionKindCompleted
   ///
   /// In en, this message translates to:
   /// **'Completed'**
   String get sessionAttentionKindCompleted;
 
-  /// CodeWalk UI string — sessionAttentionKindPendingInteraction
+  /// Kilo-Walk UI string — sessionAttentionKindPendingInteraction
   ///
   /// In en, this message translates to:
   /// **'Pending interaction'**
   String get sessionAttentionKindPendingInteraction;
 
-  /// CodeWalk UI string — sessionAttentionKindError
+  /// Kilo-Walk UI string — sessionAttentionKindError
   ///
   /// In en, this message translates to:
   /// **'Error'**
   String get sessionAttentionKindError;
 
-  /// CodeWalk UI string — sessionAttentionPauseCellularDataSaver
+  /// Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver
   ///
   /// In en, this message translates to:
   /// **'Cellular data saver is active'**
   String get sessionAttentionPauseCellularDataSaver;
 
-  /// CodeWalk UI string — sessionAttentionPauseOauthReopenRequired
+  /// Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired
   ///
   /// In en, this message translates to:
   /// **'OAuth sign-in required'**
   String get sessionAttentionPauseOauthReopenRequired;
 
-  /// CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired
+  /// Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired
   ///
   /// In en, this message translates to:
   /// **'Tailscale connection required'**
   String get sessionAttentionPauseTailscaleReopenRequired;
 
-  /// CodeWalk UI string — sessionAttentionPauseOffline
+  /// Kilo-Walk UI string — sessionAttentionPauseOffline
   ///
   /// In en, this message translates to:
   /// **'Offline'**
   String get sessionAttentionPauseOffline;
 
-  /// CodeWalk UI string — sessionAttentionPausePermissionRevoked
+  /// Kilo-Walk UI string — sessionAttentionPausePermissionRevoked
   ///
   /// In en, this message translates to:
   /// **'Permission revoked'**
   String get sessionAttentionPausePermissionRevoked;
 
-  /// CodeWalk UI string — sessionAttentionPauseServiceStopped
+  /// Kilo-Walk UI string — sessionAttentionPauseServiceStopped
   ///
   /// In en, this message translates to:
   /// **'Service stopped'**
   String get sessionAttentionPauseServiceStopped;
 
-  /// CodeWalk UI string — sessionAttentionPauseHostUnavailable
+  /// Kilo-Walk UI string — sessionAttentionPauseHostUnavailable
   ///
   /// In en, this message translates to:
   /// **'Host unavailable'**
   String get sessionAttentionPauseHostUnavailable;
 
-  /// CodeWalk UI string — errorRequestCancelled
+  /// Kilo-Walk UI string — errorRequestCancelled
   ///
   /// In en, this message translates to:
   /// **'Request cancelled'**
   String get errorRequestCancelled;
 
-  /// CodeWalk UI string — errorUnknownNetworkError
+  /// Kilo-Walk UI string — errorUnknownNetworkError
   ///
   /// In en, this message translates to:
   /// **'Unknown network error: {error}'**
   String errorUnknownNetworkError(String error);
 
-  /// CodeWalk UI string — errorCertificateError
+  /// Kilo-Walk UI string — errorCertificateError
   ///
   /// In en, this message translates to:
   /// **'Certificate error'**
   String get errorCertificateError;
 
-  /// CodeWalk UI string — errorSessionBusy
+  /// Kilo-Walk UI string — errorSessionBusy
   ///
   /// In en, this message translates to:
   /// **'Session is busy processing another request.'**
   String get errorSessionBusy;
 
-  /// CodeWalk UI string — errorRunShellCommandFailed
+  /// Kilo-Walk UI string — errorRunShellCommandFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to run shell command'**
   String get errorRunShellCommandFailed;
 
-  /// CodeWalk UI string — errorRunSlashCommandFailed
+  /// Kilo-Walk UI string — errorRunSlashCommandFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to run slash command'**
   String get errorRunSlashCommandFailed;
 
-  /// CodeWalk UI string — settingsBehaviorOpenCodeDefaultsLoadError
+  /// Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsLoadError
   ///
   /// In en, this message translates to:
   /// **'Could not load OpenCode-backed defaults from the active server.'**
   String get settingsBehaviorOpenCodeDefaultsLoadError;
 
-  /// CodeWalk UI string — sessionTabIconRemoveFailed
+  /// Kilo-Walk UI string — sessionTabIconRemoveFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to remove local session tab icon data'**
   String get sessionTabIconRemoveFailed;
 
-  /// CodeWalk UI string — forwardUntitled
+  /// Kilo-Walk UI string — forwardUntitled
   ///
   /// In en, this message translates to:
   /// **'Untitled'**
   String get forwardUntitled;
 
-  /// CodeWalk UI string — setupDebugLinuxLogsPath
+  /// Kilo-Walk UI string — setupDebugLinuxLogsPath
   ///
   /// In en, this message translates to:
   /// **'Linux logs: {path}'**
   String setupDebugLinuxLogsPath(String path);
 
-  /// CodeWalk UI string — setupDebugRunOpenCodeCommand
+  /// Kilo-Walk UI string — setupDebugRunOpenCodeCommand
   ///
   /// In en, this message translates to:
   /// **'Run OpenCode with: {command}'**
   String setupDebugRunOpenCodeCommand(String command);
 
-  /// CodeWalk UI string — setupDebugServerHealthEndpoint
+  /// Kilo-Walk UI string — setupDebugServerHealthEndpoint
   ///
   /// In en, this message translates to:
   /// **'Server health: {endpoint}'**
   String setupDebugServerHealthEndpoint(String endpoint);
 
-  /// CodeWalk UI string — setupDebugServerDocsEndpoint
+  /// Kilo-Walk UI string — setupDebugServerDocsEndpoint
   ///
   /// In en, this message translates to:
   /// **'Server docs: {endpoint}'**
   String setupDebugServerDocsEndpoint(String endpoint);
 
-  /// CodeWalk UI string — logsEntryError
+  /// Kilo-Walk UI string — logsEntryError
   ///
   /// In en, this message translates to:
   /// **'Error'**
   String get logsEntryError;
 
-  /// CodeWalk UI string — logsEntryStack
+  /// Kilo-Walk UI string — logsEntryStack
   ///
   /// In en, this message translates to:
   /// **'Stack'**
   String get logsEntryStack;
 
-  /// CodeWalk UI string — setupDebugSourceDiagnostics
+  /// Kilo-Walk UI string — setupDebugSourceDiagnostics
   ///
   /// In en, this message translates to:
   /// **'Diagnostics'**
   String get setupDebugSourceDiagnostics;
 
-  /// CodeWalk UI string — setupDebugSourceUseExisting
+  /// Kilo-Walk UI string — setupDebugSourceUseExisting
   ///
   /// In en, this message translates to:
   /// **'Use Existing'**
   String get setupDebugSourceUseExisting;
 
-  /// CodeWalk UI string — setupDebugSourceLocalServer
+  /// Kilo-Walk UI string — setupDebugSourceLocalServer
   ///
   /// In en, this message translates to:
   /// **'Local Server'**
   String get setupDebugSourceLocalServer;
 
-  /// CodeWalk UI string — setupDebugSourceOnboarding
+  /// Kilo-Walk UI string — setupDebugSourceOnboarding
   ///
   /// In en, this message translates to:
   /// **'Onboarding'**
   String get setupDebugSourceOnboarding;
 
-  /// CodeWalk UI string — setupDebugSourceManualConnection
+  /// Kilo-Walk UI string — setupDebugSourceManualConnection
   ///
   /// In en, this message translates to:
   /// **'Manual connection'**
   String get setupDebugSourceManualConnection;
 
-  /// CodeWalk UI string — setupDebugMessageDiagnosticsResult
+  /// Kilo-Walk UI string — setupDebugMessageDiagnosticsResult
   ///
   /// In en, this message translates to:
   /// **'{availability} on {platform}. {recommendation}'**
@@ -11381,283 +11381,283 @@ abstract class AppLocalizations {
     String recommendation,
   );
 
-  /// CodeWalk UI string — setupDebugMessageDetectAttempt
+  /// Kilo-Walk UI string — setupDebugMessageDetectAttempt
   ///
   /// In en, this message translates to:
   /// **'Trying to detect an existing OpenCode command from the current environment.'**
   String get setupDebugMessageDetectAttempt;
 
-  /// CodeWalk UI string — setupDebugMessageInstallStarted
+  /// Kilo-Walk UI string — setupDebugMessageInstallStarted
   ///
   /// In en, this message translates to:
-  /// **'Started OpenCode installation from CodeWalk.'**
+  /// **'Started OpenCode installation from Kilo-Walk.'**
   String get setupDebugMessageInstallStarted;
 
-  /// CodeWalk UI string — setupDebugMessageStartLocalServer
+  /// Kilo-Walk UI string — setupDebugMessageStartLocalServer
   ///
   /// In en, this message translates to:
   /// **'Starting managed OpenCode server at {url}.'**
   String setupDebugMessageStartLocalServer(String url);
 
-  /// CodeWalk UI string — setupDebugMessageHealthyRunning
+  /// Kilo-Walk UI string — setupDebugMessageHealthyRunning
   ///
   /// In en, this message translates to:
   /// **'Managed OpenCode server is healthy and running at {url}.'**
   String setupDebugMessageHealthyRunning(String url);
 
-  /// CodeWalk UI string — setupDebugMessageStoppingLocalServer
+  /// Kilo-Walk UI string — setupDebugMessageStoppingLocalServer
   ///
   /// In en, this message translates to:
   /// **'Stopping managed OpenCode server.'**
   String get setupDebugMessageStoppingLocalServer;
 
-  /// CodeWalk UI string — setupDebugMessageStoppedCleanly
+  /// Kilo-Walk UI string — setupDebugMessageStoppedCleanly
   ///
   /// In en, this message translates to:
   /// **'Managed OpenCode server stopped cleanly.'**
   String get setupDebugMessageStoppedCleanly;
 
-  /// CodeWalk UI string — setupDebugMessageExitedAfterRequestedStop
+  /// Kilo-Walk UI string — setupDebugMessageExitedAfterRequestedStop
   ///
   /// In en, this message translates to:
   /// **'Managed OpenCode server exited after a requested stop.'**
   String get setupDebugMessageExitedAfterRequestedStop;
 
-  /// CodeWalk UI string — setupDebugMessageOnboardingConnectExisting
+  /// Kilo-Walk UI string — setupDebugMessageOnboardingConnectExisting
   ///
   /// In en, this message translates to:
   /// **'User chose to connect to an existing OpenCode server.'**
   String get setupDebugMessageOnboardingConnectExisting;
 
-  /// CodeWalk UI string — setupDebugMessageOnboardingGuidedPath
+  /// Kilo-Walk UI string — setupDebugMessageOnboardingGuidedPath
   ///
   /// In en, this message translates to:
   /// **'User opened the guided OpenCode setup path.'**
   String get setupDebugMessageOnboardingGuidedPath;
 
-  /// CodeWalk UI string — setupDebugMessageOnboardingManagedLocal
+  /// Kilo-Walk UI string — setupDebugMessageOnboardingManagedLocal
   ///
   /// In en, this message translates to:
   /// **'User opened managed local OpenCode setup.'**
   String get setupDebugMessageOnboardingManagedLocal;
 
-  /// CodeWalk UI string — setupDebugMessageOnboardingOpenedServerSettings
+  /// Kilo-Walk UI string — setupDebugMessageOnboardingOpenedServerSettings
   ///
   /// In en, this message translates to:
   /// **'User opened server settings after a failed health check.'**
   String get setupDebugMessageOnboardingOpenedServerSettings;
 
-  /// CodeWalk UI string — setupDebugMessageOnboardingAddAnotherServer
+  /// Kilo-Walk UI string — setupDebugMessageOnboardingAddAnotherServer
   ///
   /// In en, this message translates to:
   /// **'User chose to add another server after a failed health check.'**
   String get setupDebugMessageOnboardingAddAnotherServer;
 
-  /// CodeWalk UI string — setupDebugMessageTestingServerUrl
+  /// Kilo-Walk UI string — setupDebugMessageTestingServerUrl
   ///
   /// In en, this message translates to:
   /// **'Testing OpenCode server URL {url} from onboarding.'**
   String setupDebugMessageTestingServerUrl(String url);
 
-  /// CodeWalk UI string — chatProviderErrorSessionNotFound
+  /// Kilo-Walk UI string — chatProviderErrorSessionNotFound
   ///
   /// In en, this message translates to:
   /// **'Session not found'**
   String get chatProviderErrorSessionNotFound;
 
-  /// CodeWalk UI string — chatProviderErrorInvalidMessageFormat
+  /// Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat
   ///
   /// In en, this message translates to:
   /// **'Invalid message format'**
   String get chatProviderErrorInvalidMessageFormat;
 
-  /// CodeWalk UI string — chatProviderErrorNetworkShort
+  /// Kilo-Walk UI string — chatProviderErrorNetworkShort
   ///
   /// In en, this message translates to:
   /// **'Network connection failed'**
   String get chatProviderErrorNetworkShort;
 
-  /// CodeWalk UI string — chatProviderErrorUnknownShort
+  /// Kilo-Walk UI string — chatProviderErrorUnknownShort
   ///
   /// In en, this message translates to:
   /// **'Unknown error'**
   String get chatProviderErrorUnknownShort;
 
-  /// CodeWalk UI string — terminalCreateFailed
+  /// Kilo-Walk UI string — terminalCreateFailed
   ///
   /// In en, this message translates to:
   /// **'Failed to create terminal session'**
   String get terminalCreateFailed;
 
-  /// CodeWalk UI string — terminalEndpointUnavailable
+  /// Kilo-Walk UI string — terminalEndpointUnavailable
   ///
   /// In en, this message translates to:
   /// **'Terminal endpoint is not available'**
   String get terminalEndpointUnavailable;
 
-  /// CodeWalk UI string — terminalInvalidDirectory
+  /// Kilo-Walk UI string — terminalInvalidDirectory
   ///
   /// In en, this message translates to:
   /// **'Invalid terminal directory'**
   String get terminalInvalidDirectory;
 
-  /// CodeWalk UI string — terminalWebsocketUnavailable
+  /// Kilo-Walk UI string — terminalWebsocketUnavailable
   ///
   /// In en, this message translates to:
   /// **'Terminal websocket is not available here.'**
   String get terminalWebsocketUnavailable;
 
-  /// CodeWalk UI string — chatMessageToolChainCallsCompact
+  /// Kilo-Walk UI string — chatMessageToolChainCallsCompact
   ///
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 call} other{{count} calls}}'**
   String chatMessageToolChainCallsCompact(int count);
 
-  /// CodeWalk UI string — errorConnectionTimeout
+  /// Kilo-Walk UI string — errorConnectionTimeout
   ///
   /// In en, this message translates to:
   /// **'Connection timeout'**
   String get errorConnectionTimeout;
 
-  /// CodeWalk UI string — errorClientError
+  /// Kilo-Walk UI string — errorClientError
   ///
   /// In en, this message translates to:
   /// **'Client error'**
   String get errorClientError;
 
-  /// CodeWalk UI string — chatProviderErrorSendMessage
+  /// Kilo-Walk UI string — chatProviderErrorSendMessage
   ///
   /// In en, this message translates to:
   /// **'Failed to send message'**
   String get chatProviderErrorSendMessage;
 
-  /// CodeWalk UI string — speechApiEngine
+  /// Kilo-Walk UI string — speechApiEngine
   ///
   /// In en, this message translates to:
   /// **'API'**
   String get speechApiEngine;
 
-  /// CodeWalk UI string — speechApiEngineSubtitle
+  /// Kilo-Walk UI string — speechApiEngineSubtitle
   ///
   /// In en, this message translates to:
   /// **'OpenAI, Groq, or a custom OpenAI-compatible endpoint.'**
   String get speechApiEngineSubtitle;
 
-  /// CodeWalk UI string — speechApiProvider
+  /// Kilo-Walk UI string — speechApiProvider
   ///
   /// In en, this message translates to:
   /// **'Speech-to-text provider'**
   String get speechApiProvider;
 
-  /// CodeWalk UI string — speechCloudSttPrivacy
+  /// Kilo-Walk UI string — speechCloudSttPrivacy
   ///
   /// In en, this message translates to:
   /// **'Cloud speech-to-text privacy'**
   String get speechCloudSttPrivacy;
 
-  /// CodeWalk UI string — speechCloudSttPrivacyDescription
+  /// Kilo-Walk UI string — speechCloudSttPrivacyDescription
   ///
   /// In en, this message translates to:
   /// **'Recorded microphone audio is sent to the configured provider. API keys stay in secure storage on this device.'**
   String get speechCloudSttPrivacyDescription;
 
-  /// CodeWalk UI string — speechApiKeyOptional
+  /// Kilo-Walk UI string — speechApiKeyOptional
   ///
   /// In en, this message translates to:
   /// **'Optional for custom endpoints.'**
   String get speechApiKeyOptional;
 
-  /// CodeWalk UI string — speechApiBatchHint
+  /// Kilo-Walk UI string — speechApiBatchHint
   ///
   /// In en, this message translates to:
   /// **'{provider} uses batch transcription. Tap the microphone again to stop and transcribe.'**
   String speechApiBatchHint(String provider);
 
-  /// CodeWalk UI string — speechApiWebUnavailable
+  /// Kilo-Walk UI string — speechApiWebUnavailable
   ///
   /// In en, this message translates to:
   /// **'API speech-to-text is unavailable on the web build.'**
   String get speechApiWebUnavailable;
 
-  /// CodeWalk UI string — speechApiConfigInvalid
+  /// Kilo-Walk UI string — speechApiConfigInvalid
   ///
   /// In en, this message translates to:
   /// **'Check the speech API endpoint and model. Remote endpoints must use HTTPS.'**
   String get speechApiConfigInvalid;
 
-  /// CodeWalk UI string — speechApiRequestInvalid
+  /// Kilo-Walk UI string — speechApiRequestInvalid
   ///
   /// In en, this message translates to:
   /// **'The speech endpoint or model was rejected.'**
   String get speechApiRequestInvalid;
 
-  /// CodeWalk UI string — speechApiRateLimited
+  /// Kilo-Walk UI string — speechApiRateLimited
   ///
   /// In en, this message translates to:
   /// **'The speech provider reported a quota or rate limit.'**
   String get speechApiRateLimited;
 
-  /// CodeWalk UI string — speechApiUnavailable
+  /// Kilo-Walk UI string — speechApiUnavailable
   ///
   /// In en, this message translates to:
   /// **'The speech provider is temporarily unavailable.'**
   String get speechApiUnavailable;
 
-  /// CodeWalk UI string — speechApiNetwork
+  /// Kilo-Walk UI string — speechApiNetwork
   ///
   /// In en, this message translates to:
   /// **'The speech provider could not be reached.'**
   String get speechApiNetwork;
 
-  /// CodeWalk UI string — speechApiInvalidResponse
+  /// Kilo-Walk UI string — speechApiInvalidResponse
   ///
   /// In en, this message translates to:
   /// **'The speech provider returned an invalid response.'**
   String get speechApiInvalidResponse;
 
-  /// CodeWalk UI string — speechApiEmptyAudio
+  /// Kilo-Walk UI string — speechApiEmptyAudio
   ///
   /// In en, this message translates to:
   /// **'No microphone audio was captured.'**
   String get speechApiEmptyAudio;
 
-  /// CodeWalk UI string — speechApiEmptyTranscript
+  /// Kilo-Walk UI string — speechApiEmptyTranscript
   ///
   /// In en, this message translates to:
   /// **'The speech provider returned no transcription.'**
   String get speechApiEmptyTranscript;
 
-  /// CodeWalk UI string — speechApiCustomProvider
+  /// Kilo-Walk UI string — speechApiCustomProvider
   ///
   /// In en, this message translates to:
   /// **'Custom OpenAI-compatible'**
   String get speechApiCustomProvider;
 
-  /// CodeWalk UI string — speechApiMaxDuration
+  /// Kilo-Walk UI string — speechApiMaxDuration
   ///
   /// In en, this message translates to:
   /// **'API recordings stop automatically after 2 minutes.'**
   String get speechApiMaxDuration;
 
-  /// CodeWalk UI string — speechApiLanguageHint
+  /// Kilo-Walk UI string — speechApiLanguageHint
   ///
   /// In en, this message translates to:
   /// **'The active app language is sent as a transcription hint.'**
   String get speechApiLanguageHint;
 
-  /// CodeWalk UI string — speechSttApiKeyStorageUnavailable
+  /// Kilo-Walk UI string — speechSttApiKeyStorageUnavailable
   ///
   /// In en, this message translates to:
   /// **'Secure speech API key storage is unavailable.'**
   String get speechSttApiKeyStorageUnavailable;
 
-  /// CodeWalk UI string — speechSttApiKeyMissing
+  /// Kilo-Walk UI string — speechSttApiKeyMissing
   ///
   /// In en, this message translates to:
   /// **'Add a speech API key in Settings > Speech.'**
   String get speechSttApiKeyMissing;
 
-  /// CodeWalk UI string — speechSttApiKeyRejected
+  /// Kilo-Walk UI string — speechSttApiKeyRejected
   ///
   /// In en, this message translates to:
   /// **'The speech API key was rejected.'**
@@ -11684,82 +11684,82 @@ abstract class AppLocalizations {
   /// No description provided for @carMessagingDeliveryFailedBody.
   ///
   /// In en, this message translates to:
-  /// **'Your voice reply could not be delivered. Open CodeWalk to retry.'**
+  /// **'Your voice reply could not be delivered. Open Kilo-Walk to retry.'**
   String get carMessagingDeliveryFailedBody;
 
-  /// CodeWalk UI string — shortcutNextTab
+  /// Kilo-Walk UI string — shortcutNextTab
   ///
   /// In en, this message translates to:
   /// **'Next tab'**
   String get shortcutNextTab;
 
-  /// CodeWalk UI string — shortcutNextTabDesc
+  /// Kilo-Walk UI string — shortcutNextTabDesc
   ///
   /// In en, this message translates to:
   /// **'Show the tab switcher and cycle to the next tab'**
   String get shortcutNextTabDesc;
 
-  /// CodeWalk UI string — shortcutPreviousTab
+  /// Kilo-Walk UI string — shortcutPreviousTab
   ///
   /// In en, this message translates to:
   /// **'Previous tab'**
   String get shortcutPreviousTab;
 
-  /// CodeWalk UI string — shortcutPreviousTabDesc
+  /// Kilo-Walk UI string — shortcutPreviousTabDesc
   ///
   /// In en, this message translates to:
   /// **'Show the tab switcher and cycle to the previous tab'**
   String get shortcutPreviousTabDesc;
 
-  /// CodeWalk UI string — sessionTabSwitcherTitle
+  /// Kilo-Walk UI string — sessionTabSwitcherTitle
   ///
   /// In en, this message translates to:
   /// **'Switch tab'**
   String get sessionTabSwitcherTitle;
 
-  /// CodeWalk UI string — sessionTabSwitcherHint
+  /// Kilo-Walk UI string — sessionTabSwitcherHint
   ///
   /// In en, this message translates to:
   /// **'Release Ctrl to switch, Esc to cancel'**
   String get sessionTabSwitcherHint;
 
-  /// CodeWalk UI string — aboutTelegram
+  /// Kilo-Walk UI string — aboutTelegram
   ///
   /// In en, this message translates to:
   /// **'Telegram'**
   String get aboutTelegram;
 
-  /// CodeWalk UI string — settingsAboutWhatsNew
+  /// Kilo-Walk UI string — settingsAboutWhatsNew
   ///
   /// In en, this message translates to:
   /// **'What\'\'s new in v{version}'**
   String settingsAboutWhatsNew(String version);
 
-  /// CodeWalk UI string — appShellNewsMore
+  /// Kilo-Walk UI string — appShellNewsMore
   ///
   /// In en, this message translates to:
   /// **'More'**
   String get appShellNewsMore;
 
-  /// CodeWalk UI string — settingsAboutChangelog
+  /// Kilo-Walk UI string — settingsAboutChangelog
   ///
   /// In en, this message translates to:
   /// **'Changelog'**
   String get settingsAboutChangelog;
 
-  /// CodeWalk UI string — settingsAboutOurGroup
+  /// Kilo-Walk UI string — settingsAboutOurGroup
   ///
   /// In en, this message translates to:
   /// **'Our group'**
   String get settingsAboutOurGroup;
 
-  /// CodeWalk UI string — settingsAppearanceProjectTabColors
+  /// Kilo-Walk UI string — settingsAppearanceProjectTabColors
   ///
   /// In en, this message translates to:
   /// **'Project tab colors'**
   String get settingsAppearanceProjectTabColors;
 
-  /// CodeWalk UI string — settingsAppearanceProjectTabColorsDescription
+  /// Kilo-Walk UI string — settingsAppearanceProjectTabColorsDescription
   ///
   /// In en, this message translates to:
   /// **'Tint session tabs with colors from detected project icons.'**

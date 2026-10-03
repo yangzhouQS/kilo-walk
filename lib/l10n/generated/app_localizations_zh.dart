@@ -201,7 +201,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get appProviderSetupOpenCodeNotDetectedRefresh =>
-      '未检测到 OpenCode 命令。如果您刚刚安装，请刷新检查或重新打开 CodeWalk 以重新加载 PATH。';
+      '未检测到 OpenCode 命令。如果您刚刚安装，请刷新检查或重新打开 Kilo-Walk 以重新加载 PATH。';
 
   @override
   String get appProviderSetupRequirementsInstalled => 'OpenCode 要求已成功安装。';
@@ -340,7 +340,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get behaviorChatLevelShare => '聊天级别共享';
 
   @override
-  String get behaviorCodeWalkReleaseChecks => 'CodeWalk版本检查';
+  String get behaviorCodeWalkReleaseChecks => 'Kilo-Walk版本检查';
 
   @override
   String get behaviorControlsOfficialGlobal => '控制OpenCode官方全局设置';
@@ -395,7 +395,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get behaviorOfficialOpenCodePermission =>
-      '官方 OpenCode 权限策略在 `opencode.json` 中配置，针对每个工具有 允许/询问/拒绝 规则。CodeWalk 保留了官方的权限请求卡片，并添加了一个经批准的 ADR-023 异常：编辑器（composer）自动批准开关无条件回复 `Always` 且 `remember: true`，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。';
+      '官方 OpenCode 权限策略在 `opencode.json` 中配置，针对每个工具有 允许/询问/拒绝 规则。Kilo-Walk 保留了官方的权限请求卡片，并添加了一个经批准的 ADR-023 异常：编辑器（composer）自动批准开关无条件回复 `Always` 且 `remember: true`，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。';
 
   @override
   String get behaviorOpenCodeBackedDefaults => 'OpenCode 支持的默认设置';
@@ -1862,7 +1862,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get logsLoggingDisabledDescription =>
-      'CodeWalk 未收集详细应用日志。仅在需要诊断时启用日志。';
+      'Kilo-Walk 未收集详细应用日志。仅在需要诊断时启用日志。';
 
   @override
   String get logsLoggingDisabledTitle => '日志已关闭';
@@ -1989,7 +1989,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get msgBatterySettingsOpened =>
-      'Android 电池设置已打开。请允许 CodeWalk 使用不受限制的电池。';
+      'Android 电池设置已打开。请允许 Kilo-Walk 使用不受限制的电池。';
 
   @override
   String get msgClearUsernameNeedsConfigEdit => '清除 OpenCode 对话用户名仍需在应用外部编辑配置。';
@@ -2099,7 +2099,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get msgShareAsImageFailed => '无法将消息作为图片分享。';
 
   @override
-  String get msgShareAsImageSubject => 'CodeWalk 消息';
+  String get msgShareAsImageSubject => 'Kilo-Walk 消息';
 
   @override
   String get msgShareAsImageTooTall => '消息太长，无法作为图片分享。';
@@ -2130,7 +2130,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get notifNotificationsArriveReopening =>
-      '如果通知仅在重新打开应用时到达，请允许 CodeWalk 在此设备上无优化运行。';
+      '如果通知仅在重新打开应用时到达，请允许 Kilo-Walk 在此设备上无优化运行。';
 
   @override
   String get notifResponseRunningKeep => '当响应正在运行时，离开应用后短时间内保持实时状态激活。';
@@ -2166,7 +2166,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get onboardingAlmostInstallOpenCode =>
-      '您就快完成了。请先安装 OpenCode，然后将 CodeWalk 连接 to 服务器 URL。';
+      '您就快完成了。请先安装 OpenCode，然后将 Kilo-Walk 连接 to 服务器 URL。';
 
   @override
   String onboardingAppProviderLocalSetupLogsLength(int length, int length2) {
@@ -2198,7 +2198,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onboardingCloudflareAuthFailed => 'Cloudflare Access 身份验证失败。';
 
   @override
-  String get onboardingCodeWalkAppOpenCode => 'CodeWalk 是应用，OpenCode 是它连接的引擎。';
+  String get onboardingCodeWalkAppOpenCode => 'Kilo-Walk 是应用，OpenCode 是它连接的引擎。';
 
   @override
   String get onboardingConnectRunningServer => '连接到正在运行的服务器';
@@ -2262,7 +2262,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get onboardingExplainInstallOpenCode =>
-      '解释如何安装 OpenCode、启动服务器，然后从 CodeWalk 连接。';
+      '解释如何安装 OpenCode、启动服务器，然后从 Kilo-Walk 连接。';
 
   @override
   String get onboardingFailed => '失败';
@@ -2286,7 +2286,8 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onboardingInstallNpm => '通过 npm 安装';
 
   @override
-  String get onboardingInstallRunOpenCode => '在桌面端直接从 CodeWalk 安装并运行 OpenCode。';
+  String get onboardingInstallRunOpenCode =>
+      '在桌面端直接从 Kilo-Walk 安装并运行 OpenCode。';
 
   @override
   String get onboardingInvalidUrl => '无效的 URL';
@@ -2303,7 +2304,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get onboardingLetCodeWalkSet => '让 CodeWalk 在本地进行设置';
+  String get onboardingLetCodeWalkSet => '让 Kilo-Walk 在本地进行设置';
 
   @override
   String get onboardingLocalServerSetup => '本地服务器设置';
@@ -2334,7 +2335,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get onboardingOpenCodeRunsLocally =>
-      'OpenCode 在本地或服务器上运行，并为 CodeWalk 内部的 AI 编程功能提供支持。如果 OpenCode 已经运行，请连接到它。如果未运行，请选择以下引导设置路径之一。';
+      'OpenCode 在本地或服务器上运行，并为 Kilo-Walk 内部的 AI 编程功能提供支持。如果 OpenCode 已经运行，请连接到它。如果未运行，请选择以下引导设置路径之一。';
 
   @override
   String get onboardingOpenTailscaleLogin => '无法打开 Tailscale 登录 URL。';
@@ -2387,7 +2388,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get onboardingRecommendedOrderTry =>
-      '推荐顺序：如果您希望 CodeWalk 为您引导一切，请尝试“安装 Bun + OpenCode”。如果已安装 OpenCode，请使用“使用现有”。';
+      '推荐顺序：如果您希望 Kilo-Walk 为您引导一切，请尝试“安装 Bun + OpenCode”。如果已安装 OpenCode，请使用“使用现有”。';
 
   @override
   String get onboardingRefreshChecks => '刷新检查';
@@ -2523,7 +2524,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get onboardingWindowsTipInstalling =>
-      'Windows 提示：安装后，单击“刷新检查”。如果检测仍然失败，请重新打开 CodeWalk 以重新加载 PATH 更改。';
+      'Windows 提示：安装后，单击“刷新检查”。如果检测仍然失败，请重新打开 Kilo-Walk 以重新加载 PATH 更改。';
 
   @override
   String get onboardingWritable => '可写';
@@ -2698,7 +2699,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get serversDesktopModeExplanation =>
-      '桌面模式可以直接从 CodeWalk 启动和管理 `opencode serve`。';
+      '桌面模式可以直接从 Kilo-Walk 启动和管理 `opencode serve`。';
 
   @override
   String get serversEdit => '编辑';
@@ -3137,7 +3138,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsAppearanceBrandColorPresetBlocked =>
-      '切换到 CodeWalk 经典以选择品牌颜色。';
+      '切换到 Kilo-Walk 经典以选择品牌颜色。';
 
   @override
   String get settingsAppearanceChatFontScale => '对话文字大小';
@@ -3147,7 +3148,7 @@ class AppLocalizationsZh extends AppLocalizations {
       '在系统文字大小之上缩放聊天消息和输入框文字。';
 
   @override
-  String get settingsAppearanceCodeWalkClassic => 'CodeWalk 经典';
+  String get settingsAppearanceCodeWalkClassic => 'Kilo-Walk 经典';
 
   @override
   String get settingsAppearanceComposerTips => 'Composer 提示';
@@ -3169,7 +3170,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsAppearanceContrastPresetBlocked =>
-      '切换到 CodeWalk 经典以调节对比度。';
+      '切换到 Kilo-Walk 经典以调节对比度。';
 
   @override
   String get settingsAppearanceContrastReduced => '较低';
@@ -3270,7 +3271,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsAppearanceThemeDescription =>
-      '选择浅色、深色或系统模式，然后保留 CodeWalk 经典调色板或切换到 OpenCode 预设。';
+      '选择浅色、深色或系统模式，然后保留 Kilo-Walk 经典调色板或切换到 OpenCode 预设。';
 
   @override
   String get settingsAppearanceVisualStyle => '视觉样式';
@@ -3308,7 +3309,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsAppearanceWallpaperPresetBlocked =>
-      '切换到 CodeWalk 经典以使用壁纸颜色。';
+      '切换到 Kilo-Walk 经典以使用壁纸颜色。';
 
   @override
   String get settingsAppearanceWindowChrome => '窗口标签页';
@@ -3336,11 +3337,11 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsBehaviorAutoupdateCaveat =>
-      '使用“关于”来进行 CodeWalk 版本检查。此设置仅镜像了官方 OpenCode 的 `autoupdate` 配置。';
+      '使用“关于”来进行 Kilo-Walk 版本检查。此设置仅镜像了官方 OpenCode 的 `autoupdate` 配置。';
 
   @override
   String get settingsBehaviorAutoupdateHelp =>
-      '控制上游 OpenCode 运行时更新，而不是 CodeWalk 应用的更新检查。';
+      '控制上游 OpenCode 运行时更新，而不是 Kilo-Walk 应用的更新检查。';
 
   @override
   String get settingsBehaviorCellularDataSaver => '蜂窝数据节省程序';
@@ -3375,7 +3376,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsBehaviorConfigDeferred =>
-      'CodeWalk 将在当前响应结束后应用此 OpenCode 设置。';
+      'Kilo-Walk 将在当前响应结束后应用此 OpenCode 设置。';
 
   @override
   String settingsBehaviorConfigUpdateFailed(String field) {
@@ -3463,7 +3464,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsBehaviorPermissionProvenanceDescription =>
-      '官方 OpenCode 权限策略在 `opencode.json` 中配置，每个工具有允许/询问/拒绝规则。CodeWalk 保留了官方的权限请求卡，并添加了一个经过批准的 ADR-023 例外：composer 自动批准切换无条件地以 `Always` 和 `remember: true` 进行回复，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。';
+      '官方 OpenCode 权限策略在 `opencode.json` 中配置，每个工具有允许/询问/拒绝规则。Kilo-Walk 保留了官方的权限请求卡，并添加了一个经过批准的 ADR-023 例外：composer 自动批准切换无条件地以 `Always` 和 `remember: true` 进行回复，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。';
 
   @override
   String get settingsBehaviorRefreshDefaults => '刷新默认值';
@@ -3516,7 +3517,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsBehaviorSnapshotCaveat =>
-      '这控制的是 OpenCode 快照存储和撤销/重做支持，而不是 CodeWalk 本地缓存快照。';
+      '这控制的是 OpenCode 快照存储和撤销/重做支持，而不是 Kilo-Walk 本地缓存快照。';
 
   @override
   String get settingsBehaviorTitle => '行为';
@@ -3534,7 +3535,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsConfigUpdateDeferred =>
-      'CodeWalk 将在当前响应完成后应用此 OpenCode 设置。';
+      'Kilo-Walk 将在当前响应完成后应用此 OpenCode 设置。';
 
   @override
   String get settingsConversationUsername => '对话用户名';
@@ -3546,7 +3547,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsDefaultModel => '默认模型';
 
   @override
-  String get settingsLanguageDescription => '选择 CodeWalk 使用的语言。系统默认会遵循您的设备语言。';
+  String get settingsLanguageDescription => '选择 Kilo-Walk 使用的语言。系统默认会遵循您的设备语言。';
 
   @override
   String get settingsLanguageEmptyText => '未找到语言';
@@ -3595,7 +3596,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsNotificationsBackgroundBehaviorDescription =>
-      '选择 CodeWalk 在应用离开前台后的行为方式。';
+      '选择 Kilo-Walk 在应用离开前台后的行为方式。';
 
   @override
   String get settingsNotificationsBackgroundDescription =>
@@ -3610,10 +3611,10 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get settingsNotificationsBatteryDescription =>
-      '如果通知仅在重新打开应用时到达，请允许 CodeWalk 在此设备上不受优化限制运行。';
+      '如果通知仅在重新打开应用时到达，请允许 Kilo-Walk 在此设备上不受优化限制运行。';
 
   @override
-  String get settingsNotificationsBatteryDisabled => '已为 CodeWalk 禁用电池优化。';
+  String get settingsNotificationsBatteryDisabled => '已为 Kilo-Walk 禁用电池优化。';
 
   @override
   String get settingsNotificationsBatteryEnabled => '已启用电池优化。某些设备可能会延迟后台警报。';
@@ -3997,7 +3998,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get setupDebugCodeWalkCaptureEnough =>
-      '如果 CodeWalk 未捕获到足够的上下文，请直接检查官方 OpenCode 日志和运行状况端点：';
+      '如果 Kilo-Walk 未捕获到足够的上下文，请直接检查官方 OpenCode 日志和运行状况端点：';
 
   @override
   String get setupDebugCommandPath => '命令路径';
@@ -4086,7 +4087,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get setupDebugScreenCoversOpenCode =>
-      '此屏幕仅涵盖 OpenCode 安装、诊断 and 本地设置排障。一般 CodeWalk 运行时问题请使用“应用日志”。';
+      '此屏幕仅涵盖 OpenCode 安装、诊断 and 本地设置排障。一般 Kilo-Walk 运行时问题请使用“应用日志”。';
 
   @override
   String get setupDebugServerOutput => '最新本地服务器输出';
@@ -4240,7 +4241,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get shortcutsTheseBindingsStored =>
-      '这些绑定存储在 CodeWalk 中用于当前应用运行时，不会修改 OpenCode `tui.json` 按键绑定。';
+      '这些绑定存储在 Kilo-Walk 中用于当前应用运行时，不会修改 OpenCode `tui.json` 按键绑定。';
 
   @override
   String get speechAutoStopSilence => '自动停止静音超时';
@@ -4292,7 +4293,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get speechNativeSTTWorks =>
-      '在 Windows 上，CodeWalk 通过其 WASAPI 麦克风后端使用本地设备端语音识别。为保持稳定性，Windows 原生语音识别已禁用。';
+      '在 Windows 上，Kilo-Walk 通过其 WASAPI 麦克风后端使用本地设备端语音识别。为保持稳定性，Windows 原生语音识别已禁用。';
 
   @override
   String get speechNativeStartsFaster =>
@@ -4372,7 +4373,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get speechWindowsSetupHint =>
-      'Windows 语音输入使用 CodeWalk WASAPI 采集和设备端模型。请保持桌面应用可访问麦克风；下方按钮会打开 Windows 设置以进行故障排查。';
+      'Windows 语音输入使用 Kilo-Walk WASAPI 采集和设备端模型。请保持桌面应用可访问麦克风；下方按钮会打开 Windows 设置以进行故障排查。';
 
   @override
   String get statusConnected => '已连接';
@@ -4440,7 +4441,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String terminalEmbeddedUnavailable(String serverName) {
-    return '此运行时尚不支持嵌入式终端。请继续使用撰写器的 shell 模式执行一次性命令，或从支持的 CodeWalk 应用运行时打开 $serverName 的终端。';
+    return '此运行时尚不支持嵌入式终端。请继续使用撰写器的 shell 模式执行一次性命令，或从支持的 Kilo-Walk 应用运行时打开 $serverName 的终端。';
   }
 
   @override
@@ -4855,7 +4856,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get serversQuickGuideIntro =>
-      'CodeWalk 是应用，OpenCode 是需要先运行、此连接才能工作的引擎。';
+      'Kilo-Walk 是应用，OpenCode 是需要先运行、此连接才能工作的引擎。';
 
   @override
   String get serversQuickGuideStepInstallCli => '1. 安装 OpenCode CLI。';
@@ -4878,7 +4879,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get serversQuickGuideVerifyHint =>
-      '启动服务器后，请先确认 /global/health 或 /doc 有响应，再将 URL 粘贴到 CodeWalk 中。';
+      '启动服务器后，请先确认 /global/health 或 /doc 有响应，再将 URL 粘贴到 Kilo-Walk 中。';
 
   @override
   String get shortcutsPressKeyCombination => '现在请按下组合键';
@@ -4887,10 +4888,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsProvenanceOpenCodeBacked => 'OpenCode 后端';
 
   @override
-  String get settingsProvenanceCodeWalkLocal => 'CodeWalk 本地';
+  String get settingsProvenanceCodeWalkLocal => 'Kilo-Walk 本地';
 
   @override
-  String get settingsProvenanceCodeWalkException => 'CodeWalk 异常';
+  String get settingsProvenanceCodeWalkException => 'Kilo-Walk 异常';
 
   @override
   String get shortcutsErrorInvalid => '无效的快捷键';
@@ -4961,11 +4962,11 @@ class AppLocalizationsZh extends AppLocalizations {
   String get speechApiKeySaved => 'API 密钥已安全保存到此设备。';
 
   @override
-  String get speechReadAloudTestText => '这是 CodeWalk 的文字转语音测试。';
+  String get speechReadAloudTestText => '这是 Kilo-Walk 的文字转语音测试。';
 
   @override
   String get speechNativeDisabledWindows =>
-      '出于稳定性考虑，Windows 上已禁用。请通过 CodeWalk WASAPI 采集使用 Parakeet 或其他设备端引擎。';
+      '出于稳定性考虑，Windows 上已禁用。请通过 Kilo-Walk WASAPI 采集使用 Parakeet 或其他设备端引擎。';
 
   @override
   String get speechNativeUnavailableLinux => 'Linux 上不可用。请使用 Parakeet 进行语音输入。';
@@ -5200,22 +5201,22 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationSessionError => '某个会话报告了错误。';
 
   @override
-  String get notificationChannelErrors => 'CodeWalk 错误';
+  String get notificationChannelErrors => 'Kilo-Walk 错误';
 
   @override
-  String get notificationChannelErrorsDescription => 'CodeWalk 错误提醒';
+  String get notificationChannelErrorsDescription => 'Kilo-Walk 错误提醒';
 
   @override
-  String get notificationChannelPermissions => 'CodeWalk 权限';
+  String get notificationChannelPermissions => 'Kilo-Walk 权限';
 
   @override
-  String get notificationChannelPermissionsDescription => 'CodeWalk 操作待处理提醒';
+  String get notificationChannelPermissionsDescription => 'Kilo-Walk 操作待处理提醒';
 
   @override
-  String get notificationChannelAgent => 'CodeWalk 代理';
+  String get notificationChannelAgent => 'Kilo-Walk 代理';
 
   @override
-  String get notificationChannelAgentDescription => 'CodeWalk 代理完成提醒';
+  String get notificationChannelAgentDescription => 'Kilo-Walk 代理完成提醒';
 
   @override
   String get notificationActionOpen => '打开';
@@ -5249,7 +5250,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get sessionAttentionOverlayPermissionRequired => '需要“在其他应用上层显示”权限。';
 
   @override
-  String get sessionAttentionIosInAppOnly => '会话关注仅在 CodeWalk 应用内可用。';
+  String get sessionAttentionIosInAppOnly => '会话关注仅在 Kilo-Walk 应用内可用。';
 
   @override
   String get sessionAttentionOverlayPermissionGrantPrompt =>
@@ -6208,7 +6209,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get setupDebugMessageDetectAttempt => '正在尝试从当前环境检测现有的 OpenCode 命令。';
 
   @override
-  String get setupDebugMessageInstallStarted => '已从 CodeWalk 开始安装 OpenCode。';
+  String get setupDebugMessageInstallStarted => '已从 Kilo-Walk 开始安装 OpenCode。';
 
   @override
   String setupDebugMessageStartLocalServer(String url) {
@@ -6377,7 +6378,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get carMessagingDeliveryFailedTitle => '无法发送回复';
 
   @override
-  String get carMessagingDeliveryFailedBody => '无法发送您的语音回复。打开 CodeWalk 重试。';
+  String get carMessagingDeliveryFailedBody => '无法发送您的语音回复。打开 Kilo-Walk 重试。';
 
   @override
   String get shortcutNextTab => '下一个标签页';

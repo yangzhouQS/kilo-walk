@@ -74,7 +74,7 @@
   "appProviderSetupOpenCodeDetected": "已检测到 OpenCode",
   "appProviderSetupOpenCodeNotDetected": "未检测到 OpenCode",
   "appProviderSetupOpenCodeNotDetectedInstall": "未检测到 OpenCode 命令。请从向导运行安装。",
-  "appProviderSetupOpenCodeNotDetectedRefresh": "未检测到 OpenCode 命令。如果您刚刚安装，请刷新检查或重新打开 CodeWalk 以重新加载 PATH。",
+  "appProviderSetupOpenCodeNotDetectedRefresh": "未检测到 OpenCode 命令。如果您刚刚安装，请刷新检查或重新打开 Kilo-Walk 以重新加载 PATH。",
   "appProviderSetupRequirementsInstalled": "OpenCode 要求已成功安装。",
   "appProviderSetupUsingOpenCodeAt": "正在使用位于 {path} 的 OpenCode 命令",
   "appProviderStartingLocalServer": "正在启动本地服务器...",
@@ -115,7 +115,7 @@
   "behaviorCellularDataSaver": "移动数据节省",
   "behaviorCellularDataSaverActive": "蜂窝数据节省模式已开启。",
   "behaviorChatLevelShare": "聊天级别共享",
-  "behaviorCodeWalkReleaseChecks": "CodeWalk版本检查",
+  "behaviorCodeWalkReleaseChecks": "Kilo-Walk版本检查",
   "behaviorControlsOfficialGlobal": "控制OpenCode官方全局设置",
   "behaviorControlsUpstreamOpenCode": "控制上游OpenCode设置",
   "behaviorCustomDisplayName": "自定义显示名称",
@@ -132,7 +132,7 @@
   "behaviorLightweightTasksLike": "轻量级任务如",
   "behaviorManual": "手动",
   "behaviorNotify": "通知",
-  "behaviorOfficialOpenCodePermission": "官方 OpenCode 权限策略在 `opencode.json` 中配置，针对每个工具有 允许/询问/拒绝 规则。CodeWalk 保留了官方的权限请求卡片，并添加了一个经批准的 ADR-023 异常：编辑器（composer）自动批准开关无条件回复 `Always` 且 `remember: true`，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。",
+  "behaviorOfficialOpenCodePermission": "官方 OpenCode 权限策略在 `opencode.json` 中配置，针对每个工具有 允许/询问/拒绝 规则。Kilo-Walk 保留了官方的权限请求卡片，并添加了一个经批准的 ADR-023 异常：编辑器（composer）自动批准开关无条件回复 `Always` 且 `remember: true`，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。",
   "behaviorOpenCodeBackedDefaults": "OpenCode 支持的默认设置",
   "behaviorPermissionHandlingProvenance": "权限处理来源",
   "behaviorPermissionsVariantReasoning": "权限与变体/推理对齐在 UI 能够安全保留高级配置之前将保持分离。",
@@ -593,7 +593,7 @@
   "logsFilterAll": "全部",
   "logsFilterByTag": "标签",
   "logsLevel": "级别",
-  "logsLoggingDisabledDescription": "CodeWalk 未收集详细应用日志。仅在需要诊断时启用日志。",
+  "logsLoggingDisabledDescription": "Kilo-Walk 未收集详细应用日志。仅在需要诊断时启用日志。",
   "logsLoggingDisabledTitle": "日志已关闭",
   "logsMeasurePerformance": "测量性能",
   "logsMeasurePerformanceDescription": "捕获应用高开销操作的耗时。除非诊断卡顿，否则保持关闭。",
@@ -631,7 +631,7 @@
   "modelRetryModels": "重试加载模型",
   "modelSearchHint": "搜索模型或提供商",
   "msgBatterySettingsFailed": "无法打开 Android 电池优化设置。",
-  "msgBatterySettingsOpened": "Android 电池设置已打开。请允许 CodeWalk 使用不受限制的电池。",
+  "msgBatterySettingsOpened": "Android 电池设置已打开。请允许 Kilo-Walk 使用不受限制的电池。",
   "msgClearUsernameNeedsConfigEdit": "清除 OpenCode 对话用户名仍需在应用外部编辑配置。",
   "msgCommandCopied": "命令已复制",
   "msgCopiedToClipboard": "已复制到剪贴板",
@@ -663,7 +663,7 @@
   "msgSetupDebugCopied": "OpenCode 设置调试信息已复制到剪贴板",
   "msgShareAsImage": "作为图片分享",
   "msgShareAsImageFailed": "无法将消息作为图片分享。",
-  "msgShareAsImageSubject": "CodeWalk 消息",
+  "msgShareAsImageSubject": "Kilo-Walk 消息",
   "msgShareAsImageTooTall": "消息太长，无法作为图片分享。",
   "msgStopReadAloud": "停止朗读",
   "msgPauseReadAloud": "暂停朗读",
@@ -673,7 +673,7 @@
   "msgVoiceInputUnavailable": "此设备上语音输入不可用",
   "notifAndroidBatteryOptimization": "Android 电池优化",
   "notifConversationUpdates": "对话更新",
-  "notifNotificationsArriveReopening": "如果通知仅在重新打开应用时到达，请允许 CodeWalk 在此设备上无优化运行。",
+  "notifNotificationsArriveReopening": "如果通知仅在重新打开应用时到达，请允许 Kilo-Walk 在此设备上无优化运行。",
   "notifResponseRunningKeep": "当响应正在运行时，离开应用后短时间内保持实时状态激活。",
   "notifSelectedSoundLabel": "已选择: {soundLabel}",
   "notificationAgentFinished": "代理已完成当前响应。",
@@ -684,7 +684,7 @@
   "onboardingAIGeneratedTitles": "AI 生成的标题",
   "onboardingAddServerLater": "您稍后可以在 设置 > 服务器 中添加服务器。",
   "onboardingAddedButHealthCheckFailed": "已添加服务器，但健康检查失败。它可能仍在启动中。",
-  "onboardingAlmostInstallOpenCode": "您就快完成了。请先安装 OpenCode，然后将 CodeWalk 连接 to 服务器 URL。",
+  "onboardingAlmostInstallOpenCode": "您就快完成了。请先安装 OpenCode，然后将 Kilo-Walk 连接 to 服务器 URL。",
   "onboardingAppProviderLocalSetupLogsLength": "{length}行设置日志和{length2}个设置事件可在单独的设置调试屏幕中查看。",
   "onboardingAuthenticate": "认证",
   "onboardingAvailable": "可用",
@@ -694,7 +694,7 @@
   "onboardingChooseHowToSetup": "选择如何设置您的服务器",
   "onboardingClear": "清除",
   "onboardingCloudflareAuthFailed": "Cloudflare Access 身份验证失败。",
-  "onboardingCodeWalkAppOpenCode": "CodeWalk 是应用，OpenCode 是它连接的引擎。",
+  "onboardingCodeWalkAppOpenCode": "Kilo-Walk 是应用，OpenCode 是它连接的引擎。",
   "onboardingConnectRunningServer": "连接到正在运行的服务器",
   "onboardingConnectionIssue": "连接问题",
   "onboardingConnectionSaved": "服务器连接保存成功。",
@@ -714,7 +714,7 @@
   "onboardingEmulatorRemap": "在 Android 模拟器上，localhost 和 127.0.0.1 会自动映射到 10.0.2.2。",
   "onboardingEnterServerUrl": "输入服务器 URL",
   "onboardingExisting": "使用现有",
-  "onboardingExplainInstallOpenCode": "解释如何安装 OpenCode、启动服务器，然后从 CodeWalk 连接。",
+  "onboardingExplainInstallOpenCode": "解释如何安装 OpenCode、启动服务器，然后从 Kilo-Walk 连接。",
   "onboardingFailed": "失败",
   "onboardingGoodOptionDesktop": "桌面端不错的首选",
   "onboardingHealthCheckFailedMayBeStarting": "服务器健康检查失败。它可能仍在启动中。",
@@ -722,12 +722,12 @@
   "onboardingInstallBun": "通过 Bun 安装",
   "onboardingInstallBunOpenCode": "安装 Bun + OpenCode",
   "onboardingInstallNpm": "通过 npm 安装",
-  "onboardingInstallRunOpenCode": "在桌面端直接从 CodeWalk 安装并运行 OpenCode。",
+  "onboardingInstallRunOpenCode": "在桌面端直接从 Kilo-Walk 安装并运行 OpenCode。",
   "onboardingInvalidUrl": "无效的 URL",
   "onboardingLabel": "标签（可选）",
   "onboardingLabelHint": "我的服务器",
   "onboardingLatestOutputAppProvider": "最新输出: {localServerLastOutput}",
-  "onboardingLetCodeWalkSet": "让 CodeWalk 在本地进行设置",
+  "onboardingLetCodeWalkSet": "让 Kilo-Walk 在本地进行设置",
   "onboardingLocalServerSetup": "本地服务器设置",
   "onboardingManagedLocalServer": "托管的本地服务器",
   "onboardingManagedLocalServer2": "托管本地服务器模式仅在桌面构建版本（Linux/macOS/Windows）上可用。",
@@ -736,7 +736,7 @@
   "onboardingNotWritable": "不可写",
   "onboardingOpenCode": "什么是 OpenCode？",
   "onboardingOpenCodeRunningDevice": "我已经在此设备或网络中的其他地方运行了 OpenCode。",
-  "onboardingOpenCodeRunsLocally": "OpenCode 在本地或服务器上运行，并为 CodeWalk 内部的 AI 编程功能提供支持。如果 OpenCode 已经运行，请连接到它。如果未运行，请选择以下引导设置路径之一。",
+  "onboardingOpenCodeRunsLocally": "OpenCode 在本地或服务器上运行，并为 Kilo-Walk 内部的 AI 编程功能提供支持。如果 OpenCode 已经运行，请连接到它。如果未运行，请选择以下引导设置路径之一。",
   "onboardingOpenTailscaleLogin": "无法打开 Tailscale 登录 URL。",
   "onboardingPassword": "密码",
   "onboardingPasswordRequired": "输入密码",
@@ -751,7 +751,7 @@
   "onboardingPreconditionWindowsWslRecommendation": "检测到 Windows 版本。OpenCode 文档推荐使用 WSL，但也可以使用 npm install 作为备用方案。",
   "onboardingReachable": "可达",
   "onboardingReady": "就绪",
-  "onboardingRecommendedOrderTry": "推荐顺序：如果您希望 CodeWalk 为您引导一切，请尝试“安装 Bun + OpenCode”。如果已安装 OpenCode，请使用“使用现有”。",
+  "onboardingRecommendedOrderTry": "推荐顺序：如果您希望 Kilo-Walk 为您引导一切，请尝试“安装 Bun + OpenCode”。如果已安装 OpenCode，请使用“使用现有”。",
   "onboardingRefreshChecks": "刷新检查",
   "onboardingRunDiagnosticsToVerify": "运行诊断以验证本地 OpenCode 要求。",
   "onboardingSaveAndTest": "保存并测试",
@@ -793,7 +793,7 @@
   "onboardingUsingDetectedCommand": "使用检测到的 OpenCode 命令。",
   "onboardingViewSetupDebug": "查看设置调试",
   "onboardingWelcomeTo": "欢迎使用 {appName}",
-  "onboardingWindowsTipInstalling": "Windows 提示：安装后，单击“刷新检查”。如果检测仍然失败，请重新打开 CodeWalk 以重新加载 PATH 更改。",
+  "onboardingWindowsTipInstalling": "Windows 提示：安装后，单击“刷新检查”。如果检测仍然失败，请重新打开 Kilo-Walk 以重新加载 PATH 更改。",
   "onboardingWritable": "可写",
   "onboardingYoureAllSet": "一切就绪！",
   "permissionAllowOnce": "仅允许一次",
@@ -848,7 +848,7 @@
   "serversDefault": "默认",
   "serversDelete": "删除",
   "serversDeleteServer": "删除服务器",
-  "serversDesktopModeExplanation": "桌面模式可以直接从 CodeWalk 启动和管理 `opencode serve`。",
+  "serversDesktopModeExplanation": "桌面模式可以直接从 Kilo-Walk 启动和管理 `opencode serve`。",
   "serversEdit": "编辑",
   "serversLocalOpenCodeServer": "本地 OpenCode 服务器",
   "serversManagedModeAvailable": "此托管模式仅在桌面构建版本（Linux/macOS/Windows）上可用。",
@@ -871,19 +871,19 @@
   "serversTailscaleLoginExplanation": "打开 Tailscale 登录 URL 将此设备添加到您的 tailnet。",
   "serversTailscaleLogout": "退出登录",
   "@serversTailscaleLogout": {
-    "description": "CodeWalk UI string — serversTailscaleLogout"
+    "description": "Kilo-Walk UI string — serversTailscaleLogout"
   },
   "serversTailscaleLogoutConfirmMessage": "此设备将退出 tailnet，可随时重新登录。",
   "@serversTailscaleLogoutConfirmMessage": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmMessage"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmMessage"
   },
   "serversTailscaleLogoutConfirmTitle": "退出 Tailscale 登录吗?",
   "@serversTailscaleLogoutConfirmTitle": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmTitle"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmTitle"
   },
   "serversTailscaleReconnect": "重新连接",
   "@serversTailscaleReconnect": {
-    "description": "CodeWalk UI string — serversTailscaleReconnect"
+    "description": "Kilo-Walk UI string — serversTailscaleReconnect"
   },
   "serversTailscaleTrafficExplanation": "此活动配置文件的 OpenCode 流量通过 Tailscale 路由。",
   "serversTailscaleUnsupported": "不支持 Tailscale",
@@ -992,17 +992,17 @@
   "settingsAppearanceBrandColor": "品牌颜色",
   "settingsAppearanceBrandColorDynamicBlocked": "禁用壁纸颜色以选择品牌颜色。",
   "settingsAppearanceBrandColorNormal": "为应用调色板选择种子颜色。",
-  "settingsAppearanceBrandColorPresetBlocked": "切换到 CodeWalk 经典以选择品牌颜色。",
+  "settingsAppearanceBrandColorPresetBlocked": "切换到 Kilo-Walk 经典以选择品牌颜色。",
   "settingsAppearanceChatFontScale": "对话文字大小",
   "settingsAppearanceChatFontScaleDescription": "在系统文字大小之上缩放聊天消息和输入框文字。",
-  "settingsAppearanceCodeWalkClassic": "CodeWalk 经典",
+  "settingsAppearanceCodeWalkClassic": "Kilo-Walk 经典",
   "settingsAppearanceComposerTips": "Composer 提示",
   "settingsAppearanceComposerTipsDescription": "在助手进行推理时显示或隐藏循环提示。",
   "settingsAppearanceContrast": "对比度",
   "settingsAppearanceContrastDynamicBlocked": "禁用壁纸颜色以调节对比度。",
   "settingsAppearanceContrastHigh": "较高",
   "settingsAppearanceContrastNormal": "调节配色方案的对比度级别。",
-  "settingsAppearanceContrastPresetBlocked": "切换到 CodeWalk 经典以调节对比度。",
+  "settingsAppearanceContrastPresetBlocked": "切换到 Kilo-Walk 经典以调节对比度。",
   "settingsAppearanceContrastReduced": "较低",
   "settingsAppearanceDark": "深色",
   "settingsAppearanceDensity": "密度",
@@ -1034,7 +1034,7 @@
   "settingsAppearanceTerminalFontSize": "终端文字大小",
   "settingsAppearanceTerminalFontSizeDescription": "调整嵌入式终端字体大小。立即应用于正在运行的会话。",
   "settingsAppearanceTheme": "主题",
-  "settingsAppearanceThemeDescription": "选择浅色、深色或系统模式，然后保留 CodeWalk 经典调色板或切换到 OpenCode 预设。",
+  "settingsAppearanceThemeDescription": "选择浅色、深色或系统模式，然后保留 Kilo-Walk 经典调色板或切换到 OpenCode 预设。",
   "settingsAppearanceVisualStyle": "视觉样式",
   "settingsAppearanceVisualStyleDescription": "选择经典外观，或更柔和的精致界面。",
   "settingsAppearanceVisualStyleClassic": "经典",
@@ -1046,7 +1046,7 @@
   "settingsAppearanceToolCallBubblesDescription": "在助手消息中显示或隐藏工具执行卡片。",
   "settingsAppearanceWallpaperColors": "使用壁纸颜色",
   "settingsAppearanceWallpaperNormal": "从您的设备壁纸中提取配色方案。",
-  "settingsAppearanceWallpaperPresetBlocked": "切换到 CodeWalk 经典以使用壁纸颜色。",
+  "settingsAppearanceWallpaperPresetBlocked": "切换到 Kilo-Walk 经典以使用壁纸颜色。",
   "settingsAppearanceWindowChrome": "窗口标签页",
   "settingsAppearanceWindowChromeDescription": "选择桌面端会话标签页与标题栏的组合方式。",
   "settingsAppearanceWindowChromeIntegrated": "集成标签页",
@@ -1054,8 +1054,8 @@
   "settingsAppearanceWindowChromeSystem": "系统装饰",
   "settingsAppearanceWindowChromeSystemDescription": "保留原生标题栏，并在应用栏下方显示标签页。",
   "settingsBack": "返回",
-  "settingsBehaviorAutoupdateCaveat": "使用“关于”来进行 CodeWalk 版本检查。此设置仅镜像了官方 OpenCode 的 `autoupdate` 配置。",
-  "settingsBehaviorAutoupdateHelp": "控制上游 OpenCode 运行时更新，而不是 CodeWalk 应用的更新检查。",
+  "settingsBehaviorAutoupdateCaveat": "使用“关于”来进行 Kilo-Walk 版本检查。此设置仅镜像了官方 OpenCode 的 `autoupdate` 配置。",
+  "settingsBehaviorAutoupdateHelp": "控制上游 OpenCode 运行时更新，而不是 Kilo-Walk 应用的更新检查。",
   "settingsBehaviorCellularDataSaver": "蜂窝数据节省程序",
   "settingsBehaviorChatRenderMode": "聊天渲染模式",
   "settingsBehaviorChatRenderModeBlock": "块模式",
@@ -1065,7 +1065,7 @@
   "settingsBehaviorChatRenderModeLiveDescription": "在 OpenCode 流式传输事件时显示助手文本、推理和工具活动。",
   "settingsBehaviorComposerSpellCheck": "输入框拼写检查",
   "settingsBehaviorComposerSpellCheckDescription": "在聊天输入框中使用平台原生拼写检查、建议和自动更正。",
-  "settingsBehaviorConfigDeferred": "CodeWalk 将在当前响应结束后应用此 OpenCode 设置。",
+  "settingsBehaviorConfigDeferred": "Kilo-Walk 将在当前响应结束后应用此 OpenCode 设置。",
   "settingsBehaviorConfigUpdateFailed": "无法更新 OpenCode {field}。",
   "settingsBehaviorConversationUsername": "会话用户名",
   "settingsBehaviorConversationUsernameHelp": "会话中显示的自定义显示名称，而不是系统用户名。",
@@ -1091,7 +1091,7 @@
   "settingsBehaviorOpenCodeSnapshotsDescription": "保持启用上游基于 git 的快照，以支持撤销/重做和恢复历史记录。",
   "settingsBehaviorPermissionDeferred": "高级权限规则编辑目前不在“设置”中，并推迟到以后的对等性工作。",
   "settingsBehaviorPermissionProvenance": "权限处理凭证",
-  "settingsBehaviorPermissionProvenanceDescription": "官方 OpenCode 权限策略在 `opencode.json` 中配置，每个工具有允许/询问/拒绝规则。CodeWalk 保留了官方的权限请求卡，并添加了一个经过批准的 ADR-023 例外：composer 自动批准切换无条件地以 `Always` 和 `remember: true` 进行回复，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。",
+  "settingsBehaviorPermissionProvenanceDescription": "官方 OpenCode 权限策略在 `opencode.json` 中配置，每个工具有允许/询问/拒绝规则。Kilo-Walk 保留了官方的权限请求卡，并添加了一个经过批准的 ADR-023 例外：composer 自动批准切换无条件地以 `Always` 和 `remember: true` 进行回复，以创建持久的会话范围授权，并在 Android 后台工作进程中保持相同的线程范围连续性路径处于活动状态。",
   "settingsBehaviorRefreshDefaults": "刷新默认值",
   "settingsBehaviorSaveUsername": "保存用户名",
   "settingsBehaviorSearchAutoupdate": "搜索自动更新模式",
@@ -1107,16 +1107,16 @@
   "settingsBehaviorSmallModelFallbackActive": "由于未设置 `small_model`，OpenCode 自动回退已激活。",
   "settingsBehaviorSmallModelHelp": "用于轻量级任务，例如标题生成。",
   "settingsBehaviorSmallModelResetCaveat": "将 `small_model` 重置为自动回退仍需要从应用外部编辑配置，因为 `/config` 补丁更新无法移除键。",
-  "settingsBehaviorSnapshotCaveat": "这控制的是 OpenCode 快照存储和撤销/重做支持，而不是 CodeWalk 本地缓存快照。",
+  "settingsBehaviorSnapshotCaveat": "这控制的是 OpenCode 快照存储和撤销/重做支持，而不是 Kilo-Walk 本地缓存快照。",
   "settingsBehaviorTitle": "行为",
   "settingsBehaviorUsernameFallback": "由于未设置 `username`，OpenCode 将使用系统用户名。",
   "settingsBehaviorUsernamePatchCaveat": "将 `username` 重置为系统默认值仍需要从应用外部编辑配置，因为 `/config` 补丁更新无法移除键。",
   "settingsConfigRefreshFailed": "已更新服务器设置，但无法刷新聊天提供商。",
-  "settingsConfigUpdateDeferred": "CodeWalk 将在当前响应完成后应用此 OpenCode 设置。",
+  "settingsConfigUpdateDeferred": "Kilo-Walk 将在当前响应完成后应用此 OpenCode 设置。",
   "settingsConversationUsername": "对话用户名",
   "settingsDefaultAgent": "默认智能体",
   "settingsDefaultModel": "默认模型",
-  "settingsLanguageDescription": "选择 CodeWalk 使用的语言。系统默认会遵循您的设备语言。",
+  "settingsLanguageDescription": "选择 Kilo-Walk 使用的语言。系统默认会遵循您的设备语言。",
   "settingsLanguageEmptyText": "未找到语言",
   "settingsLanguageFieldHelper": "立即生效并跨重启持久化。",
   "settingsLanguageFieldLabel": "应用语言",
@@ -1132,12 +1132,12 @@
   "settingsNotificationsAppInBackground": "应用在后台",
   "settingsNotificationsBackgroundAlerts": "Android 后台警报",
   "settingsNotificationsBackgroundBehavior": "后台行为",
-  "settingsNotificationsBackgroundBehaviorDescription": "选择 CodeWalk 在应用离开前台后的行为方式。",
+  "settingsNotificationsBackgroundBehaviorDescription": "选择 Kilo-Walk 在应用离开前台后的行为方式。",
   "settingsNotificationsBackgroundDescription": "在应用未处于屏幕前端时，对响应完成、权限请求、问题和错误使用低数据后台监控。",
   "settingsNotificationsBackgroundToggle": "Android 后台警报",
   "settingsNotificationsBackgroundToggleDescription": "关闭所有 Android 后台检查并隐藏持久的监控通知。",
-  "settingsNotificationsBatteryDescription": "如果通知仅在重新打开应用时到达，请允许 CodeWalk 在此设备上不受优化限制运行。",
-  "settingsNotificationsBatteryDisabled": "已为 CodeWalk 禁用电池优化。",
+  "settingsNotificationsBatteryDescription": "如果通知仅在重新打开应用时到达，请允许 Kilo-Walk 在此设备上不受优化限制运行。",
+  "settingsNotificationsBatteryDisabled": "已为 Kilo-Walk 禁用电池优化。",
   "settingsNotificationsBatteryEnabled": "已启用电池优化。某些设备可能会延迟后台警报。",
   "settingsNotificationsBatteryOptimization": "Android 电池优化",
   "settingsNotificationsBatteryUnknown": "尚无法读取电池优化状态。",
@@ -1261,7 +1261,7 @@
   "setupDebugCapturedSetupLogs": "已捕获的设置日志",
   "setupDebugClear": "清除设置调试信息",
   "setupDebugClearSetupDebug": "清除设置调试",
-  "setupDebugCodeWalkCaptureEnough": "如果 CodeWalk 未捕获到足够的上下文，请直接检查官方 OpenCode 日志和运行状况端点：",
+  "setupDebugCodeWalkCaptureEnough": "如果 Kilo-Walk 未捕获到足够的上下文，请直接检查官方 OpenCode 日志和运行状况端点：",
   "setupDebugCommandPath": "命令路径",
   "setupDebugCommandPath2": "命令路径",
   "setupDebugCopy": "复制设置调试信息",
@@ -1290,7 +1290,7 @@
   "setupDebugPlatform": "平台",
   "setupDebugPlatform2": "平台",
   "setupDebugRunDiagnosticsTry": "运行诊断、尝试安装方法或尝试设置流程，以在此处捕获 OpenCode 特定的排障详情。",
-  "setupDebugScreenCoversOpenCode": "此屏幕仅涵盖 OpenCode 安装、诊断 and 本地设置排障。一般 CodeWalk 运行时问题请使用“应用日志”。",
+  "setupDebugScreenCoversOpenCode": "此屏幕仅涵盖 OpenCode 安装、诊断 and 本地设置排障。一般 Kilo-Walk 运行时问题请使用“应用日志”。",
   "setupDebugServerOutput": "最新本地服务器输出",
   "setupDebugStatus": "当前状态",
   "setupDebugTimeEntrySource": "{time} - {source}",
@@ -1339,7 +1339,7 @@
   "shortcutsReset": "全部重置",
   "shortcutsSearchEditBindings": "在保存前进行搜索、编辑绑定并解决冲突。",
   "shortcutsSetShortcutWidget": "设置快捷键: {label}",
-  "shortcutsTheseBindingsStored": "这些绑定存储在 CodeWalk 中用于当前应用运行时，不会修改 OpenCode `tui.json` 按键绑定。",
+  "shortcutsTheseBindingsStored": "这些绑定存储在 Kilo-Walk 中用于当前应用运行时，不会修改 OpenCode `tui.json` 按键绑定。",
   "speechAutoStopSilence": "自动停止静音超时",
   "speechChooseRecognitionEngine": "选择识别引擎、静音超时和模型选项。",
   "speechDesktopOnly": "{service} 仅在桌面端可用。",
@@ -1354,7 +1354,7 @@
   "speechMoonshineStaysDownloadable": "Moonshine 保持可下载状态，不包含在应用包中。为此桌面设备选择一个模型，如果日后需要收回空间，可以将其删除。",
   "speechNative": "原生",
   "speechNativeSTTDisabled": "在此应用的 Linux 系统上已禁用原生 STT。Parakeet 是新安装的默认引擎。",
-  "speechNativeSTTWorks": "在 Windows 上，CodeWalk 通过其 WASAPI 麦克风后端使用本地设备端语音识别。为保持稳定性，Windows 原生语音识别已禁用。",
+  "speechNativeSTTWorks": "在 Windows 上，Kilo-Walk 通过其 WASAPI 麦克风后端使用本地设备端语音识别。为保持稳定性，Windows 原生语音识别已禁用。",
   "speechNativeStartsFaster": "原生引擎启动更快。Sherpa 完全在设备上运行，具有更繁重的设置和更深度的模型控制。",
   "speechOpenMicrophoneSettings": "打开麦克风设置",
   "speechOpenSpeechPrivacy": "打开语音隐私设置",
@@ -1373,7 +1373,7 @@
   "speechSherpaModelsLinux": "Sherpa 模型（Linux）",
   "speechSpeechText": "语音转文本",
   "speechUnavailableOnPlatform": "{service} 语音在此平台上不可用。",
-  "speechWindowsSetupHint": "Windows 语音输入使用 CodeWalk WASAPI 采集和设备端模型。请保持桌面应用可访问麦克风；下方按钮会打开 Windows 设置以进行故障排查。",
+  "speechWindowsSetupHint": "Windows 语音输入使用 Kilo-Walk WASAPI 采集和设备端模型。请保持桌面应用可访问麦克风；下方按钮会打开 Windows 设置以进行故障排查。",
   "statusConnected": "已连接",
   "statusDelayed": "延迟",
   "statusFailed": "失败",
@@ -1394,7 +1394,7 @@
   "terminalConnectingTo": "正在连接到 {serverName} 终端...",
   "terminalConnectionFailed": "终端连接失败：{error}",
   "terminalDisconnected": "终端已断开连接。",
-  "terminalEmbeddedUnavailable": "此运行时尚不支持嵌入式终端。请继续使用撰写器的 shell 模式执行一次性命令，或从支持的 CodeWalk 应用运行时打开 {serverName} 的终端。",
+  "terminalEmbeddedUnavailable": "此运行时尚不支持嵌入式终端。请继续使用撰写器的 shell 模式执行一次性命令，或从支持的 Kilo-Walk 应用运行时打开 {serverName} 的终端。",
   "terminalExtraKeyAlt": "Alt 键",
   "terminalExtraKeyArrowDown": "向下箭头",
   "terminalExtraKeyArrowLeft": "向左箭头",
@@ -1526,18 +1526,18 @@
   "settingsNotificationsSystemSoundsFreedesktop": "使用 /usr/share/sounds/freedesktop/stereo 中的 Freedesktop 声音。",
   "settingsNotificationsSystemSoundsPlatform": "在操作系统提供系统声音的平台上受支持。",
   "serversQuickGuideTitle": "快速设置",
-  "serversQuickGuideIntro": "CodeWalk 是应用，OpenCode 是需要先运行、此连接才能工作的引擎。",
+  "serversQuickGuideIntro": "Kilo-Walk 是应用，OpenCode 是需要先运行、此连接才能工作的引擎。",
   "serversQuickGuideStepInstallCli": "1. 安装 OpenCode CLI。",
   "serversQuickGuideRunPowerShell": "2. 在 PowerShell 中运行：",
   "serversQuickGuideRunTerminal": "2. 在您的终端中运行：",
   "serversQuickGuideProtectPassword": "使用密码保护访问",
   "serversQuickGuideServerPassword": "服务器密码",
   "serversQuickGuideInstallOptions": "其他官方安装方式：安装脚本、npm、bun、pnpm、Homebrew，或 GitHub Releases 中的二进制文件。",
-  "serversQuickGuideVerifyHint": "启动服务器后，请先确认 /global/health 或 /doc 有响应，再将 URL 粘贴到 CodeWalk 中。",
+  "serversQuickGuideVerifyHint": "启动服务器后，请先确认 /global/health 或 /doc 有响应，再将 URL 粘贴到 Kilo-Walk 中。",
   "shortcutsPressKeyCombination": "现在请按下组合键",
   "settingsProvenanceOpenCodeBacked": "OpenCode 后端",
-  "settingsProvenanceCodeWalkLocal": "CodeWalk 本地",
-  "settingsProvenanceCodeWalkException": "CodeWalk 异常",
+  "settingsProvenanceCodeWalkLocal": "Kilo-Walk 本地",
+  "settingsProvenanceCodeWalkException": "Kilo-Walk 异常",
   "shortcutsErrorInvalid": "无效的快捷键",
   "shortcutsErrorUnsupportedKey": "不支持的快捷键",
   "shortcutsErrorConflict": "与“{conflict}”冲突",
@@ -1560,8 +1560,8 @@
   "speechApiKeyStorageUnavailable": "安全存储 TTS API 密钥的功能不可用。",
   "speechApiKeyRemoved": "API 密钥已移除。",
   "speechApiKeySaved": "API 密钥已安全保存到此设备。",
-  "speechReadAloudTestText": "这是 CodeWalk 的文字转语音测试。",
-  "speechNativeDisabledWindows": "出于稳定性考虑，Windows 上已禁用。请通过 CodeWalk WASAPI 采集使用 Parakeet 或其他设备端引擎。",
+  "speechReadAloudTestText": "这是 Kilo-Walk 的文字转语音测试。",
+  "speechNativeDisabledWindows": "出于稳定性考虑，Windows 上已禁用。请通过 Kilo-Walk WASAPI 采集使用 Parakeet 或其他设备端引擎。",
   "speechNativeUnavailableLinux": "Linux 上不可用。请使用 Parakeet 进行语音输入。",
   "speechNotAvailableOnPlatform": "此平台不可用。",
   "speechSherpaUnavailableAndroid": "在针对小 APK 体积优化的 Android 构建中不可用。",
@@ -1617,12 +1617,12 @@
   "notificationPermissionNeedsInput": "工具权限需要您的输入。",
   "notificationQuestionNeedsInput": "工具问题需要您的输入。",
   "notificationSessionError": "某个会话报告了错误。",
-  "notificationChannelErrors": "CodeWalk 错误",
-  "notificationChannelErrorsDescription": "CodeWalk 错误提醒",
-  "notificationChannelPermissions": "CodeWalk 权限",
-  "notificationChannelPermissionsDescription": "CodeWalk 操作待处理提醒",
-  "notificationChannelAgent": "CodeWalk 代理",
-  "notificationChannelAgentDescription": "CodeWalk 代理完成提醒",
+  "notificationChannelErrors": "Kilo-Walk 错误",
+  "notificationChannelErrorsDescription": "Kilo-Walk 错误提醒",
+  "notificationChannelPermissions": "Kilo-Walk 权限",
+  "notificationChannelPermissionsDescription": "Kilo-Walk 操作待处理提醒",
+  "notificationChannelAgent": "Kilo-Walk 代理",
+  "notificationChannelAgentDescription": "Kilo-Walk 代理完成提醒",
   "notificationActionOpen": "打开",
   "foregroundMonitorNotificationBody": "可靠的后台提醒已启用",
   "foregroundMonitorNotificationTitle": "后台监控已启用",
@@ -1630,7 +1630,7 @@
   "foregroundMonitorNotificationSessionCount": "正在监控 {count} 个会话",
   "sessionAttentionSemanticLabel": "{count, plural, =1{1 个会话需要关注} other{{count} 个会话需要关注}}",
   "sessionAttentionOverlayPermissionRequired": "需要“在其他应用上层显示”权限。",
-  "sessionAttentionIosInAppOnly": "会话关注仅在 CodeWalk 应用内可用。",
+  "sessionAttentionIosInAppOnly": "会话关注仅在 Kilo-Walk 应用内可用。",
   "sessionAttentionOverlayPermissionGrantPrompt": "请授予在其他应用上层显示的权限，然后重试。",
   "sessionAttentionAndroidStartFailed": "Android 会话关注服务无法启动。",
   "chatMessageTruncatedChars": "[已截断 {count} 个字符] {reason}",
@@ -1822,7 +1822,7 @@
   "speechProviderUnreachable": "无法访问 TTS 提供商。",
   "appProviderErrorFailedToStartProcess": "无法启动 {tool} 进程。",
   "@appProviderErrorFailedToStartProcess": {
-    "description": "CodeWalk UI string — appProviderErrorFailedToStartProcess",
+    "description": "Kilo-Walk UI string — appProviderErrorFailedToStartProcess",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1831,7 +1831,7 @@
   },
   "appProviderErrorToolNotAvailable": "{tool} 不可用。请先安装 {runtime}。",
   "@appProviderErrorToolNotAvailable": {
-    "description": "CodeWalk UI string — appProviderErrorToolNotAvailable",
+    "description": "Kilo-Walk UI string — appProviderErrorToolNotAvailable",
     "placeholders": {
       "runtime": {
         "type": "String"
@@ -1843,7 +1843,7 @@
   },
   "appProviderErrorToolInstallFailed": "{tool} 安装失败，退出代码为 {exitCode}。",
   "@appProviderErrorToolInstallFailed": {
-    "description": "CodeWalk UI string — appProviderErrorToolInstallFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorToolInstallFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1855,7 +1855,7 @@
   },
   "appProviderErrorBunBootstrapFailed": "Bun 引导失败，退出代码为 {exitCode}。",
   "@appProviderErrorBunBootstrapFailed": {
-    "description": "CodeWalk UI string — appProviderErrorBunBootstrapFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorBunBootstrapFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1864,15 +1864,15 @@
   },
   "appProviderErrorInstalledButNotFoundInPath": "OpenCode 安装已完成，但在 PATH 中未找到命令。",
   "@appProviderErrorInstalledButNotFoundInPath": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath"
   },
   "appProviderErrorInstalledButPathNotResolved": "OpenCode 安装已完成，但无法解析命令路径。",
   "@appProviderErrorInstalledButPathNotResolved": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButPathNotResolved"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved"
   },
   "appProviderErrorConfiguredCommandNotFound": "未找到配置的命令，且 {tool} 不在 PATH 中。",
   "@appProviderErrorConfiguredCommandNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1881,31 +1881,31 @@
   },
   "appProviderErrorConfiguredCommandPathMissing": "配置的命令路径不存在。",
   "@appProviderErrorConfiguredCommandPathMissing": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing"
   },
   "appProviderErrorConfiguredCommandVersionCheckFailed": "配置的命令存在，但版本检查失败。",
   "@appProviderErrorConfiguredCommandVersionCheckFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
   },
   "appProviderErrorConfiguredCommandExecutionFailed": "无法执行配置的命令。",
   "@appProviderErrorConfiguredCommandExecutionFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed"
   },
   "appProviderWslCheckWindowsOnly": "WSL 检查仅适用于 Windows。",
   "@appProviderWslCheckWindowsOnly": {
-    "description": "CodeWalk UI string — appProviderWslCheckWindowsOnly"
+    "description": "Kilo-Walk UI string — appProviderWslCheckWindowsOnly"
   },
   "appProviderDesktopBuildRequired": "请使用桌面版配置托管本地服务器。",
   "@appProviderDesktopBuildRequired": {
-    "description": "CodeWalk UI string — appProviderDesktopBuildRequired"
+    "description": "Kilo-Walk UI string — appProviderDesktopBuildRequired"
   },
   "appProviderKnownInstallationDirectoryDetected": "已从已知的安装目录中检测到。",
   "@appProviderKnownInstallationDirectoryDetected": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationDirectoryDetected"
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected"
   },
   "appProviderKnownInstallationPathRefreshHint": "已从已知的安装目录中检测到。PATH 可能需要刷新；如果尚未检测到最近的安装，请重新打开 {appName}。",
   "@appProviderKnownInstallationPathRefreshHint": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationPathRefreshHint",
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint",
     "placeholders": {
       "appName": {
         "type": "String"
@@ -1914,31 +1914,31 @@
   },
   "appProviderErrorReleaseMetadataFetchFailed": "从 GitHub 获取最新版本元数据失败。",
   "@appProviderErrorReleaseMetadataFetchFailed": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed"
   },
   "appProviderErrorReleaseAssetListMissing": "最新版本元数据中未包含资产列表。",
   "@appProviderErrorReleaseAssetListMissing": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseAssetListMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing"
   },
   "appProviderErrorNoCompatibleAsset": "未找到兼容的 OpenCode 二进制资产。",
   "@appProviderErrorNoCompatibleAsset": {
-    "description": "CodeWalk UI string — appProviderErrorNoCompatibleAsset"
+    "description": "Kilo-Walk UI string — appProviderErrorNoCompatibleAsset"
   },
   "appProviderErrorDownloadAssetFailed": "下载所选 OpenCode 资产失败。",
   "@appProviderErrorDownloadAssetFailed": {
-    "description": "CodeWalk UI string — appProviderErrorDownloadAssetFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorDownloadAssetFailed"
   },
   "appProviderErrorChecksumVerificationFailed": "已下载资产的校验和验证失败。",
   "@appProviderErrorChecksumVerificationFailed": {
-    "description": "CodeWalk UI string — appProviderErrorChecksumVerificationFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed"
   },
   "appProviderErrorExtractArchiveFailed": "解压 OpenCode 二进制压缩包失败。",
   "@appProviderErrorExtractArchiveFailed": {
-    "description": "CodeWalk UI string — appProviderErrorExtractArchiveFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorExtractArchiveFailed"
   },
   "appProviderErrorExecutableNotFound": "在解压的文件中找不到 {tool} 可执行文件。",
   "@appProviderErrorExecutableNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorExecutableNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorExecutableNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1947,79 +1947,79 @@
   },
   "chatNoResponseFromServer": "服务器无响应，请重试。",
   "@chatNoResponseFromServer": {
-    "description": "CodeWalk UI string — chatNoResponseFromServer"
+    "description": "Kilo-Walk UI string — chatNoResponseFromServer"
   },
   "chatNoResponseFromModel": "模型无响应，请重试。",
   "@chatNoResponseFromModel": {
-    "description": "CodeWalk UI string — chatNoResponseFromModel"
+    "description": "Kilo-Walk UI string — chatNoResponseFromModel"
   },
   "speechJobCancelled": "语音任务已取消。",
   "@speechJobCancelled": {
-    "description": "CodeWalk UI string — speechJobCancelled"
+    "description": "Kilo-Walk UI string — speechJobCancelled"
   },
   "speechEdgeCancelled": "Microsoft Edge 语音已取消。",
   "@speechEdgeCancelled": {
-    "description": "CodeWalk UI string — speechEdgeCancelled"
+    "description": "Kilo-Walk UI string — speechEdgeCancelled"
   },
   "sessionAttentionKindActive": "活动",
   "@sessionAttentionKindActive": {
-    "description": "CodeWalk UI string — sessionAttentionKindActive"
+    "description": "Kilo-Walk UI string — sessionAttentionKindActive"
   },
   "sessionAttentionKindReceiving": "接收中",
   "@sessionAttentionKindReceiving": {
-    "description": "CodeWalk UI string — sessionAttentionKindReceiving"
+    "description": "Kilo-Walk UI string — sessionAttentionKindReceiving"
   },
   "sessionAttentionKindDelayed": "延迟",
   "@sessionAttentionKindDelayed": {
-    "description": "CodeWalk UI string — sessionAttentionKindDelayed"
+    "description": "Kilo-Walk UI string — sessionAttentionKindDelayed"
   },
   "sessionAttentionKindCompleted": "已完成",
   "@sessionAttentionKindCompleted": {
-    "description": "CodeWalk UI string — sessionAttentionKindCompleted"
+    "description": "Kilo-Walk UI string — sessionAttentionKindCompleted"
   },
   "sessionAttentionKindPendingInteraction": "等待交互",
   "@sessionAttentionKindPendingInteraction": {
-    "description": "CodeWalk UI string — sessionAttentionKindPendingInteraction"
+    "description": "Kilo-Walk UI string — sessionAttentionKindPendingInteraction"
   },
   "sessionAttentionKindError": "错误",
   "@sessionAttentionKindError": {
-    "description": "CodeWalk UI string — sessionAttentionKindError"
+    "description": "Kilo-Walk UI string — sessionAttentionKindError"
   },
   "sessionAttentionPauseCellularDataSaver": "移动数据节省模式已开启。",
   "@sessionAttentionPauseCellularDataSaver": {
-    "description": "CodeWalk UI string — sessionAttentionPauseCellularDataSaver"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver"
   },
   "sessionAttentionPauseOauthReopenRequired": "需要 OAuth 登录",
   "@sessionAttentionPauseOauthReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOauthReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired"
   },
   "sessionAttentionPauseTailscaleReopenRequired": "需要 Tailscale 连接",
   "@sessionAttentionPauseTailscaleReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired"
   },
   "sessionAttentionPauseOffline": "离线",
   "@sessionAttentionPauseOffline": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOffline"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOffline"
   },
   "sessionAttentionPausePermissionRevoked": "权限已被撤销",
   "@sessionAttentionPausePermissionRevoked": {
-    "description": "CodeWalk UI string — sessionAttentionPausePermissionRevoked"
+    "description": "Kilo-Walk UI string — sessionAttentionPausePermissionRevoked"
   },
   "sessionAttentionPauseServiceStopped": "服务已停止",
   "@sessionAttentionPauseServiceStopped": {
-    "description": "CodeWalk UI string — sessionAttentionPauseServiceStopped"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseServiceStopped"
   },
   "sessionAttentionPauseHostUnavailable": "主机不可用",
   "@sessionAttentionPauseHostUnavailable": {
-    "description": "CodeWalk UI string — sessionAttentionPauseHostUnavailable"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseHostUnavailable"
   },
   "errorRequestCancelled": "请求已取消",
   "@errorRequestCancelled": {
-    "description": "CodeWalk UI string — errorRequestCancelled"
+    "description": "Kilo-Walk UI string — errorRequestCancelled"
   },
   "errorUnknownNetworkError": "未知网络错误: {error}",
   "@errorUnknownNetworkError": {
-    "description": "CodeWalk UI string — errorUnknownNetworkError",
+    "description": "Kilo-Walk UI string — errorUnknownNetworkError",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2028,35 +2028,35 @@
   },
   "errorCertificateError": "证书错误",
   "@errorCertificateError": {
-    "description": "CodeWalk UI string — errorCertificateError"
+    "description": "Kilo-Walk UI string — errorCertificateError"
   },
   "errorSessionBusy": "会话正忙于处理另一个请求。",
   "@errorSessionBusy": {
-    "description": "CodeWalk UI string — errorSessionBusy"
+    "description": "Kilo-Walk UI string — errorSessionBusy"
   },
   "errorRunShellCommandFailed": "运行 shell 命令失败",
   "@errorRunShellCommandFailed": {
-    "description": "CodeWalk UI string — errorRunShellCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunShellCommandFailed"
   },
   "errorRunSlashCommandFailed": "运行斜杠命令失败",
   "@errorRunSlashCommandFailed": {
-    "description": "CodeWalk UI string — errorRunSlashCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunSlashCommandFailed"
   },
   "settingsBehaviorOpenCodeDefaultsLoadError": "无法从活动服务器加载 OpenCode 支持的默认设置。",
   "@settingsBehaviorOpenCodeDefaultsLoadError": {
-    "description": "CodeWalk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
+    "description": "Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
   },
   "sessionTabIconRemoveFailed": "删除本地会话标签图标数据失败",
   "@sessionTabIconRemoveFailed": {
-    "description": "CodeWalk UI string — sessionTabIconRemoveFailed"
+    "description": "Kilo-Walk UI string — sessionTabIconRemoveFailed"
   },
   "forwardUntitled": "无标题",
   "@forwardUntitled": {
-    "description": "CodeWalk UI string — forwardUntitled"
+    "description": "Kilo-Walk UI string — forwardUntitled"
   },
   "setupDebugLinuxLogsPath": "Linux 日志: {path}",
   "@setupDebugLinuxLogsPath": {
-    "description": "CodeWalk UI string — setupDebugLinuxLogsPath",
+    "description": "Kilo-Walk UI string — setupDebugLinuxLogsPath",
     "placeholders": {
       "path": {
         "type": "String"
@@ -2065,7 +2065,7 @@
   },
   "setupDebugRunOpenCodeCommand": "使用以下命令运行 OpenCode: {command}",
   "@setupDebugRunOpenCodeCommand": {
-    "description": "CodeWalk UI string — setupDebugRunOpenCodeCommand",
+    "description": "Kilo-Walk UI string — setupDebugRunOpenCodeCommand",
     "placeholders": {
       "command": {
         "type": "String"
@@ -2074,7 +2074,7 @@
   },
   "setupDebugServerHealthEndpoint": "服务器健康检查: {endpoint}",
   "@setupDebugServerHealthEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerHealthEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerHealthEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2083,7 +2083,7 @@
   },
   "setupDebugServerDocsEndpoint": "服务器文档: {endpoint}",
   "@setupDebugServerDocsEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerDocsEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerDocsEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2092,35 +2092,35 @@
   },
   "logsEntryError": "错误",
   "@logsEntryError": {
-    "description": "CodeWalk UI string — logsEntryError"
+    "description": "Kilo-Walk UI string — logsEntryError"
   },
   "logsEntryStack": "堆栈",
   "@logsEntryStack": {
-    "description": "CodeWalk UI string — logsEntryStack"
+    "description": "Kilo-Walk UI string — logsEntryStack"
   },
   "setupDebugSourceDiagnostics": "诊断",
   "@setupDebugSourceDiagnostics": {
-    "description": "CodeWalk UI string — setupDebugSourceDiagnostics"
+    "description": "Kilo-Walk UI string — setupDebugSourceDiagnostics"
   },
   "setupDebugSourceUseExisting": "使用现有",
   "@setupDebugSourceUseExisting": {
-    "description": "CodeWalk UI string — setupDebugSourceUseExisting"
+    "description": "Kilo-Walk UI string — setupDebugSourceUseExisting"
   },
   "setupDebugSourceLocalServer": "本地服务器",
   "@setupDebugSourceLocalServer": {
-    "description": "CodeWalk UI string — setupDebugSourceLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugSourceLocalServer"
   },
   "setupDebugSourceOnboarding": "引导设置",
   "@setupDebugSourceOnboarding": {
-    "description": "CodeWalk UI string — setupDebugSourceOnboarding"
+    "description": "Kilo-Walk UI string — setupDebugSourceOnboarding"
   },
   "setupDebugSourceManualConnection": "手动连接",
   "@setupDebugSourceManualConnection": {
-    "description": "CodeWalk UI string — setupDebugSourceManualConnection"
+    "description": "Kilo-Walk UI string — setupDebugSourceManualConnection"
   },
   "setupDebugMessageDiagnosticsResult": "在 {platform} 上 {availability}。{recommendation}",
   "@setupDebugMessageDiagnosticsResult": {
-    "description": "CodeWalk UI string — setupDebugMessageDiagnosticsResult",
+    "description": "Kilo-Walk UI string — setupDebugMessageDiagnosticsResult",
     "placeholders": {
       "availability": {
         "type": "String"
@@ -2135,15 +2135,15 @@
   },
   "setupDebugMessageDetectAttempt": "正在尝试从当前环境检测现有的 OpenCode 命令。",
   "@setupDebugMessageDetectAttempt": {
-    "description": "CodeWalk UI string — setupDebugMessageDetectAttempt"
+    "description": "Kilo-Walk UI string — setupDebugMessageDetectAttempt"
   },
-  "setupDebugMessageInstallStarted": "已从 CodeWalk 开始安装 OpenCode。",
+  "setupDebugMessageInstallStarted": "已从 Kilo-Walk 开始安装 OpenCode。",
   "@setupDebugMessageInstallStarted": {
-    "description": "CodeWalk UI string — setupDebugMessageInstallStarted"
+    "description": "Kilo-Walk UI string — setupDebugMessageInstallStarted"
   },
   "setupDebugMessageStartLocalServer": "正在 {url} 启动受管的 OpenCode 服务器。",
   "@setupDebugMessageStartLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStartLocalServer",
+    "description": "Kilo-Walk UI string — setupDebugMessageStartLocalServer",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2152,7 +2152,7 @@
   },
   "setupDebugMessageHealthyRunning": "受管的 OpenCode 服务器状态正常，正在 {url} 运行。",
   "@setupDebugMessageHealthyRunning": {
-    "description": "CodeWalk UI string — setupDebugMessageHealthyRunning",
+    "description": "Kilo-Walk UI string — setupDebugMessageHealthyRunning",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2161,39 +2161,39 @@
   },
   "setupDebugMessageStoppingLocalServer": "正在停止受管的 OpenCode 服务器。",
   "@setupDebugMessageStoppingLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppingLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppingLocalServer"
   },
   "setupDebugMessageStoppedCleanly": "受管的 OpenCode 服务器已正常停止。",
   "@setupDebugMessageStoppedCleanly": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppedCleanly"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppedCleanly"
   },
   "setupDebugMessageExitedAfterRequestedStop": "收到停止请求后，受管的 OpenCode 服务器已退出。",
   "@setupDebugMessageExitedAfterRequestedStop": {
-    "description": "CodeWalk UI string — setupDebugMessageExitedAfterRequestedStop"
+    "description": "Kilo-Walk UI string — setupDebugMessageExitedAfterRequestedStop"
   },
   "setupDebugMessageOnboardingConnectExisting": "用户选择了连接到现有的 OpenCode 服务器。",
   "@setupDebugMessageOnboardingConnectExisting": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingConnectExisting"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingConnectExisting"
   },
   "setupDebugMessageOnboardingGuidedPath": "用户打开了 OpenCode 引导式设置流程。",
   "@setupDebugMessageOnboardingGuidedPath": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingGuidedPath"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingGuidedPath"
   },
   "setupDebugMessageOnboardingManagedLocal": "用户打开了受管的本地 OpenCode 设置。",
   "@setupDebugMessageOnboardingManagedLocal": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingManagedLocal"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingManagedLocal"
   },
   "setupDebugMessageOnboardingOpenedServerSettings": "健康检查失败后，用户打开了服务器设置。",
   "@setupDebugMessageOnboardingOpenedServerSettings": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingOpenedServerSettings"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingOpenedServerSettings"
   },
   "setupDebugMessageOnboardingAddAnotherServer": "健康检查失败后，用户选择了添加另一台服务器。",
   "@setupDebugMessageOnboardingAddAnotherServer": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingAddAnotherServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingAddAnotherServer"
   },
   "setupDebugMessageTestingServerUrl": "正在测试来自引导流程的 OpenCode 服务器 URL {url}。",
   "@setupDebugMessageTestingServerUrl": {
-    "description": "CodeWalk UI string — setupDebugMessageTestingServerUrl",
+    "description": "Kilo-Walk UI string — setupDebugMessageTestingServerUrl",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2202,39 +2202,39 @@
   },
   "chatProviderErrorSessionNotFound": "未找到会话",
   "@chatProviderErrorSessionNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionNotFound"
   },
   "chatProviderErrorInvalidMessageFormat": "消息格式无效",
   "@chatProviderErrorInvalidMessageFormat": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidMessageFormat"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat"
   },
   "chatProviderErrorNetworkShort": "网络连接失败",
   "@chatProviderErrorNetworkShort": {
-    "description": "CodeWalk UI string — chatProviderErrorNetworkShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetworkShort"
   },
   "chatProviderErrorUnknownShort": "未知错误",
   "@chatProviderErrorUnknownShort": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknownShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknownShort"
   },
   "terminalCreateFailed": "创建终端会话失败",
   "@terminalCreateFailed": {
-    "description": "CodeWalk UI string — terminalCreateFailed"
+    "description": "Kilo-Walk UI string — terminalCreateFailed"
   },
   "terminalEndpointUnavailable": "终端端点不可用",
   "@terminalEndpointUnavailable": {
-    "description": "CodeWalk UI string — terminalEndpointUnavailable"
+    "description": "Kilo-Walk UI string — terminalEndpointUnavailable"
   },
   "terminalInvalidDirectory": "终端目录无效",
   "@terminalInvalidDirectory": {
-    "description": "CodeWalk UI string — terminalInvalidDirectory"
+    "description": "Kilo-Walk UI string — terminalInvalidDirectory"
   },
   "terminalWebsocketUnavailable": "此处无法使用终端 WebSocket。",
   "@terminalWebsocketUnavailable": {
-    "description": "CodeWalk UI string — terminalWebsocketUnavailable"
+    "description": "Kilo-Walk UI string — terminalWebsocketUnavailable"
   },
   "chatMessageToolChainCallsCompact": "{count, plural, =1{1 次} other{{count} 次}}",
   "@chatMessageToolChainCallsCompact": {
-    "description": "CodeWalk UI string — chatMessageToolChainCallsCompact",
+    "description": "Kilo-Walk UI string — chatMessageToolChainCallsCompact",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2243,15 +2243,15 @@
   },
   "errorConnectionTimeout": "连接超时",
   "@errorConnectionTimeout": {
-    "description": "CodeWalk UI string — errorConnectionTimeout"
+    "description": "Kilo-Walk UI string — errorConnectionTimeout"
   },
   "errorClientError": "客户端错误",
   "@errorClientError": {
-    "description": "CodeWalk UI string — errorClientError"
+    "description": "Kilo-Walk UI string — errorClientError"
   },
   "chatProviderErrorSendMessage": "发送消息失败",
   "@chatProviderErrorSendMessage": {
-    "description": "CodeWalk UI string — chatProviderErrorSendMessage"
+    "description": "Kilo-Walk UI string — chatProviderErrorSendMessage"
   },
   "speechApiEngine": "API",
   "speechApiEngineSubtitle": "OpenAI、Groq 或自定义 OpenAI 兼容端点。",
@@ -2278,38 +2278,38 @@
   "carMessagingReply": "回复",
   "carMessagingMarkRead": "标记为已读",
   "carMessagingDeliveryFailedTitle": "无法发送回复",
-  "carMessagingDeliveryFailedBody": "无法发送您的语音回复。打开 CodeWalk 重试。",
+  "carMessagingDeliveryFailedBody": "无法发送您的语音回复。打开 Kilo-Walk 重试。",
   "shortcutNextTab": "下一个标签页",
   "@shortcutNextTab": {
-    "description": "CodeWalk UI string - shortcutNextTab"
+    "description": "Kilo-Walk UI string - shortcutNextTab"
   },
   "shortcutNextTabDesc": "显示标签页切换器并切换到下一个",
   "@shortcutNextTabDesc": {
-    "description": "CodeWalk UI string - shortcutNextTabDesc"
+    "description": "Kilo-Walk UI string - shortcutNextTabDesc"
   },
   "shortcutPreviousTab": "上一个标签页",
   "@shortcutPreviousTab": {
-    "description": "CodeWalk UI string - shortcutPreviousTab"
+    "description": "Kilo-Walk UI string - shortcutPreviousTab"
   },
   "shortcutPreviousTabDesc": "显示标签页切换器并切换到上一个",
   "@shortcutPreviousTabDesc": {
-    "description": "CodeWalk UI string - shortcutPreviousTabDesc"
+    "description": "Kilo-Walk UI string - shortcutPreviousTabDesc"
   },
   "sessionTabSwitcherTitle": "切换标签页",
   "@sessionTabSwitcherTitle": {
-    "description": "CodeWalk UI string - sessionTabSwitcherTitle"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherTitle"
   },
   "sessionTabSwitcherHint": "松开 Ctrl 切换，Esc 取消",
   "@sessionTabSwitcherHint": {
-    "description": "CodeWalk UI string - sessionTabSwitcherHint"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherHint"
   },
   "aboutTelegram": "Telegram",
   "@aboutTelegram": {
-    "description": "CodeWalk UI string - aboutTelegram"
+    "description": "Kilo-Walk UI string - aboutTelegram"
   },
   "settingsAboutWhatsNew": "v{version} 的新内容",
   "@settingsAboutWhatsNew": {
-    "description": "CodeWalk UI string - settingsAboutWhatsNew",
+    "description": "Kilo-Walk UI string - settingsAboutWhatsNew",
     "placeholders": {
       "version": {
         "type": "String"
@@ -2318,31 +2318,31 @@
   },
   "appShellNewsMore": "更多",
   "@appShellNewsMore": {
-    "description": "CodeWalk UI string - appShellNewsMore"
+    "description": "Kilo-Walk UI string - appShellNewsMore"
   },
   "settingsAboutChangelog": "Changelog",
   "@settingsAboutChangelog": {
-    "description": "CodeWalk UI string - settingsAboutChangelog"
+    "description": "Kilo-Walk UI string - settingsAboutChangelog"
   },
   "settingsAboutOurGroup": "我们的群组",
   "@settingsAboutOurGroup": {
-    "description": "CodeWalk UI string - settingsAboutOurGroup"
+    "description": "Kilo-Walk UI string - settingsAboutOurGroup"
   },
   "speechNemotron": "Nemotron",
   "@speechNemotron": {
-    "description": "CodeWalk UI string — speechNemotron"
+    "description": "Kilo-Walk UI string — speechNemotron"
   },
   "speechNemotronSubtitle": "Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.",
   "@speechNemotronSubtitle": {
-    "description": "CodeWalk UI string — speechNemotronSubtitle"
+    "description": "Kilo-Walk UI string — speechNemotronSubtitle"
   },
   "speechNemotronStaysDownloadable": "Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.",
   "@speechNemotronStaysDownloadable": {
-    "description": "CodeWalk UI string — speechNemotronStaysDownloadable"
+    "description": "Kilo-Walk UI string — speechNemotronStaysDownloadable"
   },
   "speechNemotronDesktopOnlyHint": "Available on desktop only. Uses streaming multilingual recognition.",
   "@speechNemotronDesktopOnlyHint": {
-    "description": "CodeWalk UI string — speechNemotronDesktopOnlyHint"
+    "description": "Kilo-Walk UI string — speechNemotronDesktopOnlyHint"
   },
   "settingsAppearanceProjectTabColors": "项目标签页颜色",
   "settingsAppearanceProjectTabColorsDescription": "使用检测到的项目图标颜色为会话标签页着色。"

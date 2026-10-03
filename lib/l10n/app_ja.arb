@@ -74,7 +74,7 @@
   "appProviderSetupOpenCodeDetected": "OpenCode を検出しました",
   "appProviderSetupOpenCodeNotDetected": "OpenCode が検出されませんでした",
   "appProviderSetupOpenCodeNotDetectedInstall": "OpenCode コマンドが検出されませんでした。ウィザードからインストールを実行してください。",
-  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode コマンドが検出されませんでした。インストールしたばかりの場合は、チェックを更新するか CodeWalk を再起動して PATH を再読み込みしてください。",
+  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode コマンドが検出されませんでした。インストールしたばかりの場合は、チェックを更新するか Kilo-Walk を再起動して PATH を再読み込みしてください。",
   "appProviderSetupRequirementsInstalled": "OpenCode の要件が正常にインストールされました。",
   "appProviderSetupUsingOpenCodeAt": "{path} の OpenCode コマンドを使用中",
   "appProviderStartingLocalServer": "ローカルサーバーを起動中...",
@@ -115,7 +115,7 @@
   "behaviorCellularDataSaver": "モバイルデータセーバー",
   "behaviorCellularDataSaverActive": "データセーバーが有効です。",
   "behaviorChatLevelShare": "チャットレベル共有",
-  "behaviorCodeWalkReleaseChecks": "CodeWalkリリースチェック",
+  "behaviorCodeWalkReleaseChecks": "Kilo-Walkリリースチェック",
   "behaviorControlsOfficialGlobal": "OpenCodeの公式グローバル設定を制御",
   "behaviorControlsUpstreamOpenCode": "アップストリームOpenCode設定を制御",
   "behaviorCustomDisplayName": "カスタム表示名",
@@ -132,7 +132,7 @@
   "behaviorLightweightTasksLike": "次のような軽量タスク",
   "behaviorManual": "手動",
   "behaviorNotify": "通知",
-  "behaviorOfficialOpenCodePermission": "公式の OpenCode 権限ポリシーは `opencode.json` でツールごとに許可/確認/拒否ルールが設定されています。CodeWalk は公式の権限要求カードを維持しつつ、承認済みの ADR-023 例外を1つ追加しています。コンポーザーの自動承認トグルは、永続的なセッションスコープ of the grants を作成するために、無条件で `Always` かつ `remember: true` を返し、Android バックグラウンドワーカーでも同じスレッドスコープの継続パスをアクティブに保ちます。",
+  "behaviorOfficialOpenCodePermission": "公式の OpenCode 権限ポリシーは `opencode.json` でツールごとに許可/確認/拒否ルールが設定されています。Kilo-Walk は公式の権限要求カードを維持しつつ、承認済みの ADR-023 例外を1つ追加しています。コンポーザーの自動承認トグルは、永続的なセッションスコープ of the grants を作成するために、無条件で `Always` かつ `remember: true` を返し、Android バックグラウンドワーカーでも同じスレッドスコープの継続パスをアクティブに保ちます。",
   "behaviorOpenCodeBackedDefaults": "OpenCodeベースのデフォルト値",
   "behaviorPermissionHandlingProvenance": "権限処理の来歴（プロブナンス）",
   "behaviorPermissionsVariantReasoning": "権限とバリアント/推論のパリティは、そのUIが高度な設定を安全に保存できるようになるまで、分離されたままになります。",
@@ -593,7 +593,7 @@
   "logsFilterAll": "すべて",
   "logsFilterByTag": "タグ",
   "logsLevel": "レベル",
-  "logsLoggingDisabledDescription": "CodeWalk は詳細なアプリログを収集していません。診断が必要な場合のみログを有効にしてください。",
+  "logsLoggingDisabledDescription": "Kilo-Walk は詳細なアプリログを収集していません。診断が必要な場合のみログを有効にしてください。",
   "logsLoggingDisabledTitle": "ログは無効です",
   "logsMeasurePerformance": "パフォーマンスを測定",
   "logsMeasurePerformanceDescription": "重いアプリ操作の所要時間を記録します。遅延診断時以外はオフにしてください。",
@@ -631,7 +631,7 @@
   "modelRetryModels": "モデル読み込みを再試行",
   "modelSearchHint": "モデルまたはプロバイダーを検索",
   "msgBatterySettingsFailed": "Android バッテリー最適化設定を開けませんでした。",
-  "msgBatterySettingsOpened": "Android バッテリー設定が開かれました。CodeWalk のバッテリー使用制限を「制限なし」にしてください。",
+  "msgBatterySettingsOpened": "Android バッテリー設定が開かれました。Kilo-Walk のバッテリー使用制限を「制限なし」にしてください。",
   "msgClearUsernameNeedsConfigEdit": "OpenCode 会話ユーザー名をクリアするには、依然としてアプリ外で設定を編集する必要があります。",
   "msgCommandCopied": "コマンドがコピーされました",
   "msgCopiedToClipboard": "クリップボードにコピーされました",
@@ -663,7 +663,7 @@
   "msgSetupDebugCopied": "OpenCode セットアップデバッグ情報がクリップボードにコピーされました",
   "msgShareAsImage": "画像として共有",
   "msgShareAsImageFailed": "メッセージを画像として共有できませんでした。",
-  "msgShareAsImageSubject": "CodeWalk メッセージ",
+  "msgShareAsImageSubject": "Kilo-Walk メッセージ",
   "msgShareAsImageTooTall": "メッセージが長すぎるため、画像として共有できません。",
   "msgStopReadAloud": "読み上げを停止",
   "msgPauseReadAloud": "読み上げを一時停止",
@@ -673,7 +673,7 @@
   "msgVoiceInputUnavailable": "このデバイスでは音声入力が利用できません",
   "notifAndroidBatteryOptimization": "Androidバッテリー最適化",
   "notifConversationUpdates": "会話の更新",
-  "notifNotificationsArriveReopening": "アプリを再開したときにしか通知が届かない場合は、CodeWalk がこのデバイスで最適化なしで実行できるように許可してください。",
+  "notifNotificationsArriveReopening": "アプリを再開したときにしか通知が届かない場合は、Kilo-Walk がこのデバイスで最適化なしで実行できるように許可してください。",
   "notifResponseRunningKeep": "レスポンスが実行されている場合、アプリを離れた後も短時間リアルタイム通信を有効に保ちます。",
   "notifSelectedSoundLabel": "選択済み: {soundLabel}",
   "notificationAgentFinished": "エージェントが現在の応答を完了しました。",
@@ -684,7 +684,7 @@
   "onboardingAIGeneratedTitles": "AI生成タイトル",
   "onboardingAddServerLater": "サーバーは後で [設定] > [サーバー] から追加できます。",
   "onboardingAddedButHealthCheckFailed": "サーバーが追加されましたが、ヘルスチェックに失敗しました。まだ起動中の可能性があります。",
-  "onboardingAlmostInstallOpenCode": "あと少しです。まず OpenCode をインストールし、次に CodeWalk をサーバー URL に接続してください。",
+  "onboardingAlmostInstallOpenCode": "あと少しです。まず OpenCode をインストールし、次に Kilo-Walk をサーバー URL に接続してください。",
   "onboardingAppProviderLocalSetupLogsLength": "{length}件のセットアップログ行と{length2}件のセットアップイベントが別のセットアップデバッグ画面で利用できます。",
   "onboardingAuthenticate": "認証",
   "onboardingAvailable": "利用可能",
@@ -694,7 +694,7 @@
   "onboardingChooseHowToSetup": "サーバーのセットアップ方法を選択してください",
   "onboardingClear": "クリア",
   "onboardingCloudflareAuthFailed": "Cloudflare Access の認証に失敗しました。",
-  "onboardingCodeWalkAppOpenCode": "CodeWalk はアプリであり、OpenCode は接続先となるエンジンです。",
+  "onboardingCodeWalkAppOpenCode": "Kilo-Walk はアプリであり、OpenCode は接続先となるエンジンです。",
   "onboardingConnectRunningServer": "実行中のサーバーに接続",
   "onboardingConnectionIssue": "接続の問題",
   "onboardingConnectionSaved": "サーバー接続が正常に保存されました。",
@@ -714,7 +714,7 @@
   "onboardingEmulatorRemap": "Android エミュレーターでは、localhost と 127.0.0.1 は自動的に 10.0.2.2 にリマップされます。",
   "onboardingEnterServerUrl": "サーバーの URL を入力",
   "onboardingExisting": "既存のものを使用",
-  "onboardingExplainInstallOpenCode": "OpenCode をインストールし、サーバーを起動し、CodeWalk から接続する方法を説明します。",
+  "onboardingExplainInstallOpenCode": "OpenCode をインストールし、サーバーを起動し、Kilo-Walk から接続する方法を説明します。",
   "onboardingFailed": "失敗",
   "onboardingGoodOptionDesktop": "デスクトップでの推奨される最初のオプション",
   "onboardingHealthCheckFailedMayBeStarting": "サーバーのヘルスチェックに失敗しました。まだ起動中の可能性があります。",
@@ -722,12 +722,12 @@
   "onboardingInstallBun": "Bun経由でインストール",
   "onboardingInstallBunOpenCode": "Bun + OpenCode をインストール",
   "onboardingInstallNpm": "npm経由でインストール",
-  "onboardingInstallRunOpenCode": "デスクトップ上の CodeWalk から直接 OpenCode をインストールして実行します。",
+  "onboardingInstallRunOpenCode": "デスクトップ上の Kilo-Walk から直接 OpenCode をインストールして実行します。",
   "onboardingInvalidUrl": "無効な URL",
   "onboardingLabel": "ラベル（任意）",
   "onboardingLabelHint": "マイサーバー",
   "onboardingLatestOutputAppProvider": "最新の出力: {localServerLastOutput}",
-  "onboardingLetCodeWalkSet": "CodeWalkにローカルでセットアップさせる",
+  "onboardingLetCodeWalkSet": "Kilo-Walkにローカルでセットアップさせる",
   "onboardingLocalServerSetup": "ローカルサーバーのセットアップ",
   "onboardingManagedLocalServer": "管理されたローカルサーバー",
   "onboardingManagedLocalServer2": "管理ローカルサーバーモードはデスクトップビルド（Linux/macOS/Windows）でのみ利用可能です。",
@@ -736,7 +736,7 @@
   "onboardingNotWritable": "書き込み不可",
   "onboardingOpenCode": "OpenCodeとは？",
   "onboardingOpenCodeRunningDevice": "このデバイスまたはネットワーク上のどこかで、すでに OpenCode を実行しています。",
-  "onboardingOpenCodeRunsLocally": "OpenCode はローカルまたはサーバー上で実行され、CodeWalk 内の AI コーディング機能を強化します。すでに OpenCode が実行されている場合は、それに接続してください。実行されていない場合は、以下のガイド付きセットアップパスのいずれかを選択してください。",
+  "onboardingOpenCodeRunsLocally": "OpenCode はローカルまたはサーバー上で実行され、Kilo-Walk 内の AI コーディング機能を強化します。すでに OpenCode が実行されている場合は、それに接続してください。実行されていない場合は、以下のガイド付きセットアップパスのいずれかを選択してください。",
   "onboardingOpenTailscaleLogin": "Tailscale ログイン URL を開けませんでした。",
   "onboardingPassword": "パスワード",
   "onboardingPasswordRequired": "パスワードを入力",
@@ -751,7 +751,7 @@
   "onboardingPreconditionWindowsWslRecommendation": "Windowsビルドが検出されました。OpenCodeのドキュメントではWSLが推奨されていますが、代替手段としてnpm installを使用することもできます。",
   "onboardingReachable": "到達可能",
   "onboardingReady": "準備完了",
-  "onboardingRecommendedOrderTry": "推奨される順序: CodeWalk がすべてをブートストラップするようにしたい場合は [Bun + OpenCode をインストール] を試してください。OpenCode がすでにインストールされている場合は [既存のものを使用] を使用します。",
+  "onboardingRecommendedOrderTry": "推奨される順序: Kilo-Walk がすべてをブートストラップするようにしたい場合は [Bun + OpenCode をインストール] を試してください。OpenCode がすでにインストールされている場合は [既存のものを使用] を使用します。",
   "onboardingRefreshChecks": "検出チェックを更新",
   "onboardingRunDiagnosticsToVerify": "ローカルの OpenCode 要件を確認するために診断を実行してください。",
   "onboardingSaveAndTest": "保存してテスト",
@@ -793,7 +793,7 @@
   "onboardingUsingDetectedCommand": "検出された OpenCode コマンドを使用しています。",
   "onboardingViewSetupDebug": "セットアップデバッグを表示",
   "onboardingWelcomeTo": "{appName} へようこそ",
-  "onboardingWindowsTipInstalling": "Windowsのヒント: インストール後、[検出チェックを更新] をクリックします。それでも検出に失敗する場合は、CodeWalk を再起動して PATH の変更を再読み込みしてください。",
+  "onboardingWindowsTipInstalling": "Windowsのヒント: インストール後、[検出チェックを更新] をクリックします。それでも検出に失敗する場合は、Kilo-Walk を再起動して PATH の変更を再読み込みしてください。",
   "onboardingWritable": "書き込み可能",
   "onboardingYoureAllSet": "準備が整いました！",
   "permissionAllowOnce": "1回のみ許可",
@@ -848,7 +848,7 @@
   "serversDefault": "デフォルト",
   "serversDelete": "削除",
   "serversDeleteServer": "サーバーを削除",
-  "serversDesktopModeExplanation": "デスクトップモードでは、CodeWalk から直接 `opencode serve` を起動および管理できます。",
+  "serversDesktopModeExplanation": "デスクトップモードでは、Kilo-Walk から直接 `opencode serve` を起動および管理できます。",
   "serversEdit": "編集",
   "serversLocalOpenCodeServer": "ローカル OpenCode サーバー",
   "serversManagedModeAvailable": "この管理モードはデスクトップビルド（Linux/macOS/Windows）でのみ利用可能です。",
@@ -871,19 +871,19 @@
   "serversTailscaleLoginExplanation": "Tailscale ログイン URL を開いて、このデバイスを tailnet に追加してください。",
   "serversTailscaleLogout": "ログアウト",
   "@serversTailscaleLogout": {
-    "description": "CodeWalk UI string — serversTailscaleLogout"
+    "description": "Kilo-Walk UI string — serversTailscaleLogout"
   },
   "serversTailscaleLogoutConfirmMessage": "このデバイスはtailnetから退出します。いつでも再ログインできます。",
   "@serversTailscaleLogoutConfirmMessage": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmMessage"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmMessage"
   },
   "serversTailscaleLogoutConfirmTitle": "Tailscaleからログアウトしますか?",
   "@serversTailscaleLogoutConfirmTitle": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmTitle"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmTitle"
   },
   "serversTailscaleReconnect": "再接続",
   "@serversTailscaleReconnect": {
-    "description": "CodeWalk UI string — serversTailscaleReconnect"
+    "description": "Kilo-Walk UI string — serversTailscaleReconnect"
   },
   "serversTailscaleTrafficExplanation": "このアクティブプロファイルの OpenCode トラフィックは Tailscale 経由でルーティングされます。",
   "serversTailscaleUnsupported": "Tailscale はサポートされていません",
@@ -992,17 +992,17 @@
   "settingsAppearanceBrandColor": "ブランドカラー",
   "settingsAppearanceBrandColorDynamicBlocked": "ブランドカラーを選択するには、壁紙の色を無効にしてください。",
   "settingsAppearanceBrandColorNormal": "アプリパレットのシードカラーを選択します。",
-  "settingsAppearanceBrandColorPresetBlocked": "ブランドカラーを選択するには、CodeWalk クラシックに切り替えてください。",
+  "settingsAppearanceBrandColorPresetBlocked": "ブランドカラーを選択するには、Kilo-Walk クラシックに切り替えてください。",
   "settingsAppearanceChatFontScale": "会話の文字サイズ",
   "settingsAppearanceChatFontScaleDescription": "システムの文字サイズに加えて、チャットメッセージとコンポーザーのテキストを拡大縮小します。",
-  "settingsAppearanceCodeWalkClassic": "CodeWalkクラシック",
+  "settingsAppearanceCodeWalkClassic": "Kilo-Walkクラシック",
   "settingsAppearanceComposerTips": "コンポーザーヒント",
   "settingsAppearanceComposerTipsDescription": "アシスタントが推論中に回転表示されるヒントの表示/非表示を切り替えます。",
   "settingsAppearanceContrast": "コントラスト",
   "settingsAppearanceContrastDynamicBlocked": "コントラストを調整するには、壁紙の色を無効にしてください。",
   "settingsAppearanceContrastHigh": "高コントラスト",
   "settingsAppearanceContrastNormal": "カラースキームのコントラストレベルを調整します。",
-  "settingsAppearanceContrastPresetBlocked": "コントラストを調整するには、CodeWalk クラシックに切り替えてください。",
+  "settingsAppearanceContrastPresetBlocked": "コントラストを調整するには、Kilo-Walk クラシックに切り替えてください。",
   "settingsAppearanceContrastReduced": "低コントラスト",
   "settingsAppearanceDark": "ダーク",
   "settingsAppearanceDensity": "表示密度",
@@ -1034,7 +1034,7 @@
   "settingsAppearanceTerminalFontSize": "ターミナルの文字サイズ",
   "settingsAppearanceTerminalFontSizeDescription": "組み込みターミナルのフォントサイズを変更します。実行中のセッションにすぐに適用されます。",
   "settingsAppearanceTheme": "テーマ",
-  "settingsAppearanceThemeDescription": "ライト、ダーク、またはシステムモードを選択し、CodeWalk クラシックパレットを維持するか、OpenCode プリセットに切り替えます。",
+  "settingsAppearanceThemeDescription": "ライト、ダーク、またはシステムモードを選択し、Kilo-Walk クラシックパレットを維持するか、OpenCode プリセットに切り替えます。",
   "settingsAppearanceVisualStyle": "ビジュアルスタイル",
   "settingsAppearanceVisualStyleDescription": "クラシック表示、またはより柔らかな洗練表示を選択します。",
   "settingsAppearanceVisualStyleClassic": "クラシック",
@@ -1046,7 +1046,7 @@
   "settingsAppearanceToolCallBubblesDescription": "アシスタントメッセージ内のツール実行カードの表示/非表示を切り替えます。",
   "settingsAppearanceWallpaperColors": "壁紙の色を使用する",
   "settingsAppearanceWallpaperNormal": "デバイスの壁紙からカラースキームを抽出します。",
-  "settingsAppearanceWallpaperPresetBlocked": "壁紙の色を使用するには、CodeWalk クラシックに切り替えてください。",
+  "settingsAppearanceWallpaperPresetBlocked": "壁紙の色を使用するには、Kilo-Walk クラシックに切り替えてください。",
   "settingsAppearanceWindowChrome": "ウィンドウのタブ",
   "settingsAppearanceWindowChromeDescription": "デスクトップでセッションタブとタイトルバーをどう組み合わせるか選びます。",
   "settingsAppearanceWindowChromeIntegrated": "統合タブ",
@@ -1054,8 +1054,8 @@
   "settingsAppearanceWindowChromeSystem": "システムの装飾",
   "settingsAppearanceWindowChromeSystemDescription": "ネイティブのタイトルバーを維持し、タブをアプリバーの下に表示します。",
   "settingsBack": "戻る",
-  "settingsBehaviorAutoupdateCaveat": "CodeWalk のリリース確認には「情報」を使用してください。この設定は公式の OpenCode `autoupdate` 設定をミラーリングしているだけです。",
-  "settingsBehaviorAutoupdateHelp": "上流の OpenCode ランタイムのアップデートを制御します。CodeWalk アプリのアップデート確認ではありません。",
+  "settingsBehaviorAutoupdateCaveat": "Kilo-Walk のリリース確認には「情報」を使用してください。この設定は公式の OpenCode `autoupdate` 設定をミラーリングしているだけです。",
+  "settingsBehaviorAutoupdateHelp": "上流の OpenCode ランタイムのアップデートを制御します。Kilo-Walk アプリのアップデート確認ではありません。",
   "settingsBehaviorCellularDataSaver": "モバイルデータセーバー",
   "settingsBehaviorChatRenderMode": "チャット表示モード",
   "settingsBehaviorChatRenderModeBlock": "ブロック",
@@ -1065,7 +1065,7 @@
   "settingsBehaviorChatRenderModeLiveDescription": "OpenCode がイベントをストリームする際に、アシスタントのテキスト、推論、ツールのアクティビティを表示します。",
   "settingsBehaviorComposerSpellCheck": "コンポーザーのスペルチェック",
   "settingsBehaviorComposerSpellCheckDescription": "チャットコンポーザーでプラットフォーム標準のスペルチェック、候補、自動修正を使用します。",
-  "settingsBehaviorConfigDeferred": "CodeWalk は、現在のレスポンスが終了した後にこの OpenCode 設定を適用します。",
+  "settingsBehaviorConfigDeferred": "Kilo-Walk は、現在のレスポンスが終了した後にこの OpenCode 設定を適用します。",
   "settingsBehaviorConfigUpdateFailed": "OpenCode の {field} を更新できませんでした。",
   "settingsBehaviorConversationUsername": "会話用ユーザー名",
   "settingsBehaviorConversationUsernameHelp": "システムユーザー名の代わりに会話内で表示されるカスタム表示名。",
@@ -1091,7 +1091,7 @@
   "settingsBehaviorOpenCodeSnapshotsDescription": "元に戻す/やり直しおよび回復履歴のために、上流の Git ベースのスナップショットを有効のままにします。",
   "settingsBehaviorPermissionDeferred": "高度な権限ルールの編集は、現時点では設定から除外され、今後のパリティ作業に延期されます。",
   "settingsBehaviorPermissionProvenance": "権限処理の来歴（プロブナンス）",
-  "settingsBehaviorPermissionProvenanceDescription": "公式の OpenCode 権限ポリシーは `opencode.json` でツールごとに許可/確認/拒否ルールが設定されています。CodeWalk は公式の権限要求カードを維持しつつ、承認済みの ADR-023 例外を1つ追加しています。コンポーザーの自動承認トグルは、永続的なセッションスコープの付与を作成するために、無条件で `Always` かつ `remember: true` を返し、Android バックグラウンドワーカーでも同じスレッドスコープの継続パスをアクティブに保ちます。",
+  "settingsBehaviorPermissionProvenanceDescription": "公式の OpenCode 権限ポリシーは `opencode.json` でツールごとに許可/確認/拒否ルールが設定されています。Kilo-Walk は公式の権限要求カードを維持しつつ、承認済みの ADR-023 例外を1つ追加しています。コンポーザーの自動承認トグルは、永続的なセッションスコープの付与を作成するために、無条件で `Always` かつ `remember: true` を返し、Android バックグラウンドワーカーでも同じスレッドスコープの継続パスをアクティブに保ちます。",
   "settingsBehaviorRefreshDefaults": "デフォルト値を更新",
   "settingsBehaviorSaveUsername": "ユーザー名を保存",
   "settingsBehaviorSearchAutoupdate": "自動アップデートモードを検索",
@@ -1107,16 +1107,16 @@
   "settingsBehaviorSmallModelFallbackActive": "`small_model` が未設定のため、OpenCode の自動フォールバックが有効です。",
   "settingsBehaviorSmallModelHelp": "タイトル生成などの軽量なタスクに使用されます。",
   "settingsBehaviorSmallModelResetCaveat": "`/config` のパッチ更新ではキーを削除できないため、`small_model` を自動フォールバックに戻すには、アプリ外で設定を編集する必要があります。",
-  "settingsBehaviorSnapshotCaveat": "これは OpenCode のスナップショット保存と元に戻す/やり直しのサポートを制御するものであり、CodeWalk のローカルキャッシュスナップショットではありません。",
+  "settingsBehaviorSnapshotCaveat": "これは OpenCode のスナップショット保存と元に戻す/やり直しのサポートを制御するものであり、Kilo-Walk のローカルキャッシュスナップショットではありません。",
   "settingsBehaviorTitle": "動作",
   "settingsBehaviorUsernameFallback": "`username` が未設定のため、OpenCode はシステムユーザー名を使用します。",
   "settingsBehaviorUsernamePatchCaveat": "`/config` のパッチ更新ではキーを削除できないため、`username` をシステムデフォルトに戻すには、アプリ外で設定を編集する必要があります。",
   "settingsConfigRefreshFailed": "サーバー設定を更新しましたが、チャットプロバイダーを更新できませんでした。",
-  "settingsConfigUpdateDeferred": "CodeWalk は、現在のレスポンスが終了した後にこの OpenCode 設定を適用します。",
+  "settingsConfigUpdateDeferred": "Kilo-Walk は、現在のレスポンスが終了した後にこの OpenCode 設定を適用します。",
   "settingsConversationUsername": "会話ユーザー名",
   "settingsDefaultAgent": "デフォルトエージェント",
   "settingsDefaultModel": "デフォルトモデル",
-  "settingsLanguageDescription": "CodeWalkで使用する言語を選択します。システムのデフォルトはデバイスの言語に従います。",
+  "settingsLanguageDescription": "Kilo-Walkで使用する言語を選択します。システムのデフォルトはデバイスの言語に従います。",
   "settingsLanguageEmptyText": "言語が見つかりません",
   "settingsLanguageFieldHelper": "すぐに適用され、再起動後も保持されます。",
   "settingsLanguageFieldLabel": "アプリの言語",
@@ -1132,12 +1132,12 @@
   "settingsNotificationsAppInBackground": "アプリがバックグラウンドにあるとき",
   "settingsNotificationsBackgroundAlerts": "Androidバックグラウンドアラート",
   "settingsNotificationsBackgroundBehavior": "バックグラウンドの動作",
-  "settingsNotificationsBackgroundBehaviorDescription": "アプリがフォアグラウンドから離れた後の CodeWalk の動作を選択します。",
+  "settingsNotificationsBackgroundBehaviorDescription": "アプリがフォアグラウンドから離れた後の Kilo-Walk の動作を選択します。",
   "settingsNotificationsBackgroundDescription": "アプリが画面に表示されていない間、レスポンス完了、権限要求、質問、およびエラーを低データ量のバックグラウンド監視で追跡します。",
   "settingsNotificationsBackgroundToggle": "Androidでのバックグラウンドアラート",
   "settingsNotificationsBackgroundToggleDescription": "すべての Android バックグラウンドチェックをオフにし、永続的な監視通知を非表示にします。",
-  "settingsNotificationsBatteryDescription": "アプリを再開したときにしか通知が届かない場合は、CodeWalk がこのデバイスで最適化なしで実行できるように許可してください。",
-  "settingsNotificationsBatteryDisabled": "CodeWalk のバッテリー最適化は無効になっています。",
+  "settingsNotificationsBatteryDescription": "アプリを再開したときにしか通知が届かない場合は、Kilo-Walk がこのデバイスで最適化なしで実行できるように許可してください。",
+  "settingsNotificationsBatteryDisabled": "Kilo-Walk のバッテリー最適化は無効になっています。",
   "settingsNotificationsBatteryEnabled": "バッテリー最適化が有効になっています。一部のデバイスでは、バックグラウンドアラートが遅れる場合があります。",
   "settingsNotificationsBatteryOptimization": "Androidバッテリー最適化",
   "settingsNotificationsBatteryUnknown": "バッテリー最適化のステータスをまだ読み取れませんでした。",
@@ -1261,7 +1261,7 @@
   "setupDebugCapturedSetupLogs": "キャプチャされたセットアップログ",
   "setupDebugClear": "セットアップデバッグをクリア",
   "setupDebugClearSetupDebug": "セットアップデバッグをクリア",
-  "setupDebugCodeWalkCaptureEnough": "CodeWalkが十分なコンテキストをキャプチャしなかった場合は、公式の OpenCode ログおよびヘルスエンドポイントを直接確認してください:",
+  "setupDebugCodeWalkCaptureEnough": "Kilo-Walkが十分なコンテキストをキャプチャしなかった場合は、公式の OpenCode ログおよびヘルスエンドポイントを直接確認してください:",
   "setupDebugCommandPath": "コマンドパス",
   "setupDebugCommandPath2": "コマンドパス",
   "setupDebugCopy": "セットアップデバッグをコピー",
@@ -1290,7 +1290,7 @@
   "setupDebugPlatform": "プラットフォーム",
   "setupDebugPlatform2": "プラットフォーム",
   "setupDebugRunDiagnosticsTry": "OpenCode固有のトラブルシューティング詳細をここにキャプチャするために、診断を実行するか、インストール方法を試すか、セットアップフローを試行してください。",
-  "setupDebugScreenCoversOpenCode": "この画面は OpenCode のインストール、診断、およびローカルセットアップのトラブルシューティングのみをカバーします。一般的な CodeWalk 実行時の問題については、[アプリログ] を使用してください。",
+  "setupDebugScreenCoversOpenCode": "この画面は OpenCode のインストール、診断、およびローカルセットアップのトラブルシューティングのみをカバーします。一般的な Kilo-Walk 実行時の問題については、[アプリログ] を使用してください。",
   "setupDebugServerOutput": "最新のローカルサーバー出力",
   "setupDebugStatus": "現在のステータス",
   "setupDebugTimeEntrySource": "{time} - {source}",
@@ -1339,7 +1339,7 @@
   "shortcutsReset": "すべてリセット",
   "shortcutsSearchEditBindings": "保存する前に、検索、バインディングの編集、および競合の解決を行います。",
   "shortcutsSetShortcutWidget": "ショートカットを設定: {label}",
-  "shortcutsTheseBindingsStored": "これらのバインディングは現在のアプリ実行時のために CodeWalk に保存され、OpenCode の `tui.json` キーバインドは編集しません。",
+  "shortcutsTheseBindingsStored": "これらのバインディングは現在のアプリ実行時のために Kilo-Walk に保存され、OpenCode の `tui.json` キーバインドは編集しません。",
   "speechAutoStopSilence": "自動停止の無音タイムアウト",
   "speechChooseRecognitionEngine": "認識エンジン、無音タイムアウト、およびモデルのオプションを選択します。",
   "speechDesktopOnly": "{service} はデスクトップでのみ利用可能です。",
@@ -1354,7 +1354,7 @@
   "speechMoonshineStaysDownloadable": "Moonshine はアプリバンドルの外に置かれ、ダウンロード可能な状態になります。このデスクトップデバイス用にモデルを1つ選択し、後で容量を戻したい場合は削除してください。",
   "speechNative": "ネイティブ",
   "speechNativeSTTDisabled": "このアプリでは Linux 上のネイティブ STT が無効になっています。新規インストールでは Parakeet がデフォルトのエンジンになります。",
-  "speechNativeSTTWorks": "Windows では、CodeWalk は WASAPI マイクバックエンドを通じてローカルのオンデバイス音声認識を使用します。安定性のため、Windows ネイティブの音声認識は無効になっています。",
+  "speechNativeSTTWorks": "Windows では、Kilo-Walk は WASAPI マイクバックエンドを通じてローカルのオンデバイス音声認識を使用します。安定性のため、Windows ネイティブの音声認識は無効になっています。",
   "speechNativeStartsFaster": "ネイティブの方が起動が早いです。Sherpa はより重いセットアップとより深いモデル制御を伴い、完全にデバイス上で動作します。",
   "speechOpenMicrophoneSettings": "マイク設定を開く",
   "speechOpenSpeechPrivacy": "音声のプライバシー設定を開く",
@@ -1373,7 +1373,7 @@
   "speechSherpaModelsLinux": "Sherpaモデル（Linux）",
   "speechSpeechText": "音声文字変換",
   "speechUnavailableOnPlatform": "{service} 音声はこのプラットフォームでは利用できません。",
-  "speechWindowsSetupHint": "Windows の音声入力は、オンデバイスモデルとともに CodeWalk WASAPI キャプチャを使用します。デスクトップアプリのマイクアクセスを有効にしたままにしてください。下のボタンでトラブルシューティング用の Windows 設定が開きます。",
+  "speechWindowsSetupHint": "Windows の音声入力は、オンデバイスモデルとともに Kilo-Walk WASAPI キャプチャを使用します。デスクトップアプリのマイクアクセスを有効にしたままにしてください。下のボタンでトラブルシューティング用の Windows 設定が開きます。",
   "statusConnected": "接続済み",
   "statusDelayed": "遅延",
   "statusFailed": "失敗",
@@ -1394,7 +1394,7 @@
   "terminalConnectingTo": "{serverName} ターミナルに接続中...",
   "terminalConnectionFailed": "ターミナル接続に失敗しました: {error}",
   "terminalDisconnected": "ターミナルが切断されました。",
-  "terminalEmbeddedUnavailable": "組み込みターミナルはこのランタイムではまだ利用できません。単発コマンドにはコンポーザーのシェルモードを引き続き使用するか、サポートされている CodeWalk アアプリランタイムから {serverName} のターミナルを開いてください。",
+  "terminalEmbeddedUnavailable": "組み込みターミナルはこのランタイムではまだ利用できません。単発コマンドにはコンポーザーのシェルモードを引き続き使用するか、サポートされている Kilo-Walk アアプリランタイムから {serverName} のターミナルを開いてください。",
   "terminalExtraKeyAlt": "Alt キー",
   "terminalExtraKeyArrowDown": "下矢印",
   "terminalExtraKeyArrowLeft": "左矢印",
@@ -1526,18 +1526,18 @@
   "settingsNotificationsSystemSoundsFreedesktop": "/usr/share/sounds/freedesktop/stereo の Freedesktop サウンド。",
   "settingsNotificationsSystemSoundsPlatform": "OS がシステムサウンドを公開しているプラットフォームで利用できます。",
   "serversQuickGuideTitle": "クイックセットアップ",
-  "serversQuickGuideIntro": "CodeWalk はアプリ、OpenCode はエンジンです。この接続を利用するには OpenCode の起動が必要です。",
+  "serversQuickGuideIntro": "Kilo-Walk はアプリ、OpenCode はエンジンです。この接続を利用するには OpenCode の起動が必要です。",
   "serversQuickGuideStepInstallCli": "1. OpenCode CLI をインストール。",
   "serversQuickGuideRunPowerShell": "2. PowerShell で実行:",
   "serversQuickGuideRunTerminal": "2. ターミナルで実行:",
   "serversQuickGuideProtectPassword": "パスワードでアクセスを保護",
   "serversQuickGuideServerPassword": "サーバーパスワード",
   "serversQuickGuideInstallOptions": "その他の公式インストール方法: インストールスクリプト、npm、bun、pnpm、Homebrew、または GitHub Releases のバイナリ。",
-  "serversQuickGuideVerifyHint": "サーバー起動後、URL を CodeWalk に貼り付ける前に /global/health または /doc が応答することを確認してください。",
+  "serversQuickGuideVerifyHint": "サーバー起動後、URL を Kilo-Walk に貼り付ける前に /global/health または /doc が応答することを確認してください。",
   "shortcutsPressKeyCombination": "キーの組み合わせを押してください",
   "settingsProvenanceOpenCodeBacked": "OpenCode ベース",
-  "settingsProvenanceCodeWalkLocal": "CodeWalk ローカル",
-  "settingsProvenanceCodeWalkException": "CodeWalk 例外",
+  "settingsProvenanceCodeWalkLocal": "Kilo-Walk ローカル",
+  "settingsProvenanceCodeWalkException": "Kilo-Walk 例外",
   "shortcutsErrorInvalid": "無効なショートカット",
   "shortcutsErrorUnsupportedKey": "サポートされていないショートカットキー",
   "shortcutsErrorConflict": "「{conflict}」と競合",
@@ -1560,8 +1560,8 @@
   "speechApiKeyStorageUnavailable": "セキュアな TTS APIキー保存を利用できません。",
   "speechApiKeyRemoved": "APIキーを削除しました。",
   "speechApiKeySaved": "APIキーをこのデバイスに安全に保存しました。",
-  "speechReadAloudTestText": "これは CodeWalk の音声合成テストです。",
-  "speechNativeDisabledWindows": "安定性のため Windows では無効です。CodeWalk WASAPI キャプチャ経由で Parakeet または他のオンデバイスエンジンを使用してください。",
+  "speechReadAloudTestText": "これは Kilo-Walk の音声合成テストです。",
+  "speechNativeDisabledWindows": "安定性のため Windows では無効です。Kilo-Walk WASAPI キャプチャ経由で Parakeet または他のオンデバイスエンジンを使用してください。",
   "speechNativeUnavailableLinux": "Linux では利用できません。音声入力には Parakeet を使用してください。",
   "speechNotAvailableOnPlatform": "このプラットフォームでは利用できません。",
   "speechSherpaUnavailableAndroid": "APK サイズを最適化した Android ビルドでは利用できません。",
@@ -1617,12 +1617,12 @@
   "notificationPermissionNeedsInput": "ツールの権限承認が必要です。",
   "notificationQuestionNeedsInput": "ツールの質問への回答が必要です。",
   "notificationSessionError": "セッションでエラーが報告されました。",
-  "notificationChannelErrors": "CodeWalk エラー",
-  "notificationChannelErrorsDescription": "CodeWalk エラーアラート",
-  "notificationChannelPermissions": "CodeWalk 権限",
-  "notificationChannelPermissionsDescription": "CodeWalk 操作要求アラート",
-  "notificationChannelAgent": "CodeWalk エージェント",
-  "notificationChannelAgentDescription": "CodeWalk エージェント完了アラート",
+  "notificationChannelErrors": "Kilo-Walk エラー",
+  "notificationChannelErrorsDescription": "Kilo-Walk エラーアラート",
+  "notificationChannelPermissions": "Kilo-Walk 権限",
+  "notificationChannelPermissionsDescription": "Kilo-Walk 操作要求アラート",
+  "notificationChannelAgent": "Kilo-Walk エージェント",
+  "notificationChannelAgentDescription": "Kilo-Walk エージェント完了アラート",
   "notificationActionOpen": "開く",
   "foregroundMonitorNotificationBody": "バックグラウンドアラートが有効です",
   "foregroundMonitorNotificationTitle": "バックグラウンド監視が有効です",
@@ -1630,7 +1630,7 @@
   "foregroundMonitorNotificationSessionCount": "{count}件のセッションを監視中",
   "sessionAttentionSemanticLabel": "{count, plural, =1{1件のセッションが注意を要します} other{{count}件のセッションが注意を要します}}",
   "sessionAttentionOverlayPermissionRequired": "「他のアプリの上に表示」権限が必要です。",
-  "sessionAttentionIosInAppOnly": "セッション通知は CodeWalk 内でのみ利用できます。",
+  "sessionAttentionIosInAppOnly": "セッション通知は Kilo-Walk 内でのみ利用できます。",
   "sessionAttentionOverlayPermissionGrantPrompt": "「他のアプリの上に表示」権限を許可してから、もう一度お試しください。",
   "sessionAttentionAndroidStartFailed": "Android セッション通知サービスを開始できませんでした。",
   "chatMessageTruncatedChars": "[{count}文字を切り詰め] {reason}",
@@ -1822,7 +1822,7 @@
   "speechProviderUnreachable": "TTS プロバイダーに接続できませんでした。",
   "appProviderErrorFailedToStartProcess": "{tool} プロセスの起動に失敗しました。",
   "@appProviderErrorFailedToStartProcess": {
-    "description": "CodeWalk UI string — appProviderErrorFailedToStartProcess",
+    "description": "Kilo-Walk UI string — appProviderErrorFailedToStartProcess",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1831,7 +1831,7 @@
   },
   "appProviderErrorToolNotAvailable": "{tool} が利用できません。先に {runtime} をインストールしてください。",
   "@appProviderErrorToolNotAvailable": {
-    "description": "CodeWalk UI string — appProviderErrorToolNotAvailable",
+    "description": "Kilo-Walk UI string — appProviderErrorToolNotAvailable",
     "placeholders": {
       "runtime": {
         "type": "String"
@@ -1843,7 +1843,7 @@
   },
   "appProviderErrorToolInstallFailed": "{tool} のインストールが終了コード {exitCode} で失敗しました。",
   "@appProviderErrorToolInstallFailed": {
-    "description": "CodeWalk UI string — appProviderErrorToolInstallFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorToolInstallFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1855,7 +1855,7 @@
   },
   "appProviderErrorBunBootstrapFailed": "Bun のブートストラップが終了コード {exitCode} で失敗しました。",
   "@appProviderErrorBunBootstrapFailed": {
-    "description": "CodeWalk UI string — appProviderErrorBunBootstrapFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorBunBootstrapFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1864,15 +1864,15 @@
   },
   "appProviderErrorInstalledButNotFoundInPath": "OpenCode のインストールは完了しましたが、コマンドが PATH に見つかりませんでした。",
   "@appProviderErrorInstalledButNotFoundInPath": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath"
   },
   "appProviderErrorInstalledButPathNotResolved": "OpenCode のインストールは完了しましたが、コマンドパスを解決できませんでした。",
   "@appProviderErrorInstalledButPathNotResolved": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButPathNotResolved"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved"
   },
   "appProviderErrorConfiguredCommandNotFound": "構成されたコマンドが見つからず、{tool} が PATH にありません。",
   "@appProviderErrorConfiguredCommandNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1881,31 +1881,31 @@
   },
   "appProviderErrorConfiguredCommandPathMissing": "構成されたコマンドのパスが存在しません。",
   "@appProviderErrorConfiguredCommandPathMissing": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing"
   },
   "appProviderErrorConfiguredCommandVersionCheckFailed": "構成されたコマンドは存在しますが、バージョン確認に失敗しました。",
   "@appProviderErrorConfiguredCommandVersionCheckFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
   },
   "appProviderErrorConfiguredCommandExecutionFailed": "構成されたコマンドを実行できませんでした。",
   "@appProviderErrorConfiguredCommandExecutionFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed"
   },
   "appProviderWslCheckWindowsOnly": "WSL チェックは Windows にのみ適用されます。",
   "@appProviderWslCheckWindowsOnly": {
-    "description": "CodeWalk UI string — appProviderWslCheckWindowsOnly"
+    "description": "Kilo-Walk UI string — appProviderWslCheckWindowsOnly"
   },
   "appProviderDesktopBuildRequired": "管理対象ローカルサーバーを構成するには、デスクトップビルドを使用してください。",
   "@appProviderDesktopBuildRequired": {
-    "description": "CodeWalk UI string — appProviderDesktopBuildRequired"
+    "description": "Kilo-Walk UI string — appProviderDesktopBuildRequired"
   },
   "appProviderKnownInstallationDirectoryDetected": "既知のインストールディレクトリから検出されました。",
   "@appProviderKnownInstallationDirectoryDetected": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationDirectoryDetected"
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected"
   },
   "appProviderKnownInstallationPathRefreshHint": "既知のインストールディレクトリから検出されました。PATH の更新が必要になる場合があります。最近のインストールがまだ検出されない場合は、{appName} を開き直してください。",
   "@appProviderKnownInstallationPathRefreshHint": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationPathRefreshHint",
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint",
     "placeholders": {
       "appName": {
         "type": "String"
@@ -1914,31 +1914,31 @@
   },
   "appProviderErrorReleaseMetadataFetchFailed": "GitHub から最新リリースのメタデータを取得できませんでした。",
   "@appProviderErrorReleaseMetadataFetchFailed": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed"
   },
   "appProviderErrorReleaseAssetListMissing": "最新リリースのメタデータにアセットリストが含まれていませんでした。",
   "@appProviderErrorReleaseAssetListMissing": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseAssetListMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing"
   },
   "appProviderErrorNoCompatibleAsset": "互換性のある OpenCode バイナリアセットが見つかりませんでした。",
   "@appProviderErrorNoCompatibleAsset": {
-    "description": "CodeWalk UI string — appProviderErrorNoCompatibleAsset"
+    "description": "Kilo-Walk UI string — appProviderErrorNoCompatibleAsset"
   },
   "appProviderErrorDownloadAssetFailed": "選択した OpenCode アセットのダウンロードに失敗しました。",
   "@appProviderErrorDownloadAssetFailed": {
-    "description": "CodeWalk UI string — appProviderErrorDownloadAssetFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorDownloadAssetFailed"
   },
   "appProviderErrorChecksumVerificationFailed": "ダウンロードしたアセットのチェックサム検証に失敗しました。",
   "@appProviderErrorChecksumVerificationFailed": {
-    "description": "CodeWalk UI string — appProviderErrorChecksumVerificationFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed"
   },
   "appProviderErrorExtractArchiveFailed": "OpenCode バイナリアーカイブの解凍に失敗しました。",
   "@appProviderErrorExtractArchiveFailed": {
-    "description": "CodeWalk UI string — appProviderErrorExtractArchiveFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorExtractArchiveFailed"
   },
   "appProviderErrorExecutableNotFound": "解凍されたファイル内に {tool} 実行ファイルが見つかりませんでした。",
   "@appProviderErrorExecutableNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorExecutableNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorExecutableNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1947,79 +1947,79 @@
   },
   "chatNoResponseFromServer": "サーバーからの応答がありません。もう一度お試しください。",
   "@chatNoResponseFromServer": {
-    "description": "CodeWalk UI string — chatNoResponseFromServer"
+    "description": "Kilo-Walk UI string — chatNoResponseFromServer"
   },
   "chatNoResponseFromModel": "モデルからの応答がありません。もう一度お試しください。",
   "@chatNoResponseFromModel": {
-    "description": "CodeWalk UI string — chatNoResponseFromModel"
+    "description": "Kilo-Walk UI string — chatNoResponseFromModel"
   },
   "speechJobCancelled": "音声ジョブがキャンセルされました。",
   "@speechJobCancelled": {
-    "description": "CodeWalk UI string — speechJobCancelled"
+    "description": "Kilo-Walk UI string — speechJobCancelled"
   },
   "speechEdgeCancelled": "Microsoft Edge Speech がキャンセルされました。",
   "@speechEdgeCancelled": {
-    "description": "CodeWalk UI string — speechEdgeCancelled"
+    "description": "Kilo-Walk UI string — speechEdgeCancelled"
   },
   "sessionAttentionKindActive": "アクティブ",
   "@sessionAttentionKindActive": {
-    "description": "CodeWalk UI string — sessionAttentionKindActive"
+    "description": "Kilo-Walk UI string — sessionAttentionKindActive"
   },
   "sessionAttentionKindReceiving": "受信中",
   "@sessionAttentionKindReceiving": {
-    "description": "CodeWalk UI string — sessionAttentionKindReceiving"
+    "description": "Kilo-Walk UI string — sessionAttentionKindReceiving"
   },
   "sessionAttentionKindDelayed": "遅延",
   "@sessionAttentionKindDelayed": {
-    "description": "CodeWalk UI string — sessionAttentionKindDelayed"
+    "description": "Kilo-Walk UI string — sessionAttentionKindDelayed"
   },
   "sessionAttentionKindCompleted": "完了",
   "@sessionAttentionKindCompleted": {
-    "description": "CodeWalk UI string — sessionAttentionKindCompleted"
+    "description": "Kilo-Walk UI string — sessionAttentionKindCompleted"
   },
   "sessionAttentionKindPendingInteraction": "操作待ち",
   "@sessionAttentionKindPendingInteraction": {
-    "description": "CodeWalk UI string — sessionAttentionKindPendingInteraction"
+    "description": "Kilo-Walk UI string — sessionAttentionKindPendingInteraction"
   },
   "sessionAttentionKindError": "エラー",
   "@sessionAttentionKindError": {
-    "description": "CodeWalk UI string — sessionAttentionKindError"
+    "description": "Kilo-Walk UI string — sessionAttentionKindError"
   },
   "sessionAttentionPauseCellularDataSaver": "データ節約モードが有効です。",
   "@sessionAttentionPauseCellularDataSaver": {
-    "description": "CodeWalk UI string — sessionAttentionPauseCellularDataSaver"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver"
   },
   "sessionAttentionPauseOauthReopenRequired": "OAuth サインインが必要です",
   "@sessionAttentionPauseOauthReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOauthReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired"
   },
   "sessionAttentionPauseTailscaleReopenRequired": "Tailscale 接続が必要です",
   "@sessionAttentionPauseTailscaleReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired"
   },
   "sessionAttentionPauseOffline": "オフライン",
   "@sessionAttentionPauseOffline": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOffline"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOffline"
   },
   "sessionAttentionPausePermissionRevoked": "権限が取り消されました",
   "@sessionAttentionPausePermissionRevoked": {
-    "description": "CodeWalk UI string — sessionAttentionPausePermissionRevoked"
+    "description": "Kilo-Walk UI string — sessionAttentionPausePermissionRevoked"
   },
   "sessionAttentionPauseServiceStopped": "サービスが停止しました",
   "@sessionAttentionPauseServiceStopped": {
-    "description": "CodeWalk UI string — sessionAttentionPauseServiceStopped"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseServiceStopped"
   },
   "sessionAttentionPauseHostUnavailable": "ホストが利用できません",
   "@sessionAttentionPauseHostUnavailable": {
-    "description": "CodeWalk UI string — sessionAttentionPauseHostUnavailable"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseHostUnavailable"
   },
   "errorRequestCancelled": "リクエストがキャンセルされました",
   "@errorRequestCancelled": {
-    "description": "CodeWalk UI string — errorRequestCancelled"
+    "description": "Kilo-Walk UI string — errorRequestCancelled"
   },
   "errorUnknownNetworkError": "不明なネットワークエラー: {error}",
   "@errorUnknownNetworkError": {
-    "description": "CodeWalk UI string — errorUnknownNetworkError",
+    "description": "Kilo-Walk UI string — errorUnknownNetworkError",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2028,35 +2028,35 @@
   },
   "errorCertificateError": "証明書エラー",
   "@errorCertificateError": {
-    "description": "CodeWalk UI string — errorCertificateError"
+    "description": "Kilo-Walk UI string — errorCertificateError"
   },
   "errorSessionBusy": "セッションは別のリクエストを処理中です。",
   "@errorSessionBusy": {
-    "description": "CodeWalk UI string — errorSessionBusy"
+    "description": "Kilo-Walk UI string — errorSessionBusy"
   },
   "errorRunShellCommandFailed": "シェルコマンドの実行に失敗しました",
   "@errorRunShellCommandFailed": {
-    "description": "CodeWalk UI string — errorRunShellCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunShellCommandFailed"
   },
   "errorRunSlashCommandFailed": "スラッシュコマンドの実行に失敗しました",
   "@errorRunSlashCommandFailed": {
-    "description": "CodeWalk UI string — errorRunSlashCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunSlashCommandFailed"
   },
   "settingsBehaviorOpenCodeDefaultsLoadError": "アクティブなサーバーから OpenCode ベースのデフォルトを読み込めませんでした。",
   "@settingsBehaviorOpenCodeDefaultsLoadError": {
-    "description": "CodeWalk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
+    "description": "Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
   },
   "sessionTabIconRemoveFailed": "ローカルセッションのタブアイコンデータの削除に失敗しました",
   "@sessionTabIconRemoveFailed": {
-    "description": "CodeWalk UI string — sessionTabIconRemoveFailed"
+    "description": "Kilo-Walk UI string — sessionTabIconRemoveFailed"
   },
   "forwardUntitled": "無題",
   "@forwardUntitled": {
-    "description": "CodeWalk UI string — forwardUntitled"
+    "description": "Kilo-Walk UI string — forwardUntitled"
   },
   "setupDebugLinuxLogsPath": "Linux ログ: {path}",
   "@setupDebugLinuxLogsPath": {
-    "description": "CodeWalk UI string — setupDebugLinuxLogsPath",
+    "description": "Kilo-Walk UI string — setupDebugLinuxLogsPath",
     "placeholders": {
       "path": {
         "type": "String"
@@ -2065,7 +2065,7 @@
   },
   "setupDebugRunOpenCodeCommand": "OpenCode を起動: {command}",
   "@setupDebugRunOpenCodeCommand": {
-    "description": "CodeWalk UI string — setupDebugRunOpenCodeCommand",
+    "description": "Kilo-Walk UI string — setupDebugRunOpenCodeCommand",
     "placeholders": {
       "command": {
         "type": "String"
@@ -2074,7 +2074,7 @@
   },
   "setupDebugServerHealthEndpoint": "サーバーのヘルスチェック: {endpoint}",
   "@setupDebugServerHealthEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerHealthEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerHealthEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2083,7 +2083,7 @@
   },
   "setupDebugServerDocsEndpoint": "サーバードキュメント: {endpoint}",
   "@setupDebugServerDocsEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerDocsEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerDocsEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2092,35 +2092,35 @@
   },
   "logsEntryError": "エラー",
   "@logsEntryError": {
-    "description": "CodeWalk UI string — logsEntryError"
+    "description": "Kilo-Walk UI string — logsEntryError"
   },
   "logsEntryStack": "スタック",
   "@logsEntryStack": {
-    "description": "CodeWalk UI string — logsEntryStack"
+    "description": "Kilo-Walk UI string — logsEntryStack"
   },
   "setupDebugSourceDiagnostics": "診断",
   "@setupDebugSourceDiagnostics": {
-    "description": "CodeWalk UI string — setupDebugSourceDiagnostics"
+    "description": "Kilo-Walk UI string — setupDebugSourceDiagnostics"
   },
   "setupDebugSourceUseExisting": "既存のものを使用",
   "@setupDebugSourceUseExisting": {
-    "description": "CodeWalk UI string — setupDebugSourceUseExisting"
+    "description": "Kilo-Walk UI string — setupDebugSourceUseExisting"
   },
   "setupDebugSourceLocalServer": "ローカルサーバー",
   "@setupDebugSourceLocalServer": {
-    "description": "CodeWalk UI string — setupDebugSourceLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugSourceLocalServer"
   },
   "setupDebugSourceOnboarding": "オンボーディング",
   "@setupDebugSourceOnboarding": {
-    "description": "CodeWalk UI string — setupDebugSourceOnboarding"
+    "description": "Kilo-Walk UI string — setupDebugSourceOnboarding"
   },
   "setupDebugSourceManualConnection": "手動接続",
   "@setupDebugSourceManualConnection": {
-    "description": "CodeWalk UI string — setupDebugSourceManualConnection"
+    "description": "Kilo-Walk UI string — setupDebugSourceManualConnection"
   },
   "setupDebugMessageDiagnosticsResult": "{platform} で {availability}。{recommendation}",
   "@setupDebugMessageDiagnosticsResult": {
-    "description": "CodeWalk UI string — setupDebugMessageDiagnosticsResult",
+    "description": "Kilo-Walk UI string — setupDebugMessageDiagnosticsResult",
     "placeholders": {
       "availability": {
         "type": "String"
@@ -2135,15 +2135,15 @@
   },
   "setupDebugMessageDetectAttempt": "現在の環境から既存の OpenCode コマンドを検出しようとしています。",
   "@setupDebugMessageDetectAttempt": {
-    "description": "CodeWalk UI string — setupDebugMessageDetectAttempt"
+    "description": "Kilo-Walk UI string — setupDebugMessageDetectAttempt"
   },
-  "setupDebugMessageInstallStarted": "CodeWalk から OpenCode のインストールを開始しました。",
+  "setupDebugMessageInstallStarted": "Kilo-Walk から OpenCode のインストールを開始しました。",
   "@setupDebugMessageInstallStarted": {
-    "description": "CodeWalk UI string — setupDebugMessageInstallStarted"
+    "description": "Kilo-Walk UI string — setupDebugMessageInstallStarted"
   },
   "setupDebugMessageStartLocalServer": "管理対象の OpenCode サーバーを {url} で起動しています。",
   "@setupDebugMessageStartLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStartLocalServer",
+    "description": "Kilo-Walk UI string — setupDebugMessageStartLocalServer",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2152,7 +2152,7 @@
   },
   "setupDebugMessageHealthyRunning": "管理対象の OpenCode サーバーは正常で、{url} で実行中です。",
   "@setupDebugMessageHealthyRunning": {
-    "description": "CodeWalk UI string — setupDebugMessageHealthyRunning",
+    "description": "Kilo-Walk UI string — setupDebugMessageHealthyRunning",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2161,39 +2161,39 @@
   },
   "setupDebugMessageStoppingLocalServer": "管理対象の OpenCode サーバーを停止しています。",
   "@setupDebugMessageStoppingLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppingLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppingLocalServer"
   },
   "setupDebugMessageStoppedCleanly": "管理対象の OpenCode サーバーは正常に停止しました。",
   "@setupDebugMessageStoppedCleanly": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppedCleanly"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppedCleanly"
   },
   "setupDebugMessageExitedAfterRequestedStop": "停止要求後、管理対象の OpenCode サーバーが終了しました。",
   "@setupDebugMessageExitedAfterRequestedStop": {
-    "description": "CodeWalk UI string — setupDebugMessageExitedAfterRequestedStop"
+    "description": "Kilo-Walk UI string — setupDebugMessageExitedAfterRequestedStop"
   },
   "setupDebugMessageOnboardingConnectExisting": "ユーザーは既存の OpenCode サーバーへの接続を選択しました。",
   "@setupDebugMessageOnboardingConnectExisting": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingConnectExisting"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingConnectExisting"
   },
   "setupDebugMessageOnboardingGuidedPath": "ユーザーはガイド付きの OpenCode セットアップフローを開きました。",
   "@setupDebugMessageOnboardingGuidedPath": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingGuidedPath"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingGuidedPath"
   },
   "setupDebugMessageOnboardingManagedLocal": "ユーザーは管理対象のローカル OpenCode セットアップを開きました。",
   "@setupDebugMessageOnboardingManagedLocal": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingManagedLocal"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingManagedLocal"
   },
   "setupDebugMessageOnboardingOpenedServerSettings": "ヘルスチェック失敗後、ユーザーはサーバー設定を開きました。",
   "@setupDebugMessageOnboardingOpenedServerSettings": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingOpenedServerSettings"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingOpenedServerSettings"
   },
   "setupDebugMessageOnboardingAddAnotherServer": "ヘルスチェック失敗後、ユーザーは別のサーバーを追加することを選択しました。",
   "@setupDebugMessageOnboardingAddAnotherServer": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingAddAnotherServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingAddAnotherServer"
   },
   "setupDebugMessageTestingServerUrl": "オンボーディングから OpenCode サーバー URL {url} をテストしています。",
   "@setupDebugMessageTestingServerUrl": {
-    "description": "CodeWalk UI string — setupDebugMessageTestingServerUrl",
+    "description": "Kilo-Walk UI string — setupDebugMessageTestingServerUrl",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2202,39 +2202,39 @@
   },
   "chatProviderErrorSessionNotFound": "セッションが見つかりません",
   "@chatProviderErrorSessionNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionNotFound"
   },
   "chatProviderErrorInvalidMessageFormat": "無効なメッセージ形式です",
   "@chatProviderErrorInvalidMessageFormat": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidMessageFormat"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat"
   },
   "chatProviderErrorNetworkShort": "ネットワーク接続に失敗しました",
   "@chatProviderErrorNetworkShort": {
-    "description": "CodeWalk UI string — chatProviderErrorNetworkShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetworkShort"
   },
   "chatProviderErrorUnknownShort": "不明なエラー",
   "@chatProviderErrorUnknownShort": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknownShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknownShort"
   },
   "terminalCreateFailed": "ターミナルセッションを作成できませんでした",
   "@terminalCreateFailed": {
-    "description": "CodeWalk UI string — terminalCreateFailed"
+    "description": "Kilo-Walk UI string — terminalCreateFailed"
   },
   "terminalEndpointUnavailable": "ターミナルエンドポイントが利用できません",
   "@terminalEndpointUnavailable": {
-    "description": "CodeWalk UI string — terminalEndpointUnavailable"
+    "description": "Kilo-Walk UI string — terminalEndpointUnavailable"
   },
   "terminalInvalidDirectory": "無効なターミナルディレクトリです",
   "@terminalInvalidDirectory": {
-    "description": "CodeWalk UI string — terminalInvalidDirectory"
+    "description": "Kilo-Walk UI string — terminalInvalidDirectory"
   },
   "terminalWebsocketUnavailable": "ターミナル WebSocket はここでは利用できません。",
   "@terminalWebsocketUnavailable": {
-    "description": "CodeWalk UI string — terminalWebsocketUnavailable"
+    "description": "Kilo-Walk UI string — terminalWebsocketUnavailable"
   },
   "chatMessageToolChainCallsCompact": "{count, plural, =1{1回} other{{count}回}}",
   "@chatMessageToolChainCallsCompact": {
-    "description": "CodeWalk UI string — chatMessageToolChainCallsCompact",
+    "description": "Kilo-Walk UI string — chatMessageToolChainCallsCompact",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2243,15 +2243,15 @@
   },
   "errorConnectionTimeout": "接続タイムアウト",
   "@errorConnectionTimeout": {
-    "description": "CodeWalk UI string — errorConnectionTimeout"
+    "description": "Kilo-Walk UI string — errorConnectionTimeout"
   },
   "errorClientError": "クライアントエラー",
   "@errorClientError": {
-    "description": "CodeWalk UI string — errorClientError"
+    "description": "Kilo-Walk UI string — errorClientError"
   },
   "chatProviderErrorSendMessage": "メッセージの送信に失敗しました",
   "@chatProviderErrorSendMessage": {
-    "description": "CodeWalk UI string — chatProviderErrorSendMessage"
+    "description": "Kilo-Walk UI string — chatProviderErrorSendMessage"
   },
   "speechApiEngine": "API",
   "speechApiEngineSubtitle": "OpenAI、Groq、または OpenAI 互換のカスタムエンドポイント。",
@@ -2278,38 +2278,38 @@
   "carMessagingReply": "返信",
   "carMessagingMarkRead": "既読にする",
   "carMessagingDeliveryFailedTitle": "返信を送信できませんでした",
-  "carMessagingDeliveryFailedBody": "音声での返信を配信できませんでした。再試行するにはCodeWalkを開いてください。",
+  "carMessagingDeliveryFailedBody": "音声での返信を配信できませんでした。再試行するにはKilo-Walkを開いてください。",
   "shortcutNextTab": "次のタブ",
   "@shortcutNextTab": {
-    "description": "CodeWalk UI string - shortcutNextTab"
+    "description": "Kilo-Walk UI string - shortcutNextTab"
   },
   "shortcutNextTabDesc": "タブ切り替えを表示して次のタブへ",
   "@shortcutNextTabDesc": {
-    "description": "CodeWalk UI string - shortcutNextTabDesc"
+    "description": "Kilo-Walk UI string - shortcutNextTabDesc"
   },
   "shortcutPreviousTab": "前のタブ",
   "@shortcutPreviousTab": {
-    "description": "CodeWalk UI string - shortcutPreviousTab"
+    "description": "Kilo-Walk UI string - shortcutPreviousTab"
   },
   "shortcutPreviousTabDesc": "タブ切り替えを表示して前のタブへ",
   "@shortcutPreviousTabDesc": {
-    "description": "CodeWalk UI string - shortcutPreviousTabDesc"
+    "description": "Kilo-Walk UI string - shortcutPreviousTabDesc"
   },
   "sessionTabSwitcherTitle": "タブを切り替え",
   "@sessionTabSwitcherTitle": {
-    "description": "CodeWalk UI string - sessionTabSwitcherTitle"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherTitle"
   },
   "sessionTabSwitcherHint": "Ctrlを離して切り替え、Escでキャンセル",
   "@sessionTabSwitcherHint": {
-    "description": "CodeWalk UI string - sessionTabSwitcherHint"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherHint"
   },
   "aboutTelegram": "Telegram",
   "@aboutTelegram": {
-    "description": "CodeWalk UI string - aboutTelegram"
+    "description": "Kilo-Walk UI string - aboutTelegram"
   },
   "settingsAboutWhatsNew": "v{version} の新機能",
   "@settingsAboutWhatsNew": {
-    "description": "CodeWalk UI string - settingsAboutWhatsNew",
+    "description": "Kilo-Walk UI string - settingsAboutWhatsNew",
     "placeholders": {
       "version": {
         "type": "String"
@@ -2318,31 +2318,31 @@
   },
   "appShellNewsMore": "詳細",
   "@appShellNewsMore": {
-    "description": "CodeWalk UI string - appShellNewsMore"
+    "description": "Kilo-Walk UI string - appShellNewsMore"
   },
   "settingsAboutChangelog": "Changelog",
   "@settingsAboutChangelog": {
-    "description": "CodeWalk UI string - settingsAboutChangelog"
+    "description": "Kilo-Walk UI string - settingsAboutChangelog"
   },
   "settingsAboutOurGroup": "公式グループ",
   "@settingsAboutOurGroup": {
-    "description": "CodeWalk UI string - settingsAboutOurGroup"
+    "description": "Kilo-Walk UI string - settingsAboutOurGroup"
   },
   "speechNemotron": "Nemotron",
   "@speechNemotron": {
-    "description": "CodeWalk UI string — speechNemotron"
+    "description": "Kilo-Walk UI string — speechNemotron"
   },
   "speechNemotronSubtitle": "Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.",
   "@speechNemotronSubtitle": {
-    "description": "CodeWalk UI string — speechNemotronSubtitle"
+    "description": "Kilo-Walk UI string — speechNemotronSubtitle"
   },
   "speechNemotronStaysDownloadable": "Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.",
   "@speechNemotronStaysDownloadable": {
-    "description": "CodeWalk UI string — speechNemotronStaysDownloadable"
+    "description": "Kilo-Walk UI string — speechNemotronStaysDownloadable"
   },
   "speechNemotronDesktopOnlyHint": "Available on desktop only. Uses streaming multilingual recognition.",
   "@speechNemotronDesktopOnlyHint": {
-    "description": "CodeWalk UI string — speechNemotronDesktopOnlyHint"
+    "description": "Kilo-Walk UI string — speechNemotronDesktopOnlyHint"
   },
   "settingsAppearanceProjectTabColors": "プロジェクトのタブ色",
   "settingsAppearanceProjectTabColorsDescription": "検出されたプロジェクトアイコンの色でセッションタブを彩ります。"

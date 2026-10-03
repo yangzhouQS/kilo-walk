@@ -1,11 +1,11 @@
 {
-    "name": "CodeWalk",
-    "short_name": "CodeWalk",
+    "name": "Kilo-Walk",
+    "short_name": "Kilo-Walk",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
-    "description": "CodeWalk - A mobile client for OpenCode",
+    "description": "Kilo-Walk - A mobile client for OpenCode",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

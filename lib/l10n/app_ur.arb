@@ -74,7 +74,7 @@
   "appProviderSetupOpenCodeDetected": "OpenCode کا پتہ چل گیا",
   "appProviderSetupOpenCodeNotDetected": "OpenCode کا پتہ نہیں چلا",
   "appProviderSetupOpenCodeNotDetectedInstall": "OpenCode کمانڈ کا پتہ نہیں چلا۔ وزرڈ سے انسٹالیشن چلائیں۔",
-  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode کمانڈ کا پتہ نہیں چلا۔ اگر آپ نے اسے تھوڑی دیر پہلے انسٹال کیا ہے تو، چیکس کو ریفریش کریں یا PATH کو دوبارہ لوڈ کرنے کے لیے CodeWalk کو دوبارہ کھولیں۔",
+  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode کمانڈ کا پتہ نہیں چلا۔ اگر آپ نے اسے تھوڑی دیر پہلے انسٹال کیا ہے تو، چیکس کو ریفریش کریں یا PATH کو دوبارہ لوڈ کرنے کے لیے Kilo-Walk کو دوبارہ کھولیں۔",
   "appProviderSetupRequirementsInstalled": "OpenCode کی ضروریات کامیابی سے انسٹال ہو گئیں۔",
   "appProviderSetupUsingOpenCodeAt": "{path} پر OpenCode کمانڈ استعمال ہو رہی ہے",
   "appProviderStartingLocalServer": "مقامی سرور شروع ہو رہا ہے...",
@@ -118,7 +118,7 @@
   "behaviorCellularDataSaver": "موبائل ڈیٹا سیور",
   "behaviorCellularDataSaverActive": "سیلولر ڈیٹا سیور فعال ہے۔",
   "behaviorChatLevelShare": "چیٹ لیول شیئرنگ",
-  "behaviorCodeWalkReleaseChecks": "CodeWalk ریلیز چیکس",
+  "behaviorCodeWalkReleaseChecks": "Kilo-Walk ریلیز چیکس",
   "behaviorControlsOfficialGlobal": "OpenCode کی آفیشل گلوبل سیٹنگز کنٹرول کرتا ہے",
   "behaviorControlsUpstreamOpenCode": "اپ اسٹریم OpenCode سیٹنگز کنٹرول کرتا ہے",
   "behaviorCustomDisplayName": "حسب ضرورت ڈسپلے نام",
@@ -135,7 +135,7 @@
   "behaviorLightweightTasksLike": "ہلکے کام جیسے",
   "behaviorManual": "دستی",
   "behaviorNotify": "اطلاع دیں",
-  "behaviorOfficialOpenCodePermission": "آفیشل اوپن کوڈ کی اجازت کی پالیسی کو `opencode.json` میں اجازت/پوچھیں/منکر کے اصولوں کے ساتھ ترتیب دیا گیا ہے۔ CodeWalk سرکاری اجازت کی درخواست کے کارڈز کو رکھتا ہے اور ایک منظور شدہ ADR-023 استثناء شامل کرتا ہے: کمپوزر آٹو-منظوری ٹوگل جوابات کو ''ہمیشہ'' اور ''یاد رکھیں: سچ'' کے ساتھ غیر مشروط طور پر پائیدار سیشن کے دائرہ کار والے گرانٹس کو تخلیق کرتا ہے، اور بیک گراؤنڈ ورک کے اسی تھریڈ اسکوپڈ کنٹیوٹی پاتھ کو فعال رکھتا ہے۔",
+  "behaviorOfficialOpenCodePermission": "آفیشل اوپن کوڈ کی اجازت کی پالیسی کو `opencode.json` میں اجازت/پوچھیں/منکر کے اصولوں کے ساتھ ترتیب دیا گیا ہے۔ Kilo-Walk سرکاری اجازت کی درخواست کے کارڈز کو رکھتا ہے اور ایک منظور شدہ ADR-023 استثناء شامل کرتا ہے: کمپوزر آٹو-منظوری ٹوگل جوابات کو ''ہمیشہ'' اور ''یاد رکھیں: سچ'' کے ساتھ غیر مشروط طور پر پائیدار سیشن کے دائرہ کار والے گرانٹس کو تخلیق کرتا ہے، اور بیک گراؤنڈ ورک کے اسی تھریڈ اسکوپڈ کنٹیوٹی پاتھ کو فعال رکھتا ہے۔",
   "behaviorOpenCodeBackedDefaults": "اوپن کوڈ کی حمایت یافتہ ڈیفالٹس",
   "behaviorPermissionHandlingProvenance": "اجازت ہینڈلنگ پروونانس",
   "behaviorPermissionsVariantReasoning": "اجازتیں اور ویرینٹ/ریزننگ برابری اس وقت تک الگ رہتی ہیں جب تک کہ ان کا UI اعلی درجے کی تشکیل کو محفوظ طریقے سے محفوظ نہ کر سکے۔",
@@ -694,7 +694,7 @@
   "logsFilterAll": "تمام",
   "logsFilterByTag": "ٹیگ",
   "logsLevel": "سطح",
-  "logsLoggingDisabledDescription": "CodeWalk تفصیلی ایپ لاگز جمع نہیں کر رہا۔ تشخیص کی ضرورت ہو تو ہی لاگز فعال کریں۔",
+  "logsLoggingDisabledDescription": "Kilo-Walk تفصیلی ایپ لاگز جمع نہیں کر رہا۔ تشخیص کی ضرورت ہو تو ہی لاگز فعال کریں۔",
   "logsLoggingDisabledTitle": "لاگز غیر فعال ہیں",
   "logsMeasurePerformance": "کارکردگی ناپیں",
   "logsMeasurePerformanceDescription": "ایپ کے مہنگے آپریشنز کا وقت محفوظ کرتا ہے۔ سستی کی تشخیص کے علاوہ بند رکھیں۔",
@@ -774,17 +774,17 @@
   "msgVoiceInputUnavailable": "اس آلہ پر صوتی ان پٹ دستیاب نہیں ہے۔",
   "notifAndroidBatteryOptimization": "اینڈرائیڈ بیٹری آپٹیمائزیشن",
   "notifConversationUpdates": "بات چیت کی تازہ کاری",
-  "notifNotificationsArriveReopening": "اگر اطلاعات صرف ایپ کو دوبارہ کھولنے پر پہنچتی ہیں، تو CodeWalk کو اس ڈیوائس پر آپٹیمائزیشن کے بغیر چلنے دیں۔",
+  "notifNotificationsArriveReopening": "اگر اطلاعات صرف ایپ کو دوبارہ کھولنے پر پہنچتی ہیں، تو Kilo-Walk کو اس ڈیوائس پر آپٹیمائزیشن کے بغیر چلنے دیں۔",
   "notifResponseRunningKeep": "جب کوئی جواب چل رہا ہو، ایپ چھوڑنے کے بعد مختصر وقت کے لیے ریئل ٹائم کو فعال رکھیں۔",
   "notifSelectedSoundLabel": "منتخب: {soundLabel}",
   "notificationActionOpen": "کھولیں",
   "notificationAgentFinished": "ایجنٹ نے موجودہ جواب مکمل کر لیا ہے۔",
-  "notificationChannelAgent": "CodeWalk ایجنٹ",
-  "notificationChannelAgentDescription": "CodeWalk ایجنٹ مکمل ہونے کے الرٹس",
-  "notificationChannelErrors": "CodeWalk خرابیاں",
-  "notificationChannelErrorsDescription": "CodeWalk خرابی کے الرٹس",
-  "notificationChannelPermissions": "CodeWalk اجازتیں",
-  "notificationChannelPermissionsDescription": "CodeWalk کارروائی درکار الرٹس",
+  "notificationChannelAgent": "Kilo-Walk ایجنٹ",
+  "notificationChannelAgentDescription": "Kilo-Walk ایجنٹ مکمل ہونے کے الرٹس",
+  "notificationChannelErrors": "Kilo-Walk خرابیاں",
+  "notificationChannelErrorsDescription": "Kilo-Walk خرابی کے الرٹس",
+  "notificationChannelPermissions": "Kilo-Walk اجازتیں",
+  "notificationChannelPermissionsDescription": "Kilo-Walk کارروائی درکار الرٹس",
   "notificationConversationUpdates": "گفتگو کی اپ ڈیٹس",
   "notificationOpenToClear": "متعلقہ اطلاعات کو صاف کرنے کے لیے یہ گفتگو کھولیں۔",
   "notificationPermissionNeedsInput": "ٹول کی اجازت کے لیے آپ کے ان پٹ کی ضرورت ہے۔",
@@ -813,7 +813,7 @@
   "onboardingAIGeneratedTitles": "AI نے عنوانات بنائے",
   "onboardingAddServerLater": "آپ بعد میں ترتیبات > سرورز میں سرور شامل کر سکتے ہیں۔",
   "onboardingAddedButHealthCheckFailed": "سرور شامل کر دیا گیا لیکن ہیلتھ چیک ناکام رہا۔ یہ ابھی شروع ہو رہا ہو سکتا ہے۔",
-  "onboardingAlmostInstallOpenCode": "آپ تقریباً وہاں پہنچ چکے ہیں۔ پہلے OpenCode انسٹال کریں، پھر CodeWalk کو سرور URL سے جوڑیں۔",
+  "onboardingAlmostInstallOpenCode": "آپ تقریباً وہاں پہنچ چکے ہیں۔ پہلے OpenCode انسٹال کریں، پھر Kilo-Walk کو سرور URL سے جوڑیں۔",
   "onboardingAppProviderLocalSetupLogsLength": "{length} سیٹ اپ لاگ سطریں اور {length2} سیٹ اپ واقعات الگ سیٹ اپ ڈی بگ اسکرین میں دستیاب ہیں۔",
   "onboardingAuthenticate": "تصدیق کریں۔",
   "onboardingAvailable": "دستیاب",
@@ -843,7 +843,7 @@
   "onboardingEmulatorRemap": "اینڈرائیڈ ایمولیٹر پر، localhost اور 127.0.0.1 خود بخود 10.0.2.2 پر ری میپ ہو جاتے ہیں۔",
   "onboardingEnterServerUrl": "سرور کا URL درج کریں",
   "onboardingExisting": "موجودہ استعمال کریں۔",
-  "onboardingExplainInstallOpenCode": "اوپن کوڈ کو انسٹال کرنے، سرور کو شروع کرنے اور پھر CodeWalk سے جڑنے کا طریقہ بتائیں۔",
+  "onboardingExplainInstallOpenCode": "اوپن کوڈ کو انسٹال کرنے، سرور کو شروع کرنے اور پھر Kilo-Walk سے جڑنے کا طریقہ بتائیں۔",
   "onboardingFailed": "ناکام",
   "onboardingGoodOptionDesktop": "ڈیسک ٹاپ پر پہلا اچھا آپشن",
   "onboardingHealthCheckFailedMayBeStarting": "سرور ہیلتھ چیک ناکام رہا۔ یہ ابھی شروع ہو رہا ہو سکتا ہے۔",
@@ -851,12 +851,12 @@
   "onboardingInstallBun": "بن کے ذریعے انسٹال کریں۔",
   "onboardingInstallBunOpenCode": "بن + اوپن کوڈ انسٹال کریں۔",
   "onboardingInstallNpm": "npm کے ذریعے انسٹال کریں۔",
-  "onboardingInstallRunOpenCode": "ڈیسک ٹاپ پر CodeWalk سے براہ راست OpenCode انسٹال اور چلائیں۔",
+  "onboardingInstallRunOpenCode": "ڈیسک ٹاپ پر Kilo-Walk سے براہ راست OpenCode انسٹال اور چلائیں۔",
   "onboardingInvalidUrl": "غلط URL",
   "onboardingLabel": "لیبل (اختیاری)",
   "onboardingLabelHint": "میرا سرور",
   "onboardingLatestOutputAppProvider": "تازہ ترین آؤٹ پٹ: {localServerLastOutput}",
-  "onboardingLetCodeWalkSet": "CodeWalk کو اسے مقامی طور پر ترتیب دینے دیں۔",
+  "onboardingLetCodeWalkSet": "Kilo-Walk کو اسے مقامی طور پر ترتیب دینے دیں۔",
   "onboardingLocalServerSetup": "مقامی سرور سیٹ اپ",
   "onboardingManagedLocalServer": "منظم مقامی سرور",
   "onboardingManagedLocalServer2": "مینیجڈ لوکل سرور موڈ صرف ڈیسک ٹاپ بلڈز (Linux/macOS/Windows) پر دستیاب ہے۔",
@@ -865,7 +865,7 @@
   "onboardingNotWritable": "قابل تحریر نہیں",
   "onboardingOpenCode": "اوپن کوڈ کیا ہے؟",
   "onboardingOpenCodeRunningDevice": "میرے پاس پہلے سے ہی اس ڈیوائس پر یا میرے نیٹ ورک پر کہیں OpenCode چل رہا ہے۔",
-  "onboardingOpenCodeRunsLocally": "OpenCode مقامی طور پر یا سرور پر چلتا ہے اور CodeWalk کے اندر AI کوڈنگ کی خصوصیات کو طاقت دیتا ہے۔ اگر اوپن کوڈ پہلے سے چل رہا ہے تو اس سے جڑیں۔ اگر نہیں، تو ذیل میں ہدایت یافتہ سیٹ اپ کے راستوں میں سے ایک کو منتخب کریں۔",
+  "onboardingOpenCodeRunsLocally": "OpenCode مقامی طور پر یا سرور پر چلتا ہے اور Kilo-Walk کے اندر AI کوڈنگ کی خصوصیات کو طاقت دیتا ہے۔ اگر اوپن کوڈ پہلے سے چل رہا ہے تو اس سے جڑیں۔ اگر نہیں، تو ذیل میں ہدایت یافتہ سیٹ اپ کے راستوں میں سے ایک کو منتخب کریں۔",
   "onboardingOpenTailscaleLogin": "Tailscale لاگ ان URL نہیں کھول سکا۔",
   "onboardingPassword": "پاس ورڈ",
   "onboardingPasswordRequired": "پاس ورڈ درج کریں۔",
@@ -880,7 +880,7 @@
   "onboardingPreconditionWindowsWslRecommendation": "ونڈوز بلڈ کا پتہ چلا ہے۔ OpenCode دستاویزات کی رو سے WSL تجویز کردہ ہے، لیکن متبادل کے طور پر npm install استعمال کیا جا سکتا ہے۔",
   "onboardingReachable": "قابل رسائی",
   "onboardingReady": "تیار",
-  "onboardingRecommendedOrderTry": "تجویز کردہ آرڈر: Bun + OpenCode انسٹال کرنے کی کوشش کریں اگر آپ چاہتے ہیں کہ CodeWalk آپ کے لیے ہر چیز کو بوٹسٹریپ کرے۔ اگر OpenCode پہلے سے انسٹال ہے تو Existing استعمال کریں۔",
+  "onboardingRecommendedOrderTry": "تجویز کردہ آرڈر: Bun + OpenCode انسٹال کرنے کی کوشش کریں اگر آپ چاہتے ہیں کہ Kilo-Walk آپ کے لیے ہر چیز کو بوٹسٹریپ کرے۔ اگر OpenCode پہلے سے انسٹال ہے تو Existing استعمال کریں۔",
   "onboardingRefreshChecks": "چیک ریفریش کریں۔",
   "onboardingRunDiagnosticsToVerify": "مقامی OpenCode ضروریات کی تصدیق کے لیے تشخیص چلائیں۔",
   "onboardingSaveAndTest": "محفوظ کریں اور ٹیسٹ کریں",
@@ -922,7 +922,7 @@
   "onboardingUsingDetectedCommand": "پتہ لگائی گئی OpenCode کمانڈ کا استعمال کر رہا ہے۔",
   "onboardingViewSetupDebug": "سیٹ اپ ڈیبگ دیکھیں",
   "onboardingWelcomeTo": "{appName} میں خوش آمدید",
-  "onboardingWindowsTipInstalling": "ونڈوز ٹپ: انسٹال کرنے کے بعد، ریفریش چیکز پر کلک کریں۔ اگر پتہ لگانے میں اب بھی ناکام ہو جاتا ہے، تو PATH تبدیلیوں کو دوبارہ لوڈ کرنے کے لیے CodeWalk کو دوبارہ کھولیں۔",
+  "onboardingWindowsTipInstalling": "ونڈوز ٹپ: انسٹال کرنے کے بعد، ریفریش چیکز پر کلک کریں۔ اگر پتہ لگانے میں اب بھی ناکام ہو جاتا ہے، تو PATH تبدیلیوں کو دوبارہ لوڈ کرنے کے لیے Kilo-Walk کو دوبارہ کھولیں۔",
   "onboardingWritable": "قابل تحریر",
   "onboardingYoureAllSet": "آپ بالکل تیار ہیں!",
   "permissionAllowOnce": "ایک بار اجازت دیں۔",
@@ -1009,20 +1009,20 @@
   "serversDefault": "طے شدہ",
   "serversDelete": "حذف کریں۔",
   "serversDeleteServer": "سرور کو حذف کریں۔",
-  "serversDesktopModeExplanation": "ڈیسک ٹاپ موڈ CodeWalk سے براہ راست `opencode serve` لانچ اور منظم کر سکتا ہے۔",
+  "serversDesktopModeExplanation": "ڈیسک ٹاپ موڈ Kilo-Walk سے براہ راست `opencode serve` لانچ اور منظم کر سکتا ہے۔",
   "serversEdit": "ترمیم کریں۔",
   "serversLocalOpenCodeServer": "مقامی اوپن کوڈ سرور",
   "serversManagedModeAvailable": "یہ نظم شدہ وضع صرف ڈیسک ٹاپ بلڈز (Linux/macOS/Windows) پر دستیاب ہے۔",
   "serversNoServersFound": "کوئی سرور نہیں ملا",
   "serversQuickGuideInstallOptions": "دیگر آفیشل انسٹال آپشنز: install script، npm، bun، pnpm، Homebrew، یا GitHub Releases سے بائنری۔",
-  "serversQuickGuideIntro": "CodeWalk ایپ ہے۔ OpenCode وہ انجن ہے جو اس کنکشن کے کام کرنے سے پہلے چل رہا ہونا چاہیے۔",
+  "serversQuickGuideIntro": "Kilo-Walk ایپ ہے۔ OpenCode وہ انجن ہے جو اس کنکشن کے کام کرنے سے پہلے چل رہا ہونا چاہیے۔",
   "serversQuickGuideProtectPassword": "پاس ورڈ کے ساتھ رسائی محفوظ کریں",
   "serversQuickGuideRunPowerShell": "2. PowerShell میں چلائیں:",
   "serversQuickGuideRunTerminal": "2. اپنے ٹرمینل میں چلائیں:",
   "serversQuickGuideServerPassword": "سرور پاس ورڈ",
   "serversQuickGuideStepInstallCli": "1. OpenCode CLI انسٹال کریں۔",
   "serversQuickGuideTitle": "فوری سیٹ اپ",
-  "serversQuickGuideVerifyHint": "سرور شروع کرنے کے بعد، CodeWalk میں URL چسپاں کرنے سے پہلے تصدیق کریں کہ /global/health یا /doc جواب دیتا ہے۔",
+  "serversQuickGuideVerifyHint": "سرور شروع کرنے کے بعد، Kilo-Walk میں URL چسپاں کرنے سے پہلے تصدیق کریں کہ /global/health یا /doc جواب دیتا ہے۔",
   "serversRefreshHealth": "صحت کو تازہ کریں۔",
   "serversRemoveProfileDisplayName": "\"{displayName}\" ہٹائیں؟",
   "serversSearchActiveHint": "فعال سرور تلاش کریں",
@@ -1041,19 +1041,19 @@
   "serversTailscaleLoginExplanation": "اس ڈیوائس کو اپنے tailnet میں شامل کرنے کے لیے Tailscale لاگ ان URL کھولیں۔",
   "serversTailscaleLogout": "لاگ آؤٹ",
   "@serversTailscaleLogout": {
-    "description": "CodeWalk UI string — serversTailscaleLogout"
+    "description": "Kilo-Walk UI string — serversTailscaleLogout"
   },
   "serversTailscaleLogoutConfirmMessage": "یہ ڈیوائس tailnet چھوڑ دے گا۔ آپ کسی بھی وقت دوبارہ لاگ ان کر سکتے ہیں۔",
   "@serversTailscaleLogoutConfirmMessage": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmMessage"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmMessage"
   },
   "serversTailscaleLogoutConfirmTitle": "Tailscale سے لاگ آؤٹ کریں؟",
   "@serversTailscaleLogoutConfirmTitle": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmTitle"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmTitle"
   },
   "serversTailscaleReconnect": "دوبارہ منسلک کریں",
   "@serversTailscaleReconnect": {
-    "description": "CodeWalk UI string — serversTailscaleReconnect"
+    "description": "Kilo-Walk UI string — serversTailscaleReconnect"
   },
   "serversTailscaleTrafficExplanation": "اس فعال پروفائل کے لیے OpenCode ٹریفک Tailscale کے ذریعے روٹ کی جاتی ہے۔",
   "serversTailscaleUnsupported": "Tailscale تعاون یافتہ نہیں",
@@ -1066,7 +1066,7 @@
   "sessionActionUnpinned": "پن سے ہٹایا گیا",
   "sessionArchive": "آرکائیو کریں",
   "sessionAttentionAndroidStartFailed": "اینڈرائیڈ سیشن اٹینشن سروس شروع نہیں ہو سکی۔",
-  "sessionAttentionIosInAppOnly": "سیشن اٹینشن صرف CodeWalk کے اندر دستیاب ہے۔",
+  "sessionAttentionIosInAppOnly": "سیشن اٹینشن صرف Kilo-Walk کے اندر دستیاب ہے۔",
   "sessionAttentionOverlayPermissionGrantPrompt": "دوسری ایپس پر ڈسپلے کی اجازت دیں، پھر دوبارہ کوشش کریں۔",
   "sessionAttentionOverlayPermissionRequired": "دوسری ایپس پر ڈسپلے کی اجازت درکار ہے۔",
   "sessionAttentionSemanticLabel": "{count, plural, =1{1 سیشن کو توجہ درکار ہے} other{{count} سیشنز کو توجہ درکار ہے}}",
@@ -1209,7 +1209,7 @@
   "settingsAppearanceBrandColor": "برانڈ کا رنگ",
   "settingsAppearanceBrandColorDynamicBlocked": "برانڈ کا رنگ منتخب کرنے کے لیے وال پیپر کے رنگوں کو غیر فعال کریں۔",
   "settingsAppearanceBrandColorNormal": "ایپ پیلیٹ کے لیے بیج کا رنگ چنیں۔",
-  "settingsAppearanceBrandColorPresetBlocked": "برانڈ کا رنگ منتخب کرنے کے لیے CodeWalk Classic پر جائیں۔",
+  "settingsAppearanceBrandColorPresetBlocked": "برانڈ کا رنگ منتخب کرنے کے لیے Kilo-Walk Classic پر جائیں۔",
   "settingsAppearanceChatFontScale": "گفتگو کے متن کا سائز",
   "settingsAppearanceChatFontScaleDescription": "سسٹم متن کے سائز کے علاوہ چیٹ پیغام اور کمپوزر متن کا سائز بڑھائیں یا گھٹائیں۔",
   "settingsAppearanceCodeWalkClassic": "کوڈ واک کلاسک",
@@ -1222,7 +1222,7 @@
   "settingsAppearanceContrastMedium": "درمیانہ",
   "settingsAppearanceContrastMediumHigh": "درمیانہ اعلی",
   "settingsAppearanceContrastNormal": "رنگ سکیم کے کنٹراسٹ لیول کو ایڈجسٹ کریں۔",
-  "settingsAppearanceContrastPresetBlocked": "کنٹراسٹ ایڈجسٹ کرنے کے لیے CodeWalk Classic پر جائیں۔",
+  "settingsAppearanceContrastPresetBlocked": "کنٹراسٹ ایڈجسٹ کرنے کے لیے Kilo-Walk Classic پر جائیں۔",
   "settingsAppearanceContrastReduced": "کم کر دیا",
   "settingsAppearanceContrastStandard": "معیاری",
   "settingsAppearanceDark": "اندھیرا",
@@ -1255,7 +1255,7 @@
   "settingsAppearanceTerminalFontSize": "ٹرمینل متن کا سائز",
   "settingsAppearanceTerminalFontSizeDescription": "ایمبیڈڈ ٹرمینل فونٹ کا سائز تبدیل کریں۔ یہ چل رہے سیشنز پر فوری اثر کرتا ہے۔",
   "settingsAppearanceTheme": "تھیم",
-  "settingsAppearanceThemeDescription": "لائٹ، ڈارک، یا سسٹم موڈ کا انتخاب کریں، پھر CodeWalk کلاسک پیلیٹ رکھیں یا اوپن کوڈ پری سیٹ پر سوئچ کریں۔",
+  "settingsAppearanceThemeDescription": "لائٹ، ڈارک، یا سسٹم موڈ کا انتخاب کریں، پھر Kilo-Walk کلاسک پیلیٹ رکھیں یا اوپن کوڈ پری سیٹ پر سوئچ کریں۔",
   "settingsAppearanceThinkingBubbles": "سوچنے والے بلبلے۔",
   "settingsAppearanceThinkingBubblesDescription": "اسسٹنٹ پیغامات میں ریجننگ بلاکس دکھائیں یا چھپائیں۔",
   "settingsAppearanceTitle": "ظاہری شکل",
@@ -1267,7 +1267,7 @@
   "settingsAppearanceVisualStyleRefined": "بہتر",
   "settingsAppearanceWallpaperColors": "وال پیپر کے رنگ استعمال کریں۔",
   "settingsAppearanceWallpaperNormal": "اپنے آلے کے وال پیپر سے رنگ سکیم نکالیں۔",
-  "settingsAppearanceWallpaperPresetBlocked": "وال پیپر کے رنگ استعمال کرنے کے لیے CodeWalk Classic پر جائیں۔",
+  "settingsAppearanceWallpaperPresetBlocked": "وال پیپر کے رنگ استعمال کرنے کے لیے Kilo-Walk Classic پر جائیں۔",
   "settingsAppearanceWindowChrome": "ونڈو ٹیبز",
   "settingsAppearanceWindowChromeDescription": "منتخب کریں کہ ڈیسک ٹاپ پر سیشن ٹیبز اور ٹائٹل بار کیسے یکجا ہوں۔",
   "settingsAppearanceWindowChromeIntegrated": "مربوط ٹیبز",
@@ -1275,7 +1275,7 @@
   "settingsAppearanceWindowChromeSystem": "سسٹم سجاوٹ",
   "settingsAppearanceWindowChromeSystemDescription": "مقامی ٹائٹل بار برقرار رکھتا ہے اور ٹیبز کو ایپ بار کے نیچے دکھاتا ہے۔",
   "settingsBack": "پیچھے",
-  "settingsBehaviorAutoupdateCaveat": "CodeWalk ریلیز چیک کے لیے About استعمال کریں۔ یہ ترتیب صرف آفیشل اوپن کوڈ `آٹو اپ ڈیٹ` کنفیگریشن کی آئینہ دار ہے۔",
+  "settingsBehaviorAutoupdateCaveat": "Kilo-Walk ریلیز چیک کے لیے About استعمال کریں۔ یہ ترتیب صرف آفیشل اوپن کوڈ `آٹو اپ ڈیٹ` کنفیگریشن کی آئینہ دار ہے۔",
   "settingsBehaviorAutoupdateHelp": "اپ اسٹریم اوپن کوڈ رن ٹائم اپ ڈیٹس کو کنٹرول کرتا ہے، کوڈ واک ایپ اپ ڈیٹ چیک کو نہیں۔",
   "settingsBehaviorCellularDataSaver": "سیلولر ڈیٹا سیور",
   "settingsBehaviorChatRenderMode": "چیٹ رینڈر موڈ",
@@ -1286,7 +1286,7 @@
   "settingsBehaviorChatRenderModeLiveDescription": "اسسٹنٹ کا متن، استدلال اور ٹول کی سرگرمی دکھائیں جب OpenCode ایونٹس سٹریم کرتا ہے۔",
   "settingsBehaviorComposerSpellCheck": "کمپوزر ہجے کی جانچ",
   "settingsBehaviorComposerSpellCheckDescription": "چیٹ کمپوزر میں پلیٹ فارم کی نیٹیو ہجے کی جانچ، تجاویز اور خودکار تصحیح استعمال کریں۔",
-  "settingsBehaviorConfigDeferred": "CodeWalk موجودہ جواب کے ختم ہونے کے بعد اس OpenCode ترتیب کو لاگو کرے گا۔",
+  "settingsBehaviorConfigDeferred": "Kilo-Walk موجودہ جواب کے ختم ہونے کے بعد اس OpenCode ترتیب کو لاگو کرے گا۔",
   "settingsBehaviorConfigFieldAutoUpdateMode": "خودکار اپ ڈیٹ موڈ",
   "settingsBehaviorConfigFieldConversationUsername": "گفتگو صارف نام",
   "settingsBehaviorConfigFieldDefaultAgent": "ڈیفالٹ ایجنٹ",
@@ -1319,7 +1319,7 @@
   "settingsBehaviorOpenCodeSnapshotsDescription": "اپ اسٹریم گٹ بیکڈ سنیپ شاٹس کو کالعدم/دوبارہ کرنے اور بازیافت کی تاریخ کے لیے فعال رکھیں۔",
   "settingsBehaviorPermissionDeferred": "اعلی درجے کی اجازت کے اصول میں ترمیم ابھی کے لیے ترتیبات سے باہر رہتی ہے اور بعد میں برابری کے کام کے لیے موخر کر دی جاتی ہے۔",
   "settingsBehaviorPermissionProvenance": "اجازت ہینڈلنگ پروونانس",
-  "settingsBehaviorPermissionProvenanceDescription": "آفیشل اوپن کوڈ کی اجازت کی پالیسی کو `opencode.json` میں اجازت/پوچھیں/منکر کے اصولوں کے ساتھ ترتیب دیا گیا ہے۔ CodeWalk سرکاری اجازت کی درخواست کے کارڈز کو رکھتا ہے اور ایک منظور شدہ ADR-023 استثناء شامل کرتا ہے: کمپوزر آٹو-منظوری ٹوگل جوابات کو ''ہمیشہ'' اور ''یاد رکھیں: سچ'' کے ساتھ غیر مشروط طور پر پائیدار سیشن کے دائرہ کار والے گرانٹس کو تخلیق کرتا ہے، اور بیک گراؤنڈ ورک کے اسی تھریڈ اسکوپڈ کنٹیوٹی پاتھ کو فعال رکھتا ہے۔",
+  "settingsBehaviorPermissionProvenanceDescription": "آفیشل اوپن کوڈ کی اجازت کی پالیسی کو `opencode.json` میں اجازت/پوچھیں/منکر کے اصولوں کے ساتھ ترتیب دیا گیا ہے۔ Kilo-Walk سرکاری اجازت کی درخواست کے کارڈز کو رکھتا ہے اور ایک منظور شدہ ADR-023 استثناء شامل کرتا ہے: کمپوزر آٹو-منظوری ٹوگل جوابات کو ''ہمیشہ'' اور ''یاد رکھیں: سچ'' کے ساتھ غیر مشروط طور پر پائیدار سیشن کے دائرہ کار والے گرانٹس کو تخلیق کرتا ہے، اور بیک گراؤنڈ ورک کے اسی تھریڈ اسکوپڈ کنٹیوٹی پاتھ کو فعال رکھتا ہے۔",
   "settingsBehaviorRefreshDefaults": "ڈیفالٹس ریفریش کریں۔",
   "settingsBehaviorSaveUsername": "صارف نام محفوظ کریں۔",
   "settingsBehaviorSearchAutoupdate": "خودکار اپ ڈیٹ موڈ تلاش کریں۔",
@@ -1335,12 +1335,12 @@
   "settingsBehaviorSmallModelFallbackActive": "OpenCode خودکار فال بیک فعال ہے کیونکہ `small_model` سیٹ نہیں ہے۔",
   "settingsBehaviorSmallModelHelp": "ٹائٹل جنریشن جیسے ہلکے وزن کے کاموں کے لیے استعمال کیا جاتا ہے۔",
   "settingsBehaviorSmallModelResetCaveat": "`small_model` کو دوبارہ خودکار فال بیک پر دوبارہ ترتیب دینے کے لیے ابھی بھی ایپ سے باہر کنفیگریشن میں ترمیم کی ضرورت ہے کیونکہ `/config` پیچ اپ ڈیٹ کلیدوں کو نہیں ہٹا سکتے ہیں۔",
-  "settingsBehaviorSnapshotCaveat": "یہ اوپن کوڈ اسنیپ شاٹ سٹوریج کو کنٹرول کرتا ہے اور سپورٹ کو کالعدم/دوبارہ کرنا، نہ کہ CodeWalk مقامی کیش اسنیپ شاٹس کو۔",
+  "settingsBehaviorSnapshotCaveat": "یہ اوپن کوڈ اسنیپ شاٹ سٹوریج کو کنٹرول کرتا ہے اور سپورٹ کو کالعدم/دوبارہ کرنا، نہ کہ Kilo-Walk مقامی کیش اسنیپ شاٹس کو۔",
   "settingsBehaviorTitle": "رویہ",
   "settingsBehaviorUsernameFallback": "OpenCode سسٹم کا صارف نام استعمال کرتا ہے کیونکہ `صارف نام` سیٹ نہیں ہے۔",
   "settingsBehaviorUsernamePatchCaveat": "''صارف نام'' کو سسٹم ڈیفالٹ پر دوبارہ ترتیب دینے کے لیے اب بھی ایپ سے باہر کنفیگریشن میں ترمیم کی ضرورت ہوتی ہے کیونکہ `/config` پیچ اپ ڈیٹ کلیدوں کو نہیں ہٹا سکتے ہیں۔",
   "settingsConfigRefreshFailed": "سرور کی ترتیب کو اپ ڈیٹ کیا، لیکن چیٹ فراہم کرنے والوں کو ریفریش نہیں کیا جا سکا۔",
-  "settingsConfigUpdateDeferred": "CodeWalk موجودہ جواب کے ختم ہونے کے بعد اس OpenCode ترتیب کو لاگو کرے گا۔",
+  "settingsConfigUpdateDeferred": "Kilo-Walk موجودہ جواب کے ختم ہونے کے بعد اس OpenCode ترتیب کو لاگو کرے گا۔",
   "settingsConversationUsername": "گفتگو کا صارف نام",
   "settingsDefaultAgent": "ڈیفالٹ ایجنٹ",
   "settingsDefaultModel": "ڈیفالٹ ماڈل",
@@ -1362,7 +1362,7 @@
   "settingsGroupThisDevice": "یہ ڈیوائس",
   "settingsGroupVersionUpdates": "ورژن اور اپ ڈیٹس",
   "settingsGroupVoiceInput": "وائس ان پٹ",
-  "settingsLanguageDescription": "CodeWalk کے ذریعے استعمال ہونے والی زبان کا انتخاب کریں۔ سسٹم ڈیفالٹ آپ کے آلے کی زبان کی پیروی کرتا ہے۔",
+  "settingsLanguageDescription": "Kilo-Walk کے ذریعے استعمال ہونے والی زبان کا انتخاب کریں۔ سسٹم ڈیفالٹ آپ کے آلے کی زبان کی پیروی کرتا ہے۔",
   "settingsLanguageEmptyText": "کوئی زبانیں نہیں ملی",
   "settingsLanguageFieldHelper": "فوری طور پر لاگو ہوتا ہے اور دوبارہ شروع ہونے پر برقرار رہتا ہے۔",
   "settingsLanguageFieldLabel": "ایپ کی زبان",
@@ -1384,11 +1384,11 @@
   "settingsNotificationsAppInBackground": "پس منظر میں ایپ",
   "settingsNotificationsBackgroundAlerts": "Android پس منظر کے انتباہات",
   "settingsNotificationsBackgroundBehavior": "پس منظر کا رویہ",
-  "settingsNotificationsBackgroundBehaviorDescription": "منتخب کریں کہ ایپ کے پیش منظر سے نکلنے کے بعد CodeWalk کیسا برتاؤ کرتا ہے۔",
+  "settingsNotificationsBackgroundBehaviorDescription": "منتخب کریں کہ ایپ کے پیش منظر سے نکلنے کے بعد Kilo-Walk کیسا برتاؤ کرتا ہے۔",
   "settingsNotificationsBackgroundDescription": "جب ایپ اسکرین پر نہ ہو تو جواب کی تکمیل، اجازت کی درخواستوں، سوالات اور غلطیوں کے لیے کم ڈیٹا والے پس منظر کی نگرانی کا استعمال کریں۔",
   "settingsNotificationsBackgroundToggle": "اینڈرائیڈ پر بیک گراؤنڈ الرٹس",
   "settingsNotificationsBackgroundToggleDescription": "تمام اینڈرائیڈ بیک گراؤنڈ چیک کو آف کریں اور مسلسل مانیٹر کی اطلاع کو چھپائیں۔",
-  "settingsNotificationsBatteryDescription": "اگر اطلاعات صرف ایپ کو دوبارہ کھولنے پر پہنچتی ہیں، تو CodeWalk کو اس ڈیوائس پر آپٹیمائزیشن کے بغیر چلنے دیں۔",
+  "settingsNotificationsBatteryDescription": "اگر اطلاعات صرف ایپ کو دوبارہ کھولنے پر پہنچتی ہیں، تو Kilo-Walk کو اس ڈیوائس پر آپٹیمائزیشن کے بغیر چلنے دیں۔",
   "settingsNotificationsBatteryDisabled": "کوڈ واک کے لیے بیٹری کی اصلاح کو غیر فعال کر دیا گیا ہے۔",
   "settingsNotificationsBatteryEnabled": "بیٹری آپٹیمائزیشن فعال ہے۔ کچھ آلات پس منظر کے انتباہات میں تاخیر کر سکتے ہیں۔",
   "settingsNotificationsBatteryOptimization": "اینڈرائیڈ بیٹری آپٹیمائزیشن",
@@ -1441,8 +1441,8 @@
   "settingsNotificationsWhenClosing": "کھڑکی بند کرتے وقت",
   "settingsOpenCodeAutoUpdate": "OpenCode خودکار اپ ڈیٹ",
   "settingsOpenCodeSharingDefault": "OpenCode شیئرنگ ڈیفالٹ",
-  "settingsProvenanceCodeWalkException": "CodeWalk استثناء",
-  "settingsProvenanceCodeWalkLocal": "CodeWalk مقامی",
+  "settingsProvenanceCodeWalkException": "Kilo-Walk استثناء",
+  "settingsProvenanceCodeWalkLocal": "Kilo-Walk مقامی",
   "settingsProvenanceOpenCodeBacked": "OpenCode حمایت یافتہ",
   "settingsReadAloudEnabled": "بلند آواز سے پڑھیں",
   "settingsReadAloudEnabledDescription": "معاون پیغامات پر بلند آواز میں پڑھنے کا بٹن دکھائیں۔",
@@ -1513,7 +1513,7 @@
   "setupDebugCapturedSetupLogs": "کیپچر کردہ سیٹ اپ لاگز",
   "setupDebugClear": "سیٹ اپ ڈیبگ صاف کریں۔",
   "setupDebugClearSetupDebug": "سیٹ اپ ڈیبگ صاف کریں۔",
-  "setupDebugCodeWalkCaptureEnough": "اگر CodeWalk نے کافی سیاق و سباق کو حاصل نہیں کیا تو، آفیشل اوپن کوڈ لاگز اور ہیلتھ اینڈ پوائنٹس کو براہ راست چیک کریں:",
+  "setupDebugCodeWalkCaptureEnough": "اگر Kilo-Walk نے کافی سیاق و سباق کو حاصل نہیں کیا تو، آفیشل اوپن کوڈ لاگز اور ہیلتھ اینڈ پوائنٹس کو براہ راست چیک کریں:",
   "setupDebugCommandPath": "کمانڈ کا راستہ",
   "setupDebugCommandPath2": "کمانڈ کا راستہ",
   "setupDebugCopy": "سیٹ اپ ڈیبگ کاپی کریں۔",
@@ -1542,7 +1542,7 @@
   "setupDebugPlatform": "پلیٹ فارم",
   "setupDebugPlatform2": "پلیٹ فارم",
   "setupDebugRunDiagnosticsTry": "تشخیص چلائیں، انسٹالیشن کا طریقہ آزمائیں، یا OpenCode کے لیے مخصوص ٹربل شوٹنگ کی تفصیلات کو یہاں حاصل کرنے کے لیے سیٹ اپ فلو کی کوشش کریں۔",
-  "setupDebugScreenCoversOpenCode": "یہ اسکرین صرف اوپن کوڈ کی تنصیب، تشخیص، اور مقامی سیٹ اپ کی خرابیوں کا سراغ لگاتی ہے۔ عام CodeWalk رن ٹائم مسائل کے لیے App Logs استعمال کریں۔",
+  "setupDebugScreenCoversOpenCode": "یہ اسکرین صرف اوپن کوڈ کی تنصیب، تشخیص، اور مقامی سیٹ اپ کی خرابیوں کا سراغ لگاتی ہے۔ عام Kilo-Walk رن ٹائم مسائل کے لیے App Logs استعمال کریں۔",
   "setupDebugServerOutput": "تازہ ترین مقامی سرور آؤٹ پٹ",
   "setupDebugStatus": "موجودہ حیثیت",
   "setupDebugTimeEntrySource": "{time} - {source}",
@@ -1595,7 +1595,7 @@
   "shortcutsReset": "سب کو ری سیٹ کریں۔",
   "shortcutsSearchEditBindings": "تلاش کریں، بائنڈنگز میں ترمیم کریں، اور محفوظ کرنے سے پہلے تنازعات کو حل کریں۔",
   "shortcutsSetShortcutWidget": "شارٹ کٹ سیٹ کریں: {label}",
-  "shortcutsTheseBindingsStored": "یہ بائنڈنگز موجودہ ایپ رن ٹائم کے لیے CodeWalk میں محفوظ ہیں اور OpenCode `tui.json` کی بائنڈز میں ترمیم نہیں کرتی ہیں۔",
+  "shortcutsTheseBindingsStored": "یہ بائنڈنگز موجودہ ایپ رن ٹائم کے لیے Kilo-Walk میں محفوظ ہیں اور OpenCode `tui.json` کی بائنڈز میں ترمیم نہیں کرتی ہیں۔",
   "speechApiKey": "API کلید",
   "speechApiKeyMissing": "اس TTS فراہم کنندہ کو استعمال کرنے کے لیے ترتیبات > اسپیچ میں ایک API کلید شامل کریں۔",
   "speechApiKeyRejected": "TTS API کلید فراہم کنندہ نے مسترد کر دی۔",
@@ -1653,9 +1653,9 @@
   "speechMoonshineStaysDownloadable": "Moonshine ڈاؤن لوڈ کے قابل اور ایپ بنڈل سے باہر رہتی ہے۔ اس ڈیسک ٹاپ ڈیوائس کے لیے ایک ماڈل منتخب کریں اور اگر آپ جگہ واپس چاہتے ہیں تو اسے بعد میں ہٹا دیں۔",
   "speechMoonshineSubtitle": "ڈیسک ٹاپ صرف تجرباتی راستہ جو sherpa_onnx آف لائن ریکگنیشن اور ڈاؤن لوڈ قابل ماڈلز استعمال کرتا ہے۔",
   "speechNative": "مقامی",
-  "speechNativeDisabledWindows": "استحکام کے لیے Windows پر غیر فعال۔ CodeWalk WASAPI کیپچر کے ذریعے Parakeet یا کوئی اور آن ڈیوائس انجن استعمال کریں۔",
+  "speechNativeDisabledWindows": "استحکام کے لیے Windows پر غیر فعال۔ Kilo-Walk WASAPI کیپچر کے ذریعے Parakeet یا کوئی اور آن ڈیوائس انجن استعمال کریں۔",
   "speechNativeSTTDisabled": "اس ایپ میں لینکس پر مقامی STT غیر فعال ہے۔ پیراکیٹ نئے انسٹالز کے لیے ڈیفالٹ انجن ہے۔",
-  "speechNativeSTTWorks": "Windows پر، CodeWalk اپنے WASAPI مائیکروفون بیک اینڈ کے ذریعے مقامی آن ڈیوائس اسپیچ ریکگنیشن استعمال کرتا ہے۔ استحکام کے لیے Windows کی نیٹیو اسپیچ ریکگنیشن غیر فعال ہے۔",
+  "speechNativeSTTWorks": "Windows پر، Kilo-Walk اپنے WASAPI مائیکروفون بیک اینڈ کے ذریعے مقامی آن ڈیوائس اسپیچ ریکگنیشن استعمال کرتا ہے۔ استحکام کے لیے Windows کی نیٹیو اسپیچ ریکگنیشن غیر فعال ہے۔",
   "speechNativeStartsFaster": "مقامی تیزی سے شروع ہوتا ہے۔ شیرپا بھاری سیٹ اپ اور گہرے ماڈل کنٹرول کے ساتھ مکمل طور پر آن ڈیوائس چلاتا ہے۔",
   "speechNativeSubtitle": "آسان اور تیز تر آغاز۔",
   "speechNativeUnavailableLinux": "Linux پر دستیاب نہیں۔ اسپیچ ان پٹ کے لیے Parakeet استعمال کریں۔",
@@ -1682,7 +1682,7 @@
   "speechProviderUnreachable": "TTS فراہم کنندہ تک رسائی نہیں ہو سکی۔",
   "speechReadAloudFailed": "متن سے تقریر ناکام ہوئی۔",
   "speechReadAloudNoText": "بلند آواز میں پڑھنے کے لیے کوئی متن نہیں ہے۔",
-  "speechReadAloudTestText": "یہ CodeWalk ٹیکسٹ ٹو اسپیچ ٹیسٹ ہے۔",
+  "speechReadAloudTestText": "یہ Kilo-Walk ٹیکسٹ ٹو اسپیچ ٹیسٹ ہے۔",
   "speechRemove": "ہٹا دیں۔",
   "speechRuntimeFailed": "{service} رن ٹائم شروع ہونے میں ناکام رہا۔",
   "speechSaveApiKey": "API کلید محفوظ کریں",
@@ -1706,7 +1706,7 @@
   "speechReadAloudTestPhraseHint": "خالی چھوڑیں تو ڈیفالٹ ٹیسٹ جملہ استعمال ہوگا۔",
   "speechTextToSpeechProvider": "ٹیکسٹ ٹو اسپیچ فراہم کنندہ",
   "speechUnavailableOnPlatform": "اس پلیٹ فارم پر {service} اسپیچ دستیاب نہیں ہے۔",
-  "speechWindowsSetupHint": "Windows وائس ان پٹ آن ڈیوائس ماڈلز کے ساتھ CodeWalk WASAPI کیپچر استعمال کرتا ہے۔ ڈیسک ٹاپ ایپس کے لیے مائیکروفون تک رسائی فعال رکھیں؛ نیچے دئے گئے بٹن مسئلہ حل کرنے کے لیے Windows سیٹنگز کھولتے ہیں۔",
+  "speechWindowsSetupHint": "Windows وائس ان پٹ آن ڈیوائس ماڈلز کے ساتھ Kilo-Walk WASAPI کیپچر استعمال کرتا ہے۔ ڈیسک ٹاپ ایپس کے لیے مائیکروفون تک رسائی فعال رکھیں؛ نیچے دئے گئے بٹن مسئلہ حل کرنے کے لیے Windows سیٹنگز کھولتے ہیں۔",
   "statusConnected": "منسلک",
   "statusDelayed": "تاخیر شدہ",
   "statusFailed": "ناکام",
@@ -1728,7 +1728,7 @@
   "terminalConnectingTo": "{serverName} ٹرمینل سے منسلک ہو رہا ہے...",
   "terminalConnectionFailed": "ٹرمینل کنکشن ناکام رہا: {error}",
   "terminalDisconnected": "ٹرمینل منقطع ہو گیا۔",
-  "terminalEmbeddedUnavailable": "ایمبیڈڈ ٹرمینل ابھی اس رن ٹائم پر دستیاب نہیں ہے۔ ایک بار کی کمانڈز کے لیے کمپوزر شیل موڈ کا استعمال جاری رکھیں یا {serverName} کے لیے سپورٹڈ CodeWalk ایپ رن ٹائم سے ٹرمینل کھولیں۔",
+  "terminalEmbeddedUnavailable": "ایمبیڈڈ ٹرمینل ابھی اس رن ٹائم پر دستیاب نہیں ہے۔ ایک بار کی کمانڈز کے لیے کمپوزر شیل موڈ کا استعمال جاری رکھیں یا {serverName} کے لیے سپورٹڈ Kilo-Walk ایپ رن ٹائم سے ٹرمینل کھولیں۔",
   "terminalExtraKeyAlt": "Alt کی",
   "terminalExtraKeyArrowDown": "نیچے کا تیر",
   "terminalExtraKeyArrowLeft": "بائیں تیر",
@@ -1822,7 +1822,7 @@
   "workspaceSuggestions": "تجاویز",
   "appProviderErrorFailedToStartProcess": "{tool} پروسیس شروع کرنے میں ناکامی ہوئی۔",
   "@appProviderErrorFailedToStartProcess": {
-    "description": "CodeWalk UI string — appProviderErrorFailedToStartProcess",
+    "description": "Kilo-Walk UI string — appProviderErrorFailedToStartProcess",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1831,7 +1831,7 @@
   },
   "appProviderErrorToolNotAvailable": "{tool} دستیاب نہیں ہے۔ پہلے {runtime} انسٹال کریں۔",
   "@appProviderErrorToolNotAvailable": {
-    "description": "CodeWalk UI string — appProviderErrorToolNotAvailable",
+    "description": "Kilo-Walk UI string — appProviderErrorToolNotAvailable",
     "placeholders": {
       "runtime": {
         "type": "String"
@@ -1843,7 +1843,7 @@
   },
   "appProviderErrorToolInstallFailed": "{tool} کی انسٹالیشن ایکزٹ کوڈ {exitCode} کے ساتھ ناکام ہوئی۔",
   "@appProviderErrorToolInstallFailed": {
-    "description": "CodeWalk UI string — appProviderErrorToolInstallFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorToolInstallFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1855,7 +1855,7 @@
   },
   "appProviderErrorBunBootstrapFailed": "Bun بوٹسٹریپ ایکزٹ کوڈ {exitCode} کے ساتھ ناکام ہوا۔",
   "@appProviderErrorBunBootstrapFailed": {
-    "description": "CodeWalk UI string — appProviderErrorBunBootstrapFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorBunBootstrapFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -1864,15 +1864,15 @@
   },
   "appProviderErrorInstalledButNotFoundInPath": "OpenCode کی انسٹالیشن مکمل ہوئی لیکن کمانڈ PATH میں نہیں ملی۔",
   "@appProviderErrorInstalledButNotFoundInPath": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath"
   },
   "appProviderErrorInstalledButPathNotResolved": "OpenCode کی انسٹالیشن مکمل ہوئی لیکن کمانڈ کا راستہ معلوم نہیں ہو سکا۔",
   "@appProviderErrorInstalledButPathNotResolved": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButPathNotResolved"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved"
   },
   "appProviderErrorConfiguredCommandNotFound": "کنفیگر کردہ کمانڈ نہیں ملی اور {tool} PATH میں نہیں ہے۔",
   "@appProviderErrorConfiguredCommandNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1881,31 +1881,31 @@
   },
   "appProviderErrorConfiguredCommandPathMissing": "کنفیگر کردہ کمانڈ کا راستہ موجود نہیں ہے۔",
   "@appProviderErrorConfiguredCommandPathMissing": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing"
   },
   "appProviderErrorConfiguredCommandVersionCheckFailed": "کنفیگر کردہ کمانڈ موجود ہے لیکن ورژن چیک ناکام ہوا۔",
   "@appProviderErrorConfiguredCommandVersionCheckFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
   },
   "appProviderErrorConfiguredCommandExecutionFailed": "کنفیگر کردہ کمانڈ پر عمل نہیں ہو سکا۔",
   "@appProviderErrorConfiguredCommandExecutionFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed"
   },
   "appProviderWslCheckWindowsOnly": "WSL چیک صرف Windows پر لاگو ہوتا ہے۔",
   "@appProviderWslCheckWindowsOnly": {
-    "description": "CodeWalk UI string — appProviderWslCheckWindowsOnly"
+    "description": "Kilo-Walk UI string — appProviderWslCheckWindowsOnly"
   },
   "appProviderDesktopBuildRequired": "منظم مقامی سرور کنفیگر کرنے کے لیے ڈیسک ٹاپ بلڈ استعمال کریں۔",
   "@appProviderDesktopBuildRequired": {
-    "description": "CodeWalk UI string — appProviderDesktopBuildRequired"
+    "description": "Kilo-Walk UI string — appProviderDesktopBuildRequired"
   },
   "appProviderKnownInstallationDirectoryDetected": "معروف انسٹالیشن ڈائرکٹری سے پتہ چلا۔",
   "@appProviderKnownInstallationDirectoryDetected": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationDirectoryDetected"
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected"
   },
   "appProviderKnownInstallationPathRefreshHint": "معروف انسٹالیشن ڈائرکٹری سے پتہ چلا۔ PATH کو ریفریش کی ضرورت ہو سکتی ہے؛ اگر حالیہ انسٹال ابھی تک نہیں ملا تو {appName} دوبارہ کھولیں۔",
   "@appProviderKnownInstallationPathRefreshHint": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationPathRefreshHint",
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint",
     "placeholders": {
       "appName": {
         "type": "String"
@@ -1914,31 +1914,31 @@
   },
   "appProviderErrorReleaseMetadataFetchFailed": "GitHub سے تازہ ترین ریلیز میٹا ڈیٹا حاصل کرنے میں ناکامی۔",
   "@appProviderErrorReleaseMetadataFetchFailed": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed"
   },
   "appProviderErrorReleaseAssetListMissing": "تازہ ترین ریلیز میٹا ڈیٹا میں اثاثوں کی فہرست شامل نہیں تھی۔",
   "@appProviderErrorReleaseAssetListMissing": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseAssetListMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing"
   },
   "appProviderErrorNoCompatibleAsset": "کوئی ہم آہنگ OpenCode بائنری اثاثہ نہیں ملا۔",
   "@appProviderErrorNoCompatibleAsset": {
-    "description": "CodeWalk UI string — appProviderErrorNoCompatibleAsset"
+    "description": "Kilo-Walk UI string — appProviderErrorNoCompatibleAsset"
   },
   "appProviderErrorDownloadAssetFailed": "منتخب کردہ OpenCode اثاثہ ڈاؤن لوڈ کرنے میں ناکامی۔",
   "@appProviderErrorDownloadAssetFailed": {
-    "description": "CodeWalk UI string — appProviderErrorDownloadAssetFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorDownloadAssetFailed"
   },
   "appProviderErrorChecksumVerificationFailed": "ڈاؤن لوڈ کردہ اثاثہ کے چیک سم کی تصدیق ناکام ہوئی۔",
   "@appProviderErrorChecksumVerificationFailed": {
-    "description": "CodeWalk UI string — appProviderErrorChecksumVerificationFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed"
   },
   "appProviderErrorExtractArchiveFailed": "OpenCode بائنری آرکائیو نکالنے میں ناکامی۔",
   "@appProviderErrorExtractArchiveFailed": {
-    "description": "CodeWalk UI string — appProviderErrorExtractArchiveFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorExtractArchiveFailed"
   },
   "appProviderErrorExecutableNotFound": "نکالے گئے فائلوں میں {tool} ایگزیکیوٹیبل نہیں ملا۔",
   "@appProviderErrorExecutableNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorExecutableNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorExecutableNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -1947,95 +1947,95 @@
   },
   "chatNoResponseFromServer": "سرور سے کوئی جواب نہیں۔ براہ کرم دوبارہ کوشش کریں۔",
   "@chatNoResponseFromServer": {
-    "description": "CodeWalk UI string — chatNoResponseFromServer"
+    "description": "Kilo-Walk UI string — chatNoResponseFromServer"
   },
   "chatNoResponseFromModel": "ماڈل سے کوئی جواب نہیں۔ براہ کرم دوبارہ کوشش کریں۔",
   "@chatNoResponseFromModel": {
-    "description": "CodeWalk UI string — chatNoResponseFromModel"
+    "description": "Kilo-Walk UI string — chatNoResponseFromModel"
   },
   "speechJobCancelled": "اسپیچ کام منسوخ کر دیا گیا۔",
   "@speechJobCancelled": {
-    "description": "CodeWalk UI string — speechJobCancelled"
+    "description": "Kilo-Walk UI string — speechJobCancelled"
   },
   "speechEdgeCancelled": "Microsoft Edge Speech منسوخ کر دیا گیا۔",
   "@speechEdgeCancelled": {
-    "description": "CodeWalk UI string — speechEdgeCancelled"
+    "description": "Kilo-Walk UI string — speechEdgeCancelled"
   },
   "sessionAttentionKindActive": "فعال",
   "@sessionAttentionKindActive": {
-    "description": "CodeWalk UI string — sessionAttentionKindActive"
+    "description": "Kilo-Walk UI string — sessionAttentionKindActive"
   },
   "sessionAttentionKindReceiving": "موصول ہو رہا ہے",
   "@sessionAttentionKindReceiving": {
-    "description": "CodeWalk UI string — sessionAttentionKindReceiving"
+    "description": "Kilo-Walk UI string — sessionAttentionKindReceiving"
   },
   "sessionAttentionKindDelayed": "تاخیر شدہ",
   "@sessionAttentionKindDelayed": {
-    "description": "CodeWalk UI string — sessionAttentionKindDelayed"
+    "description": "Kilo-Walk UI string — sessionAttentionKindDelayed"
   },
   "sessionAttentionKindCompleted": "مکمل",
   "@sessionAttentionKindCompleted": {
-    "description": "CodeWalk UI string — sessionAttentionKindCompleted"
+    "description": "Kilo-Walk UI string — sessionAttentionKindCompleted"
   },
   "sessionAttentionKindPendingInteraction": "تعامل کا انتظار",
   "@sessionAttentionKindPendingInteraction": {
-    "description": "CodeWalk UI string — sessionAttentionKindPendingInteraction"
+    "description": "Kilo-Walk UI string — sessionAttentionKindPendingInteraction"
   },
   "sessionAttentionKindError": "خرابی",
   "@sessionAttentionKindError": {
-    "description": "CodeWalk UI string — sessionAttentionKindError"
+    "description": "Kilo-Walk UI string — sessionAttentionKindError"
   },
   "sessionAttentionPauseCellularDataSaver": "سیلولر ڈیٹا سیور فعال ہے",
   "@sessionAttentionPauseCellularDataSaver": {
-    "description": "CodeWalk UI string — sessionAttentionPauseCellularDataSaver"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver"
   },
   "sessionAttentionPauseOauthReopenRequired": "OAuth سائن ان درکار ہے",
   "@sessionAttentionPauseOauthReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOauthReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired"
   },
   "sessionAttentionPauseTailscaleReopenRequired": "Tailscale کنکشن درکار ہے",
   "@sessionAttentionPauseTailscaleReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired"
   },
   "sessionAttentionPauseOffline": "آف لائن",
   "@sessionAttentionPauseOffline": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOffline"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOffline"
   },
   "sessionAttentionPausePermissionRevoked": "اجازت منسوخ کر دی گئی",
   "@sessionAttentionPausePermissionRevoked": {
-    "description": "CodeWalk UI string — sessionAttentionPausePermissionRevoked"
+    "description": "Kilo-Walk UI string — sessionAttentionPausePermissionRevoked"
   },
   "sessionAttentionPauseServiceStopped": "سروس رک گئی",
   "@sessionAttentionPauseServiceStopped": {
-    "description": "CodeWalk UI string — sessionAttentionPauseServiceStopped"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseServiceStopped"
   },
   "sessionAttentionPauseHostUnavailable": "ہوسٹ دستیاب نہیں",
   "@sessionAttentionPauseHostUnavailable": {
-    "description": "CodeWalk UI string — sessionAttentionPauseHostUnavailable"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseHostUnavailable"
   },
   "errorCertificateError": "سرٹیفکیٹ کی خرابی",
   "@errorCertificateError": {
-    "description": "CodeWalk UI string — errorCertificateError"
+    "description": "Kilo-Walk UI string — errorCertificateError"
   },
   "errorRequestCancelled": "درخواست منسوخ کر دی گئی",
   "@errorRequestCancelled": {
-    "description": "CodeWalk UI string — errorRequestCancelled"
+    "description": "Kilo-Walk UI string — errorRequestCancelled"
   },
   "errorRunShellCommandFailed": "شیل کمانڈ چلانے میں ناکامی ہوئی",
   "@errorRunShellCommandFailed": {
-    "description": "CodeWalk UI string — errorRunShellCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunShellCommandFailed"
   },
   "errorRunSlashCommandFailed": "سلیش کمانڈ چلانے میں ناکامی ہوئی",
   "@errorRunSlashCommandFailed": {
-    "description": "CodeWalk UI string — errorRunSlashCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunSlashCommandFailed"
   },
   "errorSessionBusy": "سیشن ایک اور درخواست پر کارروائی کرنے میں مصروف ہے۔",
   "@errorSessionBusy": {
-    "description": "CodeWalk UI string — errorSessionBusy"
+    "description": "Kilo-Walk UI string — errorSessionBusy"
   },
   "errorUnknownNetworkError": "نامعلوم نیٹ ورک کی خرابی: {error}",
   "@errorUnknownNetworkError": {
-    "description": "CodeWalk UI string — errorUnknownNetworkError",
+    "description": "Kilo-Walk UI string — errorUnknownNetworkError",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2044,27 +2044,27 @@
   },
   "forwardUntitled": "بلا عنوان",
   "@forwardUntitled": {
-    "description": "CodeWalk UI string — forwardUntitled"
+    "description": "Kilo-Walk UI string — forwardUntitled"
   },
   "logsEntryError": "خرابی",
   "@logsEntryError": {
-    "description": "CodeWalk UI string — logsEntryError"
+    "description": "Kilo-Walk UI string — logsEntryError"
   },
   "logsEntryStack": "اسٹیک",
   "@logsEntryStack": {
-    "description": "CodeWalk UI string — logsEntryStack"
+    "description": "Kilo-Walk UI string — logsEntryStack"
   },
   "sessionTabIconRemoveFailed": "مقامی سیشن کے ٹیب آئیکن کا ڈیٹا ہٹانے میں ناکامی ہوئی",
   "@sessionTabIconRemoveFailed": {
-    "description": "CodeWalk UI string — sessionTabIconRemoveFailed"
+    "description": "Kilo-Walk UI string — sessionTabIconRemoveFailed"
   },
   "settingsBehaviorOpenCodeDefaultsLoadError": "فعال سرور سے OpenCode کے تعاون سے چلنے والی ڈیفالٹس لوڈ نہیں ہو سکیں۔",
   "@settingsBehaviorOpenCodeDefaultsLoadError": {
-    "description": "CodeWalk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
+    "description": "Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
   },
   "setupDebugLinuxLogsPath": "Linux لاگز: {path}",
   "@setupDebugLinuxLogsPath": {
-    "description": "CodeWalk UI string — setupDebugLinuxLogsPath",
+    "description": "Kilo-Walk UI string — setupDebugLinuxLogsPath",
     "placeholders": {
       "path": {
         "type": "String"
@@ -2073,11 +2073,11 @@
   },
   "setupDebugMessageDetectAttempt": "موجودہ ماحول سے ایک موجودہ OpenCode کمانڈ کا پتہ لگانے کی کوشش کی جا رہی ہے۔",
   "@setupDebugMessageDetectAttempt": {
-    "description": "CodeWalk UI string — setupDebugMessageDetectAttempt"
+    "description": "Kilo-Walk UI string — setupDebugMessageDetectAttempt"
   },
   "setupDebugMessageDiagnosticsResult": "{platform} پر {availability}۔ {recommendation}",
   "@setupDebugMessageDiagnosticsResult": {
-    "description": "CodeWalk UI string — setupDebugMessageDiagnosticsResult",
+    "description": "Kilo-Walk UI string — setupDebugMessageDiagnosticsResult",
     "placeholders": {
       "availability": {
         "type": "String"
@@ -2092,44 +2092,44 @@
   },
   "setupDebugMessageExitedAfterRequestedStop": "درخواست کردہ بندش کے بعد منظم OpenCode سرور بند ہو گیا۔",
   "@setupDebugMessageExitedAfterRequestedStop": {
-    "description": "CodeWalk UI string — setupDebugMessageExitedAfterRequestedStop"
+    "description": "Kilo-Walk UI string — setupDebugMessageExitedAfterRequestedStop"
   },
   "setupDebugMessageHealthyRunning": "منظم OpenCode سرور صحیح حالت میں ہے اور {url} پر چل رہا ہے۔",
   "@setupDebugMessageHealthyRunning": {
-    "description": "CodeWalk UI string — setupDebugMessageHealthyRunning",
+    "description": "Kilo-Walk UI string — setupDebugMessageHealthyRunning",
     "placeholders": {
       "url": {
         "type": "String"
       }
     }
   },
-  "setupDebugMessageInstallStarted": "CodeWalk سے OpenCode کی انسٹالیشن شروع ہو گئی۔",
+  "setupDebugMessageInstallStarted": "Kilo-Walk سے OpenCode کی انسٹالیشن شروع ہو گئی۔",
   "@setupDebugMessageInstallStarted": {
-    "description": "CodeWalk UI string — setupDebugMessageInstallStarted"
+    "description": "Kilo-Walk UI string — setupDebugMessageInstallStarted"
   },
   "setupDebugMessageOnboardingAddAnotherServer": "ناکام ہیلتھ چیک کے بعد صارف نے ایک اور سرور شامل کرنے کا انتخاب کیا۔",
   "@setupDebugMessageOnboardingAddAnotherServer": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingAddAnotherServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingAddAnotherServer"
   },
   "setupDebugMessageOnboardingConnectExisting": "صارف نے ایک موجودہ OpenCode سرور سے منسلک ہونے کا انتخاب کیا۔",
   "@setupDebugMessageOnboardingConnectExisting": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingConnectExisting"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingConnectExisting"
   },
   "setupDebugMessageOnboardingGuidedPath": "صارف نے گائیڈڈ OpenCode سیٹ اپ کا راستہ کھولا۔",
   "@setupDebugMessageOnboardingGuidedPath": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingGuidedPath"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingGuidedPath"
   },
   "setupDebugMessageOnboardingManagedLocal": "صارف نے منظم مقامی OpenCode سیٹ اپ کھولا۔",
   "@setupDebugMessageOnboardingManagedLocal": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingManagedLocal"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingManagedLocal"
   },
   "setupDebugMessageOnboardingOpenedServerSettings": "ناکام ہیلتھ چیک کے بعد صارف نے سرور کی ترتیبات کھولیں۔",
   "@setupDebugMessageOnboardingOpenedServerSettings": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingOpenedServerSettings"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingOpenedServerSettings"
   },
   "setupDebugMessageStartLocalServer": "{url} پر منظم OpenCode سرور شروع کیا جا رہا ہے۔",
   "@setupDebugMessageStartLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStartLocalServer",
+    "description": "Kilo-Walk UI string — setupDebugMessageStartLocalServer",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2138,15 +2138,15 @@
   },
   "setupDebugMessageStoppedCleanly": "منظم OpenCode سرور صفائی کے ساتھ بند ہو گیا۔",
   "@setupDebugMessageStoppedCleanly": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppedCleanly"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppedCleanly"
   },
   "setupDebugMessageStoppingLocalServer": "منظم OpenCode سرور بند کیا جا رہا ہے۔",
   "@setupDebugMessageStoppingLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppingLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppingLocalServer"
   },
   "setupDebugMessageTestingServerUrl": "آن بورڈنگ سے OpenCode سرور کے URL {url} کی جانچ کی جا رہی ہے۔",
   "@setupDebugMessageTestingServerUrl": {
-    "description": "CodeWalk UI string — setupDebugMessageTestingServerUrl",
+    "description": "Kilo-Walk UI string — setupDebugMessageTestingServerUrl",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2155,7 +2155,7 @@
   },
   "setupDebugRunOpenCodeCommand": "OpenCode چلائیں: {command}",
   "@setupDebugRunOpenCodeCommand": {
-    "description": "CodeWalk UI string — setupDebugRunOpenCodeCommand",
+    "description": "Kilo-Walk UI string — setupDebugRunOpenCodeCommand",
     "placeholders": {
       "command": {
         "type": "String"
@@ -2164,7 +2164,7 @@
   },
   "setupDebugServerDocsEndpoint": "سرور کی دستاویزات: {endpoint}",
   "@setupDebugServerDocsEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerDocsEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerDocsEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2173,7 +2173,7 @@
   },
   "setupDebugServerHealthEndpoint": "سرور ہیلتھ: {endpoint}",
   "@setupDebugServerHealthEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerHealthEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerHealthEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2182,59 +2182,59 @@
   },
   "setupDebugSourceDiagnostics": "تشخیص",
   "@setupDebugSourceDiagnostics": {
-    "description": "CodeWalk UI string — setupDebugSourceDiagnostics"
+    "description": "Kilo-Walk UI string — setupDebugSourceDiagnostics"
   },
   "setupDebugSourceLocalServer": "مقامی سرور",
   "@setupDebugSourceLocalServer": {
-    "description": "CodeWalk UI string — setupDebugSourceLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugSourceLocalServer"
   },
   "setupDebugSourceManualConnection": "دستی کنکشن",
   "@setupDebugSourceManualConnection": {
-    "description": "CodeWalk UI string — setupDebugSourceManualConnection"
+    "description": "Kilo-Walk UI string — setupDebugSourceManualConnection"
   },
   "setupDebugSourceOnboarding": "آن بورڈنگ",
   "@setupDebugSourceOnboarding": {
-    "description": "CodeWalk UI string — setupDebugSourceOnboarding"
+    "description": "Kilo-Walk UI string — setupDebugSourceOnboarding"
   },
   "setupDebugSourceUseExisting": "موجودہ استعمال کریں۔",
   "@setupDebugSourceUseExisting": {
-    "description": "CodeWalk UI string — setupDebugSourceUseExisting"
+    "description": "Kilo-Walk UI string — setupDebugSourceUseExisting"
   },
   "chatProviderErrorSessionNotFound": "سیشن نہیں ملا",
   "@chatProviderErrorSessionNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionNotFound"
   },
   "chatProviderErrorInvalidMessageFormat": "غلط میسج فارمیٹ",
   "@chatProviderErrorInvalidMessageFormat": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidMessageFormat"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat"
   },
   "chatProviderErrorNetworkShort": "نیٹ ورک کنکشن ناکام ہوا",
   "@chatProviderErrorNetworkShort": {
-    "description": "CodeWalk UI string — chatProviderErrorNetworkShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetworkShort"
   },
   "chatProviderErrorUnknownShort": "نامعلوم غلطی",
   "@chatProviderErrorUnknownShort": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknownShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknownShort"
   },
   "terminalCreateFailed": "ٹرمینل سیشن بنانے میں ناکامی",
   "@terminalCreateFailed": {
-    "description": "CodeWalk UI string — terminalCreateFailed"
+    "description": "Kilo-Walk UI string — terminalCreateFailed"
   },
   "terminalEndpointUnavailable": "ٹرمینل اینڈ پوائنٹ دستیاب نہیں ہے",
   "@terminalEndpointUnavailable": {
-    "description": "CodeWalk UI string — terminalEndpointUnavailable"
+    "description": "Kilo-Walk UI string — terminalEndpointUnavailable"
   },
   "terminalInvalidDirectory": "غلط ٹرمینل ڈائریکٹری",
   "@terminalInvalidDirectory": {
-    "description": "CodeWalk UI string — terminalInvalidDirectory"
+    "description": "Kilo-Walk UI string — terminalInvalidDirectory"
   },
   "terminalWebsocketUnavailable": "ٹرمینل ویب ساکٹ یہاں دستیاب نہیں ہے۔",
   "@terminalWebsocketUnavailable": {
-    "description": "CodeWalk UI string — terminalWebsocketUnavailable"
+    "description": "Kilo-Walk UI string — terminalWebsocketUnavailable"
   },
   "chatMessageToolChainCallsCompact": "{count, plural, =1{1 کال} other{{count} کالز}}",
   "@chatMessageToolChainCallsCompact": {
-    "description": "CodeWalk UI string — chatMessageToolChainCallsCompact",
+    "description": "Kilo-Walk UI string — chatMessageToolChainCallsCompact",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2243,15 +2243,15 @@
   },
   "errorConnectionTimeout": "کنکشن کا وقت ختم ہو گیا",
   "@errorConnectionTimeout": {
-    "description": "CodeWalk UI string — errorConnectionTimeout"
+    "description": "Kilo-Walk UI string — errorConnectionTimeout"
   },
   "errorClientError": "کلائنٹ کی خرابی",
   "@errorClientError": {
-    "description": "CodeWalk UI string — errorClientError"
+    "description": "Kilo-Walk UI string — errorClientError"
   },
   "chatProviderErrorSendMessage": "پیغام بھیجنے میں ناکامی ہوئی",
   "@chatProviderErrorSendMessage": {
-    "description": "CodeWalk UI string — chatProviderErrorSendMessage"
+    "description": "Kilo-Walk UI string — chatProviderErrorSendMessage"
   },
   "speechApiEngine": "API",
   "speechApiEngineSubtitle": "OpenAI، Groq یا ایک حسب ضرورت OpenAI-مطابق اینڈ پوائنٹ۔",
@@ -2278,38 +2278,38 @@
   "carMessagingReply": "جواب دیں",
   "carMessagingMarkRead": "پڑھا ہوا نشان زد کریں",
   "carMessagingDeliveryFailedTitle": "جواب بھیجا نہیں جا سکا",
-  "carMessagingDeliveryFailedBody": "آپ کا وائس جواب ڈیلیور نہیں ہو سکا۔ دوبارہ کوشش کرنے کے لیے CodeWalk کھولیں۔",
+  "carMessagingDeliveryFailedBody": "آپ کا وائس جواب ڈیلیور نہیں ہو سکا۔ دوبارہ کوشش کرنے کے لیے Kilo-Walk کھولیں۔",
   "shortcutNextTab": "اگلی ٹیب",
   "@shortcutNextTab": {
-    "description": "CodeWalk UI string - shortcutNextTab"
+    "description": "Kilo-Walk UI string - shortcutNextTab"
   },
   "shortcutNextTabDesc": "ٹیب سوئچر دکھائیں اور اگلی ٹیب پر جائیں",
   "@shortcutNextTabDesc": {
-    "description": "CodeWalk UI string - shortcutNextTabDesc"
+    "description": "Kilo-Walk UI string - shortcutNextTabDesc"
   },
   "shortcutPreviousTab": "پچھلی ٹیب",
   "@shortcutPreviousTab": {
-    "description": "CodeWalk UI string - shortcutPreviousTab"
+    "description": "Kilo-Walk UI string - shortcutPreviousTab"
   },
   "shortcutPreviousTabDesc": "ٹیب سوئچر دکھائیں اور پچھلی ٹیب پر جائیں",
   "@shortcutPreviousTabDesc": {
-    "description": "CodeWalk UI string - shortcutPreviousTabDesc"
+    "description": "Kilo-Walk UI string - shortcutPreviousTabDesc"
   },
   "sessionTabSwitcherTitle": "ٹیب تبدیل کریں",
   "@sessionTabSwitcherTitle": {
-    "description": "CodeWalk UI string - sessionTabSwitcherTitle"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherTitle"
   },
   "sessionTabSwitcherHint": "سوئچ کے لیے Ctrl چھوڑیں، منسوخ کے لیے Esc",
   "@sessionTabSwitcherHint": {
-    "description": "CodeWalk UI string - sessionTabSwitcherHint"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherHint"
   },
   "aboutTelegram": "Telegram",
   "@aboutTelegram": {
-    "description": "CodeWalk UI string - aboutTelegram"
+    "description": "Kilo-Walk UI string - aboutTelegram"
   },
   "settingsAboutWhatsNew": "v{version} میں نیا کیا ہے",
   "@settingsAboutWhatsNew": {
-    "description": "CodeWalk UI string - settingsAboutWhatsNew",
+    "description": "Kilo-Walk UI string - settingsAboutWhatsNew",
     "placeholders": {
       "version": {
         "type": "String"
@@ -2318,31 +2318,31 @@
   },
   "appShellNewsMore": "مزید",
   "@appShellNewsMore": {
-    "description": "CodeWalk UI string - appShellNewsMore"
+    "description": "Kilo-Walk UI string - appShellNewsMore"
   },
   "settingsAboutChangelog": "Changelog",
   "@settingsAboutChangelog": {
-    "description": "CodeWalk UI string - settingsAboutChangelog"
+    "description": "Kilo-Walk UI string - settingsAboutChangelog"
   },
   "settingsAboutOurGroup": "ہمارا گروپ",
   "@settingsAboutOurGroup": {
-    "description": "CodeWalk UI string - settingsAboutOurGroup"
+    "description": "Kilo-Walk UI string - settingsAboutOurGroup"
   },
   "speechNemotron": "Nemotron",
   "@speechNemotron": {
-    "description": "CodeWalk UI string — speechNemotron"
+    "description": "Kilo-Walk UI string — speechNemotron"
   },
   "speechNemotronSubtitle": "Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.",
   "@speechNemotronSubtitle": {
-    "description": "CodeWalk UI string — speechNemotronSubtitle"
+    "description": "Kilo-Walk UI string — speechNemotronSubtitle"
   },
   "speechNemotronStaysDownloadable": "Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.",
   "@speechNemotronStaysDownloadable": {
-    "description": "CodeWalk UI string — speechNemotronStaysDownloadable"
+    "description": "Kilo-Walk UI string — speechNemotronStaysDownloadable"
   },
   "speechNemotronDesktopOnlyHint": "Available on desktop only. Uses streaming multilingual recognition.",
   "@speechNemotronDesktopOnlyHint": {
-    "description": "CodeWalk UI string — speechNemotronDesktopOnlyHint"
+    "description": "Kilo-Walk UI string — speechNemotronDesktopOnlyHint"
   },
   "settingsAppearanceProjectTabColors": "پروجیکٹ ٹیب کے رنگ",
   "settingsAppearanceProjectTabColorsDescription": "شناخت شدہ پروجیکٹ آئیکنز کے رنگوں سے سیشن ٹیب رنگیں۔"

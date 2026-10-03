@@ -2,6 +2,18 @@
 
 Release notes for tagged CodeWalk versions. GitHub Issues remain the canonical tracker for planned work and acceptance criteria.
 
+## v0.1.0 - 2026-10-03
+
+> 📣 Kilo-Walk fork: Kilo CLI/TUI server adaptation with directory-based project grouping, cross-directory timeline, and live-verified prompt_async/SSE/PTY compatibility.
+
+### Kilo-Walk (fork of CodeWalk v1.265.0)
+
+- Kilo server compatibility per ADR-049: contract anchor, live-verified prompt_async (204 semantics, server-assigned IDs), SSE census including kilo `sync` events, PTY HTTP surface.
+- Project selector surfaces session-derived directories; global scope splits into per-directory groups.
+- Sidebar timeline view: all sessions across directories, sorted by recency, directory hints, persisted as default.
+- Full directory paths wrap instead of truncating; project selector rows wrap.
+- Branding: Kilo-Walk app name across 14 locales, Android applicationId `com.yangzhouqs.kilowalk`, web/desktop titles, version line reset to 0.1.0.
+
 ## v1.265.0 - 2026-10-01
 
 > 📣 Fixed desktop code editor right-click crashes. Clipboard menus now open reliably while preserving mobile selection, read-only behavior, and light and dark themes.

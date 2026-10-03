@@ -32,13 +32,13 @@
   "appProviderCannotActivateUnhealthy": "Impossible d''activer un serveur en mauvaise santé",
   "appProviderDesktopBuildRequired": "Utilisez une build de bureau pour configurer un serveur local géré.",
   "@appProviderDesktopBuildRequired": {
-    "description": "CodeWalk UI string — appProviderDesktopBuildRequired"
+    "description": "Kilo-Walk UI string — appProviderDesktopBuildRequired"
   },
   "appProviderDesktopOnly": "Le serveur local géré n''est disponible que sur ordinateur.",
   "appProviderDetectingCommand": "Détection de la commande OpenCode...",
   "appProviderErrorBunBootstrapFailed": "L''initialisation de Bun a échoué avec le code de sortie {exitCode}.",
   "@appProviderErrorBunBootstrapFailed": {
-    "description": "CodeWalk UI string — appProviderErrorBunBootstrapFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorBunBootstrapFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -48,16 +48,16 @@
   "appProviderErrorCannotActivateUnhealthy": "Impossible d''activer un serveur en mauvaise santé",
   "appProviderErrorChecksumVerificationFailed": "La vérification de la somme de contrôle de la ressource téléchargée a échoué.",
   "@appProviderErrorChecksumVerificationFailed": {
-    "description": "CodeWalk UI string — appProviderErrorChecksumVerificationFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed"
   },
   "appProviderErrorCloudflareOAuthNotSupported": "Cloudflare Access OAuth n''est pas supporté sur cette plateforme",
   "appProviderErrorConfiguredCommandExecutionFailed": "La commande configurée n''a pas pu être exécutée.",
   "@appProviderErrorConfiguredCommandExecutionFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed"
   },
   "appProviderErrorConfiguredCommandNotFound": "La commande configurée est introuvable et {tool} n''est pas dans le PATH.",
   "@appProviderErrorConfiguredCommandNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -66,19 +66,19 @@
   },
   "appProviderErrorConfiguredCommandPathMissing": "Le chemin de la commande configurée n''existe pas.",
   "@appProviderErrorConfiguredCommandPathMissing": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing"
   },
   "appProviderErrorConfiguredCommandVersionCheckFailed": "La commande configurée existe mais la vérification de version a échoué.",
   "@appProviderErrorConfiguredCommandVersionCheckFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
   },
   "appProviderErrorDownloadAssetFailed": "Échec du téléchargement de la ressource OpenCode sélectionnée.",
   "@appProviderErrorDownloadAssetFailed": {
-    "description": "CodeWalk UI string — appProviderErrorDownloadAssetFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorDownloadAssetFailed"
   },
   "appProviderErrorExecutableNotFound": "Impossible de trouver l''exécutable de {tool} dans les fichiers extraits.",
   "@appProviderErrorExecutableNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorExecutableNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorExecutableNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -87,11 +87,11 @@
   },
   "appProviderErrorExtractArchiveFailed": "Échec de l''extraction de l''archive binaire d''OpenCode.",
   "@appProviderErrorExtractArchiveFailed": {
-    "description": "CodeWalk UI string — appProviderErrorExtractArchiveFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorExtractArchiveFailed"
   },
   "appProviderErrorFailedToStartProcess": "Échec du démarrage du processus de {tool}.",
   "@appProviderErrorFailedToStartProcess": {
-    "description": "CodeWalk UI string — appProviderErrorFailedToStartProcess",
+    "description": "Kilo-Walk UI string — appProviderErrorFailedToStartProcess",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -101,26 +101,26 @@
   "appProviderErrorInstallationFailed": "L''installation d''OpenCode a échoué.",
   "appProviderErrorInstalledButNotFoundInPath": "L''installation d''OpenCode est terminée mais la commande est introuvable dans le PATH.",
   "@appProviderErrorInstalledButNotFoundInPath": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath"
   },
   "appProviderErrorInstalledButPathNotResolved": "L''installation d''OpenCode est terminée mais le chemin de la commande n''a pas pu être résolu.",
   "@appProviderErrorInstalledButPathNotResolved": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButPathNotResolved"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved"
   },
   "appProviderErrorInvalidServerUrl": "URL du serveur invalide",
   "appProviderErrorLocalServerHealthCheckFailed": "Le serveur local a démarré mais le test de santé n''a pas été concluant.",
   "appProviderErrorManagedDesktopOnly": "Le serveur local géré n''est disponible que sur ordinateur.",
   "appProviderErrorNoCompatibleAsset": "Aucune ressource binaire OpenCode compatible n''a été trouvée.",
   "@appProviderErrorNoCompatibleAsset": {
-    "description": "CodeWalk UI string — appProviderErrorNoCompatibleAsset"
+    "description": "Kilo-Walk UI string — appProviderErrorNoCompatibleAsset"
   },
   "appProviderErrorReleaseAssetListMissing": "Les métadonnées de la dernière version ne contenaient pas la liste des ressources.",
   "@appProviderErrorReleaseAssetListMissing": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseAssetListMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing"
   },
   "appProviderErrorReleaseMetadataFetchFailed": "Échec de la récupération des métadonnées de la dernière version depuis GitHub.",
   "@appProviderErrorReleaseMetadataFetchFailed": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed"
   },
   "appProviderErrorServerAlreadyExists": "Un serveur avec cette URL existe déjà",
   "appProviderErrorServerProfileNotFound": "Profil de serveur introuvable",
@@ -128,7 +128,7 @@
   "appProviderErrorTailscaleNotSupported": "Tailscale n''est pas supporté sur cette plateforme",
   "appProviderErrorToolInstallFailed": "L''installation de {tool} a échoué avec le code de sortie {exitCode}.",
   "@appProviderErrorToolInstallFailed": {
-    "description": "CodeWalk UI string — appProviderErrorToolInstallFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorToolInstallFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -140,7 +140,7 @@
   },
   "appProviderErrorToolNotAvailable": "{tool} n''est pas disponible. Installez d''abord {runtime}.",
   "@appProviderErrorToolNotAvailable": {
-    "description": "CodeWalk UI string — appProviderErrorToolNotAvailable",
+    "description": "Kilo-Walk UI string — appProviderErrorToolNotAvailable",
     "placeholders": {
       "runtime": {
         "type": "String"
@@ -164,11 +164,11 @@
   "appProviderInvalidServerUrl": "URL du serveur invalide",
   "appProviderKnownInstallationDirectoryDetected": "Détecté à partir d''un répertoire d''installation connu.",
   "@appProviderKnownInstallationDirectoryDetected": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationDirectoryDetected"
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected"
   },
   "appProviderKnownInstallationPathRefreshHint": "Détecté à partir d''un répertoire d''installation connu. Le PATH peut nécessiter une actualisation ; rouvrez {appName} si une installation récente n''est pas encore détectée.",
   "@appProviderKnownInstallationPathRefreshHint": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationPathRefreshHint",
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint",
     "placeholders": {
       "appName": {
         "type": "String"
@@ -195,7 +195,7 @@
   "appProviderSetupOpenCodeDetected": "OpenCode détecté",
   "appProviderSetupOpenCodeNotDetected": "OpenCode non détecté",
   "appProviderSetupOpenCodeNotDetectedInstall": "La commande OpenCode n''a pas été détectée. Lancez l''installation depuis l''assistant.",
-  "appProviderSetupOpenCodeNotDetectedRefresh": "La commande OpenCode n''a pas été détectée. Si vous l''avez installée il y a un instant, actualisez les tests ou redémarrez CodeWalk pour recharger le PATH.",
+  "appProviderSetupOpenCodeNotDetectedRefresh": "La commande OpenCode n''a pas été détectée. Si vous l''avez installée il y a un instant, actualisez les tests ou redémarrez Kilo-Walk pour recharger le PATH.",
   "appProviderSetupRequirementsInstalled": "Prérequis OpenCode installés avec succès.",
   "appProviderSetupUsingOpenCodeAt": "Utilisation de la commande OpenCode à {path}",
   "appProviderStartingLocalServer": "Démarrage du serveur local...",
@@ -209,7 +209,7 @@
   "appProviderUsingCommandAt": "Utilisation de la commande OpenCode à {path}",
   "appProviderWslCheckWindowsOnly": "La vérification WSL ne s''applique qu''à Windows.",
   "@appProviderWslCheckWindowsOnly": {
-    "description": "CodeWalk UI string — appProviderWslCheckWindowsOnly"
+    "description": "Kilo-Walk UI string — appProviderWslCheckWindowsOnly"
   },
   "appShellDownloadingUpdate": "Téléchargement de la mise à jour",
   "appShellInstall": "Installer",
@@ -240,7 +240,7 @@
   "behaviorCellularDataSaver": "Économiseur de données mobiles",
   "behaviorCellularDataSaverActive": "L''économiseur de données mobiles est actif.",
   "behaviorChatLevelShare": "Partage au niveau du chat",
-  "behaviorCodeWalkReleaseChecks": "Vérifications de version CodeWalk",
+  "behaviorCodeWalkReleaseChecks": "Vérifications de version Kilo-Walk",
   "behaviorControlsOfficialGlobal": "Contrôle les paramètres globaux officiels d''OpenCode",
   "behaviorControlsUpstreamOpenCode": "Contrôle les paramètres OpenCode en amont",
   "behaviorCustomDisplayName": "Nom d''affichage personnalisé",
@@ -257,7 +257,7 @@
   "behaviorLightweightTasksLike": "Tâches légères comme",
   "behaviorManual": "Manuel",
   "behaviorNotify": "Notifier",
-  "behaviorOfficialOpenCodePermission": "La politique officielle de permissions d''OpenCode est configurée dans `opencode.json` avec des règles autoriser/demander/refuser par outil. CodeWalk conserve les cartes officielles de demande de permission et ajoute une exception approuvée selon l''ADR-023 : le bouton d''approbation automatique de l''éditeur de message répond par `Always` et `remember: true` de manière inconditionnelle pour créer des autorisations durables limitées à la session, et maintient le même chemin de continuité limité au thread actif dans le processus d''arrière-plan Android.",
+  "behaviorOfficialOpenCodePermission": "La politique officielle de permissions d''OpenCode est configurée dans `opencode.json` avec des règles autoriser/demander/refuser par outil. Kilo-Walk conserve les cartes officielles de demande de permission et ajoute une exception approuvée selon l''ADR-023 : le bouton d''approbation automatique de l''éditeur de message répond par `Always` et `remember: true` de manière inconditionnelle pour créer des autorisations durables limitées à la session, et maintient le même chemin de continuité limité au thread actif dans le processus d''arrière-plan Android.",
   "behaviorOpenCodeBackedDefaults": "Valeurs par défaut basées sur OpenCode",
   "behaviorPermissionHandlingProvenance": "Provenance de la gestion des permissions",
   "behaviorPermissionsVariantReasoning": "Les permissions et la parité variante/raisonnement restent séparées jusqu''à ce que leur interface utilisateur puisse préserver la configuration avancée en toute sécurité.",
@@ -379,11 +379,11 @@
   "chatMainConversationUnavailable": "La conversation principale n''est pas encore disponible.",
   "chatNoResponseFromModel": "Aucune réponse du modèle. Veuillez réessayer.",
   "@chatNoResponseFromModel": {
-    "description": "CodeWalk UI string — chatNoResponseFromModel"
+    "description": "Kilo-Walk UI string — chatNoResponseFromModel"
   },
   "chatNoResponseFromServer": "Aucune réponse du serveur. Veuillez réessayer.",
   "@chatNoResponseFromServer": {
-    "description": "CodeWalk UI string — chatNoResponseFromServer"
+    "description": "Kilo-Walk UI string — chatNoResponseFromServer"
   },
   "chatParentConversationUnavailable": "La conversation parente n''est pas encore disponible.",
   "chatMentionAgentSubtitle": "agent",
@@ -726,7 +726,7 @@
   "logsFilterAll": "Tous",
   "logsFilterByTag": "Tag",
   "logsLevel": "Niveau",
-  "logsLoggingDisabledDescription": "CodeWalk ne collecte pas de logs détaillés de l''app. Activez les logs uniquement lorsque vous avez besoin d''un diagnostic.",
+  "logsLoggingDisabledDescription": "Kilo-Walk ne collecte pas de logs détaillés de l''app. Activez les logs uniquement lorsque vous avez besoin d''un diagnostic.",
   "logsLoggingDisabledTitle": "Logs désactivés",
   "logsMeasurePerformance": "Mesurer les performances",
   "logsMeasurePerformanceDescription": "Capture la durée des opérations coûteuses. Laissez désactivé sauf pour diagnostiquer une lenteur.",
@@ -764,7 +764,7 @@
   "modelRetryModels": "Réessayer les modèles",
   "modelSearchHint": "Rechercher un modèle ou un fournisseur",
   "msgBatterySettingsFailed": "Impossible d''ouvrir les paramètres d''optimisation de la batterie d''Android.",
-  "msgBatterySettingsOpened": "Paramètres de la batterie Android ouverts. Autorisez une utilisation sans restriction de la batterie pour CodeWalk.",
+  "msgBatterySettingsOpened": "Paramètres de la batterie Android ouverts. Autorisez une utilisation sans restriction de la batterie pour Kilo-Walk.",
   "msgClearUsernameNeedsConfigEdit": "Effacer le nom d''utilisateur de la conversation OpenCode nécessite toujours de modifier la configuration en dehors de l''application.",
   "msgCommandCopied": "Commande copiée",
   "msgCopiedToClipboard": "Copié dans le presse-papiers",
@@ -796,7 +796,7 @@
   "msgSetupDebugCopied": "Débogage de la configuration d''OpenCode copié dans le presse-papiers",
   "msgShareAsImage": "Partager sous forme d''image",
   "msgShareAsImageFailed": "Impossible de partager le message sous forme d''image.",
-  "msgShareAsImageSubject": "Message CodeWalk",
+  "msgShareAsImageSubject": "Message Kilo-Walk",
   "msgShareAsImageTooTall": "Le message est trop long pour être partagé sous forme d''image.",
   "msgStopReadAloud": "Arrêter la lecture",
   "msgPauseReadAloud": "Mettre la lecture en pause",
@@ -806,7 +806,7 @@
   "msgVoiceInputUnavailable": "La saisie vocale n''est pas disponible sur cet appareil",
   "notifAndroidBatteryOptimization": "Optimisation de la batterie Android",
   "notifConversationUpdates": "Mises à jour de la conversation",
-  "notifNotificationsArriveReopening": "Si les notifications n''arrivent que lors de la réouverture de l''application, autorisez CodeWalk à s''exécuter sans optimisation sur cet appareil.",
+  "notifNotificationsArriveReopening": "Si les notifications n''arrivent que lors de la réouverture de l''application, autorisez Kilo-Walk à s''exécuter sans optimisation sur cet appareil.",
   "notifResponseRunningKeep": "Lorsqu''une réponse est en cours d''exécution, garder le temps réel actif brièvement après avoir quitté l''application.",
   "notifSelectedSoundLabel": "Sélectionné : {soundLabel}",
   "notificationAgentFinished": "L''agent a terminé la réponse actuelle.",
@@ -817,7 +817,7 @@
   "onboardingAIGeneratedTitles": "Titres générés par l''IA",
   "onboardingAddServerLater": "Vous pouvez ajouter un serveur plus tard dans Paramètres > Serveurs.",
   "onboardingAddedButHealthCheckFailed": "Serveur ajouté mais le test de santé a échoué. Il est peut-être encore en train de démarrer.",
-  "onboardingAlmostInstallOpenCode": "Vous y êtes presque. Installez d''abord OpenCode, puis connectez CodeWalk à l''URL du serveur.",
+  "onboardingAlmostInstallOpenCode": "Vous y êtes presque. Installez d''abord OpenCode, puis connectez Kilo-Walk à l''URL du serveur.",
   "onboardingAppProviderLocalSetupLogsLength": "{length} lignes de journal de configuration et {length2} événements de configuration sont disponibles dans l''écran de débogage de configuration séparé.",
   "onboardingAuthenticate": "S''authentifier",
   "onboardingAvailable": "disponible",
@@ -827,7 +827,7 @@
   "onboardingChooseHowToSetup": "Choisissez comment configurer votre serveur",
   "onboardingClear": "Effacer",
   "onboardingCloudflareAuthFailed": "L''authentification Cloudflare Access a échoué.",
-  "onboardingCodeWalkAppOpenCode": "CodeWalk est l''application. OpenCode est le moteur auquel elle se connecte.",
+  "onboardingCodeWalkAppOpenCode": "Kilo-Walk est l''application. OpenCode est le moteur auquel elle se connecte.",
   "onboardingConnectRunningServer": "Se connecter à un serveur en cours d''exécution",
   "onboardingConnectionIssue": "Problème de connexion",
   "onboardingConnectionSaved": "Connexion au serveur enregistrée avec succès.",
@@ -847,7 +847,7 @@
   "onboardingEmulatorRemap": "Sur l''émulateur Android, localhost et 127.0.0.1 sont automatiquement redirigés vers 10.0.2.2.",
   "onboardingEnterServerUrl": "Entrez l''URL du serveur",
   "onboardingExisting": "Utiliser l''existant",
-  "onboardingExplainInstallOpenCode": "Expliquer comment installer OpenCode, démarrer le serveur, puis se connecter depuis CodeWalk.",
+  "onboardingExplainInstallOpenCode": "Expliquer comment installer OpenCode, démarrer le serveur, puis se connecter depuis Kilo-Walk.",
   "onboardingFailed": "Échec",
   "onboardingGoodOptionDesktop": "Bonne première option sur ordinateur",
   "onboardingHealthCheckFailedMayBeStarting": "Le test de santé du serveur a échoué. Il est peut-être encore en train de démarrer.",
@@ -855,12 +855,12 @@
   "onboardingInstallBun": "Installer via Bun",
   "onboardingInstallBunOpenCode": "Installer Bun + OpenCode",
   "onboardingInstallNpm": "Installer via npm",
-  "onboardingInstallRunOpenCode": "Installer et exécuter OpenCode directement depuis CodeWalk sur ordinateur.",
+  "onboardingInstallRunOpenCode": "Installer et exécuter OpenCode directement depuis Kilo-Walk sur ordinateur.",
   "onboardingInvalidUrl": "URL invalide",
   "onboardingLabel": "Libellé (facultatif)",
   "onboardingLabelHint": "Mon serveur",
   "onboardingLatestOutputAppProvider": "Dernière sortie : {localServerLastOutput}",
-  "onboardingLetCodeWalkSet": "Laisser CodeWalk le configurer localement",
+  "onboardingLetCodeWalkSet": "Laisser Kilo-Walk le configurer localement",
   "onboardingLocalServerSetup": "Configuration du serveur local",
   "onboardingManagedLocalServer": "Serveur local géré",
   "onboardingManagedLocalServer2": "Le mode serveur local géré est disponible uniquement sur les builds de bureau (Linux/macOS/Windows).",
@@ -869,7 +869,7 @@
   "onboardingNotWritable": "non accessible en écriture",
   "onboardingOpenCode": "Qu''est-ce qu''OpenCode ?",
   "onboardingOpenCodeRunningDevice": "J''ai déjà OpenCode en cours d''exécution sur cet appareil ou quelque part sur mon réseau.",
-  "onboardingOpenCodeRunsLocally": "OpenCode s''exécute localement ou sur un serveur et alimente les fonctionnalités de codage IA dans CodeWalk. Si OpenCode est déjà en cours d''exécution, connectez-vous-y. Sinon, choisissez l''un des parcours de configuration guidés ci-dessous.",
+  "onboardingOpenCodeRunsLocally": "OpenCode s''exécute localement ou sur un serveur et alimente les fonctionnalités de codage IA dans Kilo-Walk. Si OpenCode est déjà en cours d''exécution, connectez-vous-y. Sinon, choisissez l''un des parcours de configuration guidés ci-dessous.",
   "onboardingOpenTailscaleLogin": "Impossible d''ouvrir l''URL de connexion Tailscale.",
   "onboardingPassword": "Mot de passe",
   "onboardingPasswordRequired": "Entrez le mot de passe",
@@ -884,7 +884,7 @@
   "onboardingPreconditionWindowsWslRecommendation": "Build Windows détecté. WSL est recommandé par la documentation d''OpenCode, mais npm install peut être utilisé en dernier recours.",
   "onboardingReachable": "accessible",
   "onboardingReady": "Prêt",
-  "onboardingRecommendedOrderTry": "Ordre recommandé : essayez Installer Bun + OpenCode si vous voulez que CodeWalk configure tout automatiquement. Utilisez l''existant si OpenCode est déjà installé.",
+  "onboardingRecommendedOrderTry": "Ordre recommandé : essayez Installer Bun + OpenCode si vous voulez que Kilo-Walk configure tout automatiquement. Utilisez l''existant si OpenCode est déjà installé.",
   "onboardingRefreshChecks": "Actualiser les vérifications",
   "onboardingRunDiagnosticsToVerify": "Exécutez les diagnostics pour vérifier les prérequis locaux d''OpenCode.",
   "onboardingSaveAndTest": "Enregistrer et tester",
@@ -926,7 +926,7 @@
   "onboardingUsingDetectedCommand": "Utilisation de la commande OpenCode détectée.",
   "onboardingViewSetupDebug": "Voir le débogage de la configuration",
   "onboardingWelcomeTo": "Bienvenue sur {appName}",
-  "onboardingWindowsTipInstalling": "Astuce Windows : après l''installation, cliquez sur Actualiser les vérifications. Si la détection échoue toujours, rouvrez CodeWalk pour recharger les modifications du PATH.",
+  "onboardingWindowsTipInstalling": "Astuce Windows : après l''installation, cliquez sur Actualiser les vérifications. Si la détection échoue toujours, rouvrez Kilo-Walk pour recharger les modifications du PATH.",
   "onboardingWritable": "accessible en écriture",
   "onboardingYoureAllSet": "Tout est prêt !",
   "permissionAllowOnce": "Autoriser une fois",
@@ -981,7 +981,7 @@
   "serversDefault": "Par défaut",
   "serversDelete": "Supprimer",
   "serversDeleteServer": "Supprimer le serveur",
-  "serversDesktopModeExplanation": "Le mode bureau peut lancer et gérer `opencode serve` directement depuis CodeWalk.",
+  "serversDesktopModeExplanation": "Le mode bureau peut lancer et gérer `opencode serve` directement depuis Kilo-Walk.",
   "serversEdit": "Modifier",
   "serversLocalOpenCodeServer": "Serveur local OpenCode",
   "serversManagedModeAvailable": "Ce mode géré est disponible uniquement sur les builds de bureau (Linux/macOS/Windows).",
@@ -1004,19 +1004,19 @@
   "serversTailscaleLoginExplanation": "Ouvrez l''URL de connexion Tailscale pour ajouter cet appareil à votre tailnet.",
   "serversTailscaleLogout": "Se déconnecter",
   "@serversTailscaleLogout": {
-    "description": "CodeWalk UI string — serversTailscaleLogout"
+    "description": "Kilo-Walk UI string — serversTailscaleLogout"
   },
   "serversTailscaleLogoutConfirmMessage": "Cet appareil quittera le tailnet. Vous pourrez vous reconnecter à tout moment.",
   "@serversTailscaleLogoutConfirmMessage": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmMessage"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmMessage"
   },
   "serversTailscaleLogoutConfirmTitle": "Se déconnecter de Tailscale ?",
   "@serversTailscaleLogoutConfirmTitle": {
-    "description": "CodeWalk UI string — serversTailscaleLogoutConfirmTitle"
+    "description": "Kilo-Walk UI string — serversTailscaleLogoutConfirmTitle"
   },
   "serversTailscaleReconnect": "Reconnecter",
   "@serversTailscaleReconnect": {
-    "description": "CodeWalk UI string — serversTailscaleReconnect"
+    "description": "Kilo-Walk UI string — serversTailscaleReconnect"
   },
   "serversTailscaleTrafficExplanation": "Le trafic OpenCode pour ce profil actif est acheminé via Tailscale.",
   "serversTailscaleUnsupported": "Tailscale non pris en charge",
@@ -1030,55 +1030,55 @@
   "sessionArchive": "Archiver",
   "sessionAttentionKindActive": "Actif",
   "@sessionAttentionKindActive": {
-    "description": "CodeWalk UI string — sessionAttentionKindActive"
+    "description": "Kilo-Walk UI string — sessionAttentionKindActive"
   },
   "sessionAttentionKindCompleted": "Terminé",
   "@sessionAttentionKindCompleted": {
-    "description": "CodeWalk UI string — sessionAttentionKindCompleted"
+    "description": "Kilo-Walk UI string — sessionAttentionKindCompleted"
   },
   "sessionAttentionKindDelayed": "Retardé",
   "@sessionAttentionKindDelayed": {
-    "description": "CodeWalk UI string — sessionAttentionKindDelayed"
+    "description": "Kilo-Walk UI string — sessionAttentionKindDelayed"
   },
   "sessionAttentionKindError": "Erreur",
   "@sessionAttentionKindError": {
-    "description": "CodeWalk UI string — sessionAttentionKindError"
+    "description": "Kilo-Walk UI string — sessionAttentionKindError"
   },
   "sessionAttentionKindPendingInteraction": "Interaction en attente",
   "@sessionAttentionKindPendingInteraction": {
-    "description": "CodeWalk UI string — sessionAttentionKindPendingInteraction"
+    "description": "Kilo-Walk UI string — sessionAttentionKindPendingInteraction"
   },
   "sessionAttentionKindReceiving": "Réception",
   "@sessionAttentionKindReceiving": {
-    "description": "CodeWalk UI string — sessionAttentionKindReceiving"
+    "description": "Kilo-Walk UI string — sessionAttentionKindReceiving"
   },
   "sessionAttentionPauseCellularDataSaver": "L''économiseur de données mobiles est actif",
   "@sessionAttentionPauseCellularDataSaver": {
-    "description": "CodeWalk UI string — sessionAttentionPauseCellularDataSaver"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver"
   },
   "sessionAttentionPauseHostUnavailable": "Hôte indisponible",
   "@sessionAttentionPauseHostUnavailable": {
-    "description": "CodeWalk UI string — sessionAttentionPauseHostUnavailable"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseHostUnavailable"
   },
   "sessionAttentionPauseOauthReopenRequired": "Connexion OAuth requise",
   "@sessionAttentionPauseOauthReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOauthReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired"
   },
   "sessionAttentionPauseOffline": "Hors ligne",
   "@sessionAttentionPauseOffline": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOffline"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOffline"
   },
   "sessionAttentionPausePermissionRevoked": "Autorisation révoquée",
   "@sessionAttentionPausePermissionRevoked": {
-    "description": "CodeWalk UI string — sessionAttentionPausePermissionRevoked"
+    "description": "Kilo-Walk UI string — sessionAttentionPausePermissionRevoked"
   },
   "sessionAttentionPauseServiceStopped": "Service arrêté",
   "@sessionAttentionPauseServiceStopped": {
-    "description": "CodeWalk UI string — sessionAttentionPauseServiceStopped"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseServiceStopped"
   },
   "sessionAttentionPauseTailscaleReopenRequired": "Connexion Tailscale requise",
   "@sessionAttentionPauseTailscaleReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired"
   },
   "sessionCancelRename": "Annuler le renommage",
   "sessionChildrenCount": "Sous-conversations : {count}",
@@ -1202,17 +1202,17 @@
   "settingsAppearanceBrandColor": "Couleur de marque",
   "settingsAppearanceBrandColorDynamicBlocked": "Désactivez les couleurs du fond d''écran pour choisir une couleur de marque.",
   "settingsAppearanceBrandColorNormal": "Choisissez une couleur de départ pour la palette de l''application.",
-  "settingsAppearanceBrandColorPresetBlocked": "Basculez vers CodeWalk Classique pour choisir une couleur de marque.",
+  "settingsAppearanceBrandColorPresetBlocked": "Basculez vers Kilo-Walk Classique pour choisir une couleur de marque.",
   "settingsAppearanceChatFontScale": "Taille du texte de conversation",
   "settingsAppearanceChatFontScaleDescription": "Mettez à l''échelle le texte des messages de discussion et du composer en plus de la taille du texte système.",
-  "settingsAppearanceCodeWalkClassic": "CodeWalk Classique",
+  "settingsAppearanceCodeWalkClassic": "Kilo-Walk Classique",
   "settingsAppearanceComposerTips": "Conseils de l''éditeur de message",
   "settingsAppearanceComposerTipsDescription": "Afficher ou masquer les conseils rotatifs pendant que l''assistant réfléchit.",
   "settingsAppearanceContrast": "Contraste",
   "settingsAppearanceContrastDynamicBlocked": "Désactivez les couleurs du fond d''écran pour ajuster le contraste.",
   "settingsAppearanceContrastHigh": "Élevé",
   "settingsAppearanceContrastNormal": "Ajustez le niveau de contraste du schéma de couleurs.",
-  "settingsAppearanceContrastPresetBlocked": "Basculez vers CodeWalk Classique pour ajuster le contraste.",
+  "settingsAppearanceContrastPresetBlocked": "Basculez vers Kilo-Walk Classique pour ajuster le contraste.",
   "settingsAppearanceContrastReduced": "Réduit",
   "settingsAppearanceDark": "Sombre",
   "settingsAppearanceDensity": "Densité",
@@ -1244,7 +1244,7 @@
   "settingsAppearanceTerminalFontSize": "Taille du texte du terminal",
   "settingsAppearanceTerminalFontSizeDescription": "Redimensionnez la police du terminal intégré. S''applique immédiatement aux sessions en cours.",
   "settingsAppearanceTheme": "Thème",
-  "settingsAppearanceThemeDescription": "Choisissez le mode clair, sombre ou système, puis conservez la palette classique de CodeWalk ou passez à un préréglage OpenCode.",
+  "settingsAppearanceThemeDescription": "Choisissez le mode clair, sombre ou système, puis conservez la palette classique de Kilo-Walk ou passez à un préréglage OpenCode.",
   "settingsAppearanceVisualStyle": "Style visuel",
   "settingsAppearanceVisualStyleDescription": "Choisissez le style classique ou des surfaces raffinées plus douces.",
   "settingsAppearanceVisualStyleClassic": "Classique",
@@ -1256,7 +1256,7 @@
   "settingsAppearanceToolCallBubblesDescription": "Afficher ou masquer les cartes d''exécution d''outil dans les messages de l''assistant.",
   "settingsAppearanceWallpaperColors": "Utiliser les couleurs du fond d''écran",
   "settingsAppearanceWallpaperNormal": "Extraire le schéma de couleurs du fond d''écran de votre appareil.",
-  "settingsAppearanceWallpaperPresetBlocked": "Basculez vers CodeWalk Classique pour utiliser les couleurs du fond d''écran.",
+  "settingsAppearanceWallpaperPresetBlocked": "Basculez vers Kilo-Walk Classique pour utiliser les couleurs du fond d''écran.",
   "settingsAppearanceWindowChrome": "Onglets de la fenêtre",
   "settingsAppearanceWindowChromeDescription": "Choisissez comment les onglets de session et la barre de titre sont combinés sur ordinateur.",
   "settingsAppearanceWindowChromeIntegrated": "Onglets intégrés",
@@ -1264,8 +1264,8 @@
   "settingsAppearanceWindowChromeSystem": "Décoration système",
   "settingsAppearanceWindowChromeSystemDescription": "Conserve la barre de titre native et affiche les onglets sous la barre d’application.",
   "settingsBack": "Retour",
-  "settingsBehaviorAutoupdateCaveat": "Utilisez À propos pour les vérifications de version de CodeWalk. Ce paramètre reflète uniquement la configuration officielle `autoupdate` d''OpenCode.",
-  "settingsBehaviorAutoupdateHelp": "Contrôle les mises à jour du moteur d''exécution OpenCode en amont, et non les vérifications de mise à jour de l''application CodeWalk.",
+  "settingsBehaviorAutoupdateCaveat": "Utilisez À propos pour les vérifications de version de Kilo-Walk. Ce paramètre reflète uniquement la configuration officielle `autoupdate` d''OpenCode.",
+  "settingsBehaviorAutoupdateHelp": "Contrôle les mises à jour du moteur d''exécution OpenCode en amont, et non les vérifications de mise à jour de l''application Kilo-Walk.",
   "settingsBehaviorCellularDataSaver": "Économiseur de données mobiles",
   "settingsBehaviorChatRenderMode": "Mode de rendu de la discussion",
   "settingsBehaviorChatRenderModeBlock": "Bloc",
@@ -1275,7 +1275,7 @@
   "settingsBehaviorChatRenderModeLiveDescription": "Affichez le texte de l''assistant, le raisonnement et l''activité des outils pendant qu''OpenCode diffuse les événements.",
   "settingsBehaviorComposerSpellCheck": "Vérification orthographique du composer",
   "settingsBehaviorComposerSpellCheckDescription": "Utilisez la vérification orthographique, les suggestions et la correction automatique natives de la plateforme dans le composer de discussion.",
-  "settingsBehaviorConfigDeferred": "CodeWalk appliquera ce paramètre OpenCode après la fin de la réponse actuelle.",
+  "settingsBehaviorConfigDeferred": "Kilo-Walk appliquera ce paramètre OpenCode après la fin de la réponse actuelle.",
   "settingsBehaviorConfigUpdateFailed": "Impossible de mettre à jour le champ OpenCode {field}.",
   "settingsBehaviorConversationUsername": "Nom d''utilisateur de conversation",
   "settingsBehaviorConversationUsernameHelp": "Nom d''affichage personnalisé affiché dans les conversations au lieu du nom d''utilisateur système.",
@@ -1301,7 +1301,7 @@
   "settingsBehaviorOpenCodeSnapshotsDescription": "Garder les instantanés en amont basés sur git activés pour l''annulation/rétablissement et l''historique de récupération.",
   "settingsBehaviorPermissionDeferred": "L''édition avancée des règles de permission reste en dehors des paramètres pour le moment et est reportée à des travaux de parité ultérieurs.",
   "settingsBehaviorPermissionProvenance": "Provenance de la gestion des permissions",
-  "settingsBehaviorPermissionProvenanceDescription": "La politique officielle de permissions d''OpenCode est configurée dans `opencode.json` avec des règles autoriser/demander/refuser par outil. CodeWalk conserve les cartes officielles de demande de permission et ajoute une exception approuvée selon l''ADR-023 : le bouton d''approbation automatique de l''éditeur de message répond par `Always` et `remember: true` de manière inconditionnelle pour créer des autorisations durables limitées à la session, et maintient le même chemin de continuité limité au thread actif dans le processus d''arrière-plan Android.",
+  "settingsBehaviorPermissionProvenanceDescription": "La politique officielle de permissions d''OpenCode est configurée dans `opencode.json` avec des règles autoriser/demander/refuser par outil. Kilo-Walk conserve les cartes officielles de demande de permission et ajoute une exception approuvée selon l''ADR-023 : le bouton d''approbation automatique de l''éditeur de message répond par `Always` et `remember: true` de manière inconditionnelle pour créer des autorisations durables limitées à la session, et maintient le même chemin de continuité limité au thread actif dans le processus d''arrière-plan Android.",
   "settingsBehaviorRefreshDefaults": "Actualiser les valeurs par défaut",
   "settingsBehaviorSaveUsername": "Enregistrer le nom d''utilisateur",
   "settingsBehaviorSearchAutoupdate": "Rechercher le mode de mise à jour automatique",
@@ -1317,16 +1317,16 @@
   "settingsBehaviorSmallModelFallbackActive": "Le repli automatique d''OpenCode est actif car `small_model` n''est pas défini.",
   "settingsBehaviorSmallModelHelp": "Utilisé pour des tâches légères comme la génération de titres.",
   "settingsBehaviorSmallModelResetCaveat": "Rétablir `small_model` au repli automatique nécessite toujours de modifier la configuration en dehors de l''application car les mises à jour de correctifs `/config` ne peuvent pas supprimer de clés.",
-  "settingsBehaviorSnapshotCaveat": "Cela contrôle le stockage des instantanés OpenCode et la prise en charge de l''annulation/rétablissement, et non les instantanés du cache local de CodeWalk.",
+  "settingsBehaviorSnapshotCaveat": "Cela contrôle le stockage des instantanés OpenCode et la prise en charge de l''annulation/rétablissement, et non les instantanés du cache local de Kilo-Walk.",
   "settingsBehaviorTitle": "Comportement",
   "settingsBehaviorUsernameFallback": "OpenCode utilise le nom d''utilisateur système car `username` n''est pas défini.",
   "settingsBehaviorUsernamePatchCaveat": "Rétablir `username` à sa valeur par défaut du système nécessite toujours de modifier la configuration en dehors de l''application car les mises à jour de correctifs `/config` ne peuvent pas supprimer de clés.",
   "settingsConfigRefreshFailed": "Paramètre du serveur mis à jour, mais impossible d''actualiser les fournisseurs de discussion.",
-  "settingsConfigUpdateDeferred": "CodeWalk appliquera ce paramètre OpenCode après la fin de la réponse actuelle.",
+  "settingsConfigUpdateDeferred": "Kilo-Walk appliquera ce paramètre OpenCode après la fin de la réponse actuelle.",
   "settingsConversationUsername": "Nom d''utilisateur de la conversation",
   "settingsDefaultAgent": "Agent par défaut",
   "settingsDefaultModel": "Modèle par défaut",
-  "settingsLanguageDescription": "Choisissez la langue utilisée par CodeWalk. Par défaut, le système suit la langue de votre appareil.",
+  "settingsLanguageDescription": "Choisissez la langue utilisée par Kilo-Walk. Par défaut, le système suit la langue de votre appareil.",
   "settingsLanguageEmptyText": "Aucune langue trouvée",
   "settingsLanguageFieldHelper": "S''applique immédiatement et persiste après les redémarrages.",
   "settingsLanguageFieldLabel": "Langue de l''application",
@@ -1342,12 +1342,12 @@
   "settingsNotificationsAppInBackground": "Application en arrière-plan",
   "settingsNotificationsBackgroundAlerts": "Alertes en arrière-plan Android",
   "settingsNotificationsBackgroundBehavior": "Comportement en arrière-plan",
-  "settingsNotificationsBackgroundBehaviorDescription": "Choisissez le comportement de CodeWalk après que l''application a quitté le premier plan.",
+  "settingsNotificationsBackgroundBehaviorDescription": "Choisissez le comportement de Kilo-Walk après que l''application a quitté le premier plan.",
   "settingsNotificationsBackgroundDescription": "Utilisez la surveillance en arrière-plan à faible consommation de données pour les fins de réponse, les demandes de permissions, les questions et les erreurs lorsque l''application n''est pas à l''écran.",
   "settingsNotificationsBackgroundToggle": "Alertes en arrière-plan sur Android",
   "settingsNotificationsBackgroundToggleDescription": "Désactiver toutes les vérifications en arrière-plan Android et masquer la notification de surveillance persistante.",
-  "settingsNotificationsBatteryDescription": "Si les notifications n''arrivent que lors de la réouverture de l''application, autorisez CodeWalk à s''exécuter sans optimisation sur cet appareil.",
-  "settingsNotificationsBatteryDisabled": "L''optimisation de la batterie est désactivée pour CodeWalk.",
+  "settingsNotificationsBatteryDescription": "Si les notifications n''arrivent que lors de la réouverture de l''application, autorisez Kilo-Walk à s''exécuter sans optimisation sur cet appareil.",
+  "settingsNotificationsBatteryDisabled": "L''optimisation de la batterie est désactivée pour Kilo-Walk.",
   "settingsNotificationsBatteryEnabled": "L''optimisation de la batterie est activée. Certains appareils peuvent retarder les alertes en arrière-plan.",
   "settingsNotificationsBatteryOptimization": "Optimisation de la batterie Android",
   "settingsNotificationsBatteryUnknown": "Impossible de lire le statut d''optimisation de la batterie pour le moment.",
@@ -1447,7 +1447,7 @@
   "setupDebugCapturedSetupLogs": "Journaux de configuration capturés",
   "setupDebugClear": "Effacer le débogage de la configuration",
   "setupDebugClearSetupDebug": "Effacer le débogage de la configuration",
-  "setupDebugCodeWalkCaptureEnough": "Si CodeWalk n''a pas capturé assez de contexte, vérifiez directement les journaux officiels et les points de terminaison d''état de santé d''OpenCode :",
+  "setupDebugCodeWalkCaptureEnough": "Si Kilo-Walk n''a pas capturé assez de contexte, vérifiez directement les journaux officiels et les points de terminaison d''état de santé d''OpenCode :",
   "setupDebugCommandPath": "Chemin de la commande",
   "setupDebugCommandPath2": "Chemin de la commande",
   "setupDebugCopy": "Copier le débogage de la configuration",
@@ -1476,7 +1476,7 @@
   "setupDebugPlatform": "Plateforme",
   "setupDebugPlatform2": "Plateforme",
   "setupDebugRunDiagnosticsTry": "Exécutez des diagnostics, essayez une méthode d''installation ou tentez une procédure de configuration pour capturer ici les détails de dépannage spécifiques à OpenCode.",
-  "setupDebugScreenCoversOpenCode": "Cet écran couvre uniquement l''installation, les diagnostics et le dépannage de la configuration locale d''OpenCode. Utilisez les journaux de l''application pour les problèmes généraux d''exécution de CodeWalk.",
+  "setupDebugScreenCoversOpenCode": "Cet écran couvre uniquement l''installation, les diagnostics et le dépannage de la configuration locale d''OpenCode. Utilisez les journaux de l''application pour les problèmes généraux d''exécution de Kilo-Walk.",
   "setupDebugServerOutput": "Dernière sortie du serveur local",
   "setupDebugStatus": "Statut actuel",
   "setupDebugTimeEntrySource": "{time} - {source}",
@@ -1525,20 +1525,20 @@
   "shortcutsReset": "Tout réinitialiser",
   "shortcutsSearchEditBindings": "Recherchez, modifiez les affectations et résolvez les conflits avant d''enregistrer.",
   "shortcutsSetShortcutWidget": "Définir le raccourci : {label}",
-  "shortcutsTheseBindingsStored": "Ces affectations sont stockées dans CodeWalk pour la durée d''exécution actuelle de l''application et ne modifient pas les raccourcis clavier `tui.json` d''OpenCode.",
+  "shortcutsTheseBindingsStored": "Ces affectations sont stockées dans Kilo-Walk pour la durée d''exécution actuelle de l''application et ne modifient pas les raccourcis clavier `tui.json` d''OpenCode.",
   "speechAutoStopSilence": "Délai d''inactivité de silence pour arrêt automatique",
   "speechChooseRecognitionEngine": "Choisissez le moteur de reconnaissance, le délai d''inactivité de silence et les options de modèle.",
   "speechDesktopOnly": "{service} est disponible sur ordinateur uniquement.",
   "speechDownload": "Télécharger",
   "speechEdgeCancelled": "Microsoft Edge Speech a été annulé.",
   "@speechEdgeCancelled": {
-    "description": "CodeWalk UI string — speechEdgeCancelled"
+    "description": "Kilo-Walk UI string — speechEdgeCancelled"
   },
   "speechEngine": "Moteur",
   "speechInstalledLanguages": "Langues installées",
   "speechJobCancelled": "La tâche de synthèse a été annulée.",
   "@speechJobCancelled": {
-    "description": "CodeWalk UI string — speechJobCancelled"
+    "description": "Kilo-Walk UI string — speechJobCancelled"
   },
   "speechListeningStopsAutomatically": "L''écoute s''arrête automatiquement après ce nombre de secondes de silence.",
   "speechMicPermissionDisabled": "L''autorisation du microphone est désactivée.",
@@ -1548,7 +1548,7 @@
   "speechMoonshineStaysDownloadable": "Moonshine reste téléchargeable et en dehors du paquet de l''application. Choisissez un modèle pour cet ordinateur et supprimez-le plus tard si vous souhaitez libérer de l''espace.",
   "speechNative": "Natif",
   "speechNativeSTTDisabled": "La transcription vocale native est désactivée sur Linux dans cette application. Parakeet est le moteur par défaut pour les nouvelles installations.",
-  "speechNativeSTTWorks": "Sous Windows, CodeWalk utilise la reconnaissance vocale locale sur l''appareil via son backend de microphone WASAPI. La reconnaissance vocale native de Windows est désactivée pour des raisons de stabilité.",
+  "speechNativeSTTWorks": "Sous Windows, Kilo-Walk utilise la reconnaissance vocale locale sur l''appareil via son backend de microphone WASAPI. La reconnaissance vocale native de Windows est désactivée pour des raisons de stabilité.",
   "speechNativeStartsFaster": "Le mode natif démarre plus rapidement. Sherpa s''exécute entièrement sur l''appareil avec une configuration plus lourde et un contrôle de modèle plus approfondi.",
   "speechOpenMicrophoneSettings": "Ouvrir les paramètres du microphone",
   "speechOpenSpeechPrivacy": "Ouvrir la confidentialité de la parole",
@@ -1567,7 +1567,7 @@
   "speechSherpaModelsLinux": "Modèles Sherpa (Linux)",
   "speechSpeechText": "Reconnaissance vocale",
   "speechUnavailableOnPlatform": "La parole {service} n''est pas disponible sur cette plateforme.",
-  "speechWindowsSetupHint": "La saisie vocale de Windows utilise la capture WASAPI de CodeWalk avec des modèles sur l''appareil. Laissez l''accès au microphone pour les applications de bureau activé ; les boutons ci-dessous ouvrent les paramètres Windows pour le dépannage.",
+  "speechWindowsSetupHint": "La saisie vocale de Windows utilise la capture WASAPI de Kilo-Walk avec des modèles sur l''appareil. Laissez l''accès au microphone pour les applications de bureau activé ; les boutons ci-dessous ouvrent les paramètres Windows pour le dépannage.",
   "statusConnected": "Connecté",
   "statusDelayed": "Retardé",
   "statusFailed": "Échec",
@@ -1588,7 +1588,7 @@
   "terminalConnectingTo": "Connexion au terminal de {serverName}...",
   "terminalConnectionFailed": "Échec de la connexion au terminal : {error}",
   "terminalDisconnected": "Terminal déconnecté.",
-  "terminalEmbeddedUnavailable": "Le terminal intégré n''est pas encore disponible sur ce runtime. Continuez à utiliser le mode shell du compositeur pour les commandes ponctuelles ou ouvrez le terminal depuis un runtime d''application CodeWalk supporté pour {serverName}.",
+  "terminalEmbeddedUnavailable": "Le terminal intégré n''est pas encore disponible sur ce runtime. Continuez à utiliser le mode shell du compositeur pour les commandes ponctuelles ou ouvrez le terminal depuis un runtime d''application Kilo-Walk supporté pour {serverName}.",
   "terminalExtraKeyAlt": "Touche Alt",
   "terminalExtraKeyArrowDown": "Flèche vers le bas",
   "terminalExtraKeyArrowLeft": "Flèche vers la gauche",
@@ -1719,18 +1719,18 @@
   "settingsNotificationsSystemSoundsFreedesktop": "Sons Freedesktop issus de /usr/share/sounds/freedesktop/stereo.",
   "settingsNotificationsSystemSoundsPlatform": "Pris en charge lorsque le système d''exploitation expose des sons système.",
   "serversQuickGuideTitle": "Configuration rapide",
-  "serversQuickGuideIntro": "CodeWalk est l''application. OpenCode est le moteur qui doit être en cours d''exécution pour que cette connexion fonctionne.",
+  "serversQuickGuideIntro": "Kilo-Walk est l''application. OpenCode est le moteur qui doit être en cours d''exécution pour que cette connexion fonctionne.",
   "serversQuickGuideStepInstallCli": "1. Installez le CLI OpenCode.",
   "serversQuickGuideRunPowerShell": "2. Exécutez dans PowerShell :",
   "serversQuickGuideRunTerminal": "2. Exécutez dans votre terminal :",
   "serversQuickGuideProtectPassword": "Protéger l''accès par mot de passe",
   "serversQuickGuideServerPassword": "Mot de passe du serveur",
   "serversQuickGuideInstallOptions": "Autres options d''installation officielles : script d''installation, npm, bun, pnpm, Homebrew ou un binaire depuis GitHub Releases.",
-  "serversQuickGuideVerifyHint": "Après avoir démarré le serveur, vérifiez que /global/health ou /doc répond avant de coller l''URL dans CodeWalk.",
+  "serversQuickGuideVerifyHint": "Après avoir démarré le serveur, vérifiez que /global/health ou /doc répond avant de coller l''URL dans Kilo-Walk.",
   "shortcutsPressKeyCombination": "Appuyez maintenant sur la combinaison de touches",
   "settingsProvenanceOpenCodeBacked": "Basé sur OpenCode",
-  "settingsProvenanceCodeWalkLocal": "Local à CodeWalk",
-  "settingsProvenanceCodeWalkException": "Exception CodeWalk",
+  "settingsProvenanceCodeWalkLocal": "Local à Kilo-Walk",
+  "settingsProvenanceCodeWalkException": "Exception Kilo-Walk",
   "shortcutsErrorInvalid": "Raccourci invalide",
   "shortcutsErrorUnsupportedKey": "Touche de raccourci non prise en charge",
   "shortcutsErrorConflict": "Conflit avec \"{conflict}\"",
@@ -1753,8 +1753,8 @@
   "speechApiKeyStorageUnavailable": "Le stockage sécurisé de la clé API TTS n''est pas disponible.",
   "speechApiKeyRemoved": "Clé API supprimée.",
   "speechApiKeySaved": "Clé API enregistrée en toute sécurité sur cet appareil.",
-  "speechReadAloudTestText": "Ceci est un test de synthèse vocale CodeWalk.",
-  "speechNativeDisabledWindows": "Désactivé sur Windows pour la stabilité. Utilisez Parakeet ou un autre moteur sur appareil via la capture WASAPI de CodeWalk.",
+  "speechReadAloudTestText": "Ceci est un test de synthèse vocale Kilo-Walk.",
+  "speechNativeDisabledWindows": "Désactivé sur Windows pour la stabilité. Utilisez Parakeet ou un autre moteur sur appareil via la capture WASAPI de Kilo-Walk.",
   "speechNativeUnavailableLinux": "Indisponible sur Linux. Utilisez Parakeet pour la saisie vocale.",
   "speechNotAvailableOnPlatform": "Non disponible sur cette plateforme.",
   "speechSherpaUnavailableAndroid": "Indisponible sur les builds Android optimisés pour une taille d''APK réduite.",
@@ -1810,12 +1810,12 @@
   "notificationPermissionNeedsInput": "Une permission d''outil nécessite votre intervention.",
   "notificationQuestionNeedsInput": "Une question d''outil nécessite votre intervention.",
   "notificationSessionError": "Une session a signalé une erreur.",
-  "notificationChannelErrors": "Erreurs CodeWalk",
-  "notificationChannelErrorsDescription": "Alertes d''erreur CodeWalk",
-  "notificationChannelPermissions": "Permissions CodeWalk",
-  "notificationChannelPermissionsDescription": "Alertes CodeWalk nécessitant une action",
-  "notificationChannelAgent": "Agent CodeWalk",
-  "notificationChannelAgentDescription": "Alertes de fin d''exécution de l''agent CodeWalk",
+  "notificationChannelErrors": "Erreurs Kilo-Walk",
+  "notificationChannelErrorsDescription": "Alertes d''erreur Kilo-Walk",
+  "notificationChannelPermissions": "Permissions Kilo-Walk",
+  "notificationChannelPermissionsDescription": "Alertes Kilo-Walk nécessitant une action",
+  "notificationChannelAgent": "Agent Kilo-Walk",
+  "notificationChannelAgentDescription": "Alertes de fin d''exécution de l''agent Kilo-Walk",
   "notificationActionOpen": "Ouvrir",
   "foregroundMonitorNotificationBody": "Les alertes d''arrière-plan fiables sont actives",
   "foregroundMonitorNotificationTitle": "Surveillance en arrière-plan active",
@@ -1823,7 +1823,7 @@
   "foregroundMonitorNotificationSessionCount": "Surveillance de {count} sessions",
   "sessionAttentionSemanticLabel": "{count, plural, =1{1 session nécessite votre attention} other{{count} sessions nécessitent votre attention}}",
   "sessionAttentionOverlayPermissionRequired": "L''autorisation d''affichage au-dessus des autres applications est requise.",
-  "sessionAttentionIosInAppOnly": "L''attention aux sessions est disponible uniquement dans CodeWalk.",
+  "sessionAttentionIosInAppOnly": "L''attention aux sessions est disponible uniquement dans Kilo-Walk.",
   "sessionAttentionOverlayPermissionGrantPrompt": "Accordez l''autorisation d''affichage au-dessus des autres applications, puis réessayez.",
   "sessionAttentionAndroidStartFailed": "Le service Android d''attention aux sessions n''a pas pu démarrer.",
   "chatMessageTruncatedChars": "[tronqué de {count} caractères] {reason}",
@@ -2029,7 +2029,7 @@
   "setupDebugMessageDiagnosticsResult": "{availability} sur {platform}. {recommendation}",
   "setupDebugMessageExitedAfterRequestedStop": "Le serveur OpenCode géré s''est arrêté après un arrêt demandé.",
   "setupDebugMessageHealthyRunning": "Le serveur OpenCode géré est opérationnel et fonctionne à l''adresse {url}.",
-  "setupDebugMessageInstallStarted": "Installation d''OpenCode lancée depuis CodeWalk.",
+  "setupDebugMessageInstallStarted": "Installation d''OpenCode lancée depuis Kilo-Walk.",
   "setupDebugMessageOnboardingAddAnotherServer": "L''utilisateur a choisi d''ajouter un autre serveur après un test de santé échoué.",
   "setupDebugMessageOnboardingConnectExisting": "L''utilisateur a choisi de se connecter à un serveur OpenCode existant.",
   "setupDebugMessageOnboardingGuidedPath": "L''utilisateur a ouvert le parcours de configuration guidé d''OpenCode.",
@@ -2049,39 +2049,39 @@
   "setupDebugSourceUseExisting": "Utiliser l''existant",
   "chatProviderErrorSessionNotFound": "Session introuvable",
   "@chatProviderErrorSessionNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionNotFound"
   },
   "chatProviderErrorInvalidMessageFormat": "Format de message invalide",
   "@chatProviderErrorInvalidMessageFormat": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidMessageFormat"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat"
   },
   "chatProviderErrorNetworkShort": "Échec de la connexion réseau",
   "@chatProviderErrorNetworkShort": {
-    "description": "CodeWalk UI string — chatProviderErrorNetworkShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetworkShort"
   },
   "chatProviderErrorUnknownShort": "Erreur inconnue",
   "@chatProviderErrorUnknownShort": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknownShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknownShort"
   },
   "terminalCreateFailed": "Échec de la création de la session du terminal",
   "@terminalCreateFailed": {
-    "description": "CodeWalk UI string — terminalCreateFailed"
+    "description": "Kilo-Walk UI string — terminalCreateFailed"
   },
   "terminalEndpointUnavailable": "Le point d''accès du terminal n''est pas disponible",
   "@terminalEndpointUnavailable": {
-    "description": "CodeWalk UI string — terminalEndpointUnavailable"
+    "description": "Kilo-Walk UI string — terminalEndpointUnavailable"
   },
   "terminalInvalidDirectory": "Répertoire de terminal invalide",
   "@terminalInvalidDirectory": {
-    "description": "CodeWalk UI string — terminalInvalidDirectory"
+    "description": "Kilo-Walk UI string — terminalInvalidDirectory"
   },
   "terminalWebsocketUnavailable": "Le websocket du terminal n''est pas disponible ici.",
   "@terminalWebsocketUnavailable": {
-    "description": "CodeWalk UI string — terminalWebsocketUnavailable"
+    "description": "Kilo-Walk UI string — terminalWebsocketUnavailable"
   },
   "chatMessageToolChainCallsCompact": "{count, plural, =1{1 appel} other{{count} appels}}",
   "@chatMessageToolChainCallsCompact": {
-    "description": "CodeWalk UI string — chatMessageToolChainCallsCompact",
+    "description": "Kilo-Walk UI string — chatMessageToolChainCallsCompact",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2090,15 +2090,15 @@
   },
   "errorConnectionTimeout": "Délai de connexion dépassé",
   "@errorConnectionTimeout": {
-    "description": "CodeWalk UI string — errorConnectionTimeout"
+    "description": "Kilo-Walk UI string — errorConnectionTimeout"
   },
   "errorClientError": "Erreur client",
   "@errorClientError": {
-    "description": "CodeWalk UI string — errorClientError"
+    "description": "Kilo-Walk UI string — errorClientError"
   },
   "chatProviderErrorSendMessage": "Échec de l''envoi du message",
   "@chatProviderErrorSendMessage": {
-    "description": "CodeWalk UI string — chatProviderErrorSendMessage"
+    "description": "Kilo-Walk UI string — chatProviderErrorSendMessage"
   },
   "speechApiEngine": "API",
   "speechApiEngineSubtitle": "OpenAI, Groq ou un endpoint personnalisé compatible avec OpenAI.",
@@ -2125,38 +2125,38 @@
   "carMessagingReply": "Répondre",
   "carMessagingMarkRead": "Marquer comme lu",
   "carMessagingDeliveryFailedTitle": "Réponse non envoyée",
-  "carMessagingDeliveryFailedBody": "Votre réponse vocale n''a pas pu être remise. Ouvrez CodeWalk pour réessayer.",
+  "carMessagingDeliveryFailedBody": "Votre réponse vocale n''a pas pu être remise. Ouvrez Kilo-Walk pour réessayer.",
   "shortcutNextTab": "Onglet suivant",
   "@shortcutNextTab": {
-    "description": "CodeWalk UI string - shortcutNextTab"
+    "description": "Kilo-Walk UI string - shortcutNextTab"
   },
   "shortcutNextTabDesc": "Afficher le sélecteur d''onglets et passer au suivant",
   "@shortcutNextTabDesc": {
-    "description": "CodeWalk UI string - shortcutNextTabDesc"
+    "description": "Kilo-Walk UI string - shortcutNextTabDesc"
   },
   "shortcutPreviousTab": "Onglet précédent",
   "@shortcutPreviousTab": {
-    "description": "CodeWalk UI string - shortcutPreviousTab"
+    "description": "Kilo-Walk UI string - shortcutPreviousTab"
   },
   "shortcutPreviousTabDesc": "Afficher le sélecteur d''onglets et passer au précédent",
   "@shortcutPreviousTabDesc": {
-    "description": "CodeWalk UI string - shortcutPreviousTabDesc"
+    "description": "Kilo-Walk UI string - shortcutPreviousTabDesc"
   },
   "sessionTabSwitcherTitle": "Changer d''onglet",
   "@sessionTabSwitcherTitle": {
-    "description": "CodeWalk UI string - sessionTabSwitcherTitle"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherTitle"
   },
   "sessionTabSwitcherHint": "Relâchez Ctrl pour changer, Échap pour annuler",
   "@sessionTabSwitcherHint": {
-    "description": "CodeWalk UI string - sessionTabSwitcherHint"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherHint"
   },
   "aboutTelegram": "Telegram",
   "@aboutTelegram": {
-    "description": "CodeWalk UI string - aboutTelegram"
+    "description": "Kilo-Walk UI string - aboutTelegram"
   },
   "settingsAboutWhatsNew": "Nouveautés de la v{version}",
   "@settingsAboutWhatsNew": {
-    "description": "CodeWalk UI string - settingsAboutWhatsNew",
+    "description": "Kilo-Walk UI string - settingsAboutWhatsNew",
     "placeholders": {
       "version": {
         "type": "String"
@@ -2165,31 +2165,31 @@
   },
   "appShellNewsMore": "Plus",
   "@appShellNewsMore": {
-    "description": "CodeWalk UI string - appShellNewsMore"
+    "description": "Kilo-Walk UI string - appShellNewsMore"
   },
   "settingsAboutChangelog": "Changelog",
   "@settingsAboutChangelog": {
-    "description": "CodeWalk UI string - settingsAboutChangelog"
+    "description": "Kilo-Walk UI string - settingsAboutChangelog"
   },
   "settingsAboutOurGroup": "Notre groupe",
   "@settingsAboutOurGroup": {
-    "description": "CodeWalk UI string - settingsAboutOurGroup"
+    "description": "Kilo-Walk UI string - settingsAboutOurGroup"
   },
   "speechNemotron": "Nemotron",
   "@speechNemotron": {
-    "description": "CodeWalk UI string — speechNemotron"
+    "description": "Kilo-Walk UI string — speechNemotron"
   },
   "speechNemotronSubtitle": "Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.",
   "@speechNemotronSubtitle": {
-    "description": "CodeWalk UI string — speechNemotronSubtitle"
+    "description": "Kilo-Walk UI string — speechNemotronSubtitle"
   },
   "speechNemotronStaysDownloadable": "Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.",
   "@speechNemotronStaysDownloadable": {
-    "description": "CodeWalk UI string — speechNemotronStaysDownloadable"
+    "description": "Kilo-Walk UI string — speechNemotronStaysDownloadable"
   },
   "speechNemotronDesktopOnlyHint": "Available on desktop only. Uses streaming multilingual recognition.",
   "@speechNemotronDesktopOnlyHint": {
-    "description": "CodeWalk UI string — speechNemotronDesktopOnlyHint"
+    "description": "Kilo-Walk UI string — speechNemotronDesktopOnlyHint"
   },
   "settingsAppearanceProjectTabColors": "Couleurs des onglets par projet",
   "settingsAppearanceProjectTabColorsDescription": "Colore les onglets de session avec les couleurs des icônes de projet détectées."

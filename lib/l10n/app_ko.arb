@@ -57,7 +57,7 @@
   "appProviderSetupOpenCodeDetected": "OpenCode 감지됨",
   "appProviderSetupOpenCodeNotDetected": "OpenCode 감지되지 않음",
   "appProviderSetupOpenCodeNotDetectedInstall": "OpenCode 명령이 감지되지 않았습니다. 마법사에서 설치를 실행하십시오.",
-  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode 명령이 감지되지 않았습니다. 방금 설치한 경우 체크를 새로 고치거나 CodeWalk를 다시 열어 PATH를 다시 로드하십시오.",
+  "appProviderSetupOpenCodeNotDetectedRefresh": "OpenCode 명령이 감지되지 않았습니다. 방금 설치한 경우 체크를 새로 고치거나 Kilo-Walk를 다시 열어 PATH를 다시 로드하십시오.",
   "appProviderSetupRequirementsInstalled": "OpenCode 요구 사항이 성공적으로 설치되었습니다.",
   "appProviderSetupUsingOpenCodeAt": "{path}에 있는 OpenCode 명령 사용 중",
   "appProviderStartingLocalServer": "로컬 서버 시작 중...",
@@ -98,7 +98,7 @@
   "behaviorCellularDataSaver": "모바일 데이터 절약",
   "behaviorCellularDataSaverActive": "셀룰러 데이터 세이버가 활성화되었습니다.",
   "behaviorChatLevelShare": "채팅 수준 공유",
-  "behaviorCodeWalkReleaseChecks": "CodeWalk 릴리스 확인",
+  "behaviorCodeWalkReleaseChecks": "Kilo-Walk 릴리스 확인",
   "behaviorControlsOfficialGlobal": "OpenCode 공식 전역 설정 제어",
   "behaviorControlsUpstreamOpenCode": "업스트림 OpenCode 설정 제어",
   "behaviorCustomDisplayName": "사용자 지정 표시 이름",
@@ -115,7 +115,7 @@
   "behaviorLightweightTasksLike": "다음과 같은 가벼운 작업",
   "behaviorManual": "수동",
   "behaviorNotify": "알림",
-  "behaviorOfficialOpenCodePermission": "공식 OpenCode 권한 정책은 도구별 allow/ask/deny 규칙이 있는 `opencode.json`에서 구성됩니다. CodeWalk는 공식 권한 요청 카드를 유지하고 하나의 승인된 ADR-023 예외를 추가합니다: 컴포저 자동 승인 토글은 영구적인 세션 범위 권한을 생성하기 위해 무조건 `Always` 및 `remember: true`로 응답하며, Android 백그라운드 작업자에서도 동일한 스레드 범위 연속성 경로를 활성 상태로 유지합니다.",
+  "behaviorOfficialOpenCodePermission": "공식 OpenCode 권한 정책은 도구별 allow/ask/deny 규칙이 있는 `opencode.json`에서 구성됩니다. Kilo-Walk는 공식 권한 요청 카드를 유지하고 하나의 승인된 ADR-023 예외를 추가합니다: 컴포저 자동 승인 토글은 영구적인 세션 범위 권한을 생성하기 위해 무조건 `Always` 및 `remember: true`로 응답하며, Android 백그라운드 작업자에서도 동일한 스레드 범위 연속성 경로를 활성 상태로 유지합니다.",
   "behaviorOpenCodeBackedDefaults": "OpenCode 기반 기본값",
   "behaviorPermissionHandlingProvenance": "권한 처리 출처",
   "behaviorPermissionsVariantReasoning": "권한 및 변형/추론 기능의 동등성은 고급 구성을 UI에서 안전하게 보존할 수 있을 때까지 분리되어 유지됩니다.",
@@ -576,7 +576,7 @@
   "logsFilterAll": "전체",
   "logsFilterByTag": "태그",
   "logsLevel": "로그 레벨",
-  "logsLoggingDisabledDescription": "CodeWalk가 자세한 앱 로그를 수집하지 않습니다. 진단이 필요할 때만 로그를 켜세요.",
+  "logsLoggingDisabledDescription": "Kilo-Walk가 자세한 앱 로그를 수집하지 않습니다. 진단이 필요할 때만 로그를 켜세요.",
   "logsLoggingDisabledTitle": "로그가 꺼져 있습니다",
   "logsMeasurePerformance": "성능 측정",
   "logsMeasurePerformanceDescription": "앱의 비용이 큰 작업 시간을 기록합니다. 지연을 진단할 때만 켜세요.",
@@ -614,7 +614,7 @@
   "modelRetryModels": "모델 재시도",
   "modelSearchHint": "모델 또는 제공자 검색",
   "msgBatterySettingsFailed": "Android 배터리 최적화 설정을 열 수 없습니다.",
-  "msgBatterySettingsOpened": "Android 배터리 설정이 열렸습니다. CodeWalk에 대해 배터리 사용량 제한 없음으로 허용해 주세요.",
+  "msgBatterySettingsOpened": "Android 배터리 설정이 열렸습니다. Kilo-Walk에 대해 배터리 사용량 제한 없음으로 허용해 주세요.",
   "msgClearUsernameNeedsConfigEdit": "OpenCode 대화 사용자 이름을 지우려면 여전히 앱 외부에서 구성을 수정해야 합니다.",
   "msgCommandCopied": "명령어가 복사되었습니다",
   "msgCopiedToClipboard": "클립보드에 복사되었습니다",
@@ -646,7 +646,7 @@
   "msgSetupDebugCopied": "OpenCode 설정 디버그 정보가 클립보드에 복사되었습니다",
   "msgShareAsImage": "이미지로 공유",
   "msgShareAsImageFailed": "메시지를 이미지로 공유할 수 없습니다.",
-  "msgShareAsImageSubject": "CodeWalk 메시지",
+  "msgShareAsImageSubject": "Kilo-Walk 메시지",
   "msgShareAsImageTooTall": "메시지가 너무 길어 이미지로 공유할 수 없습니다.",
   "msgStopReadAloud": "읽기 중단",
   "msgPauseReadAloud": "읽기 일시정지",
@@ -656,7 +656,7 @@
   "msgVoiceInputUnavailable": "이 기기에서는 음성 입력을 사용할 수 없습니다",
   "notifAndroidBatteryOptimization": "Android 배터리 최적화",
   "notifConversationUpdates": "대화 업데이트",
-  "notifNotificationsArriveReopening": "앱을 다시 열 때만 알림이 도착하는 경우, 이 기기에서 CodeWalk가 최적화 없이 실행되도록 허용해 주세요.",
+  "notifNotificationsArriveReopening": "앱을 다시 열 때만 알림이 도착하는 경우, 이 기기에서 Kilo-Walk가 최적화 없이 실행되도록 허용해 주세요.",
   "notifResponseRunningKeep": "응답이 진행 중일 때 앱을 벗어난 후에도 잠시 동안 실시간 활성 상태를 유지합니다.",
   "notifSelectedSoundLabel": "선택됨: {soundLabel}",
   "notificationAgentFinished": "에이전트가 현재 응답을 마쳤습니다.",
@@ -667,7 +667,7 @@
   "onboardingAIGeneratedTitles": "AI 생성 제목",
   "onboardingAddServerLater": "나중에 설정 > 서버에서 서버를 추가할 수 있습니다.",
   "onboardingAddedButHealthCheckFailed": "서버가 추가되었지만 상태 확인에 실패했습니다. 아직 시작 중일 수 있습니다.",
-  "onboardingAlmostInstallOpenCode": "거의 완료되었습니다. 먼저 OpenCode를 설치한 다음 CodeWalk를 서버 URL에 연결하세요.",
+  "onboardingAlmostInstallOpenCode": "거의 완료되었습니다. 먼저 OpenCode를 설치한 다음 Kilo-Walk를 서버 URL에 연결하세요.",
   "onboardingAppProviderLocalSetupLogsLength": "{length}개의 설정 로그 줄과 {length2}개의 설정 이벤트가 별도의 설정 디버그 화면에서 사용 가능합니다.",
   "onboardingAuthenticate": "인증",
   "onboardingAvailable": "사용 가능",
@@ -677,7 +677,7 @@
   "onboardingChooseHowToSetup": "서버 설정 방법 선택",
   "onboardingClear": "지우기",
   "onboardingCloudflareAuthFailed": "Cloudflare Access 인증에 실패했습니다.",
-  "onboardingCodeWalkAppOpenCode": "CodeWalk는 앱이며, OpenCode는 앱이 연결되는 엔진입니다.",
+  "onboardingCodeWalkAppOpenCode": "Kilo-Walk는 앱이며, OpenCode는 앱이 연결되는 엔진입니다.",
   "onboardingConnectRunningServer": "실행 중인 서버에 연결",
   "onboardingConnectionIssue": "연결 문제",
   "onboardingConnectionSaved": "서버 연결이 성공적으로 저장되었습니다.",
@@ -697,7 +697,7 @@
   "onboardingEmulatorRemap": "Android 에뮬레이터에서 localhost 및 127.0.0.1은 자동으로 10.0.2.2로 리맵됩니다.",
   "onboardingEnterServerUrl": "서버 URL 입력",
   "onboardingExisting": "기존 서버 사용",
-  "onboardingExplainInstallOpenCode": "OpenCode 설치, 서버 시작, 그리고 CodeWalk에서 연결하는 방법에 대한 설명입니다.",
+  "onboardingExplainInstallOpenCode": "OpenCode 설치, 서버 시작, 그리고 Kilo-Walk에서 연결하는 방법에 대한 설명입니다.",
   "onboardingFailed": "실패",
   "onboardingGoodOptionDesktop": "데스크톱에서 유용한 첫 번째 옵션",
   "onboardingHealthCheckFailedMayBeStarting": "서버 상태 확인에 실패했습니다. 아직 시작 중일 수 있습니다.",
@@ -705,12 +705,12 @@
   "onboardingInstallBun": "Bun을 통해 설치",
   "onboardingInstallBunOpenCode": "Bun + OpenCode 설치",
   "onboardingInstallNpm": "npm을 통해 설치",
-  "onboardingInstallRunOpenCode": "데스크톱의 CodeWalk에서 직접 OpenCode를 설치하고 실행합니다.",
+  "onboardingInstallRunOpenCode": "데스크톱의 Kilo-Walk에서 직접 OpenCode를 설치하고 실행합니다.",
   "onboardingInvalidUrl": "유효하지 않은 URL",
   "onboardingLabel": "라벨 (선택 사항)",
   "onboardingLabelHint": "내 서버",
   "onboardingLatestOutputAppProvider": "최신 출력: {localServerLastOutput}",
-  "onboardingLetCodeWalkSet": "CodeWalk가 로컬에 자동으로 설정하도록 허용",
+  "onboardingLetCodeWalkSet": "Kilo-Walk가 로컬에 자동으로 설정하도록 허용",
   "onboardingLocalServerSetup": "로컬 서버 설정",
   "onboardingManagedLocalServer": "관리형 로컬 서버",
   "onboardingManagedLocalServer2": "관리형 로컬 서버 모드는 데스크톱 빌드(Linux/macOS/Windows)에서만 사용할 수 있습니다.",
@@ -719,7 +719,7 @@
   "onboardingNotWritable": "쓰기 불가",
   "onboardingOpenCode": "OpenCode란 무엇인가요?",
   "onboardingOpenCodeRunningDevice": "이미 이 기기 또는 네트워크의 어딘가에서 OpenCode가 실행 중입니다.",
-  "onboardingOpenCodeRunsLocally": "OpenCode는 로컬 또는 서버에서 실행되며 CodeWalk 내부의 AI 코딩 기능을 구동합니다. OpenCode가 이미 실행 중인 경우 연결하시고, 그렇지 않은 경우 아래 가이드 설정 경로 중 하나를 선택하세요.",
+  "onboardingOpenCodeRunsLocally": "OpenCode는 로컬 또는 서버에서 실행되며 Kilo-Walk 내부의 AI 코딩 기능을 구동합니다. OpenCode가 이미 실행 중인 경우 연결하시고, 그렇지 않은 경우 아래 가이드 설정 경로 중 하나를 선택하세요.",
   "onboardingOpenTailscaleLogin": "Tailscale 로그인 URL을 열 수 없습니다.",
   "onboardingPassword": "비밀번호",
   "onboardingPasswordRequired": "비밀번호 입력",
@@ -734,7 +734,7 @@
   "onboardingPreconditionWindowsWslRecommendation": "Windows 빌드가 감지되었습니다. OpenCode 문서에서는 WSL을 권장하지만, 대체 방안으로 npm install을 사용할 수 있습니다.",
   "onboardingReachable": "연결 가능",
   "onboardingReady": "준비됨",
-  "onboardingRecommendedOrderTry": "권장 순서: CodeWalk가 모든 환경을 자동으로 구축하게 하려면 'Bun + OpenCode 설치'를 시도해 보세요. OpenCode가 이미 설치되어 있으면 '기존 서버 사용'을 선택하세요.",
+  "onboardingRecommendedOrderTry": "권장 순서: Kilo-Walk가 모든 환경을 자동으로 구축하게 하려면 'Bun + OpenCode 설치'를 시도해 보세요. OpenCode가 이미 설치되어 있으면 '기존 서버 사용'을 선택하세요.",
   "onboardingRefreshChecks": "검사 새로고침",
   "onboardingRunDiagnosticsToVerify": "로컬 OpenCode 요구 사항을 확인하려면 진단을 실행하십시오.",
   "onboardingSaveAndTest": "저장 및 테스트",
@@ -776,7 +776,7 @@
   "onboardingUsingDetectedCommand": "감지된 OpenCode 명령을 사용합니다.",
   "onboardingViewSetupDebug": "설정 디버그 보기",
   "onboardingWelcomeTo": "{appName}에 오신 것을 환영합니다",
-  "onboardingWindowsTipInstalling": "Windows 팁: 설치 후 '검사 새로고침'을 클릭하세요. 여전히 감지되지 않으면 CodeWalk를 다시 열어 PATH 변경 사항을 다시 로드하세요.",
+  "onboardingWindowsTipInstalling": "Windows 팁: 설치 후 '검사 새로고침'을 클릭하세요. 여전히 감지되지 않으면 Kilo-Walk를 다시 열어 PATH 변경 사항을 다시 로드하세요.",
   "onboardingWritable": "쓰기 가능",
   "onboardingYoureAllSet": "모든 준비가 완료되었습니다!",
   "permissionAllowOnce": "한 번만 허용",
@@ -831,7 +831,7 @@
   "serversDefault": "기본값",
   "serversDelete": "삭제",
   "serversDeleteServer": "서버 삭제",
-  "serversDesktopModeExplanation": "데스크톱 모드는 CodeWalk에서 직접 `opencode serve`를 실행하고 관리할 수 있습니다.",
+  "serversDesktopModeExplanation": "데스크톱 모드는 Kilo-Walk에서 직접 `opencode serve`를 실행하고 관리할 수 있습니다.",
   "serversEdit": "편집",
   "serversLocalOpenCodeServer": "로컬 OpenCode 서버",
   "serversManagedModeAvailable": "이 관리 모드는 데스크톱 빌드(Linux/macOS/Windows)에서만 사용할 수 있습니다.",
@@ -963,17 +963,17 @@
   "settingsAppearanceBrandColor": "브랜드 색상",
   "settingsAppearanceBrandColorDynamicBlocked": "브랜드 색상을 선택하려면 배경화면 색상 사용을 비활성화하세요.",
   "settingsAppearanceBrandColorNormal": "앱 팔레트의 기준 색상을 선택합니다.",
-  "settingsAppearanceBrandColorPresetBlocked": "브랜드 색상을 선택하려면 CodeWalk 클래식으로 전환하세요.",
+  "settingsAppearanceBrandColorPresetBlocked": "브랜드 색상을 선택하려면 Kilo-Walk 클래식으로 전환하세요.",
   "settingsAppearanceChatFontScale": "대화 텍스트 크기",
   "settingsAppearanceChatFontScaleDescription": "시스템 텍스트 크기에 더해 채팅 메시지와 작성기 텍스트의 크기를 조정합니다.",
-  "settingsAppearanceCodeWalkClassic": "CodeWalk 클래식",
+  "settingsAppearanceCodeWalkClassic": "Kilo-Walk 클래식",
   "settingsAppearanceComposerTips": "컴포저 팁",
   "settingsAppearanceComposerTipsDescription": "어시스턴트가 생각하는 동안 순환되는 팁의 표시 여부를 설정합니다.",
   "settingsAppearanceContrast": "대비",
   "settingsAppearanceContrastDynamicBlocked": "대비를 조정하려면 배경화면 색상 사용을 비활성화하세요.",
   "settingsAppearanceContrastHigh": "높음",
   "settingsAppearanceContrastNormal": "색상 체계의 대비 수준을 조정합니다.",
-  "settingsAppearanceContrastPresetBlocked": "대비를 조정하려면 CodeWalk 클래식으로 전환하세요.",
+  "settingsAppearanceContrastPresetBlocked": "대비를 조정하려면 Kilo-Walk 클래식으로 전환하세요.",
   "settingsAppearanceContrastReduced": "낮춤",
   "settingsAppearanceDark": "다크",
   "settingsAppearanceDensity": "조밀도",
@@ -1005,7 +1005,7 @@
   "settingsAppearanceTerminalFontSize": "터미널 텍스트 크기",
   "settingsAppearanceTerminalFontSizeDescription": "내장 터미널 글꼴 크기를 조정합니다. 실행 중인 세션에 즉시 적용됩니다.",
   "settingsAppearanceTheme": "테마",
-  "settingsAppearanceThemeDescription": "라이트, 다크 또는 시스템 모드를 선택한 다음 CodeWalk 클래식 팔레트를 유지하거나 OpenCode 프리셋으로 전환합니다.",
+  "settingsAppearanceThemeDescription": "라이트, 다크 또는 시스템 모드를 선택한 다음 Kilo-Walk 클래식 팔레트를 유지하거나 OpenCode 프리셋으로 전환합니다.",
   "settingsAppearanceVisualStyle": "시각 스타일",
   "settingsAppearanceVisualStyleDescription": "클래식 모양 또는 더 부드러운 리파인드 표면을 선택합니다.",
   "settingsAppearanceVisualStyleClassic": "클래식",
@@ -1017,7 +1017,7 @@
   "settingsAppearanceToolCallBubblesDescription": "어시스턴트 메시지에서 도구 실행 카드의 표시 여부를 설정합니다.",
   "settingsAppearanceWallpaperColors": "배경화면 색상 사용",
   "settingsAppearanceWallpaperNormal": "기기 배경화면에서 색상 체계를 추출합니다.",
-  "settingsAppearanceWallpaperPresetBlocked": "배경화면 색상을 사용하려면 CodeWalk 클래식으로 전환하세요.",
+  "settingsAppearanceWallpaperPresetBlocked": "배경화면 색상을 사용하려면 Kilo-Walk 클래식으로 전환하세요.",
   "settingsAppearanceWindowChrome": "창 탭",
   "settingsAppearanceWindowChromeDescription": "데스크톱에서 세션 탭과 제목 표시줄을 결합하는 방식을 선택합니다.",
   "settingsAppearanceWindowChromeIntegrated": "통합 탭",
@@ -1025,8 +1025,8 @@
   "settingsAppearanceWindowChromeSystem": "시스템 장식",
   "settingsAppearanceWindowChromeSystemDescription": "네이티브 제목 표시줄을 유지하고 탭을 앱 바 아래에 표시합니다.",
   "settingsBack": "뒤로",
-  "settingsBehaviorAutoupdateCaveat": "CodeWalk 릴리스 확인은 '정보'를 사용하세요. 이 설정은 공식 OpenCode `autoupdate` 구성만 미러링합니다.",
-  "settingsBehaviorAutoupdateHelp": "CodeWalk 앱 업데이트 확인이 아닌 업스트림 OpenCode 런타임 업데이트를 제어합니다.",
+  "settingsBehaviorAutoupdateCaveat": "Kilo-Walk 릴리스 확인은 '정보'를 사용하세요. 이 설정은 공식 OpenCode `autoupdate` 구성만 미러링합니다.",
+  "settingsBehaviorAutoupdateHelp": "Kilo-Walk 앱 업데이트 확인이 아닌 업스트림 OpenCode 런타임 업데이트를 제어합니다.",
   "settingsBehaviorCellularDataSaver": "데이터 절약 모드",
   "settingsBehaviorChatRenderMode": "채팅 렌더링 모드",
   "settingsBehaviorChatRenderModeBlock": "블록",
@@ -1036,7 +1036,7 @@
   "settingsBehaviorChatRenderModeLiveDescription": "OpenCode가 이벤트를 스트리밍할 때 어시스턴트 텍스트, 추론, 도구 활동을 표시합니다.",
   "settingsBehaviorComposerSpellCheck": "작성기 맞춤법 검사",
   "settingsBehaviorComposerSpellCheckDescription": "채팅 작성기에서 플랫폼 기본 맞춤법 검사, 제안, 자동 수정을 사용합니다.",
-  "settingsBehaviorConfigDeferred": "CodeWalk는 현재 응답이 완료된 후 이 OpenCode 설정을 적용합니다.",
+  "settingsBehaviorConfigDeferred": "Kilo-Walk는 현재 응답이 완료된 후 이 OpenCode 설정을 적용합니다.",
   "settingsBehaviorConfigUpdateFailed": "OpenCode {field}을(를) 업데이트할 수 없습니다.",
   "settingsBehaviorConversationUsername": "대화 사용자 이름",
   "settingsBehaviorConversationUsernameHelp": "대화에서 시스템 사용자 이름 대신 표시할 사용자 지정 표시 이름입니다.",
@@ -1062,7 +1062,7 @@
   "settingsBehaviorOpenCodeSnapshotsDescription": "실행 취소/다시 실행 및 복구 기록을 위해 업스트림 git 기반 스냅샷 활성 상태를 유지합니다.",
   "settingsBehaviorPermissionDeferred": "고급 권한 규칙 편집은 현재 설정에서 제외되며 이후의 동등성 작업으로 연기됩니다.",
   "settingsBehaviorPermissionProvenance": "권한 처리 출처",
-  "settingsBehaviorPermissionProvenanceDescription": "공식 OpenCode 권한 정책은 도구별 allow/ask/deny 규칙이 있는 `opencode.json`에서 구성됩니다. CodeWalk는 공식 권한 요청 카드를 유지하고 하나의 승인된 ADR-023 예외를 추가합니다: 컴포저 자동 승인 토글은 영구적인 세션 범위 권한을 생성하기 위해 무조건 `Always` 및 `remember: true`로 응답하며, Android 백그라운드 작업자에서도 동일한 스레드 범위 연속성 경로를 활성 상태로 유지합니다.",
+  "settingsBehaviorPermissionProvenanceDescription": "공식 OpenCode 권한 정책은 도구별 allow/ask/deny 규칙이 있는 `opencode.json`에서 구성됩니다. Kilo-Walk는 공식 권한 요청 카드를 유지하고 하나의 승인된 ADR-023 예외를 추가합니다: 컴포저 자동 승인 토글은 영구적인 세션 범위 권한을 생성하기 위해 무조건 `Always` 및 `remember: true`로 응답하며, Android 백그라운드 작업자에서도 동일한 스레드 범위 연속성 경로를 활성 상태로 유지합니다.",
   "settingsBehaviorRefreshDefaults": "기본값 새로고침",
   "settingsBehaviorSaveUsername": "사용자 이름 저장",
   "settingsBehaviorSearchAutoupdate": "자동 업데이트 모드 검색",
@@ -1078,16 +1078,16 @@
   "settingsBehaviorSmallModelFallbackActive": "`small_model`이 설정되지 않아 OpenCode 자동 폴백이 활성화되었습니다.",
   "settingsBehaviorSmallModelHelp": "제목 생성과 같은 가벼운 작업에 사용됩니다.",
   "settingsBehaviorSmallModelResetCaveat": "`small_model`을 자동 폴백으로 재설정하려면 `/config` 패치 업데이트가 키를 삭제할 수 없기 때문에 앱 외부에서 구성을 수정해야 합니다.",
-  "settingsBehaviorSnapshotCaveat": "이것은 CodeWalk 로컬 캐시 스냅샷이 아닌 OpenCode 스냅샷 저장소 및 실행 취소/다시 실행 지원을 제어합니다.",
+  "settingsBehaviorSnapshotCaveat": "이것은 Kilo-Walk 로컬 캐시 스냅샷이 아닌 OpenCode 스냅샷 저장소 및 실행 취소/다시 실행 지원을 제어합니다.",
   "settingsBehaviorTitle": "동작",
   "settingsBehaviorUsernameFallback": "`username`이 설정되지 않아 OpenCode가 시스템 사용자 이름을 사용합니다.",
   "settingsBehaviorUsernamePatchCaveat": "`username`을 시스템 기본값으로 재설정하려면 `/config` 패치 업데이트가 키를 삭제할 수 없기 때문에 앱 외부에서 구성을 수정해야 합니다.",
   "settingsConfigRefreshFailed": "서버 설정을 업데이트했으나 채팅 제공자를 새로고침하지 못했습니다.",
-  "settingsConfigUpdateDeferred": "CodeWalk는 현재 응답이 완료된 후 이 OpenCode 설정을 적용합니다.",
+  "settingsConfigUpdateDeferred": "Kilo-Walk는 현재 응답이 완료된 후 이 OpenCode 설정을 적용합니다.",
   "settingsConversationUsername": "대화 사용자 이름",
   "settingsDefaultAgent": "기본 에이전트",
   "settingsDefaultModel": "기본 모델",
-  "settingsLanguageDescription": "CodeWalk에서 사용할 언어를 선택하세요. 시스템 기본값은 기기 언어를 따릅니다.",
+  "settingsLanguageDescription": "Kilo-Walk에서 사용할 언어를 선택하세요. 시스템 기본값은 기기 언어를 따릅니다.",
   "settingsLanguageEmptyText": "검색된 언어가 없습니다",
   "settingsLanguageFieldHelper": "즉시 적용되며 재시작 후에도 유지됩니다.",
   "settingsLanguageFieldLabel": "앱 언어",
@@ -1103,12 +1103,12 @@
   "settingsNotificationsAppInBackground": "앱이 백그라운드에 있을 때",
   "settingsNotificationsBackgroundAlerts": "Android 백그라운드 알림",
   "settingsNotificationsBackgroundBehavior": "백그라운드 동작",
-  "settingsNotificationsBackgroundBehaviorDescription": "앱이 포그라운드를 벗어난 후 CodeWalk가 동작하는 방식을 선택하세요.",
+  "settingsNotificationsBackgroundBehaviorDescription": "앱이 포그라운드를 벗어난 후 Kilo-Walk가 동작하는 방식을 선택하세요.",
   "settingsNotificationsBackgroundDescription": "앱이 화면에 표시되지 않는 동안 낮은 데이터 백그라운드 모니터링을 사용하여 응답 완료, 권한 요청, 질문 및 오류를 확인합니다.",
   "settingsNotificationsBackgroundToggle": "Android 백그라운드 알림",
   "settingsNotificationsBackgroundToggleDescription": "모든 Android 백그라운드 확인을 끄고 지속적인 모니터링 알림을 숨깁니다.",
-  "settingsNotificationsBatteryDescription": "앱을 다시 열 때만 알림이 도착하는 경우, 이 기기에서 CodeWalk가 최적화 없이 실행되도록 허용해 주세요.",
-  "settingsNotificationsBatteryDisabled": "CodeWalk에 대한 배터리 최적화가 비활성화되어 있습니다.",
+  "settingsNotificationsBatteryDescription": "앱을 다시 열 때만 알림이 도착하는 경우, 이 기기에서 Kilo-Walk가 최적화 없이 실행되도록 허용해 주세요.",
+  "settingsNotificationsBatteryDisabled": "Kilo-Walk에 대한 배터리 최적화가 비활성화되어 있습니다.",
   "settingsNotificationsBatteryEnabled": "배터리 최적화가 활성화되어 있습니다. 일부 기기에서는 백그라운드 알림이 지연될 수 있습니다.",
   "settingsNotificationsBatteryOptimization": "Android 배터리 최적화",
   "settingsNotificationsBatteryUnknown": "배터리 최적화 상태를 아직 읽을 수 없습니다.",
@@ -1232,7 +1232,7 @@
   "setupDebugCapturedSetupLogs": "캡처된 설정 로그",
   "setupDebugClear": "설정 디버그 지우기",
   "setupDebugClearSetupDebug": "설정 디버그 지우기",
-  "setupDebugCodeWalkCaptureEnough": "CodeWalk가 충분한 정보를 캡처하지 못한 경우, 공식 OpenCode 로그 및 헬스 엔드포인트를 직접 확인하세요.",
+  "setupDebugCodeWalkCaptureEnough": "Kilo-Walk가 충분한 정보를 캡처하지 못한 경우, 공식 OpenCode 로그 및 헬스 엔드포인트를 직접 확인하세요.",
   "setupDebugCommandPath": "명령어 경로",
   "setupDebugCommandPath2": "명령어 경로",
   "setupDebugCopy": "설정 디버그 복사",
@@ -1261,7 +1261,7 @@
   "setupDebugPlatform": "플랫폼",
   "setupDebugPlatform2": "플랫폼",
   "setupDebugRunDiagnosticsTry": "여기서 OpenCode에 특화된 문제 해결 세부 정보를 캡처하려면 진단을 실행하거나, 설치 방법을 시도하거나, 설정 흐름을 진행해 보세요.",
-  "setupDebugScreenCoversOpenCode": "이 화면은 OpenCode 설치, 진단 및 로컬 설정 문제 해결만 다룹니다. 일반적인 CodeWalk 런타임 오류는 앱 로그를 사용하세요.",
+  "setupDebugScreenCoversOpenCode": "이 화면은 OpenCode 설치, 진단 및 로컬 설정 문제 해결만 다룹니다. 일반적인 Kilo-Walk 런타임 오류는 앱 로그를 사용하세요.",
   "setupDebugServerOutput": "최신 로컬 서버 출력",
   "setupDebugStatus": "현재 상태",
   "setupDebugTimeEntrySource": "{time} - {source}",
@@ -1310,7 +1310,7 @@
   "shortcutsReset": "모두 초기화",
   "shortcutsSearchEditBindings": "저장하기 전에 단축키를 검색 및 편집하고 충돌을 해결하세요.",
   "shortcutsSetShortcutWidget": "단축키 설정: {label}",
-  "shortcutsTheseBindingsStored": "이 단축키 설정은 현재 앱 런타임의 CodeWalk에 저장되며, OpenCode `tui.json` 키 바인딩을 수정하지 않습니다.",
+  "shortcutsTheseBindingsStored": "이 단축키 설정은 현재 앱 런타임의 Kilo-Walk에 저장되며, OpenCode `tui.json` 키 바인딩을 수정하지 않습니다.",
   "speechAutoStopSilence": "자동 정지 무음 시간 제한",
   "speechChooseRecognitionEngine": "음성 인식 엔진, 무음 시간 제한 및 모델 옵션을 선택하세요.",
   "speechDesktopOnly": "{service}은(는) 데스크톱에서만 사용할 수 있습니다.",
@@ -1325,7 +1325,7 @@
   "speechMoonshineStaysDownloadable": "Moonshine은 앱 번들에 포함되지 않고 다운로드 가능한 상태로 유지됩니다. 이 데스크톱 기기에 맞게 하나의 모델을 선택하고, 공간을 확보하고 싶다면 나중에 제거하세요.",
   "speechNative": "기본 제공 엔진",
   "speechNativeSTTDisabled": "이 앱의 Linux 환경에서는 네이티브 STT 기능이 비활성화되어 있습니다. 신규 설치의 경우 Parakeet가 기본 엔진입니다.",
-  "speechNativeSTTWorks": "Windows에서는 CodeWalk가 WASAPI 마이크 백엔드를 통해 로컬 온디바이스 음성 인식을 사용합니다. 안정성을 위해 Windows 네이티브 음성 인식은 비활성화되어 있습니다.",
+  "speechNativeSTTWorks": "Windows에서는 Kilo-Walk가 WASAPI 마이크 백엔드를 통해 로컬 온디바이스 음성 인식을 사용합니다. 안정성을 위해 Windows 네이티브 음성 인식은 비활성화되어 있습니다.",
   "speechNativeStartsFaster": "네이티브 방식이 더 빠르게 시작됩니다. Sherpa는 비교적 무거운 구성과 심층적인 모델 제어 기능을 통해 기기 자체에서 완전히 작동합니다.",
   "speechOpenMicrophoneSettings": "마이크 설정 열기",
   "speechOpenSpeechPrivacy": "음성 개인 정보 보호 설정 열기",
@@ -1344,7 +1344,7 @@
   "speechSherpaModelsLinux": "Sherpa 모델 (Linux)",
   "speechSpeechText": "음성 인식 (STT)",
   "speechUnavailableOnPlatform": "{service} 음성을 이 플랫폼에서 사용할 수 없습니다.",
-  "speechWindowsSetupHint": "Windows 음성 입력은 온디바이스 모델과 함께 CodeWalk WASAPI 캡처를 사용합니다. 데스크톱 앱의 마이크 액세스를 활성화된 상태로 유지하세요. 아래 버튼은 문제 해결을 위해 Windows 설정을 엽니다.",
+  "speechWindowsSetupHint": "Windows 음성 입력은 온디바이스 모델과 함께 Kilo-Walk WASAPI 캡처를 사용합니다. 데스크톱 앱의 마이크 액세스를 활성화된 상태로 유지하세요. 아래 버튼은 문제 해결을 위해 Windows 설정을 엽니다.",
   "statusConnected": "연결됨",
   "statusDelayed": "지연됨",
   "statusFailed": "실패",
@@ -1365,7 +1365,7 @@
   "terminalConnectingTo": "{serverName} 터미널에 연결 중...",
   "terminalConnectionFailed": "터미널 연결 실패: {error}",
   "terminalDisconnected": "터미널 연결이 끊어졌습니다.",
-  "terminalEmbeddedUnavailable": "내장 터미널은 아직 이 런타임에서 사용할 수 없습니다. 일회성 명령에는 컴포저 쉘 모드를 계속 사용하거나 지원되는 CodeWalk 앱 런타임에서 {serverName}의 터미널을 여세요.",
+  "terminalEmbeddedUnavailable": "내장 터미널은 아직 이 런타임에서 사용할 수 없습니다. 일회성 명령에는 컴포저 쉘 모드를 계속 사용하거나 지원되는 Kilo-Walk 앱 런타임에서 {serverName}의 터미널을 여세요.",
   "terminalExtraKeyAlt": "Alt 키",
   "terminalExtraKeyArrowDown": "아래쪽 화살표",
   "terminalExtraKeyArrowLeft": "왼쪽 화살표",
@@ -1497,18 +1497,18 @@
   "settingsNotificationsSystemSoundsFreedesktop": "/usr/share/sounds/freedesktop/stereo의 Freedesktop 소리입니다.",
   "settingsNotificationsSystemSoundsPlatform": "운영 체제가 시스템 소리를 제공하는 플랫폼에서 지원됩니다.",
   "serversQuickGuideTitle": "빠른 설정",
-  "serversQuickGuideIntro": "CodeWalk는 앱입니다. OpenCode는 이 연결이 작동하려면 실행 중이어야 하는 엔진입니다.",
+  "serversQuickGuideIntro": "Kilo-Walk는 앱입니다. OpenCode는 이 연결이 작동하려면 실행 중이어야 하는 엔진입니다.",
   "serversQuickGuideStepInstallCli": "1. OpenCode CLI 설치.",
   "serversQuickGuideRunPowerShell": "2. PowerShell에서 실행:",
   "serversQuickGuideRunTerminal": "2. 터미널에서 실행:",
   "serversQuickGuideProtectPassword": "비밀번호로 액세스 보호",
   "serversQuickGuideServerPassword": "서버 비밀번호",
   "serversQuickGuideInstallOptions": "기타 공식 설치 옵션: 설치 스크립트, npm, bun, pnpm, Homebrew 또는 GitHub Releases의 바이너리.",
-  "serversQuickGuideVerifyHint": "서버를 시작한 후 /global/health 또는 /doc가 응답하는지 확인한 다음 URL을 CodeWalk에 붙여넣으세요.",
+  "serversQuickGuideVerifyHint": "서버를 시작한 후 /global/health 또는 /doc가 응답하는지 확인한 다음 URL을 Kilo-Walk에 붙여넣으세요.",
   "shortcutsPressKeyCombination": "지금 키 조합을 누르세요",
   "settingsProvenanceOpenCodeBacked": "OpenCode 기반",
-  "settingsProvenanceCodeWalkLocal": "CodeWalk 로컬",
-  "settingsProvenanceCodeWalkException": "CodeWalk 예외",
+  "settingsProvenanceCodeWalkLocal": "Kilo-Walk 로컬",
+  "settingsProvenanceCodeWalkException": "Kilo-Walk 예외",
   "shortcutsErrorInvalid": "잘못된 단축키",
   "shortcutsErrorUnsupportedKey": "지원하지 않는 단축키",
   "shortcutsErrorConflict": "\"{conflict}\"과(와) 충돌",
@@ -1531,8 +1531,8 @@
   "speechApiKeyStorageUnavailable": "보안 TTS API 키 저장소를 사용할 수 없습니다.",
   "speechApiKeyRemoved": "API 키가 제거되었습니다.",
   "speechApiKeySaved": "API 키가 이 기기에 안전하게 저장되었습니다.",
-  "speechReadAloudTestText": "이것은 CodeWalk 텍스트 음성 변환 테스트입니다.",
-  "speechNativeDisabledWindows": "안정성을 위해 Windows에서는 비활성화됩니다. CodeWalk WASAPI 캡처를 통해 Parakeet 또는 다른 기기 내 엔진을 사용하세요.",
+  "speechReadAloudTestText": "이것은 Kilo-Walk 텍스트 음성 변환 테스트입니다.",
+  "speechNativeDisabledWindows": "안정성을 위해 Windows에서는 비활성화됩니다. Kilo-Walk WASAPI 캡처를 통해 Parakeet 또는 다른 기기 내 엔진을 사용하세요.",
   "speechNativeUnavailableLinux": "Linux에서는 사용할 수 없습니다. 음성 입력에는 Parakeet을 사용하세요.",
   "speechNotAvailableOnPlatform": "이 플랫폼에서는 사용할 수 없습니다.",
   "speechSherpaUnavailableAndroid": "작은 APK 크기에 최적화된 Android 빌드에서는 사용할 수 없습니다.",
@@ -1588,12 +1588,12 @@
   "notificationPermissionNeedsInput": "도구 권한에 대한 입력이 필요합니다.",
   "notificationQuestionNeedsInput": "도구 질문에 대한 입력이 필요합니다.",
   "notificationSessionError": "세션에서 오류가 보고되었습니다.",
-  "notificationChannelErrors": "CodeWalk 오류",
-  "notificationChannelErrorsDescription": "CodeWalk 오류 알림",
-  "notificationChannelPermissions": "CodeWalk 권한",
-  "notificationChannelPermissionsDescription": "CodeWalk 작업 필요 알림",
-  "notificationChannelAgent": "CodeWalk 에이전트",
-  "notificationChannelAgentDescription": "CodeWalk 에이전트 완료 알림",
+  "notificationChannelErrors": "Kilo-Walk 오류",
+  "notificationChannelErrorsDescription": "Kilo-Walk 오류 알림",
+  "notificationChannelPermissions": "Kilo-Walk 권한",
+  "notificationChannelPermissionsDescription": "Kilo-Walk 작업 필요 알림",
+  "notificationChannelAgent": "Kilo-Walk 에이전트",
+  "notificationChannelAgentDescription": "Kilo-Walk 에이전트 완료 알림",
   "notificationActionOpen": "열기",
   "foregroundMonitorNotificationBody": "안정적인 백그라운드 알림이 활성화되어 있습니다",
   "foregroundMonitorNotificationTitle": "백그라운드 모니터링 활성화됨",
@@ -1601,7 +1601,7 @@
   "foregroundMonitorNotificationSessionCount": "{count}개 세션 모니터링 중",
   "sessionAttentionSemanticLabel": "{count, plural, =1{1개 세션에 주의가 필요합니다} other{{count}개 세션에 주의가 필요합니다}}",
   "sessionAttentionOverlayPermissionRequired": "다른 앱 위에 표시 권한이 필요합니다.",
-  "sessionAttentionIosInAppOnly": "세션 알림은 CodeWalk 내에서만 사용할 수 있습니다.",
+  "sessionAttentionIosInAppOnly": "세션 알림은 Kilo-Walk 내에서만 사용할 수 있습니다.",
   "sessionAttentionOverlayPermissionGrantPrompt": "다른 앱 위에 표시 권한을 허용한 후 다시 시도하세요.",
   "sessionAttentionAndroidStartFailed": "Android 세션 알림 서비스를 시작할 수 없습니다.",
   "chatMessageTruncatedChars": "[{count}자 잘림] {reason}",
@@ -1641,23 +1641,23 @@
   "sessionTitleCannotBeEmpty": "제목은 비워둘 수 없습니다",
   "filesFailedToLoad": "파일을 불러오지 못했습니다",
   "@filesFailedToLoad": {
-    "description": "CodeWalk UI string — filesFailedToLoad"
+    "description": "Kilo-Walk UI string — filesFailedToLoad"
   },
   "filesFailedToSearch": "파일 검색에 실패했습니다",
   "@filesFailedToSearch": {
-    "description": "CodeWalk UI string — filesFailedToSearch"
+    "description": "Kilo-Walk UI string — filesFailedToSearch"
   },
   "filesNoOpenFilesHint": "열린 파일이 없습니다. 검색하려면 입력하세요.",
   "@filesNoOpenFilesHint": {
-    "description": "CodeWalk UI string — filesNoOpenFilesHint"
+    "description": "Kilo-Walk UI string — filesNoOpenFilesHint"
   },
   "filesNoContentMatches": "일치하는 내용이 없습니다",
   "@filesNoContentMatches": {
-    "description": "CodeWalk UI string — filesNoContentMatches"
+    "description": "Kilo-Walk UI string — filesNoContentMatches"
   },
   "filesLinesSelectedCount": "{count, plural, =1{1줄 선택됨} other{{count}줄 선택됨}}",
   "@filesLinesSelectedCount": {
-    "description": "CodeWalk UI string — filesLinesSelectedCount",
+    "description": "Kilo-Walk UI string — filesLinesSelectedCount",
     "placeholders": {
       "count": {
         "type": "int"
@@ -1666,95 +1666,95 @@
   },
   "filesDraftTooLargeToSave": "초안이 너무 커서 편집기에서 저장할 수 없습니다.",
   "@filesDraftTooLargeToSave": {
-    "description": "CodeWalk UI string — filesDraftTooLargeToSave"
+    "description": "Kilo-Walk UI string — filesDraftTooLargeToSave"
   },
   "filesSaveChangesBeforeClose": "이 파일을 닫기 전에 변경 사항을 저장하세요.",
   "@filesSaveChangesBeforeClose": {
-    "description": "CodeWalk UI string — filesSaveChangesBeforeClose"
+    "description": "Kilo-Walk UI string — filesSaveChangesBeforeClose"
   },
   "filesSaveChangesBeforePathChange": "이 경로를 변경하기 전에 변경 사항을 저장하세요.",
   "@filesSaveChangesBeforePathChange": {
-    "description": "CodeWalk UI string — filesSaveChangesBeforePathChange"
+    "description": "Kilo-Walk UI string — filesSaveChangesBeforePathChange"
   },
   "filesWaitForSaveBeforePathChange": "이 경로를 변경하기 전에 파일 저장이 끝날 때까지 기다리세요.",
   "@filesWaitForSaveBeforePathChange": {
-    "description": "CodeWalk UI string — filesWaitForSaveBeforePathChange"
+    "description": "Kilo-Walk UI string — filesWaitForSaveBeforePathChange"
   },
   "filesWaitForFileOperation": "파일 작업이 끝날 때까지 기다리세요.",
   "@filesWaitForFileOperation": {
-    "description": "CodeWalk UI string — filesWaitForFileOperation"
+    "description": "Kilo-Walk UI string — filesWaitForFileOperation"
   },
   "filesLargeFileReadOnly": "편집 응답성을 유지하기 위해 큰 파일은 읽기 전용으로 열립니다.",
   "@filesLargeFileReadOnly": {
-    "description": "CodeWalk UI string — filesLargeFileReadOnly"
+    "description": "Kilo-Walk UI string — filesLargeFileReadOnly"
   },
   "filesCheckingWriteSupport": "파일 쓰기 지원 확인 중...",
   "@filesCheckingWriteSupport": {
-    "description": "CodeWalk UI string — filesCheckingWriteSupport"
+    "description": "Kilo-Walk UI string — filesCheckingWriteSupport"
   },
   "filesActiveProjectRequired": "파일 작업에는 활성 프로젝트 디렉터리가 필요합니다.",
   "@filesActiveProjectRequired": {
-    "description": "CodeWalk UI string — filesActiveProjectRequired"
+    "description": "Kilo-Walk UI string — filesActiveProjectRequired"
   },
   "filesReloadSkippedUnsavedChanges": "저장하지 않은 변경 사항이 있어 다시 로드를 건너뜁니다.",
   "@filesReloadSkippedUnsavedChanges": {
-    "description": "CodeWalk UI string — filesReloadSkippedUnsavedChanges"
+    "description": "Kilo-Walk UI string — filesReloadSkippedUnsavedChanges"
   },
   "filesFailedToLoadContent": "파일 내용을 불러오지 못했습니다",
   "@filesFailedToLoadContent": {
-    "description": "CodeWalk UI string — filesFailedToLoadContent"
+    "description": "Kilo-Walk UI string — filesFailedToLoadContent"
   },
   "filesFileSaved": "파일이 저장되었습니다.",
   "@filesFileSaved": {
-    "description": "CodeWalk UI string — filesFileSaved"
+    "description": "Kilo-Walk UI string — filesFileSaved"
   },
   "filesParentNotDirectory": "상위 항목이 디렉터리가 아닙니다.",
   "@filesParentNotDirectory": {
-    "description": "CodeWalk UI string — filesParentNotDirectory"
+    "description": "Kilo-Walk UI string — filesParentNotDirectory"
   },
   "filesMalformedResponse": "파일 작업에서 잘못된 응답이 반환되었습니다.",
   "@filesMalformedResponse": {
-    "description": "CodeWalk UI string — filesMalformedResponse"
+    "description": "Kilo-Walk UI string — filesMalformedResponse"
   },
   "filesShellCommandDidNotComplete": "파일 작업 셸 명령이 완료되지 않았습니다.",
   "@filesShellCommandDidNotComplete": {
-    "description": "CodeWalk UI string — filesShellCommandDidNotComplete"
+    "description": "Kilo-Walk UI string — filesShellCommandDidNotComplete"
   },
   "filesShellCommandNoResult": "파일 작업 셸 명령이 결과를 반환하지 않았습니다.",
   "@filesShellCommandNoResult": {
-    "description": "CodeWalk UI string — filesShellCommandNoResult"
+    "description": "Kilo-Walk UI string — filesShellCommandNoResult"
   },
   "filesShellCommandTruncated": "파일 작업 셸 명령이 서버에 의해 잘렸습니다.",
   "@filesShellCommandTruncated": {
-    "description": "CodeWalk UI string — filesShellCommandTruncated"
+    "description": "Kilo-Walk UI string — filesShellCommandTruncated"
   },
   "filesShellCommandSyntaxError": "파일 작업 셸 명령이 구문 오류로 실패했습니다.",
   "@filesShellCommandSyntaxError": {
-    "description": "CodeWalk UI string — filesShellCommandSyntaxError"
+    "description": "Kilo-Walk UI string — filesShellCommandSyntaxError"
   },
   "filesShellUtilityNotFound": "필요한 셸 유틸리티를 찾을 수 없습니다.",
   "@filesShellUtilityNotFound": {
-    "description": "CodeWalk UI string — filesShellUtilityNotFound"
+    "description": "Kilo-Walk UI string — filesShellUtilityNotFound"
   },
   "filesShellCommandFailed": "결과를 반환하기 전에 파일 작업 셸 명령이 실패했습니다.",
   "@filesShellCommandFailed": {
-    "description": "CodeWalk UI string — filesShellCommandFailed"
+    "description": "Kilo-Walk UI string — filesShellCommandFailed"
   },
   "attachmentSaveTitle": "첨부 파일 저장",
   "@attachmentSaveTitle": {
-    "description": "CodeWalk UI string — attachmentSaveTitle"
+    "description": "Kilo-Walk UI string — attachmentSaveTitle"
   },
   "attachmentBrowserSandboxLocalFile": "브라우저 샌드박스로 인해 file:// 첨부 파일을 직접 열 수 없습니다.",
   "@attachmentBrowserSandboxLocalFile": {
-    "description": "CodeWalk UI string — attachmentBrowserSandboxLocalFile"
+    "description": "Kilo-Walk UI string — attachmentBrowserSandboxLocalFile"
   },
   "attachmentLocalPathBrowserBlocked": "이 첨부 파일은 브라우저에서 열 수 없는 로컬 경로를 가리킵니다.",
   "@attachmentLocalPathBrowserBlocked": {
-    "description": "CodeWalk UI string — attachmentLocalPathBrowserBlocked"
+    "description": "Kilo-Walk UI string — attachmentLocalPathBrowserBlocked"
   },
   "terminalConnectedTo": "{directory}의 {serverName}에 연결됨",
   "@terminalConnectedTo": {
-    "description": "CodeWalk UI string — terminalConnectedTo",
+    "description": "Kilo-Walk UI string — terminalConnectedTo",
     "placeholders": {
       "directory": {
         "type": "String"
@@ -1766,51 +1766,51 @@
   },
   "terminalTransportUnavailable": "터미널 전송을 사용할 수 없습니다.",
   "@terminalTransportUnavailable": {
-    "description": "CodeWalk UI string — terminalTransportUnavailable"
+    "description": "Kilo-Walk UI string — terminalTransportUnavailable"
   },
   "chatSlashCommandNew": "새 채팅 세션 만들기",
   "@chatSlashCommandNew": {
-    "description": "CodeWalk UI string — chatSlashCommandNew"
+    "description": "Kilo-Walk UI string — chatSlashCommandNew"
   },
   "chatSlashCommandModels": "모델 선택기 열기",
   "@chatSlashCommandModels": {
-    "description": "CodeWalk UI string — chatSlashCommandModels"
+    "description": "Kilo-Walk UI string — chatSlashCommandModels"
   },
   "chatSlashCommandSessions": "대화 목록 열기",
   "@chatSlashCommandSessions": {
-    "description": "CodeWalk UI string — chatSlashCommandSessions"
+    "description": "Kilo-Walk UI string — chatSlashCommandSessions"
   },
   "chatSlashCommandAgent": "에이전트 선택기 열기",
   "@chatSlashCommandAgent": {
-    "description": "CodeWalk UI string — chatSlashCommandAgent"
+    "description": "Kilo-Walk UI string — chatSlashCommandAgent"
   },
   "chatSlashCommandOpen": "파일 열기 빠른 작업",
   "@chatSlashCommandOpen": {
-    "description": "CodeWalk UI string — chatSlashCommandOpen"
+    "description": "Kilo-Walk UI string — chatSlashCommandOpen"
   },
   "chatSlashCommandHelp": "명령 도움말 표시",
   "@chatSlashCommandHelp": {
-    "description": "CodeWalk UI string — chatSlashCommandHelp"
+    "description": "Kilo-Walk UI string — chatSlashCommandHelp"
   },
   "chatSlashCommandCompact": "현재 세션 컨텍스트 압축",
   "@chatSlashCommandCompact": {
-    "description": "CodeWalk UI string — chatSlashCommandCompact"
+    "description": "Kilo-Walk UI string — chatSlashCommandCompact"
   },
   "chatSlashCommandThinking": "생각 풍선 표시 전환",
   "@chatSlashCommandThinking": {
-    "description": "CodeWalk UI string — chatSlashCommandThinking"
+    "description": "Kilo-Walk UI string — chatSlashCommandThinking"
   },
   "chatSlashCommandUndo": "마지막으로 표시된 사용자 턴 실행 취소",
   "@chatSlashCommandUndo": {
-    "description": "CodeWalk UI string — chatSlashCommandUndo"
+    "description": "Kilo-Walk UI string — chatSlashCommandUndo"
   },
   "chatSlashCommandRedo": "실행 취소한 마지막 턴 다시 실행",
   "@chatSlashCommandRedo": {
-    "description": "CodeWalk UI string — chatSlashCommandRedo"
+    "description": "Kilo-Walk UI string — chatSlashCommandRedo"
   },
   "chatSessionSubConversationCount": "{count, plural, =1{하위 대화 1개} other{하위 대화 {count}개}}",
   "@chatSessionSubConversationCount": {
-    "description": "CodeWalk UI string — chatSessionSubConversationCount",
+    "description": "Kilo-Walk UI string — chatSessionSubConversationCount",
     "placeholders": {
       "count": {
         "type": "int"
@@ -1819,7 +1819,7 @@
   },
   "chatMessageWeeksAgo": "{count}주 전",
   "@chatMessageWeeksAgo": {
-    "description": "CodeWalk UI string — chatMessageWeeksAgo",
+    "description": "Kilo-Walk UI string — chatMessageWeeksAgo",
     "placeholders": {
       "count": {
         "type": "int"
@@ -1828,7 +1828,7 @@
   },
   "chatMessageShortDate": "{month}/{day}",
   "@chatMessageShortDate": {
-    "description": "CodeWalk UI string — chatMessageShortDate",
+    "description": "Kilo-Walk UI string — chatMessageShortDate",
     "placeholders": {
       "day": {
         "type": "int"
@@ -1840,15 +1840,15 @@
   },
   "chatProviderErrorLoadSessionStatus": "세션 상태를 불러오지 못했습니다",
   "@chatProviderErrorLoadSessionStatus": {
-    "description": "CodeWalk UI string — chatProviderErrorLoadSessionStatus"
+    "description": "Kilo-Walk UI string — chatProviderErrorLoadSessionStatus"
   },
   "chatProviderErrorLoadSessionDetails": "일부 세션 세부 정보를 불러오지 못했습니다",
   "@chatProviderErrorLoadSessionDetails": {
-    "description": "CodeWalk UI string — chatProviderErrorLoadSessionDetails"
+    "description": "Kilo-Walk UI string — chatProviderErrorLoadSessionDetails"
   },
   "chatProviderErrorLoadSessionList": "세션 목록을 불러오지 못했습니다: {error}",
   "@chatProviderErrorLoadSessionList": {
-    "description": "CodeWalk UI string — chatProviderErrorLoadSessionList",
+    "description": "Kilo-Walk UI string — chatProviderErrorLoadSessionList",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1857,67 +1857,67 @@
   },
   "chatProviderErrorCreateSession": "세션을 만들지 못했습니다",
   "@chatProviderErrorCreateSession": {
-    "description": "CodeWalk UI string — chatProviderErrorCreateSession"
+    "description": "Kilo-Walk UI string — chatProviderErrorCreateSession"
   },
   "chatProviderErrorSelectProviderModelBeforeSend": "메시지를 보내기 전에 연결된 공급자 또는 무료 OpenCode 모델을 선택하세요",
   "@chatProviderErrorSelectProviderModelBeforeSend": {
-    "description": "CodeWalk UI string — chatProviderErrorSelectProviderModelBeforeSend"
+    "description": "Kilo-Walk UI string — chatProviderErrorSelectProviderModelBeforeSend"
   },
   "chatProviderErrorStartMessageSend": "메시지 전송을 시작하지 못했습니다",
   "@chatProviderErrorStartMessageSend": {
-    "description": "CodeWalk UI string — chatProviderErrorStartMessageSend"
+    "description": "Kilo-Walk UI string — chatProviderErrorStartMessageSend"
   },
   "chatProviderErrorStopUnavailable": "현재 세션에서는 중지를 사용할 수 없습니다",
   "@chatProviderErrorStopUnavailable": {
-    "description": "CodeWalk UI string — chatProviderErrorStopUnavailable"
+    "description": "Kilo-Walk UI string — chatProviderErrorStopUnavailable"
   },
   "chatProviderErrorWaitForResponseFinish": "컨텍스트를 압축하기 전에 현재 응답이 끝날 때까지 기다리세요",
   "@chatProviderErrorWaitForResponseFinish": {
-    "description": "CodeWalk UI string — chatProviderErrorWaitForResponseFinish"
+    "description": "Kilo-Walk UI string — chatProviderErrorWaitForResponseFinish"
   },
   "chatProviderErrorCompactUnavailable": "현재 세션에서는 컨텍스트 압축을 사용할 수 없습니다",
   "@chatProviderErrorCompactUnavailable": {
-    "description": "CodeWalk UI string — chatProviderErrorCompactUnavailable"
+    "description": "Kilo-Walk UI string — chatProviderErrorCompactUnavailable"
   },
   "chatProviderErrorSelectModelBeforeCompact": "컨텍스트를 압축하기 전에 모델을 선택하세요",
   "@chatProviderErrorSelectModelBeforeCompact": {
-    "description": "CodeWalk UI string — chatProviderErrorSelectModelBeforeCompact"
+    "description": "Kilo-Walk UI string — chatProviderErrorSelectModelBeforeCompact"
   },
   "chatProviderErrorCompactSessionContext": "세션 컨텍스트 압축에 실패했습니다",
   "@chatProviderErrorCompactSessionContext": {
-    "description": "CodeWalk UI string — chatProviderErrorCompactSessionContext"
+    "description": "Kilo-Walk UI string — chatProviderErrorCompactSessionContext"
   },
   "chatProviderErrorNetwork": "네트워크 연결에 실패했습니다. 네트워크 설정을 확인해 주세요",
   "@chatProviderErrorNetwork": {
-    "description": "CodeWalk UI string — chatProviderErrorNetwork"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetwork"
   },
   "chatProviderErrorServer": "서버 오류가 발생했습니다. 나중에 다시 시도해 주세요",
   "@chatProviderErrorServer": {
-    "description": "CodeWalk UI string — chatProviderErrorServer"
+    "description": "Kilo-Walk UI string — chatProviderErrorServer"
   },
   "chatProviderErrorNotFound": "리소스를 찾을 수 없습니다",
   "@chatProviderErrorNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorNotFound"
   },
   "chatProviderErrorInvalidInput": "잘못된 입력 매개변수입니다",
   "@chatProviderErrorInvalidInput": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidInput"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidInput"
   },
   "chatProviderErrorUnknown": "알 수 없는 오류가 발생했습니다. 나중에 다시 시도해 주세요",
   "@chatProviderErrorUnknown": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknown"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknown"
   },
   "chatProviderErrorSessionFallback": "세션 오류",
   "@chatProviderErrorSessionFallback": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionFallback"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionFallback"
   },
   "projectProviderErrorNoProjectContext": "서버에서 프로젝트 컨텍스트를 사용할 수 없습니다",
   "@projectProviderErrorNoProjectContext": {
-    "description": "CodeWalk UI string — projectProviderErrorNoProjectContext"
+    "description": "Kilo-Walk UI string — projectProviderErrorNoProjectContext"
   },
   "projectProviderErrorInitializeFailed": "프로젝트 컨텍스트를 초기화하지 못했습니다: {error}",
   "@projectProviderErrorInitializeFailed": {
-    "description": "CodeWalk UI string — projectProviderErrorInitializeFailed",
+    "description": "Kilo-Walk UI string — projectProviderErrorInitializeFailed",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1926,35 +1926,35 @@
   },
   "projectProviderErrorSwitchProjectNotFound": "프로젝트를 전환하지 못했습니다: 프로젝트를 찾을 수 없습니다",
   "@projectProviderErrorSwitchProjectNotFound": {
-    "description": "CodeWalk UI string — projectProviderErrorSwitchProjectNotFound"
+    "description": "Kilo-Walk UI string — projectProviderErrorSwitchProjectNotFound"
   },
   "projectProviderErrorSwitchDirectoryEmpty": "프로젝트를 전환하지 못했습니다: 디렉터리가 비어 있습니다",
   "@projectProviderErrorSwitchDirectoryEmpty": {
-    "description": "CodeWalk UI string — projectProviderErrorSwitchDirectoryEmpty"
+    "description": "Kilo-Walk UI string — projectProviderErrorSwitchDirectoryEmpty"
   },
   "projectProviderErrorAtLeastOneContext": "최소한 하나의 컨텍스트는 열려 있어야 합니다",
   "@projectProviderErrorAtLeastOneContext": {
-    "description": "CodeWalk UI string — projectProviderErrorAtLeastOneContext"
+    "description": "Kilo-Walk UI string — projectProviderErrorAtLeastOneContext"
   },
   "projectProviderErrorReopenProjectNotFound": "프로젝트를 다시 열지 못했습니다: 프로젝트를 찾을 수 없습니다",
   "@projectProviderErrorReopenProjectNotFound": {
-    "description": "CodeWalk UI string — projectProviderErrorReopenProjectNotFound"
+    "description": "Kilo-Walk UI string — projectProviderErrorReopenProjectNotFound"
   },
   "projectProviderErrorOnlyClosedArchivable": "닫힌 프로젝트만 보관할 수 있습니다",
   "@projectProviderErrorOnlyClosedArchivable": {
-    "description": "CodeWalk UI string — projectProviderErrorOnlyClosedArchivable"
+    "description": "Kilo-Walk UI string — projectProviderErrorOnlyClosedArchivable"
   },
   "projectProviderErrorArchiveProjectNotFound": "프로젝트를 보관하지 못했습니다: 프로젝트를 찾을 수 없습니다",
   "@projectProviderErrorArchiveProjectNotFound": {
-    "description": "CodeWalk UI string — projectProviderErrorArchiveProjectNotFound"
+    "description": "Kilo-Walk UI string — projectProviderErrorArchiveProjectNotFound"
   },
   "projectProviderErrorArchiveProjectPathInvalid": "프로젝트를 보관하지 못했습니다: 프로젝트 경로가 올바르지 않습니다",
   "@projectProviderErrorArchiveProjectPathInvalid": {
-    "description": "CodeWalk UI string — projectProviderErrorArchiveProjectPathInvalid"
+    "description": "Kilo-Walk UI string — projectProviderErrorArchiveProjectPathInvalid"
   },
   "projectProviderErrorLoadWorkspaces": "작업 공간 목록을 불러오지 못했습니다: {error}",
   "@projectProviderErrorLoadWorkspaces": {
-    "description": "CodeWalk UI string — projectProviderErrorLoadWorkspaces",
+    "description": "Kilo-Walk UI string — projectProviderErrorLoadWorkspaces",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1963,11 +1963,11 @@
   },
   "projectProviderErrorWorkspaceNameEmpty": "작업 공간 이름은 비어 있을 수 없습니다",
   "@projectProviderErrorWorkspaceNameEmpty": {
-    "description": "CodeWalk UI string — projectProviderErrorWorkspaceNameEmpty"
+    "description": "Kilo-Walk UI string — projectProviderErrorWorkspaceNameEmpty"
   },
   "projectProviderErrorCreateWorkspace": "작업 공간을 만들지 못했습니다: {error}",
   "@projectProviderErrorCreateWorkspace": {
-    "description": "CodeWalk UI string — projectProviderErrorCreateWorkspace",
+    "description": "Kilo-Walk UI string — projectProviderErrorCreateWorkspace",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1976,7 +1976,7 @@
   },
   "projectProviderErrorResetWorkspace": "작업 공간을 초기화하지 못했습니다: {error}",
   "@projectProviderErrorResetWorkspace": {
-    "description": "CodeWalk UI string — projectProviderErrorResetWorkspace",
+    "description": "Kilo-Walk UI string — projectProviderErrorResetWorkspace",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1985,7 +1985,7 @@
   },
   "projectProviderErrorDeleteWorkspace": "작업 공간을 삭제하지 못했습니다: {error}",
   "@projectProviderErrorDeleteWorkspace": {
-    "description": "CodeWalk UI string — projectProviderErrorDeleteWorkspace",
+    "description": "Kilo-Walk UI string — projectProviderErrorDeleteWorkspace",
     "placeholders": {
       "error": {
         "type": "String"
@@ -1994,11 +1994,11 @@
   },
   "projectProviderErrorDirectoryEmpty": "디렉터리는 비어 있을 수 없습니다",
   "@projectProviderErrorDirectoryEmpty": {
-    "description": "CodeWalk UI string — projectProviderErrorDirectoryEmpty"
+    "description": "Kilo-Walk UI string — projectProviderErrorDirectoryEmpty"
   },
   "projectProviderErrorListDirectories": "디렉터리 목록을 불러오지 못했습니다: {error}",
   "@projectProviderErrorListDirectories": {
-    "description": "CodeWalk UI string — projectProviderErrorListDirectories",
+    "description": "Kilo-Walk UI string — projectProviderErrorListDirectories",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2007,7 +2007,7 @@
   },
   "projectProviderErrorValidateDirectory": "디렉터리 검증에 실패했습니다: {error}",
   "@projectProviderErrorValidateDirectory": {
-    "description": "CodeWalk UI string — projectProviderErrorValidateDirectory",
+    "description": "Kilo-Walk UI string — projectProviderErrorValidateDirectory",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2016,11 +2016,11 @@
   },
   "projectProviderErrorPathEmpty": "경로는 비어 있을 수 없습니다",
   "@projectProviderErrorPathEmpty": {
-    "description": "CodeWalk UI string — projectProviderErrorPathEmpty"
+    "description": "Kilo-Walk UI string — projectProviderErrorPathEmpty"
   },
   "projectProviderErrorListFiles": "파일 목록을 불러오지 못했습니다: {error}",
   "@projectProviderErrorListFiles": {
-    "description": "CodeWalk UI string — projectProviderErrorListFiles",
+    "description": "Kilo-Walk UI string — projectProviderErrorListFiles",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2029,7 +2029,7 @@
   },
   "projectProviderErrorSearchFiles": "파일 검색에 실패했습니다: {error}",
   "@projectProviderErrorSearchFiles": {
-    "description": "CodeWalk UI string — projectProviderErrorSearchFiles",
+    "description": "Kilo-Walk UI string — projectProviderErrorSearchFiles",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2038,7 +2038,7 @@
   },
   "projectProviderErrorContentSearchUnavailable": "콘텐츠 검색을 사용할 수 없습니다: {error}",
   "@projectProviderErrorContentSearchUnavailable": {
-    "description": "CodeWalk UI string — projectProviderErrorContentSearchUnavailable",
+    "description": "Kilo-Walk UI string — projectProviderErrorContentSearchUnavailable",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2047,7 +2047,7 @@
   },
   "projectProviderErrorSearchSymbols": "기호 검색에 실패했습니다: {error}",
   "@projectProviderErrorSearchSymbols": {
-    "description": "CodeWalk UI string — projectProviderErrorSearchSymbols",
+    "description": "Kilo-Walk UI string — projectProviderErrorSearchSymbols",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2056,7 +2056,7 @@
   },
   "projectProviderErrorReadFile": "파일을 읽지 못했습니다: {error}",
   "@projectProviderErrorReadFile": {
-    "description": "CodeWalk UI string — projectProviderErrorReadFile",
+    "description": "Kilo-Walk UI string — projectProviderErrorReadFile",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2065,7 +2065,7 @@
   },
   "projectProviderErrorLoadProjectList": "프로젝트 목록을 불러오지 못했습니다: {error}",
   "@projectProviderErrorLoadProjectList": {
-    "description": "CodeWalk UI string — projectProviderErrorLoadProjectList",
+    "description": "Kilo-Walk UI string — projectProviderErrorLoadProjectList",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2074,11 +2074,11 @@
   },
   "workspaceProjectRemovedFromHistory": "프로젝트가 기록에서 제거되었습니다",
   "@workspaceProjectRemovedFromHistory": {
-    "description": "CodeWalk UI string — workspaceProjectRemovedFromHistory"
+    "description": "Kilo-Walk UI string — workspaceProjectRemovedFromHistory"
   },
   "workspaceProjectContextOpened": "프로젝트 컨텍스트가 열렸습니다: {directory}",
   "@workspaceProjectContextOpened": {
-    "description": "CodeWalk UI string — workspaceProjectContextOpened",
+    "description": "Kilo-Walk UI string — workspaceProjectContextOpened",
     "placeholders": {
       "directory": {
         "type": "String"
@@ -2087,7 +2087,7 @@
   },
   "workspaceFailedToOpenProjectContext": "프로젝트 컨텍스트를 열지 못했습니다: {directory}",
   "@workspaceFailedToOpenProjectContext": {
-    "description": "CodeWalk UI string — workspaceFailedToOpenProjectContext",
+    "description": "Kilo-Walk UI string — workspaceFailedToOpenProjectContext",
     "placeholders": {
       "directory": {
         "type": "String"
@@ -2096,11 +2096,11 @@
   },
   "chatAbortNotice": "어떤 점을 다르게 하시겠어요?",
   "@chatAbortNotice": {
-    "description": "CodeWalk UI string — chatAbortNotice"
+    "description": "Kilo-Walk UI string — chatAbortNotice"
   },
   "sessionTitleToday": "오늘 {time} ({date})",
   "@sessionTitleToday": {
-    "description": "CodeWalk UI string — sessionTitleToday",
+    "description": "Kilo-Walk UI string — sessionTitleToday",
     "placeholders": {
       "date": {
         "type": "String"
@@ -2112,7 +2112,7 @@
   },
   "sessionTitleYesterday": "어제 {time} ({date})",
   "@sessionTitleYesterday": {
-    "description": "CodeWalk UI string — sessionTitleYesterday",
+    "description": "Kilo-Walk UI string — sessionTitleYesterday",
     "placeholders": {
       "date": {
         "type": "String"
@@ -2124,7 +2124,7 @@
   },
   "sessionTitleWeekday": "{weekday} {time} ({date})",
   "@sessionTitleWeekday": {
-    "description": "CodeWalk UI string — sessionTitleWeekday",
+    "description": "Kilo-Walk UI string — sessionTitleWeekday",
     "placeholders": {
       "date": {
         "type": "String"
@@ -2139,7 +2139,7 @@
   },
   "sessionTitleDateAndTime": "{date} {time}",
   "@sessionTitleDateAndTime": {
-    "description": "CodeWalk UI string — sessionTitleDateAndTime",
+    "description": "Kilo-Walk UI string — sessionTitleDateAndTime",
     "placeholders": {
       "date": {
         "type": "String"
@@ -2151,39 +2151,39 @@
   },
   "sessionWeekdayMon": "월",
   "@sessionWeekdayMon": {
-    "description": "CodeWalk UI string — sessionWeekdayMon"
+    "description": "Kilo-Walk UI string — sessionWeekdayMon"
   },
   "sessionWeekdayTue": "화",
   "@sessionWeekdayTue": {
-    "description": "CodeWalk UI string — sessionWeekdayTue"
+    "description": "Kilo-Walk UI string — sessionWeekdayTue"
   },
   "sessionWeekdayWed": "수",
   "@sessionWeekdayWed": {
-    "description": "CodeWalk UI string — sessionWeekdayWed"
+    "description": "Kilo-Walk UI string — sessionWeekdayWed"
   },
   "sessionWeekdayThu": "목",
   "@sessionWeekdayThu": {
-    "description": "CodeWalk UI string — sessionWeekdayThu"
+    "description": "Kilo-Walk UI string — sessionWeekdayThu"
   },
   "sessionWeekdayFri": "금",
   "@sessionWeekdayFri": {
-    "description": "CodeWalk UI string — sessionWeekdayFri"
+    "description": "Kilo-Walk UI string — sessionWeekdayFri"
   },
   "sessionWeekdaySat": "토",
   "@sessionWeekdaySat": {
-    "description": "CodeWalk UI string — sessionWeekdaySat"
+    "description": "Kilo-Walk UI string — sessionWeekdaySat"
   },
   "sessionWeekdaySun": "일",
   "@sessionWeekdaySun": {
-    "description": "CodeWalk UI string — sessionWeekdaySun"
+    "description": "Kilo-Walk UI string — sessionWeekdaySun"
   },
   "forwardTimeNow": "지금",
   "@forwardTimeNow": {
-    "description": "CodeWalk UI string — forwardTimeNow"
+    "description": "Kilo-Walk UI string — forwardTimeNow"
   },
   "forwardTimeMinutes": "{count}분",
   "@forwardTimeMinutes": {
-    "description": "CodeWalk UI string — forwardTimeMinutes",
+    "description": "Kilo-Walk UI string — forwardTimeMinutes",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2192,7 +2192,7 @@
   },
   "forwardTimeHours": "{count}시간",
   "@forwardTimeHours": {
-    "description": "CodeWalk UI string — forwardTimeHours",
+    "description": "Kilo-Walk UI string — forwardTimeHours",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2201,7 +2201,7 @@
   },
   "forwardTimeDays": "{count}일",
   "@forwardTimeDays": {
-    "description": "CodeWalk UI string — forwardTimeDays",
+    "description": "Kilo-Walk UI string — forwardTimeDays",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2210,7 +2210,7 @@
   },
   "forwardTimeWeeks": "{count}주",
   "@forwardTimeWeeks": {
-    "description": "CodeWalk UI string — forwardTimeWeeks",
+    "description": "Kilo-Walk UI string — forwardTimeWeeks",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2219,57 +2219,57 @@
   },
   "settingsBehaviorConfigFieldDefaultModel": "기본 모델",
   "@settingsBehaviorConfigFieldDefaultModel": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldDefaultModel"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldDefaultModel"
   },
   "settingsBehaviorConfigFieldDefaultAgent": "기본 에이전트",
   "@settingsBehaviorConfigFieldDefaultAgent": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldDefaultAgent"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldDefaultAgent"
   },
   "settingsBehaviorConfigFieldSmallModel": "소형 모델",
   "@settingsBehaviorConfigFieldSmallModel": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldSmallModel"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldSmallModel"
   },
   "settingsBehaviorConfigFieldAutoUpdateMode": "자동 업데이트 모드",
   "@settingsBehaviorConfigFieldAutoUpdateMode": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldAutoUpdateMode"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldAutoUpdateMode"
   },
   "settingsBehaviorConfigFieldSnapshotSetting": "스냅샷 설정",
   "@settingsBehaviorConfigFieldSnapshotSetting": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldSnapshotSetting"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldSnapshotSetting"
   },
   "settingsBehaviorConfigFieldConversationUsername": "대화 사용자 이름",
   "@settingsBehaviorConfigFieldConversationUsername": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldConversationUsername"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldConversationUsername"
   },
   "settingsBehaviorConfigFieldSharingDefault": "공유 기본값",
   "@settingsBehaviorConfigFieldSharingDefault": {
-    "description": "CodeWalk UI string — settingsBehaviorConfigFieldSharingDefault"
+    "description": "Kilo-Walk UI string — settingsBehaviorConfigFieldSharingDefault"
   },
   "speechMicNoInputDevice": "사용 가능한 마이크 입력 장치가 없습니다.",
   "speechLinuxAudioServerUnavailable": "A microphone tool was found, but the Linux audio server could not be reached. Make sure PipeWire or PulseAudio is running.",
   "speechLinuxMicBackendMissing": "No microphone recording tool was found on this system. Install PulseAudio tools (parecord), PipeWire tools (pw-record) or ALSA utilities (arecord), then try again.",
   "@speechMicNoInputDevice": {
-    "description": "CodeWalk UI string — speechMicNoInputDevice"
+    "description": "Kilo-Walk UI string — speechMicNoInputDevice"
   },
   "speechMicDeviceBusy": "기본 마이크가 현재 다른 앱에서 사용 중입니다.",
   "@speechMicDeviceBusy": {
-    "description": "CodeWalk UI string — speechMicDeviceBusy"
+    "description": "Kilo-Walk UI string — speechMicDeviceBusy"
   },
   "speechMicUnsupportedFormat": "기본 마이크 형식이 지원되지 않습니다.",
   "@speechMicUnsupportedFormat": {
-    "description": "CodeWalk UI string — speechMicUnsupportedFormat"
+    "description": "Kilo-Walk UI string — speechMicUnsupportedFormat"
   },
   "speechMicSpeechPrivacy": "Windows 음성 서비스가 비활성화되어 있을 수 있습니다(음성 개인 정보 보호, 온라인 음성 인식 또는 언어 팩).",
   "@speechMicSpeechPrivacy": {
-    "description": "CodeWalk UI string — speechMicSpeechPrivacy"
+    "description": "Kilo-Walk UI string — speechMicSpeechPrivacy"
   },
   "speechMicBackendUnavailable": "이 빌드에서는 Windows 마이크 백엔드를 사용할 수 없습니다.",
   "@speechMicBackendUnavailable": {
-    "description": "CodeWalk UI string — speechMicBackendUnavailable"
+    "description": "Kilo-Walk UI string — speechMicBackendUnavailable"
   },
   "speechEngineFallbackNotice": "선택한 STT 엔진을 사용할 수 없습니다({reason}). 대신 {fallback}을 사용합니다.",
   "@speechEngineFallbackNotice": {
-    "description": "CodeWalk UI string — speechEngineFallbackNotice",
+    "description": "Kilo-Walk UI string — speechEngineFallbackNotice",
     "placeholders": {
       "fallback": {
         "type": "String"
@@ -2281,56 +2281,56 @@
   },
   "oauthFlowSecureStorageUnavailable": "OAuth에 사용할 안전한 자격 증명 저장소를 사용할 수 없습니다.",
   "@oauthFlowSecureStorageUnavailable": {
-    "description": "CodeWalk UI string — oauthFlowSecureStorageUnavailable"
+    "description": "Kilo-Walk UI string — oauthFlowSecureStorageUnavailable"
   },
   "oauthFlowUnexpectedError": "OAuth 흐름이 예기치 않게 실패했습니다. 다시 시도해 주세요.",
   "@oauthFlowUnexpectedError": {
-    "description": "CodeWalk UI string — oauthFlowUnexpectedError"
+    "description": "Kilo-Walk UI string — oauthFlowUnexpectedError"
   },
   "oauthFlowNoEndpointsDiscovered": "OAuth 엔드포인트를 찾을 수 없습니다. Cloudflare Dashboard → Access → Applications → [이 앱]에서 관리 OAuth를 사용하도록 설정하세요.",
   "@oauthFlowNoEndpointsDiscovered": {
-    "description": "CodeWalk UI string — oauthFlowNoEndpointsDiscovered"
+    "description": "Kilo-Walk UI string — oauthFlowNoEndpointsDiscovered"
   },
   "oauthFlowTokenResponseMissingAccessToken": "OAuth 토큰 응답에 액세스 토큰이 포함되지 않았습니다.",
   "oauthFlowProfileChanged": "OAuth가 완료되기 전에 서버 프로필이 변경되었습니다.",
   "@oauthFlowProfileChanged": {
-    "description": "CodeWalk UI string — oauthFlowProfileChanged"
+    "description": "Kilo-Walk UI string — oauthFlowProfileChanged"
   },
   "oauthFlowMetadataMissingEndpoints": "OAuth 메타데이터에 인증/토큰 엔드포인트가 없습니다.",
   "@oauthFlowMetadataMissingEndpoints": {
-    "description": "CodeWalk UI string — oauthFlowMetadataMissingEndpoints"
+    "description": "Kilo-Walk UI string — oauthFlowMetadataMissingEndpoints"
   },
   "oauthFlowCallbackNotCompleted": "인증 콜백이 완료되지 않았습니다",
   "@oauthFlowCallbackNotCompleted": {
-    "description": "CodeWalk UI string — oauthFlowCallbackNotCompleted"
+    "description": "Kilo-Walk UI string — oauthFlowCallbackNotCompleted"
   },
   "oauthFlowProviderDeclined": "인증 서버가 OAuth 요청을 거부했습니다. 다시 시도해 주세요.",
   "@oauthFlowProviderDeclined": {
-    "description": "CodeWalk UI string — oauthFlowProviderDeclined"
+    "description": "Kilo-Walk UI string — oauthFlowProviderDeclined"
   },
   "oauthFlowCallbackValidationFailed": "OAuth 콜백 검증에 실패했습니다. 다시 시도해 주세요.",
   "@oauthFlowCallbackValidationFailed": {
-    "description": "CodeWalk UI string — oauthFlowCallbackValidationFailed"
+    "description": "Kilo-Walk UI string — oauthFlowCallbackValidationFailed"
   },
   "oauthFlowCallbackServerStartFailed": "로컬 OAuth 콜백 서버를 시작하지 못했습니다.",
   "@oauthFlowCallbackServerStartFailed": {
-    "description": "CodeWalk UI string — oauthFlowCallbackServerStartFailed"
+    "description": "Kilo-Walk UI string — oauthFlowCallbackServerStartFailed"
   },
   "oauthFlowSignInCanceled": "OAuth 로그인이 취소되었습니다.",
   "@oauthFlowSignInCanceled": {
-    "description": "CodeWalk UI string — oauthFlowSignInCanceled"
+    "description": "Kilo-Walk UI string — oauthFlowSignInCanceled"
   },
   "oauthFlowBrowserOpenFailed": "OAuth 로그인을 위해 시스템 브라우저를 열 수 없습니다.",
   "@oauthFlowBrowserOpenFailed": {
-    "description": "CodeWalk UI string — oauthFlowBrowserOpenFailed"
+    "description": "Kilo-Walk UI string — oauthFlowBrowserOpenFailed"
   },
   "oauthFlowCallbackTimeout": "5분 이내에 인증 콜백이 앱에 도달하지 못했습니다. 동의 후 브라우저가 로컬 콜백 주소로 리디렉션될 것으로 예상했습니다. 대신 브라우저에 연결 오류가 표시된 경우 이 기기 또는 네트워크에서 루프백 리디렉션을 차단하고 있는 것입니다.",
   "@oauthFlowCallbackTimeout": {
-    "description": "CodeWalk UI string — oauthFlowCallbackTimeout"
+    "description": "Kilo-Walk UI string — oauthFlowCallbackTimeout"
   },
   "oauthFlowTokenExchangeTransientFailure": "일시적인 네트워크 문제로 {maxAttempts}회 시도 후 토큰 교환에 실패했습니다. 다시 시도해 주세요.",
   "@oauthFlowTokenExchangeTransientFailure": {
-    "description": "CodeWalk UI string — oauthFlowTokenExchangeTransientFailure",
+    "description": "Kilo-Walk UI string — oauthFlowTokenExchangeTransientFailure",
     "placeholders": {
       "maxAttempts": {
         "type": "int"
@@ -2339,7 +2339,7 @@
   },
   "oauthFlowTokenExchangeHttpFailure": "토큰 교환에 실패했습니다(HTTP {statusCode}). 다시 시도해 주세요.",
   "@oauthFlowTokenExchangeHttpFailure": {
-    "description": "CodeWalk UI string — oauthFlowTokenExchangeHttpFailure",
+    "description": "Kilo-Walk UI string — oauthFlowTokenExchangeHttpFailure",
     "placeholders": {
       "statusCode": {
         "type": "int"
@@ -2348,71 +2348,71 @@
   },
   "oauthFlowTokenExchangeUnexpectedFailure": "토큰 교환이 예기치 않게 실패했습니다. 다시 시도해 주세요.",
   "@oauthFlowTokenExchangeUnexpectedFailure": {
-    "description": "CodeWalk UI string — oauthFlowTokenExchangeUnexpectedFailure"
+    "description": "Kilo-Walk UI string — oauthFlowTokenExchangeUnexpectedFailure"
   },
   "oauthFlowTokenExchangeIncomplete": "인증 코드가 전송된 후 토큰 교환이 완료되지 않았습니다. OAuth 로그인을 다시 시작해 주세요.",
   "@oauthFlowTokenExchangeIncomplete": {
-    "description": "CodeWalk UI string — oauthFlowTokenExchangeIncomplete"
+    "description": "Kilo-Walk UI string — oauthFlowTokenExchangeIncomplete"
   },
   "speechReadAloudFailed": "텍스트 음성 변환에 실패했습니다.",
   "@speechReadAloudFailed": {
-    "description": "CodeWalk UI string — speechReadAloudFailed"
+    "description": "Kilo-Walk UI string — speechReadAloudFailed"
   },
   "speechReadAloudNoText": "소리 내어 읽을 텍스트가 없습니다.",
   "@speechReadAloudNoText": {
-    "description": "CodeWalk UI string — speechReadAloudNoText"
+    "description": "Kilo-Walk UI string — speechReadAloudNoText"
   },
   "speechEdgeTextTooLong": "Microsoft Edge Speech는 한 번에 최대 4096바이트까지 읽을 수 있습니다.",
   "@speechEdgeTextTooLong": {
-    "description": "CodeWalk UI string — speechEdgeTextTooLong"
+    "description": "Kilo-Walk UI string — speechEdgeTextTooLong"
   },
   "speechEdgeMalformedAudio": "Microsoft Edge Speech가 잘못된 형식의 오디오 데이터를 반환했습니다.",
   "@speechEdgeMalformedAudio": {
-    "description": "CodeWalk UI string — speechEdgeMalformedAudio"
+    "description": "Kilo-Walk UI string — speechEdgeMalformedAudio"
   },
   "speechEdgeUnsupportedAudio": "Microsoft Edge Speech가 지원되지 않는 오디오 데이터를 반환했습니다.",
   "@speechEdgeUnsupportedAudio": {
-    "description": "CodeWalk UI string — speechEdgeUnsupportedAudio"
+    "description": "Kilo-Walk UI string — speechEdgeUnsupportedAudio"
   },
   "speechEdgeUnsupportedFrame": "Microsoft Edge Speech가 지원되지 않는 websocket 프레임을 반환했습니다.",
   "@speechEdgeUnsupportedFrame": {
-    "description": "CodeWalk UI string — speechEdgeUnsupportedFrame"
+    "description": "Kilo-Walk UI string — speechEdgeUnsupportedFrame"
   },
   "speechEdgeSynthesisInterrupted": "Microsoft Edge Speech가 합성이 완료되기 전에 종료되었습니다.",
   "@speechEdgeSynthesisInterrupted": {
-    "description": "CodeWalk UI string — speechEdgeSynthesisInterrupted"
+    "description": "Kilo-Walk UI string — speechEdgeSynthesisInterrupted"
   },
   "speechEdgeEmptyAudio": "Microsoft Edge Speech가 빈 오디오 응답을 반환했습니다.",
   "@speechEdgeEmptyAudio": {
-    "description": "CodeWalk UI string — speechEdgeEmptyAudio"
+    "description": "Kilo-Walk UI string — speechEdgeEmptyAudio"
   },
   "speechEdgeTimedOut": "Microsoft Edge Speech 요청 시간이 초과되었습니다.",
   "@speechEdgeTimedOut": {
-    "description": "CodeWalk UI string — speechEdgeTimedOut"
+    "description": "Kilo-Walk UI string — speechEdgeTimedOut"
   },
   "speechEdgeUnreachable": "Microsoft Edge Speech에 연결할 수 없습니다.",
   "@speechEdgeUnreachable": {
-    "description": "CodeWalk UI string — speechEdgeUnreachable"
+    "description": "Kilo-Walk UI string — speechEdgeUnreachable"
   },
   "speechApiKeyMissing": "이 TTS 공급자를 사용하려면 설정 > 음성에서 API 키를 추가하세요.",
   "@speechApiKeyMissing": {
-    "description": "CodeWalk UI string — speechApiKeyMissing"
+    "description": "Kilo-Walk UI string — speechApiKeyMissing"
   },
   "speechProviderEmptyAudio": "TTS 공급자가 빈 오디오 응답을 반환했습니다.",
   "@speechProviderEmptyAudio": {
-    "description": "CodeWalk UI string — speechProviderEmptyAudio"
+    "description": "Kilo-Walk UI string — speechProviderEmptyAudio"
   },
   "speechProviderRequestRejected": "TTS 공급자가 음성 요청을 거부했습니다.",
   "@speechProviderRequestRejected": {
-    "description": "CodeWalk UI string — speechProviderRequestRejected"
+    "description": "Kilo-Walk UI string — speechProviderRequestRejected"
   },
   "speechApiKeyRejected": "TTS API 키가 공급자에 의해 거부되었습니다.",
   "@speechApiKeyRejected": {
-    "description": "CodeWalk UI string — speechApiKeyRejected"
+    "description": "Kilo-Walk UI string — speechApiKeyRejected"
   },
   "speechProviderQuotaRateLimit": "TTS 공급자가 할당량 또는 속도 제한에 도달했습니다.",
   "@speechProviderQuotaRateLimit": {
-    "description": "CodeWalk UI string — speechProviderQuotaRateLimit"
+    "description": "Kilo-Walk UI string — speechProviderQuotaRateLimit"
   },
   "speechReadAloudNoVoice": "이 TTS 공급자의 음성을 선택하세요.",
   "speechProviderTextTooLong": "이 TTS 모델에는 텍스트가 너무 깁니다.",
@@ -2433,15 +2433,15 @@
   "speechPitchHiddenForProvider": "피치는 이 TTS 공급자에서 지원되지 않으며 숨겨집니다.",
   "speechProviderTemporarilyUnavailable": "TTS 공급자를 일시적으로 사용할 수 없습니다.",
   "@speechProviderTemporarilyUnavailable": {
-    "description": "CodeWalk UI string — speechProviderTemporarilyUnavailable"
+    "description": "Kilo-Walk UI string — speechProviderTemporarilyUnavailable"
   },
   "speechProviderUnreachable": "TTS 공급자에 연결할 수 없습니다.",
   "@speechProviderUnreachable": {
-    "description": "CodeWalk UI string — speechProviderUnreachable"
+    "description": "Kilo-Walk UI string — speechProviderUnreachable"
   },
   "appProviderErrorFailedToStartProcess": "{tool} 프로세스를 시작하지 못했습니다.",
   "@appProviderErrorFailedToStartProcess": {
-    "description": "CodeWalk UI string — appProviderErrorFailedToStartProcess",
+    "description": "Kilo-Walk UI string — appProviderErrorFailedToStartProcess",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -2450,7 +2450,7 @@
   },
   "appProviderErrorToolNotAvailable": "{tool}을(를) 사용할 수 없습니다. 먼저 {runtime}을(를) 설치하세요.",
   "@appProviderErrorToolNotAvailable": {
-    "description": "CodeWalk UI string — appProviderErrorToolNotAvailable",
+    "description": "Kilo-Walk UI string — appProviderErrorToolNotAvailable",
     "placeholders": {
       "runtime": {
         "type": "String"
@@ -2462,7 +2462,7 @@
   },
   "appProviderErrorToolInstallFailed": "{tool} 설치가 종료 코드 {exitCode}로 실패했습니다.",
   "@appProviderErrorToolInstallFailed": {
-    "description": "CodeWalk UI string — appProviderErrorToolInstallFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorToolInstallFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -2474,7 +2474,7 @@
   },
   "appProviderErrorBunBootstrapFailed": "Bun 부트스트랩이 종료 코드 {exitCode}로 실패했습니다.",
   "@appProviderErrorBunBootstrapFailed": {
-    "description": "CodeWalk UI string — appProviderErrorBunBootstrapFailed",
+    "description": "Kilo-Walk UI string — appProviderErrorBunBootstrapFailed",
     "placeholders": {
       "exitCode": {
         "type": "int"
@@ -2483,15 +2483,15 @@
   },
   "appProviderErrorInstalledButNotFoundInPath": "OpenCode 설치가 완료되었지만 PATH에서 명령을 찾을 수 없습니다.",
   "@appProviderErrorInstalledButNotFoundInPath": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButNotFoundInPath"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButNotFoundInPath"
   },
   "appProviderErrorInstalledButPathNotResolved": "OpenCode 설치가 완료되었지만 명령 경로를 확인할 수 없습니다.",
   "@appProviderErrorInstalledButPathNotResolved": {
-    "description": "CodeWalk UI string — appProviderErrorInstalledButPathNotResolved"
+    "description": "Kilo-Walk UI string — appProviderErrorInstalledButPathNotResolved"
   },
   "appProviderErrorConfiguredCommandNotFound": "구성된 명령을 찾을 수 없고 {tool}이(가) PATH에 없습니다.",
   "@appProviderErrorConfiguredCommandNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -2500,31 +2500,31 @@
   },
   "appProviderErrorConfiguredCommandPathMissing": "구성된 명령 경로가 존재하지 않습니다.",
   "@appProviderErrorConfiguredCommandPathMissing": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandPathMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandPathMissing"
   },
   "appProviderErrorConfiguredCommandVersionCheckFailed": "구성된 명령은 존재하지만 버전 확인에 실패했습니다.",
   "@appProviderErrorConfiguredCommandVersionCheckFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandVersionCheckFailed"
   },
   "appProviderErrorConfiguredCommandExecutionFailed": "구성된 명령을 실행할 수 없습니다.",
   "@appProviderErrorConfiguredCommandExecutionFailed": {
-    "description": "CodeWalk UI string — appProviderErrorConfiguredCommandExecutionFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorConfiguredCommandExecutionFailed"
   },
   "appProviderWslCheckWindowsOnly": "WSL 확인은 Windows에만 적용됩니다.",
   "@appProviderWslCheckWindowsOnly": {
-    "description": "CodeWalk UI string — appProviderWslCheckWindowsOnly"
+    "description": "Kilo-Walk UI string — appProviderWslCheckWindowsOnly"
   },
   "appProviderDesktopBuildRequired": "관리형 로컬 서버를 구성하려면 데스크톱 빌드를 사용하세요.",
   "@appProviderDesktopBuildRequired": {
-    "description": "CodeWalk UI string — appProviderDesktopBuildRequired"
+    "description": "Kilo-Walk UI string — appProviderDesktopBuildRequired"
   },
   "appProviderKnownInstallationDirectoryDetected": "알려진 설치 디렉터리에서 감지되었습니다.",
   "@appProviderKnownInstallationDirectoryDetected": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationDirectoryDetected"
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationDirectoryDetected"
   },
   "appProviderKnownInstallationPathRefreshHint": "알려진 설치 디렉터리에서 감지되었습니다. PATH를 새로 고쳐야 할 수 있습니다. 최근 설치가 아직 감지되지 않으면 {appName}을(를) 다시 여세요.",
   "@appProviderKnownInstallationPathRefreshHint": {
-    "description": "CodeWalk UI string — appProviderKnownInstallationPathRefreshHint",
+    "description": "Kilo-Walk UI string — appProviderKnownInstallationPathRefreshHint",
     "placeholders": {
       "appName": {
         "type": "String"
@@ -2533,31 +2533,31 @@
   },
   "appProviderErrorReleaseMetadataFetchFailed": "GitHub에서 최신 릴리스 메타데이터를 가져오지 못했습니다.",
   "@appProviderErrorReleaseMetadataFetchFailed": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseMetadataFetchFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseMetadataFetchFailed"
   },
   "appProviderErrorReleaseAssetListMissing": "최신 릴리스 메타데이터에 자산 목록이 포함되지 않았습니다.",
   "@appProviderErrorReleaseAssetListMissing": {
-    "description": "CodeWalk UI string — appProviderErrorReleaseAssetListMissing"
+    "description": "Kilo-Walk UI string — appProviderErrorReleaseAssetListMissing"
   },
   "appProviderErrorNoCompatibleAsset": "호환되는 OpenCode 바이너리 자산을 찾을 수 없습니다.",
   "@appProviderErrorNoCompatibleAsset": {
-    "description": "CodeWalk UI string — appProviderErrorNoCompatibleAsset"
+    "description": "Kilo-Walk UI string — appProviderErrorNoCompatibleAsset"
   },
   "appProviderErrorDownloadAssetFailed": "선택한 OpenCode 자산을 다운로드하지 못했습니다.",
   "@appProviderErrorDownloadAssetFailed": {
-    "description": "CodeWalk UI string — appProviderErrorDownloadAssetFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorDownloadAssetFailed"
   },
   "appProviderErrorChecksumVerificationFailed": "다운로드한 자산의 체크섬 검증에 실패했습니다.",
   "@appProviderErrorChecksumVerificationFailed": {
-    "description": "CodeWalk UI string — appProviderErrorChecksumVerificationFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorChecksumVerificationFailed"
   },
   "appProviderErrorExtractArchiveFailed": "OpenCode 바이너리 아카이브 압축 해제에 실패했습니다.",
   "@appProviderErrorExtractArchiveFailed": {
-    "description": "CodeWalk UI string — appProviderErrorExtractArchiveFailed"
+    "description": "Kilo-Walk UI string — appProviderErrorExtractArchiveFailed"
   },
   "appProviderErrorExecutableNotFound": "압축 해제된 파일에서 {tool} 실행 파일을 찾을 수 없습니다.",
   "@appProviderErrorExecutableNotFound": {
-    "description": "CodeWalk UI string — appProviderErrorExecutableNotFound",
+    "description": "Kilo-Walk UI string — appProviderErrorExecutableNotFound",
     "placeholders": {
       "tool": {
         "type": "String"
@@ -2566,79 +2566,79 @@
   },
   "chatNoResponseFromServer": "서버에서 응답이 없습니다. 다시 시도하세요.",
   "@chatNoResponseFromServer": {
-    "description": "CodeWalk UI string — chatNoResponseFromServer"
+    "description": "Kilo-Walk UI string — chatNoResponseFromServer"
   },
   "chatNoResponseFromModel": "모델에서 응답이 없습니다. 다시 시도하세요.",
   "@chatNoResponseFromModel": {
-    "description": "CodeWalk UI string — chatNoResponseFromModel"
+    "description": "Kilo-Walk UI string — chatNoResponseFromModel"
   },
   "speechJobCancelled": "음성 작업이 취소되었습니다.",
   "@speechJobCancelled": {
-    "description": "CodeWalk UI string — speechJobCancelled"
+    "description": "Kilo-Walk UI string — speechJobCancelled"
   },
   "speechEdgeCancelled": "Microsoft Edge Speech가 취소되었습니다.",
   "@speechEdgeCancelled": {
-    "description": "CodeWalk UI string — speechEdgeCancelled"
+    "description": "Kilo-Walk UI string — speechEdgeCancelled"
   },
   "sessionAttentionKindActive": "활성",
   "@sessionAttentionKindActive": {
-    "description": "CodeWalk UI string — sessionAttentionKindActive"
+    "description": "Kilo-Walk UI string — sessionAttentionKindActive"
   },
   "sessionAttentionKindReceiving": "수신 중",
   "@sessionAttentionKindReceiving": {
-    "description": "CodeWalk UI string — sessionAttentionKindReceiving"
+    "description": "Kilo-Walk UI string — sessionAttentionKindReceiving"
   },
   "sessionAttentionKindDelayed": "지연됨",
   "@sessionAttentionKindDelayed": {
-    "description": "CodeWalk UI string — sessionAttentionKindDelayed"
+    "description": "Kilo-Walk UI string — sessionAttentionKindDelayed"
   },
   "sessionAttentionKindCompleted": "완료",
   "@sessionAttentionKindCompleted": {
-    "description": "CodeWalk UI string — sessionAttentionKindCompleted"
+    "description": "Kilo-Walk UI string — sessionAttentionKindCompleted"
   },
   "sessionAttentionKindPendingInteraction": "상호작용 대기 중",
   "@sessionAttentionKindPendingInteraction": {
-    "description": "CodeWalk UI string — sessionAttentionKindPendingInteraction"
+    "description": "Kilo-Walk UI string — sessionAttentionKindPendingInteraction"
   },
   "sessionAttentionKindError": "오류",
   "@sessionAttentionKindError": {
-    "description": "CodeWalk UI string — sessionAttentionKindError"
+    "description": "Kilo-Walk UI string — sessionAttentionKindError"
   },
   "sessionAttentionPauseCellularDataSaver": "데이터 절약 모드가 활성화되었습니다.",
   "@sessionAttentionPauseCellularDataSaver": {
-    "description": "CodeWalk UI string — sessionAttentionPauseCellularDataSaver"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseCellularDataSaver"
   },
   "sessionAttentionPauseOauthReopenRequired": "OAuth 로그인 필요",
   "@sessionAttentionPauseOauthReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOauthReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOauthReopenRequired"
   },
   "sessionAttentionPauseTailscaleReopenRequired": "Tailscale 연결 필요",
   "@sessionAttentionPauseTailscaleReopenRequired": {
-    "description": "CodeWalk UI string — sessionAttentionPauseTailscaleReopenRequired"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseTailscaleReopenRequired"
   },
   "sessionAttentionPauseOffline": "오프라인",
   "@sessionAttentionPauseOffline": {
-    "description": "CodeWalk UI string — sessionAttentionPauseOffline"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseOffline"
   },
   "sessionAttentionPausePermissionRevoked": "권한이 취소되었습니다",
   "@sessionAttentionPausePermissionRevoked": {
-    "description": "CodeWalk UI string — sessionAttentionPausePermissionRevoked"
+    "description": "Kilo-Walk UI string — sessionAttentionPausePermissionRevoked"
   },
   "sessionAttentionPauseServiceStopped": "서비스가 중지되었습니다",
   "@sessionAttentionPauseServiceStopped": {
-    "description": "CodeWalk UI string — sessionAttentionPauseServiceStopped"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseServiceStopped"
   },
   "sessionAttentionPauseHostUnavailable": "호스트를 사용할 수 없음",
   "@sessionAttentionPauseHostUnavailable": {
-    "description": "CodeWalk UI string — sessionAttentionPauseHostUnavailable"
+    "description": "Kilo-Walk UI string — sessionAttentionPauseHostUnavailable"
   },
   "errorRequestCancelled": "요청이 취소되었습니다",
   "@errorRequestCancelled": {
-    "description": "CodeWalk UI string — errorRequestCancelled"
+    "description": "Kilo-Walk UI string — errorRequestCancelled"
   },
   "errorUnknownNetworkError": "알 수 없는 네트워크 오류: {error}",
   "@errorUnknownNetworkError": {
-    "description": "CodeWalk UI string — errorUnknownNetworkError",
+    "description": "Kilo-Walk UI string — errorUnknownNetworkError",
     "placeholders": {
       "error": {
         "type": "String"
@@ -2647,35 +2647,35 @@
   },
   "errorCertificateError": "인증서 오류",
   "@errorCertificateError": {
-    "description": "CodeWalk UI string — errorCertificateError"
+    "description": "Kilo-Walk UI string — errorCertificateError"
   },
   "errorSessionBusy": "세션이 다른 요청을 처리하는 중입니다.",
   "@errorSessionBusy": {
-    "description": "CodeWalk UI string — errorSessionBusy"
+    "description": "Kilo-Walk UI string — errorSessionBusy"
   },
   "errorRunShellCommandFailed": "셸 명령 실행에 실패했습니다",
   "@errorRunShellCommandFailed": {
-    "description": "CodeWalk UI string — errorRunShellCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunShellCommandFailed"
   },
   "errorRunSlashCommandFailed": "슬래시 명령 실행에 실패했습니다",
   "@errorRunSlashCommandFailed": {
-    "description": "CodeWalk UI string — errorRunSlashCommandFailed"
+    "description": "Kilo-Walk UI string — errorRunSlashCommandFailed"
   },
   "settingsBehaviorOpenCodeDefaultsLoadError": "활성 서버에서 OpenCode 기반 기본값을 불러올 수 없습니다.",
   "@settingsBehaviorOpenCodeDefaultsLoadError": {
-    "description": "CodeWalk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
+    "description": "Kilo-Walk UI string — settingsBehaviorOpenCodeDefaultsLoadError"
   },
   "sessionTabIconRemoveFailed": "로컬 세션 탭 아이콘 데이터를 제거하지 못했습니다",
   "@sessionTabIconRemoveFailed": {
-    "description": "CodeWalk UI string — sessionTabIconRemoveFailed"
+    "description": "Kilo-Walk UI string — sessionTabIconRemoveFailed"
   },
   "forwardUntitled": "제목 없음",
   "@forwardUntitled": {
-    "description": "CodeWalk UI string — forwardUntitled"
+    "description": "Kilo-Walk UI string — forwardUntitled"
   },
   "setupDebugLinuxLogsPath": "Linux 로그: {path}",
   "@setupDebugLinuxLogsPath": {
-    "description": "CodeWalk UI string — setupDebugLinuxLogsPath",
+    "description": "Kilo-Walk UI string — setupDebugLinuxLogsPath",
     "placeholders": {
       "path": {
         "type": "String"
@@ -2684,7 +2684,7 @@
   },
   "setupDebugRunOpenCodeCommand": "다음 명령으로 OpenCode 실행: {command}",
   "@setupDebugRunOpenCodeCommand": {
-    "description": "CodeWalk UI string — setupDebugRunOpenCodeCommand",
+    "description": "Kilo-Walk UI string — setupDebugRunOpenCodeCommand",
     "placeholders": {
       "command": {
         "type": "String"
@@ -2693,7 +2693,7 @@
   },
   "setupDebugServerHealthEndpoint": "서버 상태 확인: {endpoint}",
   "@setupDebugServerHealthEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerHealthEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerHealthEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2702,7 +2702,7 @@
   },
   "setupDebugServerDocsEndpoint": "서버 문서: {endpoint}",
   "@setupDebugServerDocsEndpoint": {
-    "description": "CodeWalk UI string — setupDebugServerDocsEndpoint",
+    "description": "Kilo-Walk UI string — setupDebugServerDocsEndpoint",
     "placeholders": {
       "endpoint": {
         "type": "String"
@@ -2711,35 +2711,35 @@
   },
   "logsEntryError": "오류",
   "@logsEntryError": {
-    "description": "CodeWalk UI string — logsEntryError"
+    "description": "Kilo-Walk UI string — logsEntryError"
   },
   "logsEntryStack": "스택",
   "@logsEntryStack": {
-    "description": "CodeWalk UI string — logsEntryStack"
+    "description": "Kilo-Walk UI string — logsEntryStack"
   },
   "setupDebugSourceDiagnostics": "진단",
   "@setupDebugSourceDiagnostics": {
-    "description": "CodeWalk UI string — setupDebugSourceDiagnostics"
+    "description": "Kilo-Walk UI string — setupDebugSourceDiagnostics"
   },
   "setupDebugSourceUseExisting": "기존 서버 사용",
   "@setupDebugSourceUseExisting": {
-    "description": "CodeWalk UI string — setupDebugSourceUseExisting"
+    "description": "Kilo-Walk UI string — setupDebugSourceUseExisting"
   },
   "setupDebugSourceLocalServer": "로컬 서버",
   "@setupDebugSourceLocalServer": {
-    "description": "CodeWalk UI string — setupDebugSourceLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugSourceLocalServer"
   },
   "setupDebugSourceOnboarding": "온보딩",
   "@setupDebugSourceOnboarding": {
-    "description": "CodeWalk UI string — setupDebugSourceOnboarding"
+    "description": "Kilo-Walk UI string — setupDebugSourceOnboarding"
   },
   "setupDebugSourceManualConnection": "수동 연결",
   "@setupDebugSourceManualConnection": {
-    "description": "CodeWalk UI string — setupDebugSourceManualConnection"
+    "description": "Kilo-Walk UI string — setupDebugSourceManualConnection"
   },
   "setupDebugMessageDiagnosticsResult": "{platform}에서 {availability}. {recommendation}",
   "@setupDebugMessageDiagnosticsResult": {
-    "description": "CodeWalk UI string — setupDebugMessageDiagnosticsResult",
+    "description": "Kilo-Walk UI string — setupDebugMessageDiagnosticsResult",
     "placeholders": {
       "availability": {
         "type": "String"
@@ -2754,15 +2754,15 @@
   },
   "setupDebugMessageDetectAttempt": "현재 환경에서 기존 OpenCode 명령을 감지하려고 시도합니다.",
   "@setupDebugMessageDetectAttempt": {
-    "description": "CodeWalk UI string — setupDebugMessageDetectAttempt"
+    "description": "Kilo-Walk UI string — setupDebugMessageDetectAttempt"
   },
-  "setupDebugMessageInstallStarted": "CodeWalk에서 OpenCode 설치를 시작했습니다.",
+  "setupDebugMessageInstallStarted": "Kilo-Walk에서 OpenCode 설치를 시작했습니다.",
   "@setupDebugMessageInstallStarted": {
-    "description": "CodeWalk UI string — setupDebugMessageInstallStarted"
+    "description": "Kilo-Walk UI string — setupDebugMessageInstallStarted"
   },
   "setupDebugMessageStartLocalServer": "관리형 OpenCode 서버를 {url}에서 시작합니다.",
   "@setupDebugMessageStartLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStartLocalServer",
+    "description": "Kilo-Walk UI string — setupDebugMessageStartLocalServer",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2771,7 +2771,7 @@
   },
   "setupDebugMessageHealthyRunning": "관리형 OpenCode 서버가 정상이며 {url}에서 실행 중입니다.",
   "@setupDebugMessageHealthyRunning": {
-    "description": "CodeWalk UI string — setupDebugMessageHealthyRunning",
+    "description": "Kilo-Walk UI string — setupDebugMessageHealthyRunning",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2780,39 +2780,39 @@
   },
   "setupDebugMessageStoppingLocalServer": "관리형 OpenCode 서버를 중지합니다.",
   "@setupDebugMessageStoppingLocalServer": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppingLocalServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppingLocalServer"
   },
   "setupDebugMessageStoppedCleanly": "관리형 OpenCode 서버가 정상적으로 중지되었습니다.",
   "@setupDebugMessageStoppedCleanly": {
-    "description": "CodeWalk UI string — setupDebugMessageStoppedCleanly"
+    "description": "Kilo-Walk UI string — setupDebugMessageStoppedCleanly"
   },
   "setupDebugMessageExitedAfterRequestedStop": "중지 요청 후 관리형 OpenCode 서버가 종료되었습니다.",
   "@setupDebugMessageExitedAfterRequestedStop": {
-    "description": "CodeWalk UI string — setupDebugMessageExitedAfterRequestedStop"
+    "description": "Kilo-Walk UI string — setupDebugMessageExitedAfterRequestedStop"
   },
   "setupDebugMessageOnboardingConnectExisting": "사용자가 기존 OpenCode 서버에 연결하기로 선택했습니다.",
   "@setupDebugMessageOnboardingConnectExisting": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingConnectExisting"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingConnectExisting"
   },
   "setupDebugMessageOnboardingGuidedPath": "사용자가 안내형 OpenCode 설정 경로를 열었습니다.",
   "@setupDebugMessageOnboardingGuidedPath": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingGuidedPath"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingGuidedPath"
   },
   "setupDebugMessageOnboardingManagedLocal": "사용자가 관리형 로컬 OpenCode 설정을 열었습니다.",
   "@setupDebugMessageOnboardingManagedLocal": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingManagedLocal"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingManagedLocal"
   },
   "setupDebugMessageOnboardingOpenedServerSettings": "상태 확인 실패 후 사용자가 서버 설정을 열었습니다.",
   "@setupDebugMessageOnboardingOpenedServerSettings": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingOpenedServerSettings"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingOpenedServerSettings"
   },
   "setupDebugMessageOnboardingAddAnotherServer": "상태 확인 실패 후 사용자가 다른 서버를 추가하기로 선택했습니다.",
   "@setupDebugMessageOnboardingAddAnotherServer": {
-    "description": "CodeWalk UI string — setupDebugMessageOnboardingAddAnotherServer"
+    "description": "Kilo-Walk UI string — setupDebugMessageOnboardingAddAnotherServer"
   },
   "setupDebugMessageTestingServerUrl": "온보딩에서 OpenCode 서버 URL {url}을 테스트합니다.",
   "@setupDebugMessageTestingServerUrl": {
-    "description": "CodeWalk UI string — setupDebugMessageTestingServerUrl",
+    "description": "Kilo-Walk UI string — setupDebugMessageTestingServerUrl",
     "placeholders": {
       "url": {
         "type": "String"
@@ -2821,39 +2821,39 @@
   },
   "chatProviderErrorSessionNotFound": "세션을 찾을 수 없습니다",
   "@chatProviderErrorSessionNotFound": {
-    "description": "CodeWalk UI string — chatProviderErrorSessionNotFound"
+    "description": "Kilo-Walk UI string — chatProviderErrorSessionNotFound"
   },
   "chatProviderErrorInvalidMessageFormat": "잘못된 메시지 형식입니다",
   "@chatProviderErrorInvalidMessageFormat": {
-    "description": "CodeWalk UI string — chatProviderErrorInvalidMessageFormat"
+    "description": "Kilo-Walk UI string — chatProviderErrorInvalidMessageFormat"
   },
   "chatProviderErrorNetworkShort": "네트워크 연결에 실패했습니다",
   "@chatProviderErrorNetworkShort": {
-    "description": "CodeWalk UI string — chatProviderErrorNetworkShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorNetworkShort"
   },
   "chatProviderErrorUnknownShort": "알 수 없는 오류",
   "@chatProviderErrorUnknownShort": {
-    "description": "CodeWalk UI string — chatProviderErrorUnknownShort"
+    "description": "Kilo-Walk UI string — chatProviderErrorUnknownShort"
   },
   "terminalCreateFailed": "터미널 세션을 만들지 못했습니다",
   "@terminalCreateFailed": {
-    "description": "CodeWalk UI string — terminalCreateFailed"
+    "description": "Kilo-Walk UI string — terminalCreateFailed"
   },
   "terminalEndpointUnavailable": "터미널 엔드포인트를 사용할 수 없습니다",
   "@terminalEndpointUnavailable": {
-    "description": "CodeWalk UI string — terminalEndpointUnavailable"
+    "description": "Kilo-Walk UI string — terminalEndpointUnavailable"
   },
   "terminalInvalidDirectory": "잘못된 터미널 디렉터리입니다",
   "@terminalInvalidDirectory": {
-    "description": "CodeWalk UI string — terminalInvalidDirectory"
+    "description": "Kilo-Walk UI string — terminalInvalidDirectory"
   },
   "terminalWebsocketUnavailable": "터미널 WebSocket을 여기서는 사용할 수 없습니다.",
   "@terminalWebsocketUnavailable": {
-    "description": "CodeWalk UI string — terminalWebsocketUnavailable"
+    "description": "Kilo-Walk UI string — terminalWebsocketUnavailable"
   },
   "chatMessageToolChainCallsCompact": "{count, plural, =1{1개} other{{count}개}}",
   "@chatMessageToolChainCallsCompact": {
-    "description": "CodeWalk UI string — chatMessageToolChainCallsCompact",
+    "description": "Kilo-Walk UI string — chatMessageToolChainCallsCompact",
     "placeholders": {
       "count": {
         "type": "int"
@@ -2862,15 +2862,15 @@
   },
   "errorConnectionTimeout": "연결 시간 초과",
   "@errorConnectionTimeout": {
-    "description": "CodeWalk UI string — errorConnectionTimeout"
+    "description": "Kilo-Walk UI string — errorConnectionTimeout"
   },
   "errorClientError": "클라이언트 오류",
   "@errorClientError": {
-    "description": "CodeWalk UI string — errorClientError"
+    "description": "Kilo-Walk UI string — errorClientError"
   },
   "chatProviderErrorSendMessage": "메시지 전송에 실패했습니다",
   "@chatProviderErrorSendMessage": {
-    "description": "CodeWalk UI string — chatProviderErrorSendMessage"
+    "description": "Kilo-Walk UI string — chatProviderErrorSendMessage"
   },
   "speechApiEngine": "API",
   "speechApiEngineSubtitle": "OpenAI, Groq 또는 OpenAI 호환 사용자 지정 엔드포인트.",
@@ -2897,38 +2897,38 @@
   "carMessagingReply": "답장",
   "carMessagingMarkRead": "읽음으로 표시",
   "carMessagingDeliveryFailedTitle": "답장을 보내지 못했습니다",
-  "carMessagingDeliveryFailedBody": "음성 답장을 전달하지 못했습니다. 다시 시도하려면 CodeWalk를 여세요.",
+  "carMessagingDeliveryFailedBody": "음성 답장을 전달하지 못했습니다. 다시 시도하려면 Kilo-Walk를 여세요.",
   "shortcutNextTab": "다음 탭",
   "@shortcutNextTab": {
-    "description": "CodeWalk UI string - shortcutNextTab"
+    "description": "Kilo-Walk UI string - shortcutNextTab"
   },
   "shortcutNextTabDesc": "탭 전환기를 표시하고 다음 탭으로 이동",
   "@shortcutNextTabDesc": {
-    "description": "CodeWalk UI string - shortcutNextTabDesc"
+    "description": "Kilo-Walk UI string - shortcutNextTabDesc"
   },
   "shortcutPreviousTab": "이전 탭",
   "@shortcutPreviousTab": {
-    "description": "CodeWalk UI string - shortcutPreviousTab"
+    "description": "Kilo-Walk UI string - shortcutPreviousTab"
   },
   "shortcutPreviousTabDesc": "탭 전환기를 표시하고 이전 탭으로 이동",
   "@shortcutPreviousTabDesc": {
-    "description": "CodeWalk UI string - shortcutPreviousTabDesc"
+    "description": "Kilo-Walk UI string - shortcutPreviousTabDesc"
   },
   "sessionTabSwitcherTitle": "탭 전환",
   "@sessionTabSwitcherTitle": {
-    "description": "CodeWalk UI string - sessionTabSwitcherTitle"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherTitle"
   },
   "sessionTabSwitcherHint": "Ctrl을 놓으면 전환, Esc로 취소",
   "@sessionTabSwitcherHint": {
-    "description": "CodeWalk UI string - sessionTabSwitcherHint"
+    "description": "Kilo-Walk UI string - sessionTabSwitcherHint"
   },
   "aboutTelegram": "Telegram",
   "@aboutTelegram": {
-    "description": "CodeWalk UI string - aboutTelegram"
+    "description": "Kilo-Walk UI string - aboutTelegram"
   },
   "settingsAboutWhatsNew": "v{version}의 새로운 소식",
   "@settingsAboutWhatsNew": {
-    "description": "CodeWalk UI string - settingsAboutWhatsNew",
+    "description": "Kilo-Walk UI string - settingsAboutWhatsNew",
     "placeholders": {
       "version": {
         "type": "String"
@@ -2937,31 +2937,31 @@
   },
   "appShellNewsMore": "더보기",
   "@appShellNewsMore": {
-    "description": "CodeWalk UI string - appShellNewsMore"
+    "description": "Kilo-Walk UI string - appShellNewsMore"
   },
   "settingsAboutChangelog": "Changelog",
   "@settingsAboutChangelog": {
-    "description": "CodeWalk UI string - settingsAboutChangelog"
+    "description": "Kilo-Walk UI string - settingsAboutChangelog"
   },
   "settingsAboutOurGroup": "공식 그룹",
   "@settingsAboutOurGroup": {
-    "description": "CodeWalk UI string - settingsAboutOurGroup"
+    "description": "Kilo-Walk UI string - settingsAboutOurGroup"
   },
   "speechNemotron": "Nemotron",
   "@speechNemotron": {
-    "description": "CodeWalk UI string — speechNemotron"
+    "description": "Kilo-Walk UI string — speechNemotron"
   },
   "speechNemotronSubtitle": "Desktop streaming ASR for 40 locales, including Portuguese. Download about 630 MB.",
   "@speechNemotronSubtitle": {
-    "description": "CodeWalk UI string — speechNemotronSubtitle"
+    "description": "Kilo-Walk UI string — speechNemotronSubtitle"
   },
   "speechNemotronStaysDownloadable": "Nemotron 3.5 stays downloadable and out of the app bundle. One 560 ms streaming model covers 40 locales.",
   "@speechNemotronStaysDownloadable": {
-    "description": "CodeWalk UI string — speechNemotronStaysDownloadable"
+    "description": "Kilo-Walk UI string — speechNemotronStaysDownloadable"
   },
   "speechNemotronDesktopOnlyHint": "Available on desktop only. Uses streaming multilingual recognition.",
   "@speechNemotronDesktopOnlyHint": {
-    "description": "CodeWalk UI string — speechNemotronDesktopOnlyHint"
+    "description": "Kilo-Walk UI string — speechNemotronDesktopOnlyHint"
   },
   "settingsAppearanceProjectTabColors": "프로젝트 탭 색상",
   "settingsAppearanceProjectTabColorsDescription": "감지된 프로젝트 아이콘의 색상으로 세션 탭을 표시합니다."

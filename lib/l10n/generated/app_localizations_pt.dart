@@ -226,7 +226,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get appProviderSetupOpenCodeNotDetectedRefresh =>
-      'O comando OpenCode não foi detectado. Se você o instalou há pouco tempo, atualize as verificações ou reabra o CodeWalk para recarregar o PATH.';
+      'O comando OpenCode não foi detectado. Se você o instalou há pouco tempo, atualize as verificações ou reabra o Kilo-Walk para recarregar o PATH.';
 
   @override
   String get appProviderSetupRequirementsInstalled =>
@@ -381,7 +381,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get behaviorCodeWalkReleaseChecks =>
-      'Verificações de versão do CodeWalk';
+      'Verificações de versão do Kilo-Walk';
 
   @override
   String get behaviorControlsOfficialGlobal =>
@@ -441,7 +441,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get behaviorOfficialOpenCodePermission =>
-      'A política oficial de permissão do OpenCode é configurada no `opencode.json` com regras allow/ask/deny por ferramenta. O CodeWalk mantém os cards oficiais de solicitação de permissão e adiciona uma exceção ADR-023 aprovada: o toggle de auto-aprovação do composer responde com `Always` e `remember: true` incondicionalmente para criar concessões duráveis com escopo de sessão, e mantém o mesmo caminho de continuidade com escopo de thread ativo no worker Android em segundo plano.';
+      'A política oficial de permissão do OpenCode é configurada no `opencode.json` com regras allow/ask/deny por ferramenta. O Kilo-Walk mantém os cards oficiais de solicitação de permissão e adiciona uma exceção ADR-023 aprovada: o toggle de auto-aprovação do composer responde com `Always` e `remember: true` incondicionalmente para criar concessões duráveis com escopo de sessão, e mantém o mesmo caminho de continuidade com escopo de thread ativo no worker Android em segundo plano.';
 
   @override
   String get behaviorOpenCodeBackedDefaults => 'Padrões baseados no OpenCode';
@@ -2011,7 +2011,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get logsLoggingDisabledDescription =>
-      'O CodeWalk não está coletando logs detalhados do app. Ative logs apenas quando precisar diagnosticar problemas.';
+      'O Kilo-Walk não está coletando logs detalhados do app. Ative logs apenas quando precisar diagnosticar problemas.';
 
   @override
   String get logsLoggingDisabledTitle => 'Logs desativados';
@@ -2141,7 +2141,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get msgBatterySettingsOpened =>
-      'Configurações de bateria do Android abertas. Permita bateria irrestrita para o CodeWalk.';
+      'Configurações de bateria do Android abertas. Permita bateria irrestrita para o Kilo-Walk.';
 
   @override
   String get msgClearUsernameNeedsConfigEdit =>
@@ -2259,7 +2259,7 @@ class AppLocalizationsPt extends AppLocalizations {
       'Não foi possível compartilhar a mensagem como imagem.';
 
   @override
-  String get msgShareAsImageSubject => 'Mensagem do CodeWalk';
+  String get msgShareAsImageSubject => 'Mensagem do Kilo-Walk';
 
   @override
   String get msgShareAsImageTooTall =>
@@ -2295,7 +2295,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get notifNotificationsArriveReopening =>
-      'Se as notificações só chegarem ao reabrir o app, permita que o CodeWalk seja executado sem otimização de bateria neste dispositivo.';
+      'Se as notificações só chegarem ao reabrir o app, permita que o Kilo-Walk seja executado sem otimização de bateria neste dispositivo.';
 
   @override
   String get notifResponseRunningKeep =>
@@ -2336,7 +2336,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingAlmostInstallOpenCode =>
-      'Você está quase lá. Instale o OpenCode primeiro, depois conecte o CodeWalk à URL do servidor.';
+      'Você está quase lá. Instale o OpenCode primeiro, depois conecte o Kilo-Walk à URL do servidor.';
 
   @override
   String onboardingAppProviderLocalSetupLogsLength(int length, int length2) {
@@ -2373,7 +2373,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingCodeWalkAppOpenCode =>
-      'CodeWalk é o app. OpenCode é o motor ao qual ele se conecta.';
+      'Kilo-Walk é o app. OpenCode é o motor ao qual ele se conecta.';
 
   @override
   String get onboardingConnectRunningServer =>
@@ -2443,7 +2443,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingExplainInstallOpenCode =>
-      'Explica como instalar o OpenCode, iniciar o servidor e depois conectar a partir do CodeWalk.';
+      'Explica como instalar o OpenCode, iniciar o servidor e depois conectar a partir do Kilo-Walk.';
 
   @override
   String get onboardingFailed => 'Falhou';
@@ -2469,7 +2469,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingInstallRunOpenCode =>
-      'Instale e execute o OpenCode diretamente do CodeWalk no desktop.';
+      'Instale e execute o OpenCode diretamente do Kilo-Walk no desktop.';
 
   @override
   String get onboardingInvalidUrl => 'URL inválida';
@@ -2487,7 +2487,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingLetCodeWalkSet =>
-      'Deixar o CodeWalk configurar localmente';
+      'Deixar o Kilo-Walk configurar localmente';
 
   @override
   String get onboardingLocalServerSetup => 'Configuração do servidor local';
@@ -2519,7 +2519,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingOpenCodeRunsLocally =>
-      'O OpenCode roda localmente ou em um servidor e alimenta os recursos de codificação por IA dentro do CodeWalk. Se o OpenCode já estiver rodando, conecte-se a ele. Caso contrário, escolha um dos caminhos de configuração guiada abaixo.';
+      'O OpenCode roda localmente ou em um servidor e alimenta os recursos de codificação por IA dentro do Kilo-Walk. Se o OpenCode já estiver rodando, conecte-se a ele. Caso contrário, escolha um dos caminhos de configuração guiada abaixo.';
 
   @override
   String get onboardingOpenTailscaleLogin =>
@@ -2575,7 +2575,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingRecommendedOrderTry =>
-      'Ordem recomendada: tente Instalar Bun + OpenCode se quiser que o CodeWalk prepare tudo para você. Use Existente se o OpenCode já estiver instalado.';
+      'Ordem recomendada: tente Instalar Bun + OpenCode se quiser que o Kilo-Walk prepare tudo para você. Use Existente se o OpenCode já estiver instalado.';
 
   @override
   String get onboardingRefreshChecks => 'Atualizar verificações';
@@ -2720,7 +2720,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get onboardingWindowsTipInstalling =>
-      'Dica para Windows: após instalar, clique em Atualizar verificações. Se a detecção ainda falhar, reabra o CodeWalk para recarregar as alterações de PATH.';
+      'Dica para Windows: após instalar, clique em Atualizar verificações. Se a detecção ainda falhar, reabra o Kilo-Walk para recarregar as alterações de PATH.';
 
   @override
   String get onboardingWritable => 'gravável';
@@ -2904,7 +2904,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get serversDesktopModeExplanation =>
-      'O modo desktop pode iniciar e gerenciar `opencode serve` diretamente do CodeWalk.';
+      'O modo desktop pode iniciar e gerenciar `opencode serve` diretamente do Kilo-Walk.';
 
   @override
   String get serversEdit => 'Editar';
@@ -3368,7 +3368,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsAppearanceBrandColorPresetBlocked =>
-      'Mude para CodeWalk Clássico para escolher uma cor da marca.';
+      'Mude para Kilo-Walk Clássico para escolher uma cor da marca.';
 
   @override
   String get settingsAppearanceChatFontScale => 'Tamanho do texto da conversa';
@@ -3378,7 +3378,7 @@ class AppLocalizationsPt extends AppLocalizations {
       'Ajusta o texto das mensagens do chat e do composer acima do tamanho do texto do sistema.';
 
   @override
-  String get settingsAppearanceCodeWalkClassic => 'CodeWalk Clássico';
+  String get settingsAppearanceCodeWalkClassic => 'Kilo-Walk Clássico';
 
   @override
   String get settingsAppearanceComposerTips => 'Dicas do composer';
@@ -3403,7 +3403,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsAppearanceContrastPresetBlocked =>
-      'Mude para CodeWalk Clássico para ajustar o contraste.';
+      'Mude para Kilo-Walk Clássico para ajustar o contraste.';
 
   @override
   String get settingsAppearanceContrastReduced => 'Reduzido';
@@ -3511,7 +3511,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsAppearanceThemeDescription =>
-      'Escolha entre modo claro, escuro ou sistema, depois mantenha a paleta clássica do CodeWalk ou mude para um preset OpenCode.';
+      'Escolha entre modo claro, escuro ou sistema, depois mantenha a paleta clássica do Kilo-Walk ou mude para um preset OpenCode.';
 
   @override
   String get settingsAppearanceVisualStyle => 'Estilo visual';
@@ -3554,7 +3554,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsAppearanceWallpaperPresetBlocked =>
-      'Mude para CodeWalk Clássico para usar cores do papel de parede.';
+      'Mude para Kilo-Walk Clássico para usar cores do papel de parede.';
 
   @override
   String get settingsAppearanceWindowChrome => 'Abas da janela';
@@ -3582,11 +3582,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsBehaviorAutoupdateCaveat =>
-      'Use a seção Sobre para verificações de versão do CodeWalk. Esta configuração apenas espelha a config `autoupdate` oficial do OpenCode.';
+      'Use a seção Sobre para verificações de versão do Kilo-Walk. Esta configuração apenas espelha a config `autoupdate` oficial do OpenCode.';
 
   @override
   String get settingsBehaviorAutoupdateHelp =>
-      'Controla as atualizações de runtime do OpenCode upstream, não as verificações de atualização do app CodeWalk.';
+      'Controla as atualizações de runtime do OpenCode upstream, não as verificações de atualização do app Kilo-Walk.';
 
   @override
   String get settingsBehaviorCellularDataSaver => 'Economia de dados móveis';
@@ -3621,7 +3621,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsBehaviorConfigDeferred =>
-      'O CodeWalk aplicará esta configuração do OpenCode após a resposta atual terminar.';
+      'O Kilo-Walk aplicará esta configuração do OpenCode após a resposta atual terminar.';
 
   @override
   String settingsBehaviorConfigUpdateFailed(String field) {
@@ -3719,7 +3719,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsBehaviorPermissionProvenanceDescription =>
-      'A política oficial de permissão do OpenCode é configurada no `opencode.json` com regras allow/ask/deny por ferramenta. O CodeWalk mantém os cards oficiais de solicitação de permissão e adiciona uma exceção ADR-023 aprovada: o toggle de auto-aprovação do composer responde com `Always` e `remember: true` incondicionalmente para criar concessões duráveis com escopo de sessão. O mesmo caminho de continuidade com escopo de thread permanece ativo no worker Android em segundo plano.';
+      'A política oficial de permissão do OpenCode é configurada no `opencode.json` com regras allow/ask/deny por ferramenta. O Kilo-Walk mantém os cards oficiais de solicitação de permissão e adiciona uma exceção ADR-023 aprovada: o toggle de auto-aprovação do composer responde com `Always` e `remember: true` incondicionalmente para criar concessões duráveis com escopo de sessão. O mesmo caminho de continuidade com escopo de thread permanece ativo no worker Android em segundo plano.';
 
   @override
   String get settingsBehaviorRefreshDefaults => 'Atualizar padrões';
@@ -3775,7 +3775,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsBehaviorSnapshotCaveat =>
-      'Isso controla o armazenamento de snapshots e suporte a undo/redo do OpenCode, não os snapshots de cache local do CodeWalk.';
+      'Isso controla o armazenamento de snapshots e suporte a undo/redo do OpenCode, não os snapshots de cache local do Kilo-Walk.';
 
   @override
   String get settingsBehaviorTitle => 'Comportamento';
@@ -3794,7 +3794,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsConfigUpdateDeferred =>
-      'O CodeWalk aplicará esta configuração do OpenCode após o término da resposta atual.';
+      'O Kilo-Walk aplicará esta configuração do OpenCode após o término da resposta atual.';
 
   @override
   String get settingsConversationUsername => 'Nome de usuário da conversa';
@@ -3807,7 +3807,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsLanguageDescription =>
-      'Escolha o idioma usado pelo CodeWalk. O padrão do sistema segue o idioma do dispositivo.';
+      'Escolha o idioma usado pelo Kilo-Walk. O padrão do sistema segue o idioma do dispositivo.';
 
   @override
   String get settingsLanguageEmptyText => 'Nenhum idioma encontrado';
@@ -3861,7 +3861,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsNotificationsBackgroundBehaviorDescription =>
-      'Escolha como o CodeWalk se comporta depois que o app sai do primeiro plano.';
+      'Escolha como o Kilo-Walk se comporta depois que o app sai do primeiro plano.';
 
   @override
   String get settingsNotificationsBackgroundDescription =>
@@ -3877,11 +3877,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get settingsNotificationsBatteryDescription =>
-      'Se as notificações só chegam ao reabrir o app, permita que o CodeWalk execute sem otimização neste dispositivo.';
+      'Se as notificações só chegam ao reabrir o app, permita que o Kilo-Walk execute sem otimização neste dispositivo.';
 
   @override
   String get settingsNotificationsBatteryDisabled =>
-      'A otimização de bateria está desativada para o CodeWalk.';
+      'A otimização de bateria está desativada para o Kilo-Walk.';
 
   @override
   String get settingsNotificationsBatteryEnabled =>
@@ -4293,7 +4293,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get setupDebugCodeWalkCaptureEnough =>
-      'Se o CodeWalk não capturar contexto suficiente, verifique os logs oficiais do OpenCode e os endpoints de saúde diretamente:';
+      'Se o Kilo-Walk não capturar contexto suficiente, verifique os logs oficiais do OpenCode e os endpoints de saúde diretamente:';
 
   @override
   String get setupDebugCommandPath => 'Caminho do comando';
@@ -4386,7 +4386,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get setupDebugScreenCoversOpenCode =>
-      'Esta tela cobre apenas a instalação, diagnósticos e solução de problemas de configuração local do OpenCode. Use os Logs do App para problemas gerais de execução del CodeWalk.';
+      'Esta tela cobre apenas a instalação, diagnósticos e solução de problemas de configuração local do OpenCode. Use os Logs do App para problemas gerais de execução del Kilo-Walk.';
 
   @override
   String get setupDebugServerOutput => 'Última saída do servidor local';
@@ -4549,7 +4549,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get shortcutsTheseBindingsStored =>
-      'Esses atalhos são armazenados no CodeWalk para a execução atual do app e não editam os atalhos de teclado do `tui.json` do OpenCode.';
+      'Esses atalhos são armazenados no Kilo-Walk para a execução atual do app e não editam os atalhos de teclado do `tui.json` do OpenCode.';
 
   @override
   String get speechAutoStopSilence =>
@@ -4605,7 +4605,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get speechNativeSTTWorks =>
-      'No Windows, o CodeWalk usa reconhecimento de fala local no dispositivo por meio do backend de microfone WASAPI. O reconhecimento de fala nativo do Windows está desabilitado por estabilidade.';
+      'No Windows, o Kilo-Walk usa reconhecimento de fala local no dispositivo por meio do backend de microfone WASAPI. O reconhecimento de fala nativo do Windows está desabilitado por estabilidade.';
 
   @override
   String get speechNativeStartsFaster =>
@@ -4687,7 +4687,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get speechWindowsSetupHint =>
-      'A entrada de voz no Windows usa a captura WASAPI do CodeWalk com modelos no dispositivo. Mantenha habilitado o acesso ao microfone para apps de desktop; os botões abaixo abrem as configurações do Windows para solução de problemas.';
+      'A entrada de voz no Windows usa a captura WASAPI do Kilo-Walk com modelos no dispositivo. Mantenha habilitado o acesso ao microfone para apps de desktop; os botões abaixo abrem as configurações do Windows para solução de problemas.';
 
   @override
   String get statusConnected => 'Conectado';
@@ -4758,7 +4758,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String terminalEmbeddedUnavailable(String serverName) {
-    return 'Terminal incorporado ainda não está disponível neste tempo de execução. Continue usando o modo shell do compositor para comandos únicos ou abra o terminal de um tempo de execução do aplicativo CodeWalk suportado para $serverName.';
+    return 'Terminal incorporado ainda não está disponível neste tempo de execução. Continue usando o modo shell do compositor para comandos únicos ou abra o terminal de um tempo de execução do aplicativo Kilo-Walk suportado para $serverName.';
   }
 
   @override
@@ -5188,7 +5188,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get serversQuickGuideIntro =>
-      'CodeWalk é o app. O OpenCode é o motor que precisa estar em execução antes que esta conexão funcione.';
+      'Kilo-Walk é o app. O OpenCode é o motor que precisa estar em execução antes que esta conexão funcione.';
 
   @override
   String get serversQuickGuideStepInstallCli => '1. Instale o CLI do OpenCode.';
@@ -5211,7 +5211,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get serversQuickGuideVerifyHint =>
-      'Após iniciar o servidor, confirme se /global/health ou /doc responde antes de colar a URL no CodeWalk.';
+      'Após iniciar o servidor, confirme se /global/health ou /doc responde antes de colar a URL no Kilo-Walk.';
 
   @override
   String get shortcutsPressKeyCombination =>
@@ -5221,10 +5221,10 @@ class AppLocalizationsPt extends AppLocalizations {
   String get settingsProvenanceOpenCodeBacked => 'Baseado no OpenCode';
 
   @override
-  String get settingsProvenanceCodeWalkLocal => 'Local do CodeWalk';
+  String get settingsProvenanceCodeWalkLocal => 'Local do Kilo-Walk';
 
   @override
-  String get settingsProvenanceCodeWalkException => 'Exceção do CodeWalk';
+  String get settingsProvenanceCodeWalkException => 'Exceção do Kilo-Walk';
 
   @override
   String get shortcutsErrorInvalid => 'Atalho inválido';
@@ -5306,11 +5306,11 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get speechReadAloudTestText =>
-      'Este é um teste de conversão de texto em fala do CodeWalk.';
+      'Este é um teste de conversão de texto em fala do Kilo-Walk.';
 
   @override
   String get speechNativeDisabledWindows =>
-      'Desabilitado no Windows por estabilidade. Use o Parakeet ou outro mecanismo local por meio da captura WASAPI do CodeWalk.';
+      'Desabilitado no Windows por estabilidade. Use o Parakeet ou outro mecanismo local por meio da captura WASAPI do Kilo-Walk.';
 
   @override
   String get speechNativeUnavailableLinux =>
@@ -5571,25 +5571,25 @@ class AppLocalizationsPt extends AppLocalizations {
   String get notificationSessionError => 'Uma sessão relatou um erro.';
 
   @override
-  String get notificationChannelErrors => 'Erros do CodeWalk';
+  String get notificationChannelErrors => 'Erros do Kilo-Walk';
 
   @override
   String get notificationChannelErrorsDescription =>
-      'Alertas de erros do CodeWalk';
+      'Alertas de erros do Kilo-Walk';
 
   @override
-  String get notificationChannelPermissions => 'Permissões do CodeWalk';
+  String get notificationChannelPermissions => 'Permissões do Kilo-Walk';
 
   @override
   String get notificationChannelPermissionsDescription =>
-      'Alertas de ação necessária do CodeWalk';
+      'Alertas de ação necessária do Kilo-Walk';
 
   @override
-  String get notificationChannelAgent => 'Agente do CodeWalk';
+  String get notificationChannelAgent => 'Agente do Kilo-Walk';
 
   @override
   String get notificationChannelAgentDescription =>
-      'Alertas de conclusão do agente do CodeWalk';
+      'Alertas de conclusão do agente do Kilo-Walk';
 
   @override
   String get notificationActionOpen => 'Abrir';
@@ -5628,7 +5628,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get sessionAttentionIosInAppOnly =>
-      'A atenção de sessões está disponível apenas dentro do CodeWalk.';
+      'A atenção de sessões está disponível apenas dentro do Kilo-Walk.';
 
   @override
   String get sessionAttentionOverlayPermissionGrantPrompt =>
@@ -6692,7 +6692,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get setupDebugMessageInstallStarted =>
-      'Instalação do OpenCode iniciada pelo CodeWalk.';
+      'Instalação do OpenCode iniciada pelo Kilo-Walk.';
 
   @override
   String setupDebugMessageStartLocalServer(String url) {
@@ -6883,7 +6883,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get carMessagingDeliveryFailedBody =>
-      'Sua resposta por voz não pôde ser entregue. Abra o CodeWalk para tentar novamente.';
+      'Sua resposta por voz não pôde ser entregue. Abra o Kilo-Walk para tentar novamente.';
 
   @override
   String get shortcutNextTab => 'Próxima aba';

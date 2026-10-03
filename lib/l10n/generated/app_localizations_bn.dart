@@ -226,7 +226,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get appProviderSetupOpenCodeNotDetectedRefresh =>
-      'OpenCode কমান্ড সনাক্ত করা যায়নি। আপনি যদি এটি কিছুক্ষণ আগে ইনস্টল করে থাকেন তবে চেকগুলি রিফ্রেশ করুন বা PATH পুনরায় লোড করতে CodeWalk পুনরায় খুলুন।';
+      'OpenCode কমান্ড সনাক্ত করা যায়নি। আপনি যদি এটি কিছুক্ষণ আগে ইনস্টল করে থাকেন তবে চেকগুলি রিফ্রেশ করুন বা PATH পুনরায় লোড করতে Kilo-Walk পুনরায় খুলুন।';
 
   @override
   String get appProviderSetupRequirementsInstalled =>
@@ -378,7 +378,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get behaviorChatLevelShare => 'চ্যাট-স্তর শেয়ারিং';
 
   @override
-  String get behaviorCodeWalkReleaseChecks => 'CodeWalk রিলিজ চেক';
+  String get behaviorCodeWalkReleaseChecks => 'Kilo-Walk রিলিজ চেক';
 
   @override
   String get behaviorControlsOfficialGlobal =>
@@ -438,7 +438,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get behaviorOfficialOpenCodePermission =>
-      'অফিসিয়াল OpenCode অনুমতি নীতি \'opencode.json\'-এ কনফিগার করা হয়েছে প্রতি টুলের অনুমতি/চাওয়া/অস্বীকার করার নিয়মের সাথে। CodeWalk অফিসিয়াল অনুমতি-অনুরোধের কার্ডগুলি রাখে এবং একটি অনুমোদিত ADR-023 ব্যতিক্রম যোগ করে: সুরকার স্বয়ংক্রিয়ভাবে অনুমোদিত টগল উত্তরগুলি \'সর্বদা\' এবং \'মনে রাখবেন: সত্য\' সহ টেকসই সেশন-স্কোপড অনুদান তৈরি করতে শর্তহীনভাবে এবং একই থ্রেড-স্কোপড ধারাবাহিকতা পাথ অ্যান্ড্রয়েড ওয়ার্ক-এ সক্রিয় রাখে।';
+      'অফিসিয়াল OpenCode অনুমতি নীতি \'opencode.json\'-এ কনফিগার করা হয়েছে প্রতি টুলের অনুমতি/চাওয়া/অস্বীকার করার নিয়মের সাথে। Kilo-Walk অফিসিয়াল অনুমতি-অনুরোধের কার্ডগুলি রাখে এবং একটি অনুমোদিত ADR-023 ব্যতিক্রম যোগ করে: সুরকার স্বয়ংক্রিয়ভাবে অনুমোদিত টগল উত্তরগুলি \'সর্বদা\' এবং \'মনে রাখবেন: সত্য\' সহ টেকসই সেশন-স্কোপড অনুদান তৈরি করতে শর্তহীনভাবে এবং একই থ্রেড-স্কোপড ধারাবাহিকতা পাথ অ্যান্ড্রয়েড ওয়ার্ক-এ সক্রিয় রাখে।';
 
   @override
   String get behaviorOpenCodeBackedDefaults => 'OpenCode-ব্যাকড ডিফল্ট';
@@ -1993,7 +1993,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get logsLoggingDisabledDescription =>
-      'CodeWalk বিস্তারিত অ্যাপ লগ সংগ্রহ করছে না। ডায়াগনস্টিক প্রয়োজন হলে তবেই লগ চালু করুন।';
+      'Kilo-Walk বিস্তারিত অ্যাপ লগ সংগ্রহ করছে না। ডায়াগনস্টিক প্রয়োজন হলে তবেই লগ চালু করুন।';
 
   @override
   String get logsLoggingDisabledTitle => 'লগ বন্ধ আছে';
@@ -2124,7 +2124,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get msgBatterySettingsOpened =>
-      'অ্যান্ড্রয়েড ব্যাটারি সেটিংস খোলা হয়েছে। CodeWalk-এর জন্য সীমাহীন ব্যাটারির অনুমতি দিন।';
+      'অ্যান্ড্রয়েড ব্যাটারি সেটিংস খোলা হয়েছে। Kilo-Walk-এর জন্য সীমাহীন ব্যাটারির অনুমতি দিন।';
 
   @override
   String get msgClearUsernameNeedsConfigEdit =>
@@ -2278,7 +2278,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get notifNotificationsArriveReopening =>
-      'যদি শুধুমাত্র অ্যাপটি খোলার সময় বিজ্ঞপ্তি আসে, তাহলে এই ডিভাইসে অপ্টিমাইজেশন ছাড়াই CodeWalk চালানোর অনুমতি দিন।';
+      'যদি শুধুমাত্র অ্যাপটি খোলার সময় বিজ্ঞপ্তি আসে, তাহলে এই ডিভাইসে অপ্টিমাইজেশন ছাড়াই Kilo-Walk চালানোর অনুমতি দিন।';
 
   @override
   String get notifResponseRunningKeep =>
@@ -2320,7 +2320,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingAlmostInstallOpenCode =>
-      'আপনি প্রায় আছে. প্রথমে OpenCode ইনস্টল করুন, তারপর CodeWalk কে সার্ভার URL এর সাথে সংযুক্ত করুন।';
+      'আপনি প্রায় আছে. প্রথমে OpenCode ইনস্টল করুন, তারপর Kilo-Walk কে সার্ভার URL এর সাথে সংযুক্ত করুন।';
 
   @override
   String onboardingAppProviderLocalSetupLogsLength(int length, int length2) {
@@ -2426,7 +2426,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingExplainInstallOpenCode =>
-      'কিভাবে OpenCode ইনস্টল করবেন, সার্ভার শুরু করবেন এবং তারপর CodeWalk থেকে সংযোগ করবেন তা ব্যাখ্যা করুন।';
+      'কিভাবে OpenCode ইনস্টল করবেন, সার্ভার শুরু করবেন এবং তারপর Kilo-Walk থেকে সংযোগ করবেন তা ব্যাখ্যা করুন।';
 
   @override
   String get onboardingFailed => 'ব্যর্থ';
@@ -2452,7 +2452,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingInstallRunOpenCode =>
-      'ডেস্কটপে CodeWalk থেকে সরাসরি OpenCode ইনস্টল করুন এবং চালান।';
+      'ডেস্কটপে Kilo-Walk থেকে সরাসরি OpenCode ইনস্টল করুন এবং চালান।';
 
   @override
   String get onboardingInvalidUrl => 'অকার্যকর URL';
@@ -2502,7 +2502,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingOpenCodeRunsLocally =>
-      'OpenCode স্থানীয়ভাবে বা সার্ভারে চলে এবং CodeWalk-এর ভিতরে AI কোডিং বৈশিষ্ট্যগুলিকে ক্ষমতা দেয়৷ যদি OpenCode ইতিমধ্যেই চলছে, তাহলে এটির সাথে সংযোগ করুন। যদি না হয়, নীচের নির্দেশিত সেটআপ পাথগুলির মধ্যে একটি বেছে নিন।';
+      'OpenCode স্থানীয়ভাবে বা সার্ভারে চলে এবং Kilo-Walk-এর ভিতরে AI কোডিং বৈশিষ্ট্যগুলিকে ক্ষমতা দেয়৷ যদি OpenCode ইতিমধ্যেই চলছে, তাহলে এটির সাথে সংযোগ করুন। যদি না হয়, নীচের নির্দেশিত সেটআপ পাথগুলির মধ্যে একটি বেছে নিন।';
 
   @override
   String get onboardingOpenTailscaleLogin => 'টেলস্কেল লগইন URL খুলতে পারেনি৷';
@@ -2557,7 +2557,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingRecommendedOrderTry =>
-      'প্রস্তাবিত অর্ডার: আপনি যদি CodeWalk আপনার জন্য সবকিছু বুটস্ট্র্যাপ করতে চান তবে Bun + OpenCode ইনস্টল করার চেষ্টা করুন। ওপেনকোড ইতিমধ্যে ইনস্টল করা থাকলে বিদ্যমান ব্যবহার করুন।';
+      'প্রস্তাবিত অর্ডার: আপনি যদি Kilo-Walk আপনার জন্য সবকিছু বুটস্ট্র্যাপ করতে চান তবে Bun + OpenCode ইনস্টল করার চেষ্টা করুন। ওপেনকোড ইতিমধ্যে ইনস্টল করা থাকলে বিদ্যমান ব্যবহার করুন।';
 
   @override
   String get onboardingRefreshChecks => 'রিফ্রেশ চেক';
@@ -2701,7 +2701,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get onboardingWindowsTipInstalling =>
-      'উইন্ডোজ টিপ: ইনস্টল করার পরে, রিফ্রেশ চেক ক্লিক করুন। সনাক্তকরণ এখনও ব্যর্থ হলে, PATH পরিবর্তনগুলি পুনরায় লোড করতে CodeWalk পুনরায় খুলুন৷';
+      'উইন্ডোজ টিপ: ইনস্টল করার পরে, রিফ্রেশ চেক ক্লিক করুন। সনাক্তকরণ এখনও ব্যর্থ হলে, PATH পরিবর্তনগুলি পুনরায় লোড করতে Kilo-Walk পুনরায় খুলুন৷';
 
   @override
   String get onboardingWritable => 'লেখার যোগ্য';
@@ -2884,7 +2884,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get serversDesktopModeExplanation =>
-      'ডেস্কটপ মোড CodeWalk থেকে সরাসরি `opencode serve` চালু এবং পরিচালনা করতে পারে।';
+      'ডেস্কটপ মোড Kilo-Walk থেকে সরাসরি `opencode serve` চালু এবং পরিচালনা করতে পারে।';
 
   @override
   String get serversEdit => 'সম্পাদনা করুন';
@@ -3352,7 +3352,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsAppearanceBrandColorPresetBlocked =>
-      'একটি ব্র্যান্ডের রঙ বাছাই করতে CodeWalk Classic-এ স্যুইচ করুন।';
+      'একটি ব্র্যান্ডের রঙ বাছাই করতে Kilo-Walk Classic-এ স্যুইচ করুন।';
 
   @override
   String get settingsAppearanceChatFontScale => 'কথোপকথনের টেক্সটের আকার';
@@ -3387,7 +3387,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsAppearanceContrastPresetBlocked =>
-      'বৈসাদৃশ্য সামঞ্জস্য করতে CodeWalk ক্লাসিকে স্যুইচ করুন।';
+      'বৈসাদৃশ্য সামঞ্জস্য করতে Kilo-Walk ক্লাসিকে স্যুইচ করুন।';
 
   @override
   String get settingsAppearanceContrastReduced => 'হ্রাস করা হয়েছে';
@@ -3495,7 +3495,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsAppearanceThemeDescription =>
-      'হালকা, অন্ধকার বা সিস্টেম মোড চয়ন করুন, তারপর CodeWalk ক্লাসিক প্যালেট রাখুন বা একটি OpenCode প্রিসেট এ স্যুইচ করুন।';
+      'হালকা, অন্ধকার বা সিস্টেম মোড চয়ন করুন, তারপর Kilo-Walk ক্লাসিক প্যালেট রাখুন বা একটি OpenCode প্রিসেট এ স্যুইচ করুন।';
 
   @override
   String get settingsAppearanceVisualStyle => 'ভিজ্যুয়াল স্টাইল';
@@ -3536,7 +3536,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsAppearanceWallpaperPresetBlocked =>
-      'ওয়ালপেপার রং ব্যবহার করতে CodeWalk ক্লাসিকে স্যুইচ করুন।';
+      'ওয়ালপেপার রং ব্যবহার করতে Kilo-Walk ক্লাসিকে স্যুইচ করুন।';
 
   @override
   String get settingsAppearanceWindowChrome => 'উইন্ডো ট্যাব';
@@ -3564,11 +3564,11 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsBehaviorAutoupdateCaveat =>
-      'CodeWalk রিলিজ চেকের জন্য সম্পর্কে ব্যবহার করুন। এই সেটিংটি শুধুমাত্র অফিসিয়াল OpenCode `autoupdate` কনফিগারেশনকে মিরর করে।';
+      'Kilo-Walk রিলিজ চেকের জন্য সম্পর্কে ব্যবহার করুন। এই সেটিংটি শুধুমাত্র অফিসিয়াল OpenCode `autoupdate` কনফিগারেশনকে মিরর করে।';
 
   @override
   String get settingsBehaviorAutoupdateHelp =>
-      'আপস্ট্রিম OpenCode রানটাইম আপডেট নিয়ন্ত্রণ করে, CodeWalk অ্যাপ আপডেট চেক নয়।';
+      'আপস্ট্রিম OpenCode রানটাইম আপডেট নিয়ন্ত্রণ করে, Kilo-Walk অ্যাপ আপডেট চেক নয়।';
 
   @override
   String get settingsBehaviorCellularDataSaver => 'সেলুলার ডেটা সেভার';
@@ -3603,7 +3603,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsBehaviorConfigDeferred =>
-      'CodeWalk বর্তমান প্রতিক্রিয়া শেষ হওয়ার পরে এই OpenCode সেটিং প্রয়োগ করবে।';
+      'Kilo-Walk বর্তমান প্রতিক্রিয়া শেষ হওয়ার পরে এই OpenCode সেটিং প্রয়োগ করবে।';
 
   @override
   String settingsBehaviorConfigUpdateFailed(String field) {
@@ -3700,7 +3700,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsBehaviorPermissionProvenanceDescription =>
-      'অফিসিয়াল OpenCode অনুমতি নীতি \'opencode.json\'-এ কনফিগার করা হয়েছে প্রতি টুলের অনুমতি/চাওয়া/অস্বীকার করার নিয়মের সাথে। CodeWalk অফিসিয়াল অনুমতি-অনুরোধের কার্ডগুলি রাখে এবং একটি অনুমোদিত ADR-023 ব্যতিক্রম যোগ করে: সুরকার স্বয়ংক্রিয়ভাবে অনুমোদিত টগল উত্তরগুলি \'সর্বদা\' এবং \'মনে রাখবেন: সত্য\' সহ টেকসই সেশন-স্কোপড অনুদান তৈরি করতে শর্তহীনভাবে এবং একই থ্রেড-স্কোপড ধারাবাহিকতা পাথ অ্যান্ড্রয়েড ওয়ার্ক-এ সক্রিয় রাখে।';
+      'অফিসিয়াল OpenCode অনুমতি নীতি \'opencode.json\'-এ কনফিগার করা হয়েছে প্রতি টুলের অনুমতি/চাওয়া/অস্বীকার করার নিয়মের সাথে। Kilo-Walk অফিসিয়াল অনুমতি-অনুরোধের কার্ডগুলি রাখে এবং একটি অনুমোদিত ADR-023 ব্যতিক্রম যোগ করে: সুরকার স্বয়ংক্রিয়ভাবে অনুমোদিত টগল উত্তরগুলি \'সর্বদা\' এবং \'মনে রাখবেন: সত্য\' সহ টেকসই সেশন-স্কোপড অনুদান তৈরি করতে শর্তহীনভাবে এবং একই থ্রেড-স্কোপড ধারাবাহিকতা পাথ অ্যান্ড্রয়েড ওয়ার্ক-এ সক্রিয় রাখে।';
 
   @override
   String get settingsBehaviorRefreshDefaults => 'ডিফল্ট রিফ্রেশ করুন';
@@ -3775,7 +3775,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsConfigUpdateDeferred =>
-      'CodeWalk বর্তমান প্রতিক্রিয়া শেষ হওয়ার পরে এই OpenCode সেটিং প্রয়োগ করবে।';
+      'Kilo-Walk বর্তমান প্রতিক্রিয়া শেষ হওয়ার পরে এই OpenCode সেটিং প্রয়োগ করবে।';
 
   @override
   String get settingsConversationUsername => 'কথোপকথন ব্যবহারকারীর নাম';
@@ -3788,7 +3788,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsLanguageDescription =>
-      'CodeWalk দ্বারা ব্যবহৃত ভাষা চয়ন করুন। সিস্টেম ডিফল্ট আপনার ডিভাইসের ভাষা অনুসরণ করে।';
+      'Kilo-Walk দ্বারা ব্যবহৃত ভাষা চয়ন করুন। সিস্টেম ডিফল্ট আপনার ডিভাইসের ভাষা অনুসরণ করে।';
 
   @override
   String get settingsLanguageEmptyText => 'কোনো ভাষা পাওয়া যায়নি';
@@ -3856,11 +3856,11 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settingsNotificationsBatteryDescription =>
-      'যদি শুধুমাত্র অ্যাপটি খোলার সময় বিজ্ঞপ্তি আসে, তাহলে এই ডিভাইসে অপ্টিমাইজেশন ছাড়াই CodeWalk চালানোর অনুমতি দিন।';
+      'যদি শুধুমাত্র অ্যাপটি খোলার সময় বিজ্ঞপ্তি আসে, তাহলে এই ডিভাইসে অপ্টিমাইজেশন ছাড়াই Kilo-Walk চালানোর অনুমতি দিন।';
 
   @override
   String get settingsNotificationsBatteryDisabled =>
-      'CodeWalk-এর জন্য ব্যাটারি অপ্টিমাইজেশান অক্ষম করা হয়েছে৷';
+      'Kilo-Walk-এর জন্য ব্যাটারি অপ্টিমাইজেশান অক্ষম করা হয়েছে৷';
 
   @override
   String get settingsNotificationsBatteryEnabled =>
@@ -4272,7 +4272,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get setupDebugCodeWalkCaptureEnough =>
-      'যদি CodeWalk যথেষ্ট প্রসঙ্গ ক্যাপচার না করে, তাহলে সরাসরি অফিসিয়াল OpenCode লগ এবং হেলথ এন্ডপয়েন্ট চেক করুন:';
+      'যদি Kilo-Walk যথেষ্ট প্রসঙ্গ ক্যাপচার না করে, তাহলে সরাসরি অফিসিয়াল OpenCode লগ এবং হেলথ এন্ডপয়েন্ট চেক করুন:';
 
   @override
   String get setupDebugCommandPath => 'কমান্ড পাথ';
@@ -4523,7 +4523,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get shortcutsTheseBindingsStored =>
-      'এই বাইন্ডিংগুলি বর্তমান অ্যাপ রানটাইমের জন্য CodeWalk-এ সংরক্ষিত থাকে এবং OpenCode `tui.json` কীবাইন্ড এডিট করে না।';
+      'এই বাইন্ডিংগুলি বর্তমান অ্যাপ রানটাইমের জন্য Kilo-Walk-এ সংরক্ষিত থাকে এবং OpenCode `tui.json` কীবাইন্ড এডিট করে না।';
 
   @override
   String get speechAutoStopSilence => 'অটো-স্টপ সাইলেন্স টাইমআউট';
@@ -4577,7 +4577,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get speechNativeSTTWorks =>
-      'Windows-এ CodeWalk তার WASAPI মাইক্রোফোন ব্যাকএন্ডের মাধ্যমে স্থানীয় অন-ডিভাইস স্পিচ রিকগনিশন ব্যবহার করে। স্থিতিশীলতার জন্য Windows-এর নেটিভ স্পিচ রিকগনিশন নিষ্ক্রিয় করা আছে।';
+      'Windows-এ Kilo-Walk তার WASAPI মাইক্রোফোন ব্যাকএন্ডের মাধ্যমে স্থানীয় অন-ডিভাইস স্পিচ রিকগনিশন ব্যবহার করে। স্থিতিশীলতার জন্য Windows-এর নেটিভ স্পিচ রিকগনিশন নিষ্ক্রিয় করা আছে।';
 
   @override
   String get speechNativeStartsFaster =>
@@ -4659,7 +4659,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get speechWindowsSetupHint =>
-      'Windows ভয়েস ইনপুট অন-ডিভাইস মডেলসহ CodeWalk WASAPI ক্যাপচার ব্যবহার করে। ডেস্কটপ অ্যাপগুলোর জন্য মাইক্রোফোন অ্যাক্সেস চালু রাখুন; নিচের বাটনগুলো সমস্যা সমাধানের জন্য Windows সেটিংস খোলে।';
+      'Windows ভয়েস ইনপুট অন-ডিভাইস মডেলসহ Kilo-Walk WASAPI ক্যাপচার ব্যবহার করে। ডেস্কটপ অ্যাপগুলোর জন্য মাইক্রোফোন অ্যাক্সেস চালু রাখুন; নিচের বাটনগুলো সমস্যা সমাধানের জন্য Windows সেটিংস খোলে।';
 
   @override
   String get statusConnected => 'সংযুক্ত';
@@ -4730,7 +4730,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String terminalEmbeddedUnavailable(String serverName) {
-    return 'এমবেডেড টার্মিনাল এখনও এই রানটাইমে উপলব্ধ নয়। এককালীন কমান্ডের জন্য কম্পোজার শেল মোড ব্যবহার চালিয়ে যান বা $serverName-এর জন্য সমর্থित CodeWalk অ্যাপ রানটাইম থেকে টার্মিনাল খুলুন।';
+    return 'এমবেডেড টার্মিনাল এখনও এই রানটাইমে উপলব্ধ নয়। এককালীন কমান্ডের জন্য কম্পোজার শেল মোড ব্যবহার চালিয়ে যান বা $serverName-এর জন্য সমর্থित Kilo-Walk অ্যাপ রানটাইম থেকে টার্মিনাল খুলুন।';
   }
 
   @override
@@ -5157,7 +5157,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get serversQuickGuideIntro =>
-      'CodeWalk হলো অ্যাপটি। OpenCode হলো ইঞ্জিন — এই সংযোগ কাজ করার আগে এটি চালু থাকতে হবে।';
+      'Kilo-Walk হলো অ্যাপটি। OpenCode হলো ইঞ্জিন — এই সংযোগ কাজ করার আগে এটি চালু থাকতে হবে।';
 
   @override
   String get serversQuickGuideStepInstallCli => '১. OpenCode CLI ইনস্টল করুন।';
@@ -5181,7 +5181,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get serversQuickGuideVerifyHint =>
-      'সার্ভার চালু করার পর, URLটি CodeWalk-এ পেস্ট করার আগে /global/health বা /doc সাড়া দেয় কিনা নিশ্চিত করুন।';
+      'সার্ভার চালু করার পর, URLটি Kilo-Walk-এ পেস্ট করার আগে /global/health বা /doc সাড়া দেয় কিনা নিশ্চিত করুন।';
 
   @override
   String get shortcutsPressKeyCombination => 'এখন কী কম্বিনেশন টিপুন';
@@ -5190,10 +5190,10 @@ class AppLocalizationsBn extends AppLocalizations {
   String get settingsProvenanceOpenCodeBacked => 'OpenCode-সমর্থিত';
 
   @override
-  String get settingsProvenanceCodeWalkLocal => 'CodeWalk-স্থানীয়';
+  String get settingsProvenanceCodeWalkLocal => 'Kilo-Walk-স্থানীয়';
 
   @override
-  String get settingsProvenanceCodeWalkException => 'CodeWalk ব্যতিক্রম';
+  String get settingsProvenanceCodeWalkException => 'Kilo-Walk ব্যতিক্রম';
 
   @override
   String get shortcutsErrorInvalid => 'অবৈধ শর্টকাট';
@@ -5275,11 +5275,11 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get speechReadAloudTestText =>
-      'এটি একটি CodeWalk টেক্সট-টু-স্পিচ পরীক্ষা।';
+      'এটি একটি Kilo-Walk টেক্সট-টু-স্পিচ পরীক্ষা।';
 
   @override
   String get speechNativeDisabledWindows =>
-      'স্থিতিশীলতার জন্য Windows-এ অক্ষম। CodeWalk WASAPI ক্যাপচারের মাধ্যমে Parakeet বা অন্য কোনো অন-ডিভাইস ইঞ্জিন ব্যবহার করুন।';
+      'স্থিতিশীলতার জন্য Windows-এ অক্ষম। Kilo-Walk WASAPI ক্যাপচারের মাধ্যমে Parakeet বা অন্য কোনো অন-ডিভাইস ইঞ্জিন ব্যবহার করুন।';
 
   @override
   String get speechNativeUnavailableLinux =>
@@ -5537,24 +5537,24 @@ class AppLocalizationsBn extends AppLocalizations {
   String get notificationSessionError => 'একটি সেশন একটি ত্রুটি রিপোর্ট করেছে।';
 
   @override
-  String get notificationChannelErrors => 'CodeWalk ত্রুটি';
+  String get notificationChannelErrors => 'Kilo-Walk ত্রুটি';
 
   @override
-  String get notificationChannelErrorsDescription => 'CodeWalk ত্রুটি সতর্কতা';
+  String get notificationChannelErrorsDescription => 'Kilo-Walk ত্রুটি সতর্কতা';
 
   @override
-  String get notificationChannelPermissions => 'CodeWalk অনুমতি';
+  String get notificationChannelPermissions => 'Kilo-Walk অনুমতি';
 
   @override
   String get notificationChannelPermissionsDescription =>
-      'CodeWalk অ্যাকশন প্রয়োজনীয় সতর্কতা';
+      'Kilo-Walk অ্যাকশন প্রয়োজনীয় সতর্কতা';
 
   @override
-  String get notificationChannelAgent => 'CodeWalk এজেন্ট';
+  String get notificationChannelAgent => 'Kilo-Walk এজেন্ট';
 
   @override
   String get notificationChannelAgentDescription =>
-      'CodeWalk এজেন্ট সম্পন্ন হওয়ার সতর্কতা';
+      'Kilo-Walk এজেন্ট সম্পন্ন হওয়ার সতর্কতা';
 
   @override
   String get notificationActionOpen => 'খুলুন';
@@ -5593,7 +5593,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get sessionAttentionIosInAppOnly =>
-      'সেশন অ্যাটেনশন শুধুমাত্র CodeWalk-এর ভিতরে উপলব্ধ।';
+      'সেশন অ্যাটেনশন শুধুমাত্র Kilo-Walk-এর ভিতরে উপলব্ধ।';
 
   @override
   String get sessionAttentionOverlayPermissionGrantPrompt =>
@@ -6650,7 +6650,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get setupDebugMessageInstallStarted =>
-      'CodeWalk থেকে OpenCode ইনস্টলেশন শুরু হয়েছে।';
+      'Kilo-Walk থেকে OpenCode ইনস্টলেশন শুরু হয়েছে।';
 
   @override
   String setupDebugMessageStartLocalServer(String url) {
@@ -6835,7 +6835,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get carMessagingDeliveryFailedBody =>
-      'আপনার ভয়েস উত্তরটি পৌঁছে দেওয়া যায়নি। আবার চেষ্টা করতে CodeWalk খুলুন।';
+      'আপনার ভয়েস উত্তরটি পৌঁছে দেওয়া যায়নি। আবার চেষ্টা করতে Kilo-Walk খুলুন।';
 
   @override
   String get shortcutNextTab => 'পরবর্তী ট্যাব';
