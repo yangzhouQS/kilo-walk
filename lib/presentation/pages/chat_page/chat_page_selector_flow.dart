@@ -388,33 +388,31 @@ class _ProjectOpenDialogState extends State<_ProjectOpenDialog> {
                             key: const ValueKey<String>(
                               'workspace_directory_suggestions',
                             ),
-                            controller: _scroll,
-                            itemCount: rows.length,
-                            itemExtent: 72,
-                            itemBuilder: (context, index) {
-                              final row = rows[index];
-                              final project = row.project;
-                              return ListTile(
-                                key: ValueKey<String>(
-                                  'workspace_directory_suggestion_${row.node.path}',
-                                ),
-                                selected:
-                                    index == min(_active, rows.length - 1),
-                                leading: project == null
-                                    ? const Icon(Symbols.folder)
-                                    : ProjectIcon(project: project, size: 20),
-                                title: Text(
-                                  row.node.name.isEmpty
-                                      ? fileBasename(row.node.path)
-                                      : row.node.name,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
-                                subtitle: Text(
-                                  row.node.path,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
+                          controller: _scroll,
+                          itemCount: rows.length,
+                          itemBuilder: (context, index) {
+                            final row = rows[index];
+                            final project = row.project;
+                            return ListTile(
+                              key: ValueKey<String>(
+                                'workspace_directory_suggestion_${row.node.path}',
+                              ),
+                              selected:
+                                  index == min(_active, rows.length - 1),
+                              leading: project == null
+                                  ? const Icon(Symbols.folder)
+                                  : ProjectIcon(project: project, size: 20),
+                              title: Text(
+                                row.node.name.isEmpty
+                                    ? fileBasename(row.node.path)
+                                    : row.node.name,
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                              // Show the full directory path across as many
+                              // lines as needed instead of a single-line
+                              // ellipsis clip.
+                              subtitle: Text(row.node.path),
                                 onTap: _busy
                                     ? null
                                     : () => _select(row.node.path),
