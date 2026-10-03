@@ -1541,6 +1541,62 @@ class ChatProvider extends ChangeNotifier {
     return directories;
   }
 
+  List<ChatSession> _allScopeTimelineSessions = const <ChatSession>[];
+  bool _allScopeTimelineLoading = false;
+  String? _allScopeTimelineServerId;
+  DateTime? _allScopeTimelineFetchedAt;
+
+  /// Cross-directory session timeline sorted by recency (sidebar flat mode).
+  List<ChatSession> get allScopeTimelineSessions => _allScopeTimelineSessions;
+
+  bool get allScopeTimelineLoading => _allScopeTimelineLoading;
+
+  /// Loads every session for the active server regardless of directory scope
+  /// (ADR-049: the server returns the full set when no directory filter is
+  /// applied) and keeps a short-lived cache for the sidebar timeline view.
+  Future<void> ensureAllScopeTimelineSessions({
+    bool forceRefresh = false,
+  }) async {
+    final serverId = await _resolveServerScopeId();
+    final fetchedAt = _allScopeTimelineFetchedAt;
+    final cacheFresh =
+        fetchedAt != null &&
+        DateTime.now().difference(fetchedAt) < const Duration(seconds: 45);
+    if (!forceRefresh &&
+        _allScopeTimelineServerId == serverId &&
+        cacheFresh &&
+        _allScopeTimelineSessions.isNotEmpty) {
+      return;
+    }
+    if (_allScopeTimelineLoading) {
+      return;
+    }
+    _allScopeTimelineLoading = true;
+    notifyListeners();
+    try {
+      final result = await getChatSessions(const GetChatSessionsParams());
+      result.fold(
+        (failure) {
+          AppLogger.warn(
+            'All-scope timeline session fetch failed',
+            error: failure,
+          );
+        },
+        (sessions) {
+          _allScopeTimelineSessions =
+              sessions.where((session) => !session.archived).toList(
+                growable: false,
+              )..sort((a, b) => b.time.compareTo(a.time));
+          _allScopeTimelineFetchedAt = DateTime.now();
+          _allScopeTimelineServerId = serverId;
+        },
+      );
+    } finally {
+      _allScopeTimelineLoading = false;
+      notifyListeners();
+    }
+  }
+
   List<ChatSession> visibleSessionsForScopeId(String scopeId) {
     final normalizedScopeId = scopeId.trim();
     if (normalizedScopeId.isEmpty) {

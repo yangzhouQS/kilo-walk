@@ -9,6 +9,12 @@ class AppLocalizationsPt extends AppLocalizations {
   AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
+  String get workspaceSessionViewGrouped => 'Group by project';
+
+  @override
+  String get workspaceSessionViewTimeline => 'Recent sessions across projects';
+
+  @override
   String get releaseHistoryTitle => 'Histórico de versões';
 
   @override

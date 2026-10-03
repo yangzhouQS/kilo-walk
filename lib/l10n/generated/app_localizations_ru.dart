@@ -9,6 +9,12 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
+  String get workspaceSessionViewGrouped => 'Group by project';
+
+  @override
+  String get workspaceSessionViewTimeline => 'Recent sessions across projects';
+
+  @override
   String get releaseHistoryTitle => 'История версий';
 
   @override

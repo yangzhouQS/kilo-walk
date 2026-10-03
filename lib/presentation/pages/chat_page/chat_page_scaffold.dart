@@ -2,6 +2,11 @@ part of '../chat_page.dart';
 
 extension _ChatPageScaffold on _ChatPageState {
   Widget _buildSessionDrawer() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        unawaited(_loadSessionViewModePreference());
+      }
+    });
     return Drawer(
       child: SafeArea(
         child: _buildSessionPanel(closeOnSelect: true, isMobileLayout: true),
@@ -327,12 +332,18 @@ extension _ChatPageScaffold on _ChatPageState {
               ),
             ),
             Expanded(
-              child: _buildGroupedConversationsList(
-                chatProvider: chatProvider,
-                projectProvider: projectProvider,
-                closeOnSelect: closeOnSelect,
-                isMobileLayout: isMobileLayout,
-              ),
+              child: _sessionListViewMode == 'timeline'
+                  ? _buildTimelineSessionsList(
+                      chatProvider: chatProvider,
+                      closeOnSelect: closeOnSelect,
+                      isMobileLayout: isMobileLayout,
+                    )
+                  : _buildGroupedConversationsList(
+                      chatProvider: chatProvider,
+                      projectProvider: projectProvider,
+                      closeOnSelect: closeOnSelect,
+                      isMobileLayout: isMobileLayout,
+                    ),
             ),
           ],
         );
@@ -592,6 +603,19 @@ extension _ChatPageScaffold on _ChatPageState {
           checked: chatProvider.sessionListSort == SessionListSort.title,
           child: Text(context.l10n.chatSortTitle),
         ),
+        const PopupMenuDivider(),
+        CheckedPopupMenuItem<_SessionHeaderMenuAction>(
+          key: const ValueKey<String>('sidebar_session_view_grouped_item'),
+          value: _SessionHeaderMenuAction.viewGrouped,
+          checked: _sessionListViewMode == 'grouped',
+          child: Text(context.l10n.workspaceSessionViewGrouped),
+        ),
+        CheckedPopupMenuItem<_SessionHeaderMenuAction>(
+          key: const ValueKey<String>('sidebar_session_view_timeline_item'),
+          value: _SessionHeaderMenuAction.viewTimeline,
+          checked: _sessionListViewMode == 'timeline',
+          child: Text(context.l10n.workspaceSessionViewTimeline),
+        ),
       ],
       child: SizedBox(
         width: 44,
@@ -653,6 +677,16 @@ extension _ChatPageScaffold on _ChatPageState {
         return;
       case _SessionHeaderMenuAction.sortTitle:
         chatProvider.setSessionListSort(SessionListSort.title);
+        return;
+      case _SessionHeaderMenuAction.viewGrouped:
+        unawaited(
+          _setSessionListViewMode('grouped'),
+        );
+        return;
+      case _SessionHeaderMenuAction.viewTimeline:
+        unawaited(
+          _setSessionListViewMode('timeline'),
+        );
         return;
     }
   }
@@ -1153,6 +1187,172 @@ extension _ChatPageScaffold on _ChatPageState {
   bool _isGlobalLikeProject(Project project) {
     final path = project.path.trim();
     return path.isEmpty || path == '/' || path == '-';
+  }
+
+  Future<void> _loadSessionViewModePreference() async {
+    if (_sessionViewModeLoaded) {
+      return;
+    }
+    _sessionViewModeLoaded = true;
+    try {
+      final preferences = await SharedPreferences.getInstance();
+      final stored = preferences.getString(
+        _ChatPageState._sessionViewModePreferenceKey,
+      );
+      if (stored != null &&
+          (stored == 'timeline' || stored == 'grouped')) {
+        _setState(() {
+          _sessionListViewMode = stored;
+        });
+      }
+    } catch (_) {
+      // Preference loading must never block the sidebar.
+    }
+    if (_sessionListViewMode == 'timeline') {
+      unawaited(
+        context.read<ChatProvider>().ensureAllScopeTimelineSessions(),
+      );
+    }
+  }
+
+  Future<void> _setSessionListViewMode(String mode) async {
+    if (_sessionListViewMode == mode) {
+      return;
+    }
+    _setState(() {
+      _sessionListViewMode = mode;
+    });
+    try {
+      final preferences = await SharedPreferences.getInstance();
+      await preferences.setString(
+        _ChatPageState._sessionViewModePreferenceKey,
+        mode,
+      );
+    } catch (_) {
+      // Preference persistence is best-effort.
+    }
+    if (mode == 'timeline') {
+      await context.read<ChatProvider>().ensureAllScopeTimelineSessions();
+    }
+  }
+
+  Widget _buildTimelineSessionsList({
+    required ChatProvider chatProvider,
+    required bool closeOnSelect,
+    required bool isMobileLayout,
+  }) {
+    final sessions = chatProvider.allScopeTimelineSessions;
+    if (chatProvider.allScopeTimelineLoading && sessions.isEmpty) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    if (sessions.isEmpty) {
+      return Center(
+        child: Text(
+          context.l10n.chatSessionConversations,
+          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+            color: Theme.of(context).colorScheme.onSurfaceVariant,
+          ),
+        ),
+      );
+    }
+    return ChatSessionList(
+      key: const ValueKey<String>('timeline_sessions_list'),
+      sessions: sessions,
+      currentSession: chatProvider.currentSession,
+      pinnedSessionIds: chatProvider.pinnedSessionIds,
+      isSessionActive: chatProvider.isSessionActivelyResponding,
+      sessionAttentionFor: chatProvider.sessionAttentionFor,
+      isMobileLayout: isMobileLayout,
+      showDirectoryHint: true,
+      shrinkWrap: false,
+      onSessionSelected: (session) {
+        return _openSessionFromTimeline(
+          session: session,
+          closeOnSelect: closeOnSelect,
+        );
+      },
+      onSessionDeleted: (session) async {
+        await chatProvider.deleteSession(session.id);
+        unawaited(
+          chatProvider.ensureAllScopeTimelineSessions(forceRefresh: true),
+        );
+      },
+      onSessionRenamed: (session, title) {
+        return chatProvider.renameSession(session, title);
+      },
+      onSessionShareToggled: (session) {
+        return chatProvider.toggleSessionShare(session);
+      },
+      onSessionArchiveToggled: (session, archived) {
+        return chatProvider.setSessionArchived(session, archived);
+      },
+      onSessionPinToggled: (session) {
+        return chatProvider.toggleSessionPinned(session);
+      },
+      onSessionForked: (session) async {
+        final created = await chatProvider.forkSession(session);
+        if (!context.mounted) {
+          return;
+        }
+        if (created == null) {
+          _showChatPageMessageSnackBar(
+            context.l10n.sessionForkFailed,
+            hideCurrent: false,
+          );
+          return;
+        }
+        _showChatPageMessageSnackBar(
+          context.l10n.sessionForked,
+          hideCurrent: false,
+        );
+        _closeDrawerIfNeeded(closeOnSelect: closeOnSelect);
+      },
+    );
+  }
+
+  Future<void> _openSessionFromTimeline({
+    required ChatSession session,
+    required bool closeOnSelect,
+  }) async {
+    final directory = session.directory?.trim();
+    final projectProvider = context.read<ProjectProvider>();
+    final currentDirectory = projectProvider.currentDirectory;
+    final needsSwitch =
+        directory != null &&
+        directory.isNotEmpty &&
+        (currentDirectory == null ||
+            !areEquivalentFilePaths(currentDirectory, directory));
+    if (needsSwitch) {
+      await _switchDirectoryContext(directory);
+      if (!mounted) {
+        return;
+      }
+    }
+    final chatProvider = context.read<ChatProvider>();
+    var target = chatProvider.sessions
+        .where((item) => item.id == session.id)
+        .firstOrNull;
+    for (var attempt = 0; target == null && attempt < 8; attempt += 1) {
+      await Future<void>.delayed(const Duration(milliseconds: 80));
+      if (!mounted) {
+        return;
+      }
+      target = chatProvider.sessions
+          .where((item) => item.id == session.id)
+          .firstOrNull;
+    }
+    if (target == null) {
+      if (!mounted) {
+        return;
+      }
+      _showChatPageMessageSnackBar(
+        context.l10n.sessionNotAvailable,
+        hideCurrent: false,
+      );
+      return;
+    }
+    await _handleSessionSwitch(target);
+    _closeDrawerIfNeeded(closeOnSelect: closeOnSelect);
   }
 
   ({List<({String directory, List<ChatSession> sessions, DateTime latestTime})> directoryEntries, List<ChatSession> restSessions})

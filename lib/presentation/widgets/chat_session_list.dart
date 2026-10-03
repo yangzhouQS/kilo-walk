@@ -3,6 +3,7 @@ import 'package:material_symbols_icons/symbols.dart';
 
 import '../../core/i18n/l10n_bridge.dart';
 import '../../core/i18n/l10n_context.dart';
+import '../../core/utils/path_utils.dart' show fileBasename;
 import '../../domain/entities/chat_session.dart';
 import '../providers/chat_provider.dart';
 import '../theme/app_visual_style_tokens.dart';
@@ -31,6 +32,7 @@ class ChatSessionList extends StatefulWidget {
     this.physics,
     this.padding = const EdgeInsets.fromLTRB(8, 0, 8, 8),
     this.verticalTilePadding = 3,
+    this.showDirectoryHint = false,
   });
 
   final List<ChatSession> sessions;
@@ -52,6 +54,10 @@ class ChatSessionList extends StatefulWidget {
   final ScrollPhysics? physics;
   final EdgeInsetsGeometry padding;
   final double verticalTilePadding;
+
+  /// Shows the session's working directory basename above the summary line,
+  /// for cross-directory lists (sidebar timeline mode).
+  final bool showDirectoryHint;
 
   @override
   State<ChatSessionList> createState() => _ChatSessionListState();
@@ -531,6 +537,31 @@ class _ChatSessionListState extends State<ChatSessionList> {
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        if (widget.showDirectoryHint &&
+                            session.directory != null &&
+                            session.directory!.trim().isNotEmpty) ...[
+                          Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                Symbols.folder,
+                                size: 12,
+                                color: secondaryTextColor,
+                              ),
+                              const SizedBox(width: 4),
+                              Flexible(
+                                child: Text(
+                                  fileBasename(session.directory!),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: Theme.of(context).textTheme.bodySmall
+                                      ?.copyWith(color: secondaryTextColor),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 2),
+                        ],
                         if (subtitleText != null) ...[
                           Text(
                             subtitleText,

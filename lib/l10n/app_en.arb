@@ -1,5 +1,9 @@
 {
   "@@locale": "en",
+  "workspaceSessionViewGrouped": "Group by project",
+  "@workspaceSessionViewGrouped": {"description": "CodeWalk UI string — workspaceSessionViewGrouped"},
+  "workspaceSessionViewTimeline": "Recent sessions across projects",
+  "@workspaceSessionViewTimeline": {"description": "CodeWalk UI string — workspaceSessionViewTimeline"},
   "releaseHistoryTitle": "Release history",
   "@releaseHistoryTitle": {"description": "Permanent release history entry and page title"},
   "releaseHistoryDescription": "Recent announcements and changelogs",

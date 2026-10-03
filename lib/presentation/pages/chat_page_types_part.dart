@@ -640,6 +640,8 @@ enum _SessionHeaderMenuAction {
   sortRecent,
   sortOldest,
   sortTitle,
+  viewGrouped,
+  viewTimeline,
 }
 
 enum _HistoryToolbarAction { undo, redo }

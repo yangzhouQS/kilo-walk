@@ -9,6 +9,12 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
+  String get workspaceSessionViewGrouped => 'Group by project';
+
+  @override
+  String get workspaceSessionViewTimeline => 'Recent sessions across projects';
+
+  @override
   String get releaseHistoryTitle => '버전 기록';
 
   @override

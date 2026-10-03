@@ -388,6 +388,12 @@ class _ChatPageState extends State<ChatPage>
   int _sessionReturnRestoreGeneration = 0;
   bool _sessionReturnRestoreScheduled = false;
   final Map<String, bool> _projectGroupExpandedById = <String, bool>{};
+  /// Sidebar session list presentation: grouped by project/directory or a
+  /// flat cross-directory timeline sorted by recency (ADR-049 follow-up).
+  static const String _sessionViewModePreferenceKey =
+      'sidebar_session_view_mode';
+  String _sessionListViewMode = 'grouped';
+  bool _sessionViewModeLoaded = false;
   bool _isAppInForeground = true;
   bool _wasChatRouteCurrent = false;
   bool _isProgrammaticScrollInFlight = false;

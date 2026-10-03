@@ -122,6 +122,18 @@ abstract class AppLocalizations {
     Locale('zh'),
   ];
 
+  /// CodeWalk UI string — workspaceSessionViewGrouped
+  ///
+  /// In en, this message translates to:
+  /// **'Group by project'**
+  String get workspaceSessionViewGrouped;
+
+  /// CodeWalk UI string — workspaceSessionViewTimeline
+  ///
+  /// In en, this message translates to:
+  /// **'Recent sessions across projects'**
+  String get workspaceSessionViewTimeline;
+
   /// Permanent release history entry and page title
   ///
   /// In en, this message translates to:
