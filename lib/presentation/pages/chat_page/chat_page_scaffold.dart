@@ -1264,6 +1264,7 @@ extension _ChatPageScaffold on _ChatPageState {
       sessionAttentionFor: chatProvider.sessionAttentionFor,
       isMobileLayout: isMobileLayout,
       showDirectoryHint: true,
+      showDateHeaders: true,
       shrinkWrap: false,
       onSessionSelected: (session) {
         return _openSessionFromTimeline(

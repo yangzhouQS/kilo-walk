@@ -148,6 +148,9 @@ extension _ChatProviderEventReducerGlobalOps on ChatProvider {
     if (!supportedTypes.contains(event.type)) {
       return false;
     }
+    // Keep the sidebar timeline cache in sync before the state notification
+    // fires so the rebuild observes the updated list.
+    applyTimelineCacheEvent(event);
     _applyChatEvent(event);
     return true;
   }

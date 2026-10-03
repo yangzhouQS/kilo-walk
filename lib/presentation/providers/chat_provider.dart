@@ -1541,6 +1541,61 @@ class ChatProvider extends ChangeNotifier {
     return directories;
   }
 
+  /// Applies session lifecycle events to the active timeline cache so the
+  /// sidebar timeline stays fresh between full refreshes (ADR-049 follow-up).
+  void applyTimelineCacheEvent(ChatEvent event) {
+    final fetchedAt = _allScopeTimelineFetchedAt;
+    if (fetchedAt == null) {
+      return;
+    }
+    switch (event.type) {
+      case 'session.created':
+      case 'session.updated':
+        final info = event.properties['info'];
+        if (info is! Map<String, dynamic>) {
+          return;
+        }
+        final incoming = ChatSessionModel.fromJson(info).toDomain();
+        if (incoming.id.isEmpty || _isEphemeralTitleSession(incoming)) {
+          return;
+        }
+        final next = List<ChatSession>.from(_allScopeTimelineSessions);
+        final index = next.indexWhere((session) => session.id == incoming.id);
+        if (incoming.archived) {
+          if (index != -1) {
+            next.removeAt(index);
+            _allScopeTimelineSessions = next;
+          }
+          return;
+        }
+        if (index == -1) {
+          next.add(incoming);
+        } else {
+          next[index] = incoming;
+        }
+        next.sort((a, b) => b.time.compareTo(a.time));
+        _allScopeTimelineSessions = next;
+        return;
+      case 'session.deleted':
+        final sessionId =
+            (event.properties['info'] is Map<String, dynamic>
+                ? (event.properties['info'] as Map<String, dynamic>)['id']
+                      as String?
+                : null) ??
+            event.properties['sessionID'] as String? ??
+            event.properties['id'] as String?;
+        if (sessionId == null || sessionId.trim().isEmpty) {
+          return;
+        }
+        final next = List<ChatSession>.from(_allScopeTimelineSessions);
+        next.removeWhere((session) => session.id == sessionId);
+        _allScopeTimelineSessions = next;
+        return;
+      default:
+        return;
+    }
+  }
+
   List<ChatSession> _allScopeTimelineSessions = const <ChatSession>[];
   bool _allScopeTimelineLoading = false;
   String? _allScopeTimelineServerId;

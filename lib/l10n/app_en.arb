@@ -1,5 +1,9 @@
 {
   "@@locale": "en",
+  "timelineHeaderToday": "Today",
+  "@timelineHeaderToday": {"description": "Timeline section header for sessions from today"},
+  "timelineHeaderYesterday": "Yesterday",
+  "@timelineHeaderYesterday": {"description": "Timeline section header for sessions from yesterday"},
   "workspaceSessionViewGrouped": "Group by project",
   "@workspaceSessionViewGrouped": {"description": "CodeWalk UI string — workspaceSessionViewGrouped"},
   "workspaceSessionViewTimeline": "Recent sessions across projects",

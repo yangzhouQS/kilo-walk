@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
 import '../../core/i18n/l10n_bridge.dart';
@@ -33,6 +34,7 @@ class ChatSessionList extends StatefulWidget {
     this.padding = const EdgeInsets.fromLTRB(8, 0, 8, 8),
     this.verticalTilePadding = 3,
     this.showDirectoryHint = false,
+    this.showDateHeaders = false,
   });
 
   final List<ChatSession> sessions;
@@ -59,6 +61,10 @@ class ChatSessionList extends StatefulWidget {
   /// for cross-directory lists (sidebar timeline mode).
   final bool showDirectoryHint;
 
+  /// Inserts sticky-style date section headers (today / yesterday / weekday /
+  /// date) between root-level sessions for recency-sorted timeline lists.
+  final bool showDateHeaders;
+
   @override
   State<ChatSessionList> createState() => _ChatSessionListState();
 }
@@ -72,6 +78,7 @@ class _ChatSessionListState extends State<ChatSessionList> {
   final Set<String> _expandedParentIds = <String>{};
   String? _cachedTreeSignature;
   List<_SessionTreeRow> _cachedVisibleRows = const <_SessionTreeRow>[];
+  List<_TimelineDisplayItem>? _cachedDisplayItems;
   bool _isSessionSelectionInFlight = false;
   String? _activeSessionSelectionId;
   ChatSession? _pendingSessionSelection;
@@ -183,6 +190,36 @@ class _ChatSessionListState extends State<ChatSessionList> {
       }
       _cachedVisibleRows = rows;
     }
+    // Date headers depend on wall-clock time and the flag, not only on the
+    // tree signature, so recompute them on every build when enabled.
+    _cachedDisplayItems = widget.showDateHeaders
+        ? _buildDateHeaderedItems(_cachedVisibleRows)
+        : null;
+
+    if (_cachedDisplayItems != null) {
+      final items = _cachedDisplayItems!;
+      return ListView.builder(
+        padding: widget.padding,
+        shrinkWrap: widget.shrinkWrap,
+        physics: widget.physics,
+        itemCount: items.length,
+        itemBuilder: (context, index) {
+          final item = items[index];
+          if (item.headerLabel != null) {
+            return _buildDateHeaderTile(item.headerLabel!);
+          }
+          final row = item.row!;
+          return _buildSessionTile(
+            context,
+            session: row.session,
+            depth: row.depth,
+            hasChildren: row.hasChildren,
+            childCount: row.childCount,
+            expanded: row.expanded,
+          );
+        },
+      );
+    }
 
     return ListView.builder(
       padding: widget.padding,
@@ -200,6 +237,82 @@ class _ChatSessionListState extends State<ChatSessionList> {
           expanded: row.expanded,
         );
       },
+    );
+  }
+
+  List<_TimelineDisplayItem> _buildDateHeaderedItems(
+    List<_SessionTreeRow> rows,
+  ) {
+    final now = DateTime.now();
+    final items = <_TimelineDisplayItem>[];
+    var previousDayKey = <int?>[null].first;
+    for (final row in rows) {
+      if (row.depth == 0) {
+        final localDay = DateTime(
+          row.session.time.year,
+          row.session.time.month,
+          row.session.time.day,
+        );
+        final dayKey = localDay.millisecondsSinceEpoch;
+        if (dayKey != previousDayKey) {
+          previousDayKey = dayKey;
+          items.add(
+            _TimelineDisplayItem(
+              headerLabel: _dateHeaderLabel(localDay, now),
+            ),
+          );
+        }
+      }
+      items.add(_TimelineDisplayItem(row: row));
+    }
+    return items;
+  }
+
+  String _dateHeaderLabel(DateTime day, DateTime now) {
+    final today = DateTime(now.year, now.month, now.day);
+    final differenceDays = today.difference(day).inDays;
+    if (differenceDays == 0) {
+      return context.l10n.timelineHeaderToday;
+    }
+    if (differenceDays == 1) {
+      return context.l10n.timelineHeaderYesterday;
+    }
+    if (differenceDays > 1 && differenceDays < 7) {
+      switch (day.weekday) {
+        case DateTime.monday:
+          return context.l10n.sessionWeekdayMon;
+        case DateTime.tuesday:
+          return context.l10n.sessionWeekdayTue;
+        case DateTime.wednesday:
+          return context.l10n.sessionWeekdayWed;
+        case DateTime.thursday:
+          return context.l10n.sessionWeekdayThu;
+        case DateTime.friday:
+          return context.l10n.sessionWeekdayFri;
+        case DateTime.saturday:
+          return context.l10n.sessionWeekdaySat;
+        case DateTime.sunday:
+          return context.l10n.sessionWeekdaySun;
+      }
+    }
+    final locale = Localizations.localeOf(context).toString();
+    final formatted = DateFormat.yMMMd(locale).format(day);
+    return formatted;
+  }
+
+  Widget _buildDateHeaderTile(String label) {
+    final colorScheme = Theme.of(context).colorScheme;
+    return Padding(
+      key: ValueKey<String>('timeline_date_header_$label'),
+      padding: const EdgeInsets.fromLTRB(14, 12, 8, 4),
+      child: Text(
+        label,
+        style: Theme.of(context).textTheme.labelSmall?.copyWith(
+          color: colorScheme.primary,
+          fontWeight: FontWeight.w700,
+          letterSpacing: 0.4,
+        ),
+      ),
     );
   }
 
@@ -716,6 +829,13 @@ class _ChatSessionListState extends State<ChatSessionList> {
           '${time.month}/${time.day}';
     }
   }
+}
+
+class _TimelineDisplayItem {
+  const _TimelineDisplayItem({this.headerLabel, this.row});
+
+  final String? headerLabel;
+  final _SessionTreeRow? row;
 }
 
 class _SessionTreeRow {

@@ -9,6 +9,12 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
+  String get timelineHeaderToday => 'Today';
+
+  @override
+  String get timelineHeaderYesterday => 'Yesterday';
+
+  @override
   String get workspaceSessionViewGrouped => 'Group by project';
 
   @override

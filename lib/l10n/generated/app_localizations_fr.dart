@@ -9,6 +9,12 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
+  String get timelineHeaderToday => 'Today';
+
+  @override
+  String get timelineHeaderYesterday => 'Yesterday';
+
+  @override
   String get workspaceSessionViewGrouped => 'Group by project';
 
   @override

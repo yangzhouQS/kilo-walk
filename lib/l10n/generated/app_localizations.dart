@@ -122,6 +122,18 @@ abstract class AppLocalizations {
     Locale('zh'),
   ];
 
+  /// Timeline section header for sessions from today
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get timelineHeaderToday;
+
+  /// Timeline section header for sessions from yesterday
+  ///
+  /// In en, this message translates to:
+  /// **'Yesterday'**
+  String get timelineHeaderYesterday;
+
   /// CodeWalk UI string — workspaceSessionViewGrouped
   ///
   /// In en, this message translates to:
