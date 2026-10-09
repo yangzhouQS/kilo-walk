@@ -9,7 +9,8 @@
 //   assets/images/tray_icon_macos_template.png 512 black-alpha template
 //   android drawable ic_stat_codewalk densities (24/36/48/72/96)
 //
-// Style: flat geometric — warm brown monkey, cream open book, teal gradient.
+// Style: flat geometric — warm brown monkey, cream open book, youthful
+// sky-blue gradient background.
 // Run: dart run tool/gen_kilo_walk_icon.dart
 
 import 'dart:io';
@@ -45,10 +46,11 @@ const black = RGBA(0, 0, 0, 255);
 
 (int, int, int) gradientAt(double x, double y) {
   final t = ((0.78 * y + 0.22 * x) / size).clamp(0.0, 1.0);
-  final r = (0x0D + (0x13 - 0x0D) * t).round();
-  final g = (0x94 + (0x4E - 0x94) * t).round();
-  final b = (0x88 + (0x4A - 0x88) * t).round();
-  return (r, g, b); // teal-600 -> teal-900
+  // Youthful sky: sky-400 -> blue-600 (bright, energetic).
+  final r = (0x38 + (0x25 - 0x38) * t).round();
+  final g = (0xBD + (0x63 - 0xBD) * t).round();
+  final b = (0xF8 + (0xEB - 0xF8) * t).round();
+  return (r, g, b);
 }
 
 // Geometry --------------------------------------------------------------
